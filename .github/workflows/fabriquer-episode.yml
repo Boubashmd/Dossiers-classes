@@ -1,0 +1,66 @@
+name: Fabriquer un épisode
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Nom du fichier de l'épisode (dans le dossier episodes/, sans .json)"
+        required: true
+        default: "affaire-01-lustig"
+      voix:
+        description: "Avec la voix ElevenLabs (consomme des crédits) ou aperçu sans voix (gratuit)"
+        required: true
+        type: choice
+        options:
+          - avec voix
+          - sans voix (aperçu gratuit)
+        default: "avec voix"
+
+jobs:
+  fabriquer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Récupérer les voix déjà générées (pour ne pas repayer)
+        uses: actions/cache@v4
+        with:
+          path: public/voix
+          key: voix-${{ inputs.episode }}-${{ hashFiles('episodes/**', 'config.json') }}
+          restore-keys: |
+            voix-${{ inputs.episode }}-
+            voix-
+
+      - name: Préparer l'épisode (voix + calage)
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          if [ "${{ inputs.voix }}" = "avec voix" ]; then
+            node scripts/preparer.mjs "episodes/${{ inputs.episode }}.json"
+          else
+            node scripts/preparer.mjs "episodes/${{ inputs.episode }}.json" --sans-voix
+          fi
+
+      - name: Installer le navigateur de rendu
+        run: npx remotion browser ensure
+
+      - name: Fabriquer la vidéo
+        run: npx remotion render src/index.ts Episode "sorties/${{ inputs.episode }}/${{ inputs.episode }}.mp4" --crf=20 --log=error
+
+      - name: Mettre la vidéo à disposition
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.episode }}
+          path: sorties/${{ inputs.episode }}/
+          retention-days: 14

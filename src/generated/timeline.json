@@ -1,0 +1,2856 @@
+{
+ "episode": "affaire-01-lustig",
+ "fps": 30,
+ "total": 6235,
+ "avecVoix": false,
+ "lignes": [
+  {
+   "id": "01",
+   "debut": 0,
+   "duree": 150,
+   "audio": null,
+   "texte": "En 1925, cet homme a vendu la tour Eiffel.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.245,
+     "m": "1925,"
+    },
+    {
+     "t": 0.736,
+     "m": "cet"
+    },
+    {
+     "t": 1.063,
+     "m": "homme"
+    },
+    {
+     "t": 1.553,
+     "m": "a"
+    },
+    {
+     "t": 1.717,
+     "m": "vendu"
+    },
+    {
+     "t": 2.207,
+     "m": "la"
+    },
+    {
+     "t": 2.452,
+     "m": "tour"
+    },
+    {
+     "t": 2.861,
+     "m": "Eiffel."
+    }
+   ],
+   "sequence": {
+    "type": "pochette",
+    "photo": "photos/affaire-01-lustig.png",
+    "srcW": 540,
+    "srcH": 519,
+    "visage": {
+     "x": 108,
+     "y": 165
+    },
+    "etiquette": [
+     "AFFAIRE Nº 1",
+     "LUSTIG, Victor"
+    ],
+    "legende": "Fiche d'arrestation · Saint-Louis · 25 juin 1931"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "02",
+   "debut": 150,
+   "duree": 121,
+   "audio": null,
+   "texte": "Et ce n'était même pas sa plus grosse arnaque.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Et"
+    },
+    {
+     "t": 0.224,
+     "m": "ce"
+    },
+    {
+     "t": 0.449,
+     "m": "n'était"
+    },
+    {
+     "t": 1.047,
+     "m": "même"
+    },
+    {
+     "t": 1.421,
+     "m": "pas"
+    },
+    {
+     "t": 1.72,
+     "m": "sa"
+    },
+    {
+     "t": 1.945,
+     "m": "plus"
+    },
+    {
+     "t": 2.318,
+     "m": "grosse"
+    },
+    {
+     "t": 2.842,
+     "m": "arnaque."
+    }
+   ],
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-01-lustig.png",
+    "srcW": 540,
+    "visage": {
+     "x": 108,
+     "y": 165
+    }
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "generique",
+   "debut": 271,
+   "duree": 78,
+   "audio": null,
+   "texte": "",
+   "mots": [],
+   "sequence": {
+    "type": "generique",
+    "sousTitre": "Affaire nº 1 · Victor Lustig"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "03",
+   "debut": 349,
+   "duree": 202,
+   "audio": null,
+   "texte": "Victor Lustig naît le 4 janvier 1890, à Hostinné, en Bohême, au cœur de l'Empire austro-hongrois.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Victor"
+    },
+    {
+     "t": 0.436,
+     "m": "Lustig"
+    },
+    {
+     "t": 0.871,
+     "m": "naît"
+    },
+    {
+     "t": 1.183,
+     "m": "le"
+    },
+    {
+     "t": 1.369,
+     "m": "4"
+    },
+    {
+     "t": 1.494,
+     "m": "janvier"
+    },
+    {
+     "t": 1.992,
+     "m": "1890,"
+    },
+    {
+     "t": 2.365,
+     "m": "à"
+    },
+    {
+     "t": 2.49,
+     "m": "Hostinné,"
+    },
+    {
+     "t": 3.112,
+     "m": "en"
+    },
+    {
+     "t": 3.299,
+     "m": "Bohême,"
+    },
+    {
+     "t": 3.797,
+     "m": "au"
+    },
+    {
+     "t": 3.983,
+     "m": "cœur"
+    },
+    {
+     "t": 4.295,
+     "m": "de"
+    },
+    {
+     "t": 4.481,
+     "m": "l'Empire"
+    },
+    {
+     "t": 5.042,
+     "m": "austro-hongrois."
+    }
+   ],
+   "sequence": {
+    "type": "fiche",
+    "titre": "QUI EST-IL ?",
+    "personnage": "lustig",
+    "nom": "VICTOR LUSTIG",
+    "infos": [
+     "Né le 4 janvier 1890",
+     "Hostinné, Bohême",
+     "Empire austro-hongrois"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "04",
+   "debut": 551,
+   "duree": 179,
+   "audio": null,
+   "texte": "Son père est vendeur de tabac, et il sera même maire de la ville.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Son"
+    },
+    {
+     "t": 0.325,
+     "m": "père"
+    },
+    {
+     "t": 0.731,
+     "m": "est"
+    },
+    {
+     "t": 1.056,
+     "m": "vendeur"
+    },
+    {
+     "t": 1.706,
+     "m": "de"
+    },
+    {
+     "t": 1.95,
+     "m": "tabac,"
+    },
+    {
+     "t": 2.518,
+     "m": "et"
+    },
+    {
+     "t": 2.762,
+     "m": "il"
+    },
+    {
+     "t": 3.006,
+     "m": "sera"
+    },
+    {
+     "t": 3.412,
+     "m": "même"
+    },
+    {
+     "t": 3.818,
+     "m": "maire"
+    },
+    {
+     "t": 4.305,
+     "m": "de"
+    },
+    {
+     "t": 4.549,
+     "m": "la"
+    },
+    {
+     "t": 4.793,
+     "m": "ville."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "maison",
+    "titre": "HOSTINNÉ",
+    "personnages": [
+     {
+      "nom": "passager",
+      "x": 540,
+      "y": 1560,
+      "s": 340
+     }
+    ],
+    "legende": "Père : vendeur de tabac… puis maire",
+    "legendeTop": 330
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "05",
+   "debut": 730,
+   "duree": 86,
+   "audio": null,
+   "texte": "Le jeune Victor parle cinq langues.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Le"
+    },
+    {
+     "t": 0.201,
+     "m": "jeune"
+    },
+    {
+     "t": 0.602,
+     "m": "Victor"
+    },
+    {
+     "t": 1.07,
+     "m": "parle"
+    },
+    {
+     "t": 1.471,
+     "m": "cinq"
+    },
+    {
+     "t": 1.806,
+     "m": "langues."
+    }
+   ],
+   "sequence": {
+    "type": "icones",
+    "grand": "5 langues",
+    "items": [
+     {
+      "label": "DE",
+      "sous": "allemand"
+     },
+     {
+      "label": "EN",
+      "sous": "anglais"
+     },
+     {
+      "label": "FR",
+      "sous": "français"
+     },
+     {
+      "label": "IT",
+      "sous": "italien"
+     },
+     {
+      "label": "HU",
+      "sous": "hongrois"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "06",
+   "debut": 816,
+   "duree": 132,
+   "audio": null,
+   "texte": "En 1909, il part à Paris… et découvre le jeu.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.253,
+     "m": "1909,"
+    },
+    {
+     "t": 0.76,
+     "m": "il"
+    },
+    {
+     "t": 1.013,
+     "m": "part"
+    },
+    {
+     "t": 1.436,
+     "m": "à"
+    },
+    {
+     "t": 1.604,
+     "m": "Paris…"
+    },
+    {
+     "t": 2.195,
+     "m": "et"
+    },
+    {
+     "t": 2.449,
+     "m": "découvre"
+    },
+    {
+     "t": 3.209,
+     "m": "le"
+    },
+    {
+     "t": 3.462,
+     "m": "jeu."
+    }
+   ],
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "carte",
+      "titre": "1909",
+      "points": [
+       {
+        "nom": "BOHÊME",
+        "x": 760,
+        "y": 700
+       },
+       {
+        "nom": "PARIS",
+        "x": 300,
+        "y": 840
+       }
+      ],
+      "poids": 1.2
+     },
+     {
+      "type": "scene",
+      "cartes": true,
+      "titre": "LE JEU",
+      "poids": 1
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "07",
+   "debut": 948,
+   "duree": 144,
+   "audio": null,
+   "texte": "Il y comprend une chose : il sait convaincre n'importe qui.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Il"
+    },
+    {
+     "t": 0.213,
+     "m": "y"
+    },
+    {
+     "t": 0.354,
+     "m": "comprend"
+    },
+    {
+     "t": 0.992,
+     "m": "une"
+    },
+    {
+     "t": 1.276,
+     "m": "chose"
+    },
+    {
+     "t": 1.701,
+     "m": ":"
+    },
+    {
+     "t": 1.843,
+     "m": "il"
+    },
+    {
+     "t": 2.056,
+     "m": "sait"
+    },
+    {
+     "t": 2.41,
+     "m": "convaincre"
+    },
+    {
+     "t": 3.19,
+     "m": "n'importe"
+    },
+    {
+     "t": 3.899,
+     "m": "qui."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "personnages": [
+     {
+      "nom": "lustig",
+      "x": 540,
+      "y": 1380,
+      "s": 640,
+      "expr": "content"
+     }
+    ],
+    "legende": "Son talent : convaincre",
+    "legendeTop": 330
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "08",
+   "debut": 1092,
+   "duree": 225,
+   "audio": null,
+   "texte": "Sur les paquebots entre la France et New York, il se fait passer pour un producteur de Broadway.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Sur"
+    },
+    {
+     "t": 0.282,
+     "m": "les"
+    },
+    {
+     "t": 0.564,
+     "m": "paquebots"
+    },
+    {
+     "t": 1.269,
+     "m": "entre"
+    },
+    {
+     "t": 1.692,
+     "m": "la"
+    },
+    {
+     "t": 1.903,
+     "m": "France"
+    },
+    {
+     "t": 2.397,
+     "m": "et"
+    },
+    {
+     "t": 2.608,
+     "m": "New"
+    },
+    {
+     "t": 2.89,
+     "m": "York,"
+    },
+    {
+     "t": 3.313,
+     "m": "il"
+    },
+    {
+     "t": 3.525,
+     "m": "se"
+    },
+    {
+     "t": 3.736,
+     "m": "fait"
+    },
+    {
+     "t": 4.089,
+     "m": "passer"
+    },
+    {
+     "t": 4.582,
+     "m": "pour"
+    },
+    {
+     "t": 4.935,
+     "m": "un"
+    },
+    {
+     "t": 5.146,
+     "m": "producteur"
+    },
+    {
+     "t": 5.922,
+     "m": "de"
+    },
+    {
+     "t": 6.133,
+     "m": "Broadway."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "paquebot",
+    "titre": "LES PAQUEBOTS",
+    "personnages": [
+     {
+      "nom": "passager",
+      "x": 360,
+      "y": 1060,
+      "s": 110,
+      "couleur": "#9AA8BD"
+     },
+     {
+      "nom": "lustig",
+      "x": 540,
+      "y": 1060,
+      "s": 220
+     },
+     {
+      "nom": "passagere",
+      "x": 720,
+      "y": 1060,
+      "s": 110,
+      "couleur": "#9AA8BD"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "09",
+   "debut": 1317,
+   "duree": 132,
+   "audio": null,
+   "texte": "Il cherche des investisseurs pour un spectacle… qui n'existe pas.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Il"
+    },
+    {
+     "t": 0.177,
+     "m": "cherche"
+    },
+    {
+     "t": 0.647,
+     "m": "des"
+    },
+    {
+     "t": 0.883,
+     "m": "investisseurs"
+    },
+    {
+     "t": 1.707,
+     "m": "pour"
+    },
+    {
+     "t": 2.001,
+     "m": "un"
+    },
+    {
+     "t": 2.178,
+     "m": "spectacle…"
+    },
+    {
+     "t": 2.825,
+     "m": "qui"
+    },
+    {
+     "t": 3.06,
+     "m": "n'existe"
+    },
+    {
+     "t": 3.59,
+     "m": "pas."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "affiche",
+    "manchette": "LE GRAND SPECTACLE",
+    "tampon": "FAUX"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "10",
+   "debut": 1449,
+   "duree": 155,
+   "audio": null,
+   "texte": "Après la Première Guerre mondiale, les traversées s'arrêtent. Il s'installe aux États-Unis.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Après"
+    },
+    {
+     "t": 0.301,
+     "m": "la"
+    },
+    {
+     "t": 0.452,
+     "m": "Première"
+    },
+    {
+     "t": 0.904,
+     "m": "Guerre"
+    },
+    {
+     "t": 1.256,
+     "m": "mondiale,"
+    },
+    {
+     "t": 1.759,
+     "m": "les"
+    },
+    {
+     "t": 1.96,
+     "m": "traversées"
+    },
+    {
+     "t": 2.512,
+     "m": "s'arrêtent."
+    },
+    {
+     "t": 3.115,
+     "m": "Il"
+    },
+    {
+     "t": 3.266,
+     "m": "s'installe"
+    },
+    {
+     "t": 3.819,
+     "m": "aux"
+    },
+    {
+     "t": 4.02,
+     "m": "États-Unis."
+    }
+   ],
+   "sequence": {
+    "type": "carte",
+    "titre": "APRÈS 1918",
+    "voyageur": "bateau",
+    "points": [
+     {
+      "nom": "FRANCE",
+      "x": 840,
+      "y": 780
+     },
+     {
+      "nom": "ÉTATS-UNIS",
+      "x": 220,
+      "y": 900
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "11",
+   "debut": 1604,
+   "duree": 144,
+   "audio": null,
+   "texte": "Là-bas, il invente sa machine : la « boîte roumaine ».",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Là-bas,"
+    },
+    {
+     "t": 0.619,
+     "m": "il"
+    },
+    {
+     "t": 0.851,
+     "m": "invente"
+    },
+    {
+     "t": 1.469,
+     "m": "sa"
+    },
+    {
+     "t": 1.701,
+     "m": "machine"
+    },
+    {
+     "t": 2.32,
+     "m": ":"
+    },
+    {
+     "t": 2.475,
+     "m": "la"
+    },
+    {
+     "t": 2.707,
+     "m": "«"
+    },
+    {
+     "t": 2.861,
+     "m": "boîte"
+    },
+    {
+     "t": 3.325,
+     "m": "roumaine"
+    },
+    {
+     "t": 4.022,
+     "m": "»."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "mode": "apparait",
+    "titre": "LA BOÎTE ROUMAINE"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "12",
+   "debut": 1748,
+   "duree": 155,
+   "audio": null,
+   "texte": "Une boîte en acajou qui, d'après lui, copie les billets de banque.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Une"
+    },
+    {
+     "t": 0.276,
+     "m": "boîte"
+    },
+    {
+     "t": 0.69,
+     "m": "en"
+    },
+    {
+     "t": 0.897,
+     "m": "acajou"
+    },
+    {
+     "t": 1.38,
+     "m": "qui,"
+    },
+    {
+     "t": 1.725,
+     "m": "d'après"
+    },
+    {
+     "t": 2.277,
+     "m": "lui,"
+    },
+    {
+     "t": 2.622,
+     "m": "copie"
+    },
+    {
+     "t": 3.036,
+     "m": "les"
+    },
+    {
+     "t": 3.312,
+     "m": "billets"
+    },
+    {
+     "t": 3.864,
+     "m": "de"
+    },
+    {
+     "t": 4.071,
+     "m": "banque."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "mode": "billet",
+    "legende": "« Elle copie les billets »"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "13",
+   "debut": 1903,
+   "duree": 167,
+   "audio": null,
+   "texte": "On glisse un billet, on attend six heures… et un deuxième billet sort.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "On"
+    },
+    {
+     "t": 0.211,
+     "m": "glisse"
+    },
+    {
+     "t": 0.703,
+     "m": "un"
+    },
+    {
+     "t": 0.914,
+     "m": "billet,"
+    },
+    {
+     "t": 1.477,
+     "m": "on"
+    },
+    {
+     "t": 1.687,
+     "m": "attend"
+    },
+    {
+     "t": 2.18,
+     "m": "six"
+    },
+    {
+     "t": 2.461,
+     "m": "heures…"
+    },
+    {
+     "t": 3.023,
+     "m": "et"
+    },
+    {
+     "t": 3.234,
+     "m": "un"
+    },
+    {
+     "t": 3.445,
+     "m": "deuxième"
+    },
+    {
+     "t": 4.078,
+     "m": "billet"
+    },
+    {
+     "t": 4.57,
+     "m": "sort."
+    }
+   ],
+   "sequence": {
+    "type": "compteur",
+    "mode": "horloge",
+    "valeur": 6,
+    "titre": "L'ATTENTE",
+    "billetSort": true
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "14",
+   "debut": 2070,
+   "duree": 121,
+   "audio": null,
+   "texte": "Un vrai billet, caché à l'avance dans la machine.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Un"
+    },
+    {
+     "t": 0.211,
+     "m": "vrai"
+    },
+    {
+     "t": 0.562,
+     "m": "billet,"
+    },
+    {
+     "t": 1.125,
+     "m": "caché"
+    },
+    {
+     "t": 1.547,
+     "m": "à"
+    },
+    {
+     "t": 1.687,
+     "m": "l'avance"
+    },
+    {
+     "t": 2.32,
+     "m": "dans"
+    },
+    {
+     "t": 2.671,
+     "m": "la"
+    },
+    {
+     "t": 2.882,
+     "m": "machine."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "mode": "coupe",
+    "titre": "LE SECRET",
+    "revelation": "Le truc : un billet déjà caché"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "15",
+   "debut": 2191,
+   "duree": 109,
+   "audio": null,
+   "texte": "Ses victimes la paient environ 10 000 dollars.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Ses"
+    },
+    {
+     "t": 0.268,
+     "m": "victimes"
+    },
+    {
+     "t": 0.87,
+     "m": "la"
+    },
+    {
+     "t": 1.071,
+     "m": "paient"
+    },
+    {
+     "t": 1.539,
+     "m": "environ"
+    },
+    {
+     "t": 2.075,
+     "m": "10"
+    },
+    {
+     "t": 2.276,
+     "m": "000"
+    },
+    {
+     "t": 2.543,
+     "m": "dollars."
+    }
+   ],
+   "sequence": {
+    "type": "chiffre",
+    "valeur": 10000,
+    "unite": "$",
+    "titre": "LE PRIX",
+    "sous": "par boîte vendue"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "16",
+   "debut": 2300,
+   "duree": 98,
+   "audio": null,
+   "texte": "Le temps qu'elles comprennent… Lustig a disparu.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Le"
+    },
+    {
+     "t": 0.17,
+     "m": "temps"
+    },
+    {
+     "t": 0.51,
+     "m": "qu'elles"
+    },
+    {
+     "t": 1.02,
+     "m": "comprennent…"
+    },
+    {
+     "t": 1.757,
+     "m": "Lustig"
+    },
+    {
+     "t": 2.153,
+     "m": "a"
+    },
+    {
+     "t": 2.267,
+     "m": "disparu."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "personnages": [
+     {
+      "nom": "victime",
+      "x": 300,
+      "s": 240
+     },
+     {
+      "nom": "lustig",
+      "x": 860,
+      "y": 1380,
+      "s": 560,
+      "expr": "malin"
+     }
+    ],
+    "tampon": "DISPARU",
+    "tamponTop": 560
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "17",
+   "debut": 2398,
+   "duree": 213,
+   "audio": null,
+   "texte": "Paris, 1925. Lustig lit un article : la tour Eiffel rouille, et son entretien coûte une fortune.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Paris,"
+    },
+    {
+     "t": 0.467,
+     "m": "1925."
+    },
+    {
+     "t": 0.867,
+     "m": "Lustig"
+    },
+    {
+     "t": 1.334,
+     "m": "lit"
+    },
+    {
+     "t": 1.601,
+     "m": "un"
+    },
+    {
+     "t": 1.801,
+     "m": "article"
+    },
+    {
+     "t": 2.334,
+     "m": ":"
+    },
+    {
+     "t": 2.468,
+     "m": "la"
+    },
+    {
+     "t": 2.668,
+     "m": "tour"
+    },
+    {
+     "t": 3.001,
+     "m": "Eiffel"
+    },
+    {
+     "t": 3.468,
+     "m": "rouille,"
+    },
+    {
+     "t": 4.068,
+     "m": "et"
+    },
+    {
+     "t": 4.268,
+     "m": "son"
+    },
+    {
+     "t": 4.535,
+     "m": "entretien"
+    },
+    {
+     "t": 5.202,
+     "m": "coûte"
+    },
+    {
+     "t": 5.602,
+     "m": "une"
+    },
+    {
+     "t": 5.869,
+     "m": "fortune."
+    }
+   ],
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "document",
+      "genre": "presse",
+      "journal": "PARIS · 1925",
+      "manchette": "La tour Eiffel coûte une fortune à entretenir"
+     },
+     {
+      "type": "tour",
+      "rouille": true,
+      "legende": "Elle rouille"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "18",
+   "debut": 2611,
+   "duree": 132,
+   "audio": null,
+   "texte": "Il fait fabriquer de faux papiers à en-tête du gouvernement.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Il"
+    },
+    {
+     "t": 0.191,
+     "m": "fait"
+    },
+    {
+     "t": 0.509,
+     "m": "fabriquer"
+    },
+    {
+     "t": 1.146,
+     "m": "de"
+    },
+    {
+     "t": 1.337,
+     "m": "faux"
+    },
+    {
+     "t": 1.656,
+     "m": "papiers"
+    },
+    {
+     "t": 2.165,
+     "m": "à"
+    },
+    {
+     "t": 2.292,
+     "m": "en-tête"
+    },
+    {
+     "t": 2.802,
+     "m": "du"
+    },
+    {
+     "t": 2.993,
+     "m": "gouvernement."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "entete",
+    "tampon": "FAUX"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "19",
+   "debut": 2743,
+   "duree": 144,
+   "audio": null,
+   "texte": "Et se présente comme directeur général adjoint du ministère des Postes.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Et"
+    },
+    {
+     "t": 0.177,
+     "m": "se"
+    },
+    {
+     "t": 0.354,
+     "m": "présente"
+    },
+    {
+     "t": 0.886,
+     "m": "comme"
+    },
+    {
+     "t": 1.241,
+     "m": "directeur"
+    },
+    {
+     "t": 1.831,
+     "m": "général"
+    },
+    {
+     "t": 2.304,
+     "m": "adjoint"
+    },
+    {
+     "t": 2.777,
+     "m": "du"
+    },
+    {
+     "t": 2.954,
+     "m": "ministère"
+    },
+    {
+     "t": 3.545,
+     "m": "des"
+    },
+    {
+     "t": 3.781,
+     "m": "Postes."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "carte_visite",
+    "titre": "SA FAUSSE IDENTITÉ",
+    "nom": "Victor Lustig",
+    "fonction": "Directeur général adjoint"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "20",
+   "debut": 2887,
+   "duree": 213,
+   "audio": null,
+   "texte": "Dans un grand hôtel, il réunit des ferrailleurs : l'État va démonter la tour, et la vendre.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Dans"
+    },
+    {
+     "t": 0.352,
+     "m": "un"
+    },
+    {
+     "t": 0.563,
+     "m": "grand"
+    },
+    {
+     "t": 0.984,
+     "m": "hôtel,"
+    },
+    {
+     "t": 1.477,
+     "m": "il"
+    },
+    {
+     "t": 1.688,
+     "m": "réunit"
+    },
+    {
+     "t": 2.18,
+     "m": "des"
+    },
+    {
+     "t": 2.461,
+     "m": "ferrailleurs"
+    },
+    {
+     "t": 3.375,
+     "m": ":"
+    },
+    {
+     "t": 3.516,
+     "m": "l'État"
+    },
+    {
+     "t": 4.008,
+     "m": "va"
+    },
+    {
+     "t": 4.219,
+     "m": "démonter"
+    },
+    {
+     "t": 4.852,
+     "m": "la"
+    },
+    {
+     "t": 5.063,
+     "m": "tour,"
+    },
+    {
+     "t": 5.485,
+     "m": "et"
+    },
+    {
+     "t": 5.695,
+     "m": "la"
+    },
+    {
+     "t": 5.906,
+     "m": "vendre."
+    }
+   ],
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "scene",
+      "decor": "hotel",
+      "titre": "UN GRAND HÔTEL",
+      "personnages": [
+       {
+        "nom": "ferrailleur",
+        "x": 480,
+        "s": 170
+       },
+       {
+        "nom": "ferrailleur",
+        "x": 640,
+        "s": 170
+       },
+       {
+        "nom": "ferrailleur",
+        "x": 800,
+        "s": 170
+       },
+       {
+        "nom": "lustig",
+        "x": 230,
+        "y": 1380,
+        "s": 520,
+        "bras": 60
+       }
+      ]
+     },
+     {
+      "type": "tour",
+      "casse": true,
+      "legende": "→ À la ferraille"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "21",
+   "debut": 3100,
+   "duree": 52,
+   "audio": null,
+   "texte": "Chut. C'est confidentiel.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Chut."
+    },
+    {
+     "t": 0.3,
+     "m": "C'est"
+    },
+    {
+     "t": 0.6,
+     "m": "confidentiel."
+    }
+   ],
+   "sequence": {
+    "type": "secret",
+    "texte": "CONFIDENTIEL"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "22",
+   "debut": 3152,
+   "duree": 179,
+   "audio": null,
+   "texte": "Un ferrailleur, André Poisson, veut absolument l'affaire. Il paie, et ajoute même un pot-de-vin.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Un"
+    },
+    {
+     "t": 0.166,
+     "m": "ferrailleur,"
+    },
+    {
+     "t": 0.884,
+     "m": "André"
+    },
+    {
+     "t": 1.216,
+     "m": "Poisson,"
+    },
+    {
+     "t": 1.713,
+     "m": "veut"
+    },
+    {
+     "t": 1.99,
+     "m": "absolument"
+    },
+    {
+     "t": 2.598,
+     "m": "l'affaire."
+    },
+    {
+     "t": 3.206,
+     "m": "Il"
+    },
+    {
+     "t": 3.371,
+     "m": "paie,"
+    },
+    {
+     "t": 3.703,
+     "m": "et"
+    },
+    {
+     "t": 3.869,
+     "m": "ajoute"
+    },
+    {
+     "t": 4.256,
+     "m": "même"
+    },
+    {
+     "t": 4.532,
+     "m": "un"
+    },
+    {
+     "t": 4.698,
+     "m": "pot-de-vin."
+    }
+   ],
+   "sequence": {
+    "type": "flux",
+    "de": "poisson",
+    "vers": "lustig",
+    "objet": "sac",
+    "lettre": "F",
+    "legendeA": "André Poisson",
+    "mot": "PAYÉ"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "23",
+   "debut": 3331,
+   "duree": 144,
+   "audio": null,
+   "texte": "Lustig file en Autriche. Poisson, trop humilié, ne porte jamais plainte.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Lustig"
+    },
+    {
+     "t": 0.408,
+     "m": "file"
+    },
+    {
+     "t": 0.699,
+     "m": "en"
+    },
+    {
+     "t": 0.874,
+     "m": "Autriche."
+    },
+    {
+     "t": 1.457,
+     "m": "Poisson,"
+    },
+    {
+     "t": 1.981,
+     "m": "trop"
+    },
+    {
+     "t": 2.272,
+     "m": "humilié,"
+    },
+    {
+     "t": 2.797,
+     "m": "ne"
+    },
+    {
+     "t": 2.972,
+     "m": "porte"
+    },
+    {
+     "t": 3.321,
+     "m": "jamais"
+    },
+    {
+     "t": 3.729,
+     "m": "plainte."
+    }
+   ],
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "carte",
+      "titre": "LA FUITE",
+      "voyageur": "sac",
+      "lettre": "F",
+      "points": [
+       {
+        "nom": "PARIS",
+        "x": 230,
+        "y": 860
+       },
+       {
+        "nom": "AUTRICHE",
+        "x": 860,
+        "y": 980
+       }
+      ]
+     },
+     {
+      "type": "barre",
+      "mot": "PLAINTE",
+      "personnage": "poisson",
+      "nom": "ANDRÉ POISSON"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "24",
+   "debut": 3475,
+   "duree": 155,
+   "audio": null,
+   "texte": "Quelques mois plus tard, il revient… et tente de revendre la tour.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Quelques"
+    },
+    {
+     "t": 0.621,
+     "m": "mois"
+    },
+    {
+     "t": 0.966,
+     "m": "plus"
+    },
+    {
+     "t": 1.311,
+     "m": "tard,"
+    },
+    {
+     "t": 1.725,
+     "m": "il"
+    },
+    {
+     "t": 1.932,
+     "m": "revient…"
+    },
+    {
+     "t": 2.553,
+     "m": "et"
+    },
+    {
+     "t": 2.76,
+     "m": "tente"
+    },
+    {
+     "t": 3.174,
+     "m": "de"
+    },
+    {
+     "t": 3.381,
+     "m": "revendre"
+    },
+    {
+     "t": 4.002,
+     "m": "la"
+    },
+    {
+     "t": 4.209,
+     "m": "tour."
+    }
+   ],
+   "sequence": {
+    "type": "tour",
+    "etiquette": true,
+    "titre": "LE RETOUR"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "25",
+   "debut": 3630,
+   "duree": 144,
+   "audio": null,
+   "texte": "Mais cette fois, la police est prévenue. Il s'enfuit aux États-Unis.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Mais"
+    },
+    {
+     "t": 0.308,
+     "m": "cette"
+    },
+    {
+     "t": 0.678,
+     "m": "fois,"
+    },
+    {
+     "t": 1.048,
+     "m": "la"
+    },
+    {
+     "t": 1.233,
+     "m": "police"
+    },
+    {
+     "t": 1.664,
+     "m": "est"
+    },
+    {
+     "t": 1.911,
+     "m": "prévenue."
+    },
+    {
+     "t": 2.527,
+     "m": "Il"
+    },
+    {
+     "t": 2.712,
+     "m": "s'enfuit"
+    },
+    {
+     "t": 3.267,
+     "m": "aux"
+    },
+    {
+     "t": 3.514,
+     "m": "États-Unis."
+    }
+   ],
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "tour",
+      "etiquette": true,
+      "police": true,
+      "legende": "La police est prévenue",
+      "legendeTop": 260
+     },
+     {
+      "type": "carte",
+      "voyageur": "bateau",
+      "titre": "NOUVELLE FUITE",
+      "points": [
+       {
+        "nom": "PARIS",
+        "x": 840,
+        "y": 780
+       },
+       {
+        "nom": "ÉTATS-UNIS",
+        "x": 220,
+        "y": 900
+       }
+      ]
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "26",
+   "debut": 3774,
+   "duree": 155,
+   "audio": null,
+   "texte": "Là-bas, il ose s'attaquer au plus dangereux des gangsters : Al Capone.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Là-bas,"
+    },
+    {
+     "t": 0.521,
+     "m": "il"
+    },
+    {
+     "t": 0.716,
+     "m": "ose"
+    },
+    {
+     "t": 0.977,
+     "m": "s'attaquer"
+    },
+    {
+     "t": 1.693,
+     "m": "au"
+    },
+    {
+     "t": 1.888,
+     "m": "plus"
+    },
+    {
+     "t": 2.214,
+     "m": "dangereux"
+    },
+    {
+     "t": 2.865,
+     "m": "des"
+    },
+    {
+     "t": 3.125,
+     "m": "gangsters"
+    },
+    {
+     "t": 3.776,
+     "m": ":"
+    },
+    {
+     "t": 3.907,
+     "m": "Al"
+    },
+    {
+     "t": 4.102,
+     "m": "Capone."
+    }
+   ],
+   "sequence": {
+    "type": "fiche",
+    "titre": "LA CIBLE",
+    "personnage": "capone",
+    "nom": "AL CAPONE",
+    "infos": [
+     "Le gangster le plus craint",
+     "de Chicago"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "27",
+   "debut": 3929,
+   "duree": 179,
+   "audio": null,
+   "texte": "Il lui demande 50 000 dollars, en promettant de les doubler en deux mois.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Il"
+    },
+    {
+     "t": 0.217,
+     "m": "lui"
+    },
+    {
+     "t": 0.507,
+     "m": "demande"
+    },
+    {
+     "t": 1.087,
+     "m": "50"
+    },
+    {
+     "t": 1.304,
+     "m": "000"
+    },
+    {
+     "t": 1.594,
+     "m": "dollars,"
+    },
+    {
+     "t": 2.246,
+     "m": "en"
+    },
+    {
+     "t": 2.463,
+     "m": "promettant"
+    },
+    {
+     "t": 3.26,
+     "m": "de"
+    },
+    {
+     "t": 3.478,
+     "m": "les"
+    },
+    {
+     "t": 3.767,
+     "m": "doubler"
+    },
+    {
+     "t": 4.347,
+     "m": "en"
+    },
+    {
+     "t": 4.564,
+     "m": "deux"
+    },
+    {
+     "t": 4.927,
+     "m": "mois."
+    }
+   ],
+   "sequence": {
+    "type": "chiffre",
+    "valeur": 50000,
+    "unite": "$",
+    "titre": "LA PROMESSE",
+    "x2": true,
+    "sous": "en deux mois"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "28",
+   "debut": 4108,
+   "duree": 155,
+   "audio": null,
+   "texte": "Deux mois plus tard, il les lui rend… intacts. L'affaire aurait échoué.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Deux"
+    },
+    {
+     "t": 0.321,
+     "m": "mois"
+    },
+    {
+     "t": 0.642,
+     "m": "plus"
+    },
+    {
+     "t": 0.963,
+     "m": "tard,"
+    },
+    {
+     "t": 1.348,
+     "m": "il"
+    },
+    {
+     "t": 1.541,
+     "m": "les"
+    },
+    {
+     "t": 1.798,
+     "m": "lui"
+    },
+    {
+     "t": 2.055,
+     "m": "rend…"
+    },
+    {
+     "t": 2.44,
+     "m": "intacts."
+    },
+    {
+     "t": 3.018,
+     "m": "L'affaire"
+    },
+    {
+     "t": 3.66,
+     "m": "aurait"
+    },
+    {
+     "t": 4.109,
+     "m": "échoué."
+    }
+   ],
+   "sequence": {
+    "type": "flux",
+    "de": "capone",
+    "vers": "lustig",
+    "retour": true,
+    "objet": "valise",
+    "legendeA": "Capone",
+    "titre": "DEUX MOIS PLUS TARD"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "29",
+   "debut": 4263,
+   "duree": 132,
+   "audio": null,
+   "texte": "Capone, impressionné par tant d'honnêteté, lui offre 5 000 dollars.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Capone,"
+    },
+    {
+     "t": 0.457,
+     "m": "impressionné"
+    },
+    {
+     "t": 1.2,
+     "m": "par"
+    },
+    {
+     "t": 1.428,
+     "m": "tant"
+    },
+    {
+     "t": 1.714,
+     "m": "d'honnêteté,"
+    },
+    {
+     "t": 2.456,
+     "m": "lui"
+    },
+    {
+     "t": 2.685,
+     "m": "offre"
+    },
+    {
+     "t": 3.027,
+     "m": "5"
+    },
+    {
+     "t": 3.142,
+     "m": "000"
+    },
+    {
+     "t": 3.37,
+     "m": "dollars."
+    }
+   ],
+   "sequence": {
+    "type": "chiffre",
+    "valeur": 5000,
+    "unite": "$",
+    "titre": "LA RÉCOMPENSE",
+    "sous": "pour son « honnêteté »"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "30",
+   "debut": 4395,
+   "duree": 86,
+   "audio": null,
+   "texte": "C'était exactement le plan de Lustig.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "C'était"
+    },
+    {
+     "t": 0.507,
+     "m": "exactement"
+    },
+    {
+     "t": 1.204,
+     "m": "le"
+    },
+    {
+     "t": 1.394,
+     "m": "plan"
+    },
+    {
+     "t": 1.711,
+     "m": "de"
+    },
+    {
+     "t": 1.901,
+     "m": "Lustig."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "personnages": [
+     {
+      "nom": "lustig",
+      "x": 540,
+      "y": 1380,
+      "s": 640,
+      "expr": "malin"
+     }
+    ],
+    "legende": "Le vrai plan",
+    "legendeTop": 330
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "31",
+   "debut": 4481,
+   "duree": 225,
+   "audio": null,
+   "texte": "En 1930, il passe à plus gros : la fausse monnaie, avec un chimiste du Nebraska, Tom Shaw.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.225,
+     "m": "1930,"
+    },
+    {
+     "t": 0.676,
+     "m": "il"
+    },
+    {
+     "t": 0.902,
+     "m": "passe"
+    },
+    {
+     "t": 1.353,
+     "m": "à"
+    },
+    {
+     "t": 1.503,
+     "m": "plus"
+    },
+    {
+     "t": 1.879,
+     "m": "gros"
+    },
+    {
+     "t": 2.254,
+     "m": ":"
+    },
+    {
+     "t": 2.405,
+     "m": "la"
+    },
+    {
+     "t": 2.63,
+     "m": "fausse"
+    },
+    {
+     "t": 3.156,
+     "m": "monnaie,"
+    },
+    {
+     "t": 3.832,
+     "m": "avec"
+    },
+    {
+     "t": 4.208,
+     "m": "un"
+    },
+    {
+     "t": 4.434,
+     "m": "chimiste"
+    },
+    {
+     "t": 5.11,
+     "m": "du"
+    },
+    {
+     "t": 5.335,
+     "m": "Nebraska,"
+    },
+    {
+     "t": 6.087,
+     "m": "Tom"
+    },
+    {
+     "t": 6.387,
+     "m": "Shaw."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "titre": "1930 · FAUSSE MONNAIE",
+    "personnages": [
+     {
+      "nom": "lustig",
+      "x": 330,
+      "y": 1380,
+      "s": 520
+     },
+     {
+      "nom": "shaw",
+      "x": 760,
+      "s": 300
+     }
+    ],
+    "legende": "Lustig + Tom Shaw",
+    "legendeTop": 330
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "32",
+   "debut": 4706,
+   "duree": 236,
+   "audio": null,
+   "texte": "Pendant cinq ans, des milliers de faux billets circulent chaque mois. On les surnomme « l'argent de Lustig ».",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Pendant"
+    },
+    {
+     "t": 0.524,
+     "m": "cinq"
+    },
+    {
+     "t": 0.852,
+     "m": "ans,"
+    },
+    {
+     "t": 1.179,
+     "m": "des"
+    },
+    {
+     "t": 1.441,
+     "m": "milliers"
+    },
+    {
+     "t": 2.031,
+     "m": "de"
+    },
+    {
+     "t": 2.228,
+     "m": "faux"
+    },
+    {
+     "t": 2.555,
+     "m": "billets"
+    },
+    {
+     "t": 3.08,
+     "m": "circulent"
+    },
+    {
+     "t": 3.735,
+     "m": "chaque"
+    },
+    {
+     "t": 4.193,
+     "m": "mois."
+    },
+    {
+     "t": 4.587,
+     "m": "On"
+    },
+    {
+     "t": 4.783,
+     "m": "les"
+    },
+    {
+     "t": 5.045,
+     "m": "surnomme"
+    },
+    {
+     "t": 5.635,
+     "m": "«"
+    },
+    {
+     "t": 5.766,
+     "m": "l'argent"
+    },
+    {
+     "t": 6.356,
+     "m": "de"
+    },
+    {
+     "t": 6.552,
+     "m": "Lustig"
+    },
+    {
+     "t": 7.011,
+     "m": "»."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "titre": "« L'ARGENT DE LUSTIG »",
+    "billets": true,
+    "legende": "Des milliers de faux billets chaque mois",
+    "legendeTop": 1160
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "33",
+   "debut": 4942,
+   "duree": 109,
+   "audio": null,
+   "texte": "Mai 1935, New York. Les services secrets l'arrêtent.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Mai"
+    },
+    {
+     "t": 0.237,
+     "m": "1935,"
+    },
+    {
+     "t": 0.594,
+     "m": "New"
+    },
+    {
+     "t": 0.831,
+     "m": "York."
+    },
+    {
+     "t": 1.187,
+     "m": "Les"
+    },
+    {
+     "t": 1.425,
+     "m": "services"
+    },
+    {
+     "t": 1.959,
+     "m": "secrets"
+    },
+    {
+     "t": 2.434,
+     "m": "l'arrêtent."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "MAI 1935 · NEW YORK",
+    "personnages": [
+     {
+      "nom": "agent",
+      "x": 300,
+      "s": 260
+     },
+     {
+      "nom": "lustig",
+      "x": 560,
+      "y": 1380,
+      "s": 520,
+      "expr": "inquiet"
+     },
+     {
+      "nom": "agent",
+      "x": 820,
+      "s": 260,
+      "miroir": true
+     }
+    ],
+    "tampon": "ARRÊTÉ",
+    "tamponTop": 520
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "34",
+   "debut": 5051,
+   "duree": 190,
+   "audio": null,
+   "texte": "Dans une consigne du métro de Times Square : 51 000 dollars en faux billets.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Dans"
+    },
+    {
+     "t": 0.372,
+     "m": "une"
+    },
+    {
+     "t": 0.67,
+     "m": "consigne"
+    },
+    {
+     "t": 1.34,
+     "m": "du"
+    },
+    {
+     "t": 1.563,
+     "m": "métro"
+    },
+    {
+     "t": 2.009,
+     "m": "de"
+    },
+    {
+     "t": 2.233,
+     "m": "Times"
+    },
+    {
+     "t": 2.679,
+     "m": "Square"
+    },
+    {
+     "t": 3.2,
+     "m": ":"
+    },
+    {
+     "t": 3.349,
+     "m": "51"
+    },
+    {
+     "t": 3.572,
+     "m": "000"
+    },
+    {
+     "t": 3.87,
+     "m": "dollars"
+    },
+    {
+     "t": 4.465,
+     "m": "en"
+    },
+    {
+     "t": 4.689,
+     "m": "faux"
+    },
+    {
+     "t": 5.061,
+     "m": "billets."
+    }
+   ],
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "scene",
+      "decor": "consignes",
+      "titre": "TIMES SQUARE"
+     },
+     {
+      "type": "chiffre",
+      "valeur": 51000,
+      "unite": "$",
+      "couleur": "rouge",
+      "sous": "en faux billets"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "35",
+   "debut": 5241,
+   "duree": 167,
+   "audio": null,
+   "texte": "La veille de son procès, il s'évade avec une corde faite de draps.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "La"
+    },
+    {
+     "t": 0.224,
+     "m": "veille"
+    },
+    {
+     "t": 0.745,
+     "m": "de"
+    },
+    {
+     "t": 0.969,
+     "m": "son"
+    },
+    {
+     "t": 1.267,
+     "m": "procès,"
+    },
+    {
+     "t": 1.863,
+     "m": "il"
+    },
+    {
+     "t": 2.086,
+     "m": "s'évade"
+    },
+    {
+     "t": 2.682,
+     "m": "avec"
+    },
+    {
+     "t": 3.055,
+     "m": "une"
+    },
+    {
+     "t": 3.353,
+     "m": "corde"
+    },
+    {
+     "t": 3.8,
+     "m": "faite"
+    },
+    {
+     "t": 4.247,
+     "m": "de"
+    },
+    {
+     "t": 4.47,
+     "m": "draps."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "prison",
+    "titre": "L'ÉVASION",
+    "corde": true
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "36",
+   "debut": 5408,
+   "duree": 121,
+   "audio": null,
+   "texte": "Il est rattrapé vingt-sept jours plus tard, à Pittsburgh.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Il"
+    },
+    {
+     "t": 0.182,
+     "m": "est"
+    },
+    {
+     "t": 0.424,
+     "m": "rattrapé"
+    },
+    {
+     "t": 0.97,
+     "m": "vingt-sept"
+    },
+    {
+     "t": 1.636,
+     "m": "jours"
+    },
+    {
+     "t": 2,
+     "m": "plus"
+    },
+    {
+     "t": 2.303,
+     "m": "tard,"
+    },
+    {
+     "t": 2.667,
+     "m": "à"
+    },
+    {
+     "t": 2.788,
+     "m": "Pittsburgh."
+    }
+   ],
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "compteur",
+      "mode": "jours",
+      "valeur": 27,
+      "unite": "jours de cavale"
+     },
+     {
+      "type": "carte",
+      "titre": "RATTRAPÉ",
+      "points": [
+       {
+        "nom": "NEW YORK",
+        "x": 820,
+        "y": 760
+       },
+       {
+        "nom": "PITTSBURGH",
+        "x": 300,
+        "y": 880
+       }
+      ]
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "37",
+   "debut": 5529,
+   "duree": 144,
+   "audio": null,
+   "texte": "Condamné à vingt ans de prison, il est envoyé à Alcatraz.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Condamné"
+    },
+    {
+     "t": 0.66,
+     "m": "à"
+    },
+    {
+     "t": 0.807,
+     "m": "vingt"
+    },
+    {
+     "t": 1.247,
+     "m": "ans"
+    },
+    {
+     "t": 1.54,
+     "m": "de"
+    },
+    {
+     "t": 1.76,
+     "m": "prison,"
+    },
+    {
+     "t": 2.347,
+     "m": "il"
+    },
+    {
+     "t": 2.567,
+     "m": "est"
+    },
+    {
+     "t": 2.86,
+     "m": "envoyé"
+    },
+    {
+     "t": 3.373,
+     "m": "à"
+    },
+    {
+     "t": 3.52,
+     "m": "Alcatraz."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "alcatraz",
+    "titre": "ALCATRAZ",
+    "tampon": "20 ANS",
+    "tamponTop": 420
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "38",
+   "debut": 5673,
+   "duree": 132,
+   "audio": null,
+   "texte": "Il meurt en 1947, dans un hôpital pénitentiaire du Missouri.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Il"
+    },
+    {
+     "t": 0.191,
+     "m": "meurt"
+    },
+    {
+     "t": 0.573,
+     "m": "en"
+    },
+    {
+     "t": 0.764,
+     "m": "1947,"
+    },
+    {
+     "t": 1.146,
+     "m": "dans"
+    },
+    {
+     "t": 1.465,
+     "m": "un"
+    },
+    {
+     "t": 1.656,
+     "m": "hôpital"
+    },
+    {
+     "t": 2.165,
+     "m": "pénitentiaire"
+    },
+    {
+     "t": 3.057,
+     "m": "du"
+    },
+    {
+     "t": 3.248,
+     "m": "Missouri."
+    }
+   ],
+   "sequence": {
+    "type": "chronologie",
+    "titre": "SA VIE",
+    "dates": [
+     {
+      "an": "1890",
+      "label": "Naissance en Bohême"
+     },
+     {
+      "an": "1925",
+      "label": "La tour Eiffel"
+     },
+     {
+      "an": "1935",
+      "label": "Arrêté à New York"
+     },
+     {
+      "an": "1947",
+      "label": "Mort en détention"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "39",
+   "debut": 5805,
+   "duree": 179,
+   "audio": null,
+   "texte": "L'homme qui avait vendu la tour Eiffel a fini sa vie… derrière les barreaux.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "L'homme"
+    },
+    {
+     "t": 0.557,
+     "m": "qui"
+    },
+    {
+     "t": 0.836,
+     "m": "avait"
+    },
+    {
+     "t": 1.253,
+     "m": "vendu"
+    },
+    {
+     "t": 1.671,
+     "m": "la"
+    },
+    {
+     "t": 1.88,
+     "m": "tour"
+    },
+    {
+     "t": 2.228,
+     "m": "Eiffel"
+    },
+    {
+     "t": 2.715,
+     "m": "a"
+    },
+    {
+     "t": 2.855,
+     "m": "fini"
+    },
+    {
+     "t": 3.203,
+     "m": "sa"
+    },
+    {
+     "t": 3.412,
+     "m": "vie…"
+    },
+    {
+     "t": 3.76,
+     "m": "derrière"
+    },
+    {
+     "t": 4.386,
+     "m": "les"
+    },
+    {
+     "t": 4.665,
+     "m": "barreaux."
+    }
+   ],
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "AFFAIRE Nº 1",
+     "LUSTIG, Victor"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "40",
+   "debut": 5984,
+   "duree": 236,
+   "audio": null,
+   "texte": "Quelle affaire veux-tu que j'ouvre la prochaine fois ? Écris-la en commentaire. Et abonne-toi pour ne rater aucun dossier.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Quelle"
+    },
+    {
+     "t": 0.41,
+     "m": "affaire"
+    },
+    {
+     "t": 0.879,
+     "m": "veux-tu"
+    },
+    {
+     "t": 1.348,
+     "m": "que"
+    },
+    {
+     "t": 1.582,
+     "m": "j'ouvre"
+    },
+    {
+     "t": 2.051,
+     "m": "la"
+    },
+    {
+     "t": 2.227,
+     "m": "prochaine"
+    },
+    {
+     "t": 2.813,
+     "m": "fois"
+    },
+    {
+     "t": 3.106,
+     "m": "?"
+    },
+    {
+     "t": 3.223,
+     "m": "Écris-la"
+    },
+    {
+     "t": 3.75,
+     "m": "en"
+    },
+    {
+     "t": 3.926,
+     "m": "commentaire."
+    },
+    {
+     "t": 4.688,
+     "m": "Et"
+    },
+    {
+     "t": 4.864,
+     "m": "abonne-toi"
+    },
+    {
+     "t": 5.508,
+     "m": "pour"
+    },
+    {
+     "t": 5.801,
+     "m": "ne"
+    },
+    {
+     "t": 5.977,
+     "m": "rater"
+    },
+    {
+     "t": 6.328,
+     "m": "aucun"
+    },
+    {
+     "t": 6.68,
+     "m": "dossier."
+    }
+   ],
+   "sequence": {
+    "type": "cta",
+    "bulle": "✍️ Ton prochain dossier ?"
+   },
+   "sousTitres": true
+  }
+ ]
+}

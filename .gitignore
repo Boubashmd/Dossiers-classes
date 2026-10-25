@@ -1,0 +1,9 @@
+node_modules/
+sorties/
+out/
+public/voix/*
+!public/voix/.gitkeep
+.DS_Store
+*.log
+.cache/
+*.zip

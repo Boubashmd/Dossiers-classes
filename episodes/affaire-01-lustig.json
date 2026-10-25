@@ -1,0 +1,752 @@
+{
+ "id": "affaire-01-lustig",
+ "numero": 1,
+ "titre": "L'homme qui a vendu la tour Eiffel",
+ "personnage": "Victor Lustig",
+ "photo": {
+  "fichier": "photos/affaire-01-lustig.png",
+  "largeur": 540,
+  "hauteur": 519,
+  "visage": {
+   "x": 108,
+   "y": 165
+  },
+  "legende": "Fiche d'arrestation · Saint-Louis · 25 juin 1931",
+  "credit": "Photo : U.S. Secret Service (domaine public)."
+ },
+ "publication": {
+  "accroche": "Il a vendu la tour Eiffel… et ce n'était pas sa pire arnaque. 🗼📂",
+  "sources": "Smithsonian Magazine, Slate, Radio Prague.",
+  "hashtags_episode": [
+   "#arnaque",
+   "#toureiffel"
+  ],
+  "commentaire_epingle": "📂 Prochain dossier : Ponzi, Madoff ou l'affaire du collier de la reine ? Vote en commentaire 👇"
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "En 1925, cet homme a vendu la tour Eiffel.",
+   "sousTitres": false,
+   "sequence": {
+    "type": "pochette",
+    "photo": "photos/affaire-01-lustig.png",
+    "srcW": 540,
+    "srcH": 519,
+    "visage": {
+     "x": 108,
+     "y": 165
+    },
+    "etiquette": [
+     "AFFAIRE Nº 1",
+     "LUSTIG, Victor"
+    ],
+    "legende": "Fiche d'arrestation · Saint-Louis · 25 juin 1931"
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Et ce n'était même pas sa plus grosse arnaque.",
+   "sousTitres": false,
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-01-lustig.png",
+    "srcW": 540,
+    "visage": {
+     "x": 108,
+     "y": 165
+    }
+   }
+  },
+  {
+   "id": "generique",
+   "texte": "",
+   "duree": 2.6,
+   "sousTitres": false,
+   "sequence": {
+    "type": "generique",
+    "sousTitre": "Affaire nº 1 · Victor Lustig"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Victor Lustig naît le 4 janvier 1890, à Hostinné, en Bohême, au cœur de l'Empire austro-hongrois.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "QUI EST-IL ?",
+    "personnage": "lustig",
+    "nom": "VICTOR LUSTIG",
+    "infos": [
+     "Né le 4 janvier 1890",
+     "Hostinné, Bohême",
+     "Empire austro-hongrois"
+    ]
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Son père est vendeur de tabac, et il sera même maire de la ville.",
+   "sequence": {
+    "type": "scene",
+    "decor": "maison",
+    "titre": "HOSTINNÉ",
+    "personnages": [
+     {
+      "nom": "passager",
+      "x": 540,
+      "y": 1560,
+      "s": 340
+     }
+    ],
+    "legende": "Père : vendeur de tabac… puis maire",
+    "legendeTop": 330
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Le jeune Victor parle cinq langues.",
+   "sequence": {
+    "type": "icones",
+    "grand": "5 langues",
+    "items": [
+     {
+      "label": "DE",
+      "sous": "allemand"
+     },
+     {
+      "label": "EN",
+      "sous": "anglais"
+     },
+     {
+      "label": "FR",
+      "sous": "français"
+     },
+     {
+      "label": "IT",
+      "sous": "italien"
+     },
+     {
+      "label": "HU",
+      "sous": "hongrois"
+     }
+    ]
+   }
+  },
+  {
+   "id": "06",
+   "texte": "En 1909, il part à Paris… et découvre le jeu.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "carte",
+      "titre": "1909",
+      "points": [
+       {
+        "nom": "BOHÊME",
+        "x": 760,
+        "y": 700
+       },
+       {
+        "nom": "PARIS",
+        "x": 300,
+        "y": 840
+       }
+      ],
+      "poids": 1.2
+     },
+     {
+      "type": "scene",
+      "cartes": true,
+      "titre": "LE JEU",
+      "poids": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Il y comprend une chose : il sait convaincre n'importe qui.",
+   "sequence": {
+    "type": "scene",
+    "personnages": [
+     {
+      "nom": "lustig",
+      "x": 540,
+      "y": 1380,
+      "s": 640,
+      "expr": "content"
+     }
+    ],
+    "legende": "Son talent : convaincre",
+    "legendeTop": 330
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Sur les paquebots entre la France et New York, il se fait passer pour un producteur de Broadway.",
+   "sequence": {
+    "type": "scene",
+    "decor": "paquebot",
+    "titre": "LES PAQUEBOTS",
+    "personnages": [
+     {
+      "nom": "passager",
+      "x": 360,
+      "y": 1060,
+      "s": 110,
+      "couleur": "#9AA8BD"
+     },
+     {
+      "nom": "lustig",
+      "x": 540,
+      "y": 1060,
+      "s": 220
+     },
+     {
+      "nom": "passagere",
+      "x": 720,
+      "y": 1060,
+      "s": 110,
+      "couleur": "#9AA8BD"
+     }
+    ]
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Il cherche des investisseurs pour un spectacle… qui n'existe pas.",
+   "sequence": {
+    "type": "document",
+    "genre": "affiche",
+    "manchette": "LE GRAND SPECTACLE",
+    "tampon": "FAUX"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Après la Première Guerre mondiale, les traversées s'arrêtent. Il s'installe aux États-Unis.",
+   "sequence": {
+    "type": "carte",
+    "titre": "APRÈS 1918",
+    "voyageur": "bateau",
+    "points": [
+     {
+      "nom": "FRANCE",
+      "x": 840,
+      "y": 780
+     },
+     {
+      "nom": "ÉTATS-UNIS",
+      "x": 220,
+      "y": 900
+     }
+    ]
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Là-bas, il invente sa machine : la « boîte roumaine ».",
+   "sequence": {
+    "type": "objet",
+    "mode": "apparait",
+    "titre": "LA BOÎTE ROUMAINE"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Une boîte en acajou qui, d'après lui, copie les billets de banque.",
+   "sequence": {
+    "type": "objet",
+    "mode": "billet",
+    "legende": "« Elle copie les billets »"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "On glisse un billet, on attend six heures… et un deuxième billet sort.",
+   "sequence": {
+    "type": "compteur",
+    "mode": "horloge",
+    "valeur": 6,
+    "titre": "L'ATTENTE",
+    "billetSort": true
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Un vrai billet, caché à l'avance dans la machine.",
+   "sequence": {
+    "type": "objet",
+    "mode": "coupe",
+    "titre": "LE SECRET",
+    "revelation": "Le truc : un billet déjà caché"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Ses victimes la paient environ 10 000 dollars.",
+   "sequence": {
+    "type": "chiffre",
+    "valeur": 10000,
+    "unite": "$",
+    "titre": "LE PRIX",
+    "sous": "par boîte vendue"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Le temps qu'elles comprennent… Lustig a disparu.",
+   "sequence": {
+    "type": "scene",
+    "personnages": [
+     {
+      "nom": "victime",
+      "x": 300,
+      "s": 240
+     },
+     {
+      "nom": "lustig",
+      "x": 860,
+      "y": 1380,
+      "s": 560,
+      "expr": "malin"
+     }
+    ],
+    "tampon": "DISPARU",
+    "tamponTop": 560
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Paris, 1925. Lustig lit un article : la tour Eiffel rouille, et son entretien coûte une fortune.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "document",
+      "genre": "presse",
+      "journal": "PARIS · 1925",
+      "manchette": "La tour Eiffel coûte une fortune à entretenir"
+     },
+     {
+      "type": "tour",
+      "rouille": true,
+      "legende": "Elle rouille"
+     }
+    ]
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Il fait fabriquer de faux papiers à en-tête du gouvernement.",
+   "sequence": {
+    "type": "document",
+    "genre": "entete",
+    "tampon": "FAUX"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Et se présente comme directeur général adjoint du ministère des Postes.",
+   "sequence": {
+    "type": "document",
+    "genre": "carte_visite",
+    "titre": "SA FAUSSE IDENTITÉ",
+    "nom": "Victor Lustig",
+    "fonction": "Directeur général adjoint"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Dans un grand hôtel, il réunit des ferrailleurs : l'État va démonter la tour, et la vendre.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "scene",
+      "decor": "hotel",
+      "titre": "UN GRAND HÔTEL",
+      "personnages": [
+       {
+        "nom": "ferrailleur",
+        "x": 480,
+        "s": 170
+       },
+       {
+        "nom": "ferrailleur",
+        "x": 640,
+        "s": 170
+       },
+       {
+        "nom": "ferrailleur",
+        "x": 800,
+        "s": 170
+       },
+       {
+        "nom": "lustig",
+        "x": 230,
+        "y": 1380,
+        "s": 520,
+        "bras": 60
+       }
+      ]
+     },
+     {
+      "type": "tour",
+      "casse": true,
+      "legende": "→ À la ferraille"
+     }
+    ]
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Chut. C'est confidentiel.",
+   "sequence": {
+    "type": "secret",
+    "texte": "CONFIDENTIEL"
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Un ferrailleur, André Poisson, veut absolument l'affaire. Il paie, et ajoute même un pot-de-vin.",
+   "sequence": {
+    "type": "flux",
+    "de": "poisson",
+    "vers": "lustig",
+    "objet": "sac",
+    "lettre": "F",
+    "legendeA": "André Poisson",
+    "mot": "PAYÉ"
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Lustig file en Autriche. Poisson, trop humilié, ne porte jamais plainte.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "carte",
+      "titre": "LA FUITE",
+      "voyageur": "sac",
+      "lettre": "F",
+      "points": [
+       {
+        "nom": "PARIS",
+        "x": 230,
+        "y": 860
+       },
+       {
+        "nom": "AUTRICHE",
+        "x": 860,
+        "y": 980
+       }
+      ]
+     },
+     {
+      "type": "barre",
+      "mot": "PLAINTE",
+      "personnage": "poisson",
+      "nom": "ANDRÉ POISSON"
+     }
+    ]
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Quelques mois plus tard, il revient… et tente de revendre la tour.",
+   "sequence": {
+    "type": "tour",
+    "etiquette": true,
+    "titre": "LE RETOUR"
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Mais cette fois, la police est prévenue. Il s'enfuit aux États-Unis.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "tour",
+      "etiquette": true,
+      "police": true,
+      "legende": "La police est prévenue",
+      "legendeTop": 260
+     },
+     {
+      "type": "carte",
+      "voyageur": "bateau",
+      "titre": "NOUVELLE FUITE",
+      "points": [
+       {
+        "nom": "PARIS",
+        "x": 840,
+        "y": 780
+       },
+       {
+        "nom": "ÉTATS-UNIS",
+        "x": 220,
+        "y": 900
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Là-bas, il ose s'attaquer au plus dangereux des gangsters : Al Capone.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "LA CIBLE",
+    "personnage": "capone",
+    "nom": "AL CAPONE",
+    "infos": [
+     "Le gangster le plus craint",
+     "de Chicago"
+    ]
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Il lui demande 50 000 dollars, en promettant de les doubler en deux mois.",
+   "sequence": {
+    "type": "chiffre",
+    "valeur": 50000,
+    "unite": "$",
+    "titre": "LA PROMESSE",
+    "x2": true,
+    "sous": "en deux mois"
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Deux mois plus tard, il les lui rend… intacts. L'affaire aurait échoué.",
+   "sequence": {
+    "type": "flux",
+    "de": "capone",
+    "vers": "lustig",
+    "retour": true,
+    "objet": "valise",
+    "legendeA": "Capone",
+    "titre": "DEUX MOIS PLUS TARD"
+   }
+  },
+  {
+   "id": "29",
+   "texte": "Capone, impressionné par tant d'honnêteté, lui offre 5 000 dollars.",
+   "sequence": {
+    "type": "chiffre",
+    "valeur": 5000,
+    "unite": "$",
+    "titre": "LA RÉCOMPENSE",
+    "sous": "pour son « honnêteté »"
+   }
+  },
+  {
+   "id": "30",
+   "texte": "C'était exactement le plan de Lustig.",
+   "sequence": {
+    "type": "scene",
+    "personnages": [
+     {
+      "nom": "lustig",
+      "x": 540,
+      "y": 1380,
+      "s": 640,
+      "expr": "malin"
+     }
+    ],
+    "legende": "Le vrai plan",
+    "legendeTop": 330
+   }
+  },
+  {
+   "id": "31",
+   "texte": "En 1930, il passe à plus gros : la fausse monnaie, avec un chimiste du Nebraska, Tom Shaw.",
+   "sequence": {
+    "type": "scene",
+    "titre": "1930 · FAUSSE MONNAIE",
+    "personnages": [
+     {
+      "nom": "lustig",
+      "x": 330,
+      "y": 1380,
+      "s": 520
+     },
+     {
+      "nom": "shaw",
+      "x": 760,
+      "s": 300
+     }
+    ],
+    "legende": "Lustig + Tom Shaw",
+    "legendeTop": 330
+   }
+  },
+  {
+   "id": "32",
+   "texte": "Pendant cinq ans, des milliers de faux billets circulent chaque mois. On les surnomme « l'argent de Lustig ».",
+   "sequence": {
+    "type": "scene",
+    "titre": "« L'ARGENT DE LUSTIG »",
+    "billets": true,
+    "legende": "Des milliers de faux billets chaque mois",
+    "legendeTop": 1160
+   }
+  },
+  {
+   "id": "33",
+   "texte": "Mai 1935, New York. Les services secrets l'arrêtent.",
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "MAI 1935 · NEW YORK",
+    "personnages": [
+     {
+      "nom": "agent",
+      "x": 300,
+      "s": 260
+     },
+     {
+      "nom": "lustig",
+      "x": 560,
+      "y": 1380,
+      "s": 520,
+      "expr": "inquiet"
+     },
+     {
+      "nom": "agent",
+      "x": 820,
+      "s": 260,
+      "miroir": true
+     }
+    ],
+    "tampon": "ARRÊTÉ",
+    "tamponTop": 520
+   }
+  },
+  {
+   "id": "34",
+   "texte": "Dans une consigne du métro de Times Square : 51 000 dollars en faux billets.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "scene",
+      "decor": "consignes",
+      "titre": "TIMES SQUARE"
+     },
+     {
+      "type": "chiffre",
+      "valeur": 51000,
+      "unite": "$",
+      "couleur": "rouge",
+      "sous": "en faux billets"
+     }
+    ]
+   }
+  },
+  {
+   "id": "35",
+   "texte": "La veille de son procès, il s'évade avec une corde faite de draps.",
+   "sequence": {
+    "type": "scene",
+    "decor": "prison",
+    "titre": "L'ÉVASION",
+    "corde": true
+   }
+  },
+  {
+   "id": "36",
+   "texte": "Il est rattrapé vingt-sept jours plus tard, à Pittsburgh.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "compteur",
+      "mode": "jours",
+      "valeur": 27,
+      "unite": "jours de cavale"
+     },
+     {
+      "type": "carte",
+      "titre": "RATTRAPÉ",
+      "points": [
+       {
+        "nom": "NEW YORK",
+        "x": 820,
+        "y": 760
+       },
+       {
+        "nom": "PITTSBURGH",
+        "x": 300,
+        "y": 880
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "37",
+   "texte": "Condamné à vingt ans de prison, il est envoyé à Alcatraz.",
+   "sequence": {
+    "type": "scene",
+    "decor": "alcatraz",
+    "titre": "ALCATRAZ",
+    "tampon": "20 ANS",
+    "tamponTop": 420
+   }
+  },
+  {
+   "id": "38",
+   "texte": "Il meurt en 1947, dans un hôpital pénitentiaire du Missouri.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "SA VIE",
+    "dates": [
+     {
+      "an": "1890",
+      "label": "Naissance en Bohême"
+     },
+     {
+      "an": "1925",
+      "label": "La tour Eiffel"
+     },
+     {
+      "an": "1935",
+      "label": "Arrêté à New York"
+     },
+     {
+      "an": "1947",
+      "label": "Mort en détention"
+     }
+    ]
+   }
+  },
+  {
+   "id": "39",
+   "texte": "L'homme qui avait vendu la tour Eiffel a fini sa vie… derrière les barreaux.",
+   "sousTitres": true,
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "AFFAIRE Nº 1",
+     "LUSTIG, Victor"
+    ]
+   }
+  },
+  {
+   "id": "40",
+   "texte": "Quelle affaire veux-tu que j'ouvre la prochaine fois ? Écris-la en commentaire. Et abonne-toi pour ne rater aucun dossier.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "✍️ Ton prochain dossier ?"
+   }
+  }
+ ]
+}

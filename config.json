@@ -1,0 +1,22 @@
+{
+  "voix_nom": "voix 4",
+  "modeles": ["eleven_v4", "eleven_v3", "eleven_multilingual_v2"],
+  "langue": "fr",
+  "reglages_voix": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.15,
+    "use_speaker_boost": true,
+    "speed": 0.97
+  },
+  "pause_entre_phrases": 0.35,
+  "mots_par_seconde_sans_voix": 2.6,
+  "durees_minimales": {
+    "pochette": 5.0,
+    "choc": 2.6,
+    "fin": 3.6,
+    "cta": 5.0,
+    "etapes": 4.0
+  },
+  "hashtags_fixes": ["#dossiersclasses", "#histoirevraie", "#truecrimefr", "#histoire"]
+}
