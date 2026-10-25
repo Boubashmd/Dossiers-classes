@@ -1,0 +1,936 @@
+{
+ "id": "affaire-02-martin",
+ "numero": 2,
+ "titre": "L'homme qui n'a jamais existé",
+ "personnage": "William Martin",
+ "photo": {
+  "fichier": "photos/affaire-02-martin.png",
+  "largeur": 1400,
+  "hauteur": 993,
+  "visage": {
+   "x": 1105,
+   "y": 420
+  },
+  "legende": "Carte d'identité navale · 2 février 1943",
+  "credit": "Photo : carte d'identité du « major Martin », 1943 (domaine public)."
+ },
+ "publication": {
+  "accroche": "Il a trompé Hitler… alors qu'il était déjà mort. 📂",
+  "sources": "Imperial War Museums, HistoryNet, Liberation Route, Wikipédia.",
+  "hashtags_episode": [
+   "#espionnage",
+   "#secondeguerremondiale",
+   "#whattowatch"
+  ],
+  "commentaire_epingle": "📂 Prochain dossier : Mata Hari, D. B. Cooper ou Frank Abagnale (Arrête-moi si tu peux) ? Vote en commentaire 👇"
+ },
+ "couverture": {
+  "titre": "IL A TROMPÉ HITLER APRÈS SA MORT",
+  "sous": "Affaire nº 2 · William Martin",
+  "photo": "photos/affaire-02-martin-couverture.png",
+  "largeur": 700,
+  "visage": {
+   "x": 405,
+   "y": 360
+  }
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "En 1943, cet homme a trompé Hitler.",
+   "sequence": {
+    "type": "pochette",
+    "photo": "photos/affaire-02-martin.png",
+    "srcW": 1400,
+    "srcH": 993,
+    "visage": {
+     "x": 1105,
+     "y": 420
+    },
+    "etiquette": [
+     "AFFAIRE Nº 2",
+     "MARTIN, William"
+    ],
+    "legende": "Carte d'identité navale · 2 février 1943"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "02",
+   "texte": "Le problème ? Il était déjà mort.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-02-martin.png",
+    "srcW": 1400,
+    "visage": {
+     "x": 1105,
+     "y": 420
+    }
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "generique",
+   "texte": "",
+   "duree": 2.6,
+   "sousTitres": false,
+   "sequence": {
+    "type": "generique",
+    "sousTitre": "Affaire nº 2 · William Martin"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Début 1943. Les Alliés sont sur le point de chasser l'Axe d'Afrique du Nord.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "DÉBUT 1943",
+    "zones": [
+     "afrique"
+    ],
+    "fleches": [
+     {
+      "de": [
+       0,
+       35.2
+      ],
+      "vers": [
+       9.3,
+       36.2
+      ],
+      "label": "ALLIÉS",
+      "labelDy": -70,
+      "a": 14,
+      "labelDx": -120
+     },
+     {
+      "de": [
+       24,
+       31.3
+      ],
+      "vers": [
+       12,
+       33
+      ],
+      "a": 22,
+      "courbe": -0.2
+     }
+    ],
+    "lieux": [
+     {
+      "nom": "TUNISIE",
+      "lon": 10,
+      "lat": 35.5,
+      "style": "cible",
+      "a": 30,
+      "dessous": true,
+      "dy": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Prochaine étape : débarquer en Europe. Et la porte d'entrée évidente, c'est la Sicile.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "PROCHAINE ÉTAPE",
+    "zones": [
+     "sicile"
+    ],
+    "fleches": [
+     {
+      "de": [
+       10.2,
+       36.5
+      ],
+      "vers": [
+       13.6,
+       37.4
+      ],
+      "a": 10,
+      "courbe": -0.3
+     }
+    ],
+    "lieux": [
+     {
+      "nom": "SICILE ?",
+      "lon": 14.2,
+      "lat": 37.6,
+      "style": "cible",
+      "a": 30,
+      "taille": 52
+     }
+    ]
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Trop évidente. Les Allemands l'attendent forcément.",
+   "sequence": {
+    "type": "scene",
+    "decor": "cote",
+    "titre": "SICILE",
+    "personnages": [
+     {
+      "nom": "soldat",
+      "x": 420,
+      "y": 1350,
+      "s": 300
+     },
+     {
+      "nom": "soldat",
+      "x": 640,
+      "y": 1350,
+      "s": 260,
+      "miroir": true
+     }
+    ],
+    "legende": "Ils l'attendent",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "06",
+   "texte": "À Londres, deux officiers du renseignement britannique ont alors une idée complètement folle.",
+   "sequence": {
+    "type": "scene",
+    "decor": "bureau",
+    "titre": "LONDRES",
+    "personnages": [
+     {
+      "nom": "officier",
+      "x": 380,
+      "y": 1350,
+      "s": 360
+     },
+     {
+      "nom": "officier",
+      "x": 700,
+      "y": 1350,
+      "s": 360,
+      "miroir": true,
+      "main": 1
+     }
+    ],
+    "legende": "Une idée complètement folle",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Ewen Montagu et Charles Cholmondeley.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "QUI SONT-ILS ?",
+    "personnage": "officier",
+    "nom": "LE DUO",
+    "infos": [
+     "Ewen Montagu",
+     "Charles Cholmondeley",
+     "Renseignement britannique"
+    ]
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Leur plan : faire échouer un faux officier sur une plage d'Espagne, avec de faux plans secrets dans sa mallette.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "carte_med",
+      "titre": "LE PLAN",
+      "fleches": [
+       {
+        "de": [
+         -0.1,
+         51.5
+        ],
+        "vers": [
+         -6.9,
+         37.3
+        ],
+        "a": 6,
+        "courbe": 0.25
+       }
+      ],
+      "lieux": [
+       {
+        "nom": "LONDRES",
+        "lon": -0.1,
+        "lat": 51.5,
+        "a": 2
+       },
+       {
+        "nom": "PLAGE D'ESPAGNE",
+        "lon": -6.9,
+        "lat": 37.2,
+        "style": "cible",
+        "a": 24,
+        "dessous": true
+       }
+      ],
+      "poids": 1.1
+     },
+     {
+      "type": "objet",
+      "dessin": "mallette",
+      "titre": "DANS SA MALLETTE",
+      "tampon": "TOP SECRET",
+      "tamponA": 14,
+      "tamponTop": 760,
+      "poids": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "09",
+   "texte": "L'Espagne est neutre, mais remplie d'espions allemands. Les documents finiront forcément chez Hitler.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "L'ESPAGNE",
+    "zones": [
+     "espagne"
+    ],
+    "lieux": [
+     {
+      "nom": "NEUTRE",
+      "lon": -3.7,
+      "lat": 40.4,
+      "a": 6,
+      "dessous": true
+     },
+     {
+      "nom": "BERLIN",
+      "lon": 13.4,
+      "lat": 52.5,
+      "style": "cible",
+      "a": 40,
+      "couleur": "rouge",
+      "dessous": true
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       -3.7,
+       40.6
+      ],
+      "vers": [
+       13,
+       52.2
+      ],
+      "a": 30,
+      "couleur": "rouge",
+      "courbe": 0.15
+     }
+    ],
+    "legende": "Pleine d'espions allemands"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Il ne leur manque qu'une chose : un cadavre.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "UN CADAVRE",
+    "taille": 100,
+    "sous": "Il manque une chose…"
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Ils le trouvent à Londres. Glyndwr Michael, un sans-abri gallois.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "LE CORPS",
+    "personnage": "sansabri",
+    "nom": "GLYNDWR MICHAEL",
+    "infos": [
+     "Sans-abri gallois",
+     "Mort à Londres, 1943"
+    ]
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Il est mort après avoir avalé de la mort-aux-rats. Personne n'est venu réclamer son corps.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "flacon",
+    "titre": "CAUSE DU DÉCÈS",
+    "legende": "Mort-aux-rats",
+    "tampon": "NON RÉCLAMÉ",
+    "tamponA": 60,
+    "tamponTop": 1000,
+    "tamponTaille": 84
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Un poison presque impossible à détecter. Pour un médecin, il pourrait passer pour un noyé.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "AUTOPSIE",
+    "entete": "RAPPORT MÉDICAL",
+    "lignes": [
+     "Nom : inconnu",
+     "Poison : non détecté",
+     "Cause probable :"
+    ],
+    "tampon": "NOYADE ?",
+    "tamponTop": 880
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Il va devenir le major William Martin, des Royal Marines.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "SA NOUVELLE IDENTITÉ",
+    "personnage": "officier",
+    "nom": "WILLIAM MARTIN",
+    "infos": [
+     "Major",
+     "Royal Marines",
+     "Né à Cardiff en 1907 (faux)"
+    ]
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Et pour qu'on y croie, il faut lui inventer une vie entière.",
+   "sequence": {
+    "type": "icones",
+    "titre": "UNE FAUSSE VIE",
+    "items": [
+     {
+      "label": "FIANCÉE",
+      "sous": "une photo"
+     },
+     {
+      "label": "LETTRES",
+      "sous": "d'amour"
+     },
+     {
+      "label": "FACTURES",
+      "sous": "et dettes"
+     }
+    ]
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Dans sa poche : la photo de sa fiancée, Pam.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "photo",
+    "ecrit": "Pam",
+    "titre": "DANS SA POCHE",
+    "legende": "Sa fiancée, Pam"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Deux lettres d'amour. Le reçu d'une bague de fiançailles.",
+   "sequence": {
+    "type": "icones",
+    "titre": "DANS SA POCHE",
+    "items": [
+     {
+      "label": "LETTRES",
+      "sous": "d'amour ×2"
+     },
+     {
+      "label": "BAGUE",
+      "sous": "reçu du bijoutier"
+     }
+    ]
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Un ticket de théâtre. Et même une lettre de sa banque qui lui réclame son découvert.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "icones",
+      "titre": "DANS SA POCHE",
+      "items": [
+       {
+        "label": "THÉÂTRE",
+        "sous": "ticket"
+       }
+      ],
+      "poids": 0.8
+     },
+     {
+      "type": "document",
+      "genre": "lettre",
+      "titre": "SA BANQUE",
+      "entete": "LLOYDS BANK",
+      "lignes": [
+       "Cher Monsieur,",
+       "■",
+       "Votre compte est à découvert.",
+       "■"
+      ],
+      "surligne": [
+       "découvert"
+      ],
+      "surligneA": 10,
+      "tampon": "À PAYER",
+      "tamponA": 26,
+      "poids": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Mais Pam n'existe pas. Sur la photo, c'est une employée du MI5.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "photo",
+    "ecrit": "Pam",
+    "titre": "PAM ?",
+    "legende": "Une employée du MI5",
+    "tampon": "FAUSSE",
+    "tamponA": 24,
+    "tamponTop": 880
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Et sur sa carte d'identité, ce visage n'est même pas celui du mort. C'est un autre officier, qui lui ressemblait.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "choc",
+      "photo": "photos/affaire-02-martin.png",
+      "srcW": 1400,
+      "visage": {
+       "x": 1105,
+       "y": 420
+      },
+      "texte": "CE N'EST PAS LUI",
+      "poids": 1
+     },
+     {
+      "type": "fiche",
+      "titre": "LE VISAGE",
+      "personnage": "officier",
+      "nom": "UN SOSIE",
+      "infos": [
+       "Un officier vivant",
+       "qui lui ressemblait"
+      ],
+      "poids": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Le plus important est dans sa mallette, attachée à son manteau par une chaîne.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "mallette",
+    "titre": "LA MALLETTE"
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Une lettre secrète entre deux généraux britanniques. Le vrai débarquement, dit-elle, visera la Grèce et la Sardaigne.",
+   "sequence": {
+    "type": "document",
+    "genre": "lettre",
+    "titre": "LA FAUSSE LETTRE",
+    "entete": "MOST SECRET",
+    "sousEntete": "D'un général à un autre",
+    "lignes": [
+     "■",
+     "Débarquement : GRÈCE",
+     "■",
+     "Et aussi : SARDAIGNE",
+     "■"
+    ],
+    "surligne": [
+     "GRÈCE",
+     "SARDAIGNE"
+    ]
+   }
+  },
+  {
+   "id": "23",
+   "texte": "La Sicile ? Juste une diversion.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "ET LA SICILE ?",
+    "zones": [
+     "grece",
+     "sardaigne"
+    ],
+    "lieux": [
+     {
+      "lon": 14.2,
+      "lat": 37.6,
+      "style": "barre",
+      "a": 14
+     },
+     {
+      "nom": "DIVERSION",
+      "lon": 14.2,
+      "lat": 37.6,
+      "a": 20,
+      "couleur": "rouge",
+      "dessous": true,
+      "dy": 80
+     }
+    ]
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Le 30 avril 1943, avant l'aube, le sous-marin britannique Seraph fait surface au large de Huelva, en Espagne.",
+   "sequence": {
+    "type": "scene",
+    "decor": "sousmarin",
+    "titre": "30 AVRIL 1943",
+    "legende": "HMS Seraph · au large de Huelva",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "25",
+   "texte": "L'équipage glisse le corps à l'eau, et laisse les vagues faire le reste.",
+   "sequence": {
+    "type": "scene",
+    "decor": "derive",
+    "titre": "AVANT L'AUBE"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Quelques heures plus tard, un pêcheur espagnol le découvre.",
+   "sequence": {
+    "type": "scene",
+    "decor": "plage",
+    "titre": "HUELVA",
+    "personnages": [
+     {
+      "nom": "pecheur",
+      "x": 620,
+      "y": 1190,
+      "s": 300,
+      "miroir": true
+     }
+    ],
+    "legende": "Un pêcheur le découvre",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Les Espagnols ouvrent les lettres, les photographient, et transmettent tout aux Allemands.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "document",
+      "genre": "lettre",
+      "titre": "EN ESPAGNE",
+      "entete": "MOST SECRET",
+      "lignes": [
+       "■",
+       "Débarquement : GRÈCE",
+       "■"
+      ],
+      "tampon": "PHOTOGRAPHIÉ",
+      "tamponA": 14,
+      "poids": 1
+     },
+     {
+      "type": "carte_med",
+      "titre": "DIRECTION BERLIN",
+      "fleches": [
+       {
+        "de": [
+         -6.9,
+         37.3
+        ],
+        "vers": [
+         13,
+         52.2
+        ],
+        "a": 4,
+        "couleur": "rouge",
+        "courbe": 0.15
+       }
+      ],
+      "lieux": [
+       {
+        "nom": "HUELVA",
+        "lon": -6.95,
+        "lat": 37.25,
+        "a": 0,
+        "dessous": true
+       },
+       {
+        "nom": "BERLIN",
+        "lon": 13.4,
+        "lat": 52.5,
+        "style": "cible",
+        "couleur": "rouge",
+        "a": 20,
+        "dessous": true
+       }
+      ],
+      "poids": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Puis ils les referment, et les rendent aux Britanniques comme si de rien n'était.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "enveloppe",
+    "titre": "COMME NEUVES",
+    "legende": "Refermées… et rendues"
+   }
+  },
+  {
+   "id": "29",
+   "texte": "Le major Martin, lui, est enterré à Huelva, avec les honneurs militaires.",
+   "sequence": {
+    "type": "scene",
+    "decor": "tombe",
+    "titre": "HUELVA",
+    "legende": "Honneurs militaires",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "30",
+   "texte": "À Londres, il ne reste plus qu'à attendre. Les Allemands vont-ils y croire ?",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LONDRES",
+    "valeur": 14,
+    "unite": "jours d'attente",
+    "legende": "Vont-ils y croire ?"
+   }
+  },
+  {
+   "id": "31",
+   "texte": "Mi-mai, les Britanniques déchiffrent des messages allemands secrets.",
+   "sequence": {
+    "type": "document",
+    "genre": "code",
+    "titre": "MI-MAI 1943",
+    "entete": "MESSAGE ALLEMAND INTERCEPTÉ",
+    "lignes": [
+     "DOCUMENTS",
+     "JUGÉS",
+     "AUTHENTIQUES"
+    ]
+   }
+  },
+  {
+   "id": "32",
+   "texte": "Un télégramme part chez Churchill : ils ont tout avalé.",
+   "sequence": {
+    "type": "document",
+    "genre": "telegramme",
+    "titre": "POUR CHURCHILL",
+    "entete": "TÉLÉGRAMME",
+    "lignes": [
+     "MINCEMEAT AVALÉ",
+     "HAMEÇON, LIGNE",
+     "ET PLOMB"
+    ],
+    "tampon": "AVALÉ",
+    "tamponA": 40,
+    "tamponTop": 900
+   }
+  },
+  {
+   "id": "33",
+   "texte": "Hitler envoie des renforts en Grèce. En Sardaigne, les troupes sont doublées.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "HITLER Y CROIT",
+    "zones": [
+     "grece",
+     "sardaigne"
+    ],
+    "fleches": [
+     {
+      "de": [
+       4,
+       47.5
+      ],
+      "vers": [
+       21.5,
+       39.8
+      ],
+      "a": 8,
+      "couleur": "rouge",
+      "courbe": 0.12,
+      "label": "RENFORTS",
+      "labelDy": -60
+     },
+     {
+      "de": [
+       11.5,
+       44
+      ],
+      "vers": [
+       9.4,
+       40.4
+      ],
+      "a": 34,
+      "couleur": "rouge",
+      "courbe": -0.2
+     }
+    ],
+    "lieux": [
+     {
+      "nom": "× 2",
+      "lon": 9,
+      "lat": 40,
+      "a": 50,
+      "couleur": "rouge",
+      "taille": 64,
+      "dessous": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "34",
+   "texte": "Pendant ce temps, la Sicile reste moins bien défendue.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "PENDANT CE TEMPS",
+    "zones": [
+     "sicile"
+    ],
+    "lieux": [
+     {
+      "nom": "MOINS DÉFENDUE",
+      "lon": 14.2,
+      "lat": 37.6,
+      "style": "cible",
+      "a": 10,
+      "dessous": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "35",
+   "texte": "En juillet 1943, environ 160 000 soldats alliés débarquent en Sicile.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "JUILLET 1943",
+    "valeur": 160000,
+    "milliers": true,
+    "taille": 200,
+    "unite": "soldats alliés",
+    "legende": "débarquent en Sicile"
+   }
+  },
+  {
+   "id": "36",
+   "texte": "L'île tombe en un peu plus d'un mois.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "SICILE",
+    "dates": [
+     {
+      "an": "Juil. 1943",
+      "label": "Débarquement"
+     },
+     {
+      "an": "Août 1943",
+      "label": "L'île est prise"
+     }
+    ]
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "37",
+   "texte": "Et le vrai nom du major Martin ? Il restera un secret pendant plus de cinquante ans.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "SON VRAI NOM ?",
+    "sous": "Secret pendant 50 ans"
+   }
+  },
+  {
+   "id": "38",
+   "texte": "En 1996, un historien amateur retrouve enfin la trace de Glyndwr Michael dans les archives.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "1996",
+    "entete": "ARCHIVES NATIONALES",
+    "sousEntete": "Londres",
+    "lignes": [
+     "Major William Martin",
+     "= GLYNDWR MICHAEL"
+    ],
+    "surligne": [
+     "GLYNDWR",
+     "MICHAEL"
+    ],
+    "tampon": "IDENTIFIÉ",
+    "tamponA": 50,
+    "tamponTop": 880
+   }
+  },
+  {
+   "id": "39",
+   "texte": "Aujourd'hui, sur sa tombe en Espagne, son vrai nom a été ajouté.",
+   "sequence": {
+    "type": "scene",
+    "decor": "tombe",
+    "graver": true,
+    "titre": "AUJOURD'HUI",
+    "legende": "Son vrai nom, enfin",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "40",
+   "texte": "Un sans-abri oublié de tous… qui a peut-être changé le cours de la guerre.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "AFFAIRE Nº 2",
+     "MARTIN, William"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "41",
+   "texte": "Quelle affaire veux-tu que j'ouvre la prochaine fois ? Écris-la en commentaire. Et abonne-toi pour ne rater aucun dossier.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "✍️ Ton prochain dossier ?"
+   }
+  }
+ ]
+}

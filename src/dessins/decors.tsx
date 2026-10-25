@@ -194,7 +194,182 @@ export const Bureau: React.FC<{ frame: number }> = () => (
   </g>
 );
 
-export const DECORS: Record<string, React.FC<{ frame: number }>> = {
+// ============================================================================================
+// Affaire nº 2 (Opération Mincemeat)
+// ============================================================================================
+const CIEL_NUIT = "#0A1730";
+const MER = "#11284A";
+const MER_CLAIRE = "#1B3A63";
+
+const Vagues: React.FC<{ frame: number; y0: number; n?: number; couleur?: string }> = ({ frame, y0, n = 6, couleur = "rgba(236,230,216,.16)" }) => (
+  <g>
+    {Array.from({ length: n }, (_, i) => {
+      const y = y0 + i * 90;
+      const dx = ((frame * (1.5 + i * 0.3)) % 160) - 160;
+      let d = `M${dx} ${y}`;
+      for (let x = dx; x < 1240; x += 80) d += ` q20 -14 40 0 t40 0`;
+      return <path key={i} d={d} stroke={couleur} strokeWidth={4} fill="none" />;
+    })}
+  </g>
+);
+
+const Lune: React.FC<{ x: number; y: number }> = ({ x, y }) => (
+  <g>
+    <circle cx={x} cy={y} r={120} fill="rgba(236,230,216,.06)" />
+    <circle cx={x} cy={y} r={56} fill={CREME} opacity={0.85} />
+  </g>
+);
+
+const Etoiles: React.FC = () => (
+  <g>
+    {Array.from({ length: 28 }, (_, i) => (
+      <circle key={i} cx={(i * 389) % 1080} cy={280 + ((i * 211) % 640)} r={i % 3 === 0 ? 3 : 2} fill={CREME} opacity={0.5} />
+    ))}
+  </g>
+);
+
+/** Côte de Sicile la nuit : falaise, mer, projecteur qui balaie. Personnages sur la falaise (sol 1350). */
+export const Cote: React.FC<{ frame: number }> = ({ frame }) => {
+  const a = Math.sin(frame / 25) * 22 - 30;
+  return (
+    <g>
+      <rect x={0} y={0} width={1080} height={1920} fill={CIEL_NUIT} />
+      <Etoiles />
+      <rect x={0} y={1080} width={1080} height={840} fill={MER} />
+      <Vagues frame={frame} y0={1130} n={4} />
+      <g transform={`rotate(${a} 160 1240)`}>
+        <path d="M160 1240 L1300 1040 L1300 1320 Z" fill="rgba(255,232,170,.13)" />
+      </g>
+      <path d="M0 1350 L0 1250 Q300 1225 540 1245 Q800 1265 1080 1235 L1080 1350 Z" fill="#1C2A3E" />
+      <rect x={0} y={1350} width={1080} height={570} fill="#121E30" />
+      <circle cx={160} cy={1240} r={26} fill={JAUNE} opacity={0.9} />
+    </g>
+  );
+};
+
+/** Mer de nuit, lune, sous-marin qui fait surface (frame anime la montée). */
+export const SousMarin: React.FC<{ frame: number }> = ({ frame }) => {
+  const monte = Math.min(1, frame / 45);
+  const y = 1080 - 70 * monte + Math.sin(frame / 14) * 4;
+  return (
+    <g>
+      <rect x={0} y={0} width={1080} height={1920} fill={CIEL_NUIT} />
+      <Etoiles />
+      <Lune x={820} y={560} />
+      <rect x={0} y={1020} width={1080} height={900} fill={MER} />
+      <path d="M770 1020 L870 1020 L860 1900 L780 1900 Z" fill="rgba(236,230,216,.06)" />
+      <g transform={`translate(540 ${y})`}>
+        <path d="M-420 40 Q-440 0 -380 -10 L380 -10 Q460 0 420 40 Q300 70 0 70 Q-300 70 -420 40 Z" fill="#2B3646" />
+        <path d="M-70 -10 L-60 -120 L80 -120 L110 -10 Z" fill="#2B3646" />
+        <rect x={-30} y={-170} width={8} height={50} fill="#2B3646" />
+        <rect x={30} y={-150} width={6} height={30} fill="#2B3646" />
+        <text x={10} y={-50} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={34} fill="rgba(236,230,216,.55)">
+          P219
+        </text>
+      </g>
+      <rect x={0} y={1076} width={1080} height={850} fill={MER} opacity={0.55} />
+      <Vagues frame={frame} y0={1090} n={9} />
+    </g>
+  );
+};
+
+/** Le corps dérive vers la côte espagnole avant l'aube (gilet de sauvetage jaune). */
+export const Derive: React.FC<{ frame: number }> = ({ frame }) => {
+  const u = Math.min(1, frame / 120);
+  const x = 180 + 480 * u;
+  const y = 1090 + Math.sin(frame / 10) * 10;
+  return (
+    <g>
+      <rect x={0} y={0} width={1080} height={1920} fill="#14284A" />
+      <rect x={0} y={600} width={1080} height={390} fill="#2A3F66" opacity={0.6} />
+      <path d="M760 960 Q900 920 1080 940 L1080 1020 L760 1020 Z" fill="#3A3A40" />
+      <rect x={0} y={990} width={1080} height={930} fill={MER_CLAIRE} />
+      <Vagues frame={frame} y0={1030} n={10} />
+      <g transform={`translate(${x} ${y}) rotate(${Math.sin(frame / 12) * 4})`}>
+        <rect x={-120} y={-22} width={200} height={40} rx={20} fill="#B9A57A" />
+        <rect x={-60} y={-28} width={70} height={50} rx={14} fill={JAUNE} />
+        <circle cx={104} cy={-4} r={22} fill="#B9A57A" />
+      </g>
+      <rect x={0} y={1102} width={1080} height={830} fill={MER_CLAIRE} opacity={0.5} />
+    </g>
+  );
+};
+
+/** Plage de Huelva à l'aube : mer, sable, barque, corps allongé sur le sable. */
+export const Plage: React.FC<{ frame: number }> = ({ frame }) => (
+  <g>
+    <defs>
+      <linearGradient id="aube" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stopColor="#1B2D52" />
+        <stop offset="1" stopColor="#C98A5E" />
+      </linearGradient>
+    </defs>
+    <rect x={0} y={0} width={1080} height={940} fill="url(#aube)" />
+    <circle cx={260} cy={940} r={90} fill="#F2C178" opacity={0.85} />
+    <rect x={0} y={920} width={1080} height={160} fill={MER_CLAIRE} />
+    <Vagues frame={frame} y0={960} n={2} />
+    <g transform={`translate(780 ${990 + Math.sin(frame / 15) * 4})`}>
+      <path d="M-90 0 L90 0 L70 30 L-70 30 Z" fill="#6E4630" />
+      <rect x={-4} y={-90} width={8} height={90} fill="#6E4630" />
+    </g>
+    <path d="M0 1080 Q300 1050 600 1075 Q850 1095 1080 1070 L1080 1920 L0 1920 Z" fill="#C9A86A" />
+    <path d="M0 1080 Q300 1050 600 1075 Q850 1095 1080 1070" stroke="rgba(236,230,216,.6)" strokeWidth={8} fill="none" />
+    {/* corps allongé (uniforme kaki + gilet) */}
+    <g transform="translate(330 1150)">
+      <rect x={-130} y={-24} width={220} height={44} rx={22} fill="#B9A57A" />
+      <rect x={-70} y={-30} width={76} height={56} rx={14} fill={JAUNE} />
+      <circle cx={112} cy={-2} r={24} fill="#B9A57A" />
+    </g>
+  </g>
+);
+
+/** Cimetière de Huelva : pierre tombale « William Martin ». p.graver = un nouveau nom se grave. */
+export const Tombe: React.FC<{ frame: number; p?: any }> = ({ frame, p = {} }) => {
+  const g = p.graver ? Math.min(1, Math.max(0, (frame - 20) / 40)) : 0;
+  const nom = "GLYNDWR MICHAEL";
+  return (
+    <g>
+      <rect x={0} y={0} width={1080} height={1920} fill="#13233D" />
+      <Etoiles />
+      {[150, 930].map((x) => (
+        <g key={x}>
+          <rect x={x - 12} y={900} width={24} height={450} fill="#1A2C46" />
+          <ellipse cx={x} cy={880} rx={90} ry={150} fill="#1A2C46" />
+        </g>
+      ))}
+      <rect x={0} y={1350} width={1080} height={570} fill="#0F1C2E" />
+      {/* drapeau britannique sur la tombe */}
+      {p.drapeau !== false && (
+        <g transform="translate(250 1060)">
+          <rect x={0} y={0} width={8} height={290} fill="#C9CDD4" />
+          <g transform={`translate(8 4) skewY(${Math.sin(frame / 10) * 3})`}>
+            <rect width={150} height={90} fill="#24407A" />
+            <path d="M0 0 L150 90 M150 0 L0 90" stroke={CREME} strokeWidth={18} />
+            <path d="M0 0 L150 90 M150 0 L0 90" stroke={ROUGE_DRAPEAU} strokeWidth={6} />
+            <path d="M75 0 V90 M0 45 H150" stroke={CREME} strokeWidth={26} />
+            <path d="M75 0 V90 M0 45 H150" stroke={ROUGE_DRAPEAU} strokeWidth={14} />
+          </g>
+        </g>
+      )}
+      <path d="M380 1350 V900 Q380 800 540 800 Q700 800 700 900 V1350 Z" fill="#C9C3B6" />
+      <path d="M520 840 h40 v40 h40 v40 h-40 v80 h-40 v-80 h-40 v-40 h40 Z" fill="#A9A396" />
+      <text x={540} y={1090} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={34} fill="#4A4A4A">
+        WILLIAM MARTIN
+      </text>
+      <text x={540} y={1136} textAnchor="middle" fontFamily="Poppins" fontWeight={500} fontSize={28} fill="#5A5A5A">
+        1907 – 1943
+      </text>
+      {g > 0 && (
+        <text x={540} y={1220} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={32} fill="#2A2A2A">
+          {nom.slice(0, Math.round(nom.length * g))}
+        </text>
+      )}
+    </g>
+  );
+};
+const ROUGE_DRAPEAU = "#C8102E";
+
+export const DECORS: Record<string, React.FC<{ frame: number; p?: any }>> = {
   maison: Maison,
   paquebot: Paquebot,
   hotel: Hotel,
@@ -203,4 +378,9 @@ export const DECORS: Record<string, React.FC<{ frame: number }>> = {
   alcatraz: Alcatraz,
   ville: Ville,
   bureau: Bureau,
+  cote: Cote,
+  sousmarin: SousMarin,
+  derive: Derive,
+  plage: Plage,
+  tombe: Tombe,
 };

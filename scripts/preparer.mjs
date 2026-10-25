@@ -217,9 +217,10 @@ async function main() {
   const couverture = {
     titre: episode.couverture?.titre || (episode.titre || "").toUpperCase(),
     sous: episode.couverture?.sous || `Affaire nº ${episode.numero} · ${episode.personnage}`,
-    photo: episode.photo?.fichier || null,
-    visage: episode.photo?.visage || { x: 0, y: 0 },
-    largeur: episode.photo?.largeur || 540,
+    // la couverture peut utiliser son propre recadrage (couverture.photo / visage / largeur)
+    photo: episode.couverture?.photo || episode.photo?.fichier || null,
+    visage: episode.couverture?.visage || episode.photo?.visage || { x: 0, y: 0 },
+    largeur: episode.couverture?.largeur || episode.photo?.largeur || 540,
   };
   const timeline = { episode: episode.id, fps: FPS, total: debut + 15, avecVoix: !sansVoix, couverture, lignes };
   fs.mkdirSync(path.join(RACINE, "src/generated"), { recursive: true });

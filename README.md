@@ -71,21 +71,22 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 | `scene` | Décor + personnages + accessoires | `decor`, `personnages[]`, `tampon`, `legende`, `cartes`, `billets`, `corde`, `gyrophare`, `menottes` |
 | `icones` | Bulles qui apparaissent une à une | `grand`, `items[]` |
 | `carte` | Trajet en pointillés entre des lieux | `points[]`, `voyageur` (bateau, sac) |
-| `objet` | La boîte à billets (apparition, billet, vue en coupe) | `mode` |
-| `compteur` | Horloge ou jours qui défilent | `mode`, `valeur` |
+| `objet` | La boîte à billets (apparition, billet, vue en coupe), ou un objet dessiné | `mode`, ou `dessin` (mallette, flacon, photo, enveloppe) + `legende`, `tampon` |
+| `compteur` | Horloge ou nombre qui défile | `mode`, `valeur`, `unite`, `milliers`, `taille` |
 | `chiffre` | Somme d'argent qui monte, option « × 2 » | `valeur`, `unite`, `x2`, `sous` |
-| `document` | Coupure de presse, papier à en-tête, affiche, carte de visite | `genre`, `manchette`, `tampon` |
-| `secret` | Cadenas + « chut » | `texte` |
+| `document` | Coupure de presse, papier à en-tête, affiche, carte de visite, lettre, rapport, télégramme, message codé | `genre`, `manchette`, `entete`, `lignes[]` (« ■ » = ligne caviardée), `surligne[]`, `tampon` |
+| `secret` | Cadenas (+ Lustig qui fait « chut » par défaut) | `texte`, `sous`, `personnage` (« aucun » pour le cadenas seul) |
 | `flux` | Un sac ou une valise passe d'un personnage à l'autre | `de`, `vers`, `objet`, `retour`, `mot` |
 | `barre` | Mot barré en rouge, personnage tête basse | `mot`, `personnage` |
 | `tour` | Tour Eiffel (rouille, démontage, « À VENDRE », police) | `rouille`, `casse`, `etiquette`, `police` |
 | `chronologie` | Les grandes dates | `dates[]` |
 | `fin` | Le dossier se referme, tampon « DOSSIER CLASSÉ » | `etiquette` |
 | `cta` | Bulle « Ton prochain dossier ? » + s'abonner | `bulle` |
+| `carte_med` | Carte de l'Europe et de la Méditerranée (vrais contours) | `zones[]` (afrique, sicile, sardaigne, grece, espagne), `lieux[]` (nom, lon, lat, style : point, cible, barre), `fleches[]` (de, vers, label) |
 | `etapes` | Plusieurs séquences dans une même phrase | `etapes[]` |
 
-**Personnages** : `lustig`, `ferrailleur`, `poisson`, `passager`, `passagere`, `capone`, `shaw`, `agent`, `policier`, `victime`.
-**Décors** : `maison`, `paquebot`, `hotel`, `prison`, `consignes`, `alcatraz`, `ville`, `bureau`.
+**Personnages** : `lustig`, `ferrailleur`, `poisson`, `passager`, `passagere`, `capone`, `shaw`, `agent`, `policier`, `victime`, `officier`, `soldat`, `pecheur`, `sansabri`, `employee`. Option `rot` pour incliner un personnage.
+**Décors** : `maison`, `paquebot`, `hotel`, `prison`, `consignes`, `alcatraz`, `ville`, `bureau`, `cote`, `sousmarin`, `derive`, `plage`, `tombe` (option `graver`).
 
 ---
 

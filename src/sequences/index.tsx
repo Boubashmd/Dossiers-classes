@@ -31,9 +31,10 @@ import {
   txt,
 } from "../theme";
 import { Lustig, PERSONNAGES, Silhouette } from "../dessins/personnages";
-import { Billet, Boite, Cadenas, Carte, Etiquette, Gyrophare, Horloge, Menottes, Sac, Tour, Trombone, Valise } from "../dessins/objets";
+import { Billet, Boite, Cadenas, Carte, Enveloppe, Etiquette, Flacon, Gyrophare, Horloge, Mallette, Menottes, PhotoPortrait, Sac, Tour, Trombone, Valise } from "../dessins/objets";
 import { DECORS } from "../dessins/decors";
 import { Intro } from "./Generique";
+import { CarteMed } from "./CarteMed";
 import config from "../../config.json";
 
 // --------------------------------------------------------------------------------------------
@@ -78,7 +79,9 @@ const Perso: React.FC<{ nom: string; x: number; y: number; s: number; f: number;
       </g>
     );
   const reglages = PERSONNAGES[nom] || PERSONNAGES.passager;
-  return <Silhouette x={x} y={y} s={s} o={o} tete={Math.sin(f / 9 + x) * 4} {...reglages} {...extra} />;
+  const sil = <Silhouette x={x} y={y} s={s} o={o} tete={Math.sin(f / 9 + x) * 4} {...reglages} {...extra} />;
+  // extra.rot : personnage incliné (ex. 90 = allongé), pivote autour des pieds
+  return extra.rot ? <g transform={`rotate(${extra.rot} ${x} ${y})`}>{sil}</g> : sil;
 };
 
 // ============================================================================================
@@ -243,7 +246,7 @@ const Scene: React.FC<SeqProps> = ({ p, dur }) => {
     <AbsoluteFill>
       <Sfx at={0} son="swoosh" volume={0.35} />
       <Svg>
-        {Decor && <Decor frame={f} />}
+        {Decor && <Decor frame={f} p={p} />}
         {persos.map((pp, i) => {
           const k = ressort(f, fps, 4 + i * 4, { damping: 12, stiffness: 140 });
           const x = pp.x ?? (n === 1 ? 540 : 200 + (680 * i) / Math.max(1, n - 1));
@@ -415,6 +418,7 @@ const Objet: React.FC<SeqProps> = ({ p, dur }) => {
   const mode = p.mode || "apparait";
   const billet = prog(f, 12, 30, io);
   const coupe = mode === "coupe" ? prog(f, 10, 18) : 0;
+  if (p.dessin) return <ObjetDessin p={p} dur={dur} f={f} k={k} />;
   return (
     <AbsoluteFill>
       <Titre texte={p.titre} k={prog(f, 0, 10)} />
@@ -432,6 +436,39 @@ const Objet: React.FC<SeqProps> = ({ p, dur }) => {
         <Texte top={1300} size={52} color={JAUNE} k={prog(f, dur * 0.4, 12)}>
           {p.revelation || "Un vrai billet, caché à l'avance"}
         </Texte>
+      )}
+    </AbsoluteFill>
+  );
+};
+
+/** Objet dessiné (mallette, flacon, photo, enveloppe) : apparition + légende + tampon éventuel. */
+const ObjetDessin: React.FC<{ p: any; dur: number; f: number; k: number }> = ({ p, dur, f, k }) => {
+  const { fps } = useVideoConfig();
+  const s = Math.min(1, k);
+  const y = 960 + (1 - s) * 200;
+  const tamponA = p.tamponA ?? Math.round(dur * 0.5);
+  return (
+    <AbsoluteFill>
+      <Sfx at={2} son="pop" volume={0.5} />
+      <Titre texte={p.titre} k={prog(f, 0, 10)} />
+      <AbsoluteFill style={{ background: "radial-gradient(circle at 50% 50%, rgba(255,212,0,.10) 0%, rgba(0,0,0,0) 45%)" }} />
+      <Svg o={s}>
+        {p.dessin === "mallette" && <Mallette x={540} y={y} s={640 * (0.8 + 0.2 * s)} chaine={prog(f, 10, 24)} />}
+        {p.dessin === "flacon" && <Flacon x={540} y={y} s={420 * (0.8 + 0.2 * s)} />}
+        {p.dessin === "photo" && <PhotoPortrait x={540} y={y} s={520 * (0.8 + 0.2 * s)} rot={-4 + (1 - s) * 10} legende={p.ecrit} />}
+        {p.dessin === "enveloppe" && <Enveloppe x={540} y={y} s={720 * (0.8 + 0.2 * s)} cachet={ressort(f, fps, Math.round(dur * 0.45), { damping: 9, stiffness: 200 })} />}
+      </Svg>
+      {p.dessin === "enveloppe" && <Sfx at={Math.round(dur * 0.45)} son="tampon" volume={0.5} />}
+      {p.legende && (
+        <Texte top={p.legendeTop || 400} size={62} k={prog(f, 8, 12)}>
+          {p.legende}
+        </Texte>
+      )}
+      {p.tampon && (
+        <>
+          <Sfx at={tamponA} son="tampon" volume={0.7} />
+          <Tampon texte={p.tampon} k={ressort(f, fps, tamponA, { damping: 9, stiffness: 230 })} top={p.tamponTop || 900} size={p.tamponTaille || 120} />
+        </>
       )}
     </AbsoluteFill>
   );
@@ -458,8 +495,8 @@ const Compteur: React.FC<SeqProps> = ({ p, dur }) => {
         </>
       ) : (
         <>
-          <Texte top={640} size={300} color={JAUNE}>
-            {Math.floor(v)}
+          <Texte top={p.taille ? 760 - p.taille / 2 : 640} size={p.taille || 300} color={JAUNE}>
+            {p.milliers ? Math.floor(v).toLocaleString("fr-FR").replace(/[\u202f\u00a0]/g, " ") : Math.floor(v)}
           </Texte>
           <Texte top={1000} size={80}>
             {p.unite || "jours"}
@@ -526,6 +563,44 @@ const Document: React.FC<SeqProps> = ({ p, dur }) => {
     entete: { background: "#F6F2EA", width: 760, padding: "50px 56px" },
     affiche: { background: "#F2D27A", width: 700, padding: "60px 50px", textAlign: "center" },
     carte_visite: { background: CREME, width: 760, padding: "50px 40px", textAlign: "center", borderRadius: 12 },
+    lettre: { background: "#F3EEE2", width: 800, padding: "50px 56px" },
+    telegramme: { background: "#F2E6B8", width: 820, padding: "40px 50px", fontFamily: "monospace" },
+    rapport: { background: "#EAF0F2", width: 800, padding: "50px 56px" },
+    code: { background: "#E8E2D2", width: 820, padding: "46px 50px", fontFamily: "monospace" },
+  };
+  const lignes: string[] = p.lignes || [];
+  const surligne: string[] = p.surligne || [];
+  const ligneAvecSurligne = (l: string, i: number) => {
+    if (l.startsWith("■")) return <div key={i} style={{ height: 26, background: "#2A2620", margin: "22px 0", width: `${55 + ((i * 37) % 40)}%`, borderRadius: 3 }} />;
+    const mots = l.split(" ");
+    const kl = prog(f, 10 + i * 6, 10);
+    return (
+      <div key={i} style={{ margin: "16px 0", opacity: kl, ...txt(p.tailleLignes || 44, "#2A2620", 600) }}>
+        {mots.map((m, j) => {
+          const s = surligne.some((w) => m.toUpperCase().includes(w.toUpperCase()));
+          const ks = s ? prog(f, (p.surligneA ?? Math.round(dur * 0.45)) + j * 2, 10) : 0;
+          return (
+            <span key={j} style={{ padding: "0 6px", background: s ? `linear-gradient(90deg, rgba(255,212,0,.85) ${ks * 100}%, rgba(255,212,0,0) ${ks * 100}%)` : undefined }}>
+              {m}
+            </span>
+          );
+        })}
+      </div>
+    );
+  };
+  const brouille = (l: string, i: number) => {
+    const fin = (p.decodeA ?? Math.round(dur * 0.35)) + i * 8;
+    const u = interpolate(f, [fin - 20, fin + 20], [0, 1], C);
+    const ALPHA = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const t = l
+      .split("")
+      .map((c, j) => (c === " " || j / l.length < u ? c : ALPHA[(j * 7 + i * 13 + Math.floor(f / 2) * 5) % 26]))
+      .join("");
+    return (
+      <div key={i} style={{ margin: "14px 0", letterSpacing: 4, ...txt(46, u >= 1 ? "#A3282A" : "#2A2620", 700), fontFamily: "monospace" }}>
+        {t}
+      </div>
+    );
   };
   return (
     <AbsoluteFill>
@@ -559,6 +634,24 @@ const Document: React.FC<SeqProps> = ({ p, dur }) => {
               <div style={txt(30, "#2A2620", 500)}>Investisseurs recherchés</div>
             </>
           )}
+          {(genre === "lettre" || genre === "rapport" || genre === "telegramme") && (
+            <>
+              {p.entete && (
+                <div style={{ textAlign: "center", ...txt(34, genre === "lettre" ? "#A3282A" : "#3A4150", 700, { letterSpacing: 6 }), fontFamily: genre === "telegramme" ? "monospace" : undefined }}>
+                  {p.entete}
+                </div>
+              )}
+              {p.sousEntete && <div style={{ textAlign: "center", ...txt(26, "#6A7280", 500, { letterSpacing: 3, marginTop: 6 }) }}>{p.sousEntete}</div>}
+              <div style={{ height: 3, background: genre === "lettre" ? "#A3282A" : "#3A4150", margin: "22px 60px 26px" }} />
+              {lignes.map(ligneAvecSurligne)}
+            </>
+          )}
+          {genre === "code" && (
+            <>
+              {p.entete && <div style={{ textAlign: "center", ...txt(30, "#3A4150", 700, { letterSpacing: 6 }), marginBottom: 20 }}>{p.entete}</div>}
+              {lignes.map(brouille)}
+            </>
+          )}
           {genre === "carte_visite" && (
             <>
               <div style={txt(28, GRIS, 500, { letterSpacing: 3 })}>{p.ministere || "MINISTÈRE DES POSTES ET TÉLÉGRAPHES"}</div>
@@ -577,7 +670,7 @@ const Document: React.FC<SeqProps> = ({ p, dur }) => {
       {p.tampon && (
         <>
           <Sfx at={tamponA} son="tampon" volume={0.7} />
-          <Tampon texte={p.tampon} k={ressort(f, fps, tamponA, { damping: 9, stiffness: 230 })} top={genre === "carte_visite" ? 700 : 820} />
+          <Tampon texte={p.tampon} k={ressort(f, fps, tamponA, { damping: 9, stiffness: 230 })} top={p.tamponTop || (genre === "carte_visite" ? 700 : 820)} />
         </>
       )}
     </AbsoluteFill>
@@ -594,12 +687,15 @@ const Secret: React.FC<SeqProps> = ({ p }) => {
   return (
     <AbsoluteFill>
       <Sfx at={8} son="pop" volume={0.5} />
-      <div style={{ position: "absolute", top: 330, width: "100%", display: "flex", flexDirection: "column", alignItems: "center", transform: `scale(${k})`, opacity: Math.min(1, k * 1.4) }}>
+      <Titre texte={p.titre} k={prog(f, 0, 10)} />
+      <div style={{ position: "absolute", top: p.personnage === "aucun" ? 560 : 330, width: "100%", display: "flex", flexDirection: "column", alignItems: "center", transform: `scale(${k})`, opacity: Math.min(1, k * 1.4) }}>
         <Cadenas />
-        <div style={txt(80, JAUNE, 700, { letterSpacing: 12, marginTop: 10 })}>{p.texte || "SECRET"}</div>
+        <div style={txt(p.taille || 80, JAUNE, 700, { letterSpacing: 12, marginTop: 10, textAlign: "center" })}>{p.texte || "SECRET"}</div>
+        {p.sous && <div style={{ ...txt(50, CREME, 500, { marginTop: 24, textAlign: "center" }), opacity: prog(f, 20, 12) }}>{p.sous}</div>}
       </div>
       <Svg>
-        <Perso nom="lustig" x={540} y={1400} s={600} f={f} extra={{ doigt: prog(f, 4, 14, io) }} />
+        {(p.personnage ?? "lustig") === "lustig" && <Perso nom="lustig" x={540} y={1400} s={600} f={f} extra={{ doigt: prog(f, 4, 14, io) }} />}
+        {p.personnage && p.personnage !== "lustig" && p.personnage !== "aucun" && <Perso nom={p.personnage} x={540} y={1350} s={420} f={f} extra={p.extra} />}
       </Svg>
     </AbsoluteFill>
   );
@@ -860,6 +956,7 @@ export const SEQUENCES: Record<string, React.FC<SeqProps>> = {
   cta: Cta,
   fin: Fin,
   etapes: Etapes,
+  carte_med: CarteMed,
 };
 
 export const RenduSequence: React.FC<SeqProps> = (props) => {

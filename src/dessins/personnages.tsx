@@ -74,7 +74,7 @@ export const Lustig: React.FC<{ frame: number; expr?: "malin" | "content" | "inq
   );
 };
 
-export type Chapeau = "casquette" | "fedora" | "melon" | "kepi" | "aucun";
+export type Chapeau = "casquette" | "fedora" | "melon" | "kepi" | "officier" | "casque" | "beret" | "aucun";
 
 export interface SilhouetteProps {
   x: number;
@@ -154,6 +154,22 @@ export const Silhouette: React.FC<SilhouetteProps> = ({
             <rect x={-15} y={-99} width={30} height={4} fill={ruban || JAUNE} />
           </g>
         )}
+        {chapeau === "officier" && (
+          <g>
+            <path d="M-21 -93 Q0 -101 21 -93 L17 -86 L-17 -86 Z" fill={couleur} />
+            <path d="M-17 -88 L-16 -95 L16 -95 L17 -88 Z" fill={couleur} />
+            <rect x={-17} y={-91} width={34} height={4} fill={ruban || NOIR} />
+            <path d="M2 -87 L28 -84 L26 -81 L2 -83 Z" fill={NOIR} />
+          </g>
+        )}
+        {chapeau === "casque" && (
+          <g>
+            <path d="M-19 -84 Q-21 -106 0 -107 Q21 -106 19 -84 Z" fill={couleur} />
+            <path d="M-24 -78 L-19 -88 L19 -88 L26 -78 Z" fill={couleur} />
+            <path d="M-19 -88 L19 -88" stroke="rgba(11,22,38,.35)" strokeWidth={2} />
+          </g>
+        )}
+        {chapeau === "beret" && <ellipse cx={-2} cy={-95} rx={20} ry={8} fill={couleur} />}
       </g>
       {main > 0 && (
         <g opacity={main}>
@@ -176,4 +192,10 @@ export const PERSONNAGES: Record<string, Partial<SilhouetteProps>> = {
   agent: { chapeau: "fedora", couleur: "#9AA8BD", ruban: NOIR, badge: true },
   policier: { chapeau: "kepi", couleur: "#9AA8BD" },
   victime: { chapeau: "fedora" },
+  // Affaire nº 2 (Opération Mincemeat)
+  officier: { chapeau: "officier", couleur: "#B9A57A", ruban: NOIR },
+  soldat: { chapeau: "casque", couleur: "#8C9479" },
+  pecheur: { chapeau: "beret", couleur: CREME },
+  sansabri: { chapeau: "casquette", couleur: "#9AA0A8" },
+  employee: { chapeau: "aucun", couleur: CREME },
 };

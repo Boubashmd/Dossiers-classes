@@ -208,3 +208,93 @@ export const Trombone: React.FC<{ x: number; y: number }> = ({ x, y }) => (
     />
   </svg>
 );
+
+// ============================================================================================
+// Affaire nº 2 (Opération Mincemeat) — objets centrés en (0,0), taille ~ s px de large.
+// ============================================================================================
+
+/** Mallette en cuir reliée par une chaîne à une manche d'uniforme. chaine = 0 -> 1 (la chaîne se tend). */
+export const Mallette: React.FC<{ x: number; y: number; s: number; chaine?: number; o?: number }> = ({ x, y, s, chaine = 1, o = 1 }) => {
+  const maillons = 9;
+  return (
+    <g transform={`translate(${x} ${y}) scale(${s / 400})`} opacity={o}>
+      {/* manche d'uniforme en haut à gauche */}
+      {/* bras en uniforme qui arrive du coin, poignet + bracelet */}
+      <path d="M-520 -560 L-400 -620 L-140 -230 L-260 -170 Z" fill="#B9A57A" />
+      <path d="M-262 -174 L-140 -234 L-128 -212 L-250 -150 Z" fill="#9A8960" />
+      <circle cx={-190} cy={-170} r={22} fill="none" stroke="#C9CDD4" strokeWidth={9} />
+      {/* chaîne */}
+      {Array.from({ length: maillons }, (_, i) => {
+        const u = i / (maillons - 1);
+        const cx = -190 + (-40 + 190) * u;
+        const cy = -150 + (-70 + 150) * u + Math.sin(u * Math.PI) * 60 * (1 - chaine);
+        return u <= chaine + 0.01 ? <ellipse key={i} cx={cx} cy={cy} rx={14} ry={8} transform={`rotate(${30 + (i % 2) * 60} ${cx} ${cy})`} fill="none" stroke="#C9CDD4" strokeWidth={6} /> : null;
+      })}
+      {/* poignée + corps */}
+      <path d="M-60 -60 V-96 Q-60 -110 -46 -110 H46 Q60 -110 60 -96 V-60" fill="none" stroke="#3E2618" strokeWidth={14} />
+      <rect x={-200} y={-64} width={400} height={250} rx={22} fill="#6E4630" />
+      <rect x={-200} y={-64} width={400} height={60} rx={22} fill="#80553A" />
+      <rect x={-200} y={-14} width={400} height={10} fill="#3E2618" />
+      <rect x={-130} y={-26} width={40} height={34} rx={6} fill={JAUNE} />
+      <rect x={90} y={-26} width={40} height={34} rx={6} fill={JAUNE} />
+      <ellipse cx={0} cy={200} rx={220} ry={18} fill="rgba(0,0,0,.35)" />
+    </g>
+  );
+};
+
+/** Flacon de poison avec tête de mort. */
+export const Flacon: React.FC<{ x: number; y: number; s: number; o?: number }> = ({ x, y, s, o = 1 }) => (
+  <g transform={`translate(${x} ${y}) scale(${s / 300})`} opacity={o}>
+    <ellipse cx={0} cy={250} rx={170} ry={16} fill="rgba(0,0,0,.35)" />
+    <rect x={-40} y={-260} width={80} height={50} rx={8} fill="#5A3A22" />
+    <path d="M-34 -210 V-160 Q-130 -120 -130 -20 V200 Q-130 250 -80 250 H80 Q130 250 130 200 V-20 Q130 -120 34 -160 V-210 Z" fill="#4E7A5A" />
+    <path d="M-110 -10 Q-110 -100 -40 -140" stroke="rgba(255,255,255,.35)" strokeWidth={14} fill="none" strokeLinecap="round" />
+    <rect x={-100} y={0} width={200} height={170} rx={10} fill={CREME} />
+    <circle cx={0} cy={60} r={34} fill={NOIR} />
+    <rect x={-20} y={84} width={40} height={22} rx={4} fill={NOIR} />
+    <circle cx={-12} cy={56} r={9} fill={CREME} />
+    <circle cx={12} cy={56} r={9} fill={CREME} />
+    <path d="M-60 120 L60 156 M60 120 L-60 156" stroke={NOIR} strokeWidth={12} strokeLinecap="round" />
+  </g>
+);
+
+/** Photo de fiancée (dessinée) : portrait sépia d'une jeune femme, bordure blanche. */
+export const PhotoPortrait: React.FC<{ x: number; y: number; s: number; rot?: number; o?: number; legende?: string }> = ({ x, y, s, rot = -4, o = 1, legende }) => (
+  <g transform={`translate(${x} ${y}) rotate(${rot}) scale(${s / 400})`} opacity={o}>
+    <rect x={-200} y={-250} width={400} height={500} rx={6} fill="#F4EFE4" />
+    <rect x={-176} y={-226} width={352} height={400} fill="#B89A72" />
+    {/* buste */}
+    <path d="M-150 174 Q-150 60 0 50 Q150 60 150 174 Z" fill="#6E5440" />
+    <rect x={-24} y={10} width={48} height={50} fill="#E8CDAE" />
+    <ellipse cx={0} cy={-40} rx={62} ry={76} fill="#E8CDAE" />
+    {/* cheveux courts ondulés années 40 */}
+    <path d="M-70 -30 Q-86 -140 0 -134 Q86 -140 70 -30 Q66 -80 30 -96 Q-10 -70 -54 -84 Q-70 -60 -70 -30 Z" fill="#4A3424" />
+    <path d="M-72 -40 Q-90 0 -66 20 L-58 -30 Z M72 -40 Q90 0 66 20 L58 -30 Z" fill="#4A3424" />
+    <path d="M-20 -28 h10 M10 -28 h10" stroke="#5A4030" strokeWidth={5} strokeLinecap="round" />
+    <path d="M-14 6 Q0 14 14 6" stroke="#A05050" strokeWidth={5} fill="none" strokeLinecap="round" />
+    {legende && (
+      <text x={0} y={228} textAnchor="middle" fontFamily="cursive" fontSize={44} fill="#3A3A5A">
+        {legende}
+      </text>
+    )}
+  </g>
+);
+
+/** Enveloppe fermée par un cachet de cire. cachet = 0 -> 1 (le cachet se pose). */
+export const Enveloppe: React.FC<{ x: number; y: number; s: number; cachet?: number; o?: number }> = ({ x, y, s, cachet = 1, o = 1 }) => (
+  <g transform={`translate(${x} ${y}) scale(${s / 500})`} opacity={o}>
+    <ellipse cx={0} cy={180} rx={260} ry={18} fill="rgba(0,0,0,.35)" />
+    <rect x={-250} y={-160} width={500} height={330} rx={10} fill="#EDE3CC" />
+    <path d="M-250 -160 L0 40 L250 -160" fill="#E0D3B4" stroke="#C8B994" strokeWidth={4} />
+    <path d="M-250 170 L-60 10 M250 170 L60 10" stroke="#C8B994" strokeWidth={4} />
+    {cachet > 0 && (
+      <g transform={`translate(0 40) scale(${0.4 + 0.6 * Math.min(1, cachet)})`} opacity={Math.min(1, cachet * 2)}>
+        <circle r={58} fill="#A3282A" />
+        <circle r={40} fill="none" stroke="#7E1C1E" strokeWidth={6} />
+        <text y={16} textAnchor="middle" fontFamily="serif" fontWeight={700} fontSize={46} fill="#7E1C1E">
+          M
+        </text>
+      </g>
+    )}
+  </g>
+);
