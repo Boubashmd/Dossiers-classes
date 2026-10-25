@@ -7,3 +7,5 @@ public/voix/*
 *.log
 .cache/
 *.zip
+maj-*.sh
+test-*.mp3

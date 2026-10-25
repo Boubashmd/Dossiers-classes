@@ -7,42 +7,20 @@ La vidéo est fabriquée par **GitHub Actions** avec **Remotion** (vidéo en cod
 
 ---
 
-## 1. Installer le projet dans ton dépôt GitHub (une seule fois)
+## 1. Installer une mise à jour (comme pour Flash Monde)
 
-Ouvre le **Terminal** et copie les commandes **une par une**.
-
-```bash
-cd iCloud/Projets_IT
-```
-➜ Tu es dans ton dossier de projets.
+Chaque mise à jour arrive dans un zip `maj-xxx.zip`. Dépose-le **directement dans le dossier `Dossiers-Classés`**, puis dans le Terminal :
 
 ```bash
-git clone https://github.com/Boubashmd/dossiers-classes.git
-```
-➜ Un dossier `dossiers-classes` apparaît (avec le README créé sur GitHub).
-
-```bash
-unzip -o ~/Downloads/dossiers-classes.zip
-```
-➜ Les fichiers du zip se rangent dans le dossier `dossiers-classes` (réponds `A` si on te demande de remplacer le README).
-
-```bash
-cd dossiers-classes
+cd "iCloud/Projets_IT/Dossiers-Classés"
 ```
 
 ```bash
-git add .
+unzip -o maj-xxx.zip && ./maj-xxx.sh
 ```
+➜ Le script récupère GitHub, copie les fichiers et n'envoie que ceux qui ont changé. Résultat attendu : `Termine : mise a jour en ligne.`
 
-```bash
-git commit -m "Mise en place de la chaîne Dossiers Classés"
-```
-➜ Une liste de fichiers ajoutés s'affiche.
-
-```bash
-git push
-```
-➜ Le code part sur GitHub. Si on te demande un mot de passe, utilise ton jeton GitHub habituel (comme pour Flash Monde).
+Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais sur GitHub.
 
 > Le secret `ELEVENLABS_API_KEY` est déjà dans le dépôt : rien d'autre à configurer.
 
