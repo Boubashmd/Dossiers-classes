@@ -34,6 +34,7 @@ import { Lustig, PERSONNAGES, Silhouette } from "../dessins/personnages";
 import { Billet, Boite, Cadenas, Carte, Etiquette, Gyrophare, Horloge, Menottes, Sac, Tour, Trombone, Valise } from "../dessins/objets";
 import { DECORS } from "../dessins/decors";
 import { Intro } from "./Generique";
+import config from "../../config.json";
 
 // --------------------------------------------------------------------------------------------
 // Chaque séquence reçoit : p (ses paramètres, écrits dans le fichier de l'épisode), dur (durée
@@ -43,11 +44,16 @@ export type Mot = { t: number; m: string };
 export type SeqProps = { p: any; dur: number; texte: string; mots: Mot[]; id: string };
 
 /** Bruitage à un instant donné (en images depuis le début de la séquence). */
-const Sfx: React.FC<{ at: number; son: string; volume?: number }> = ({ at, son, volume = 0.6 }) => (
-  <Sequence from={Math.max(0, Math.round(at))}>
-    <Audio src={staticFile(`son/${son}.wav`)} volume={volume} />
-  </Sequence>
-);
+// Les volumes se règlent dans config.json -> volumes (transitions = « swoosh », bruitages = le reste).
+const Sfx: React.FC<{ at: number; son: string; volume?: number }> = ({ at, son, volume = 0.6 }) => {
+  const v = (config as any).volumes || {};
+  const facteur = son === "swoosh" ? v.transitions ?? 0.2 : v.bruitages ?? 0.35;
+  return (
+    <Sequence from={Math.max(0, Math.round(at))}>
+      <Audio src={staticFile(`son/${son}.wav`)} volume={Math.min(1, volume * facteur * 1.6)} />
+    </Sequence>
+  );
+};
 
 const ressort = (f: number, fps: number, debut: number, cfg = { damping: 12, stiffness: 160 }) => spring({ frame: f - debut, fps, config: cfg });
 

@@ -1,4 +1,5 @@
 import React from "react";
+import config from "../../config.json";
 import { AbsoluteFill, Audio, Easing, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 
 // Générique « Dossiers Classés » : la lumière tombe, l'enquêteur apparaît, ses yeux s'allument, le tampon claque.
@@ -111,7 +112,7 @@ export const Intro: React.FC<{ sousTitre?: string; personnage?: boolean }> = ({ 
   return (
     <AbsoluteFill style={{ background: NUIT }}>
       <style>{fontFace}</style>
-      <Audio src={staticFile("son/generique.wav")} />
+      <Audio src={staticFile("son/generique.wav")} volume={(config as any).volumes?.generique ?? 0.45} />
       <AbsoluteFill style={{ opacity: fondu, transform: `translate(${secousse}px, ${secousse * 0.5}px)` }}>
         {/* cône de lumière qui tombe d'une lampe au-dessus */}
         <div

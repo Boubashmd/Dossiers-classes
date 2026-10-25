@@ -1,6 +1,10 @@
 {
   "voix_nom": "voix 4",
-  "modeles": ["eleven_v4", "eleven_v3", "eleven_multilingual_v2"],
+  "modeles": [
+    "eleven_v4",
+    "eleven_v3",
+    "eleven_multilingual_v2"
+  ],
   "langue": "fr",
   "reglages_voix": {
     "stability": 0.5,
@@ -18,5 +22,17 @@
     "cta": 5.0,
     "etapes": 4.0
   },
-  "hashtags_fixes": ["#dossiersclasses", "#histoirevraie", "#truecrimefr", "#histoire"]
+  "hashtags_fixes": [
+    "#dossiersclasses",
+    "#histoirevraie",
+    "#truecrimefr",
+    "#histoire"
+  ],
+  "volumes": {
+    "_aide": "Entre 0 (muet) et 1 (fort). Baisse ou monte ces valeurs si besoin.",
+    "musique": 0.1,
+    "bruitages": 0.35,
+    "transitions": 0.2,
+    "generique": 0.45
+  }
 }

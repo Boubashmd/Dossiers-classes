@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { C, CREME, JAUNE, NUIT, NUIT2, Polices, txt } from "./theme";
 import { Fondu, Mot, RenduSequence } from "./sequences";
+import config from "../config.json";
 
 export type Ligne = {
   id: string;
@@ -69,7 +70,7 @@ export const Episode: React.FC<{ timeline: Timeline }> = ({ timeline }) => {
   return (
     <AbsoluteFill style={{ background: `linear-gradient(180deg, ${NUIT2} 0%, ${NUIT} 75%)` }}>
       <Polices />
-      <Audio src={staticFile("son/musique.mp3")} volume={0.1} loop />
+      <Audio src={staticFile("son/musique.mp3")} volume={(config as any).volumes?.musique ?? 0.1} loop />
       <AbsoluteFill style={{ opacity: fonduFin }}>
         <AbsoluteFill style={{ transform: `scale(${zoom})` }}>
           {timeline.lignes.map((l, i) => {
