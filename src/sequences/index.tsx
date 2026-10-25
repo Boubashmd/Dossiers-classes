@@ -138,8 +138,8 @@ const Pochette: React.FC<SeqProps> = ({ p, dur, texte, mots }) => {
           </div>
         </div>
       </AbsoluteFill>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1220, bottom: 0, background: "linear-gradient(180deg, rgba(7,14,26,0) 0%, rgba(7,14,26,.9) 35%, rgba(7,14,26,.95) 100%)", opacity: prog(f, 30, 12) }} />
-      <div style={{ position: "absolute", top: 1460, left: 70, right: 70, textAlign: "center", lineHeight: 1.3, ...txt(66, CREME, 700, { textShadow: "0 4px 18px rgba(0,0,0,.9)" }) }}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1060, bottom: 0, background: "linear-gradient(180deg, rgba(7,14,26,0) 0%, rgba(7,14,26,.9) 30%, rgba(7,14,26,.95) 100%)", opacity: prog(f, 30, 12) }} />
+      <div style={{ position: "absolute", top: 1240, left: 70, right: 110, textAlign: "center", lineHeight: 1.3, ...txt(66, CREME, 700, { textShadow: "0 4px 18px rgba(0,0,0,.9)" }) }}>
         {motsT.map((m, i) => {
           const debut = mots[i] ? mots[i].t * fps : 40 + i * 7;
           const k = interpolate(f, [debut, debut + 6], [0, 1], C);
@@ -209,18 +209,18 @@ const Fiche: React.FC<SeqProps> = ({ p }) => {
     <AbsoluteFill>
       <Sfx at={0} son="swoosh" volume={0.4} />
       <Titre texte={p.titre || "DOSSIER"} k={prog(f, 0, 10)} />
-      <div style={{ position: "absolute", left: 210, top: 330, width: 660, height: 660, borderRadius: "50%", background: "radial-gradient(circle, rgba(255,212,0,.15) 0%, rgba(255,212,0,0) 68%)", opacity: entree }} />
+      <div style={{ position: "absolute", left: 210, top: 230, width: 660, height: 660, borderRadius: "50%", background: "radial-gradient(circle, rgba(255,212,0,.15) 0%, rgba(255,212,0,0) 68%)", opacity: entree }} />
       <Svg>
-        <Perso nom={p.personnage} x={540} y={1010 + (1 - entree) * 700} s={p.personnage === "lustig" ? 640 : 520} f={f} extra={p.extra} />
+        <Perso nom={p.personnage} x={540} y={900 + (1 - entree) * 700} s={p.personnage === "lustig" ? 520 : 480} f={f} extra={p.extra} />
       </Svg>
-      <Texte top={1050} size={p.nom && p.nom.length > 14 ? 84 : 100} color={JAUNE} k={nom} scale={0.85 + 0.15 * nom}>
+      <Texte top={935} size={p.nom && p.nom.length > 14 ? 84 : 100} color={JAUNE} k={nom} scale={0.85 + 0.15 * nom}>
         {p.nom}
       </Texte>
-      <div style={{ position: "absolute", top: 1180, left: 540 - 360 * souligne, width: 720 * souligne, height: 6, borderRadius: 3, background: JAUNE }} />
+      <div style={{ position: "absolute", top: 1062, left: 540 - 360 * souligne, width: 720 * souligne, height: 6, borderRadius: 3, background: JAUNE }} />
       {(p.infos || []).map((l: string, i: number) => {
         const k = ressort(f, fps, 22 + i * 10, { damping: 15, stiffness: 120 });
         return (
-          <div key={i} style={{ position: "absolute", top: 1230 + i * 80, width: "100%", textAlign: "center", opacity: k, transform: `translateY(${(1 - k) * 20}px)`, ...txt(48, CREME) }}>
+          <div key={i} style={{ position: "absolute", top: 1100 + i * 70, width: "100%", textAlign: "center", opacity: k, transform: `translateY(${(1 - k) * 20}px)`, ...txt(48, CREME) }}>
             {l}
           </div>
         );

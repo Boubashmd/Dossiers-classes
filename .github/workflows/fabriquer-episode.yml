@@ -58,6 +58,9 @@ jobs:
       - name: Fabriquer la vidéo
         run: npx remotion render src/index.ts Episode "sorties/${{ inputs.episode }}/${{ inputs.episode }}.mp4" --crf=20 --log=error
 
+      - name: Fabriquer l'image de couverture
+        run: npx remotion still src/index.ts Couverture "sorties/${{ inputs.episode }}/couverture.png" --log=error
+
       - name: Mettre la vidéo à disposition
         uses: actions/upload-artifact@v4
         with:

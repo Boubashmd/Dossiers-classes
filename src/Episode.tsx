@@ -19,6 +19,11 @@ export type Timeline = { episode: string; fps: number; total: number; avecVoix: 
 
 const CHEVAUCHEMENT = 6; // images de fondu enchaîné entre deux séquences
 
+// Zone sûre TikTok : le bas de l'écran (≈ 25 %) est caché par le nom du compte et la description,
+// la droite par la colonne d'icônes. On réduit légèrement l'image vers le haut et on garde
+// les sous-titres au-dessus de cette zone.
+const ECHELLE_ZONE_SURE = 0.9;
+
 /** Sous-titres mot à mot (le mot prononcé passe en jaune). */
 const SousTitres: React.FC<{ lignes: Ligne[] }> = ({ lignes }) => {
   const f = useCurrentFrame();
@@ -34,16 +39,16 @@ const SousTitres: React.FC<{ lignes: Ligne[] }> = ({ lignes }) => {
   const fin = l.mots.length ? l.mots[l.mots.length - 1].t + 0.6 : l.duree / fps;
   const o = interpolate(t, [0, 0.12, fin, fin + 0.25], [0, 1, 1, 0], C);
   // découpe en morceaux de 7 mots maximum pour rester lisible
-  const taille = 7;
+  const taille = 6;
   const bloc = Math.max(0, Math.floor(Math.max(0, idx) / taille));
   const visibles = mots.slice(bloc * taille, bloc * taille + taille);
   return (
     <div
       style={{
         position: "absolute",
-        top: 1590,
-        left: 60,
-        right: 60,
+        top: 1250,
+        left: 70,
+        right: 150,
         textAlign: "center",
         opacity: o,
         lineHeight: 1.3,
@@ -68,11 +73,11 @@ export const Episode: React.FC<{ timeline: Timeline }> = ({ timeline }) => {
   const zoom = 1 + 0.02 * ((f % 150) / 150);
   const fonduFin = interpolate(f, [durationInFrames - 15, durationInFrames], [1, 0], C);
   return (
-    <AbsoluteFill style={{ background: `linear-gradient(180deg, ${NUIT2} 0%, ${NUIT} 75%)` }}>
+    <AbsoluteFill style={{ background: `linear-gradient(180deg, ${NUIT2} 0%, ${NUIT} 60%, #070E1A 100%)` }}>
       <Polices />
       <Audio src={staticFile("son/musique.mp3")} volume={(config as any).volumes?.musique ?? 0.1} loop />
       <AbsoluteFill style={{ opacity: fonduFin }}>
-        <AbsoluteFill style={{ transform: `scale(${zoom})` }}>
+        <AbsoluteFill style={{ transform: `scale(${ECHELLE_ZONE_SURE * zoom})`, transformOrigin: "50% 11%" }}>
           {timeline.lignes.map((l, i) => {
             const dernier = i === timeline.lignes.length - 1;
             const dur = l.duree + (dernier ? 0 : CHEVAUCHEMENT);

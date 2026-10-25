@@ -37,7 +37,7 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 5. Clique sur le bouton vert **« Run workflow »**.
 6. Attends ~10 à 20 minutes (la pastille devient verte ✅).
 7. Clique sur l'exécution, puis en bas, dans **Artifacts**, télécharge **affaire-01-lustig**.
-   Le zip contient la vidéo `.mp4` et `description.txt` (description TikTok, hashtags, commentaire à épingler).
+   Le zip contient la vidéo `.mp4`, `couverture.png` (image de couverture à importer dans TikTok : « Modifier la couverture » > « Importer ») et `description.txt` (description TikTok, hashtags, commentaire à épingler).
 
 💡 **Relancer ne recoûte rien** si le texte n'a pas changé : les voix déjà générées sont gardées en cache. Seules les phrases modifiées sont regénérées.
 
@@ -46,6 +46,8 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 ## 3. Publier sur TikTok
 
 - Colle la description de `description.txt`.
+- Importe `couverture.png` comme couverture.
+- N'ajoute pas de texte TikTok par-dessus la vidéo : elle a déjà ses sous-titres (placés au-dessus de la zone cachée par TikTok).
 - Épingle le commentaire proposé juste après la publication.
 - Active l'étiquette **« Contenu généré par IA »**.
 - Créneaux conseillés : **lundi 20 h · vendredi 19 h · dimanche 13 h**.

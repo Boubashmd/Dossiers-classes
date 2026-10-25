@@ -748,5 +748,9 @@
     "bulle": "✍️ Ton prochain dossier ?"
    }
   }
- ]
+ ],
+ "couverture": {
+  "titre": "IL A VENDU LA TOUR EIFFEL",
+  "sous": "Affaire nº 1 · Victor Lustig"
+ }
 }

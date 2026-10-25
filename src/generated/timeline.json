@@ -3,6 +3,16 @@
  "fps": 30,
  "total": 6235,
  "avecVoix": false,
+ "couverture": {
+  "titre": "IL A VENDU LA TOUR EIFFEL",
+  "sous": "Affaire nº 1 · Victor Lustig",
+  "photo": "photos/affaire-01-lustig.png",
+  "visage": {
+   "x": 108,
+   "y": 165
+  },
+  "largeur": 540
+ },
  "lignes": [
   {
    "id": "01",
