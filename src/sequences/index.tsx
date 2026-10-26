@@ -31,10 +31,11 @@ import {
   txt,
 } from "../theme";
 import { Lustig, PERSONNAGES, Silhouette } from "../dessins/personnages";
-import { Billet, Boite, Cadenas, Carte, Enveloppe, Etiquette, Flacon, Gyrophare, Horloge, Mallette, Menottes, PhotoPortrait, Sac, Tour, Trombone, Valise } from "../dessins/objets";
+import { Billet, Boite, Cadenas, Carte, Coupon, Enveloppe, Etiquette, Flacon, Gyrophare, Horloge, Mallette, Menottes, PhotoPortrait, Sac, Tour, Trombone, Valise, Voiture } from "../dessins/objets";
 import { DECORS } from "../dessins/decors";
 import { Intro } from "./Generique";
 import { CarteMed } from "./CarteMed";
+import { CarteMonde, Courbe, Pyramide, Suite } from "./Finance";
 import config from "../../config.json";
 
 // --------------------------------------------------------------------------------------------
@@ -92,7 +93,8 @@ const Pochette: React.FC<SeqProps> = ({ p, dur, texte, mots }) => {
   const { fps } = useVideoConfig();
   const srcW = p.srcW || 540;
   const srcH = p.srcH || 519;
-  const carte = { left: 110, top: 420, w: 860 };
+  const cw = p.carteW || 860;
+  const carte = { left: Math.round((1080 - cw) / 2), top: 420, w: cw };
   const ech = carte.w / srcW;
   const fx = carte.left + p.visage.x * ech;
   const fy = carte.top + p.visage.y * ech;
@@ -326,7 +328,7 @@ const Icones: React.FC<SeqProps> = ({ p }) => {
                 boxShadow: "0 16px 30px rgba(0,0,0,.35)",
               }}
             >
-              <div style={txt(64, NUIT)}>{it.label}</div>
+              <div style={txt(String(it.label).length > 7 ? 50 : 64, NUIT)}>{it.label}</div>
               {it.sous && <div style={txt(28, "#3A4150", 500)}>{it.sous}</div>}
             </div>
           </React.Fragment>
@@ -456,6 +458,8 @@ const ObjetDessin: React.FC<{ p: any; dur: number; f: number; k: number }> = ({ 
         {p.dessin === "mallette" && <Mallette x={540} y={y} s={640 * (0.8 + 0.2 * s)} chaine={prog(f, 10, 24)} />}
         {p.dessin === "flacon" && <Flacon x={540} y={y} s={420 * (0.8 + 0.2 * s)} />}
         {p.dessin === "photo" && <PhotoPortrait x={540} y={y} s={520 * (0.8 + 0.2 * s)} rot={-4 + (1 - s) * 10} legende={p.ecrit} />}
+        {p.dessin === "coupon" && <Coupon x={540} y={y} s={720 * (0.8 + 0.2 * s)} rot={-3 + (1 - s) * 12} timbres={p.timbres ? prog(f, Math.round(dur * 0.4), 20) : 0} />}
+        {p.dessin === "voiture" && <Voiture x={540 + (1 - prog(f, 0, 24)) * -900} y={y + 120} s={760} frame={f} />}
         {p.dessin === "enveloppe" && <Enveloppe x={540} y={y} s={720 * (0.8 + 0.2 * s)} cachet={ressort(f, fps, Math.round(dur * 0.45), { damping: 9, stiffness: 200 })} />}
       </Svg>
       {p.dessin === "enveloppe" && <Sfx at={Math.round(dur * 0.45)} son="tampon" volume={0.5} />}
@@ -495,7 +499,7 @@ const Compteur: React.FC<SeqProps> = ({ p, dur }) => {
         </>
       ) : (
         <>
-          <Texte top={p.taille ? 760 - p.taille / 2 : 640} size={p.taille || 300} color={JAUNE}>
+          <Texte top={p.taille ? 760 - p.taille / 2 : 640} size={p.taille || 300} color={p.couleur === "rouge" ? ROUGE : JAUNE}>
             {p.milliers ? Math.floor(v).toLocaleString("fr-FR").replace(/[\u202f\u00a0]/g, " ") : Math.floor(v)}
           </Texte>
           <Texte top={1000} size={80}>
@@ -521,7 +525,7 @@ const Chiffre: React.FC<SeqProps> = ({ p, dur }) => {
   const v = interpolate(f, [6, 6 + Math.min(40, dur * 0.5)], [0, p.valeur], { ...C, easing: out });
   const fin = 6 + Math.min(40, dur * 0.5);
   const x2 = p.x2 ? ressort(f, fps, fin + 8, { damping: 8, stiffness: 220 }) : 0;
-  const nombre = Math.round(v).toLocaleString("fr-FR").replace(/ | /g, " ");
+  const nombre = p.decimales ? v.toFixed(p.decimales).replace(".", ",") : Math.round(v).toLocaleString("fr-FR").replace(/ | /g, " ");
   return (
     <AbsoluteFill>
       <Sfx at={fin} son="caisse" volume={0.45} />
@@ -808,20 +812,21 @@ const Chronologie: React.FC<SeqProps> = ({ p, dur }) => {
   const dates: any[] = p.dates || [];
   const n = dates.length;
   const ligne = prog(f, 4, dur * 0.6, io);
+  const H = p.hauteur || 920;
   return (
     <AbsoluteFill>
       <Titre texte={p.titre} k={prog(f, 0, 10)} />
       <Svg>
-        <line x1={540} y1={420} x2={540} y2={420 + 1000 * ligne} stroke={JAUNE} strokeWidth={8} strokeLinecap="round" />
+        <line x1={540} y1={420} x2={540} y2={420 + (H + 80) * ligne} stroke={JAUNE} strokeWidth={8} strokeLinecap="round" />
         {dates.map((_, i) => {
-          const y = 460 + (920 * i) / Math.max(1, n - 1);
-          const atteint = ligne * 1000 + 420 >= y - 10;
+          const y = 460 + (H * i) / Math.max(1, n - 1);
+          const atteint = ligne * (H + 80) + 420 >= y - 10;
           return <circle key={i} cx={540} cy={y} r={atteint ? 22 : 0} fill={i === n - 1 ? ROUGE : JAUNE} />;
         })}
       </Svg>
       {dates.map((d, i) => {
-        const y = 460 + (920 * i) / Math.max(1, n - 1);
-        const k = interpolate(ligne * 1000 + 420, [y - 10, y + 40], [0, 1], C);
+        const y = 460 + (H * i) / Math.max(1, n - 1);
+        const k = interpolate(ligne * (H + 80) + 420, [y - 10, y + 40], [0, 1], C);
         return (
           <React.Fragment key={i}>
             <div style={{ position: "absolute", top: y - 40, left: 0, width: 470, textAlign: "right", opacity: k, ...txt(64, i === n - 1 ? ROUGE : JAUNE) }}>{d.an}</div>
@@ -957,6 +962,10 @@ export const SEQUENCES: Record<string, React.FC<SeqProps>> = {
   fin: Fin,
   etapes: Etapes,
   carte_med: CarteMed,
+  pyramide: Pyramide,
+  suite: Suite,
+  courbe: Courbe,
+  carte_monde: CarteMonde,
 };
 
 export const RenduSequence: React.FC<SeqProps> = (props) => {

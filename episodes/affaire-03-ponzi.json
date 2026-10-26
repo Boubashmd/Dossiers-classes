@@ -1,0 +1,602 @@
+{
+ "id": "affaire-03-ponzi",
+ "numero": 3,
+ "titre": "L'homme qui a donné son nom à l'arnaque",
+ "personnage": "Charles Ponzi",
+ "photo": {
+  "fichier": "photos/affaire-03-ponzi.png",
+  "largeur": 1011,
+  "hauteur": 1200,
+  "visage": {
+   "x": 718,
+   "y": 520
+  },
+  "legende": "Fiche d'écrou · 1910",
+  "credit": "Photo : fiche d'écrou de Charles Ponzi, 1910, Archives nationales américaines (domaine public)."
+ },
+ "publication": {
+  "accroche": "Il promettait de doubler ton argent en 90 jours… et 30 000 personnes l'ont cru. 📂 (Partie 1/2)",
+  "sources": "Wikipédia, Damn Interesting, Mass Moments, BU Bridge, Archives nationales américaines.",
+  "hashtags_episode": [
+   "#arnaque",
+   "#ponzi"
+  ],
+  "commentaire_epingle": "📂 La suite demain : l'homme qui a fait la même chose… avec 65 milliards. Tu aurais investi chez Ponzi ? 👇"
+ },
+ "couverture": {
+  "titre": "IL A INVENTÉ L'ARNAQUE",
+  "sous": "Affaire nº 3 · Charles Ponzi · Partie 1/2",
+  "photo": "photos/affaire-03-ponzi-couverture.png",
+  "largeur": 541,
+  "visage": {
+   "x": 248,
+   "y": 220
+  }
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "En 1920, cet homme promettait de doubler ton argent en quatre-vingt-dix jours.",
+   "sequence": {
+    "type": "pochette",
+    "photo": "photos/affaire-03-ponzi.png",
+    "srcW": 1011,
+    "srcH": 1200,
+    "carteW": 680,
+    "visage": {
+     "x": 718,
+     "y": 520
+    },
+    "etiquette": [
+     "AFFAIRE Nº 3",
+     "PONZI, Charles"
+    ],
+    "legende": "Fiche d'écrou · prison d'Atlanta · 1910"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "02",
+   "texte": "Et près de trente mille personnes l'ont cru.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-03-ponzi.png",
+    "srcW": 1011,
+    "visage": {
+     "x": 718,
+     "y": 520
+    }
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "generique",
+   "texte": "",
+   "duree": 2.6,
+   "sousTitres": false,
+   "sequence": {
+    "type": "generique",
+    "sousTitre": "Affaire nº 3 · Charles Ponzi"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Charles Ponzi naît en 1882, à Lugo, en Italie.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "QUI EST-IL ?",
+    "personnage": "ponzi",
+    "nom": "CHARLES PONZI",
+    "infos": [
+     "Né en 1882",
+     "Lugo, Italie"
+    ]
+   }
+  },
+  {
+   "id": "04",
+   "texte": "En 1903, il débarque à Boston. Dans sa poche : deux dollars cinquante.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "carte",
+      "titre": "1903",
+      "points": [
+       {
+        "nom": "ITALIE",
+        "x": 800,
+        "y": 820
+       },
+       {
+        "nom": "BOSTON",
+        "x": 260,
+        "y": 700
+       }
+      ],
+      "voyageur": "bateau",
+      "poids": 1.2
+     },
+     {
+      "type": "chiffre",
+      "titre": "DANS SA POCHE",
+      "valeur": 2.5,
+      "unite": "$",
+      "couleur": "rouge",
+      "poids": 1,
+      "decimales": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Le reste, il l'a perdu aux cartes pendant la traversée.",
+   "sequence": {
+    "type": "scene",
+    "decor": "paquebot",
+    "titre": "LA TRAVERSÉE",
+    "cartes": true
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Quelques années plus tard, il trouve un emploi dans une banque, à Montréal.",
+   "sequence": {
+    "type": "scene",
+    "decor": "banque",
+    "enseigne": "BANQUE",
+    "titre": "MONTRÉAL",
+    "personnages": [
+     {
+      "nom": "ponzi",
+      "x": 540,
+      "y": 1350,
+      "s": 300
+     }
+    ]
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Cette banque offre des intérêts trois fois plus élevés que les autres.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LA BANQUE",
+    "valeur": 3,
+    "unite": "fois plus d'intérêts",
+    "legende": "que les autres banques"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Son secret ? Elle paie les anciens clients avec l'argent des nouveaux.",
+   "sequence": {
+    "type": "pyramide",
+    "titre": "SON SECRET",
+    "etages": 4
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Jusqu'au jour où le patron s'enfuit au Mexique avec la caisse.",
+   "sequence": {
+    "type": "carte",
+    "titre": "LE PATRON S'ENFUIT",
+    "points": [
+     {
+      "nom": "MONTRÉAL",
+      "x": 700,
+      "y": 560
+     },
+     {
+      "nom": "MEXIQUE",
+      "x": 330,
+      "y": 1120
+     }
+    ],
+    "voyageur": "sac",
+    "lettre": "$"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Ponzi, lui, retient la leçon.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "ponzi",
+    "texte": "LA LEÇON"
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Il fait de la prison pour un faux chèque… puis une deuxième fois, pour avoir fait passer des immigrés clandestinement.",
+   "sequence": {
+    "type": "scene",
+    "decor": "prison",
+    "titre": "PRISON",
+    "tampon": "× 2",
+    "tamponTop": 980
+   }
+  },
+  {
+   "id": "12",
+   "texte": "En 1919, à Boston, il tombe sur un petit bout de papier.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "coupon",
+    "titre": "1919 · BOSTON",
+    "legende": "Un petit bout de papier"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Un coupon-réponse international. On l'achète à la poste, et on l'échange contre des timbres dans un autre pays.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "coupon",
+    "timbres": true,
+    "titre": "LE COUPON",
+    "legende": "Coupon → timbres"
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Or, en Italie, ces coupons ne coûtent presque rien. Aux États-Unis, ils valent bien plus.",
+   "sequence": {
+    "type": "carte",
+    "titre": "LA COMBINE",
+    "points": [
+     {
+      "nom": "ITALIE : pas cher",
+      "x": 800,
+      "y": 820
+     },
+     {
+      "nom": "USA : plus cher",
+      "x": 260,
+      "y": 700
+     }
+    ],
+    "voyageur": "sac",
+    "lettre": "$"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Acheter là-bas, échanger ici : sur le papier, c'est de l'argent facile.",
+   "sequence": {
+    "type": "icones",
+    "titre": "SUR LE PAPIER",
+    "items": [
+     {
+      "label": "ACHETER",
+      "sous": "en Italie"
+     },
+     {
+      "label": "ÉCHANGER",
+      "sous": "aux États-Unis"
+     },
+     {
+      "label": "PROFIT ?",
+      "sous": "de l'argent facile"
+     }
+    ]
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Ponzi crée sa société, et fait une promesse folle : cinquante pour cent de bénéfice en quarante-cinq jours.",
+   "sequence": {
+    "type": "chiffre",
+    "titre": "LA PROMESSE",
+    "valeur": 50,
+    "unite": "%",
+    "sous": "de bénéfice en 45 jours"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Cent pour cent en quatre-vingt-dix jours.",
+   "sequence": {
+    "type": "chiffre",
+    "titre": "LA PROMESSE",
+    "valeur": 100,
+    "unite": "%",
+    "sous": "en 90 jours",
+    "x2": true
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Les premiers clients sont payés. Le bouche-à-oreille s'emballe.",
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "BOSTON · 1920",
+    "personnages": [
+     {
+      "nom": "ponzi",
+      "x": 180,
+      "y": 1350,
+      "s": 260
+     },
+     {
+      "nom": "passager",
+      "x": 420,
+      "y": 1350,
+      "s": 220,
+      "miroir": true
+     },
+     {
+      "nom": "passagere",
+      "x": 600,
+      "y": 1350,
+      "s": 210,
+      "miroir": true
+     },
+     {
+      "nom": "policier",
+      "x": 780,
+      "y": 1350,
+      "s": 220,
+      "miroir": true
+     },
+     {
+      "nom": "passager",
+      "x": 950,
+      "y": 1350,
+      "s": 220,
+      "miroir": true
+     }
+    ],
+    "legende": "Tout le monde veut en être",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "19",
+   "texte": "En quelques mois, près de trente mille personnes lui confient près de dix millions de dollars.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "compteur",
+      "titre": "EN QUELQUES MOIS",
+      "valeur": 30000,
+      "milliers": true,
+      "taille": 220,
+      "unite": "investisseurs",
+      "poids": 1
+     },
+     {
+      "type": "compteur",
+      "titre": "EN QUELQUES MOIS",
+      "valeur": 10000000,
+      "milliers": true,
+      "taille": 150,
+      "unite": "dollars",
+      "poids": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Ponzi s'achète une voiture avec chauffeur… et devient l'un des patrons d'une banque.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "voiture",
+    "titre": "LA BELLE VIE",
+    "legende": "Voiture avec chauffeur"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Mais il y a un problème. Ponzi n'a jamais échangé un seul coupon.",
+   "sequence": {
+    "type": "barre",
+    "mot": "COUPONS",
+    "personnage": "ponzi",
+    "nom": "ÉCHANGÉS : 0"
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Il aurait fallu des millions de coupons. Il n'en existait pas assez, de très loin.",
+   "sequence": {
+    "type": "icones",
+    "titre": "LE CALCUL",
+    "items": [
+     {
+      "label": "BESOIN",
+      "sous": "des millions"
+     },
+     {
+      "label": "RÉALITÉ",
+      "sous": "beaucoup trop peu"
+     }
+    ]
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Alors il fait exactement comme la banque de Montréal : il paie les anciens avec l'argent des nouveaux.",
+   "sequence": {
+    "type": "pyramide",
+    "titre": "LA PYRAMIDE DE PONZI",
+    "etages": 5
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Tant que de nouveaux clients arrivent, tout tient.",
+   "sequence": {
+    "type": "pyramide",
+    "mode": "grandit",
+    "titre": "TANT QUE ÇA DURE",
+    "depart": 5,
+    "max": 8
+   }
+  },
+  {
+   "id": "25",
+   "texte": "En juillet 1920, le journal Boston Post commence à poser des questions.",
+   "sequence": {
+    "type": "document",
+    "genre": "presse",
+    "titre": "JUILLET 1920",
+    "journal": "THE BOSTON POST",
+    "manchette": "Ponzi : d'où vient l'argent ?"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Un expert financier fait le calcul : l'affaire est impossible.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LE CALCUL",
+    "entete": "ANALYSE FINANCIÈRE",
+    "lignes": [
+     "Il en faut : des millions",
+     "Il en existe : trop peu"
+    ],
+    "tampon": "IMPOSSIBLE",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Puis un ancien collaborateur de Ponzi révèle tout : la société est en faillite.",
+   "sequence": {
+    "type": "document",
+    "genre": "presse",
+    "titre": "AOÛT 1920",
+    "journal": "THE BOSTON POST",
+    "manchette": "Ponzi est en faillite",
+    "tampon": "FAILLITE"
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Et le journal déterre son passé : la prison, au Canada.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-03-ponzi.png",
+    "srcW": 1011,
+    "visage": {
+     "x": 718,
+     "y": 520
+    },
+    "texte": "SON PASSÉ : LA PRISON"
+   }
+  },
+  {
+   "id": "29",
+   "texte": "En août 1920, tout s'effondre. Ponzi se rend à la police.",
+   "sequence": {
+    "type": "pyramide",
+    "mode": "ecroule",
+    "titre": "AOÛT 1920",
+    "etages": 6,
+    "tampon": "TERMINÉ",
+    "tamponA": 70
+   }
+  },
+  {
+   "id": "30",
+   "texte": "Les clients ne récupèrent qu'une partie de leur argent.",
+   "sequence": {
+    "type": "barre",
+    "mot": "REMBOURSÉS",
+    "personnage": "victime",
+    "nom": "SEULEMENT EN PARTIE"
+   }
+  },
+  {
+   "id": "31",
+   "texte": "Lui enchaîne les condamnations, et passe plus de dix ans en prison.",
+   "sequence": {
+    "type": "scene",
+    "decor": "prison",
+    "titre": "PLUS DE 10 ANS",
+    "tampon": "COUPABLE",
+    "tamponTop": 980
+   }
+  },
+  {
+   "id": "32",
+   "texte": "En 1934, il est expulsé vers l'Italie.",
+   "sequence": {
+    "type": "carte",
+    "titre": "1934 · EXPULSÉ",
+    "points": [
+     {
+      "nom": "BOSTON",
+      "x": 260,
+      "y": 700
+     },
+     {
+      "nom": "ITALIE",
+      "x": 800,
+      "y": 820
+     }
+    ],
+    "voyageur": "bateau"
+   }
+  },
+  {
+   "id": "33",
+   "texte": "Il meurt en 1949 au Brésil, dans un hôpital pour pauvres. Il lui reste soixante-quinze dollars.",
+   "sequence": {
+    "type": "chiffre",
+    "titre": "RIO DE JANEIRO · 1949",
+    "valeur": 75,
+    "unite": "$",
+    "couleur": "rouge",
+    "sous": "tout ce qu'il lui reste"
+   }
+  },
+  {
+   "id": "34",
+   "texte": "Mais son nom, lui, est devenu immortel : on appelle ça une pyramide de Ponzi.",
+   "sequence": {
+    "type": "pyramide",
+    "mode": "nom",
+    "nom": "PONZI",
+    "titre": "SON NOM EST RESTÉ",
+    "etages": 5,
+    "nomA": 40
+   }
+  },
+  {
+   "id": "35",
+   "texte": "Et près de quatre-vingt-dix ans plus tard, à New York, un homme respecté de tous va faire la même chose… en bien, bien pire.",
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "NEW YORK · 2008",
+    "personnages": [
+     {
+      "nom": "ombre",
+      "x": 540,
+      "y": 1350,
+      "s": 460
+     }
+    ],
+    "legende": "En bien, bien pire…",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "36",
+   "texte": "Ce dossier-là, je l'ouvre dans le prochain épisode. Abonne-toi pour ne pas le rater. Et toi, tu lui aurais confié ton argent ?",
+   "sequence": {
+    "type": "suite",
+    "annonce": "Partie 2 : demain",
+    "bulle": "Tu aurais investi chez Ponzi ?"
+   }
+  }
+ ]
+}

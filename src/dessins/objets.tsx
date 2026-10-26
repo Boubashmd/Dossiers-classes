@@ -298,3 +298,57 @@ export const Enveloppe: React.FC<{ x: number; y: number; s: number; cachet?: num
     )}
   </g>
 );
+
+// ============================================================================================
+// Affaires nº 3 et 4 (Ponzi, Madoff)
+// ============================================================================================
+
+/** Coupon-réponse international (1920) : papier dentelé, bandeau, valeur. timbres = des timbres sortent du coupon. */
+export const Coupon: React.FC<{ x: number; y: number; s: number; rot?: number; o?: number; timbres?: number }> = ({ x, y, s, rot = -3, o = 1, timbres = 0 }) => (
+  <g transform={`translate(${x} ${y}) rotate(${rot}) scale(${s / 500})`} opacity={o}>
+    {timbres > 0 &&
+      [-1, 0, 1].map((i) => (
+        <g key={i} transform={`translate(${i * 170} ${-260 * timbres}) rotate(${i * 12 * timbres})`} opacity={Math.min(1, timbres * 2)}>
+          <rect x={-70} y={-85} width={140} height={170} fill="#F4EFE4" stroke="#C8B994" strokeWidth={4} strokeDasharray="10 6" />
+          <rect x={-52} y={-66} width={104} height={110} fill={i === 0 ? "#B04A3A" : "#3A6A8A"} />
+          <text x={0} y={70} textAnchor="middle" fontFamily="serif" fontWeight={700} fontSize={26} fill="#3A2A20">
+            {i === 0 ? "2 c" : "1 c"}
+          </text>
+        </g>
+      ))}
+    <rect x={-250} y={-150} width={500} height={300} fill="#E8E0C6" stroke="#B9A97E" strokeWidth={6} strokeDasharray="14 8" />
+    <rect x={-220} y={-122} width={440} height={60} fill="#3E5A6E" />
+    <text x={0} y={-80} textAnchor="middle" fontFamily="serif" fontWeight={700} fontSize={24} fill="#F4EFE4">
+      UNION POSTALE UNIVERSELLE
+    </text>
+    <text x={0} y={-10} textAnchor="middle" fontFamily="serif" fontWeight={700} fontSize={34} fill="#3A2A20">
+      COUPON-RÉPONSE
+    </text>
+    <text x={0} y={30} textAnchor="middle" fontFamily="serif" fontWeight={700} fontSize={34} fill="#3A2A20">
+      INTERNATIONAL
+    </text>
+    <circle cx={150} cy={95} r={38} fill="none" stroke="#7A3442" strokeWidth={5} />
+    <path d="M-200 100 H60" stroke="#B9A97E" strokeWidth={4} />
+  </g>
+);
+
+/** Voiture de luxe des années 1920 avec chauffeur. avance = 0 -> 1 (arrive de la gauche). */
+export const Voiture: React.FC<{ x: number; y: number; s: number; o?: number; frame?: number }> = ({ x, y, s, o = 1, frame = 0 }) => (
+  <g transform={`translate(${x} ${y}) scale(${s / 600})`} opacity={o}>
+    <ellipse cx={0} cy={10} rx={320} ry={20} fill="rgba(0,0,0,.35)" />
+    <path d="M-300 -40 L-300 -110 Q-300 -130 -270 -130 L-60 -130 L-40 -230 L140 -230 L170 -130 L260 -120 Q300 -110 300 -70 L300 -40 Z" fill="#7A3442" />
+    <path d="M-30 -215 L130 -215 L150 -135 L-45 -135 Z" fill="#9FC3D8" opacity={0.8} />
+    <rect x={-300} y={-62} width={600} height={14} fill="#5E2632" />
+    <rect x={250} y={-112} width={30} height={20} rx={4} fill={JAUNE} />
+    {/* chauffeur */}
+    <circle cx={60} cy={-170} r={26} fill="#2A2A2A" />
+    <rect x={36} y={-206} width={50} height={14} rx={4} fill="#1A1D26" />
+    {[-190, 190].map((wx) => (
+      <g key={wx} transform={`translate(${wx} -30) rotate(${frame * 6})`}>
+        <circle r={58} fill="#1A1D26" />
+        <circle r={30} fill="#C9CDD4" />
+        <path d="M-30 0 H30 M0 -30 V30" stroke="#1A1D26" strokeWidth={6} />
+      </g>
+    ))}
+  </g>
+);

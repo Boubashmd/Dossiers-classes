@@ -71,7 +71,7 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 | `scene` | Décor + personnages + accessoires | `decor`, `personnages[]`, `tampon`, `legende`, `cartes`, `billets`, `corde`, `gyrophare`, `menottes` |
 | `icones` | Bulles qui apparaissent une à une | `grand`, `items[]` |
 | `carte` | Trajet en pointillés entre des lieux | `points[]`, `voyageur` (bateau, sac) |
-| `objet` | La boîte à billets (apparition, billet, vue en coupe), ou un objet dessiné | `mode`, ou `dessin` (mallette, flacon, photo, enveloppe) + `legende`, `tampon` |
+| `objet` | La boîte à billets (apparition, billet, vue en coupe), ou un objet dessiné | `mode`, ou `dessin` (mallette, flacon, photo, enveloppe, coupon, voiture) + `legende`, `tampon` |
 | `compteur` | Horloge ou nombre qui défile | `mode`, `valeur`, `unite`, `milliers`, `taille` |
 | `chiffre` | Somme d'argent qui monte, option « × 2 » | `valeur`, `unite`, `x2`, `sous` |
 | `document` | Coupure de presse, papier à en-tête, affiche, carte de visite, lettre, rapport, télégramme, message codé | `genre`, `manchette`, `entete`, `lignes[]` (« ■ » = ligne caviardée), `surligne[]`, `tampon` |
@@ -83,10 +83,14 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 | `fin` | Le dossier se referme, tampon « DOSSIER CLASSÉ » | `etiquette` |
 | `cta` | Bulle « Ton prochain dossier ? » + s'abonner | `bulle` |
 | `carte_med` | Carte de l'Europe et de la Méditerranée (vrais contours) | `zones[]` (afrique, sicile, sardaigne, grece, espagne), `lieux[]` (nom, lon, lat, style : point, cible, barre), `fleches[]` (de, vers, label) |
+| `pyramide` | L'argent des nouveaux remonte vers les anciens | `mode` (construit, grandit, vacille, ecroule, nom, duo), `etages`, `nom`, `tampon`, `gauche`/`droite` (duo) |
+| `suite` | Fin de partie 1 : tampon « À SUIVRE », bulle, s'abonner | `annonce`, `bulle` |
+| `courbe` | La Bourse en zigzag contre une ligne trop parfaite | `mode` (krach), `labelMarche`, `labelDroite`, `legende` |
+| `carte_monde` | Planisphère simplifié, points qui s'allument | `points[]` (lon, lat, nom), `pas` |
 | `etapes` | Plusieurs séquences dans une même phrase | `etapes[]` |
 
-**Personnages** : `lustig`, `ferrailleur`, `poisson`, `passager`, `passagere`, `capone`, `shaw`, `agent`, `policier`, `victime`, `officier`, `soldat`, `pecheur`, `sansabri`, `employee`. Option `rot` pour incliner un personnage.
-**Décors** : `maison`, `paquebot`, `hotel`, `prison`, `consignes`, `alcatraz`, `ville`, `bureau`, `cote`, `sousmarin`, `derive`, `plage`, `tombe` (option `graver`).
+**Personnages** : `lustig`, `ferrailleur`, `poisson`, `passager`, `passagere`, `capone`, `shaw`, `agent`, `policier`, `victime`, `officier`, `soldat`, `pecheur`, `sansabri`, `employee`, `ponzi`, `madoff`, `markopolos`, `ombre`. Option `rot` pour incliner un personnage.
+**Décors** : `maison`, `paquebot`, `hotel`, `prison`, `consignes`, `alcatraz`, `ville`, `bureau`, `cote`, `sousmarin`, `derive`, `plage`, `tombe` (option `graver`), `banque` (option `enseigne`).
 
 ---
 

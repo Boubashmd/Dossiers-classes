@@ -369,6 +369,24 @@ export const Tombe: React.FC<{ frame: number; p?: any }> = ({ frame, p = {} }) =
 };
 const ROUGE_DRAPEAU = "#C8102E";
 
+/** Façade de banque à colonnes (Montréal, 1907). */
+export const Banque: React.FC<{ frame: number; p?: any }> = ({ p = {} }) => (
+  <g>
+    <rect x={0} y={0} width={1080} height={1920} fill="#13233D" />
+    <rect x={0} y={1350} width={1080} height={570} fill="#0E1D33" />
+    <path d="M140 640 L540 470 L940 640 Z" fill="#3A4A62" />
+    <rect x={140} y={640} width={800} height={70} fill="#43546E" />
+    <text x={540} y={690} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={44} letterSpacing={10} fill={CREME}>
+      {p.enseigne || "BANQUE"}
+    </text>
+    {[200, 340, 480, 600, 740, 880].map((x) => (
+      <rect key={x} x={x - 26} y={710} width={52} height={560} fill="#4A5C78" />
+    ))}
+    <rect x={120} y={1270} width={840} height={80} fill="#3A4A62" />
+    <rect x={470} y={980} width={140} height={290} fill="#0B1626" />
+  </g>
+);
+
 export const DECORS: Record<string, React.FC<{ frame: number; p?: any }>> = {
   maison: Maison,
   paquebot: Paquebot,
@@ -383,4 +401,5 @@ export const DECORS: Record<string, React.FC<{ frame: number; p?: any }>> = {
   derive: Derive,
   plage: Plage,
   tombe: Tombe,
+  banque: Banque,
 };

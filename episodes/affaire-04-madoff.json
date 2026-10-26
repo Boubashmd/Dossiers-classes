@@ -1,0 +1,611 @@
+{
+ "id": "affaire-04-madoff",
+ "numero": 4,
+ "titre": "La plus grande pyramide de l'histoire",
+ "personnage": "Bernard Madoff",
+ "photo": {
+  "fichier": "photos/affaire-04-madoff.png",
+  "largeur": 960,
+  "hauteur": 1277,
+  "visage": {
+   "x": 480,
+   "y": 560
+  },
+  "legende": "Photo d'identité judiciaire · 2009",
+  "credit": "Photo : photo d'identité judiciaire de Bernard Madoff, 2009, gouvernement américain (domaine public)."
+ },
+ "publication": {
+  "accroche": "65 milliards de dollars… et tout était faux. 📂 (Partie 2/2)",
+  "sources": "Wikipédia, History.com, Boston Globe.",
+  "hashtags_episode": [
+   "#arnaque",
+   "#madoff",
+   "#whattowatch"
+  ],
+  "commentaire_epingle": "📂 Prochain dossier : Mata Hari, D. B. Cooper ou Frank Abagnale ? Vote en commentaire 👇"
+ },
+ "couverture": {
+  "titre": "65 MILLIARDS… ET TOUT ÉTAIT FAUX",
+  "sous": "Affaire nº 4 · Bernard Madoff · Partie 2/2"
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Pendant des décennies, cet homme a été l'un des financiers les plus respectés de New York.",
+   "sequence": {
+    "type": "pochette",
+    "photo": "photos/affaire-04-madoff.png",
+    "srcW": 960,
+    "srcH": 1277,
+    "carteW": 620,
+    "visage": {
+     "x": 480,
+     "y": 560
+    },
+    "etiquette": [
+     "AFFAIRE Nº 4",
+     "MADOFF, Bernard"
+    ],
+    "legende": "Photo d'identité judiciaire · 2009"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "02",
+   "texte": "Et derrière, tout était faux.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-04-madoff.png",
+    "srcW": 960,
+    "visage": {
+     "x": 480,
+     "y": 560
+    }
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "generique",
+   "texte": "",
+   "duree": 2.6,
+   "sousTitres": false,
+   "sequence": {
+    "type": "generique",
+    "sousTitre": "Affaire nº 4 · Bernard Madoff"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Dans le dossier précédent, Charles Ponzi payait les anciens clients avec l'argent des nouveaux.",
+   "sequence": {
+    "type": "pyramide",
+    "titre": "DOSSIER PRÉCÉDENT · PONZI",
+    "etages": 4
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Retiens bien ce mécanisme. Il va revenir.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "RETIENS BIEN",
+    "sous": "Il va revenir…"
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Bernard Madoff naît en 1938, à New York.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "QUI EST-IL ?",
+    "personnage": "madoff",
+    "nom": "BERNARD MADOFF",
+    "infos": [
+     "Né en 1938",
+     "New York"
+    ]
+   }
+  },
+  {
+   "id": "06",
+   "texte": "En 1960, il crée sa propre société, avec l'argent gagné comme maître-nageur.",
+   "sequence": {
+    "type": "scene",
+    "decor": "bureau",
+    "titre": "1960",
+    "personnages": [
+     {
+      "nom": "madoff",
+      "x": 540,
+      "y": 1350,
+      "s": 380,
+      "main": 1
+     }
+    ],
+    "legende": "Sa propre société",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "07",
+   "texte": "En vingt ans, elle devient l'une des plus grandes sociétés de Bourse indépendantes des États-Unis.",
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "WALL STREET",
+    "personnages": [
+     {
+      "nom": "madoff",
+      "x": 540,
+      "y": 1350,
+      "s": 360
+     }
+    ],
+    "legende": "L'une des plus grandes",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Il sera même président du Nasdaq, l'une des plus grandes Bourses du monde.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "PRÉSIDENT DU",
+    "personnage": "madoff",
+    "nom": "NASDAQ",
+    "infos": [
+     "L'une des plus grandes",
+     "Bourses du monde"
+    ]
+   }
+  },
+  {
+   "id": "09",
+   "texte": "À côté, il gère l'argent de clients fortunés. Et ses résultats impressionnent.",
+   "sequence": {
+    "type": "flux",
+    "titre": "SES CLIENTS",
+    "de": "passager",
+    "vers": "madoff",
+    "objet": "sac",
+    "lettre": "$"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Environ dix pour cent par an. Chaque année. Que la Bourse monte… ou qu'elle s'effondre.",
+   "sequence": {
+    "type": "courbe",
+    "titre": "SES RÉSULTATS",
+    "labelDroite": "MADOFF : ~10 %/an",
+    "legende": "Trop parfait",
+    "legendeCouleur": "jaune"
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Tout le monde veut en être : des milliardaires, des fonds d'investissement, des fondations caritatives.",
+   "sequence": {
+    "type": "icones",
+    "titre": "TOUT LE MONDE VEUT EN ÊTRE",
+    "items": [
+     {
+      "label": "RICHES",
+      "sous": "des milliardaires"
+     },
+     {
+      "label": "FONDS",
+      "sous": "d'investissement"
+     },
+     {
+      "label": "ŒUVRES",
+      "sous": "caritatives"
+     }
+    ]
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Même la fondation d'Élie Wiesel, prix Nobel de la paix, lui confie son argent.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "MÊME LUI",
+    "personnage": "passager",
+    "nom": "ÉLIE WIESEL",
+    "infos": [
+     "Prix Nobel de la paix",
+     "Sa fondation confie son argent"
+    ]
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Mais un homme n'y croit pas. Il s'appelle Harry Markopolos.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "UN HOMME N'Y CROIT PAS",
+    "personnage": "markopolos",
+    "nom": "HARRY MARKOPOLOS",
+    "infos": [
+     "Analyste financier"
+    ]
+   }
+  },
+  {
+   "id": "14",
+   "texte": "En 1999, il étudie les chiffres de Madoff. Cinq minutes lui suffisent : c'est impossible.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "1999",
+    "entete": "ANALYSE",
+    "lignes": [
+     "Résultats : trop réguliers",
+     "Temps d'analyse : 5 minutes"
+    ],
+    "tampon": "IMPOSSIBLE",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Il prévient le gendarme de la Bourse américaine. Une fois, deux fois… pendant des années.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "SES ALERTES",
+    "dates": [
+     {
+      "an": "2000",
+      "label": "Première alerte"
+     },
+     {
+      "an": "2001",
+      "label": "Nouvelle alerte"
+     },
+     {
+      "an": "2005",
+      "label": "Rapport détaillé"
+     }
+    ],
+    "hauteur": 600
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Personne ne l'écoute.",
+   "sequence": {
+    "type": "barre",
+    "mot": "ALERTE",
+    "personnage": "markopolos",
+    "nom": "IGNORÉE"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Car en réalité, Madoff n'investit pas l'argent de ses clients.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-04-madoff.png",
+    "srcW": 960,
+    "visage": {
+     "x": 480,
+     "y": 560
+    },
+    "texte": "RIEN N'EST INVESTI"
+   }
+  },
+  {
+   "id": "18",
+   "texte": "L'argent dort sur un compte en banque. Et des employés fabriquent de faux relevés.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LES RELEVÉS",
+    "entete": "RELEVÉ DE COMPTE",
+    "lignes": [
+     "Gain du mois : +1 %",
+     "Gain du mois : +1 %",
+     "Gain du mois : +1 %"
+    ],
+    "tampon": "FAUX",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Quand un client veut récupérer son argent… on le paie avec l'argent des nouveaux. Exactement comme Ponzi.",
+   "sequence": {
+    "type": "pyramide",
+    "titre": "EXACTEMENT COMME PONZI",
+    "etages": 5
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Puis arrive 2008 et la crise financière. Les clients paniquent et veulent récupérer leur argent.",
+   "sequence": {
+    "type": "courbe",
+    "mode": "krach",
+    "titre": "2008 · LA CRISE",
+    "labelMarche": "KRACH",
+    "legende": "Tout le monde retire son argent"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Mais il n'y a plus assez d'argent dans la caisse.",
+   "sequence": {
+    "type": "pyramide",
+    "mode": "vacille",
+    "titre": "LA CAISSE EST VIDE",
+    "etages": 6
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Le 10 décembre 2008, Madoff réunit ses fils.",
+   "sequence": {
+    "type": "scene",
+    "decor": "bureau",
+    "titre": "10 DÉCEMBRE 2008",
+    "personnages": [
+     {
+      "nom": "passager",
+      "x": 260,
+      "y": 1350,
+      "s": 300
+     },
+     {
+      "nom": "madoff",
+      "x": 540,
+      "y": 1350,
+      "s": 360
+     },
+     {
+      "nom": "passager",
+      "x": 820,
+      "y": 1350,
+      "s": 300,
+      "miroir": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Et il leur avoue tout : son entreprise n'est qu'un énorme mensonge.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "TOUT EST FAUX",
+    "taille": 100
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Ses propres fils le dénoncent aux autorités. Le lendemain, il est arrêté.",
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "11 DÉCEMBRE 2008",
+    "gyrophare": true,
+    "personnages": [
+     {
+      "nom": "agent",
+      "x": 250,
+      "y": 1350,
+      "s": 300
+     },
+     {
+      "nom": "madoff",
+      "x": 540,
+      "y": 1350,
+      "s": 340
+     },
+     {
+      "nom": "agent",
+      "x": 830,
+      "y": 1350,
+      "s": 300,
+      "miroir": true
+     }
+    ],
+    "tampon": "ARRÊTÉ",
+    "tamponTop": 420
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Sur le papier, ses clients pensaient avoir environ soixante-cinq milliards de dollars.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "SUR LE PAPIER",
+    "valeur": 65,
+    "unite": "milliards de dollars"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "En réalité, près de vingt milliards bien réels ont disparu.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "EN RÉALITÉ",
+    "valeur": 20,
+    "couleur": "rouge",
+    "unite": "milliards disparus"
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Des milliers de victimes, partout dans le monde.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "DES MILLIERS DE VICTIMES",
+    "points": [
+     {
+      "lon": -74,
+      "lat": 40.7,
+      "nom": "NEW YORK"
+     },
+     {
+      "lon": -0.1,
+      "lat": 51.5
+     },
+     {
+      "lon": 2.3,
+      "lat": 48.9
+     },
+     {
+      "lon": 6.1,
+      "lat": 46.2
+     },
+     {
+      "lon": -3.7,
+      "lat": 40.4
+     },
+     {
+      "lon": 34.8,
+      "lat": 32
+     },
+     {
+      "lon": 114,
+      "lat": 22.3
+     },
+     {
+      "lon": -58.4,
+      "lat": -34.6
+     },
+     {
+      "lon": -46.6,
+      "lat": -23.5
+     },
+     {
+      "lon": 139.7,
+      "lat": 35.7
+     },
+     {
+      "lon": -80.2,
+      "lat": 25.8
+     },
+     {
+      "lon": 8.5,
+      "lat": 47.4
+     }
+    ],
+    "pas": 3
+   }
+  },
+  {
+   "id": "28",
+   "texte": "En mars 2009, il plaide coupable.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "MARS 2009",
+    "entete": "TRIBUNAL FÉDÉRAL",
+    "sousEntete": "New York",
+    "lignes": [
+     "Affaire Bernard Madoff",
+     "11 chefs d'accusation"
+    ],
+    "tampon": "COUPABLE",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "29",
+   "texte": "En juin 2009, le juge le condamne à cent cinquante ans de prison. Le maximum.",
+   "sequence": {
+    "type": "scene",
+    "decor": "prison",
+    "titre": "JUIN 2009",
+    "tampon": "150 ANS",
+    "tamponTop": 980
+   }
+  },
+  {
+   "id": "30",
+   "texte": "Il meurt en prison en 2021, à 82 ans.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "SA VIE",
+    "dates": [
+     {
+      "an": "1938",
+      "label": "Naissance à New York"
+     },
+     {
+      "an": "1960",
+      "label": "Sa société"
+     },
+     {
+      "an": "2008",
+      "label": "Arrêté"
+     },
+     {
+      "an": "2021",
+      "label": "Mort en prison"
+     }
+    ]
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "31",
+   "texte": "Ponzi avait récolté une dizaine de millions. Madoff, des dizaines de milliards.",
+   "sequence": {
+    "type": "pyramide",
+    "mode": "duo",
+    "titre": "PONZI CONTRE MADOFF",
+    "gauche": {
+     "nom": "PONZI",
+     "sous": "~10 millions $"
+    },
+    "droite": {
+     "nom": "MADOFF",
+     "sous": "des dizaines de milliards $"
+    }
+   }
+  },
+  {
+   "id": "32",
+   "texte": "Près de quatre-vingt-dix ans d'écart. Exactement la même arnaque.",
+   "sequence": {
+    "type": "pyramide",
+    "mode": "duo",
+    "titre": "1920 · 2008",
+    "gauche": {
+     "nom": "PONZI",
+     "sous": "1920"
+    },
+    "droite": {
+     "nom": "MADOFF",
+     "sous": "2008"
+    },
+    "legende": "La même arnaque",
+    "legendeCouleur": "jaune"
+   }
+  },
+  {
+   "id": "33",
+   "texte": "La prochaine fois qu'on te promet de gros gains sans aucun risque… pense à ces deux dossiers.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "AFFAIRE Nº 4",
+     "MADOFF, Bernard"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "34",
+   "texte": "Quelle affaire veux-tu que j'ouvre la prochaine fois ? Écris-la en commentaire. Et abonne-toi pour ne rater aucun dossier.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "✍️ Ton prochain dossier ?"
+   }
+  }
+ ]
+}

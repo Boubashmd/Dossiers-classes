@@ -6,7 +6,7 @@ on:
       episode:
         description: "Nom du fichier de l'épisode (dans le dossier episodes/, sans .json)"
         required: true
-        default: "affaire-02-martin"
+        default: "affaire-03-ponzi"
       voix:
         description: "Avec la voix ElevenLabs (consomme des crédits) ou aperçu sans voix (gratuit)"
         required: true

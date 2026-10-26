@@ -1,336 +1,302 @@
 {
- "episode": "affaire-02-martin",
+ "episode": "affaire-03-ponzi",
  "fps": 30,
- "total": 6622,
+ "total": 6022,
  "avecVoix": false,
  "couverture": {
-  "titre": "IL A TROMPÉ HITLER APRÈS SA MORT",
-  "sous": "Affaire nº 2 · William Martin",
-  "photo": "photos/affaire-02-martin-couverture.png",
+  "titre": "IL A INVENTÉ L'ARNAQUE",
+  "sous": "Affaire nº 3 · Charles Ponzi · Partie 1/2",
+  "photo": "photos/affaire-03-ponzi-couverture.png",
   "visage": {
-   "x": 405,
-   "y": 360
+   "x": 248,
+   "y": 220
   },
-  "largeur": 700
+  "largeur": 541
  },
  "lignes": [
   {
    "id": "01",
    "debut": 0,
-   "duree": 150,
+   "duree": 155,
    "audio": null,
-   "texte": "En 1943, cet homme a trompé Hitler.",
+   "texte": "En 1920, cet homme promettait de doubler ton argent en quatre-vingt-dix jours.",
    "mots": [
     {
      "t": 0,
      "m": "En"
     },
     {
-     "t": 0.231,
-     "m": "1943,"
+     "t": 0.176,
+     "m": "1920,"
     },
     {
-     "t": 0.694,
+     "t": 0.527,
      "m": "cet"
     },
     {
-     "t": 1.003,
+     "t": 0.761,
      "m": "homme"
     },
     {
-     "t": 1.465,
-     "m": "a"
+     "t": 1.112,
+     "m": "promettait"
     },
     {
-     "t": 1.62,
-     "m": "trompé"
+     "t": 1.755,
+     "m": "de"
     },
     {
-     "t": 2.16,
-     "m": "Hitler."
+     "t": 1.931,
+     "m": "doubler"
+    },
+    {
+     "t": 2.399,
+     "m": "ton"
+    },
+    {
+     "t": 2.633,
+     "m": "argent"
+    },
+    {
+     "t": 3.043,
+     "m": "en"
+    },
+    {
+     "t": 3.218,
+     "m": "quatre-vingt-dix"
+    },
+    {
+     "t": 4.213,
+     "m": "jours."
     }
    ],
    "sequence": {
     "type": "pochette",
-    "photo": "photos/affaire-02-martin.png",
-    "srcW": 1400,
-    "srcH": 993,
+    "photo": "photos/affaire-03-ponzi.png",
+    "srcW": 1011,
+    "srcH": 1200,
+    "carteW": 680,
     "visage": {
-     "x": 1105,
-     "y": 420
+     "x": 718,
+     "y": 520
     },
     "etiquette": [
-     "AFFAIRE Nº 2",
-     "MARTIN, William"
+     "AFFAIRE Nº 3",
+     "PONZI, Charles"
     ],
-    "legende": "Carte d'identité navale · 2 février 1943"
+    "legende": "Fiche d'écrou · prison d'Atlanta · 1910"
    },
    "sousTitres": false
   },
   {
    "id": "02",
-   "debut": 150,
-   "duree": 98,
+   "debut": 155,
+   "duree": 109,
    "audio": null,
-   "texte": "Le problème ? Il était déjà mort.",
+   "texte": "Et près de trente mille personnes l'ont cru.",
    "mots": [
     {
      "t": 0,
-     "m": "Le"
+     "m": "Et"
     },
     {
-     "t": 0.245,
-     "m": "problème"
+     "t": 0.21,
+     "m": "près"
     },
     {
-     "t": 0.98,
-     "m": "?"
+     "t": 0.559,
+     "m": "de"
     },
     {
-     "t": 1.143,
-     "m": "Il"
+     "t": 0.769,
+     "m": "trente"
     },
     {
-     "t": 1.388,
-     "m": "était"
+     "t": 1.258,
+     "m": "mille"
     },
     {
-     "t": 1.878,
-     "m": "déjà"
+     "t": 1.678,
+     "m": "personnes"
     },
     {
-     "t": 2.287,
-     "m": "mort."
+     "t": 2.377,
+     "m": "l'ont"
+    },
+    {
+     "t": 2.796,
+     "m": "cru."
     }
    ],
    "sequence": {
     "type": "choc",
-    "photo": "photos/affaire-02-martin.png",
-    "srcW": 1400,
+    "photo": "photos/affaire-03-ponzi.png",
+    "srcW": 1011,
     "visage": {
-     "x": 1105,
-     "y": 420
+     "x": 718,
+     "y": 520
     }
    },
    "sousTitres": false
   },
   {
    "id": "generique",
-   "debut": 248,
+   "debut": 264,
    "duree": 78,
    "audio": null,
    "texte": "",
    "mots": [],
    "sequence": {
     "type": "generique",
-    "sousTitre": "Affaire nº 2 · William Martin"
+    "sousTitre": "Affaire nº 3 · Charles Ponzi"
    },
    "sousTitres": false
   },
   {
    "id": "03",
-   "debut": 326,
-   "duree": 179,
+   "debut": 342,
+   "duree": 121,
    "audio": null,
-   "texte": "Début 1943. Les Alliés sont sur le point de chasser l'Axe d'Afrique du Nord.",
+   "texte": "Charles Ponzi naît en 1882, à Lugo, en Italie.",
    "mots": [
     {
      "t": 0,
-     "m": "Début"
+     "m": "Charles"
     },
     {
-     "t": 0.418,
-     "m": "1943."
+     "t": 0.598,
+     "m": "Ponzi"
     },
     {
-     "t": 0.836,
-     "m": "Les"
+     "t": 1.047,
+     "m": "naît"
     },
     {
-     "t": 1.114,
-     "m": "Alliés"
+     "t": 1.421,
+     "m": "en"
     },
     {
-     "t": 1.601,
-     "m": "sont"
+     "t": 1.645,
+     "m": "1882,"
     },
     {
-     "t": 1.95,
-     "m": "sur"
+     "t": 2.094,
+     "m": "à"
     },
     {
-     "t": 2.228,
-     "m": "le"
+     "t": 2.244,
+     "m": "Lugo,"
     },
     {
-     "t": 2.437,
-     "m": "point"
+     "t": 2.692,
+     "m": "en"
     },
     {
-     "t": 2.855,
-     "m": "de"
-    },
-    {
-     "t": 3.064,
-     "m": "chasser"
-    },
-    {
-     "t": 3.621,
-     "m": "l'Axe"
-    },
-    {
-     "t": 4.038,
-     "m": "d'Afrique"
-    },
-    {
-     "t": 4.735,
-     "m": "du"
-    },
-    {
-     "t": 4.943,
-     "m": "Nord."
+     "t": 2.917,
+     "m": "Italie."
     }
    ],
    "sequence": {
-    "type": "carte_med",
-    "titre": "DÉBUT 1943",
-    "zones": [
-     "afrique"
-    ],
-    "fleches": [
-     {
-      "de": [
-       0,
-       35.2
-      ],
-      "vers": [
-       9.3,
-       36.2
-      ],
-      "label": "ALLIÉS",
-      "labelDy": -70,
-      "a": 14,
-      "labelDx": -120
-     },
-     {
-      "de": [
-       24,
-       31.3
-      ],
-      "vers": [
-       12,
-       33
-      ],
-      "a": 22,
-      "courbe": -0.2
-     }
-    ],
-    "lieux": [
-     {
-      "nom": "TUNISIE",
-      "lon": 10,
-      "lat": 35.5,
-      "style": "cible",
-      "a": 30,
-      "dessous": true,
-      "dy": 40
-     }
+    "type": "fiche",
+    "titre": "QUI EST-IL ?",
+    "personnage": "ponzi",
+    "nom": "CHARLES PONZI",
+    "infos": [
+     "Né en 1882",
+     "Lugo, Italie"
     ]
    },
    "sousTitres": true
   },
   {
    "id": "04",
-   "debut": 505,
-   "duree": 179,
+   "debut": 463,
+   "duree": 167,
    "audio": null,
-   "texte": "Prochaine étape : débarquer en Europe. Et la porte d'entrée évidente, c'est la Sicile.",
+   "texte": "En 1903, il débarque à Boston. Dans sa poche : deux dollars cinquante.",
    "mots": [
     {
      "t": 0,
-     "m": "Prochaine"
+     "m": "En"
     },
     {
-     "t": 0.616,
-     "m": "étape"
+     "t": 0.211,
+     "m": "1903,"
     },
     {
-     "t": 0.986,
+     "t": 0.633,
+     "m": "il"
+    },
+    {
+     "t": 0.844,
+     "m": "débarque"
+    },
+    {
+     "t": 1.477,
+     "m": "à"
+    },
+    {
+     "t": 1.617,
+     "m": "Boston."
+    },
+    {
+     "t": 2.18,
+     "m": "Dans"
+    },
+    {
+     "t": 2.531,
+     "m": "sa"
+    },
+    {
+     "t": 2.742,
+     "m": "poche"
+    },
+    {
+     "t": 3.164,
      "m": ":"
     },
     {
-     "t": 1.109,
-     "m": "débarquer"
+     "t": 3.305,
+     "m": "deux"
     },
     {
-     "t": 1.725,
-     "m": "en"
+     "t": 3.656,
+     "m": "dollars"
     },
     {
-     "t": 1.91,
-     "m": "Europe."
-    },
-    {
-     "t": 2.403,
-     "m": "Et"
-    },
-    {
-     "t": 2.588,
-     "m": "la"
-    },
-    {
-     "t": 2.773,
-     "m": "porte"
-    },
-    {
-     "t": 3.143,
-     "m": "d'entrée"
-    },
-    {
-     "t": 3.697,
-     "m": "évidente,"
-    },
-    {
-     "t": 4.314,
-     "m": "c'est"
-    },
-    {
-     "t": 4.683,
-     "m": "la"
-    },
-    {
-     "t": 4.868,
-     "m": "Sicile."
+     "t": 4.219,
+     "m": "cinquante."
     }
    ],
    "sequence": {
-    "type": "carte_med",
-    "titre": "PROCHAINE ÉTAPE",
-    "zones": [
-     "sicile"
-    ],
-    "fleches": [
+    "type": "etapes",
+    "etapes": [
      {
-      "de": [
-       10.2,
-       36.5
+      "type": "carte",
+      "titre": "1903",
+      "points": [
+       {
+        "nom": "ITALIE",
+        "x": 800,
+        "y": 820
+       },
+       {
+        "nom": "BOSTON",
+        "x": 260,
+        "y": 700
+       }
       ],
-      "vers": [
-       13.6,
-       37.4
-      ],
-      "a": 10,
-      "courbe": -0.3
-     }
-    ],
-    "lieux": [
+      "voyageur": "bateau",
+      "poids": 1.2
+     },
      {
-      "nom": "SICILE ?",
-      "lon": 14.2,
-      "lat": 37.6,
-      "style": "cible",
-      "a": 30,
-      "taille": 52
+      "type": "chiffre",
+      "titre": "DANS SA POCHE",
+      "valeur": 2.5,
+      "unite": "$",
+      "couleur": "rouge",
+      "poids": 1,
+      "decimales": 2
      }
     ]
    },
@@ -338,836 +304,780 @@
   },
   {
    "id": "05",
-   "debut": 684,
-   "duree": 86,
+   "debut": 630,
+   "duree": 132,
    "audio": null,
-   "texte": "Trop évidente. Les Allemands l'attendent forcément.",
+   "texte": "Le reste, il l'a perdu aux cartes pendant la traversée.",
    "mots": [
     {
      "t": 0,
-     "m": "Trop"
+     "m": "Le"
     },
     {
-     "t": 0.231,
-     "m": "évidente."
+     "t": 0.208,
+     "m": "reste,"
     },
     {
      "t": 0.694,
-     "m": "Les"
+     "m": "il"
     },
     {
-     "t": 0.88,
-     "m": "Allemands"
+     "t": 0.902,
+     "m": "l'a"
     },
     {
-     "t": 1.343,
-     "m": "l'attendent"
+     "t": 1.179,
+     "m": "perdu"
     },
     {
-     "t": 1.898,
-     "m": "forcément."
+     "t": 1.595,
+     "m": "aux"
+    },
+    {
+     "t": 1.873,
+     "m": "cartes"
+    },
+    {
+     "t": 2.358,
+     "m": "pendant"
+    },
+    {
+     "t": 2.913,
+     "m": "la"
+    },
+    {
+     "t": 3.121,
+     "m": "traversée."
     }
    ],
    "sequence": {
     "type": "scene",
-    "decor": "cote",
-    "titre": "SICILE",
-    "personnages": [
-     {
-      "nom": "soldat",
-      "x": 420,
-      "y": 1350,
-      "s": 300
-     },
-     {
-      "nom": "soldat",
-      "x": 640,
-      "y": 1350,
-      "s": 260,
-      "miroir": true
-     }
-    ],
-    "legende": "Ils l'attendent",
-    "legendeTop": 420
+    "decor": "paquebot",
+    "titre": "LA TRAVERSÉE",
+    "cartes": true
    },
    "sousTitres": true
   },
   {
    "id": "06",
-   "debut": 770,
+   "debut": 762,
    "duree": 167,
    "audio": null,
-   "texte": "À Londres, deux officiers du renseignement britannique ont alors une idée complètement folle.",
+   "texte": "Quelques années plus tard, il trouve un emploi dans une banque, à Montréal.",
    "mots": [
     {
      "t": 0,
-     "m": "À"
+     "m": "Quelques"
     },
     {
-     "t": 0.106,
-     "m": "Londres,"
+     "t": 0.591,
+     "m": "années"
     },
     {
-     "t": 0.584,
-     "m": "deux"
+     "t": 1.051,
+     "m": "plus"
     },
     {
-     "t": 0.85,
-     "m": "officiers"
+     "t": 1.379,
+     "m": "tard,"
     },
     {
-     "t": 1.381,
-     "m": "du"
+     "t": 1.773,
+     "m": "il"
     },
     {
-     "t": 1.54,
-     "m": "renseignement"
+     "t": 1.971,
+     "m": "trouve"
     },
     {
-     "t": 2.284,
-     "m": "britannique"
+     "t": 2.43,
+     "m": "un"
     },
     {
-     "t": 2.921,
-     "m": "ont"
+     "t": 2.627,
+     "m": "emploi"
     },
     {
-     "t": 3.133,
-     "m": "alors"
+     "t": 3.087,
+     "m": "dans"
     },
     {
-     "t": 3.452,
+     "t": 3.416,
      "m": "une"
     },
     {
-     "t": 3.664,
-     "m": "idée"
+     "t": 3.678,
+     "m": "banque,"
     },
     {
-     "t": 3.93,
-     "m": "complètement"
+     "t": 4.204,
+     "m": "à"
     },
     {
-     "t": 4.62,
-     "m": "folle."
+     "t": 4.335,
+     "m": "Montréal."
     }
    ],
    "sequence": {
     "type": "scene",
-    "decor": "bureau",
-    "titre": "LONDRES",
+    "decor": "banque",
+    "enseigne": "BANQUE",
+    "titre": "MONTRÉAL",
     "personnages": [
      {
-      "nom": "officier",
-      "x": 380,
+      "nom": "ponzi",
+      "x": 540,
       "y": 1350,
-      "s": 360
-     },
-     {
-      "nom": "officier",
-      "x": 700,
-      "y": 1350,
-      "s": 360,
-      "miroir": true,
-      "main": 1
+      "s": 300
      }
-    ],
-    "legende": "Une idée complètement folle",
-    "legendeTop": 420
+    ]
    },
    "sousTitres": true
   },
   {
    "id": "07",
-   "debut": 937,
-   "duree": 75,
+   "debut": 929,
+   "duree": 155,
    "audio": null,
-   "texte": "Ewen Montagu et Charles Cholmondeley.",
+   "texte": "Cette banque offre des intérêts trois fois plus élevés que les autres.",
    "mots": [
     {
      "t": 0,
-     "m": "Ewen"
+     "m": "Cette"
     },
     {
-     "t": 0.268,
-     "m": "Montagu"
+     "t": 0.391,
+     "m": "banque"
     },
     {
-     "t": 0.697,
-     "m": "et"
+     "t": 0.846,
+     "m": "offre"
     },
     {
-     "t": 0.858,
-     "m": "Charles"
+     "t": 1.237,
+     "m": "des"
     },
     {
-     "t": 1.287,
-     "m": "Cholmondeley."
+     "t": 1.498,
+     "m": "intérêts"
+    },
+    {
+     "t": 2.084,
+     "m": "trois"
+    },
+    {
+     "t": 2.474,
+     "m": "fois"
+    },
+    {
+     "t": 2.8,
+     "m": "plus"
+    },
+    {
+     "t": 3.125,
+     "m": "élevés"
+    },
+    {
+     "t": 3.581,
+     "m": "que"
+    },
+    {
+     "t": 3.841,
+     "m": "les"
+    },
+    {
+     "t": 4.102,
+     "m": "autres."
     }
    ],
    "sequence": {
-    "type": "fiche",
-    "titre": "QUI SONT-ILS ?",
-    "personnage": "officier",
-    "nom": "LE DUO",
-    "infos": [
-     "Ewen Montagu",
-     "Charles Cholmondeley",
-     "Renseignement britannique"
-    ]
+    "type": "compteur",
+    "titre": "LA BANQUE",
+    "valeur": 3,
+    "unite": "fois plus d'intérêts",
+    "legende": "que les autres banques"
    },
    "sousTitres": true
   },
   {
    "id": "08",
-   "debut": 1012,
-   "duree": 248,
+   "debut": 1084,
+   "duree": 155,
    "audio": null,
-   "texte": "Leur plan : faire échouer un faux officier sur une plage d'Espagne, avec de faux plans secrets dans sa mallette.",
+   "texte": "Son secret ? Elle paie les anciens clients avec l'argent des nouveaux.",
    "mots": [
     {
      "t": 0,
-     "m": "Leur"
+     "m": "Son"
     },
     {
-     "t": 0.335,
-     "m": "plan"
+     "t": 0.26,
+     "m": "secret"
     },
     {
-     "t": 0.67,
-     "m": ":"
+     "t": 0.716,
+     "m": "?"
     },
     {
-     "t": 0.805,
-     "m": "faire"
+     "t": 0.846,
+     "m": "Elle"
     },
     {
-     "t": 1.207,
-     "m": "échouer"
+     "t": 1.172,
+     "m": "paie"
     },
     {
-     "t": 1.743,
-     "m": "un"
+     "t": 1.498,
+     "m": "les"
     },
     {
-     "t": 1.944,
-     "m": "faux"
+     "t": 1.758,
+     "m": "anciens"
     },
     {
-     "t": 2.28,
-     "m": "officier"
+     "t": 2.279,
+     "m": "clients"
     },
     {
-     "t": 2.883,
-     "m": "sur"
-    },
-    {
-     "t": 3.151,
-     "m": "une"
-    },
-    {
-     "t": 3.42,
-     "m": "plage"
-    },
-    {
-     "t": 3.822,
-     "m": "d'Espagne,"
-    },
-    {
-     "t": 4.559,
+     "t": 2.8,
      "m": "avec"
     },
     {
-     "t": 4.895,
-     "m": "de"
+     "t": 3.125,
+     "m": "l'argent"
     },
     {
-     "t": 5.096,
-     "m": "faux"
+     "t": 3.711,
+     "m": "des"
     },
     {
-     "t": 5.431,
-     "m": "plans"
-    },
-    {
-     "t": 5.833,
-     "m": "secrets"
-    },
-    {
-     "t": 6.37,
-     "m": "dans"
-    },
-    {
-     "t": 6.705,
-     "m": "sa"
-    },
-    {
-     "t": 6.906,
-     "m": "mallette."
+     "t": 3.972,
+     "m": "nouveaux."
     }
    ],
    "sequence": {
-    "type": "etapes",
-    "etapes": [
-     {
-      "type": "carte_med",
-      "titre": "LE PLAN",
-      "fleches": [
-       {
-        "de": [
-         -0.1,
-         51.5
-        ],
-        "vers": [
-         -6.9,
-         37.3
-        ],
-        "a": 6,
-        "courbe": 0.25
-       }
-      ],
-      "lieux": [
-       {
-        "nom": "LONDRES",
-        "lon": -0.1,
-        "lat": 51.5,
-        "a": 2
-       },
-       {
-        "nom": "PLAGE D'ESPAGNE",
-        "lon": -6.9,
-        "lat": 37.2,
-        "style": "cible",
-        "a": 24,
-        "dessous": true
-       }
-      ],
-      "poids": 1.1
-     },
-     {
-      "type": "objet",
-      "dessin": "mallette",
-      "titre": "DANS SA MALLETTE",
-      "tampon": "TOP SECRET",
-      "tamponA": 14,
-      "tamponTop": 760,
-      "poids": 1
-     }
-    ]
+    "type": "pyramide",
+    "titre": "SON SECRET",
+    "etages": 4
    },
    "sousTitres": true
   },
   {
    "id": "09",
-   "debut": 1260,
-   "duree": 167,
+   "debut": 1239,
+   "duree": 144,
    "audio": null,
-   "texte": "L'Espagne est neutre, mais remplie d'espions allemands. Les documents finiront forcément chez Hitler.",
+   "texte": "Jusqu'au jour où le patron s'enfuit au Mexique avec la caisse.",
    "mots": [
     {
      "t": 0,
-     "m": "L'Espagne"
+     "m": "Jusqu'au"
     },
     {
-     "t": 0.489,
-     "m": "est"
+     "t": 0.608,
+     "m": "jour"
     },
     {
-     "t": 0.685,
-     "m": "neutre,"
+     "t": 0.945,
+     "m": "où"
     },
     {
-     "t": 1.077,
-     "m": "mais"
+     "t": 1.148,
+     "m": "le"
     },
     {
-     "t": 1.321,
-     "m": "remplie"
+     "t": 1.35,
+     "m": "patron"
     },
     {
-     "t": 1.713,
-     "m": "d'espions"
+     "t": 1.823,
+     "m": "s'enfuit"
     },
     {
-     "t": 2.202,
-     "m": "allemands."
+     "t": 2.431,
+     "m": "au"
     },
     {
-     "t": 2.741,
-     "m": "Les"
+     "t": 2.633,
+     "m": "Mexique"
     },
     {
-     "t": 2.936,
-     "m": "documents"
+     "t": 3.173,
+     "m": "avec"
     },
     {
-     "t": 3.426,
-     "m": "finiront"
+     "t": 3.511,
+     "m": "la"
     },
     {
-     "t": 3.866,
-     "m": "forcément"
-    },
-    {
-     "t": 4.356,
-     "m": "chez"
-    },
-    {
-     "t": 4.6,
-     "m": "Hitler."
+     "t": 3.713,
+     "m": "caisse."
     }
    ],
    "sequence": {
-    "type": "carte_med",
-    "titre": "L'ESPAGNE",
-    "zones": [
-     "espagne"
-    ],
-    "lieux": [
+    "type": "carte",
+    "titre": "LE PATRON S'ENFUIT",
+    "points": [
      {
-      "nom": "NEUTRE",
-      "lon": -3.7,
-      "lat": 40.4,
-      "a": 6,
-      "dessous": true
+      "nom": "MONTRÉAL",
+      "x": 700,
+      "y": 560
      },
      {
-      "nom": "BERLIN",
-      "lon": 13.4,
-      "lat": 52.5,
-      "style": "cible",
-      "a": 40,
-      "couleur": "rouge",
-      "dessous": true
+      "nom": "MEXIQUE",
+      "x": 330,
+      "y": 1120
      }
     ],
-    "fleches": [
-     {
-      "de": [
-       -3.7,
-       40.6
-      ],
-      "vers": [
-       13,
-       52.2
-      ],
-      "a": 30,
-      "couleur": "rouge",
-      "courbe": 0.15
-     }
-    ],
-    "legende": "Pleine d'espions allemands"
+    "voyageur": "sac",
+    "lettre": "$"
    },
    "sousTitres": true
   },
   {
    "id": "10",
-   "debut": 1427,
-   "duree": 121,
+   "debut": 1383,
+   "duree": 75,
    "audio": null,
-   "texte": "Il ne leur manque qu'une chose : un cadavre.",
+   "texte": "Ponzi, lui, retient la leçon.",
    "mots": [
     {
      "t": 0,
-     "m": "Il"
+     "m": "Ponzi,"
     },
     {
-     "t": 0.234,
-     "m": "ne"
+     "t": 0.476,
+     "m": "lui,"
     },
     {
-     "t": 0.469,
-     "m": "leur"
+     "t": 0.815,
+     "m": "retient"
     },
     {
-     "t": 0.859,
-     "m": "manque"
+     "t": 1.359,
+     "m": "la"
     },
     {
-     "t": 1.406,
-     "m": "qu'une"
-    },
-    {
-     "t": 1.953,
-     "m": "chose"
-    },
-    {
-     "t": 2.421,
-     "m": ":"
-    },
-    {
-     "t": 2.578,
-     "m": "un"
-    },
-    {
-     "t": 2.812,
-     "m": "cadavre."
+     "t": 1.563,
+     "m": "leçon."
     }
    ],
    "sequence": {
     "type": "secret",
-    "personnage": "aucun",
-    "texte": "UN CADAVRE",
-    "taille": 100,
-    "sous": "Il manque une chose…"
+    "personnage": "ponzi",
+    "texte": "LA LEÇON"
    },
    "sousTitres": true
   },
   {
    "id": "11",
-   "debut": 1548,
-   "duree": 132,
+   "debut": 1458,
+   "duree": 248,
    "audio": null,
-   "texte": "Ils le trouvent à Londres. Glyndwr Michael, un sans-abri gallois.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Ils"
-    },
-    {
-     "t": 0.235,
-     "m": "le"
-    },
-    {
-     "t": 0.412,
-     "m": "trouvent"
-    },
-    {
-     "t": 0.942,
-     "m": "à"
-    },
-    {
-     "t": 1.059,
-     "m": "Londres."
-    },
-    {
-     "t": 1.589,
-     "m": "Glyndwr"
-    },
-    {
-     "t": 2.06,
-     "m": "Michael,"
-    },
-    {
-     "t": 2.59,
-     "m": "un"
-    },
-    {
-     "t": 2.766,
-     "m": "sans-abri"
-    },
-    {
-     "t": 3.355,
-     "m": "gallois."
-    }
-   ],
-   "sequence": {
-    "type": "fiche",
-    "titre": "LE CORPS",
-    "personnage": "sansabri",
-    "nom": "GLYNDWR MICHAEL",
-    "infos": [
-     "Sans-abri gallois",
-     "Mort à Londres, 1943"
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "12",
-   "debut": 1680,
-   "duree": 190,
-   "audio": null,
-   "texte": "Il est mort après avoir avalé de la mort-aux-rats. Personne n'est venu réclamer son corps.",
+   "texte": "Il fait de la prison pour un faux chèque… puis une deuxième fois, pour avoir fait passer des immigrés clandestinement.",
    "mots": [
     {
      "t": 0,
      "m": "Il"
     },
     {
-     "t": 0.189,
-     "m": "est"
+     "t": 0.191,
+     "m": "fait"
     },
     {
-     "t": 0.441,
-     "m": "mort"
-    },
-    {
-     "t": 0.756,
-     "m": "après"
-    },
-    {
-     "t": 1.133,
-     "m": "avoir"
-    },
-    {
-     "t": 1.511,
-     "m": "avalé"
-    },
-    {
-     "t": 1.889,
+     "t": 0.509,
      "m": "de"
     },
     {
-     "t": 2.078,
+     "t": 0.7,
      "m": "la"
     },
     {
-     "t": 2.267,
-     "m": "mort-aux-rats."
+     "t": 0.891,
+     "m": "prison"
     },
     {
-     "t": 3.212,
-     "m": "Personne"
+     "t": 1.337,
+     "m": "pour"
     },
     {
-     "t": 3.778,
-     "m": "n'est"
+     "t": 1.655,
+     "m": "un"
     },
     {
-     "t": 4.156,
-     "m": "venu"
+     "t": 1.846,
+     "m": "faux"
     },
     {
-     "t": 4.471,
-     "m": "réclamer"
+     "t": 2.165,
+     "m": "chèque…"
     },
     {
-     "t": 5.038,
-     "m": "son"
+     "t": 2.674,
+     "m": "puis"
     },
     {
-     "t": 5.29,
-     "m": "corps."
+     "t": 2.992,
+     "m": "une"
+    },
+    {
+     "t": 3.247,
+     "m": "deuxième"
+    },
+    {
+     "t": 3.82,
+     "m": "fois,"
+    },
+    {
+     "t": 4.202,
+     "m": "pour"
+    },
+    {
+     "t": 4.521,
+     "m": "avoir"
+    },
+    {
+     "t": 4.903,
+     "m": "fait"
+    },
+    {
+     "t": 5.221,
+     "m": "passer"
+    },
+    {
+     "t": 5.667,
+     "m": "des"
+    },
+    {
+     "t": 5.921,
+     "m": "immigrés"
+    },
+    {
+     "t": 6.494,
+     "m": "clandestinement."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "prison",
+    "titre": "PRISON",
+    "tampon": "× 2",
+    "tamponTop": 980
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "12",
+   "debut": 1706,
+   "duree": 155,
+   "audio": null,
+   "texte": "En 1919, à Boston, il tombe sur un petit bout de papier.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.243,
+     "m": "1919,"
+    },
+    {
+     "t": 0.73,
+     "m": "à"
+    },
+    {
+     "t": 0.892,
+     "m": "Boston,"
+    },
+    {
+     "t": 1.541,
+     "m": "il"
+    },
+    {
+     "t": 1.784,
+     "m": "tombe"
+    },
+    {
+     "t": 2.271,
+     "m": "sur"
+    },
+    {
+     "t": 2.595,
+     "m": "un"
+    },
+    {
+     "t": 2.839,
+     "m": "petit"
+    },
+    {
+     "t": 3.325,
+     "m": "bout"
+    },
+    {
+     "t": 3.731,
+     "m": "de"
+    },
+    {
+     "t": 3.974,
+     "m": "papier."
     }
    ],
    "sequence": {
     "type": "objet",
-    "dessin": "flacon",
-    "titre": "CAUSE DU DÉCÈS",
-    "legende": "Mort-aux-rats",
-    "tampon": "NON RÉCLAMÉ",
-    "tamponA": 60,
-    "tamponTop": 1000,
-    "tamponTaille": 84
+    "dessin": "coupon",
+    "titre": "1919 · BOSTON",
+    "legende": "Un petit bout de papier"
    },
    "sousTitres": true
   },
   {
    "id": "13",
-   "debut": 1870,
-   "duree": 190,
+   "debut": 1861,
+   "duree": 225,
    "audio": null,
-   "texte": "Un poison presque impossible à détecter. Pour un médecin, il pourrait passer pour un noyé.",
+   "texte": "Un coupon-réponse international. On l'achète à la poste, et on l'échange contre des timbres dans un autre pays.",
    "mots": [
     {
      "t": 0,
      "m": "Un"
     },
     {
-     "t": 0.189,
-     "m": "poison"
+     "t": 0.183,
+     "m": "coupon-réponse"
     },
     {
-     "t": 0.63,
-     "m": "presque"
+     "t": 1.099,
+     "m": "international."
     },
     {
-     "t": 1.133,
-     "m": "impossible"
+     "t": 2.015,
+     "m": "On"
     },
     {
-     "t": 1.826,
+     "t": 2.198,
+     "m": "l'achète"
+    },
+    {
+     "t": 2.747,
      "m": "à"
     },
     {
-     "t": 1.952,
-     "m": "détecter."
+     "t": 2.87,
+     "m": "la"
     },
     {
-     "t": 2.582,
-     "m": "Pour"
+     "t": 3.053,
+     "m": "poste,"
     },
     {
-     "t": 2.897,
+     "t": 3.48,
+     "m": "et"
+    },
+    {
+     "t": 3.663,
+     "m": "on"
+    },
+    {
+     "t": 3.846,
+     "m": "l'échange"
+    },
+    {
+     "t": 4.457,
+     "m": "contre"
+    },
+    {
+     "t": 4.884,
+     "m": "des"
+    },
+    {
+     "t": 5.129,
+     "m": "timbres"
+    },
+    {
+     "t": 5.617,
+     "m": "dans"
+    },
+    {
+     "t": 5.922,
      "m": "un"
     },
     {
-     "t": 3.086,
-     "m": "médecin,"
+     "t": 6.105,
+     "m": "autre"
     },
     {
-     "t": 3.652,
-     "m": "il"
-    },
-    {
-     "t": 3.841,
-     "m": "pourrait"
-    },
-    {
-     "t": 4.408,
-     "m": "passer"
-    },
-    {
-     "t": 4.849,
-     "m": "pour"
-    },
-    {
-     "t": 5.164,
-     "m": "un"
-    },
-    {
-     "t": 5.353,
-     "m": "noyé."
+     "t": 6.472,
+     "m": "pays."
     }
    ],
    "sequence": {
-    "type": "document",
-    "genre": "rapport",
-    "titre": "AUTOPSIE",
-    "entete": "RAPPORT MÉDICAL",
-    "lignes": [
-     "Nom : inconnu",
-     "Poison : non détecté",
-     "Cause probable :"
-    ],
-    "tampon": "NOYADE ?",
-    "tamponTop": 880
+    "type": "objet",
+    "dessin": "coupon",
+    "timbres": true,
+    "titre": "LE COUPON",
+    "legende": "Coupon → timbres"
    },
    "sousTitres": true
   },
   {
    "id": "14",
-   "debut": 2060,
-   "duree": 132,
+   "debut": 2086,
+   "duree": 190,
    "audio": null,
-   "texte": "Il va devenir le major William Martin, des Royal Marines.",
+   "texte": "Or, en Italie, ces coupons ne coûtent presque rien. Aux États-Unis, ils valent bien plus.",
    "mots": [
     {
      "t": 0,
-     "m": "Il"
+     "m": "Or,"
     },
     {
-     "t": 0.201,
-     "m": "va"
+     "t": 0.255,
+     "m": "en"
     },
     {
-     "t": 0.402,
-     "m": "devenir"
+     "t": 0.446,
+     "m": "Italie,"
     },
     {
-     "t": 0.938,
-     "m": "le"
+     "t": 0.955,
+     "m": "ces"
     },
     {
-     "t": 1.139,
-     "m": "major"
+     "t": 1.21,
+     "m": "coupons"
     },
     {
-     "t": 1.54,
-     "m": "William"
+     "t": 1.719,
+     "m": "ne"
     },
     {
-     "t": 2.076,
-     "m": "Martin,"
+     "t": 1.91,
+     "m": "coûtent"
     },
     {
-     "t": 2.612,
-     "m": "des"
+     "t": 2.42,
+     "m": "presque"
     },
     {
-     "t": 2.88,
-     "m": "Royal"
+     "t": 2.929,
+     "m": "rien."
     },
     {
-     "t": 3.282,
-     "m": "Marines."
+     "t": 3.311,
+     "m": "Aux"
+    },
+    {
+     "t": 3.566,
+     "m": "États-Unis,"
+    },
+    {
+     "t": 4.33,
+     "m": "ils"
+    },
+    {
+     "t": 4.584,
+     "m": "valent"
+    },
+    {
+     "t": 5.03,
+     "m": "bien"
+    },
+    {
+     "t": 5.348,
+     "m": "plus."
     }
    ],
    "sequence": {
-    "type": "fiche",
-    "titre": "SA NOUVELLE IDENTITÉ",
-    "personnage": "officier",
-    "nom": "WILLIAM MARTIN",
-    "infos": [
-     "Major",
-     "Royal Marines",
-     "Né à Cardiff en 1907 (faux)"
-    ]
+    "type": "carte",
+    "titre": "LA COMBINE",
+    "points": [
+     {
+      "nom": "ITALIE : pas cher",
+      "x": 800,
+      "y": 820
+     },
+     {
+      "nom": "USA : plus cher",
+      "x": 260,
+      "y": 700
+     }
+    ],
+    "voyageur": "sac",
+    "lettre": "$"
    },
    "sousTitres": true
   },
   {
    "id": "15",
-   "debut": 2192,
+   "debut": 2276,
    "duree": 155,
    "audio": null,
-   "texte": "Et pour qu'on y croie, il faut lui inventer une vie entière.",
+   "texte": "Acheter là-bas, échanger ici : sur le papier, c'est de l'argent facile.",
    "mots": [
     {
      "t": 0,
-     "m": "Et"
+     "m": "Acheter"
     },
     {
-     "t": 0.227,
-     "m": "pour"
+     "t": 0.514,
+     "m": "là-bas,"
     },
     {
-     "t": 0.606,
-     "m": "qu'on"
+     "t": 1.027,
+     "m": "échanger"
     },
     {
-     "t": 1.061,
-     "m": "y"
+     "t": 1.605,
+     "m": "ici"
     },
     {
-     "t": 1.213,
-     "m": "croie,"
+     "t": 1.862,
+     "m": ":"
     },
     {
-     "t": 1.743,
-     "m": "il"
+     "t": 1.99,
+     "m": "sur"
     },
     {
-     "t": 1.97,
-     "m": "faut"
+     "t": 2.247,
+     "m": "le"
     },
     {
-     "t": 2.349,
-     "m": "lui"
+     "t": 2.44,
+     "m": "papier,"
     },
     {
-     "t": 2.652,
-     "m": "inventer"
+     "t": 2.953,
+     "m": "c'est"
     },
     {
-     "t": 3.334,
-     "m": "une"
+     "t": 3.339,
+     "m": "de"
     },
     {
-     "t": 3.638,
-     "m": "vie"
+     "t": 3.531,
+     "m": "l'argent"
     },
     {
-     "t": 3.941,
-     "m": "entière."
+     "t": 4.109,
+     "m": "facile."
     }
    ],
    "sequence": {
     "type": "icones",
-    "titre": "UNE FAUSSE VIE",
+    "titre": "SUR LE PAPIER",
     "items": [
      {
-      "label": "FIANCÉE",
-      "sous": "une photo"
+      "label": "ACHETER",
+      "sous": "en Italie"
      },
      {
-      "label": "LETTRES",
-      "sous": "d'amour"
+      "label": "ÉCHANGER",
+      "sous": "aux États-Unis"
      },
      {
-      "label": "FACTURES",
-      "sous": "et dettes"
+      "label": "PROFIT ?",
+      "sous": "de l'argent facile"
      }
     ]
    },
@@ -1175,1596 +1085,880 @@
   },
   {
    "id": "16",
-   "debut": 2347,
-   "duree": 132,
+   "debut": 2431,
+   "duree": 225,
    "audio": null,
-   "texte": "Dans sa poche : la photo de sa fiancée, Pam.",
+   "texte": "Ponzi crée sa société, et fait une promesse folle : cinquante pour cent de bénéfice en quarante-cinq jours.",
    "mots": [
     {
      "t": 0,
-     "m": "Dans"
+     "m": "Ponzi"
     },
     {
-     "t": 0.432,
+     "t": 0.38,
+     "m": "crée"
+    },
+    {
+     "t": 0.696,
      "m": "sa"
     },
     {
-     "t": 0.691,
-     "m": "poche"
+     "t": 0.886,
+     "m": "société,"
     },
     {
-     "t": 1.208,
+     "t": 1.456,
+     "m": "et"
+    },
+    {
+     "t": 1.646,
+     "m": "fait"
+    },
+    {
+     "t": 1.963,
+     "m": "une"
+    },
+    {
+     "t": 2.216,
+     "m": "promesse"
+    },
+    {
+     "t": 2.786,
+     "m": "folle"
+    },
+    {
+     "t": 3.166,
      "m": ":"
     },
     {
-     "t": 1.381,
-     "m": "la"
+     "t": 3.292,
+     "m": "cinquante"
     },
     {
-     "t": 1.64,
-     "m": "photo"
+     "t": 3.926,
+     "m": "pour"
     },
     {
-     "t": 2.158,
+     "t": 4.242,
+     "m": "cent"
+    },
+    {
+     "t": 4.559,
      "m": "de"
     },
     {
-     "t": 2.417,
-     "m": "sa"
+     "t": 4.749,
+     "m": "bénéfice"
     },
     {
-     "t": 2.676,
-     "m": "fiancée,"
+     "t": 5.319,
+     "m": "en"
     },
     {
-     "t": 3.453,
-     "m": "Pam."
+     "t": 5.509,
+     "m": "quarante-cinq"
+    },
+    {
+     "t": 6.395,
+     "m": "jours."
     }
    ],
    "sequence": {
-    "type": "objet",
-    "dessin": "photo",
-    "ecrit": "Pam",
-    "titre": "DANS SA POCHE",
-    "legende": "Sa fiancée, Pam"
+    "type": "chiffre",
+    "titre": "LA PROMESSE",
+    "valeur": 50,
+    "unite": "%",
+    "sous": "de bénéfice en 45 jours"
    },
    "sousTitres": true
   },
   {
    "id": "17",
-   "debut": 2479,
-   "duree": 121,
+   "debut": 2656,
+   "duree": 86,
    "audio": null,
-   "texte": "Deux lettres d'amour. Le reçu d'une bague de fiançailles.",
+   "texte": "Cent pour cent en quatre-vingt-dix jours.",
    "mots": [
     {
      "t": 0,
-     "m": "Deux"
+     "m": "Cent"
     },
     {
-     "t": 0.303,
-     "m": "lettres"
+     "t": 0.287,
+     "m": "pour"
     },
     {
-     "t": 0.788,
-     "m": "d'amour."
+     "t": 0.573,
+     "m": "cent"
     },
     {
-     "t": 1.333,
-     "m": "Le"
+     "t": 0.86,
+     "m": "en"
     },
     {
-     "t": 1.515,
-     "m": "reçu"
+     "t": 1.032,
+     "m": "quatre-vingt-dix"
     },
     {
-     "t": 1.818,
-     "m": "d'une"
-    },
-    {
-     "t": 2.182,
-     "m": "bague"
-    },
-    {
-     "t": 2.545,
-     "m": "de"
-    },
-    {
-     "t": 2.727,
-     "m": "fiançailles."
+     "t": 2.006,
+     "m": "jours."
     }
    ],
    "sequence": {
-    "type": "icones",
-    "titre": "DANS SA POCHE",
-    "items": [
-     {
-      "label": "LETTRES",
-      "sous": "d'amour ×2"
-     },
-     {
-      "label": "BAGUE",
-      "sous": "reçu du bijoutier"
-     }
-    ]
+    "type": "chiffre",
+    "titre": "LA PROMESSE",
+    "valeur": 100,
+    "unite": "%",
+    "sous": "en 90 jours",
+    "x2": true
    },
    "sousTitres": true
   },
   {
    "id": "18",
-   "debut": 2600,
-   "duree": 202,
+   "debut": 2742,
+   "duree": 109,
    "audio": null,
-   "texte": "Un ticket de théâtre. Et même une lettre de sa banque qui lui réclame son découvert.",
+   "texte": "Les premiers clients sont payés. Le bouche-à-oreille s'emballe.",
    "mots": [
     {
      "t": 0,
-     "m": "Un"
+     "m": "Les"
     },
     {
-     "t": 0.215,
-     "m": "ticket"
+     "t": 0.197,
+     "m": "premiers"
     },
     {
-     "t": 0.718,
+     "t": 0.639,
+     "m": "clients"
+    },
+    {
+     "t": 1.032,
+     "m": "sont"
+    },
+    {
+     "t": 1.278,
+     "m": "payés."
+    },
+    {
+     "t": 1.622,
+     "m": "Le"
+    },
+    {
+     "t": 1.77,
+     "m": "bouche-à-oreille"
+    },
+    {
+     "t": 2.605,
+     "m": "s'emballe."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "BOSTON · 1920",
+    "personnages": [
+     {
+      "nom": "ponzi",
+      "x": 180,
+      "y": 1350,
+      "s": 260
+     },
+     {
+      "nom": "passager",
+      "x": 420,
+      "y": 1350,
+      "s": 220,
+      "miroir": true
+     },
+     {
+      "nom": "passagere",
+      "x": 600,
+      "y": 1350,
+      "s": 210,
+      "miroir": true
+     },
+     {
+      "nom": "policier",
+      "x": 780,
+      "y": 1350,
+      "s": 220,
+      "miroir": true
+     },
+     {
+      "nom": "passager",
+      "x": 950,
+      "y": 1350,
+      "s": 220,
+      "miroir": true
+     }
+    ],
+    "legende": "Tout le monde veut en être",
+    "legendeTop": 420
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "19",
+   "debut": 2851,
+   "duree": 202,
+   "audio": null,
+   "texte": "En quelques mois, près de trente mille personnes lui confient près de dix millions de dollars.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.193,
+     "m": "quelques"
+    },
+    {
+     "t": 0.77,
+     "m": "mois,"
+    },
+    {
+     "t": 1.156,
+     "m": "près"
+    },
+    {
+     "t": 1.477,
      "m": "de"
     },
     {
-     "t": 0.933,
-     "m": "théâtre."
+     "t": 1.669,
+     "m": "trente"
     },
     {
-     "t": 1.579,
-     "m": "Et"
+     "t": 2.119,
+     "m": "mille"
     },
     {
-     "t": 1.794,
-     "m": "même"
+     "t": 2.504,
+     "m": "personnes"
     },
     {
-     "t": 2.153,
-     "m": "une"
-    },
-    {
-     "t": 2.44,
-     "m": "lettre"
-    },
-    {
-     "t": 2.942,
-     "m": "de"
-    },
-    {
-     "t": 3.157,
-     "m": "sa"
-    },
-    {
-     "t": 3.373,
-     "m": "banque"
-    },
-    {
-     "t": 3.875,
-     "m": "qui"
-    },
-    {
-     "t": 4.162,
+     "t": 3.146,
      "m": "lui"
     },
     {
-     "t": 4.449,
-     "m": "réclame"
+     "t": 3.403,
+     "m": "confient"
     },
     {
-     "t": 5.023,
-     "m": "son"
+     "t": 3.981,
+     "m": "près"
     },
     {
-     "t": 5.31,
-     "m": "découvert."
+     "t": 4.302,
+     "m": "de"
+    },
+    {
+     "t": 4.495,
+     "m": "dix"
+    },
+    {
+     "t": 4.751,
+     "m": "millions"
+    },
+    {
+     "t": 5.329,
+     "m": "de"
+    },
+    {
+     "t": 5.522,
+     "m": "dollars."
     }
    ],
    "sequence": {
     "type": "etapes",
     "etapes": [
      {
-      "type": "icones",
-      "titre": "DANS SA POCHE",
-      "items": [
-       {
-        "label": "THÉÂTRE",
-        "sous": "ticket"
-       }
-      ],
-      "poids": 0.8
+      "type": "compteur",
+      "titre": "EN QUELQUES MOIS",
+      "valeur": 30000,
+      "milliers": true,
+      "taille": 220,
+      "unite": "investisseurs",
+      "poids": 1
      },
      {
-      "type": "document",
-      "genre": "lettre",
-      "titre": "SA BANQUE",
-      "entete": "LLOYDS BANK",
-      "lignes": [
-       "Cher Monsieur,",
-       "■",
-       "Votre compte est à découvert.",
-       "■"
-      ],
-      "surligne": [
-       "découvert"
-      ],
-      "surligneA": 10,
-      "tampon": "À PAYER",
-      "tamponA": 26,
-      "poids": 1.2
+      "type": "compteur",
+      "titre": "EN QUELQUES MOIS",
+      "valeur": 10000000,
+      "milliers": true,
+      "taille": 150,
+      "unite": "dollars",
+      "poids": 1
      }
     ]
    },
    "sousTitres": true
   },
   {
-   "id": "19",
-   "debut": 2802,
-   "duree": 155,
+   "id": "20",
+   "debut": 3053,
+   "duree": 167,
    "audio": null,
-   "texte": "Mais Pam n'existe pas. Sur la photo, c'est une employée du MI5.",
+   "texte": "Ponzi s'achète une voiture avec chauffeur… et devient l'un des patrons d'une banque.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Ponzi"
+    },
+    {
+     "t": 0.352,
+     "m": "s'achète"
+    },
+    {
+     "t": 0.881,
+     "m": "une"
+    },
+    {
+     "t": 1.116,
+     "m": "voiture"
+    },
+    {
+     "t": 1.586,
+     "m": "avec"
+    },
+    {
+     "t": 1.879,
+     "m": "chauffeur…"
+    },
+    {
+     "t": 2.525,
+     "m": "et"
+    },
+    {
+     "t": 2.702,
+     "m": "devient"
+    },
+    {
+     "t": 3.171,
+     "m": "l'un"
+    },
+    {
+     "t": 3.465,
+     "m": "des"
+    },
+    {
+     "t": 3.7,
+     "m": "patrons"
+    },
+    {
+     "t": 4.17,
+     "m": "d'une"
+    },
+    {
+     "t": 4.522,
+     "m": "banque."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "voiture",
+    "titre": "LA BELLE VIE",
+    "legende": "Voiture avec chauffeur"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "21",
+   "debut": 3220,
+   "duree": 167,
+   "audio": null,
+   "texte": "Mais il y a un problème. Ponzi n'a jamais échangé un seul coupon.",
    "mots": [
     {
      "t": 0,
      "m": "Mais"
     },
     {
-     "t": 0.361,
-     "m": "Pam"
+     "t": 0.378,
+     "m": "il"
     },
     {
-     "t": 0.65,
-     "m": "n'existe"
+     "t": 0.605,
+     "m": "y"
     },
     {
-     "t": 1.3,
-     "m": "pas."
+     "t": 0.756,
+     "m": "a"
     },
     {
-     "t": 1.661,
-     "m": "Sur"
-    },
-    {
-     "t": 1.95,
-     "m": "la"
-    },
-    {
-     "t": 2.167,
-     "m": "photo,"
-    },
-    {
-     "t": 2.673,
-     "m": "c'est"
-    },
-    {
-     "t": 3.106,
-     "m": "une"
-    },
-    {
-     "t": 3.395,
-     "m": "employée"
-    },
-    {
-     "t": 4.045,
-     "m": "du"
-    },
-    {
-     "t": 4.262,
-     "m": "MI5."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "photo",
-    "ecrit": "Pam",
-    "titre": "PAM ?",
-    "legende": "Une employée du MI5",
-    "tampon": "FAUSSE",
-    "tamponA": 24,
-    "tamponTop": 880
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "20",
-   "debut": 2957,
-   "duree": 248,
-   "audio": null,
-   "texte": "Et sur sa carte d'identité, ce visage n'est même pas celui du mort. C'est un autre officier, qui lui ressemblait.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Et"
-    },
-    {
-     "t": 0.199,
-     "m": "sur"
-    },
-    {
-     "t": 0.465,
-     "m": "sa"
-    },
-    {
-     "t": 0.665,
-     "m": "carte"
-    },
-    {
-     "t": 1.063,
-     "m": "d'identité,"
-    },
-    {
-     "t": 1.861,
-     "m": "ce"
-    },
-    {
-     "t": 2.06,
-     "m": "visage"
-    },
-    {
-     "t": 2.526,
-     "m": "n'est"
-    },
-    {
-     "t": 2.924,
-     "m": "même"
-    },
-    {
-     "t": 3.257,
-     "m": "pas"
-    },
-    {
-     "t": 3.522,
-     "m": "celui"
-    },
-    {
-     "t": 3.921,
-     "m": "du"
-    },
-    {
-     "t": 4.121,
-     "m": "mort."
-    },
-    {
-     "t": 4.519,
-     "m": "C'est"
-    },
-    {
-     "t": 4.918,
+     "t": 0.908,
      "m": "un"
     },
     {
-     "t": 5.118,
-     "m": "autre"
+     "t": 1.135,
+     "m": "problème."
     },
     {
-     "t": 5.516,
-     "m": "officier,"
+     "t": 1.891,
+     "m": "Ponzi"
     },
     {
-     "t": 6.181,
-     "m": "qui"
+     "t": 2.345,
+     "m": "n'a"
     },
     {
-     "t": 6.447,
-     "m": "lui"
+     "t": 2.647,
+     "m": "jamais"
     },
     {
-     "t": 6.713,
-     "m": "ressemblait."
+     "t": 3.177,
+     "m": "échangé"
+    },
+    {
+     "t": 3.782,
+     "m": "un"
+    },
+    {
+     "t": 4.009,
+     "m": "seul"
+    },
+    {
+     "t": 4.387,
+     "m": "coupon."
     }
    ],
    "sequence": {
-    "type": "etapes",
-    "etapes": [
-     {
-      "type": "choc",
-      "photo": "photos/affaire-02-martin.png",
-      "srcW": 1400,
-      "visage": {
-       "x": 1105,
-       "y": 420
-      },
-      "texte": "CE N'EST PAS LUI",
-      "poids": 1
-     },
-     {
-      "type": "fiche",
-      "titre": "LE VISAGE",
-      "personnage": "officier",
-      "nom": "UN SOSIE",
-      "infos": [
-       "Un officier vivant",
-       "qui lui ressemblait"
-      ],
-      "poids": 1
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "21",
-   "debut": 3205,
-   "duree": 179,
-   "audio": null,
-   "texte": "Le plus important est dans sa mallette, attachée à son manteau par une chaîne.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Le"
-    },
-    {
-     "t": 0.204,
-     "m": "plus"
-    },
-    {
-     "t": 0.543,
-     "m": "important"
-    },
-    {
-     "t": 1.222,
-     "m": "est"
-    },
-    {
-     "t": 1.493,
-     "m": "dans"
-    },
-    {
-     "t": 1.832,
-     "m": "sa"
-    },
-    {
-     "t": 2.036,
-     "m": "mallette,"
-    },
-    {
-     "t": 2.715,
-     "m": "attachée"
-    },
-    {
-     "t": 3.325,
-     "m": "à"
-    },
-    {
-     "t": 3.461,
-     "m": "son"
-    },
-    {
-     "t": 3.733,
-     "m": "manteau"
-    },
-    {
-     "t": 4.275,
-     "m": "par"
-    },
-    {
-     "t": 4.547,
-     "m": "une"
-    },
-    {
-     "t": 4.818,
-     "m": "chaîne."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "mallette",
-    "titre": "LA MALLETTE"
+    "type": "barre",
+    "mot": "COUPONS",
+    "personnage": "ponzi",
+    "nom": "ÉCHANGÉS : 0"
    },
    "sousTitres": true
   },
   {
    "id": "22",
-   "debut": 3384,
-   "duree": 213,
+   "debut": 3387,
+   "duree": 190,
    "audio": null,
-   "texte": "Une lettre secrète entre deux généraux britanniques. Le vrai débarquement, dit-elle, visera la Grèce et la Sardaigne.",
+   "texte": "Il aurait fallu des millions de coupons. Il n'en existait pas assez, de très loin.",
    "mots": [
     {
      "t": 0,
-     "m": "Une"
+     "m": "Il"
     },
     {
-     "t": 0.219,
-     "m": "lettre"
+     "t": 0.207,
+     "m": "aurait"
     },
     {
-     "t": 0.603,
-     "m": "secrète"
+     "t": 0.69,
+     "m": "fallu"
     },
     {
-     "t": 1.042,
-     "m": "entre"
+     "t": 1.105,
+     "m": "des"
     },
     {
-     "t": 1.371,
-     "m": "deux"
+     "t": 1.381,
+     "m": "millions"
     },
     {
-     "t": 1.645,
-     "m": "généraux"
+     "t": 2.002,
+     "m": "de"
     },
     {
-     "t": 2.138,
-     "m": "britanniques."
+     "t": 2.209,
+     "m": "coupons."
     },
     {
-     "t": 2.906,
-     "m": "Le"
+     "t": 2.831,
+     "m": "Il"
     },
     {
-     "t": 3.07,
-     "m": "vrai"
+     "t": 3.038,
+     "m": "n'en"
     },
     {
-     "t": 3.344,
-     "m": "débarquement,"
+     "t": 3.383,
+     "m": "existait"
     },
     {
-     "t": 4.112,
-     "m": "dit-elle,"
+     "t": 4.004,
+     "m": "pas"
     },
     {
-     "t": 4.66,
-     "m": "visera"
+     "t": 4.281,
+     "m": "assez,"
     },
     {
-     "t": 5.044,
-     "m": "la"
+     "t": 4.764,
+     "m": "de"
     },
     {
-     "t": 5.208,
-     "m": "Grèce"
+     "t": 4.971,
+     "m": "très"
     },
     {
-     "t": 5.537,
-     "m": "et"
-    },
-    {
-     "t": 5.701,
-     "m": "la"
-    },
-    {
-     "t": 5.866,
-     "m": "Sardaigne."
+     "t": 5.316,
+     "m": "loin."
     }
    ],
    "sequence": {
-    "type": "document",
-    "genre": "lettre",
-    "titre": "LA FAUSSE LETTRE",
-    "entete": "MOST SECRET",
-    "sousEntete": "D'un général à un autre",
-    "lignes": [
-     "■",
-     "Débarquement : GRÈCE",
-     "■",
-     "Et aussi : SARDAIGNE",
-     "■"
-    ],
-    "surligne": [
-     "GRÈCE",
-     "SARDAIGNE"
+    "type": "icones",
+    "titre": "LE CALCUL",
+    "items": [
+     {
+      "label": "BESOIN",
+      "sous": "des millions"
+     },
+     {
+      "label": "RÉALITÉ",
+      "sous": "beaucoup trop peu"
+     }
     ]
    },
    "sousTitres": true
   },
   {
    "id": "23",
-   "debut": 3597,
-   "duree": 86,
+   "debut": 3577,
+   "duree": 225,
    "audio": null,
-   "texte": "La Sicile ? Juste une diversion.",
+   "texte": "Alors il fait exactement comme la banque de Montréal : il paie les anciens avec l'argent des nouveaux.",
    "mots": [
     {
      "t": 0,
-     "m": "La"
+     "m": "Alors"
     },
     {
-     "t": 0.219,
-     "m": "Sicile"
+     "t": 0.398,
+     "m": "il"
     },
     {
-     "t": 0.73,
-     "m": "?"
+     "t": 0.598,
+     "m": "fait"
     },
     {
-     "t": 0.875,
-     "m": "Juste"
+     "t": 0.929,
+     "m": "exactement"
     },
     {
-     "t": 1.313,
-     "m": "une"
+     "t": 1.66,
+     "m": "comme"
     },
     {
-     "t": 1.605,
-     "m": "diversion."
+     "t": 2.058,
+     "m": "la"
+    },
+    {
+     "t": 2.257,
+     "m": "banque"
+    },
+    {
+     "t": 2.722,
+     "m": "de"
+    },
+    {
+     "t": 2.921,
+     "m": "Montréal"
+    },
+    {
+     "t": 3.519,
+     "m": ":"
+    },
+    {
+     "t": 3.651,
+     "m": "il"
+    },
+    {
+     "t": 3.851,
+     "m": "paie"
+    },
+    {
+     "t": 4.183,
+     "m": "les"
+    },
+    {
+     "t": 4.448,
+     "m": "anciens"
+    },
+    {
+     "t": 4.979,
+     "m": "avec"
+    },
+    {
+     "t": 5.311,
+     "m": "l'argent"
+    },
+    {
+     "t": 5.909,
+     "m": "des"
+    },
+    {
+     "t": 6.174,
+     "m": "nouveaux."
     }
    ],
    "sequence": {
-    "type": "carte_med",
-    "titre": "ET LA SICILE ?",
-    "zones": [
-     "grece",
-     "sardaigne"
-    ],
-    "lieux": [
-     {
-      "lon": 14.2,
-      "lat": 37.6,
-      "style": "barre",
-      "a": 14
-     },
-     {
-      "nom": "DIVERSION",
-      "lon": 14.2,
-      "lat": 37.6,
-      "a": 20,
-      "couleur": "rouge",
-      "dessous": true,
-      "dy": 80
-     }
-    ]
+    "type": "pyramide",
+    "titre": "LA PYRAMIDE DE PONZI",
+    "etages": 5
    },
    "sousTitres": true
   },
   {
    "id": "24",
-   "debut": 3683,
-   "duree": 225,
+   "debut": 3802,
+   "duree": 109,
    "audio": null,
-   "texte": "Le 30 avril 1943, avant l'aube, le sous-marin britannique Seraph fait surface au large de Huelva, en Espagne.",
+   "texte": "Tant que de nouveaux clients arrivent, tout tient.",
    "mots": [
     {
      "t": 0,
-     "m": "Le"
+     "m": "Tant"
     },
     {
-     "t": 0.186,
-     "m": "30"
+     "t": 0.308,
+     "m": "que"
     },
     {
-     "t": 0.373,
-     "m": "avril"
-    },
-    {
-     "t": 0.746,
-     "m": "1943,"
-    },
-    {
-     "t": 1.119,
-     "m": "avant"
-    },
-    {
-     "t": 1.492,
-     "m": "l'aube,"
-    },
-    {
-     "t": 1.989,
-     "m": "le"
-    },
-    {
-     "t": 2.176,
-     "m": "sous-marin"
-    },
-    {
-     "t": 2.86,
-     "m": "britannique"
-    },
-    {
-     "t": 3.606,
-     "m": "Seraph"
-    },
-    {
-     "t": 4.041,
-     "m": "fait"
-    },
-    {
-     "t": 4.352,
-     "m": "surface"
-    },
-    {
-     "t": 4.849,
-     "m": "au"
-    },
-    {
-     "t": 5.035,
-     "m": "large"
-    },
-    {
-     "t": 5.408,
+     "t": 0.555,
      "m": "de"
     },
     {
-     "t": 5.595,
-     "m": "Huelva,"
+     "t": 0.74,
+     "m": "nouveaux"
     },
     {
-     "t": 6.092,
-     "m": "en"
+     "t": 1.295,
+     "m": "clients"
     },
     {
-     "t": 6.279,
-     "m": "Espagne."
+     "t": 1.789,
+     "m": "arrivent,"
+    },
+    {
+     "t": 2.406,
+     "m": "tout"
+    },
+    {
+     "t": 2.714,
+     "m": "tient."
     }
    ],
    "sequence": {
-    "type": "scene",
-    "decor": "sousmarin",
-    "titre": "30 AVRIL 1943",
-    "legende": "HMS Seraph · au large de Huelva",
-    "legendeTop": 420
+    "type": "pyramide",
+    "mode": "grandit",
+    "titre": "TANT QUE ÇA DURE",
+    "depart": 5,
+    "max": 8
    },
    "sousTitres": true
   },
   {
    "id": "25",
-   "debut": 3908,
-   "duree": 167,
+   "debut": 3911,
+   "duree": 155,
    "audio": null,
-   "texte": "L'équipage glisse le corps à l'eau, et laisse les vagues faire le reste.",
+   "texte": "En juillet 1920, le journal Boston Post commence à poser des questions.",
    "mots": [
     {
      "t": 0,
-     "m": "L'équipage"
+     "m": "En"
     },
     {
-     "t": 0.752,
-     "m": "glisse"
+     "t": 0.193,
+     "m": "juillet"
     },
     {
-     "t": 1.231,
+     "t": 0.706,
+     "m": "1920,"
+    },
+    {
+     "t": 1.091,
      "m": "le"
     },
     {
-     "t": 1.436,
-     "m": "corps"
+     "t": 1.284,
+     "m": "journal"
     },
     {
-     "t": 1.846,
-     "m": "à"
+     "t": 1.798,
+     "m": "Boston"
     },
     {
-     "t": 1.983,
-     "m": "l'eau,"
+     "t": 2.247,
+     "m": "Post"
     },
     {
-     "t": 2.462,
-     "m": "et"
-    },
-    {
-     "t": 2.667,
-     "m": "laisse"
+     "t": 2.568,
+     "m": "commence"
     },
     {
      "t": 3.146,
-     "m": "les"
+     "m": "à"
     },
     {
-     "t": 3.419,
-     "m": "vagues"
+     "t": 3.274,
+     "m": "poser"
     },
     {
-     "t": 3.898,
-     "m": "faire"
+     "t": 3.66,
+     "m": "des"
     },
     {
-     "t": 4.308,
-     "m": "le"
-    },
-    {
-     "t": 4.513,
-     "m": "reste."
+     "t": 3.917,
+     "m": "questions."
     }
    ],
    "sequence": {
-    "type": "scene",
-    "decor": "derive",
-    "titre": "AVANT L'AUBE"
+    "type": "document",
+    "genre": "presse",
+    "titre": "JUILLET 1920",
+    "journal": "THE BOSTON POST",
+    "manchette": "Ponzi : d'où vient l'argent ?"
    },
    "sousTitres": true
   },
   {
    "id": "26",
-   "debut": 4075,
-   "duree": 121,
-   "audio": null,
-   "texte": "Quelques heures plus tard, un pêcheur espagnol le découvre.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Quelques"
-    },
-    {
-     "t": 0.527,
-     "m": "heures"
-    },
-    {
-     "t": 0.937,
-     "m": "plus"
-    },
-    {
-     "t": 1.23,
-     "m": "tard,"
-    },
-    {
-     "t": 1.582,
-     "m": "un"
-    },
-    {
-     "t": 1.758,
-     "m": "pêcheur"
-    },
-    {
-     "t": 2.226,
-     "m": "espagnol"
-    },
-    {
-     "t": 2.753,
-     "m": "le"
-    },
-    {
-     "t": 2.929,
-     "m": "découvre."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "plage",
-    "titre": "HUELVA",
-    "personnages": [
-     {
-      "nom": "pecheur",
-      "x": 620,
-      "y": 1190,
-      "s": 300,
-      "miroir": true
-     }
-    ],
-    "legende": "Un pêcheur le découvre",
-    "legendeTop": 420
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "27",
-   "debut": 4196,
-   "duree": 155,
-   "audio": null,
-   "texte": "Les Espagnols ouvrent les lettres, les photographient, et transmettent tout aux Allemands.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Les"
-    },
-    {
-     "t": 0.203,
-     "m": "Espagnols"
-    },
-    {
-     "t": 0.711,
-     "m": "ouvrent"
-    },
-    {
-     "t": 1.118,
-     "m": "les"
-    },
-    {
-     "t": 1.321,
-     "m": "lettres,"
-    },
-    {
-     "t": 1.778,
-     "m": "les"
-    },
-    {
-     "t": 1.981,
-     "m": "photographient,"
-    },
-    {
-     "t": 2.794,
-     "m": "et"
-    },
-    {
-     "t": 2.946,
-     "m": "transmettent"
-    },
-    {
-     "t": 3.607,
-     "m": "tout"
-    },
-    {
-     "t": 3.861,
-     "m": "aux"
-    },
-    {
-     "t": 4.064,
-     "m": "Allemands."
-    }
-   ],
-   "sequence": {
-    "type": "etapes",
-    "etapes": [
-     {
-      "type": "document",
-      "genre": "lettre",
-      "titre": "EN ESPAGNE",
-      "entete": "MOST SECRET",
-      "lignes": [
-       "■",
-       "Débarquement : GRÈCE",
-       "■"
-      ],
-      "tampon": "PHOTOGRAPHIÉ",
-      "tamponA": 14,
-      "poids": 1
-     },
-     {
-      "type": "carte_med",
-      "titre": "DIRECTION BERLIN",
-      "fleches": [
-       {
-        "de": [
-         -6.9,
-         37.3
-        ],
-        "vers": [
-         13,
-         52.2
-        ],
-        "a": 4,
-        "couleur": "rouge",
-        "courbe": 0.15
-       }
-      ],
-      "lieux": [
-       {
-        "nom": "HUELVA",
-        "lon": -6.95,
-        "lat": 37.25,
-        "a": 0,
-        "dessous": true
-       },
-       {
-        "nom": "BERLIN",
-        "lon": 13.4,
-        "lat": 52.5,
-        "style": "cible",
-        "couleur": "rouge",
-        "a": 20,
-        "dessous": true
-       }
-      ],
-      "poids": 1
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "28",
-   "debut": 4351,
-   "duree": 179,
-   "audio": null,
-   "texte": "Puis ils les referment, et les rendent aux Britanniques comme si de rien n'était.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Puis"
-    },
-    {
-     "t": 0.327,
-     "m": "ils"
-    },
-    {
-     "t": 0.588,
-     "m": "les"
-    },
-    {
-     "t": 0.85,
-     "m": "referment,"
-    },
-    {
-     "t": 1.569,
-     "m": "et"
-    },
-    {
-     "t": 1.765,
-     "m": "les"
-    },
-    {
-     "t": 2.027,
-     "m": "rendent"
-    },
-    {
-     "t": 2.55,
-     "m": "aux"
-    },
-    {
-     "t": 2.811,
-     "m": "Britanniques"
-    },
-    {
-     "t": 3.661,
-     "m": "comme"
-    },
-    {
-     "t": 4.054,
-     "m": "si"
-    },
-    {
-     "t": 4.25,
-     "m": "de"
-    },
-    {
-     "t": 4.446,
-     "m": "rien"
-    },
-    {
-     "t": 4.773,
-     "m": "n'était."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "enveloppe",
-    "titre": "COMME NEUVES",
-    "legende": "Refermées… et rendues"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "29",
-   "debut": 4530,
-   "duree": 155,
-   "audio": null,
-   "texte": "Le major Martin, lui, est enterré à Huelva, avec les honneurs militaires.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Le"
-    },
-    {
-     "t": 0.187,
-     "m": "major"
-    },
-    {
-     "t": 0.562,
-     "m": "Martin,"
-    },
-    {
-     "t": 1.062,
-     "m": "lui,"
-    },
-    {
-     "t": 1.374,
-     "m": "est"
-    },
-    {
-     "t": 1.624,
-     "m": "enterré"
-    },
-    {
-     "t": 2.124,
-     "m": "à"
-    },
-    {
-     "t": 2.249,
-     "m": "Huelva,"
-    },
-    {
-     "t": 2.749,
-     "m": "avec"
-    },
-    {
-     "t": 3.061,
-     "m": "les"
-    },
-    {
-     "t": 3.311,
-     "m": "honneurs"
-    },
-    {
-     "t": 3.873,
-     "m": "militaires."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "tombe",
-    "titre": "HUELVA",
-    "legende": "Honneurs militaires",
-    "legendeTop": 420
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "30",
-   "debut": 4685,
-   "duree": 179,
-   "audio": null,
-   "texte": "À Londres, il ne reste plus qu'à attendre. Les Allemands vont-ils y croire ?",
-   "mots": [
-    {
-     "t": 0,
-     "m": "À"
-    },
-    {
-     "t": 0.139,
-     "m": "Londres,"
-    },
-    {
-     "t": 0.766,
-     "m": "il"
-    },
-    {
-     "t": 0.975,
-     "m": "ne"
-    },
-    {
-     "t": 1.184,
-     "m": "reste"
-    },
-    {
-     "t": 1.601,
-     "m": "plus"
-    },
-    {
-     "t": 1.95,
-     "m": "qu'à"
-    },
-    {
-     "t": 2.298,
-     "m": "attendre."
-    },
-    {
-     "t": 2.994,
-     "m": "Les"
-    },
-    {
-     "t": 3.272,
-     "m": "Allemands"
-    },
-    {
-     "t": 3.969,
-     "m": "vont-ils"
-    },
-    {
-     "t": 4.595,
-     "m": "y"
-    },
-    {
-     "t": 4.735,
-     "m": "croire"
-    },
-    {
-     "t": 5.222,
-     "m": "?"
-    }
-   ],
-   "sequence": {
-    "type": "compteur",
-    "titre": "LONDRES",
-    "valeur": 14,
-    "unite": "jours d'attente",
-    "legende": "Vont-ils y croire ?"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "31",
-   "debut": 4864,
-   "duree": 109,
-   "audio": null,
-   "texte": "Mi-mai, les Britanniques déchiffrent des messages allemands secrets.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Mi-mai,"
-    },
-    {
-     "t": 0.365,
-     "m": "les"
-    },
-    {
-     "t": 0.547,
-     "m": "Britanniques"
-    },
-    {
-     "t": 1.14,
-     "m": "déchiffrent"
-    },
-    {
-     "t": 1.687,
-     "m": "des"
-    },
-    {
-     "t": 1.869,
-     "m": "messages"
-    },
-    {
-     "t": 2.28,
-     "m": "allemands"
-    },
-    {
-     "t": 2.736,
-     "m": "secrets."
-    }
-   ],
-   "sequence": {
-    "type": "document",
-    "genre": "code",
-    "titre": "MI-MAI 1943",
-    "entete": "MESSAGE ALLEMAND INTERCEPTÉ",
-    "lignes": [
-     "DOCUMENTS",
-     "JUGÉS",
-     "AUTHENTIQUES"
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "32",
-   "debut": 4973,
+   "debut": 4066,
    "duree": 132,
    "audio": null,
-   "texte": "Un télégramme part chez Churchill : ils ont tout avalé.",
+   "texte": "Un expert financier fait le calcul : l'affaire est impossible.",
    "mots": [
     {
      "t": 0,
      "m": "Un"
     },
     {
-     "t": 0.208,
-     "m": "télégramme"
+     "t": 0.185,
+     "m": "expert"
     },
     {
-     "t": 0.971,
-     "m": "part"
+     "t": 0.617,
+     "m": "financier"
     },
     {
-     "t": 1.318,
-     "m": "chez"
+     "t": 1.233,
+     "m": "fait"
     },
     {
-     "t": 1.665,
-     "m": "Churchill"
+     "t": 1.541,
+     "m": "le"
     },
     {
-     "t": 2.358,
+     "t": 1.726,
+     "m": "calcul"
+    },
+    {
+     "t": 2.158,
      "m": ":"
     },
     {
-     "t": 2.497,
-     "m": "ils"
+     "t": 2.281,
+     "m": "l'affaire"
     },
     {
-     "t": 2.775,
-     "m": "ont"
+     "t": 2.898,
+     "m": "est"
     },
     {
-     "t": 3.052,
-     "m": "tout"
-    },
-    {
-     "t": 3.399,
-     "m": "avalé."
+     "t": 3.144,
+     "m": "impossible."
     }
    ],
    "sequence": {
     "type": "document",
-    "genre": "telegramme",
-    "titre": "POUR CHURCHILL",
-    "entete": "TÉLÉGRAMME",
+    "genre": "rapport",
+    "titre": "LE CALCUL",
+    "entete": "ANALYSE FINANCIÈRE",
     "lignes": [
-     "MINCEMEAT AVALÉ",
-     "HAMEÇON, LIGNE",
-     "ET PLOMB"
+     "Il en faut : des millions",
+     "Il en existe : trop peu"
     ],
-    "tampon": "AVALÉ",
-    "tamponA": 40,
-    "tamponTop": 900
+    "tampon": "IMPOSSIBLE",
+    "tamponTop": 860
    },
    "sousTitres": true
   },
   {
-   "id": "33",
-   "debut": 5105,
-   "duree": 155,
+   "id": "27",
+   "debut": 4198,
+   "duree": 179,
    "audio": null,
-   "texte": "Hitler envoie des renforts en Grèce. En Sardaigne, les troupes sont doublées.",
+   "texte": "Puis un ancien collaborateur de Ponzi révèle tout : la société est en faillite.",
    "mots": [
     {
      "t": 0,
-     "m": "Hitler"
+     "m": "Puis"
     },
     {
-     "t": 0.415,
-     "m": "envoie"
-    },
-    {
-     "t": 0.83,
-     "m": "des"
-    },
-    {
-     "t": 1.067,
-     "m": "renforts"
-    },
-    {
-     "t": 1.6,
-     "m": "en"
-    },
-    {
-     "t": 1.778,
-     "m": "Grèce."
-    },
-    {
-     "t": 2.193,
-     "m": "En"
-    },
-    {
-     "t": 2.371,
-     "m": "Sardaigne,"
-    },
-    {
-     "t": 3.023,
-     "m": "les"
-    },
-    {
-     "t": 3.26,
-     "m": "troupes"
-    },
-    {
-     "t": 3.734,
-     "m": "sont"
-    },
-    {
-     "t": 4.03,
-     "m": "doublées."
-    }
-   ],
-   "sequence": {
-    "type": "carte_med",
-    "titre": "HITLER Y CROIT",
-    "zones": [
-     "grece",
-     "sardaigne"
-    ],
-    "fleches": [
-     {
-      "de": [
-       4,
-       47.5
-      ],
-      "vers": [
-       21.5,
-       39.8
-      ],
-      "a": 8,
-      "couleur": "rouge",
-      "courbe": 0.12,
-      "label": "RENFORTS",
-      "labelDy": -60
-     },
-     {
-      "de": [
-       11.5,
-       44
-      ],
-      "vers": [
-       9.4,
-       40.4
-      ],
-      "a": 34,
-      "couleur": "rouge",
-      "courbe": -0.2
-     }
-    ],
-    "lieux": [
-     {
-      "nom": "× 2",
-      "lon": 9,
-      "lat": 40,
-      "a": 50,
-      "couleur": "rouge",
-      "taille": 64,
-      "dessous": true
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "34",
-   "debut": 5260,
-   "duree": 121,
-   "audio": null,
-   "texte": "Pendant ce temps, la Sicile reste moins bien défendue.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Pendant"
-    },
-    {
-     "t": 0.511,
-     "m": "ce"
-    },
-    {
-     "t": 0.703,
-     "m": "temps,"
-    },
-    {
-     "t": 1.15,
-     "m": "la"
-    },
-    {
-     "t": 1.342,
-     "m": "Sicile"
-    },
-    {
-     "t": 1.789,
-     "m": "reste"
-    },
-    {
-     "t": 2.173,
-     "m": "moins"
-    },
-    {
-     "t": 2.556,
-     "m": "bien"
-    },
-    {
-     "t": 2.876,
-     "m": "défendue."
-    }
-   ],
-   "sequence": {
-    "type": "carte_med",
-    "titre": "PENDANT CE TEMPS",
-    "zones": [
-     "sicile"
-    ],
-    "lieux": [
-     {
-      "nom": "MOINS DÉFENDUE",
-      "lon": 14.2,
-      "lat": 37.6,
-      "style": "cible",
-      "a": 10,
-      "dessous": true
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "35",
-   "debut": 5381,
-   "duree": 144,
-   "audio": null,
-   "texte": "En juillet 1943, environ 160 000 soldats alliés débarquent en Sicile.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "En"
-    },
-    {
-     "t": 0.182,
-     "m": "juillet"
-    },
-    {
-     "t": 0.668,
-     "m": "1943,"
-    },
-    {
-     "t": 1.033,
-     "m": "environ"
-    },
-    {
-     "t": 1.519,
-     "m": "160"
-    },
-    {
-     "t": 1.762,
-     "m": "000"
-    },
-    {
-     "t": 2.005,
-     "m": "soldats"
-    },
-    {
-     "t": 2.491,
-     "m": "alliés"
-    },
-    {
-     "t": 2.917,
-     "m": "débarquent"
-    },
-    {
-     "t": 3.585,
-     "m": "en"
-    },
-    {
-     "t": 3.767,
-     "m": "Sicile."
-    }
-   ],
-   "sequence": {
-    "type": "compteur",
-    "titre": "JUILLET 1943",
-    "valeur": 160000,
-    "milliers": true,
-    "taille": 200,
-    "unite": "soldats alliés",
-    "legende": "débarquent en Sicile"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "36",
-   "debut": 5525,
-   "duree": 109,
-   "audio": null,
-   "texte": "L'île tombe en un peu plus d'un mois.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "L'île"
-    },
-    {
-     "t": 0.497,
-     "m": "tombe"
-    },
-    {
-     "t": 0.993,
-     "m": "en"
-    },
-    {
-     "t": 1.242,
+     "t": 0.335,
      "m": "un"
     },
     {
-     "t": 1.49,
-     "m": "peu"
+     "t": 0.536,
+     "m": "ancien"
     },
     {
-     "t": 1.821,
-     "m": "plus"
+     "t": 1.005,
+     "m": "collaborateur"
     },
     {
-     "t": 2.235,
-     "m": "d'un"
+     "t": 1.943,
+     "m": "de"
     },
     {
-     "t": 2.649,
-     "m": "mois."
+     "t": 2.144,
+     "m": "Ponzi"
+    },
+    {
+     "t": 2.547,
+     "m": "révèle"
+    },
+    {
+     "t": 3.016,
+     "m": "tout"
+    },
+    {
+     "t": 3.351,
+     "m": ":"
+    },
+    {
+     "t": 3.485,
+     "m": "la"
+    },
+    {
+     "t": 3.686,
+     "m": "société"
+    },
+    {
+     "t": 4.222,
+     "m": "est"
+    },
+    {
+     "t": 4.49,
+     "m": "en"
+    },
+    {
+     "t": 4.691,
+     "m": "faillite."
     }
    ],
    "sequence": {
-    "type": "chronologie",
-    "titre": "SICILE",
-    "dates": [
-     {
-      "an": "Juil. 1943",
-      "label": "Débarquement"
-     },
-     {
-      "an": "Août 1943",
-      "label": "L'île est prise"
-     }
-    ]
+    "type": "document",
+    "genre": "presse",
+    "titre": "AOÛT 1920",
+    "journal": "THE BOSTON POST",
+    "manchette": "Ponzi est en faillite",
+    "tampon": "FAILLITE"
    },
-   "sousTitres": false
+   "sousTitres": true
   },
   {
-   "id": "37",
-   "debut": 5634,
-   "duree": 213,
+   "id": "28",
+   "debut": 4377,
+   "duree": 144,
    "audio": null,
-   "texte": "Et le vrai nom du major Martin ? Il restera un secret pendant plus de cinquante ans.",
+   "texte": "Et le journal déterre son passé : la prison, au Canada.",
    "mots": [
     {
      "t": 0,
@@ -2775,388 +1969,673 @@
      "m": "le"
     },
     {
-     "t": 0.457,
-     "m": "vrai"
+     "t": 0.456,
+     "m": "journal"
     },
     {
-     "t": 0.837,
-     "m": "nom"
+     "t": 1.063,
+     "m": "déterre"
     },
     {
-     "t": 1.142,
-     "m": "du"
+     "t": 1.671,
+     "m": "son"
     },
     {
-     "t": 1.37,
-     "m": "major"
+     "t": 1.975,
+     "m": "passé"
     },
     {
-     "t": 1.827,
-     "m": "Martin"
+     "t": 2.431,
+     "m": ":"
     },
     {
-     "t": 2.359,
-     "m": "?"
+     "t": 2.583,
+     "m": "la"
     },
     {
-     "t": 2.511,
-     "m": "Il"
+     "t": 2.81,
+     "m": "prison,"
     },
     {
-     "t": 2.74,
-     "m": "restera"
+     "t": 3.418,
+     "m": "au"
     },
     {
-     "t": 3.349,
-     "m": "un"
-    },
-    {
-     "t": 3.577,
-     "m": "secret"
-    },
-    {
-     "t": 4.11,
-     "m": "pendant"
-    },
-    {
-     "t": 4.719,
-     "m": "plus"
-    },
-    {
-     "t": 5.099,
-     "m": "de"
-    },
-    {
-     "t": 5.327,
-     "m": "cinquante"
-    },
-    {
-     "t": 6.088,
-     "m": "ans."
+     "t": 3.646,
+     "m": "Canada."
     }
    ],
    "sequence": {
-    "type": "secret",
-    "personnage": "aucun",
-    "texte": "SON VRAI NOM ?",
-    "sous": "Secret pendant 50 ans"
+    "type": "choc",
+    "photo": "photos/affaire-03-ponzi.png",
+    "srcW": 1011,
+    "visage": {
+     "x": 718,
+     "y": 520
+    },
+    "texte": "SON PASSÉ : LA PRISON"
    },
    "sousTitres": true
   },
   {
-   "id": "38",
-   "debut": 5847,
-   "duree": 190,
+   "id": "29",
+   "debut": 4521,
+   "duree": 144,
    "audio": null,
-   "texte": "En 1996, un historien amateur retrouve enfin la trace de Glyndwr Michael dans les archives.",
+   "texte": "En août 1920, tout s'effondre. Ponzi se rend à la police.",
    "mots": [
     {
      "t": 0,
      "m": "En"
     },
     {
-     "t": 0.187,
-     "m": "1996,"
+     "t": 0.22,
+     "m": "août"
     },
     {
-     "t": 0.561,
-     "m": "un"
+     "t": 0.587,
+     "m": "1920,"
     },
     {
-     "t": 0.747,
-     "m": "historien"
+     "t": 1.027,
+     "m": "tout"
     },
     {
-     "t": 1.37,
-     "m": "amateur"
+     "t": 1.393,
+     "m": "s'effondre."
     },
     {
-     "t": 1.869,
-     "m": "retrouve"
+     "t": 2.273,
+     "m": "Ponzi"
     },
     {
-     "t": 2.429,
-     "m": "enfin"
+     "t": 2.713,
+     "m": "se"
     },
     {
-     "t": 2.803,
+     "t": 2.933,
+     "m": "rend"
+    },
+    {
+     "t": 3.3,
+     "m": "à"
+    },
+    {
+     "t": 3.447,
      "m": "la"
     },
     {
-     "t": 2.99,
-     "m": "trace"
-    },
-    {
-     "t": 3.364,
-     "m": "de"
-    },
-    {
-     "t": 3.55,
-     "m": "Glyndwr"
-    },
-    {
-     "t": 4.049,
-     "m": "Michael"
-    },
-    {
-     "t": 4.547,
-     "m": "dans"
-    },
-    {
-     "t": 4.858,
-     "m": "les"
-    },
-    {
-     "t": 5.108,
-     "m": "archives."
+     "t": 3.667,
+     "m": "police."
     }
    ],
    "sequence": {
-    "type": "document",
-    "genre": "rapport",
-    "titre": "1996",
-    "entete": "ARCHIVES NATIONALES",
-    "sousEntete": "Londres",
-    "lignes": [
-     "Major William Martin",
-     "= GLYNDWR MICHAEL"
-    ],
-    "surligne": [
-     "GLYNDWR",
-     "MICHAEL"
-    ],
-    "tampon": "IDENTIFIÉ",
-    "tamponA": 50,
-    "tamponTop": 880
+    "type": "pyramide",
+    "mode": "ecroule",
+    "titre": "AOÛT 1920",
+    "etages": 6,
+    "tampon": "TERMINÉ",
+    "tamponA": 70
    },
    "sousTitres": true
   },
   {
-   "id": "39",
-   "debut": 6037,
-   "duree": 155,
+   "id": "30",
+   "debut": 4665,
+   "duree": 121,
    "audio": null,
-   "texte": "Aujourd'hui, sur sa tombe en Espagne, son vrai nom a été ajouté.",
+   "texte": "Les clients ne récupèrent qu'une partie de leur argent.",
    "mots": [
     {
      "t": 0,
-     "m": "Aujourd'hui,"
+     "m": "Les"
     },
     {
-     "t": 0.925,
-     "m": "sur"
+     "t": 0.251,
+     "m": "clients"
     },
     {
-     "t": 1.209,
-     "m": "sa"
+     "t": 0.753,
+     "m": "ne"
     },
     {
-     "t": 1.422,
-     "m": "tombe"
+     "t": 0.942,
+     "m": "récupèrent"
     },
     {
-     "t": 1.849,
+     "t": 1.632,
+     "m": "qu'une"
+    },
+    {
+     "t": 2.071,
+     "m": "partie"
+    },
+    {
+     "t": 2.511,
+     "m": "de"
+    },
+    {
+     "t": 2.699,
+     "m": "leur"
+    },
+    {
+     "t": 3.013,
+     "m": "argent."
+    }
+   ],
+   "sequence": {
+    "type": "barre",
+    "mot": "REMBOURSÉS",
+    "personnage": "victime",
+    "nom": "SEULEMENT EN PARTIE"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "31",
+   "debut": 4786,
+   "duree": 155,
+   "audio": null,
+   "texte": "Lui enchaîne les condamnations, et passe plus de dix ans en prison.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Lui"
+    },
+    {
+     "t": 0.272,
+     "m": "enchaîne"
+    },
+    {
+     "t": 0.884,
+     "m": "les"
+    },
+    {
+     "t": 1.156,
+     "m": "condamnations,"
+    },
+    {
+     "t": 2.175,
+     "m": "et"
+    },
+    {
+     "t": 2.379,
+     "m": "passe"
+    },
+    {
+     "t": 2.787,
+     "m": "plus"
+    },
+    {
+     "t": 3.127,
+     "m": "de"
+    },
+    {
+     "t": 3.331,
+     "m": "dix"
+    },
+    {
+     "t": 3.603,
+     "m": "ans"
+    },
+    {
+     "t": 3.875,
      "m": "en"
     },
     {
-     "t": 2.062,
-     "m": "Espagne,"
-    },
-    {
-     "t": 2.703,
-     "m": "son"
-    },
-    {
-     "t": 2.987,
-     "m": "vrai"
-    },
-    {
-     "t": 3.343,
-     "m": "nom"
-    },
-    {
-     "t": 3.627,
-     "m": "a"
-    },
-    {
-     "t": 3.769,
-     "m": "été"
-    },
-    {
-     "t": 4.054,
-     "m": "ajouté."
+     "t": 4.079,
+     "m": "prison."
     }
    ],
    "sequence": {
     "type": "scene",
-    "decor": "tombe",
-    "graver": true,
-    "titre": "AUJOURD'HUI",
-    "legende": "Son vrai nom, enfin",
+    "decor": "prison",
+    "titre": "PLUS DE 10 ANS",
+    "tampon": "COUPABLE",
+    "tamponTop": 980
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "32",
+   "debut": 4941,
+   "duree": 98,
+   "audio": null,
+   "texte": "En 1934, il est expulsé vers l'Italie.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.214,
+     "m": "1934,"
+    },
+    {
+     "t": 0.641,
+     "m": "il"
+    },
+    {
+     "t": 0.854,
+     "m": "est"
+    },
+    {
+     "t": 1.139,
+     "m": "expulsé"
+    },
+    {
+     "t": 1.709,
+     "m": "vers"
+    },
+    {
+     "t": 2.065,
+     "m": "l'Italie."
+    }
+   ],
+   "sequence": {
+    "type": "carte",
+    "titre": "1934 · EXPULSÉ",
+    "points": [
+     {
+      "nom": "BOSTON",
+      "x": 260,
+      "y": 700
+     },
+     {
+      "nom": "ITALIE",
+      "x": 800,
+      "y": 820
+     }
+    ],
+    "voyageur": "bateau"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "33",
+   "debut": 5039,
+   "duree": 202,
+   "audio": null,
+   "texte": "Il meurt en 1949 au Brésil, dans un hôpital pour pauvres. Il lui reste soixante-quinze dollars.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Il"
+    },
+    {
+     "t": 0.191,
+     "m": "meurt"
+    },
+    {
+     "t": 0.572,
+     "m": "en"
+    },
+    {
+     "t": 0.762,
+     "m": "1949"
+    },
+    {
+     "t": 1.08,
+     "m": "au"
+    },
+    {
+     "t": 1.271,
+     "m": "Brésil,"
+    },
+    {
+     "t": 1.779,
+     "m": "dans"
+    },
+    {
+     "t": 2.097,
+     "m": "un"
+    },
+    {
+     "t": 2.287,
+     "m": "hôpital"
+    },
+    {
+     "t": 2.796,
+     "m": "pour"
+    },
+    {
+     "t": 3.113,
+     "m": "pauvres."
+    },
+    {
+     "t": 3.685,
+     "m": "Il"
+    },
+    {
+     "t": 3.876,
+     "m": "lui"
+    },
+    {
+     "t": 4.13,
+     "m": "reste"
+    },
+    {
+     "t": 4.511,
+     "m": "soixante-quinze"
+    },
+    {
+     "t": 5.528,
+     "m": "dollars."
+    }
+   ],
+   "sequence": {
+    "type": "chiffre",
+    "titre": "RIO DE JANEIRO · 1949",
+    "valeur": 75,
+    "unite": "$",
+    "couleur": "rouge",
+    "sous": "tout ce qu'il lui reste"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "34",
+   "debut": 5241,
+   "duree": 190,
+   "audio": null,
+   "texte": "Mais son nom, lui, est devenu immortel : on appelle ça une pyramide de Ponzi.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Mais"
+    },
+    {
+     "t": 0.367,
+     "m": "son"
+    },
+    {
+     "t": 0.661,
+     "m": "nom,"
+    },
+    {
+     "t": 1.029,
+     "m": "lui,"
+    },
+    {
+     "t": 1.396,
+     "m": "est"
+    },
+    {
+     "t": 1.69,
+     "m": "devenu"
+    },
+    {
+     "t": 2.204,
+     "m": "immortel"
+    },
+    {
+     "t": 2.865,
+     "m": ":"
+    },
+    {
+     "t": 3.012,
+     "m": "on"
+    },
+    {
+     "t": 3.233,
+     "m": "appelle"
+    },
+    {
+     "t": 3.82,
+     "m": "ça"
+    },
+    {
+     "t": 4.041,
+     "m": "une"
+    },
+    {
+     "t": 4.335,
+     "m": "pyramide"
+    },
+    {
+     "t": 4.996,
+     "m": "de"
+    },
+    {
+     "t": 5.216,
+     "m": "Ponzi."
+    }
+   ],
+   "sequence": {
+    "type": "pyramide",
+    "mode": "nom",
+    "nom": "PONZI",
+    "titre": "SON NOM EST RESTÉ",
+    "etages": 5,
+    "nomA": 40
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "35",
+   "debut": 5431,
+   "duree": 294,
+   "audio": null,
+   "texte": "Et près de quatre-vingt-dix ans plus tard, à New York, un homme respecté de tous va faire la même chose… en bien, bien pire.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Et"
+    },
+    {
+     "t": 0.217,
+     "m": "près"
+    },
+    {
+     "t": 0.579,
+     "m": "de"
+    },
+    {
+     "t": 0.797,
+     "m": "quatre-vingt-dix"
+    },
+    {
+     "t": 2.028,
+     "m": "ans"
+    },
+    {
+     "t": 2.318,
+     "m": "plus"
+    },
+    {
+     "t": 2.68,
+     "m": "tard,"
+    },
+    {
+     "t": 3.114,
+     "m": "à"
+    },
+    {
+     "t": 3.259,
+     "m": "New"
+    },
+    {
+     "t": 3.549,
+     "m": "York,"
+    },
+    {
+     "t": 3.984,
+     "m": "un"
+    },
+    {
+     "t": 4.201,
+     "m": "homme"
+    },
+    {
+     "t": 4.635,
+     "m": "respecté"
+    },
+    {
+     "t": 5.287,
+     "m": "de"
+    },
+    {
+     "t": 5.505,
+     "m": "tous"
+    },
+    {
+     "t": 5.867,
+     "m": "va"
+    },
+    {
+     "t": 6.084,
+     "m": "faire"
+    },
+    {
+     "t": 6.519,
+     "m": "la"
+    },
+    {
+     "t": 6.736,
+     "m": "même"
+    },
+    {
+     "t": 7.098,
+     "m": "chose…"
+    },
+    {
+     "t": 7.605,
+     "m": "en"
+    },
+    {
+     "t": 7.822,
+     "m": "bien,"
+    },
+    {
+     "t": 8.257,
+     "m": "bien"
+    },
+    {
+     "t": 8.619,
+     "m": "pire."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "NEW YORK · 2008",
+    "personnages": [
+     {
+      "nom": "ombre",
+      "x": 540,
+      "y": 1350,
+      "s": 460
+     }
+    ],
+    "legende": "En bien, bien pire…",
     "legendeTop": 420
    },
    "sousTitres": true
   },
   {
-   "id": "40",
-   "debut": 6192,
-   "duree": 179,
+   "id": "36",
+   "debut": 5725,
+   "duree": 282,
    "audio": null,
-   "texte": "Un sans-abri oublié de tous… qui a peut-être changé le cours de la guerre.",
+   "texte": "Ce dossier-là, je l'ouvre dans le prochain épisode. Abonne-toi pour ne pas le rater. Et toi, tu lui aurais confié ton argent ?",
    "mots": [
     {
      "t": 0,
-     "m": "Un"
+     "m": "Ce"
     },
     {
-     "t": 0.214,
-     "m": "sans-abri"
+     "t": 0.205,
+     "m": "dossier-là,"
     },
     {
-     "t": 0.929,
-     "m": "oublié"
+     "t": 1.026,
+     "m": "je"
     },
     {
-     "t": 1.43,
-     "m": "de"
+     "t": 1.231,
+     "m": "l'ouvre"
     },
     {
-     "t": 1.644,
-     "m": "tous…"
+     "t": 1.778,
+     "m": "dans"
     },
     {
-     "t": 2.073,
-     "m": "qui"
-    },
-    {
-     "t": 2.359,
-     "m": "a"
-    },
-    {
-     "t": 2.502,
-     "m": "peut-être"
-    },
-    {
-     "t": 3.217,
-     "m": "changé"
-    },
-    {
-     "t": 3.717,
+     "t": 2.12,
      "m": "le"
     },
     {
-     "t": 3.932,
-     "m": "cours"
+     "t": 2.325,
+     "m": "prochain"
     },
     {
-     "t": 4.36,
-     "m": "de"
+     "t": 2.94,
+     "m": "épisode."
     },
     {
-     "t": 4.575,
-     "m": "la"
+     "t": 3.556,
+     "m": "Abonne-toi"
     },
     {
-     "t": 4.789,
-     "m": "guerre."
-    }
-   ],
-   "sequence": {
-    "type": "fin",
-    "etiquette": [
-     "AFFAIRE Nº 2",
-     "MARTIN, William"
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "41",
-   "debut": 6371,
-   "duree": 236,
-   "audio": null,
-   "texte": "Quelle affaire veux-tu que j'ouvre la prochaine fois ? Écris-la en commentaire. Et abonne-toi pour ne rater aucun dossier.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Quelle"
-    },
-    {
-     "t": 0.41,
-     "m": "affaire"
-    },
-    {
-     "t": 0.879,
-     "m": "veux-tu"
-    },
-    {
-     "t": 1.348,
-     "m": "que"
-    },
-    {
-     "t": 1.582,
-     "m": "j'ouvre"
-    },
-    {
-     "t": 2.051,
-     "m": "la"
-    },
-    {
-     "t": 2.227,
-     "m": "prochaine"
-    },
-    {
-     "t": 2.813,
-     "m": "fois"
-    },
-    {
-     "t": 3.106,
-     "m": "?"
-    },
-    {
-     "t": 3.223,
-     "m": "Écris-la"
-    },
-    {
-     "t": 3.75,
-     "m": "en"
-    },
-    {
-     "t": 3.926,
-     "m": "commentaire."
-    },
-    {
-     "t": 4.688,
-     "m": "Et"
-    },
-    {
-     "t": 4.864,
-     "m": "abonne-toi"
-    },
-    {
-     "t": 5.508,
+     "t": 4.308,
      "m": "pour"
     },
     {
-     "t": 5.801,
+     "t": 4.65,
      "m": "ne"
     },
     {
-     "t": 5.977,
-     "m": "rater"
+     "t": 4.855,
+     "m": "pas"
     },
     {
-     "t": 6.328,
-     "m": "aucun"
+     "t": 5.129,
+     "m": "le"
     },
     {
-     "t": 6.68,
-     "m": "dossier."
+     "t": 5.334,
+     "m": "rater."
+    },
+    {
+     "t": 5.812,
+     "m": "Et"
+    },
+    {
+     "t": 6.017,
+     "m": "toi,"
+    },
+    {
+     "t": 6.359,
+     "m": "tu"
+    },
+    {
+     "t": 6.565,
+     "m": "lui"
+    },
+    {
+     "t": 6.838,
+     "m": "aurais"
+    },
+    {
+     "t": 7.317,
+     "m": "confié"
+    },
+    {
+     "t": 7.795,
+     "m": "ton"
+    },
+    {
+     "t": 8.069,
+     "m": "argent"
+    },
+    {
+     "t": 8.548,
+     "m": "?"
     }
    ],
    "sequence": {
-    "type": "cta",
-    "bulle": "✍️ Ton prochain dossier ?"
+    "type": "suite",
+    "annonce": "Partie 2 : demain",
+    "bulle": "Tu aurais investi chez Ponzi ?"
    },
    "sousTitres": true
   }

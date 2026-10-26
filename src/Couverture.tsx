@@ -51,7 +51,7 @@ export const Couverture: React.FC<{ infos: InfosCouverture }> = ({ infos }) => {
           right: 70,
           textAlign: "center",
           lineHeight: 1.05,
-          ...txt(infos.titre.length > 22 ? 118 : 136, JAUNE, 700, { textShadow: "0 6px 30px rgba(0,0,0,.9)" }),
+          ...txt(infos.titre.length > 30 ? 100 : infos.titre.length > 22 ? 118 : 136, JAUNE, 700, { textShadow: "0 6px 30px rgba(0,0,0,.9)" }),
         }}
       >
         {infos.titre}
