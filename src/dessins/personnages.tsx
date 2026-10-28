@@ -92,6 +92,7 @@ export interface SilhouetteProps {
   badge?: boolean;
   rayures?: boolean;
   miroir?: boolean;
+  cravate?: boolean; // cravate noire étroite
 }
 
 /** Silhouette générique (ferrailleur, passager, Capone, chimiste, agent…). Pieds en (0,0). */
@@ -111,6 +112,7 @@ export const Silhouette: React.FC<SilhouetteProps> = ({
   badge,
   rayures,
   miroir,
+  cravate,
 }) => {
   const sombre = "rgba(11,22,38,.45)";
   return (
@@ -118,6 +120,12 @@ export const Silhouette: React.FC<SilhouetteProps> = ({
       <path d="M-38 0 V-32 Q-38 -60 0 -60 Q38 -60 38 -32 V0 Z" fill={couleur} />
       {rayures && [-24, -12, 0, 12, 24].map((rx) => <line key={rx} x1={rx} y1={-52} x2={rx} y2={0} stroke={sombre} strokeWidth={2} />)}
       {blouse && <path d="M-30 0 V-30 Q-30 -54 0 -54 Q30 -54 30 -30 V0 Z" fill="#FFFFFF" opacity={0.85} />}
+      {cravate && (
+        <g>
+          <path d="M-9 -60 L0 -40 L9 -60 Z" fill="#FFFFFF" />
+          <path d="M-3 -54 L3 -54 L6 -20 L0 -12 L-6 -20 Z" fill={NOIR} />
+        </g>
+      )}
       {badge && <path d="M-18 -42 l3 6 6 1 -4.5 4 1 6 -5.5 -3 -5.5 3 1 -6 -4.5 -4 6 -1 Z" fill={JAUNE} />}
       <g transform={`rotate(${tete} 0 -62)`}>
         <circle cx={0} cy={-80} r={17} fill={couleur} />
@@ -210,5 +218,6 @@ export const PERSONNAGES: Record<string, Partial<SilhouetteProps>> = {
   ponzi: { chapeau: "canotier", couleur: "#D9CBB0", ruban: NOIR },
   madoff: { chapeau: "cheveux", couleur: "#5E6E86" },
   markopolos: { chapeau: "aucun", couleur: "#9AA8BD", lunettes: true },
+  cooper: { chapeau: "aucun", couleur: "#5E6E86", lunettes: true, cravate: true },
   ombre: { chapeau: "fedora", couleur: "#22324A", ruban: "#22324A" },
 };

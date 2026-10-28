@@ -1,0 +1,581 @@
+{
+ "id": "affaire-05-cooper",
+ "numero": 5,
+ "titre": "L'homme qui a sauté avec la rançon",
+ "personnage": "D. B. Cooper",
+ "photo": {
+  "fichier": "photos/affaire-05-cooper.png",
+  "largeur": 1170,
+  "hauteur": 1704,
+  "visage": {
+   "x": 790,
+   "y": 470
+  },
+  "legende": "Avis de recherche du FBI · 1971",
+  "credit": "Image : avis de recherche du FBI, 1971 (domaine public)."
+ },
+ "publication": {
+  "accroche": "Il a détourné un avion, sauté avec la rançon… et n'a jamais été retrouvé. 📂",
+  "sources": "Britannica, Legends of America, The Week, NZ Herald, Popular Science.",
+  "hashtags_episode": [
+   "#dbcooper",
+   "#mystere",
+   "#whattowatch"
+  ],
+  "commentaire_epingle": "📂 Mort cette nuit-là ou riche et libre ? Donne ta théorie 👇"
+ },
+ "couverture": {
+  "titre": "IL A SAUTÉ AVEC LA RANÇON",
+  "sous": "Affaire nº 5 · D. B. Cooper",
+  "photo": "photos/affaire-05-cooper-couverture.png",
+  "largeur": 500,
+  "visage": {
+   "x": 230,
+   "y": 290
+  }
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Le 24 novembre 1971, cet homme a détourné un avion.",
+   "sequence": {
+    "type": "pochette",
+    "photo": "photos/affaire-05-cooper.png",
+    "srcW": 1170,
+    "srcH": 1704,
+    "carteW": 560,
+    "visage": {
+     "x": 790,
+     "y": 470
+    },
+    "etiquette": [
+     "AFFAIRE Nº 5",
+     "COOPER, D. B."
+    ],
+    "legende": "Avis de recherche du FBI · 1971"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "02",
+   "texte": "Puis il a sauté dans la nuit, avec une fortune. Et personne ne l'a jamais revu.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-05-cooper.png",
+    "srcW": 1170,
+    "visage": {
+     "x": 790,
+     "y": 470
+    },
+    "texte": "Puis il a sauté dans la nuit… et personne ne l'a jamais revu."
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "generique",
+   "texte": "",
+   "duree": 2.6,
+   "sousTitres": false,
+   "sequence": {
+    "type": "generique",
+    "sousTitre": "Affaire nº 5 · D. B. Cooper"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Ce jour-là, veille de Thanksgiving, un homme achète un billet à l'aéroport de Portland, aux États-Unis.",
+   "sequence": {
+    "type": "scene",
+    "decor": "aeroport",
+    "titre": "PORTLAND · 1971",
+    "personnages": [
+     {
+      "nom": "cooper",
+      "x": 360,
+      "y": 1350,
+      "s": 340
+     }
+    ]
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Un billet pour Seattle, au nom de Dan Cooper.",
+   "sequence": {
+    "type": "document",
+    "genre": "billet",
+    "titre": "SON BILLET",
+    "champs": [
+     {
+      "label": "PASSAGER",
+      "valeur": "COOPER, DAN",
+      "grand": true,
+      "surligne": true
+     },
+     {
+      "label": "VOL",
+      "valeur": "305"
+     },
+     {
+      "label": "DE",
+      "valeur": "PORTLAND"
+     },
+     {
+      "label": "À",
+      "valeur": "SEATTLE"
+     },
+     {
+      "label": "DATE",
+      "valeur": "24 NOV 1971"
+     }
+    ]
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Costume sombre, cravate noire, la quarantaine. Un homme d'affaires comme les autres.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "QUI EST-IL ?",
+    "personnage": "cooper",
+    "nom": "DAN COOPER",
+    "infos": [
+     "La quarantaine",
+     "Costume sombre",
+     "Cravate noire"
+    ]
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Il s'installe au siège 18C, et commande un bourbon-soda.",
+   "sequence": {
+    "type": "scene",
+    "decor": "cabine",
+    "siege": "18C",
+    "titre": "SIÈGE 18C",
+    "legende": "Un bourbon-soda",
+    "legendeTop": 300
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Peu après le décollage, il tend un petit mot à une hôtesse.",
+   "sequence": {
+    "type": "carte",
+    "titre": "VOL 305",
+    "points": [
+     {
+      "nom": "PORTLAND",
+      "x": 440,
+      "y": 1100
+     },
+     {
+      "nom": "SEATTLE",
+      "x": 560,
+      "y": 560
+     }
+    ],
+    "voyageur": "avion"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Sur le papier : il y a une bombe dans sa mallette.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LE MOT",
+    "entete": "UN PETIT MOT",
+    "lignes": [
+     "■",
+     "Une bombe",
+     "dans ma mallette",
+     "■"
+    ],
+    "tampon": "BOMBE",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Il entrouvre la mallette : des bâtons rouges, des fils, une batterie.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "mallette_bombe",
+    "titre": "LA MALLETTE",
+    "legende": "Bâtons rouges, fils, batterie",
+    "legendeTop": 330
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Ses exigences : deux cent mille dollars en billets de vingt…",
+   "sequence": {
+    "type": "chiffre",
+    "titre": "SES EXIGENCES",
+    "valeur": 200000,
+    "unite": "$",
+    "sous": "en billets de 20"
+   }
+  },
+  {
+   "id": "11",
+   "texte": "… et quatre parachutes.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "parachutes",
+    "titre": "ET AUSSI",
+    "legende": "4 parachutes"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "À Seattle, la compagnie accepte de payer.",
+   "sequence": {
+    "type": "scene",
+    "decor": "piste",
+    "titre": "SEATTLE",
+    "legende": "La compagnie paie",
+    "legendeTop": 300
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Dix mille billets de vingt dollars. Le FBI a photographié chacun d'eux.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LA RANÇON",
+    "valeur": 10000,
+    "milliers": true,
+    "taille": 240,
+    "unite": "billets de 20 $",
+    "legende": "tous photographiés par le FBI"
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Cooper libère les trente-six passagers. Il ne garde que l'équipage.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "SEATTLE",
+    "valeur": 36,
+    "unite": "passagers libérés",
+    "legende": "Il ne garde que l'équipage"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Puis il ordonne de redécoller, direction le Mexique.",
+   "sequence": {
+    "type": "carte",
+    "titre": "DIRECTION LE MEXIQUE",
+    "points": [
+     {
+      "nom": "SEATTLE",
+      "x": 560,
+      "y": 560
+     },
+     {
+      "nom": "MEXIQUE ?",
+      "x": 640,
+      "y": 1180
+     }
+    ],
+    "voyageur": "avion"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Ses conditions : voler bas, et lentement.",
+   "sequence": {
+    "type": "scene",
+    "decor": "vol",
+    "titre": "SES CONDITIONS",
+    "legende": "Bas. Et lentement.",
+    "legendeTop": 300
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Pourquoi ? Parce qu'il ne compte pas aller au Mexique.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-05-cooper.png",
+    "srcW": 1170,
+    "visage": {
+     "x": 790,
+     "y": 470
+    },
+    "texte": "IL NE VA PAS AU MEXIQUE"
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Vers vingt heures, au-dessus des forêts de l'État de Washington, un voyant s'allume dans le cockpit.",
+   "sequence": {
+    "type": "scene",
+    "decor": "cockpit",
+    "titre": "VERS 20 H"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "La porte arrière de l'avion vient de s'ouvrir.",
+   "sequence": {
+    "type": "scene",
+    "decor": "escalier",
+    "titre": "LA PORTE ARRIÈRE"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Dan Cooper saute dans le vide. De nuit, sous la pluie, en mocassins et en imperméable.",
+   "sequence": {
+    "type": "scene",
+    "decor": "saut",
+    "titre": "LE SAUT"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Avec l'argent.",
+   "sequence": {
+    "type": "scene",
+    "decor": "saut",
+    "sac": true,
+    "legende": "Avec l'argent.",
+    "legendeTop": 300
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Quand l'avion se pose pour faire le plein, à Reno, il n'y a plus personne à bord.",
+   "sequence": {
+    "type": "scene",
+    "decor": "piste",
+    "titre": "RENO",
+    "tampon": "VIDE",
+    "tamponTop": 420
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Il a juste laissé derrière lui… sa cravate.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "cravate",
+    "titre": "À BORD",
+    "legende": "Sa cravate"
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Le FBI lance l'une des plus grandes enquêtes de son histoire.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LE FBI",
+    "entete": "FBI · DOSSIER NORJAK",
+    "lignes": [
+     "Détournement du vol 305",
+     "Suspect : inconnu"
+    ],
+    "surligne": [
+     "inconnu"
+    ]
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Des centaines de suspects examinés. Aucun n'est le bon.",
+   "sequence": {
+    "type": "suspects",
+    "titre": "LES SUSPECTS",
+    "legende": "Des centaines"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Même son nom est faux. Et à cause d'une erreur de la presse, Dan Cooper devient… D. B. Cooper.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "barre",
+      "mot": "DAN",
+      "personnage": "cooper",
+      "poids": 1
+     },
+     {
+      "type": "secret",
+      "personnage": "aucun",
+      "texte": "« D. B. » COOPER",
+      "sous": "Une erreur de la presse",
+      "poids": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Quelques mois plus tard, un homme copie exactement son plan. Lui se fait arrêter.",
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "1972",
+    "gyrophare": true,
+    "personnages": [
+     {
+      "nom": "policier",
+      "x": 300,
+      "y": 1350,
+      "s": 300
+     },
+     {
+      "nom": "passager",
+      "x": 540,
+      "y": 1350,
+      "s": 300
+     },
+     {
+      "nom": "policier",
+      "x": 780,
+      "y": 1350,
+      "s": 300,
+      "miroir": true
+     }
+    ],
+    "legende": "Un copieur",
+    "legendeTop": 300
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Mais ce n'est pas Cooper : il ne correspond pas aux descriptions.",
+   "sequence": {
+    "type": "barre",
+    "mot": "COOPER",
+    "personnage": "passager",
+    "nom": "PAS LUI"
+   }
+  },
+  {
+   "id": "29",
+   "texte": "En 1980, un garçon de huit ans joue au bord d'un fleuve, la Columbia.",
+   "sequence": {
+    "type": "scene",
+    "decor": "fleuve",
+    "titre": "1980 · LA COLUMBIA"
+   }
+  },
+  {
+   "id": "30",
+   "texte": "Il déterre des liasses de billets moisis : cinq mille huit cents dollars.",
+   "sequence": {
+    "type": "chiffre",
+    "titre": "DANS LE SABLE",
+    "valeur": 5800,
+    "unite": "$",
+    "sous": "en billets moisis"
+   }
+  },
+  {
+   "id": "31",
+   "texte": "Les numéros correspondent. C'est l'argent de la rançon.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LES NUMÉROS",
+    "entete": "NUMÉROS DE SÉRIE",
+    "lignes": [
+     "Billets trouvés en 1980",
+     "= billets de la rançon"
+    ],
+    "surligne": [
+     "rançon"
+    ],
+    "tampon": "RANÇON",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "32",
+   "texte": "Mais Cooper, lui ? Rien. Ni corps, ni parachute, ni le reste de l'argent.",
+   "sequence": {
+    "type": "icones",
+    "titre": "ET COOPER ?",
+    "items": [
+     {
+      "label": "CORPS",
+      "sous": "jamais retrouvé"
+     },
+     {
+      "label": "PARACHUTE",
+      "sous": "jamais retrouvé"
+     },
+     {
+      "label": "ARGENT",
+      "sous": "le reste a disparu"
+     }
+    ]
+   }
+  },
+  {
+   "id": "33",
+   "texte": "Plus tard, l'ADN de sa cravate permet d'écarter des suspects. Pas de l'identifier.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "cravate",
+    "titre": "L'ADN",
+    "legende": "Des suspects écartés",
+    "tampon": "NON IDENTIFIÉ",
+    "tamponTaille": 84,
+    "tamponTop": 1000
+   }
+  },
+  {
+   "id": "34",
+   "texte": "En juillet 2016, après quarante-cinq ans d'enquête, le FBI abandonne.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "45 ANS D'ENQUÊTE",
+    "hauteur": 600,
+    "dates": [
+     {
+      "an": "1971",
+      "label": "Le détournement"
+     },
+     {
+      "an": "1980",
+      "label": "L'argent retrouvé"
+     },
+     {
+      "an": "2016",
+      "label": "Le FBI abandonne"
+     }
+    ]
+   }
+  },
+  {
+   "id": "35",
+   "texte": "Le dossier D. B. Cooper est officiellement… classé.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "AFFAIRE Nº 5",
+     "COOPER, D. B."
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "36",
+   "texte": "Mort cette nuit-là, ou riche et libre jusqu'à la fin ? Donne ta théorie en commentaire. Et abonne-toi pour ne rater aucun dossier.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "Mort… ou libre ?"
+   }
+  }
+ ]
+}

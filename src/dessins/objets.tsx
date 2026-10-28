@@ -352,3 +352,60 @@ export const Voiture: React.FC<{ x: number; y: number; s: number; o?: number; fr
     ))}
   </g>
 );
+
+// ============================================================================================
+// Affaire nº 5 (D. B. Cooper)
+// ============================================================================================
+
+/** Mallette ouverte : bâtons rouges, fils, batterie (la « bombe »). ouvre = 0 -> 1. */
+export const MalletteBombe: React.FC<{ x: number; y: number; s: number; ouvre?: number; o?: number }> = ({ x, y, s, ouvre = 1, o = 1 }) => (
+  <g transform={`translate(${x} ${y}) scale(${s / 500})`} opacity={o}>
+    <ellipse cx={0} cy={170} rx={270} ry={18} fill="rgba(0,0,0,.35)" />
+    <rect x={-250} y={0} width={500} height={160} rx={16} fill="#2E2E34" />
+    <rect x={-230} y={14} width={460} height={130} rx={10} fill="#4A3A2A" />
+    {ouvre > 0.3 &&
+      [-150, -105, -60].map((bx, i) => <rect key={i} x={bx} y={24} width={36} height={110} rx={8} fill="#C0392B" opacity={Math.min(1, (ouvre - 0.3) * 2)} />)}
+    {ouvre > 0.3 && <rect x={60} y={40} width={120} height={80} rx={8} fill="#D4A017" opacity={Math.min(1, (ouvre - 0.3) * 2)} />}
+    {ouvre > 0.3 && (
+      <g stroke="#E6E6E6" strokeWidth={5} fill="none" opacity={Math.min(1, (ouvre - 0.3) * 2)}>
+        <path d="M-130 30 Q-40 -10 60 60" />
+        <path d="M-85 40 Q0 120 70 100" stroke="#E6504A" />
+        <path d="M-40 60 Q20 20 100 50" stroke="#4A90D9" />
+      </g>
+    )}
+    {/* couvercle */}
+    <g transform={`rotate(${-75 * ouvre} -250 0)`}>
+      <rect x={-250} y={-150} width={500} height={150} rx={16} fill="#3A3A42" />
+      <rect x={-30} y={-170} width={60} height={24} rx={8} fill="#1A1A1E" />
+    </g>
+  </g>
+);
+
+/** Quatre parachutes (n = combien sont visibles, 0 -> 4). */
+export const Parachutes: React.FC<{ x: number; y: number; s: number; n?: number }> = ({ x, y, s, n = 4 }) => (
+  <g transform={`translate(${x} ${y}) scale(${s / 600})`}>
+    {[0, 1, 2, 3].map((i) => {
+      const k = Math.max(0, Math.min(1, n - i));
+      const cx = -225 + i * 150;
+      return (
+        <g key={i} transform={`translate(${cx} ${(i % 2) * 60}) scale(${k})`} opacity={k}>
+          <path d="M-65 0 Q0 -80 65 0 Q32 -12 0 -10 Q-32 -12 -65 0 Z" fill={i % 2 ? "#E6504A" : "#ECE6D8"} />
+          <path d="M-63 0 L-8 90 M63 0 L8 90 M-30 -8 L-4 90 M30 -8 L4 90" stroke="#9AA8BD" strokeWidth={3} />
+          <rect x={-16} y={90} width={32} height={40} rx={6} fill="#4A5C78" />
+        </g>
+      );
+    })}
+  </g>
+);
+
+/** Cravate noire étroite à pince (clip-on). */
+export const Cravate: React.FC<{ x: number; y: number; s: number; rot?: number; o?: number }> = ({ x, y, s, rot = -8, o = 1 }) => (
+  <g transform={`translate(${x} ${y}) rotate(${rot}) scale(${s / 400})`} opacity={o}>
+    <rect x={-90} y={-230} width={180} height={34} rx={8} fill="#C9CDD4" />
+    <path d="M-40 -200 L40 -200 L28 -150 L-28 -150 Z" fill="#14161C" />
+    <path d="M-26 -150 L26 -150 L48 170 L0 220 L-48 170 Z" fill="#1A1D26" />
+    <path d="M-20 -140 L22 -140" stroke="#2E3240" strokeWidth={4} />
+    <rect x={-60} y={10} width={120} height={14} rx={6} fill="#D4A017" />
+    <circle cx={50} cy={17} r={10} fill="#ECE6D8" />
+  </g>
+);

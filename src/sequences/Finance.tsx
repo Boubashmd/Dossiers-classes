@@ -348,3 +348,42 @@ export const CarteMonde: React.FC<SP> = ({ p, dur }) => {
     </AbsoluteFill>
   );
 };
+
+/** Mur de suspects : des silhouettes barrées une à une (affaire nº 5). */
+export const Suspects: React.FC<SP> = ({ p, dur }) => {
+  const f = useCurrentFrame();
+  const cols = 5;
+  const rows = 4;
+  const n = cols * rows;
+  return (
+    <AbsoluteFill>
+      <Sfx at={0} son="swoosh" volume={0.35} />
+      <Titre texte={p.titre} k={prog(f, 0, 10)} />
+      <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
+        {Array.from({ length: n }, (_, i) => {
+          const x = 160 + (i % cols) * 190;
+          const y = 560 + Math.floor(i / cols) * 170;
+          const kA = prog(f, 2 + i * 1.5, 8);
+          const barreA = 14 + ((i * 7) % n) * ((dur * 0.65) / n);
+          const kB = prog(f, barreA, 6);
+          return (
+            <g key={i} opacity={kA}>
+              <Bonhomme x={x} y={y} k={1.4} couleur={kB > 0.5 ? "#4A5C78" : CREME} />
+              {kB > 0 && (
+                <g stroke={ROUGE} strokeWidth={10} strokeLinecap="round">
+                  <line x1={x - 45} y1={y - 110} x2={x - 45 + 90 * kB} y2={y - 110 + 110 * kB} />
+                  <line x1={x + 45} y1={y - 110} x2={x + 45 - 90 * kB} y2={y - 110 + 110 * kB} />
+                </g>
+              )}
+            </g>
+          );
+        })}
+      </svg>
+      {p.legende && (
+        <Texte top={p.legendeTop || 300} size={56} k={prog(f, 10, 12)}>
+          {p.legende}
+        </Texte>
+      )}
+    </AbsoluteFill>
+  );
+};

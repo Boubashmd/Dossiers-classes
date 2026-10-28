@@ -1,5 +1,6 @@
 import React from "react";
 import { CREME, GRIS, JAUNE, KRAFT, NUIT2 } from "../theme";
+import { Aeroport, Cabine, Cockpit, Escalier, Fleuve, Piste, Saut, Vol } from "./aviation";
 
 // Décors plein écran (1080 x 1920), sol à y = 1350. Couleurs sourdes pour laisser ressortir les personnages.
 const SOL = 1350;
@@ -402,4 +403,12 @@ export const DECORS: Record<string, React.FC<{ frame: number; p?: any }>> = {
   plage: Plage,
   tombe: Tombe,
   banque: Banque,
+  aeroport: Aeroport,
+  cabine: Cabine,
+  piste: Piste,
+  vol: Vol,
+  cockpit: Cockpit,
+  escalier: Escalier,
+  saut: Saut,
+  fleuve: Fleuve,
 };

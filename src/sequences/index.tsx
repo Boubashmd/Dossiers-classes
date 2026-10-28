@@ -31,11 +31,12 @@ import {
   txt,
 } from "../theme";
 import { Lustig, PERSONNAGES, Silhouette } from "../dessins/personnages";
-import { Billet, Boite, Cadenas, Carte, Coupon, Enveloppe, Etiquette, Flacon, Gyrophare, Horloge, Mallette, Menottes, PhotoPortrait, Sac, Tour, Trombone, Valise, Voiture } from "../dessins/objets";
+import { Billet, Boite, Cadenas, Carte, Coupon, Enveloppe, Etiquette, Flacon, Gyrophare, Horloge, Cravate, Mallette, MalletteBombe, Menottes, Parachutes, PhotoPortrait, Sac, Tour, Trombone, Valise, Voiture } from "../dessins/objets";
 import { DECORS } from "../dessins/decors";
+import { Avion } from "../dessins/aviation";
 import { Intro } from "./Generique";
 import { CarteMed } from "./CarteMed";
-import { CarteMonde, Courbe, Pyramide, Suite } from "./Finance";
+import { CarteMonde, Courbe, Pyramide, Suite, Suspects } from "./Finance";
 import config from "../../config.json";
 
 // --------------------------------------------------------------------------------------------
@@ -382,6 +383,7 @@ const CarteTrajet: React.FC<SeqProps> = ({ p, dur }) => {
           return <circle key={i} cx={pt.x} cy={pt.y} r={atteint ? 18 : 10} fill={i === 0 ? CREME : atteint ? JAUNE : GRIS} />;
         })}
         {p.voyageur === "sac" && <Sac x={cur.x} y={cur.y - 22} s={60} lettre={p.lettre || "$"} />}
+        {p.voyageur === "avion" && <Avion x={cur.x} y={cur.y - 40} s={200} />}
         {p.voyageur === "bateau" && (
           <g transform={`translate(${cur.x} ${cur.y - 30})`}>
             <path d="M-50 0 L50 0 L36 26 L-36 26 Z" fill={CREME} />
@@ -458,6 +460,9 @@ const ObjetDessin: React.FC<{ p: any; dur: number; f: number; k: number }> = ({ 
         {p.dessin === "mallette" && <Mallette x={540} y={y} s={640 * (0.8 + 0.2 * s)} chaine={prog(f, 10, 24)} />}
         {p.dessin === "flacon" && <Flacon x={540} y={y} s={420 * (0.8 + 0.2 * s)} />}
         {p.dessin === "photo" && <PhotoPortrait x={540} y={y} s={520 * (0.8 + 0.2 * s)} rot={-4 + (1 - s) * 10} legende={p.ecrit} />}
+        {p.dessin === "mallette_bombe" && <MalletteBombe x={540} y={y + 80} s={680 * (0.8 + 0.2 * s)} ouvre={prog(f, 10, 24)} />}
+        {p.dessin === "parachutes" && <Parachutes x={540} y={y - 120} s={820} n={interpolate(f, [4, Math.max(10, dur * 0.6)], [0, 4], C)} />}
+        {p.dessin === "cravate" && <Cravate x={540} y={y} s={520 * (0.8 + 0.2 * s)} />}
         {p.dessin === "coupon" && <Coupon x={540} y={y} s={720 * (0.8 + 0.2 * s)} rot={-3 + (1 - s) * 12} timbres={p.timbres ? prog(f, Math.round(dur * 0.4), 20) : 0} />}
         {p.dessin === "voiture" && <Voiture x={540 + (1 - prog(f, 0, 24)) * -900} y={y + 120} s={760} frame={f} />}
         {p.dessin === "enveloppe" && <Enveloppe x={540} y={y} s={720 * (0.8 + 0.2 * s)} cachet={ressort(f, fps, Math.round(dur * 0.45), { damping: 9, stiffness: 200 })} />}
@@ -571,6 +576,7 @@ const Document: React.FC<SeqProps> = ({ p, dur }) => {
     telegramme: { background: "#F2E6B8", width: 820, padding: "40px 50px", fontFamily: "monospace" },
     rapport: { background: "#EAF0F2", width: 800, padding: "50px 56px" },
     code: { background: "#E8E2D2", width: 820, padding: "46px 50px", fontFamily: "monospace" },
+    billet: { background: "#F2EEE2", width: 860, padding: "0", borderRadius: 14, overflow: "hidden" },
   };
   const lignes: string[] = p.lignes || [];
   const surligne: string[] = p.surligne || [];
@@ -648,6 +654,19 @@ const Document: React.FC<SeqProps> = ({ p, dur }) => {
               {p.sousEntete && <div style={{ textAlign: "center", ...txt(26, "#6A7280", 500, { letterSpacing: 3, marginTop: 6 }) }}>{p.sousEntete}</div>}
               <div style={{ height: 3, background: genre === "lettre" ? "#A3282A" : "#3A4150", margin: "22px 60px 26px" }} />
               {lignes.map(ligneAvecSurligne)}
+            </>
+          )}
+          {genre === "billet" && (
+            <>
+              <div style={{ background: "#B0332E", padding: "22px 40px", ...txt(36, "#FFFFFF", 700, { letterSpacing: 4 }) }}>{p.compagnie || "NORTHWEST ORIENT"}</div>
+              <div style={{ padding: "30px 40px", display: "grid", gridTemplateColumns: "1fr 1fr", rowGap: 22, columnGap: 30 }}>
+                {(p.champs || []).map((c: any, i: number) => (
+                  <div key={i} style={{ opacity: prog(f, 8 + i * 5, 8) }}>
+                    <div style={txt(22, "#7A8090", 600, { letterSpacing: 3 })}>{c.label}</div>
+                    <div style={txt(c.grand ? 50 : 40, c.surligne ? "#B0332E" : "#2A2620", 700)}>{c.valeur}</div>
+                  </div>
+                ))}
+              </div>
             </>
           )}
           {genre === "code" && (
@@ -966,6 +985,7 @@ export const SEQUENCES: Record<string, React.FC<SeqProps>> = {
   suite: Suite,
   courbe: Courbe,
   carte_monde: CarteMonde,
+  suspects: Suspects,
 };
 
 export const RenduSequence: React.FC<SeqProps> = (props) => {
