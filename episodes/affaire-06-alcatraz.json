@@ -1,0 +1,560 @@
+{
+ "id": "affaire-06-alcatraz",
+ "numero": 6,
+ "titre": "L'évasion d'Alcatraz",
+ "personnage": "Frank Morris et les frères Anglin",
+ "photo": {
+  "fichier": "photos/affaire-06-alcatraz.jpg",
+  "legende": "Photo du FBI · juin 1962",
+  "credit": "Photo : fausse tête retrouvée dans la cellule de Frank Morris, FBI, 1962 (domaine public)."
+ },
+ "publication": {
+  "accroche": "Ils se sont évadés d'Alcatraz avec des cuillères… et on ne les a jamais retrouvés. 📂",
+  "sources": "FBI (archive), History Hit, History UK, WTOP/CNN.",
+  "hashtags_episode": [
+   "#alcatraz",
+   "#evasion",
+   "#whattowatch"
+  ],
+  "commentaire_epingle": "📂 Noyés dans la baie ou libres jusqu'au bout ? Donne ta théorie 👇"
+ },
+ "couverture": {
+  "titre": "ILS SE SONT ÉVADÉS D'ALCATRAZ",
+  "sous": "Affaire nº 6 · 1962"
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "En 1962, ce visage a trompé les gardiens de la prison la plus sûre d'Amérique.",
+   "sequence": {
+    "type": "pochette",
+    "photo": "photos/affaire-06-alcatraz.jpg",
+    "carteW": 640,
+    "etiquette": [
+     "AFFAIRE Nº 6",
+     "ALCATRAZ · 1962"
+    ],
+    "legende": "Photo du FBI · juin 1962"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "02",
+   "texte": "Le problème ? Ce n'est pas un homme. C'est une fausse tête.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-06-alcatraz.jpg",
+    "texte": "CE N'EST PAS UN HOMME"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "generique",
+   "texte": "",
+   "duree": 2.6,
+   "sousTitres": false,
+   "sequence": {
+    "type": "generique",
+    "sousTitre": "Affaire nº 6 · L'évasion d'Alcatraz"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Alcatraz. Une île-prison, au milieu de la baie de San Francisco.",
+   "sequence": {
+    "type": "scene",
+    "decor": "alcatraz",
+    "titre": "SAN FRANCISCO",
+    "legende": "Une île-prison",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Autour : une eau glacée, des courants violents. Et des comptages de détenus toute la journée.",
+   "sequence": {
+    "type": "scene",
+    "decor": "baie",
+    "titre": "ALCATRAZ",
+    "legende": "Eau glacée, courants violents",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Sa réputation : on ne s'en évade pas.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "IMPOSSIBLE À FUIR",
+    "taille": 84,
+    "sous": "Sa réputation"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Pourtant, en 1962, trois détenus vont tenter l'impossible : Frank Morris, et les frères John et Clarence Anglin.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "fiche",
+      "titre": "LES ÉVADÉS",
+      "personnage": "detenu",
+      "nom": "FRANK MORRIS",
+      "infos": [
+       "Braqueur de banques"
+      ],
+      "poids": 1
+     },
+     {
+      "type": "fiche",
+      "titre": "LES ÉVADÉS",
+      "personnage": "detenu",
+      "nom": "LES ANGLIN",
+      "infos": [
+       "John et Clarence",
+       "Deux frères braqueurs"
+      ],
+      "poids": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Un quatrième complice, Allen West, fait aussi partie du plan.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "LE 4E COMPLICE",
+    "personnage": "detenu",
+    "nom": "ALLEN WEST",
+    "infos": [
+     "Dans le plan, lui aussi"
+    ]
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Pendant des mois, ils récupèrent des cuillères et des lames de scie.",
+   "sequence": {
+    "type": "icones",
+    "titre": "LES OUTILS",
+    "items": [
+     {
+      "label": "CUILLÈRES",
+      "sous": "du réfectoire"
+     },
+     {
+      "label": "LAMES",
+      "sous": "de scie"
+     }
+    ]
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Avec le moteur d'un aspirateur cassé, ils fabriquent une perceuse.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "perceuse",
+    "titre": "BRICOLAGE",
+    "legende": "Un moteur d'aspirateur"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Ils creusent autour des grilles d'aération, au fond de leurs cellules.",
+   "sequence": {
+    "type": "scene",
+    "decor": "cellule",
+    "perce": true,
+    "titre": "LA CELLULE",
+    "legende": "La grille d'aération",
+    "legendeTop": 300
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Pour couvrir le bruit, Morris joue de l'accordéon pendant l'heure de musique.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "accordeon",
+    "titre": "L'HEURE DE MUSIQUE",
+    "legende": "Pour couvrir le bruit"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Derrière les grilles : un couloir technique, sans surveillance.",
+   "sequence": {
+    "type": "scene",
+    "decor": "couloir",
+    "titre": "DERRIÈRE LES GRILLES",
+    "legende": "Personne ne surveille",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Tout en haut du bâtiment, ils installent un atelier secret.",
+   "sequence": {
+    "type": "scene",
+    "decor": "couloir",
+    "atelier": true,
+    "titre": "L'ATELIER SECRET",
+    "legende": "Tout en haut du bâtiment",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Ils y fabriquent un radeau, avec plus de cinquante imperméables volés.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LE RADEAU",
+    "valeur": 50,
+    "unite": "imperméables volés",
+    "legende": "et même plus"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Les coutures sont soudées à la chaleur des tuyaux de vapeur de la prison.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "radeau",
+    "titre": "LE RADEAU",
+    "legende": "Soudé sur les tuyaux chauds"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Et pour le gonfler ? Un accordéon, transformé en soufflet.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "accordeon",
+    "titre": "POUR LE GONFLER",
+    "legende": "Un accordéon-soufflet"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Reste un problème : les gardiens comptent les détenus, même la nuit, dans leurs lits.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LE PROBLÈME",
+    "entete": "RÈGLEMENT D'ALCATRAZ",
+    "lignes": [
+     "Comptages : toute la journée",
+     "Et même la nuit"
+    ],
+    "surligne": [
+     "nuit"
+    ],
+    "tampon": "PROBLÈME",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Alors ils fabriquent de fausses têtes : savon, papier toilette, dentifrice…",
+   "sequence": {
+    "type": "objet",
+    "dessin": "tete",
+    "titre": "LA SOLUTION",
+    "legende": "Savon, papier, dentifrice",
+    "sansCheveux": true
+   }
+  },
+  {
+   "id": "19",
+   "texte": "… et de vrais cheveux, ramassés chez le coiffeur de la prison.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "tete",
+    "titre": "LA TOUCHE FINALE",
+    "legende": "De vrais cheveux",
+    "cheveux": true
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Le 11 juin 1962, au soir, ils glissent les têtes dans leurs lits.",
+   "sequence": {
+    "type": "scene",
+    "decor": "cellule",
+    "lit": true,
+    "titre": "11 JUIN 1962",
+    "legende": "Le soir venu",
+    "legendeTop": 300
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Puis ils passent par les grilles, remontent un conduit d'aération… et sortent sur le toit.",
+   "sequence": {
+    "type": "scene",
+    "decor": "toit",
+    "titre": "LE TOIT",
+    "personnages": [
+     {
+      "nom": "detenu",
+      "x": 420,
+      "y": 1050,
+      "s": 180
+     },
+     {
+      "nom": "detenu",
+      "x": 560,
+      "y": 1045,
+      "s": 180
+     },
+     {
+      "nom": "detenu",
+      "x": 700,
+      "y": 1040,
+      "s": 180
+     }
+    ]
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Mais Allen West, lui, reste bloqué : le ciment autour de sa grille a durci.",
+   "sequence": {
+    "type": "barre",
+    "mot": "WEST",
+    "personnage": "detenu",
+    "nom": "BLOQUÉ DANS SA CELLULE"
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Quand il réussit enfin à passer, il est trop tard. Les autres sont partis.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "TROP TARD",
+    "taille": 100
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Les trois hommes descendent du toit, franchissent deux clôtures de barbelés… et mettent le radeau à l'eau.",
+   "sequence": {
+    "type": "scene",
+    "decor": "alcatraz",
+    "titre": "LA FUITE",
+    "legende": "Barbelés, puis la mer",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Devant eux : la nuit, l'eau glacée, et la côte, au loin.",
+   "sequence": {
+    "type": "scene",
+    "decor": "baie",
+    "radeau": true,
+    "titre": "LA NUIT"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Le lendemain matin, au comptage, les gardiens découvrent les fausses têtes.",
+   "sequence": {
+    "type": "scene",
+    "decor": "cellule",
+    "lit": true,
+    "titre": "12 JUIN · MATIN",
+    "tampon": "FAUX",
+    "tamponTop": 700
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Alerte générale. Trois cellules vides.",
+   "sequence": {
+    "type": "scene",
+    "decor": "alcatraz",
+    "gyrophare": true,
+    "titre": "ALERTE",
+    "tampon": "ÉVADÉS",
+    "tamponTop": 420
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Pendant dix jours, militaires et garde-côtes fouillent la baie.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LES RECHERCHES",
+    "valeur": 10,
+    "unite": "jours de fouilles"
+   }
+  },
+  {
+   "id": "29",
+   "texte": "Ils trouvent une pagaie, un gilet de sauvetage, et des papiers des frères Anglin, emballés dans du caoutchouc.",
+   "sequence": {
+    "type": "icones",
+    "titre": "CE QU'ON RETROUVE",
+    "items": [
+     {
+      "label": "PAGAIE",
+      "sous": "en bois"
+     },
+     {
+      "label": "GILET",
+      "sous": "de sauvetage"
+     },
+     {
+      "label": "PAPIERS",
+      "sous": "des Anglin"
+     }
+    ]
+   }
+  },
+  {
+   "id": "30",
+   "texte": "Mais aucun corps. Jamais.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "AUCUN CORPS",
+    "taille": 100
+   }
+  },
+  {
+   "id": "31",
+   "texte": "Pour le FBI, ils se sont noyés. En 1979, il ferme le dossier.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "1979",
+    "entete": "FBI · CONCLUSION",
+    "lignes": [
+     "Hypothèse : noyés",
+     "Dossier : fermé"
+    ],
+    "tampon": "CLASSÉ",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "32",
+   "texte": "Mais une autre agence, les US Marshals, ne l'a jamais refermé. Ils les cherchent toujours.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "AUJOURD'HUI",
+    "entete": "US MARSHALS",
+    "lignes": [
+     "Morris, Anglin, Anglin",
+     "Dossier : OUVERT"
+    ],
+    "surligne": [
+     "OUVERT"
+    ],
+    "tampon": "RECHERCHÉS",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "33",
+   "texte": "Depuis, des indices troublants : une photo des deux frères au Brésil, en 1975… jamais authentifiée.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "1975",
+    "points": [
+     {
+      "lon": -47.9,
+      "lat": -15.8,
+      "nom": "BRÉSIL ?"
+     }
+    ],
+    "pas": 3,
+    "legende": "Une photo jamais authentifiée"
+   }
+  },
+  {
+   "id": "34",
+   "texte": "Et une lettre signée John Anglin, envoyée à la police de San Francisco. Elle affirme qu'il a survécu.",
+   "sequence": {
+    "type": "document",
+    "genre": "lettre",
+    "titre": "LA LETTRE",
+    "entete": "POLICE DE SAN FRANCISCO",
+    "lignes": [
+     "■",
+     "■",
+     "Signé : John Anglin"
+    ],
+    "surligne": [
+     "Anglin"
+    ],
+    "tampon": "NON VÉRIFIÉE",
+    "tamponTop": 880,
+    "tamponTaille": 84
+   }
+  },
+  {
+   "id": "35",
+   "texte": "En 2022, les Marshals publient même leurs portraits vieillis.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "2022",
+    "personnage": "detenu",
+    "nom": "PORTRAITS VIEILLIS",
+    "infos": [
+     "Publiés par les US Marshals"
+    ]
+   }
+  },
+  {
+   "id": "36",
+   "texte": "Alcatraz, elle, a fermé ses portes un an après l'évasion.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "ALCATRAZ",
+    "hauteur": 600,
+    "dates": [
+     {
+      "an": "1962",
+      "label": "L'évasion"
+     },
+     {
+      "an": "1963",
+      "label": "La prison ferme"
+     },
+     {
+      "an": "1979",
+      "label": "Le FBI ferme le dossier"
+     }
+    ]
+   }
+  },
+  {
+   "id": "37",
+   "texte": "Officiellement, le dossier est classé. Mais personne ne sait où ils sont allés.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "AFFAIRE Nº 6",
+     "ALCATRAZ · 1962"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "38",
+   "texte": "Noyés dans la baie, ou libres jusqu'au bout ? Donne ta théorie en commentaire. Et abonne-toi pour ne rater aucun dossier.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "Noyés… ou libres ?"
+   }
+  }
+ ]
+}

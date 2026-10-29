@@ -34,6 +34,7 @@ import { Lustig, PERSONNAGES, Silhouette } from "../dessins/personnages";
 import { Billet, Boite, Cadenas, Carte, Coupon, Enveloppe, Etiquette, Flacon, Gyrophare, Horloge, Cravate, Mallette, MalletteBombe, Menottes, Parachutes, PhotoPortrait, Sac, Tour, Trombone, Valise, Voiture } from "../dessins/objets";
 import { DECORS } from "../dessins/decors";
 import { Avion } from "../dessins/aviation";
+import { Accordeon, FausseTete, Perceuse, Radeau } from "../dessins/evasion";
 import { Intro } from "./Generique";
 import { CarteMed } from "./CarteMed";
 import { CarteMonde, Courbe, Pyramide, Suite, Suspects } from "./Finance";
@@ -460,6 +461,10 @@ const ObjetDessin: React.FC<{ p: any; dur: number; f: number; k: number }> = ({ 
         {p.dessin === "mallette" && <Mallette x={540} y={y} s={640 * (0.8 + 0.2 * s)} chaine={prog(f, 10, 24)} />}
         {p.dessin === "flacon" && <Flacon x={540} y={y} s={420 * (0.8 + 0.2 * s)} />}
         {p.dessin === "photo" && <PhotoPortrait x={540} y={y} s={520 * (0.8 + 0.2 * s)} rot={-4 + (1 - s) * 10} legende={p.ecrit} />}
+        {p.dessin === "perceuse" && <Perceuse x={540} y={y} s={720 * (0.8 + 0.2 * s)} frame={f} />}
+        {p.dessin === "accordeon" && <Accordeon x={540} y={y} s={640 * (0.8 + 0.2 * s)} frame={f} />}
+        {p.dessin === "radeau" && <Radeau x={540} y={y} s={760 * (0.8 + 0.2 * s)} />}
+        {p.dessin === "tete" && <FausseTete x={540} y={y} s={460 * (0.8 + 0.2 * s)} cheveux={p.sansCheveux ? 0 : p.cheveux ? prog(f, Math.round(dur * 0.35), 16) : 1} />}
         {p.dessin === "mallette_bombe" && <MalletteBombe x={540} y={y + 80} s={680 * (0.8 + 0.2 * s)} ouvre={prog(f, 10, 24)} />}
         {p.dessin === "parachutes" && <Parachutes x={540} y={y - 120} s={820} n={interpolate(f, [4, Math.max(10, dur * 0.6)], [0, 4], C)} />}
         {p.dessin === "cravate" && <Cravate x={540} y={y} s={520 * (0.8 + 0.2 * s)} />}
@@ -693,7 +698,7 @@ const Document: React.FC<SeqProps> = ({ p, dur }) => {
       {p.tampon && (
         <>
           <Sfx at={tamponA} son="tampon" volume={0.7} />
-          <Tampon texte={p.tampon} k={ressort(f, fps, tamponA, { damping: 9, stiffness: 230 })} top={p.tamponTop || (genre === "carte_visite" ? 700 : 820)} />
+          <Tampon texte={p.tampon} k={ressort(f, fps, tamponA, { damping: 9, stiffness: 230 })} top={p.tamponTop || (genre === "carte_visite" ? 700 : 820)} size={p.tamponTaille || 120} />
         </>
       )}
     </AbsoluteFill>

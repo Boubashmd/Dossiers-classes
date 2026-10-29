@@ -27,9 +27,50 @@ if (!fichierEpisode) {
   process.exit(1);
 }
 
+/** Largeur et hauteur d'une image PNG ou JPEG (lecture de l'en-tête, sans dépendance). */
+function tailleImage(fichier) {
+  const b = fs.readFileSync(fichier);
+  if (b[0] === 0x89 && b[1] === 0x50) return { w: b.readUInt32BE(16), h: b.readUInt32BE(20) };
+  let i = 2;
+  while (i < b.length) {
+    if (b[i] !== 0xff) { i++; continue; }
+    const m = b[i + 1];
+    const len = b.readUInt16BE(i + 2);
+    if (m >= 0xc0 && m <= 0xcf && m !== 0xc4 && m !== 0xc8 && m !== 0xcc) return { w: b.readUInt16BE(i + 7), h: b.readUInt16BE(i + 5) };
+    i += 2 + len;
+  }
+  return null;
+}
+
 const config = JSON.parse(fs.readFileSync(path.join(RACINE, "config.json"), "utf8"));
 const episode = JSON.parse(fs.readFileSync(path.resolve(fichierEpisode), "utf8"));
 const cle = process.env.ELEVENLABS_API_KEY;
+
+// Photo d'archive : vérifie qu'elle existe et complète sa taille si elle n'est pas indiquée.
+if (episode.photo?.fichier) {
+  const chemin = path.join(RACINE, "public", episode.photo.fichier);
+  if (!fs.existsSync(chemin)) {
+    console.error(`❌ Photo introuvable : public/${episode.photo.fichier}. Ajoute-la dans le dépôt (voir le script de mise à jour).`);
+    process.exit(1);
+  }
+  const t = tailleImage(chemin);
+  if (t) {
+    const visageAuto = { x: Math.round(t.w / 2), y: Math.round(t.h * 0.45) };
+    episode.photo.largeur ??= t.w;
+    episode.photo.hauteur ??= t.h;
+    episode.photo.visage ??= visageAuto;
+    const completer = (seq) => {
+      if (!seq) return;
+      if (seq.photo === episode.photo.fichier) {
+        seq.srcW ??= t.w;
+        seq.srcH ??= t.h;
+        seq.visage ??= episode.photo.visage;
+      }
+      (seq.etapes || []).forEach(completer);
+    };
+    episode.lignes.forEach((l) => completer(l.sequence));
+  }
+}
 
 const normaliser = (s) =>
   s

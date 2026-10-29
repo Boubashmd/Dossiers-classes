@@ -1,1684 +1,480 @@
 {
- "episode": "affaire-05-cooper",
+ "episode": "affaire-06-alcatraz",
  "fps": 30,
- "total": 5474,
+ "total": 6218,
  "avecVoix": false,
  "couverture": {
-  "titre": "IL A SAUTÉ AVEC LA RANÇON",
-  "sous": "Affaire nº 5 · D. B. Cooper",
-  "photo": "photos/affaire-05-cooper-couverture.png",
+  "titre": "ILS SE SONT ÉVADÉS D'ALCATRAZ",
+  "sous": "Affaire nº 6 · 1962",
+  "photo": "photos/affaire-06-alcatraz.jpg",
   "visage": {
-   "x": 230,
-   "y": 290
+   "x": 400,
+   "y": 450
   },
-  "largeur": 500
+  "largeur": 800
  },
  "lignes": [
   {
    "id": "01",
    "debut": 0,
-   "duree": 150,
+   "duree": 190,
    "audio": null,
-   "texte": "Le 24 novembre 1971, cet homme a détourné un avion.",
+   "texte": "En 1962, ce visage a trompé les gardiens de la prison la plus sûre d'Amérique.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.218,
+     "m": "1962,"
+    },
+    {
+     "t": 0.653,
+     "m": "ce"
+    },
+    {
+     "t": 0.87,
+     "m": "visage"
+    },
+    {
+     "t": 1.378,
+     "m": "a"
+    },
+    {
+     "t": 1.523,
+     "m": "trompé"
+    },
+    {
+     "t": 2.031,
+     "m": "les"
+    },
+    {
+     "t": 2.321,
+     "m": "gardiens"
+    },
+    {
+     "t": 2.974,
+     "m": "de"
+    },
+    {
+     "t": 3.192,
+     "m": "la"
+    },
+    {
+     "t": 3.409,
+     "m": "prison"
+    },
+    {
+     "t": 3.917,
+     "m": "la"
+    },
+    {
+     "t": 4.135,
+     "m": "plus"
+    },
+    {
+     "t": 4.497,
+     "m": "sûre"
+    },
+    {
+     "t": 4.86,
+     "m": "d'Amérique."
+    }
+   ],
+   "sequence": {
+    "type": "pochette",
+    "photo": "photos/affaire-06-alcatraz.jpg",
+    "carteW": 640,
+    "etiquette": [
+     "AFFAIRE Nº 6",
+     "ALCATRAZ · 1962"
+    ],
+    "legende": "Photo du FBI · juin 1962",
+    "srcW": 800,
+    "srcH": 1000,
+    "visage": {
+     "x": 400,
+     "y": 450
+    }
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "02",
+   "debut": 190,
+   "duree": 155,
+   "audio": null,
+   "texte": "Le problème ? Ce n'est pas un homme. C'est une fausse tête.",
    "mots": [
     {
      "t": 0,
      "m": "Le"
     },
     {
-     "t": 0.224,
-     "m": "24"
+     "t": 0.231,
+     "m": "problème"
     },
     {
-     "t": 0.448,
-     "m": "novembre"
+     "t": 0.925,
+     "m": "?"
     },
     {
-     "t": 1.12,
-     "m": "1971,"
+     "t": 1.079,
+     "m": "Ce"
     },
     {
-     "t": 1.569,
-     "m": "cet"
+     "t": 1.31,
+     "m": "n'est"
     },
     {
-     "t": 1.867,
-     "m": "homme"
+     "t": 1.772,
+     "m": "pas"
     },
     {
-     "t": 2.316,
-     "m": "a"
-    },
-    {
-     "t": 2.465,
-     "m": "détourné"
-    },
-    {
-     "t": 3.137,
+     "t": 2.08,
      "m": "un"
     },
     {
-     "t": 3.361,
-     "m": "avion."
-    }
-   ],
-   "sequence": {
-    "type": "pochette",
-    "photo": "photos/affaire-05-cooper.png",
-    "srcW": 1170,
-    "srcH": 1704,
-    "carteW": 560,
-    "visage": {
-     "x": 790,
-     "y": 470
-    },
-    "etiquette": [
-     "AFFAIRE Nº 5",
-     "COOPER, D. B."
-    ],
-    "legende": "Avis de recherche du FBI · 1971"
-   },
-   "sousTitres": false
-  },
-  {
-   "id": "02",
-   "debut": 150,
-   "duree": 202,
-   "audio": null,
-   "texte": "Puis il a sauté dans la nuit, avec une fortune. Et personne ne l'a jamais revu.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Puis"
+     "t": 2.311,
+     "m": "homme."
     },
     {
-     "t": 0.381,
-     "m": "il"
+     "t": 2.851,
+     "m": "C'est"
     },
     {
-     "t": 0.61,
-     "m": "a"
-    },
-    {
-     "t": 0.762,
-     "m": "sauté"
-    },
-    {
-     "t": 1.22,
-     "m": "dans"
-    },
-    {
-     "t": 1.601,
-     "m": "la"
-    },
-    {
-     "t": 1.83,
-     "m": "nuit,"
-    },
-    {
-     "t": 2.287,
-     "m": "avec"
-    },
-    {
-     "t": 2.669,
+     "t": 3.313,
      "m": "une"
     },
     {
-     "t": 2.974,
-     "m": "fortune."
+     "t": 3.621,
+     "m": "fausse"
     },
     {
-     "t": 3.66,
-     "m": "Et"
-    },
-    {
-     "t": 3.889,
-     "m": "personne"
-    },
-    {
-     "t": 4.575,
-     "m": "ne"
-    },
-    {
-     "t": 4.804,
-     "m": "l'a"
-    },
-    {
-     "t": 5.108,
-     "m": "jamais"
-    },
-    {
-     "t": 5.642,
-     "m": "revu."
+     "t": 4.16,
+     "m": "tête."
     }
    ],
    "sequence": {
     "type": "choc",
-    "photo": "photos/affaire-05-cooper.png",
-    "srcW": 1170,
+    "photo": "photos/affaire-06-alcatraz.jpg",
+    "texte": "CE N'EST PAS UN HOMME",
+    "srcW": 800,
+    "srcH": 1000,
     "visage": {
-     "x": 790,
-     "y": 470
-    },
-    "texte": "Puis il a sauté dans la nuit… et personne ne l'a jamais revu."
+     "x": 400,
+     "y": 450
+    }
    },
    "sousTitres": false
   },
   {
    "id": "generique",
-   "debut": 352,
+   "debut": 345,
    "duree": 78,
    "audio": null,
    "texte": "",
    "mots": [],
    "sequence": {
     "type": "generique",
-    "sousTitre": "Affaire nº 5 · D. B. Cooper"
+    "sousTitre": "Affaire nº 6 · L'évasion d'Alcatraz"
    },
    "sousTitres": false
   },
   {
    "id": "03",
-   "debut": 430,
-   "duree": 202,
+   "debut": 423,
+   "duree": 144,
    "audio": null,
-   "texte": "Ce jour-là, veille de Thanksgiving, un homme achète un billet à l'aéroport de Portland, aux États-Unis.",
+   "texte": "Alcatraz. Une île-prison, au milieu de la baie de San Francisco.",
    "mots": [
     {
      "t": 0,
-     "m": "Ce"
+     "m": "Alcatraz."
     },
     {
-     "t": 0.176,
-     "m": "jour-là,"
+     "t": 0.654,
+     "m": "Une"
     },
     {
-     "t": 0.704,
-     "m": "veille"
+     "t": 0.916,
+     "m": "île-prison,"
     },
     {
-     "t": 1.114,
+     "t": 1.701,
+     "m": "au"
+    },
+    {
+     "t": 1.898,
+     "m": "milieu"
+    },
+    {
+     "t": 2.356,
      "m": "de"
     },
     {
-     "t": 1.29,
-     "m": "Thanksgiving,"
+     "t": 2.552,
+     "m": "la"
     },
     {
-     "t": 2.111,
-     "m": "un"
+     "t": 2.748,
+     "m": "baie"
     },
     {
-     "t": 2.287,
-     "m": "homme"
-    },
-    {
-     "t": 2.639,
-     "m": "achète"
-    },
-    {
-     "t": 3.05,
-     "m": "un"
-    },
-    {
-     "t": 3.226,
-     "m": "billet"
-    },
-    {
-     "t": 3.636,
-     "m": "à"
-    },
-    {
-     "t": 3.754,
-     "m": "l'aéroport"
-    },
-    {
-     "t": 4.399,
+     "t": 3.076,
      "m": "de"
     },
     {
-     "t": 4.575,
-     "m": "Portland,"
+     "t": 3.272,
+     "m": "San"
     },
     {
-     "t": 5.161,
-     "m": "aux"
-    },
-    {
-     "t": 5.396,
-     "m": "États-Unis."
+     "t": 3.534,
+     "m": "Francisco."
     }
    ],
    "sequence": {
     "type": "scene",
-    "decor": "aeroport",
-    "titre": "PORTLAND · 1971",
-    "personnages": [
-     {
-      "nom": "cooper",
-      "x": 360,
-      "y": 1350,
-      "s": 340
-     }
-    ]
+    "decor": "alcatraz",
+    "titre": "SAN FRANCISCO",
+    "legende": "Une île-prison",
+    "legendeTop": 420
    },
    "sousTitres": true
   },
   {
    "id": "04",
-   "debut": 632,
-   "duree": 121,
+   "debut": 567,
+   "duree": 202,
    "audio": null,
-   "texte": "Un billet pour Seattle, au nom de Dan Cooper.",
+   "texte": "Autour : une eau glacée, des courants violents. Et des comptages de détenus toute la journée.",
    "mots": [
     {
      "t": 0,
-     "m": "Un"
+     "m": "Autour"
     },
     {
-     "t": 0.229,
-     "m": "billet"
+     "t": 0.454,
+     "m": ":"
     },
     {
-     "t": 0.764,
-     "m": "pour"
+     "t": 0.584,
+     "m": "une"
     },
     {
-     "t": 1.146,
-     "m": "Seattle,"
+     "t": 0.844,
+     "m": "eau"
     },
     {
-     "t": 1.834,
-     "m": "au"
+     "t": 1.103,
+     "m": "glacée,"
     },
     {
-     "t": 2.063,
-     "m": "nom"
+     "t": 1.622,
+     "m": "des"
     },
     {
-     "t": 2.369,
+     "t": 1.882,
+     "m": "courants"
+    },
+    {
+     "t": 2.466,
+     "m": "violents."
+    },
+    {
+     "t": 3.115,
+     "m": "Et"
+    },
+    {
+     "t": 3.309,
+     "m": "des"
+    },
+    {
+     "t": 3.569,
+     "m": "comptages"
+    },
+    {
+     "t": 4.218,
      "m": "de"
     },
     {
-     "t": 2.598,
-     "m": "Dan"
+     "t": 4.413,
+     "m": "détenus"
     },
     {
-     "t": 2.904,
-     "m": "Cooper."
+     "t": 4.932,
+     "m": "toute"
+    },
+    {
+     "t": 5.321,
+     "m": "la"
+    },
+    {
+     "t": 5.516,
+     "m": "journée."
     }
    ],
    "sequence": {
-    "type": "document",
-    "genre": "billet",
-    "titre": "SON BILLET",
-    "champs": [
-     {
-      "label": "PASSAGER",
-      "valeur": "COOPER, DAN",
-      "grand": true,
-      "surligne": true
-     },
-     {
-      "label": "VOL",
-      "valeur": "305"
-     },
-     {
-      "label": "DE",
-      "valeur": "PORTLAND"
-     },
-     {
-      "label": "À",
-      "valeur": "SEATTLE"
-     },
-     {
-      "label": "DATE",
-      "valeur": "24 NOV 1971"
-     }
-    ]
+    "type": "scene",
+    "decor": "baie",
+    "titre": "ALCATRAZ",
+    "legende": "Eau glacée, courants violents",
+    "legendeTop": 420
    },
    "sousTitres": true
   },
   {
    "id": "05",
-   "debut": 753,
-   "duree": 155,
+   "debut": 769,
+   "duree": 109,
    "audio": null,
-   "texte": "Costume sombre, cravate noire, la quarantaine. Un homme d'affaires comme les autres.",
+   "texte": "Sa réputation : on ne s'en évade pas.",
    "mots": [
     {
      "t": 0,
-     "m": "Costume"
+     "m": "Sa"
     },
     {
-     "t": 0.435,
-     "m": "sombre,"
+     "t": 0.248,
+     "m": "réputation"
     },
     {
-     "t": 0.87,
-     "m": "cravate"
+     "t": 1.159,
+     "m": ":"
     },
     {
-     "t": 1.305,
-     "m": "noire,"
+     "t": 1.325,
+     "m": "on"
     },
     {
-     "t": 1.686,
-     "m": "la"
+     "t": 1.573,
+     "m": "ne"
     },
     {
-     "t": 1.849,
-     "m": "quarantaine."
+     "t": 1.821,
+     "m": "s'en"
     },
     {
-     "t": 2.556,
-     "m": "Un"
+     "t": 2.235,
+     "m": "évade"
     },
     {
-     "t": 2.719,
-     "m": "homme"
-    },
-    {
-     "t": 3.046,
-     "m": "d'affaires"
-    },
-    {
-     "t": 3.644,
-     "m": "comme"
-    },
-    {
-     "t": 3.97,
-     "m": "les"
-    },
-    {
-     "t": 4.188,
-     "m": "autres."
+     "t": 2.732,
+     "m": "pas."
     }
    ],
    "sequence": {
-    "type": "fiche",
-    "titre": "QUI EST-IL ?",
-    "personnage": "cooper",
-    "nom": "DAN COOPER",
-    "infos": [
-     "La quarantaine",
-     "Costume sombre",
-     "Cravate noire"
-    ]
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "IMPOSSIBLE À FUIR",
+    "taille": 84,
+    "sous": "Sa réputation"
    },
    "sousTitres": true
   },
   {
    "id": "06",
-   "debut": 908,
-   "duree": 121,
+   "debut": 878,
+   "duree": 225,
    "audio": null,
-   "texte": "Il s'installe au siège 18C, et commande un bourbon-soda.",
+   "texte": "Pourtant, en 1962, trois détenus vont tenter l'impossible : Frank Morris, et les frères John et Clarence Anglin.",
    "mots": [
     {
      "t": 0,
-     "m": "Il"
+     "m": "Pourtant,"
     },
     {
-     "t": 0.185,
-     "m": "s'installe"
-    },
-    {
-     "t": 0.863,
-     "m": "au"
-    },
-    {
-     "t": 1.048,
-     "m": "siège"
-    },
-    {
-     "t": 1.418,
-     "m": "18C,"
-    },
-    {
-     "t": 1.727,
-     "m": "et"
-    },
-    {
-     "t": 1.912,
-     "m": "commande"
-    },
-    {
-     "t": 2.467,
-     "m": "un"
-    },
-    {
-     "t": 2.652,
-     "m": "bourbon-soda."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "cabine",
-    "siege": "18C",
-    "titre": "SIÈGE 18C",
-    "legende": "Un bourbon-soda",
-    "legendeTop": 300
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "07",
-   "debut": 1029,
-   "duree": 155,
-   "audio": null,
-   "texte": "Peu après le décollage, il tend un petit mot à une hôtesse.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Peu"
-    },
-    {
-     "t": 0.308,
-     "m": "après"
-    },
-    {
-     "t": 0.77,
-     "m": "le"
-    },
-    {
-     "t": 1.002,
-     "m": "décollage,"
-    },
-    {
-     "t": 1.849,
-     "m": "il"
-    },
-    {
-     "t": 2.08,
-     "m": "tend"
-    },
-    {
-     "t": 2.465,
-     "m": "un"
-    },
-    {
-     "t": 2.697,
-     "m": "petit"
-    },
-    {
-     "t": 3.159,
-     "m": "mot"
-    },
-    {
-     "t": 3.467,
-     "m": "à"
-    },
-    {
-     "t": 3.621,
-     "m": "une"
-    },
-    {
-     "t": 3.929,
-     "m": "hôtesse."
-    }
-   ],
-   "sequence": {
-    "type": "carte",
-    "titre": "VOL 305",
-    "points": [
-     {
-      "nom": "PORTLAND",
-      "x": 440,
-      "y": 1100
-     },
-     {
-      "nom": "SEATTLE",
-      "x": 560,
-      "y": 560
-     }
-    ],
-    "voyageur": "avion"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "08",
-   "debut": 1184,
-   "duree": 155,
-   "audio": null,
-   "texte": "Sur le papier : il y a une bombe dans sa mallette.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Sur"
-    },
-    {
-     "t": 0.363,
-     "m": "le"
-    },
-    {
-     "t": 0.634,
-     "m": "papier"
-    },
-    {
-     "t": 1.269,
-     "m": ":"
-    },
-    {
-     "t": 1.45,
-     "m": "il"
-    },
-    {
-     "t": 1.722,
-     "m": "y"
-    },
-    {
-     "t": 1.903,
-     "m": "a"
-    },
-    {
-     "t": 2.085,
-     "m": "une"
-    },
-    {
-     "t": 2.447,
-     "m": "bombe"
-    },
-    {
-     "t": 2.991,
-     "m": "dans"
-    },
-    {
-     "t": 3.444,
-     "m": "sa"
-    },
-    {
-     "t": 3.716,
-     "m": "mallette."
-    }
-   ],
-   "sequence": {
-    "type": "document",
-    "genre": "rapport",
-    "titre": "LE MOT",
-    "entete": "UN PETIT MOT",
-    "lignes": [
-     "■",
-     "Une bombe",
-     "dans ma mallette",
-     "■"
-    ],
-    "tampon": "BOMBE",
-    "tamponTop": 860
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "09",
-   "debut": 1339,
-   "duree": 155,
-   "audio": null,
-   "texte": "Il entrouvre la mallette : des bâtons rouges, des fils, une batterie.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Il"
-    },
-    {
-     "t": 0.198,
-     "m": "entrouvre"
-    },
-    {
-     "t": 0.859,
-     "m": "la"
-    },
-    {
-     "t": 1.057,
-     "m": "mallette"
-    },
-    {
-     "t": 1.651,
-     "m": ":"
-    },
-    {
-     "t": 1.783,
-     "m": "des"
-    },
-    {
-     "t": 2.047,
-     "m": "bâtons"
-    },
-    {
-     "t": 2.51,
-     "m": "rouges,"
-    },
-    {
-     "t": 3.038,
-     "m": "des"
-    },
-    {
-     "t": 3.302,
-     "m": "fils,"
-    },
-    {
-     "t": 3.698,
-     "m": "une"
-    },
-    {
-     "t": 3.962,
-     "m": "batterie."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "mallette_bombe",
-    "titre": "LA MALLETTE",
-    "legende": "Bâtons rouges, fils, batterie",
-    "legendeTop": 330
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "10",
-   "debut": 1494,
-   "duree": 144,
-   "audio": null,
-   "texte": "Ses exigences : deux cent mille dollars en billets de vingt…",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Ses"
-    },
-    {
-     "t": 0.279,
-     "m": "exigences"
-    },
-    {
-     "t": 0.976,
-     "m": ":"
-    },
-    {
-     "t": 1.116,
-     "m": "deux"
-    },
-    {
-     "t": 1.464,
-     "m": "cent"
-    },
-    {
-     "t": 1.813,
-     "m": "mille"
-    },
-    {
-     "t": 2.231,
-     "m": "dollars"
-    },
-    {
-     "t": 2.789,
+     "t": 0.605,
      "m": "en"
     },
     {
-     "t": 2.998,
-     "m": "billets"
+     "t": 0.787,
+     "m": "1962,"
     },
     {
-     "t": 3.556,
-     "m": "de"
+     "t": 1.15,
+     "m": "trois"
     },
     {
-     "t": 3.765,
-     "m": "vingt…"
-    }
-   ],
-   "sequence": {
-    "type": "chiffre",
-    "titre": "SES EXIGENCES",
-    "valeur": 200000,
-    "unite": "$",
-    "sous": "en billets de 20"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "11",
-   "debut": 1638,
-   "duree": 63,
-   "audio": null,
-   "texte": "… et quatre parachutes.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "…"
+     "t": 1.513,
+     "m": "détenus"
     },
     {
-     "t": 0.139,
+     "t": 1.997,
+     "m": "vont"
+    },
+    {
+     "t": 2.3,
+     "m": "tenter"
+    },
+    {
+     "t": 2.723,
+     "m": "l'impossible"
+    },
+    {
+     "t": 3.51,
+     "m": ":"
+    },
+    {
+     "t": 3.631,
+     "m": "Frank"
+    },
+    {
+     "t": 3.994,
+     "m": "Morris,"
+    },
+    {
+     "t": 4.478,
      "m": "et"
     },
     {
-     "t": 0.348,
-     "m": "quatre"
-    },
-    {
-     "t": 0.834,
-     "m": "parachutes."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "parachutes",
-    "titre": "ET AUSSI",
-    "legende": "4 parachutes"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "12",
-   "debut": 1701,
-   "duree": 98,
-   "audio": null,
-   "texte": "À Seattle, la compagnie accepte de payer.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "À"
-    },
-    {
-     "t": 0.132,
-     "m": "Seattle,"
-    },
-    {
-     "t": 0.727,
-     "m": "la"
-    },
-    {
-     "t": 0.926,
-     "m": "compagnie"
-    },
-    {
-     "t": 1.587,
-     "m": "accepte"
-    },
-    {
-     "t": 2.116,
-     "m": "de"
-    },
-    {
-     "t": 2.314,
-     "m": "payer."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "piste",
-    "titre": "SEATTLE",
-    "legende": "La compagnie paie",
-    "legendeTop": 300
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "13",
-   "debut": 1799,
-   "duree": 155,
-   "audio": null,
-   "texte": "Dix mille billets de vingt dollars. Le FBI a photographié chacun d'eux.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Dix"
-    },
-    {
-     "t": 0.257,
-     "m": "mille"
-    },
-    {
-     "t": 0.642,
-     "m": "billets"
-    },
-    {
-     "t": 1.156,
-     "m": "de"
-    },
-    {
-     "t": 1.348,
-     "m": "vingt"
-    },
-    {
-     "t": 1.734,
-     "m": "dollars."
-    },
-    {
-     "t": 2.311,
-     "m": "Le"
-    },
-    {
-     "t": 2.504,
-     "m": "FBI"
-    },
-    {
-     "t": 2.761,
-     "m": "a"
-    },
-    {
-     "t": 2.889,
-     "m": "photographié"
-    },
-    {
-     "t": 3.724,
-     "m": "chacun"
-    },
-    {
-     "t": 4.173,
-     "m": "d'eux."
-    }
-   ],
-   "sequence": {
-    "type": "compteur",
-    "titre": "LA RANÇON",
-    "valeur": 10000,
-    "milliers": true,
-    "taille": 240,
-    "unite": "billets de 20 $",
-    "legende": "tous photographiés par le FBI"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "14",
-   "debut": 1954,
-   "duree": 132,
-   "audio": null,
-   "texte": "Cooper libère les trente-six passagers. Il ne garde que l'équipage.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Cooper"
-    },
-    {
-     "t": 0.4,
-     "m": "libère"
-    },
-    {
-     "t": 0.8,
+     "t": 4.66,
      "m": "les"
     },
     {
-     "t": 1.028,
-     "m": "trente-six"
+     "t": 4.902,
+     "m": "frères"
     },
     {
-     "t": 1.657,
-     "m": "passagers."
+     "t": 5.325,
+     "m": "John"
     },
     {
-     "t": 2.285,
-     "m": "Il"
-    },
-    {
-     "t": 2.456,
-     "m": "ne"
-    },
-    {
-     "t": 2.628,
-     "m": "garde"
-    },
-    {
-     "t": 2.97,
-     "m": "que"
-    },
-    {
-     "t": 3.199,
-     "m": "l'équipage."
-    }
-   ],
-   "sequence": {
-    "type": "compteur",
-    "titre": "SEATTLE",
-    "valeur": 36,
-    "unite": "passagers libérés",
-    "legende": "Il ne garde que l'équipage"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "15",
-   "debut": 2086,
-   "duree": 109,
-   "audio": null,
-   "texte": "Puis il ordonne de redécoller, direction le Mexique.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Puis"
-    },
-    {
-     "t": 0.297,
-     "m": "il"
-    },
-    {
-     "t": 0.475,
-     "m": "ordonne"
-    },
-    {
-     "t": 0.95,
-     "m": "de"
-    },
-    {
-     "t": 1.128,
-     "m": "redécoller,"
-    },
-    {
-     "t": 1.84,
-     "m": "direction"
-    },
-    {
-     "t": 2.434,
-     "m": "le"
-    },
-    {
-     "t": 2.612,
-     "m": "Mexique."
-    }
-   ],
-   "sequence": {
-    "type": "carte",
-    "titre": "DIRECTION LE MEXIQUE",
-    "points": [
-     {
-      "nom": "SEATTLE",
-      "x": 560,
-      "y": 560
-     },
-     {
-      "nom": "MEXIQUE ?",
-      "x": 640,
-      "y": 1180
-     }
-    ],
-    "voyageur": "avion"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "16",
-   "debut": 2195,
-   "duree": 98,
-   "audio": null,
-   "texte": "Ses conditions : voler bas, et lentement.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Ses"
-    },
-    {
-     "t": 0.264,
-     "m": "conditions"
-    },
-    {
-     "t": 0.992,
-     "m": ":"
-    },
-    {
-     "t": 1.124,
-     "m": "voler"
-    },
-    {
-     "t": 1.521,
-     "m": "bas,"
-    },
-    {
-     "t": 1.851,
+     "t": 5.628,
      "m": "et"
     },
     {
-     "t": 2.049,
-     "m": "lentement."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "vol",
-    "titre": "SES CONDITIONS",
-    "legende": "Bas. Et lentement.",
-    "legendeTop": 300
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "17",
-   "debut": 2293,
-   "duree": 132,
-   "audio": null,
-   "texte": "Pourquoi ? Parce qu'il ne compte pas aller au Mexique.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Pourquoi"
-    },
-    {
-     "t": 0.636,
-     "m": "?"
-    },
-    {
-     "t": 0.777,
-     "m": "Parce"
-    },
-    {
-     "t": 1.201,
-     "m": "qu'il"
-    },
-    {
-     "t": 1.624,
-     "m": "ne"
-    },
-    {
-     "t": 1.836,
-     "m": "compte"
-    },
-    {
-     "t": 2.331,
-     "m": "pas"
-    },
-    {
-     "t": 2.613,
-     "m": "aller"
-    },
-    {
-     "t": 3.037,
-     "m": "au"
-    },
-    {
-     "t": 3.249,
-     "m": "Mexique."
-    }
-   ],
-   "sequence": {
-    "type": "choc",
-    "photo": "photos/affaire-05-cooper.png",
-    "srcW": 1170,
-    "visage": {
-     "x": 790,
-     "y": 470
-    },
-    "texte": "IL NE VA PAS AU MEXIQUE"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "18",
-   "debut": 2425,
-   "duree": 202,
-   "audio": null,
-   "texte": "Vers vingt heures, au-dessus des forêts de l'État de Washington, un voyant s'allume dans le cockpit.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Vers"
-    },
-    {
-     "t": 0.302,
-     "m": "vingt"
-    },
-    {
-     "t": 0.664,
-     "m": "heures,"
-    },
-    {
-     "t": 1.147,
-     "m": "au-dessus"
-    },
-    {
-     "t": 1.751,
-     "m": "des"
-    },
-    {
-     "t": 1.993,
-     "m": "forêts"
-    },
-    {
-     "t": 2.416,
-     "m": "de"
-    },
-    {
-     "t": 2.597,
-     "m": "l'État"
-    },
-    {
-     "t": 3.02,
-     "m": "de"
-    },
-    {
-     "t": 3.201,
-     "m": "Washington,"
-    },
-    {
-     "t": 3.926,
-     "m": "un"
-    },
-    {
-     "t": 4.107,
-     "m": "voyant"
-    },
-    {
-     "t": 4.529,
-     "m": "s'allume"
-    },
-    {
-     "t": 5.073,
-     "m": "dans"
-    },
-    {
-     "t": 5.375,
-     "m": "le"
-    },
-    {
-     "t": 5.556,
-     "m": "cockpit."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "cockpit",
-    "titre": "VERS 20 H"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "19",
-   "debut": 2627,
-   "duree": 109,
-   "audio": null,
-   "texte": "La porte arrière de l'avion vient de s'ouvrir.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "La"
-    },
-    {
-     "t": 0.201,
-     "m": "porte"
-    },
-    {
-     "t": 0.602,
-     "m": "arrière"
-    },
-    {
-     "t": 1.138,
-     "m": "de"
-    },
-    {
-     "t": 1.339,
-     "m": "l'avion"
-    },
-    {
-     "t": 1.874,
-     "m": "vient"
-    },
-    {
-     "t": 2.276,
-     "m": "de"
-    },
-    {
-     "t": 2.477,
-     "m": "s'ouvrir."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "escalier",
-    "titre": "LA PORTE ARRIÈRE"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "20",
-   "debut": 2736,
-   "duree": 202,
-   "audio": null,
-   "texte": "Dan Cooper saute dans le vide. De nuit, sous la pluie, en mocassins et en imperméable.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Dan"
-    },
-    {
-     "t": 0.28,
-     "m": "Cooper"
-    },
-    {
-     "t": 0.771,
-     "m": "saute"
-    },
-    {
-     "t": 1.192,
-     "m": "dans"
-    },
-    {
-     "t": 1.542,
-     "m": "le"
-    },
-    {
-     "t": 1.753,
-     "m": "vide."
-    },
-    {
-     "t": 2.173,
-     "m": "De"
-    },
-    {
-     "t": 2.384,
-     "m": "nuit,"
-    },
-    {
-     "t": 2.804,
-     "m": "sous"
-    },
-    {
-     "t": 3.155,
-     "m": "la"
-    },
-    {
-     "t": 3.365,
-     "m": "pluie,"
-    },
-    {
-     "t": 3.856,
-     "m": "en"
-    },
-    {
-     "t": 4.066,
-     "m": "mocassins"
-    },
-    {
-     "t": 4.768,
-     "m": "et"
-    },
-    {
-     "t": 4.978,
-     "m": "en"
-    },
-    {
-     "t": 5.188,
-     "m": "imperméable."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "saut",
-    "titre": "LE SAUT"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "21",
-   "debut": 2938,
-   "duree": 40,
-   "audio": null,
-   "texte": "Avec l'argent.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Avec"
-    },
-    {
-     "t": 0.31,
-     "m": "l'argent."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "saut",
-    "sac": true,
-    "legende": "Avec l'argent.",
-    "legendeTop": 300
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "22",
-   "debut": 2978,
-   "duree": 213,
-   "audio": null,
-   "texte": "Quand l'avion se pose pour faire le plein, à Reno, il n'y a plus personne à bord.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Quand"
-    },
-    {
-     "t": 0.473,
-     "m": "l'avion"
-    },
-    {
-     "t": 1.104,
-     "m": "se"
-    },
-    {
-     "t": 1.341,
-     "m": "pose"
-    },
-    {
-     "t": 1.736,
-     "m": "pour"
-    },
-    {
-     "t": 2.13,
-     "m": "faire"
-    },
-    {
-     "t": 2.603,
-     "m": "le"
-    },
-    {
-     "t": 2.84,
-     "m": "plein,"
-    },
-    {
-     "t": 3.392,
-     "m": "à"
-    },
-    {
-     "t": 3.55,
-     "m": "Reno,"
-    },
-    {
-     "t": 4.023,
-     "m": "il"
-    },
-    {
-     "t": 4.26,
-     "m": "n'y"
-    },
-    {
-     "t": 4.576,
-     "m": "a"
-    },
-    {
-     "t": 4.733,
-     "m": "plus"
-    },
-    {
-     "t": 5.128,
-     "m": "personne"
-    },
-    {
-     "t": 5.838,
-     "m": "à"
-    },
-    {
-     "t": 5.996,
-     "m": "bord."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "piste",
-    "titre": "RENO",
-    "tampon": "VIDE",
-    "tamponTop": 420
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "23",
-   "debut": 3191,
-   "duree": 109,
-   "audio": null,
-   "texte": "Il a juste laissé derrière lui… sa cravate.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Il"
-    },
-    {
-     "t": 0.214,
-     "m": "a"
-    },
-    {
-     "t": 0.357,
-     "m": "juste"
-    },
-    {
-     "t": 0.786,
-     "m": "laissé"
-    },
-    {
-     "t": 1.287,
-     "m": "derrière"
-    },
-    {
-     "t": 1.93,
-     "m": "lui…"
-    },
-    {
-     "t": 2.288,
-     "m": "sa"
-    },
-    {
-     "t": 2.502,
-     "m": "cravate."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "cravate",
-    "titre": "À BORD",
-    "legende": "Sa cravate"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "24",
-   "debut": 3300,
-   "duree": 144,
-   "audio": null,
-   "texte": "Le FBI lance l'une des plus grandes enquêtes de son histoire.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Le"
-    },
-    {
-     "t": 0.206,
-     "m": "FBI"
-    },
-    {
-     "t": 0.48,
-     "m": "lance"
-    },
-    {
-     "t": 0.892,
-     "m": "l'une"
-    },
-    {
-     "t": 1.304,
-     "m": "des"
-    },
-    {
-     "t": 1.578,
-     "m": "plus"
-    },
-    {
-     "t": 1.921,
-     "m": "grandes"
-    },
-    {
-     "t": 2.47,
-     "m": "enquêtes"
-    },
-    {
-     "t": 3.087,
-     "m": "de"
-    },
-    {
-     "t": 3.293,
-     "m": "son"
-    },
-    {
-     "t": 3.567,
-     "m": "histoire."
-    }
-   ],
-   "sequence": {
-    "type": "document",
-    "genre": "rapport",
-    "titre": "LE FBI",
-    "entete": "FBI · DOSSIER NORJAK",
-    "lignes": [
-     "Détournement du vol 305",
-     "Suspect : inconnu"
-    ],
-    "surligne": [
-     "inconnu"
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "25",
-   "debut": 3444,
-   "duree": 121,
-   "audio": null,
-   "texte": "Des centaines de suspects examinés. Aucun n'est le bon.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Des"
-    },
-    {
-     "t": 0.251,
-     "m": "centaines"
-    },
-    {
-     "t": 0.879,
-     "m": "de"
-    },
-    {
-     "t": 1.067,
-     "m": "suspects"
-    },
-    {
-     "t": 1.632,
-     "m": "examinés."
-    },
-    {
-     "t": 2.26,
-     "m": "Aucun"
-    },
-    {
-     "t": 2.636,
-     "m": "n'est"
-    },
-    {
-     "t": 3.013,
-     "m": "le"
-    },
-    {
-     "t": 3.201,
-     "m": "bon."
-    }
-   ],
-   "sequence": {
-    "type": "suspects",
-    "titre": "LES SUSPECTS",
-    "legende": "Des centaines"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "26",
-   "debut": 3565,
-   "duree": 236,
-   "audio": null,
-   "texte": "Même son nom est faux. Et à cause d'une erreur de la presse, Dan Cooper devient… D. B. Cooper.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Même"
-    },
-    {
-     "t": 0.379,
-     "m": "son"
-    },
-    {
-     "t": 0.683,
-     "m": "nom"
-    },
-    {
-     "t": 0.986,
-     "m": "est"
-    },
-    {
-     "t": 1.29,
-     "m": "faux."
-    },
-    {
-     "t": 1.745,
-     "m": "Et"
-    },
-    {
-     "t": 1.973,
-     "m": "à"
-    },
-    {
-     "t": 2.124,
-     "m": "cause"
-    },
-    {
-     "t": 2.579,
-     "m": "d'une"
-    },
-    {
-     "t": 3.035,
-     "m": "erreur"
-    },
-    {
-     "t": 3.566,
-     "m": "de"
-    },
-    {
-     "t": 3.793,
-     "m": "la"
-    },
-    {
-     "t": 4.021,
-     "m": "presse,"
-    },
-    {
-     "t": 4.628,
-     "m": "Dan"
-    },
-    {
-     "t": 4.931,
-     "m": "Cooper"
-    },
-    {
-     "t": 5.462,
-     "m": "devient…"
-    },
-    {
-     "t": 6.145,
-     "m": "D."
-    },
-    {
-     "t": 6.373,
-     "m": "B."
+     "t": 5.809,
+     "m": "Clarence"
     },
     {
-     "t": 6.6,
-     "m": "Cooper."
+     "t": 6.354,
+     "m": "Anglin."
     }
    ],
    "sequence": {
     "type": "etapes",
     "etapes": [
      {
-      "type": "barre",
-      "mot": "DAN",
-      "personnage": "cooper",
+      "type": "fiche",
+      "titre": "LES ÉVADÉS",
+      "personnage": "detenu",
+      "nom": "FRANK MORRIS",
+      "infos": [
+       "Braqueur de banques"
+      ],
       "poids": 1
      },
      {
-      "type": "secret",
-      "personnage": "aucun",
-      "texte": "« D. B. » COOPER",
-      "sous": "Une erreur de la presse",
+      "type": "fiche",
+      "titre": "LES ÉVADÉS",
+      "personnage": "detenu",
+      "nom": "LES ANGLIN",
+      "infos": [
+       "John et Clarence",
+       "Deux frères braqueurs"
+      ],
       "poids": 1.2
      }
     ]
@@ -1686,737 +482,2208 @@
    "sousTitres": true
   },
   {
-   "id": "27",
-   "debut": 3801,
-   "duree": 179,
+   "id": "07",
+   "debut": 1103,
+   "duree": 132,
    "audio": null,
-   "texte": "Quelques mois plus tard, un homme copie exactement son plan. Lui se fait arrêter.",
+   "texte": "Un quatrième complice, Allen West, fait aussi partie du plan.",
    "mots": [
     {
      "t": 0,
-     "m": "Quelques"
+     "m": "Un"
     },
     {
-     "t": 0.588,
-     "m": "mois"
+     "t": 0.188,
+     "m": "quatrième"
     },
     {
-     "t": 0.915,
-     "m": "plus"
+     "t": 0.814,
+     "m": "complice,"
     },
     {
-     "t": 1.242,
-     "m": "tard,"
+     "t": 1.441,
+     "m": "Allen"
     },
     {
-     "t": 1.635,
-     "m": "un"
+     "t": 1.817,
+     "m": "West,"
     },
     {
-     "t": 1.831,
-     "m": "homme"
-    },
-    {
-     "t": 2.223,
-     "m": "copie"
-    },
-    {
-     "t": 2.615,
-     "m": "exactement"
-    },
-    {
-     "t": 3.334,
-     "m": "son"
-    },
-    {
-     "t": 3.596,
-     "m": "plan."
-    },
-    {
-     "t": 3.988,
-     "m": "Lui"
-    },
-    {
-     "t": 4.25,
-     "m": "se"
-    },
-    {
-     "t": 4.446,
+     "t": 2.193,
      "m": "fait"
     },
     {
-     "t": 4.773,
-     "m": "arrêter."
+     "t": 2.506,
+     "m": "aussi"
+    },
+    {
+     "t": 2.882,
+     "m": "partie"
+    },
+    {
+     "t": 3.32,
+     "m": "du"
+    },
+    {
+     "t": 3.508,
+     "m": "plan."
+    }
+   ],
+   "sequence": {
+    "type": "fiche",
+    "titre": "LE 4E COMPLICE",
+    "personnage": "detenu",
+    "nom": "ALLEN WEST",
+    "infos": [
+     "Dans le plan, lui aussi"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "08",
+   "debut": 1235,
+   "duree": 155,
+   "audio": null,
+   "texte": "Pendant des mois, ils récupèrent des cuillères et des lames de scie.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Pendant"
+    },
+    {
+     "t": 0.536,
+     "m": "des"
+    },
+    {
+     "t": 0.804,
+     "m": "mois,"
+    },
+    {
+     "t": 1.206,
+     "m": "ils"
+    },
+    {
+     "t": 1.474,
+     "m": "récupèrent"
+    },
+    {
+     "t": 2.211,
+     "m": "des"
+    },
+    {
+     "t": 2.479,
+     "m": "cuillères"
+    },
+    {
+     "t": 3.149,
+     "m": "et"
+    },
+    {
+     "t": 3.35,
+     "m": "des"
+    },
+    {
+     "t": 3.618,
+     "m": "lames"
+    },
+    {
+     "t": 4.02,
+     "m": "de"
+    },
+    {
+     "t": 4.221,
+     "m": "scie."
+    }
+   ],
+   "sequence": {
+    "type": "icones",
+    "titre": "LES OUTILS",
+    "items": [
+     {
+      "label": "CUILLÈRES",
+      "sous": "du réfectoire"
+     },
+     {
+      "label": "LAMES",
+      "sous": "de scie"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "09",
+   "debut": 1390,
+   "duree": 132,
+   "audio": null,
+   "texte": "Avec le moteur d'un aspirateur cassé, ils fabriquent une perceuse.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Avec"
+    },
+    {
+     "t": 0.29,
+     "m": "le"
+    },
+    {
+     "t": 0.464,
+     "m": "moteur"
+    },
+    {
+     "t": 0.87,
+     "m": "d'un"
+    },
+    {
+     "t": 1.159,
+     "m": "aspirateur"
+    },
+    {
+     "t": 1.797,
+     "m": "cassé,"
+    },
+    {
+     "t": 2.203,
+     "m": "ils"
+    },
+    {
+     "t": 2.435,
+     "m": "fabriquent"
+    },
+    {
+     "t": 3.073,
+     "m": "une"
+    },
+    {
+     "t": 3.305,
+     "m": "perceuse."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "perceuse",
+    "titre": "BRICOLAGE",
+    "legende": "Un moteur d'aspirateur"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "10",
+   "debut": 1522,
+   "duree": 144,
+   "audio": null,
+   "texte": "Ils creusent autour des grilles d'aération, au fond de leurs cellules.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Ils"
+    },
+    {
+     "t": 0.24,
+     "m": "creusent"
+    },
+    {
+     "t": 0.779,
+     "m": "autour"
+    },
+    {
+     "t": 1.198,
+     "m": "des"
+    },
+    {
+     "t": 1.438,
+     "m": "grilles"
+    },
+    {
+     "t": 1.917,
+     "m": "d'aération,"
+    },
+    {
+     "t": 2.636,
+     "m": "au"
+    },
+    {
+     "t": 2.816,
+     "m": "fond"
+    },
+    {
+     "t": 3.115,
+     "m": "de"
+    },
+    {
+     "t": 3.295,
+     "m": "leurs"
+    },
+    {
+     "t": 3.654,
+     "m": "cellules."
     }
    ],
    "sequence": {
     "type": "scene",
-    "decor": "ville",
-    "titre": "1972",
-    "gyrophare": true,
-    "personnages": [
-     {
-      "nom": "policier",
-      "x": 300,
-      "y": 1350,
-      "s": 300
-     },
-     {
-      "nom": "passager",
-      "x": 540,
-      "y": 1350,
-      "s": 300
-     },
-     {
-      "nom": "policier",
-      "x": 780,
-      "y": 1350,
-      "s": 300,
-      "miroir": true
-     }
-    ],
-    "legende": "Un copieur",
+    "decor": "cellule",
+    "perce": true,
+    "titre": "LA CELLULE",
+    "legende": "La grille d'aération",
     "legendeTop": 300
    },
    "sousTitres": true
   },
   {
-   "id": "28",
-   "debut": 3980,
+   "id": "11",
+   "debut": 1666,
    "duree": 155,
    "audio": null,
-   "texte": "Mais ce n'est pas Cooper : il ne correspond pas aux descriptions.",
+   "texte": "Pour couvrir le bruit, Morris joue de l'accordéon pendant l'heure de musique.",
    "mots": [
     {
      "t": 0,
-     "m": "Mais"
+     "m": "Pour"
     },
     {
-     "t": 0.35,
-     "m": "ce"
+     "t": 0.296,
+     "m": "couvrir"
     },
     {
-     "t": 0.56,
-     "m": "n'est"
+     "t": 0.77,
+     "m": "le"
     },
     {
-     "t": 0.981,
-     "m": "pas"
+     "t": 0.948,
+     "m": "bruit,"
     },
     {
-     "t": 1.261,
-     "m": "Cooper"
+     "t": 1.363,
+     "m": "Morris"
     },
     {
-     "t": 1.751,
-     "m": ":"
+     "t": 1.778,
+     "m": "joue"
     },
     {
-     "t": 1.891,
-     "m": "il"
+     "t": 2.074,
+     "m": "de"
     },
     {
-     "t": 2.101,
-     "m": "ne"
+     "t": 2.252,
+     "m": "l'accordéon"
     },
     {
-     "t": 2.311,
-     "m": "correspond"
+     "t": 2.963,
+     "m": "pendant"
     },
     {
-     "t": 3.082,
-     "m": "pas"
+     "t": 3.437,
+     "m": "l'heure"
     },
     {
-     "t": 3.362,
-     "m": "aux"
+     "t": 3.912,
+     "m": "de"
     },
     {
-     "t": 3.642,
-     "m": "descriptions."
+     "t": 4.089,
+     "m": "musique."
     }
    ],
    "sequence": {
-    "type": "barre",
-    "mot": "COOPER",
-    "personnage": "passager",
-    "nom": "PAS LUI"
+    "type": "objet",
+    "dessin": "accordeon",
+    "titre": "L'HEURE DE MUSIQUE",
+    "legende": "Pour couvrir le bruit"
    },
    "sousTitres": true
   },
   {
-   "id": "29",
-   "debut": 4135,
-   "duree": 179,
+   "id": "12",
+   "debut": 1821,
+   "duree": 121,
    "audio": null,
-   "texte": "En 1980, un garçon de huit ans joue au bord d'un fleuve, la Columbia.",
+   "texte": "Derrière les grilles : un couloir technique, sans surveillance.",
    "mots": [
     {
      "t": 0,
-     "m": "En"
+     "m": "Derrière"
     },
     {
-     "t": 0.23,
-     "m": "1980,"
+     "t": 0.494,
+     "m": "les"
     },
     {
-     "t": 0.689,
+     "t": 0.714,
+     "m": "grilles"
+    },
+    {
+     "t": 1.153,
+     "m": ":"
+    },
+    {
+     "t": 1.263,
      "m": "un"
     },
     {
-     "t": 0.919,
-     "m": "garçon"
+     "t": 1.428,
+     "m": "couloir"
     },
     {
-     "t": 1.455,
-     "m": "de"
+     "t": 1.867,
+     "m": "technique,"
     },
     {
-     "t": 1.685,
-     "m": "huit"
+     "t": 2.472,
+     "m": "sans"
     },
     {
-     "t": 2.068,
-     "m": "ans"
-    },
-    {
-     "t": 2.374,
-     "m": "joue"
-    },
-    {
-     "t": 2.757,
-     "m": "au"
-    },
-    {
-     "t": 2.987,
-     "m": "bord"
-    },
-    {
-     "t": 3.37,
-     "m": "d'un"
-    },
-    {
-     "t": 3.753,
-     "m": "fleuve,"
-    },
-    {
-     "t": 4.366,
-     "m": "la"
-    },
-    {
-     "t": 4.595,
-     "m": "Columbia."
+     "t": 2.746,
+     "m": "surveillance."
     }
    ],
    "sequence": {
     "type": "scene",
-    "decor": "fleuve",
-    "titre": "1980 · LA COLUMBIA"
+    "decor": "couloir",
+    "titre": "DERRIÈRE LES GRILLES",
+    "legende": "Personne ne surveille",
+    "legendeTop": 420
    },
    "sousTitres": true
   },
   {
-   "id": "30",
-   "debut": 4314,
-   "duree": 167,
+   "id": "13",
+   "debut": 1942,
+   "duree": 132,
    "audio": null,
-   "texte": "Il déterre des liasses de billets moisis : cinq mille huit cents dollars.",
+   "texte": "Tout en haut du bâtiment, ils installent un atelier secret.",
    "mots": [
     {
      "t": 0,
-     "m": "Il"
+     "m": "Tout"
     },
     {
-     "t": 0.202,
-     "m": "déterre"
+     "t": 0.324,
+     "m": "en"
     },
     {
-     "t": 0.742,
-     "m": "des"
+     "t": 0.518,
+     "m": "haut"
     },
     {
-     "t": 1.012,
-     "m": "liasses"
+     "t": 0.842,
+     "m": "du"
     },
     {
-     "t": 1.552,
-     "m": "de"
+     "t": 1.036,
+     "m": "bâtiment,"
     },
     {
-     "t": 1.754,
-     "m": "billets"
+     "t": 1.683,
+     "m": "ils"
     },
     {
-     "t": 2.294,
-     "m": "moisis"
+     "t": 1.942,
+     "m": "installent"
     },
     {
-     "t": 2.766,
-     "m": ":"
+     "t": 2.654,
+     "m": "un"
     },
     {
-     "t": 2.901,
-     "m": "cinq"
+     "t": 2.848,
+     "m": "atelier"
     },
     {
-     "t": 3.238,
-     "m": "mille"
-    },
-    {
-     "t": 3.643,
-     "m": "huit"
-    },
-    {
-     "t": 3.98,
-     "m": "cents"
-    },
-    {
-     "t": 4.385,
-     "m": "dollars."
+     "t": 3.366,
+     "m": "secret."
     }
    ],
    "sequence": {
-    "type": "chiffre",
-    "titre": "DANS LE SABLE",
-    "valeur": 5800,
-    "unite": "$",
-    "sous": "en billets moisis"
+    "type": "scene",
+    "decor": "couloir",
+    "atelier": true,
+    "titre": "L'ATELIER SECRET",
+    "legende": "Tout en haut du bâtiment",
+    "legendeTop": 420
    },
    "sousTitres": true
   },
   {
-   "id": "31",
-   "debut": 4481,
-   "duree": 109,
+   "id": "14",
+   "debut": 2074,
+   "duree": 144,
    "audio": null,
-   "texte": "Les numéros correspondent. C'est l'argent de la rançon.",
+   "texte": "Ils y fabriquent un radeau, avec plus de cinquante imperméables volés.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Ils"
+    },
+    {
+     "t": 0.24,
+     "m": "y"
+    },
+    {
+     "t": 0.359,
+     "m": "fabriquent"
+    },
+    {
+     "t": 1.018,
+     "m": "un"
+    },
+    {
+     "t": 1.198,
+     "m": "radeau,"
+    },
+    {
+     "t": 1.677,
+     "m": "avec"
+    },
+    {
+     "t": 1.977,
+     "m": "plus"
+    },
+    {
+     "t": 2.277,
+     "m": "de"
+    },
+    {
+     "t": 2.456,
+     "m": "cinquante"
+    },
+    {
+     "t": 3.055,
+     "m": "imperméables"
+    },
+    {
+     "t": 3.834,
+     "m": "volés."
+    }
+   ],
+   "sequence": {
+    "type": "compteur",
+    "titre": "LE RADEAU",
+    "valeur": 50,
+    "unite": "imperméables volés",
+    "legende": "et même plus"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "15",
+   "debut": 2218,
+   "duree": 179,
+   "audio": null,
+   "texte": "Les coutures sont soudées à la chaleur des tuyaux de vapeur de la prison.",
    "mots": [
     {
      "t": 0,
      "m": "Les"
     },
     {
-     "t": 0.225,
-     "m": "numéros"
+     "t": 0.29,
+     "m": "coutures"
     },
     {
-     "t": 0.674,
-     "m": "correspondent."
+     "t": 0.942,
+     "m": "sont"
     },
     {
-     "t": 1.517,
-     "m": "C'est"
+     "t": 1.304,
+     "m": "soudées"
     },
     {
-     "t": 1.854,
-     "m": "l'argent"
+     "t": 1.884,
+     "m": "à"
     },
     {
-     "t": 2.359,
-     "m": "de"
-    },
-    {
-     "t": 2.528,
+     "t": 2.029,
      "m": "la"
     },
     {
-     "t": 2.696,
-     "m": "rançon."
+     "t": 2.246,
+     "m": "chaleur"
+    },
+    {
+     "t": 2.826,
+     "m": "des"
+    },
+    {
+     "t": 3.115,
+     "m": "tuyaux"
+    },
+    {
+     "t": 3.622,
+     "m": "de"
+    },
+    {
+     "t": 3.84,
+     "m": "vapeur"
+    },
+    {
+     "t": 4.347,
+     "m": "de"
+    },
+    {
+     "t": 4.564,
+     "m": "la"
+    },
+    {
+     "t": 4.782,
+     "m": "prison."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "radeau",
+    "titre": "LE RADEAU",
+    "legende": "Soudé sur les tuyaux chauds"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "16",
+   "debut": 2397,
+   "duree": 132,
+   "audio": null,
+   "texte": "Et pour le gonfler ? Un accordéon, transformé en soufflet.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Et"
+    },
+    {
+     "t": 0.198,
+     "m": "pour"
+    },
+    {
+     "t": 0.527,
+     "m": "le"
+    },
+    {
+     "t": 0.724,
+     "m": "gonfler"
+    },
+    {
+     "t": 1.251,
+     "m": "?"
+    },
+    {
+     "t": 1.383,
+     "m": "Un"
+    },
+    {
+     "t": 1.58,
+     "m": "accordéon,"
+    },
+    {
+     "t": 2.304,
+     "m": "transformé"
+    },
+    {
+     "t": 3.028,
+     "m": "en"
+    },
+    {
+     "t": 3.226,
+     "m": "soufflet."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "accordeon",
+    "titre": "POUR LE GONFLER",
+    "legende": "Un accordéon-soufflet"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "17",
+   "debut": 2529,
+   "duree": 190,
+   "audio": null,
+   "texte": "Reste un problème : les gardiens comptent les détenus, même la nuit, dans leurs lits.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Reste"
+    },
+    {
+     "t": 0.4,
+     "m": "un"
+    },
+    {
+     "t": 0.6,
+     "m": "problème"
+    },
+    {
+     "t": 1.199,
+     "m": ":"
+    },
+    {
+     "t": 1.333,
+     "m": "les"
+    },
+    {
+     "t": 1.599,
+     "m": "gardiens"
+    },
+    {
+     "t": 2.199,
+     "m": "comptent"
+    },
+    {
+     "t": 2.799,
+     "m": "les"
+    },
+    {
+     "t": 3.065,
+     "m": "détenus,"
+    },
+    {
+     "t": 3.665,
+     "m": "même"
+    },
+    {
+     "t": 3.998,
+     "m": "la"
+    },
+    {
+     "t": 4.198,
+     "m": "nuit,"
+    },
+    {
+     "t": 4.598,
+     "m": "dans"
+    },
+    {
+     "t": 4.931,
+     "m": "leurs"
+    },
+    {
+     "t": 5.331,
+     "m": "lits."
     }
    ],
    "sequence": {
     "type": "document",
     "genre": "rapport",
-    "titre": "LES NUMÉROS",
-    "entete": "NUMÉROS DE SÉRIE",
+    "titre": "LE PROBLÈME",
+    "entete": "RÈGLEMENT D'ALCATRAZ",
     "lignes": [
-     "Billets trouvés en 1980",
-     "= billets de la rançon"
+     "Comptages : toute la journée",
+     "Et même la nuit"
     ],
     "surligne": [
-     "rançon"
+     "nuit"
     ],
-    "tampon": "RANÇON",
+    "tampon": "PROBLÈME",
     "tamponTop": 860
    },
    "sousTitres": true
   },
   {
-   "id": "32",
-   "debut": 4590,
-   "duree": 179,
+   "id": "18",
+   "debut": 2719,
+   "duree": 144,
    "audio": null,
-   "texte": "Mais Cooper, lui ? Rien. Ni corps, ni parachute, ni le reste de l'argent.",
+   "texte": "Alors ils fabriquent de fausses têtes : savon, papier toilette, dentifrice…",
    "mots": [
     {
      "t": 0,
-     "m": "Mais"
+     "m": "Alors"
     },
     {
-     "t": 0.362,
-     "m": "Cooper,"
+     "t": 0.336,
+     "m": "ils"
     },
     {
-     "t": 0.942,
-     "m": "lui"
+     "t": 0.56,
+     "m": "fabriquent"
     },
     {
-     "t": 1.232,
-     "m": "?"
-    },
-    {
-     "t": 1.377,
-     "m": "Rien."
-    },
-    {
-     "t": 1.811,
-     "m": "Ni"
-    },
-    {
-     "t": 2.029,
-     "m": "corps,"
-    },
-    {
-     "t": 2.536,
-     "m": "ni"
-    },
-    {
-     "t": 2.753,
-     "m": "parachute,"
-    },
-    {
-     "t": 3.55,
-     "m": "ni"
-    },
-    {
-     "t": 3.767,
-     "m": "le"
-    },
-    {
-     "t": 3.985,
-     "m": "reste"
-    },
-    {
-     "t": 4.419,
+     "t": 1.175,
      "m": "de"
     },
     {
-     "t": 4.637,
-     "m": "l'argent."
-    }
-   ],
-   "sequence": {
-    "type": "icones",
-    "titre": "ET COOPER ?",
-    "items": [
-     {
-      "label": "CORPS",
-      "sous": "jamais retrouvé"
-     },
-     {
-      "label": "PARACHUTE",
-      "sous": "jamais retrouvé"
-     },
-     {
-      "label": "ARGENT",
-      "sous": "le reste a disparu"
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "33",
-   "debut": 4769,
-   "duree": 167,
-   "audio": null,
-   "texte": "Plus tard, l'ADN de sa cravate permet d'écarter des suspects. Pas de l'identifier.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Plus"
+     "t": 1.343,
+     "m": "fausses"
     },
     {
-     "t": 0.301,
-     "m": "tard,"
+     "t": 1.791,
+     "m": "têtes"
     },
     {
-     "t": 0.662,
-     "m": "l'ADN"
+     "t": 2.127,
+     "m": ":"
     },
     {
-     "t": 1.022,
-     "m": "de"
+     "t": 2.239,
+     "m": "savon,"
     },
     {
-     "t": 1.203,
-     "m": "sa"
+     "t": 2.63,
+     "m": "papier"
     },
     {
-     "t": 1.383,
-     "m": "cravate"
+     "t": 3.022,
+     "m": "toilette,"
     },
     {
-     "t": 1.864,
-     "m": "permet"
-    },
-    {
-     "t": 2.285,
-     "m": "d'écarter"
-    },
-    {
-     "t": 2.887,
-     "m": "des"
-    },
-    {
-     "t": 3.128,
-     "m": "suspects."
-    },
-    {
-     "t": 3.729,
-     "m": "Pas"
-    },
-    {
-     "t": 3.97,
-     "m": "de"
-    },
-    {
-     "t": 4.15,
-     "m": "l'identifier."
+     "t": 3.582,
+     "m": "dentifrice…"
     }
    ],
    "sequence": {
     "type": "objet",
-    "dessin": "cravate",
-    "titre": "L'ADN",
-    "legende": "Des suspects écartés",
-    "tampon": "NON IDENTIFIÉ",
-    "tamponTaille": 84,
-    "tamponTop": 1000
+    "dessin": "tete",
+    "titre": "LA SOLUTION",
+    "legende": "Savon, papier, dentifrice",
+    "sansCheveux": true
    },
    "sousTitres": true
   },
   {
-   "id": "34",
-   "debut": 4936,
-   "duree": 132,
+   "id": "19",
+   "debut": 2863,
+   "duree": 155,
    "audio": null,
-   "texte": "En juillet 2016, après quarante-cinq ans d'enquête, le FBI abandonne.",
+   "texte": "… et de vrais cheveux, ramassés chez le coiffeur de la prison.",
    "mots": [
     {
      "t": 0,
-     "m": "En"
+     "m": "…"
     },
     {
-     "t": 0.166,
-     "m": "juillet"
+     "t": 0.147,
+     "m": "et"
     },
     {
-     "t": 0.61,
-     "m": "2016,"
+     "t": 0.367,
+     "m": "de"
     },
     {
-     "t": 0.943,
-     "m": "après"
+     "t": 0.587,
+     "m": "vrais"
     },
     {
-     "t": 1.276,
-     "m": "quarante-cinq"
+     "t": 1.027,
+     "m": "cheveux,"
     },
     {
-     "t": 2.053,
-     "m": "ans"
+     "t": 1.688,
+     "m": "ramassés"
     },
     {
-     "t": 2.275,
-     "m": "d'enquête,"
+     "t": 2.348,
+     "m": "chez"
     },
     {
-     "t": 2.885,
+     "t": 2.715,
      "m": "le"
     },
     {
-     "t": 3.052,
-     "m": "FBI"
+     "t": 2.935,
+     "m": "coiffeur"
     },
     {
-     "t": 3.274,
-     "m": "abandonne."
+     "t": 3.595,
+     "m": "de"
+    },
+    {
+     "t": 3.816,
+     "m": "la"
+    },
+    {
+     "t": 4.036,
+     "m": "prison."
     }
    ],
    "sequence": {
-    "type": "chronologie",
-    "titre": "45 ANS D'ENQUÊTE",
-    "hauteur": 600,
-    "dates": [
-     {
-      "an": "1971",
-      "label": "Le détournement"
-     },
-     {
-      "an": "1980",
-      "label": "L'argent retrouvé"
-     },
-     {
-      "an": "2016",
-      "label": "Le FBI abandonne"
-     }
-    ]
+    "type": "objet",
+    "dessin": "tete",
+    "titre": "LA TOUCHE FINALE",
+    "legende": "De vrais cheveux",
+    "cheveux": true
    },
    "sousTitres": true
   },
   {
-   "id": "35",
-   "debut": 5068,
-   "duree": 109,
+   "id": "20",
+   "debut": 3018,
+   "duree": 167,
    "audio": null,
-   "texte": "Le dossier D. B. Cooper est officiellement… classé.",
+   "texte": "Le 11 juin 1962, au soir, ils glissent les têtes dans leurs lits.",
    "mots": [
     {
      "t": 0,
      "m": "Le"
     },
     {
-     "t": 0.181,
-     "m": "dossier"
+     "t": 0.227,
+     "m": "11"
     },
     {
-     "t": 0.665,
-     "m": "D."
+     "t": 0.454,
+     "m": "juin"
     },
     {
-     "t": 0.847,
-     "m": "B."
+     "t": 0.832,
+     "m": "1962,"
     },
     {
-     "t": 1.028,
-     "m": "Cooper"
+     "t": 1.286,
+     "m": "au"
     },
     {
-     "t": 1.452,
-     "m": "est"
+     "t": 1.513,
+     "m": "soir,"
     },
     {
-     "t": 1.694,
-     "m": "officiellement…"
+     "t": 1.967,
+     "m": "ils"
     },
     {
-     "t": 2.662,
-     "m": "classé."
+     "t": 2.269,
+     "m": "glissent"
+    },
+    {
+     "t": 2.95,
+     "m": "les"
+    },
+    {
+     "t": 3.252,
+     "m": "têtes"
+    },
+    {
+     "t": 3.706,
+     "m": "dans"
+    },
+    {
+     "t": 4.084,
+     "m": "leurs"
+    },
+    {
+     "t": 4.538,
+     "m": "lits."
     }
    ],
    "sequence": {
-    "type": "fin",
-    "etiquette": [
-     "AFFAIRE Nº 5",
-     "COOPER, D. B."
+    "type": "scene",
+    "decor": "cellule",
+    "lit": true,
+    "titre": "11 JUIN 1962",
+    "legende": "Le soir venu",
+    "legendeTop": 300
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "21",
+   "debut": 3185,
+   "duree": 190,
+   "audio": null,
+   "texte": "Puis ils passent par les grilles, remontent un conduit d'aération… et sortent sur le toit.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Puis"
+    },
+    {
+     "t": 0.315,
+     "m": "ils"
+    },
+    {
+     "t": 0.567,
+     "m": "passent"
+    },
+    {
+     "t": 1.071,
+     "m": "par"
+    },
+    {
+     "t": 1.322,
+     "m": "les"
+    },
+    {
+     "t": 1.574,
+     "m": "grilles,"
+    },
+    {
+     "t": 2.141,
+     "m": "remontent"
+    },
+    {
+     "t": 2.771,
+     "m": "un"
+    },
+    {
+     "t": 2.96,
+     "m": "conduit"
+    },
+    {
+     "t": 3.463,
+     "m": "d'aération…"
+    },
+    {
+     "t": 4.219,
+     "m": "et"
+    },
+    {
+     "t": 4.408,
+     "m": "sortent"
+    },
+    {
+     "t": 4.912,
+     "m": "sur"
+    },
+    {
+     "t": 5.164,
+     "m": "le"
+    },
+    {
+     "t": 5.353,
+     "m": "toit."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "toit",
+    "titre": "LE TOIT",
+    "personnages": [
+     {
+      "nom": "detenu",
+      "x": 420,
+      "y": 1050,
+      "s": 180
+     },
+     {
+      "nom": "detenu",
+      "x": 560,
+      "y": 1045,
+      "s": 180
+     },
+     {
+      "nom": "detenu",
+      "x": 700,
+      "y": 1040,
+      "s": 180
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "22",
+   "debut": 3375,
+   "duree": 190,
+   "audio": null,
+   "texte": "Mais Allen West, lui, reste bloqué : le ciment autour de sa grille a durci.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Mais"
+    },
+    {
+     "t": 0.377,
+     "m": "Allen"
+    },
+    {
+     "t": 0.829,
+     "m": "West,"
+    },
+    {
+     "t": 1.282,
+     "m": "lui,"
+    },
+    {
+     "t": 1.659,
+     "m": "reste"
+    },
+    {
+     "t": 2.111,
+     "m": "bloqué"
+    },
+    {
+     "t": 2.639,
+     "m": ":"
+    },
+    {
+     "t": 2.79,
+     "m": "le"
+    },
+    {
+     "t": 3.016,
+     "m": "ciment"
+    },
+    {
+     "t": 3.544,
+     "m": "autour"
+    },
+    {
+     "t": 4.072,
+     "m": "de"
+    },
+    {
+     "t": 4.298,
+     "m": "sa"
+    },
+    {
+     "t": 4.524,
+     "m": "grille"
+    },
+    {
+     "t": 5.052,
+     "m": "a"
+    },
+    {
+     "t": 5.203,
+     "m": "durci."
+    }
+   ],
+   "sequence": {
+    "type": "barre",
+    "mot": "WEST",
+    "personnage": "detenu",
+    "nom": "BLOQUÉ DANS SA CELLULE"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "23",
+   "debut": 3565,
+   "duree": 179,
+   "audio": null,
+   "texte": "Quand il réussit enfin à passer, il est trop tard. Les autres sont partis.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Quand"
+    },
+    {
+     "t": 0.429,
+     "m": "il"
+    },
+    {
+     "t": 0.643,
+     "m": "réussit"
+    },
+    {
+     "t": 1.215,
+     "m": "enfin"
+    },
+    {
+     "t": 1.644,
+     "m": "à"
+    },
+    {
+     "t": 1.787,
+     "m": "passer,"
+    },
+    {
+     "t": 2.359,
+     "m": "il"
+    },
+    {
+     "t": 2.573,
+     "m": "est"
+    },
+    {
+     "t": 2.859,
+     "m": "trop"
+    },
+    {
+     "t": 3.217,
+     "m": "tard."
+    },
+    {
+     "t": 3.646,
+     "m": "Les"
+    },
+    {
+     "t": 3.932,
+     "m": "autres"
+    },
+    {
+     "t": 4.432,
+     "m": "sont"
+    },
+    {
+     "t": 4.789,
+     "m": "partis."
+    }
+   ],
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "TROP TARD",
+    "taille": 100
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "24",
+   "debut": 3744,
+   "duree": 213,
+   "audio": null,
+   "texte": "Les trois hommes descendent du toit, franchissent deux clôtures de barbelés… et mettent le radeau à l'eau.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Les"
+    },
+    {
+     "t": 0.242,
+     "m": "trois"
+    },
+    {
+     "t": 0.605,
+     "m": "hommes"
+    },
+    {
+     "t": 1.028,
+     "m": "descendent"
+    },
+    {
+     "t": 1.693,
+     "m": "du"
+    },
+    {
+     "t": 1.874,
+     "m": "toit,"
+    },
+    {
+     "t": 2.237,
+     "m": "franchissent"
+    },
+    {
+     "t": 3.023,
+     "m": "deux"
+    },
+    {
+     "t": 3.325,
+     "m": "clôtures"
+    },
+    {
+     "t": 3.869,
+     "m": "de"
+    },
+    {
+     "t": 4.051,
+     "m": "barbelés…"
+    },
+    {
+     "t": 4.655,
+     "m": "et"
+    },
+    {
+     "t": 4.837,
+     "m": "mettent"
+    },
+    {
+     "t": 5.32,
+     "m": "le"
+    },
+    {
+     "t": 5.502,
+     "m": "radeau"
+    },
+    {
+     "t": 5.925,
+     "m": "à"
+    },
+    {
+     "t": 6.046,
+     "m": "l'eau."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "alcatraz",
+    "titre": "LA FUITE",
+    "legende": "Barbelés, puis la mer",
+    "legendeTop": 420
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "25",
+   "debut": 3957,
+   "duree": 155,
+   "audio": null,
+   "texte": "Devant eux : la nuit, l'eau glacée, et la côte, au loin.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Devant"
+    },
+    {
+     "t": 0.568,
+     "m": "eux"
+    },
+    {
+     "t": 0.892,
+     "m": ":"
+    },
+    {
+     "t": 1.054,
+     "m": "la"
+    },
+    {
+     "t": 1.298,
+     "m": "nuit,"
+    },
+    {
+     "t": 1.784,
+     "m": "l'eau"
+    },
+    {
+     "t": 2.271,
+     "m": "glacée,"
+    },
+    {
+     "t": 2.92,
+     "m": "et"
+    },
+    {
+     "t": 3.163,
+     "m": "la"
+    },
+    {
+     "t": 3.406,
+     "m": "côte,"
+    },
+    {
+     "t": 3.893,
+     "m": "au"
+    },
+    {
+     "t": 4.136,
+     "m": "loin."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "baie",
+    "radeau": true,
+    "titre": "LA NUIT"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "26",
+   "debut": 4112,
+   "duree": 144,
+   "audio": null,
+   "texte": "Le lendemain matin, au comptage, les gardiens découvrent les fausses têtes.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Le"
+    },
+    {
+     "t": 0.168,
+     "m": "lendemain"
+    },
+    {
+     "t": 0.728,
+     "m": "matin,"
+    },
+    {
+     "t": 1.119,
+     "m": "au"
+    },
+    {
+     "t": 1.287,
+     "m": "comptage,"
+    },
+    {
+     "t": 1.847,
+     "m": "les"
+    },
+    {
+     "t": 2.071,
+     "m": "gardiens"
+    },
+    {
+     "t": 2.575,
+     "m": "découvrent"
+    },
+    {
+     "t": 3.19,
+     "m": "les"
+    },
+    {
+     "t": 3.414,
+     "m": "fausses"
+    },
+    {
+     "t": 3.862,
+     "m": "têtes."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "cellule",
+    "lit": true,
+    "titre": "12 JUIN · MATIN",
+    "tampon": "FAUX",
+    "tamponTop": 700
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "27",
+   "debut": 4256,
+   "duree": 75,
+   "audio": null,
+   "texte": "Alerte générale. Trois cellules vides.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Alerte"
+    },
+    {
+     "t": 0.366,
+     "m": "générale."
+    },
+    {
+     "t": 0.888,
+     "m": "Trois"
+    },
+    {
+     "t": 1.202,
+     "m": "cellules"
+    },
+    {
+     "t": 1.672,
+     "m": "vides."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "alcatraz",
+    "gyrophare": true,
+    "titre": "ALERTE",
+    "tampon": "ÉVADÉS",
+    "tamponTop": 420
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "28",
+   "debut": 4331,
+   "duree": 121,
+   "audio": null,
+   "texte": "Pendant dix jours, militaires et garde-côtes fouillent la baie.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Pendant"
+    },
+    {
+     "t": 0.439,
+     "m": "dix"
+    },
+    {
+     "t": 0.659,
+     "m": "jours,"
+    },
+    {
+     "t": 1.044,
+     "m": "militaires"
+    },
+    {
+     "t": 1.648,
+     "m": "et"
+    },
+    {
+     "t": 1.812,
+     "m": "garde-côtes"
+    },
+    {
+     "t": 2.472,
+     "m": "fouillent"
+    },
+    {
+     "t": 3.021,
+     "m": "la"
+    },
+    {
+     "t": 3.186,
+     "m": "baie."
+    }
+   ],
+   "sequence": {
+    "type": "compteur",
+    "titre": "LES RECHERCHES",
+    "valeur": 10,
+    "unite": "jours de fouilles"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "29",
+   "debut": 4452,
+   "duree": 225,
+   "audio": null,
+   "texte": "Ils trouvent une pagaie, un gilet de sauvetage, et des papiers des frères Anglin, emballés dans du caoutchouc.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Ils"
+    },
+    {
+     "t": 0.246,
+     "m": "trouvent"
+    },
+    {
+     "t": 0.801,
+     "m": "une"
+    },
+    {
+     "t": 1.047,
+     "m": "pagaie,"
+    },
+    {
+     "t": 1.54,
+     "m": "un"
+    },
+    {
+     "t": 1.725,
+     "m": "gilet"
+    },
+    {
+     "t": 2.095,
+     "m": "de"
+    },
+    {
+     "t": 2.279,
+     "m": "sauvetage,"
+    },
+    {
+     "t": 2.957,
+     "m": "et"
+    },
+    {
+     "t": 3.142,
+     "m": "des"
+    },
+    {
+     "t": 3.388,
+     "m": "papiers"
+    },
+    {
+     "t": 3.881,
+     "m": "des"
+    },
+    {
+     "t": 4.128,
+     "m": "frères"
+    },
+    {
+     "t": 4.559,
+     "m": "Anglin,"
+    },
+    {
+     "t": 5.052,
+     "m": "emballés"
+    },
+    {
+     "t": 5.606,
+     "m": "dans"
+    },
+    {
+     "t": 5.914,
+     "m": "du"
+    },
+    {
+     "t": 6.099,
+     "m": "caoutchouc."
+    }
+   ],
+   "sequence": {
+    "type": "icones",
+    "titre": "CE QU'ON RETROUVE",
+    "items": [
+     {
+      "label": "PAGAIE",
+      "sous": "en bois"
+     },
+     {
+      "label": "GILET",
+      "sous": "de sauvetage"
+     },
+     {
+      "label": "PAPIERS",
+      "sous": "des Anglin"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "30",
+   "debut": 4677,
+   "duree": 63,
+   "audio": null,
+   "texte": "Mais aucun corps. Jamais.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Mais"
+    },
+    {
+     "t": 0.321,
+     "m": "aucun"
+    },
+    {
+     "t": 0.706,
+     "m": "corps."
+    },
+    {
+     "t": 1.155,
+     "m": "Jamais."
+    }
+   ],
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "AUCUN CORPS",
+    "taille": 100
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "31",
+   "debut": 4740,
+   "duree": 167,
+   "audio": null,
+   "texte": "Pour le FBI, ils se sont noyés. En 1979, il ferme le dossier.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Pour"
+    },
+    {
+     "t": 0.403,
+     "m": "le"
+    },
+    {
+     "t": 0.644,
+     "m": "FBI,"
+    },
+    {
+     "t": 1.047,
+     "m": "ils"
+    },
+    {
+     "t": 1.369,
+     "m": "se"
+    },
+    {
+     "t": 1.61,
+     "m": "sont"
+    },
+    {
+     "t": 2.013,
+     "m": "noyés."
+    },
+    {
+     "t": 2.577,
+     "m": "En"
+    },
+    {
+     "t": 2.818,
+     "m": "1979,"
+    },
+    {
+     "t": 3.301,
+     "m": "il"
+    },
+    {
+     "t": 3.543,
+     "m": "ferme"
+    },
+    {
+     "t": 4.026,
+     "m": "le"
+    },
+    {
+     "t": 4.267,
+     "m": "dossier."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "1979",
+    "entete": "FBI · CONCLUSION",
+    "lignes": [
+     "Hypothèse : noyés",
+     "Dossier : fermé"
+    ],
+    "tampon": "CLASSÉ",
+    "tamponTop": 860
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "32",
+   "debut": 4907,
+   "duree": 190,
+   "audio": null,
+   "texte": "Mais une autre agence, les US Marshals, ne l'a jamais refermé. Ils les cherchent toujours.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Mais"
+    },
+    {
+     "t": 0.315,
+     "m": "une"
+    },
+    {
+     "t": 0.567,
+     "m": "autre"
+    },
+    {
+     "t": 0.945,
+     "m": "agence,"
+    },
+    {
+     "t": 1.448,
+     "m": "les"
+    },
+    {
+     "t": 1.7,
+     "m": "US"
+    },
+    {
+     "t": 1.889,
+     "m": "Marshals,"
+    },
+    {
+     "t": 2.519,
+     "m": "ne"
+    },
+    {
+     "t": 2.708,
+     "m": "l'a"
+    },
+    {
+     "t": 2.96,
+     "m": "jamais"
+    },
+    {
+     "t": 3.4,
+     "m": "refermé."
+    },
+    {
+     "t": 3.967,
+     "m": "Ils"
+    },
+    {
+     "t": 4.219,
+     "m": "les"
+    },
+    {
+     "t": 4.471,
+     "m": "cherchent"
+    },
+    {
+     "t": 5.101,
+     "m": "toujours."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "AUJOURD'HUI",
+    "entete": "US MARSHALS",
+    "lignes": [
+     "Morris, Anglin, Anglin",
+     "Dossier : OUVERT"
+    ],
+    "surligne": [
+     "OUVERT"
+    ],
+    "tampon": "RECHERCHÉS",
+    "tamponTop": 860
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "33",
+   "debut": 5097,
+   "duree": 202,
+   "audio": null,
+   "texte": "Depuis, des indices troublants : une photo des deux frères au Brésil, en 1975… jamais authentifiée.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Depuis,"
+    },
+    {
+     "t": 0.488,
+     "m": "des"
+    },
+    {
+     "t": 0.732,
+     "m": "indices"
+    },
+    {
+     "t": 1.22,
+     "m": "troublants"
+    },
+    {
+     "t": 1.891,
+     "m": ":"
+    },
+    {
+     "t": 2.013,
+     "m": "une"
+    },
+    {
+     "t": 2.257,
+     "m": "photo"
+    },
+    {
+     "t": 2.623,
+     "m": "des"
+    },
+    {
+     "t": 2.867,
+     "m": "deux"
+    },
+    {
+     "t": 3.172,
+     "m": "frères"
+    },
+    {
+     "t": 3.599,
+     "m": "au"
+    },
+    {
+     "t": 3.782,
+     "m": "Brésil,"
+    },
+    {
+     "t": 4.27,
+     "m": "en"
+    },
+    {
+     "t": 4.453,
+     "m": "1975…"
+    },
+    {
+     "t": 4.819,
+     "m": "jamais"
+    },
+    {
+     "t": 5.246,
+     "m": "authentifiée."
+    }
+   ],
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "1975",
+    "points": [
+     {
+      "lon": -47.9,
+      "lat": -15.8,
+      "nom": "BRÉSIL ?"
+     }
+    ],
+    "pas": 3,
+    "legende": "Une photo jamais authentifiée"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "34",
+   "debut": 5299,
+   "duree": 225,
+   "audio": null,
+   "texte": "Et une lettre signée John Anglin, envoyée à la police de San Francisco. Elle affirme qu'il a survécu.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Et"
+    },
+    {
+     "t": 0.201,
+     "m": "une"
+    },
+    {
+     "t": 0.469,
+     "m": "lettre"
+    },
+    {
+     "t": 0.939,
+     "m": "signée"
+    },
+    {
+     "t": 1.408,
+     "m": "John"
+    },
+    {
+     "t": 1.743,
+     "m": "Anglin,"
+    },
+    {
+     "t": 2.279,
+     "m": "envoyée"
+    },
+    {
+     "t": 2.816,
+     "m": "à"
+    },
+    {
+     "t": 2.95,
+     "m": "la"
+    },
+    {
+     "t": 3.151,
+     "m": "police"
+    },
+    {
+     "t": 3.62,
+     "m": "de"
+    },
+    {
+     "t": 3.821,
+     "m": "San"
+    },
+    {
+     "t": 4.089,
+     "m": "Francisco."
+    },
+    {
+     "t": 4.827,
+     "m": "Elle"
+    },
+    {
+     "t": 5.162,
+     "m": "affirme"
+    },
+    {
+     "t": 5.698,
+     "m": "qu'il"
+    },
+    {
+     "t": 6.101,
+     "m": "a"
+    },
+    {
+     "t": 6.235,
+     "m": "survécu."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "lettre",
+    "titre": "LA LETTRE",
+    "entete": "POLICE DE SAN FRANCISCO",
+    "lignes": [
+     "■",
+     "■",
+     "Signé : John Anglin"
+    ],
+    "surligne": [
+     "Anglin"
+    ],
+    "tampon": "NON VÉRIFIÉE",
+    "tamponTop": 880,
+    "tamponTaille": 84
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "35",
+   "debut": 5524,
+   "duree": 121,
+   "audio": null,
+   "texte": "En 2022, les Marshals publient même leurs portraits vieillis.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.17,
+     "m": "2022,"
+    },
+    {
+     "t": 0.51,
+     "m": "les"
+    },
+    {
+     "t": 0.737,
+     "m": "Marshals"
+    },
+    {
+     "t": 1.247,
+     "m": "publient"
+    },
+    {
+     "t": 1.758,
+     "m": "même"
+    },
+    {
+     "t": 2.041,
+     "m": "leurs"
+    },
+    {
+     "t": 2.381,
+     "m": "portraits"
+    },
+    {
+     "t": 2.948,
+     "m": "vieillis."
+    }
+   ],
+   "sequence": {
+    "type": "fiche",
+    "titre": "2022",
+    "personnage": "detenu",
+    "nom": "PORTRAITS VIEILLIS",
+    "infos": [
+     "Publiés par les US Marshals"
     ]
    },
    "sousTitres": true
   },
   {
    "id": "36",
-   "debut": 5177,
-   "duree": 282,
+   "debut": 5645,
+   "duree": 132,
    "audio": null,
-   "texte": "Mort cette nuit-là, ou riche et libre jusqu'à la fin ? Donne ta théorie en commentaire. Et abonne-toi pour ne rater aucun dossier.",
+   "texte": "Alcatraz, elle, a fermé ses portes un an après l'évasion.",
    "mots": [
     {
      "t": 0,
-     "m": "Mort"
+     "m": "Alcatraz,"
     },
     {
-     "t": 0.331,
-     "m": "cette"
+     "t": 0.67,
+     "m": "elle,"
     },
     {
-     "t": 0.729,
-     "m": "nuit-là,"
+     "t": 1.072,
+     "m": "a"
     },
     {
-     "t": 1.326,
-     "m": "ou"
+     "t": 1.205,
+     "m": "fermé"
     },
     {
-     "t": 1.525,
-     "m": "riche"
+     "t": 1.607,
+     "m": "ses"
     },
     {
-     "t": 1.922,
-     "m": "et"
+     "t": 1.875,
+     "m": "portes"
     },
     {
-     "t": 2.121,
-     "m": "libre"
+     "t": 2.344,
+     "m": "un"
     },
     {
-     "t": 2.519,
-     "m": "jusqu'à"
+     "t": 2.545,
+     "m": "an"
     },
     {
-     "t": 3.049,
-     "m": "la"
+     "t": 2.746,
+     "m": "après"
     },
     {
-     "t": 3.248,
-     "m": "fin"
+     "t": 3.148,
+     "m": "l'évasion."
+    }
+   ],
+   "sequence": {
+    "type": "chronologie",
+    "titre": "ALCATRAZ",
+    "hauteur": 600,
+    "dates": [
+     {
+      "an": "1962",
+      "label": "L'évasion"
+     },
+     {
+      "an": "1963",
+      "label": "La prison ferme"
+     },
+     {
+      "an": "1979",
+      "label": "Le FBI ferme le dossier"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "37",
+   "debut": 5777,
+   "duree": 167,
+   "audio": null,
+   "texte": "Officiellement, le dossier est classé. Mais personne ne sait où ils sont allés.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Officiellement,"
     },
     {
-     "t": 3.513,
-     "m": "?"
+     "t": 0.998,
+     "m": "le"
     },
     {
-     "t": 3.646,
-     "m": "Donne"
+     "t": 1.186,
+     "m": "dossier"
     },
     {
-     "t": 4.044,
-     "m": "ta"
+     "t": 1.685,
+     "m": "est"
     },
     {
-     "t": 4.243,
-     "m": "théorie"
+     "t": 1.934,
+     "m": "classé."
     },
     {
-     "t": 4.773,
-     "m": "en"
+     "t": 2.434,
+     "m": "Mais"
     },
     {
-     "t": 4.972,
-     "m": "commentaire."
+     "t": 2.746,
+     "m": "personne"
     },
     {
-     "t": 5.834,
-     "m": "Et"
-    },
-    {
-     "t": 6.033,
-     "m": "abonne-toi"
-    },
-    {
-     "t": 6.762,
-     "m": "pour"
-    },
-    {
-     "t": 7.093,
+     "t": 3.307,
      "m": "ne"
     },
     {
-     "t": 7.292,
+     "t": 3.494,
+     "m": "sait"
+    },
+    {
+     "t": 3.806,
+     "m": "où"
+    },
+    {
+     "t": 3.994,
+     "m": "ils"
+    },
+    {
+     "t": 4.243,
+     "m": "sont"
+    },
+    {
+     "t": 4.555,
+     "m": "allés."
+    }
+   ],
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "AFFAIRE Nº 6",
+     "ALCATRAZ · 1962"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "38",
+   "debut": 5944,
+   "duree": 259,
+   "audio": null,
+   "texte": "Noyés dans la baie, ou libres jusqu'au bout ? Donne ta théorie en commentaire. Et abonne-toi pour ne rater aucun dossier.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Noyés"
+    },
+    {
+     "t": 0.391,
+     "m": "dans"
+    },
+    {
+     "t": 0.716,
+     "m": "la"
+    },
+    {
+     "t": 0.912,
+     "m": "baie,"
+    },
+    {
+     "t": 1.303,
+     "m": "ou"
+    },
+    {
+     "t": 1.498,
+     "m": "libres"
+    },
+    {
+     "t": 1.954,
+     "m": "jusqu'au"
+    },
+    {
+     "t": 2.54,
+     "m": "bout"
+    },
+    {
+     "t": 2.866,
+     "m": "?"
+    },
+    {
+     "t": 2.996,
+     "m": "Donne"
+    },
+    {
+     "t": 3.387,
+     "m": "ta"
+    },
+    {
+     "t": 3.582,
+     "m": "théorie"
+    },
+    {
+     "t": 4.103,
+     "m": "en"
+    },
+    {
+     "t": 4.299,
+     "m": "commentaire."
+    },
+    {
+     "t": 5.145,
+     "m": "Et"
+    },
+    {
+     "t": 5.341,
+     "m": "abonne-toi"
+    },
+    {
+     "t": 6.057,
+     "m": "pour"
+    },
+    {
+     "t": 6.383,
+     "m": "ne"
+    },
+    {
+     "t": 6.578,
      "m": "rater"
     },
     {
-     "t": 7.69,
+     "t": 6.969,
      "m": "aucun"
     },
     {
-     "t": 8.088,
+     "t": 7.36,
      "m": "dossier."
     }
    ],
    "sequence": {
     "type": "cta",
-    "bulle": "Mort… ou libre ?"
+    "bulle": "Noyés… ou libres ?"
    },
    "sousTitres": true
   }

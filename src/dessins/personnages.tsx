@@ -218,6 +218,7 @@ export const PERSONNAGES: Record<string, Partial<SilhouetteProps>> = {
   ponzi: { chapeau: "canotier", couleur: "#D9CBB0", ruban: NOIR },
   madoff: { chapeau: "cheveux", couleur: "#5E6E86" },
   markopolos: { chapeau: "aucun", couleur: "#9AA8BD", lunettes: true },
+  detenu: { chapeau: "aucun", couleur: "#C9C2B2" },
   cooper: { chapeau: "aucun", couleur: "#5E6E86", lunettes: true, cravate: true },
   ombre: { chapeau: "fedora", couleur: "#22324A", ruban: "#22324A" },
 };
