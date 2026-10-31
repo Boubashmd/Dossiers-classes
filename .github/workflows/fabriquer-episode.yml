@@ -6,7 +6,7 @@ on:
       episode:
         description: "Nom du fichier de l'épisode (dans le dossier episodes/, sans .json)"
         required: true
-        default: "affaire-07-joconde"
+        default: "affaire-08-binance"
       voix:
         description: "Avec la voix ElevenLabs (consomme des crédits) ou aperçu sans voix (gratuit)"
         required: true

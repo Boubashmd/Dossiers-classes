@@ -319,6 +319,19 @@ export const CarteMonde: React.FC<SP> = ({ p, dur }) => {
         {MONDE.map((m, i) => (
           <path key={i} d={chemin(m)} fill="#2A4468" stroke="#4A6890" strokeWidth={2} strokeLinejoin="round" />
         ))}
+        {/* flèches (de -> vers, en [lon, lat]) */}
+        {(p.fleches || []).map((fl: any, i: number) => {
+          const a = fl.a ?? 10 + i * 14;
+          const u = interpolate(f, [a, a + 22], [0, 1], { ...C, easing: io });
+          if (u <= 0) return null;
+          const A = { x: MX(fl.de[0]), y: MY(fl.de[1]) };
+          const B = { x: MX(fl.vers[0]), y: MY(fl.vers[1]) };
+          const c = fl.courbe ?? 0.25;
+          const M = { x: (A.x + B.x) / 2 - (B.y - A.y) * c, y: (A.y + B.y) / 2 + (B.x - A.x) * c };
+          const Q = { x: A.x + (M.x - A.x) * u, y: A.y + (M.y - A.y) * u };
+          const E = { x: (1 - u) ** 2 * A.x + 2 * (1 - u) * u * M.x + u * u * B.x, y: (1 - u) ** 2 * A.y + 2 * (1 - u) * u * M.y + u * u * B.y };
+          return <path key={`f${i}`} d={`M${A.x} ${A.y} Q${Q.x} ${Q.y} ${E.x} ${E.y}`} stroke={fl.couleur === "rouge" ? ROUGE : JAUNE} strokeWidth={9} fill="none" strokeLinecap="round" strokeDasharray={fl.pointilles ? "4 18" : undefined} />;
+        })}
         {pts.map((pt, i) => {
           const a = (p.debut ?? 10) + i * (p.pas ?? 5);
           const k = prog(f, a, 8);

@@ -409,3 +409,54 @@ export const Cravate: React.FC<{ x: number; y: number; s: number; rot?: number; 
     <circle cx={50} cy={17} r={10} fill="#ECE6D8" />
   </g>
 );
+
+// ============================================================================================
+// Affaire nº 8 (cryptos, hackers) — ordinateur portable avec différents écrans.
+// ============================================================================================
+
+/** Ordinateur portable. ecran : "alerte" (accès non autorisé), "rancon" (écran rouge de rançongiciel),
+ *  "fuite" (portefeuille qui se vide : valeur 0 -> 1), "graphique". */
+export const Portable: React.FC<{ x: number; y: number; s: number; ecran?: string; frame?: number; valeur?: number }> = ({ x, y, s, ecran = "alerte", frame = 0, valeur = 0 }) => {
+  const clign = Math.floor(frame / 8) % 2 === 0;
+  return (
+    <g transform={`translate(${x} ${y}) scale(${s / 600})`}>
+      <ellipse cx={0} cy={210} rx={330} ry={20} fill="rgba(0,0,0,.4)" />
+      <path d="M-300 170 L300 170 L340 210 L-340 210 Z" fill="#8A9099" />
+      <rect x={-270} y={-200} width={540} height={370} rx={18} fill="#2A2F38" />
+      <rect x={-250} y={-180} width={500} height={330} rx={6} fill={ecran === "rancon" ? "#7A1414" : "#0B1626"} />
+      {ecran === "alerte" && (
+        <g>
+          <rect x={-200} y={-90} width={400} height={150} rx={12} fill={clign ? "#E6504A" : "#A33030"} />
+          <text x={0} y={-20} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={40} fill="#FFFFFF">ACCÈS</text>
+          <text x={0} y={30} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={40} fill="#FFFFFF">NON AUTORISÉ</text>
+        </g>
+      )}
+      {ecran === "rancon" && (
+        <g>
+          <text x={0} y={-80} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={44} fill="#FFFFFF">FICHIERS BLOQUÉS</text>
+          <rect x={-160} y={-40} width={320} height={110} rx={10} fill="#5A0E0E" />
+          <path d="M-30 -10 L-30 -24 Q-30 -50 0 -50 Q30 -50 30 -24 L30 -10" stroke="#FFFFFF" strokeWidth={8} fill="none" />
+          <rect x={-44} y={-12} width={88} height={64} rx={8} fill="#FFFFFF" />
+          <text x={0} y={120} textAnchor="middle" fontFamily="Poppins" fontWeight={500} fontSize={30} fill="#FFD0D0">Payez pour récupérer vos fichiers</text>
+        </g>
+      )}
+      {ecran === "fuite" && (
+        <g>
+          <text x={-220} y={-120} fontFamily="Poppins" fontWeight={700} fontSize={30} fill={CREME}>PORTEFEUILLE</text>
+          <rect x={-220} y={-90} width={440} height={50} rx={10} fill="#1A2C46" />
+          <rect x={-220} y={-90} width={440 * (1 - valeur)} height={50} rx={10} fill={valeur > 0.5 ? ROUGE : JAUNE} />
+          {Array.from({ length: 5 }, (_, i) => (
+            <g key={i} opacity={((frame + i * 6) % 30) / 30 < 0.8 ? 1 : 0}>
+              <text x={-220} y={10 + i * 36} fontFamily="monospace" fontSize={24} fill={ROUGE}>
+                {`- ${(((i * 7919 + frame * 13) % 9000) + 1000).toLocaleString("fr-FR")} ETH  ⟶ ???`}
+              </text>
+            </g>
+          ))}
+        </g>
+      )}
+      {ecran === "graphique" && (
+        <path d="M-220 100 L-140 60 L-80 80 L0 0 L60 20 L140 -60 L220 -100" stroke={JAUNE} strokeWidth={10} fill="none" strokeLinejoin="round" />
+      )}
+    </g>
+  );
+};

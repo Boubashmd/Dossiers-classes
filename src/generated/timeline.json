@@ -1,1639 +1,965 @@
 {
- "episode": "affaire-07-joconde",
+ "episode": "affaire-08-binance",
  "fps": 30,
- "total": 5603,
+ "total": 5312,
  "avecVoix": false,
  "couverture": {
-  "titre": "IL A VOLÉ LA JOCONDE",
-  "sous": "Affaire nº 7 · Le vol du siècle",
-  "photo": "photos/affaire-07-joconde.jpg",
+  "titre": "6,3 MILLIARDS VOLÉS À BINANCE",
+  "sous": "Affaire nº 8 · Partie 1/2",
+  "photo": "photos/affaire-08-binance.jpg",
   "visage": {
-   "x": 350,
-   "y": 405
+   "x": 300,
+   "y": 360
   },
-  "largeur": 700
+  "largeur": 600
  },
  "lignes": [
   {
    "id": "01",
    "debut": 0,
-   "duree": 225,
+   "duree": 259,
    "audio": null,
-   "texte": "Le 21 août 1911, cet homme est entré au Louvre… et il en est ressorti avec la Joconde.",
+   "texte": "Jeudi 29 octobre, six virgule trois milliards de dollars ont disparu de Binance, la plus grande plateforme de cryptomonnaies au monde.",
    "mots": [
     {
      "t": 0,
-     "m": "Le"
+     "m": "Jeudi"
     },
     {
-     "t": 0.236,
-     "m": "21"
+     "t": 0.353,
+     "m": "29"
     },
     {
-     "t": 0.472,
-     "m": "août"
+     "t": 0.53,
+     "m": "octobre,"
     },
     {
-     "t": 0.865,
-     "m": "1911,"
+     "t": 1.059,
+     "m": "six"
     },
     {
-     "t": 1.336,
-     "m": "cet"
+     "t": 1.295,
+     "m": "virgule"
     },
     {
-     "t": 1.651,
-     "m": "homme"
+     "t": 1.766,
+     "m": "trois"
     },
     {
-     "t": 2.122,
-     "m": "est"
+     "t": 2.119,
+     "m": "milliards"
     },
     {
-     "t": 2.437,
-     "m": "entré"
+     "t": 2.707,
+     "m": "de"
     },
     {
-     "t": 2.908,
-     "m": "au"
+     "t": 2.884,
+     "m": "dollars"
     },
     {
-     "t": 3.144,
-     "m": "Louvre…"
+     "t": 3.355,
+     "m": "ont"
     },
     {
-     "t": 3.773,
-     "m": "et"
+     "t": 3.59,
+     "m": "disparu"
     },
     {
-     "t": 4.009,
-     "m": "il"
+     "t": 4.061,
+     "m": "de"
     },
     {
-     "t": 4.244,
-     "m": "en"
+     "t": 4.238,
+     "m": "Binance,"
     },
     {
-     "t": 4.48,
-     "m": "est"
-    },
-    {
-     "t": 4.795,
-     "m": "ressorti"
-    },
-    {
-     "t": 5.502,
-     "m": "avec"
-    },
-    {
-     "t": 5.895,
+     "t": 4.768,
      "m": "la"
     },
     {
-     "t": 6.131,
-     "m": "Joconde."
+     "t": 4.944,
+     "m": "plus"
+    },
+    {
+     "t": 5.238,
+     "m": "grande"
+    },
+    {
+     "t": 5.65,
+     "m": "plateforme"
+    },
+    {
+     "t": 6.298,
+     "m": "de"
+    },
+    {
+     "t": 6.474,
+     "m": "cryptomonnaies"
+    },
+    {
+     "t": 7.357,
+     "m": "au"
+    },
+    {
+     "t": 7.534,
+     "m": "monde."
     }
    ],
    "sequence": {
     "type": "pochette",
-    "photo": "photos/affaire-07-joconde.jpg",
-    "carteW": 640,
+    "photo": "photos/affaire-08-binance.jpg",
+    "carteW": 620,
     "etiquette": [
-     "AFFAIRE Nº 7",
-     "PERUGGIA, Vincenzo"
+     "AFFAIRE Nº 8",
+     "BINANCE · 2026"
     ],
-    "legende": "Photo de police · 1909",
-    "srcW": 700,
-    "srcH": 900,
+    "legende": "Avis de recherche du FBI",
+    "srcW": 600,
+    "srcH": 800,
     "visage": {
-     "x": 350,
-     "y": 405
+     "x": 300,
+     "y": 360
     }
    },
    "sousTitres": false
   },
   {
    "id": "02",
-   "debut": 225,
-   "duree": 78,
+   "debut": 259,
+   "duree": 190,
    "audio": null,
-   "texte": "Cachée sous sa blouse.",
+   "texte": "Le plus gros vol de l'histoire des cryptos. Et les enquêteurs ont déjà une piste.",
    "mots": [
     {
      "t": 0,
-     "m": "Cachée"
+     "m": "Le"
     },
     {
-     "t": 0.508,
-     "m": "sous"
+     "t": 0.21,
+     "m": "plus"
     },
     {
-     "t": 0.871,
-     "m": "sa"
+     "t": 0.559,
+     "m": "gros"
     },
     {
-     "t": 1.088,
-     "m": "blouse."
+     "t": 0.908,
+     "m": "vol"
+    },
+    {
+     "t": 1.188,
+     "m": "de"
+    },
+    {
+     "t": 1.398,
+     "m": "l'histoire"
+    },
+    {
+     "t": 2.166,
+     "m": "des"
+    },
+    {
+     "t": 2.446,
+     "m": "cryptos."
+    },
+    {
+     "t": 3.075,
+     "m": "Et"
+    },
+    {
+     "t": 3.285,
+     "m": "les"
+    },
+    {
+     "t": 3.564,
+     "m": "enquêteurs"
+    },
+    {
+     "t": 4.333,
+     "m": "ont"
+    },
+    {
+     "t": 4.612,
+     "m": "déjà"
+    },
+    {
+     "t": 4.962,
+     "m": "une"
+    },
+    {
+     "t": 5.241,
+     "m": "piste."
     }
    ],
    "sequence": {
     "type": "choc",
-    "photo": "photos/affaire-07-joconde.jpg",
-    "texte": "SOUS SA BLOUSE",
-    "srcW": 700,
-    "srcH": 900,
+    "photo": "photos/affaire-08-binance.jpg",
+    "texte": "LE PLUS GROS VOL DE L'HISTOIRE DES CRYPTOS",
+    "srcW": 600,
+    "srcH": 800,
     "visage": {
-     "x": 350,
-     "y": 405
+     "x": 300,
+     "y": 360
     }
    },
    "sousTitres": false
   },
   {
    "id": "generique",
-   "debut": 303,
+   "debut": 449,
    "duree": 78,
    "audio": null,
    "texte": "",
    "mots": [],
    "sequence": {
     "type": "generique",
-    "sousTitre": "Affaire nº 7 · Le vol de la Joconde"
+    "sousTitre": "Affaire nº 8 · Le casse de Binance (1/2)"
    },
    "sousTitres": false
   },
   {
    "id": "03",
-   "debut": 381,
-   "duree": 109,
+   "debut": 527,
+   "duree": 179,
    "audio": null,
-   "texte": "Ce lundi-là, le Louvre est fermé au public.",
+   "texte": "Binance, c'est la plateforme où des millions de personnes achètent et vendent des cryptomonnaies.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Binance,"
+    },
+    {
+     "t": 0.492,
+     "m": "c'est"
+    },
+    {
+     "t": 0.821,
+     "m": "la"
+    },
+    {
+     "t": 0.985,
+     "m": "plateforme"
+    },
+    {
+     "t": 1.586,
+     "m": "où"
+    },
+    {
+     "t": 1.751,
+     "m": "des"
+    },
+    {
+     "t": 1.969,
+     "m": "millions"
+    },
+    {
+     "t": 2.462,
+     "m": "de"
+    },
+    {
+     "t": 2.626,
+     "m": "personnes"
+    },
+    {
+     "t": 3.173,
+     "m": "achètent"
+    },
+    {
+     "t": 3.665,
+     "m": "et"
+    },
+    {
+     "t": 3.829,
+     "m": "vendent"
+    },
+    {
+     "t": 4.267,
+     "m": "des"
+    },
+    {
+     "t": 4.486,
+     "m": "cryptomonnaies."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "graphique",
+    "titre": "BINANCE",
+    "legende": "Des millions d'utilisateurs"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "04",
+   "debut": 706,
+   "duree": 155,
+   "audio": null,
+   "texte": "Ce jeudi, des utilisateurs voient des fonds quitter les portefeuilles de Binance.",
    "mots": [
     {
      "t": 0,
      "m": "Ce"
     },
     {
-     "t": 0.214,
-     "m": "lundi-là,"
+     "t": 0.169,
+     "m": "jeudi,"
     },
     {
-     "t": 0.929,
-     "m": "le"
+     "t": 0.564,
+     "m": "des"
     },
     {
-     "t": 1.144,
-     "m": "Louvre"
+     "t": 0.789,
+     "m": "utilisateurs"
     },
     {
-     "t": 1.644,
-     "m": "est"
+     "t": 1.522,
+     "m": "voient"
     },
     {
-     "t": 1.93,
-     "m": "fermé"
+     "t": 1.917,
+     "m": "des"
     },
     {
-     "t": 2.359,
-     "m": "au"
+     "t": 2.142,
+     "m": "fonds"
     },
     {
-     "t": 2.574,
-     "m": "public."
-    }
-   ],
-   "sequence": {
-    "type": "document",
-    "genre": "affiche",
-    "titre": "LUNDI 21 AOÛT 1911",
-    "manchette": "MUSÉE FERMÉ",
-    "surtitre": "MUSÉE DU LOUVRE",
-    "sousAffiche": "Le lundi"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "04",
-   "debut": 490,
-   "duree": 155,
-   "audio": null,
-   "texte": "Un homme en blouse blanche, comme les employés, marche jusqu'au Salon Carré.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Un"
+     "t": 2.481,
+     "m": "quitter"
     },
     {
-     "t": 0.18,
-     "m": "homme"
-    },
-    {
-     "t": 0.54,
-     "m": "en"
-    },
-    {
-     "t": 0.72,
-     "m": "blouse"
-    },
-    {
-     "t": 1.141,
-     "m": "blanche,"
-    },
-    {
-     "t": 1.681,
-     "m": "comme"
-    },
-    {
-     "t": 2.041,
+     "t": 2.932,
      "m": "les"
     },
     {
-     "t": 2.281,
-     "m": "employés,"
+     "t": 3.157,
+     "m": "portefeuilles"
     },
     {
-     "t": 2.882,
-     "m": "marche"
+     "t": 3.946,
+     "m": "de"
     },
     {
-     "t": 3.302,
-     "m": "jusqu'au"
-    },
-    {
-     "t": 3.842,
-     "m": "Salon"
-    },
-    {
-     "t": 4.203,
-     "m": "Carré."
+     "t": 4.115,
+     "m": "Binance."
     }
    ],
    "sequence": {
-    "type": "scene",
-    "decor": "salon",
-    "joconde": true,
-    "titre": "LE SALON CARRÉ",
-    "personnages": [
-     {
-      "nom": "peruggia",
-      "x": 220,
-      "y": 1350,
-      "s": 320
-     }
-    ]
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "fuite",
+    "titre": "JEUDI 29 OCTOBRE",
+    "legende": "Les fonds s'en vont"
    },
    "sousTitres": true
   },
   {
    "id": "05",
-   "debut": 645,
-   "duree": 155,
+   "debut": 861,
+   "duree": 98,
    "audio": null,
-   "texte": "Il décroche la Joconde. Elle ne mesure que soixante-dix-sept centimètres sur cinquante-trois.",
+   "texte": "Binance coupe tout : plus aucun retrait.",
    "mots": [
     {
      "t": 0,
-     "m": "Il"
+     "m": "Binance"
     },
     {
-     "t": 0.148,
-     "m": "décroche"
+     "t": 0.542,
+     "m": "coupe"
     },
     {
-     "t": 0.59,
-     "m": "la"
+     "t": 0.948,
+     "m": "tout"
     },
     {
-     "t": 0.738,
-     "m": "Joconde."
+     "t": 1.287,
+     "m": ":"
     },
     {
-     "t": 1.18,
-     "m": "Elle"
+     "t": 1.422,
+     "m": "plus"
     },
     {
-     "t": 1.426,
-     "m": "ne"
+     "t": 1.761,
+     "m": "aucun"
     },
     {
-     "t": 1.574,
-     "m": "mesure"
-    },
-    {
-     "t": 1.918,
-     "m": "que"
-    },
-    {
-     "t": 2.115,
-     "m": "soixante-dix-sept"
-    },
-    {
-     "t": 3,
-     "m": "centimètres"
-    },
-    {
-     "t": 3.59,
-     "m": "sur"
-    },
-    {
-     "t": 3.787,
-     "m": "cinquante-trois."
+     "t": 2.167,
+     "m": "retrait."
     }
    ],
    "sequence": {
-    "type": "objet",
-    "dessin": "joconde",
-    "vitre": true,
-    "titre": "77 × 53 CM",
-    "legende": "Plus petite qu'on ne croit"
+    "type": "document",
+    "genre": "affiche",
+    "titre": "ALERTE",
+    "surtitre": "BINANCE",
+    "manchette": "RETRAITS SUSPENDUS",
+    "sousAffiche": "Incident de sécurité",
+    "tampon": "STOP",
+    "tamponTop": 900
    },
    "sousTitres": true
   },
   {
    "id": "06",
-   "debut": 800,
+   "debut": 959,
    "duree": 167,
    "audio": null,
-   "texte": "Dans un escalier de service, il retire le tableau de son cadre vitré.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Dans"
-    },
-    {
-     "t": 0.357,
-     "m": "un"
-    },
-    {
-     "t": 0.571,
-     "m": "escalier"
-    },
-    {
-     "t": 1.212,
-     "m": "de"
-    },
-    {
-     "t": 1.426,
-     "m": "service,"
-    },
-    {
-     "t": 2.068,
-     "m": "il"
-    },
-    {
-     "t": 2.282,
-     "m": "retire"
-    },
-    {
-     "t": 2.781,
-     "m": "le"
-    },
-    {
-     "t": 2.995,
-     "m": "tableau"
-    },
-    {
-     "t": 3.566,
-     "m": "de"
-    },
-    {
-     "t": 3.78,
-     "m": "son"
-    },
-    {
-     "t": 4.065,
-     "m": "cadre"
-    },
-    {
-     "t": 4.493,
-     "m": "vitré."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "cadre_vide",
-    "titre": "L'ESCALIER DE SERVICE",
-    "legende": "Le cadre vitré reste là"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "07",
-   "debut": 967,
-   "duree": 98,
-   "audio": null,
-   "texte": "Et il le glisse sous sa blouse.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Et"
-    },
-    {
-     "t": 0.26,
-     "m": "il"
-    },
-    {
-     "t": 0.521,
-     "m": "le"
-    },
-    {
-     "t": 0.781,
-     "m": "glisse"
-    },
-    {
-     "t": 1.388,
-     "m": "sous"
-    },
-    {
-     "t": 1.822,
-     "m": "sa"
-    },
-    {
-     "t": 2.082,
-     "m": "blouse."
-    }
-   ],
-   "sequence": {
-    "type": "secret",
-    "personnage": "peruggia",
-    "texte": "SOUS SA BLOUSE"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "08",
-   "debut": 1065,
-   "duree": 86,
-   "audio": null,
-   "texte": "Puis il sort du musée, tranquillement.",
+   "texte": "Puis tombe le chiffre : environ six virgule trois milliards de dollars, volés.",
    "mots": [
     {
      "t": 0,
      "m": "Puis"
     },
     {
-     "t": 0.309,
-     "m": "il"
+     "t": 0.316,
+     "m": "tombe"
     },
     {
-     "t": 0.494,
-     "m": "sort"
+     "t": 0.695,
+     "m": "le"
     },
     {
-     "t": 0.802,
-     "m": "du"
+     "t": 0.885,
+     "m": "chiffre"
     },
     {
-     "t": 0.988,
-     "m": "musée,"
+     "t": 1.39,
+     "m": ":"
     },
     {
-     "t": 1.42,
-     "m": "tranquillement."
+     "t": 1.517,
+     "m": "environ"
+    },
+    {
+     "t": 2.022,
+     "m": "six"
+    },
+    {
+     "t": 2.275,
+     "m": "virgule"
+    },
+    {
+     "t": 2.78,
+     "m": "trois"
+    },
+    {
+     "t": 3.159,
+     "m": "milliards"
+    },
+    {
+     "t": 3.791,
+     "m": "de"
+    },
+    {
+     "t": 3.981,
+     "m": "dollars,"
+    },
+    {
+     "t": 4.55,
+     "m": "volés."
     }
    ],
    "sequence": {
-    "type": "scene",
-    "decor": "ville",
-    "titre": "PARIS",
-    "personnages": [
-     {
-      "nom": "peruggia",
-      "x": 540,
-      "y": 1350,
-      "s": 340
-     }
-    ],
-    "legende": "Tranquillement",
-    "legendeTop": 420
+    "type": "compteur",
+    "titre": "LE BUTIN",
+    "valeur": 6.3,
+    "unite": "milliards de dollars",
+    "couleur": "rouge",
+    "decimales": 1
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "07",
+   "debut": 1126,
+   "duree": 98,
+   "audio": null,
+   "texte": "Plus de quatre fois le précédent record.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Plus"
+    },
+    {
+     "t": 0.339,
+     "m": "de"
+    },
+    {
+     "t": 0.542,
+     "m": "quatre"
+    },
+    {
+     "t": 1.016,
+     "m": "fois"
+    },
+    {
+     "t": 1.354,
+     "m": "le"
+    },
+    {
+     "t": 1.558,
+     "m": "précédent"
+    },
+    {
+     "t": 2.235,
+     "m": "record."
+    }
+   ],
+   "sequence": {
+    "type": "pyramide",
+    "mode": "duo",
+    "titre": "LE RECORD",
+    "gauche": {
+     "nom": "BYBIT",
+     "sous": "2025 · ~1,5 milliard"
+    },
+    "droite": {
+     "nom": "BINANCE",
+     "sous": "2026 · ~6,3 milliards"
+    }
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "08",
+   "debut": 1224,
+   "duree": 121,
+   "audio": null,
+   "texte": "Selon Binance, tout serait parti d'un ordinateur d'employé piraté.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Selon"
+    },
+    {
+     "t": 0.315,
+     "m": "Binance,"
+    },
+    {
+     "t": 0.787,
+     "m": "tout"
+    },
+    {
+     "t": 1.049,
+     "m": "serait"
+    },
+    {
+     "t": 1.417,
+     "m": "parti"
+    },
+    {
+     "t": 1.731,
+     "m": "d'un"
+    },
+    {
+     "t": 1.994,
+     "m": "ordinateur"
+    },
+    {
+     "t": 2.571,
+     "m": "d'employé"
+    },
+    {
+     "t": 3.095,
+     "m": "piraté."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "alerte",
+    "titre": "LA PORTE D'ENTRÉE",
+    "legende": "Selon Binance"
    },
    "sousTitres": true
   },
   {
    "id": "09",
-   "debut": 1151,
-   "duree": 109,
+   "debut": 1345,
+   "duree": 144,
    "audio": null,
-   "texte": "Personne ne remarque rien. Pendant plus d'une journée.",
+   "texte": "Binance promet de rembourser toutes les pertes, avec ses propres fonds.",
    "mots": [
     {
      "t": 0,
-     "m": "Personne"
+     "m": "Binance"
     },
     {
-     "t": 0.515,
-     "m": "ne"
+     "t": 0.473,
+     "m": "promet"
     },
     {
-     "t": 0.686,
-     "m": "remarque"
+     "t": 0.886,
+     "m": "de"
     },
     {
-     "t": 1.201,
-     "m": "rien."
+     "t": 1.063,
+     "m": "rembourser"
     },
     {
-     "t": 1.544,
-     "m": "Pendant"
+     "t": 1.713,
+     "m": "toutes"
     },
     {
-     "t": 2.002,
-     "m": "plus"
+     "t": 2.127,
+     "m": "les"
     },
     {
-     "t": 2.288,
-     "m": "d'une"
+     "t": 2.363,
+     "m": "pertes,"
     },
     {
-     "t": 2.631,
-     "m": "journée."
+     "t": 2.836,
+     "m": "avec"
+    },
+    {
+     "t": 3.131,
+     "m": "ses"
+    },
+    {
+     "t": 3.367,
+     "m": "propres"
+    },
+    {
+     "t": 3.84,
+     "m": "fonds."
     }
    ],
    "sequence": {
-    "type": "compteur",
-    "mode": "horloge",
-    "titre": "PERSONNE NE VOIT RIEN",
-    "valeur": 26
+    "type": "document",
+    "genre": "lettre",
+    "titre": "LA PROMESSE",
+    "entete": "BINANCE",
+    "lignes": [
+     "Fonds des clients : protégés",
+     "Pertes : couvertes par Binance"
+    ],
+    "surligne": [
+     "protégés",
+     "couvertes"
+    ]
    },
    "sousTitres": true
   },
   {
    "id": "10",
-   "debut": 1260,
-   "duree": 190,
+   "debut": 1489,
+   "duree": 121,
    "audio": null,
-   "texte": "Le lendemain, un peintre vient copier la Joconde. À sa place : un mur vide.",
+   "texte": "Et environ trois milliards ont déjà pu être gelés.",
    "mots": [
     {
      "t": 0,
-     "m": "Le"
+     "m": "Et"
     },
     {
-     "t": 0.226,
-     "m": "lendemain,"
+     "t": 0.207,
+     "m": "environ"
     },
     {
-     "t": 1.056,
-     "m": "un"
+     "t": 0.758,
+     "m": "trois"
     },
     {
-     "t": 1.282,
-     "m": "peintre"
+     "t": 1.172,
+     "m": "milliards"
     },
     {
-     "t": 1.885,
-     "m": "vient"
+     "t": 1.861,
+     "m": "ont"
     },
     {
-     "t": 2.337,
-     "m": "copier"
+     "t": 2.137,
+     "m": "déjà"
     },
     {
-     "t": 2.865,
-     "m": "la"
+     "t": 2.481,
+     "m": "pu"
     },
     {
-     "t": 3.091,
-     "m": "Joconde."
+     "t": 2.688,
+     "m": "être"
     },
     {
-     "t": 3.77,
-     "m": "À"
-    },
-    {
-     "t": 3.921,
-     "m": "sa"
-    },
-    {
-     "t": 4.147,
-     "m": "place"
-    },
-    {
-     "t": 4.599,
-     "m": ":"
-    },
-    {
-     "t": 4.75,
-     "m": "un"
-    },
-    {
-     "t": 4.976,
-     "m": "mur"
-    },
-    {
-     "t": 5.278,
-     "m": "vide."
+     "t": 3.033,
+     "m": "gelés."
     }
    ],
    "sequence": {
-    "type": "scene",
-    "decor": "salon",
-    "vide": true,
-    "titre": "MARDI 22 AOÛT",
-    "legende": "Un mur vide",
-    "legendeTop": 420
+    "type": "compteur",
+    "titre": "GELÉS",
+    "valeur": 3,
+    "unite": "milliards bloqués"
    },
    "sousTitres": true
   },
   {
    "id": "11",
-   "debut": 1450,
-   "duree": 121,
+   "debut": 1610,
+   "duree": 236,
    "audio": null,
-   "texte": "L'alerte est donnée. Le Louvre ferme pendant une semaine.",
+   "texte": "Mais qui est derrière ? Pour la société d'enquête TRM, la piste est claire : la Corée du Nord.",
    "mots": [
     {
      "t": 0,
-     "m": "L'alerte"
+     "m": "Mais"
     },
     {
-     "t": 0.545,
+     "t": 0.379,
+     "m": "qui"
+    },
+    {
+     "t": 0.683,
      "m": "est"
     },
     {
-     "t": 0.788,
-     "m": "donnée."
+     "t": 0.986,
+     "m": "derrière"
     },
     {
-     "t": 1.273,
-     "m": "Le"
+     "t": 1.669,
+     "m": "?"
     },
     {
-     "t": 1.455,
-     "m": "Louvre"
+     "t": 1.821,
+     "m": "Pour"
     },
     {
-     "t": 1.879,
-     "m": "ferme"
+     "t": 2.2,
+     "m": "la"
     },
     {
-     "t": 2.242,
-     "m": "pendant"
+     "t": 2.428,
+     "m": "société"
     },
     {
-     "t": 2.727,
-     "m": "une"
+     "t": 3.035,
+     "m": "d'enquête"
     },
     {
-     "t": 2.97,
-     "m": "semaine."
+     "t": 3.793,
+     "m": "TRM,"
+    },
+    {
+     "t": 4.173,
+     "m": "la"
+    },
+    {
+     "t": 4.4,
+     "m": "piste"
+    },
+    {
+     "t": 4.856,
+     "m": "est"
+    },
+    {
+     "t": 5.159,
+     "m": "claire"
+    },
+    {
+     "t": 5.69,
+     "m": ":"
+    },
+    {
+     "t": 5.842,
+     "m": "la"
+    },
+    {
+     "t": 6.069,
+     "m": "Corée"
+    },
+    {
+     "t": 6.525,
+     "m": "du"
+    },
+    {
+     "t": 6.752,
+     "m": "Nord."
     }
    ],
    "sequence": {
-    "type": "scene",
-    "decor": "salon",
-    "vide": true,
-    "gyrophare": true,
-    "titre": "ALERTE",
-    "tampon": "FERMÉ",
-    "tamponTop": 1000
+    "type": "carte_monde",
+    "titre": "LA PISTE",
+    "points": [
+     {
+      "lon": 125.75,
+      "lat": 39,
+      "nom": "CORÉE DU NORD"
+     }
+    ],
+    "legende": "Selon les enquêteurs de TRM"
    },
    "sousTitres": true
   },
   {
    "id": "12",
-   "debut": 1571,
+   "debut": 1846,
    "duree": 155,
    "audio": null,
-   "texte": "La police fouille tout : des dizaines d'enquêteurs, des affiches, une récompense.",
+   "texte": "Plus précisément, une unité de hackers d'élite, liée au célèbre groupe Lazarus.",
    "mots": [
     {
      "t": 0,
-     "m": "La"
+     "m": "Plus"
     },
     {
-     "t": 0.169,
-     "m": "police"
+     "t": 0.289,
+     "m": "précisément,"
     },
     {
-     "t": 0.564,
-     "m": "fouille"
-    },
-    {
-     "t": 1.015,
-     "m": "tout"
-    },
-    {
-     "t": 1.297,
-     "m": ":"
-    },
-    {
-     "t": 1.409,
-     "m": "des"
-    },
-    {
-     "t": 1.635,
-     "m": "dizaines"
-    },
-    {
-     "t": 2.142,
-     "m": "d'enquêteurs,"
-    },
-    {
-     "t": 2.932,
-     "m": "des"
-    },
-    {
-     "t": 3.157,
-     "m": "affiches,"
-    },
-    {
-     "t": 3.721,
+     "t": 1.04,
      "m": "une"
     },
     {
-     "t": 3.946,
-     "m": "récompense."
+     "t": 1.271,
+     "m": "unité"
+    },
+    {
+     "t": 1.618,
+     "m": "de"
+    },
+    {
+     "t": 1.791,
+     "m": "hackers"
+    },
+    {
+     "t": 2.254,
+     "m": "d'élite,"
+    },
+    {
+     "t": 2.774,
+     "m": "liée"
+    },
+    {
+     "t": 3.063,
+     "m": "au"
+    },
+    {
+     "t": 3.236,
+     "m": "célèbre"
+    },
+    {
+     "t": 3.698,
+     "m": "groupe"
+    },
+    {
+     "t": 4.103,
+     "m": "Lazarus."
     }
    ],
    "sequence": {
-    "type": "document",
-    "genre": "affiche",
-    "titre": "L'ENQUÊTE",
-    "manchette": "RÉCOMPENSE",
-    "surtitre": "PRÉFECTURE DE POLICE",
-    "sousAffiche": "Pour retrouver la Joconde"
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "LAZARUS",
+    "taille": 110,
+    "sous": "Une unité de hackers d'élite"
    },
    "sousTitres": true
   },
   {
    "id": "13",
-   "debut": 1726,
-   "duree": 155,
+   "debut": 2001,
+   "duree": 190,
    "audio": null,
-   "texte": "Dans l'escalier, on retrouve le cadre vitré… avec une empreinte de pouce.",
+   "texte": "Et Lazarus, ce n'est pas un inconnu. Son dossier remonte à plus de dix ans.",
    "mots": [
     {
      "t": 0,
-     "m": "Dans"
-    },
-    {
-     "t": 0.312,
-     "m": "l'escalier,"
-    },
-    {
-     "t": 1.062,
-     "m": "on"
-    },
-    {
-     "t": 1.249,
-     "m": "retrouve"
-    },
-    {
-     "t": 1.812,
-     "m": "le"
-    },
-    {
-     "t": 1.999,
-     "m": "cadre"
-    },
-    {
-     "t": 2.374,
-     "m": "vitré…"
-    },
-    {
-     "t": 2.811,
-     "m": "avec"
-    },
-    {
-     "t": 3.123,
-     "m": "une"
-    },
-    {
-     "t": 3.373,
-     "m": "empreinte"
-    },
-    {
-     "t": 3.998,
-     "m": "de"
-    },
-    {
-     "t": 4.185,
-     "m": "pouce."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "cadre_vide",
-    "empreinte": true,
-    "titre": "UN INDICE",
-    "legende": "Une empreinte de pouce"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "14",
-   "debut": 1881,
-   "duree": 98,
-   "audio": null,
-   "texte": "Le célèbre Alphonse Bertillon l'analyse. Sans résultat.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Le"
-    },
-    {
-     "t": 0.149,
-     "m": "célèbre"
-    },
-    {
-     "t": 0.545,
-     "m": "Alphonse"
-    },
-    {
-     "t": 0.992,
-     "m": "Bertillon"
-    },
-    {
-     "t": 1.487,
-     "m": "l'analyse."
-    },
-    {
-     "t": 2.033,
-     "m": "Sans"
-    },
-    {
-     "t": 2.281,
-     "m": "résultat."
-    }
-   ],
-   "sequence": {
-    "type": "fiche",
-    "titre": "L'EXPERT",
-    "personnage": "marchand",
-    "nom": "ALPHONSE BERTILLON",
-    "infos": [
-     "Expert de la police",
-     "Spécialiste de l'identification"
-    ],
-    "extra": {}
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "15",
-   "debut": 1979,
-   "duree": 179,
-   "audio": null,
-   "texte": "Alors on cherche ailleurs. Et en septembre, la police arrête… le poète Guillaume Apollinaire.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Alors"
-    },
-    {
-     "t": 0.342,
-     "m": "on"
-    },
-    {
-     "t": 0.513,
-     "m": "cherche"
-    },
-    {
-     "t": 0.97,
-     "m": "ailleurs."
-    },
-    {
-     "t": 1.54,
      "m": "Et"
     },
     {
-     "t": 1.711,
-     "m": "en"
+     "t": 0.226,
+     "m": "Lazarus,"
     },
     {
-     "t": 1.882,
-     "m": "septembre,"
-    },
-    {
-     "t": 2.51,
-     "m": "la"
-    },
-    {
-     "t": 2.681,
-     "m": "police"
-    },
-    {
-     "t": 3.08,
-     "m": "arrête…"
-    },
-    {
-     "t": 3.536,
-     "m": "le"
-    },
-    {
-     "t": 3.707,
-     "m": "poète"
-    },
-    {
-     "t": 4.049,
-     "m": "Guillaume"
-    },
-    {
-     "t": 4.62,
-     "m": "Apollinaire."
-    }
-   ],
-   "sequence": {
-    "type": "fiche",
-    "titre": "SEPTEMBRE 1911",
-    "personnage": "apollinaire",
-    "nom": "APOLLINAIRE",
-    "infos": [
-     "Guillaume Apollinaire",
-     "Poète · arrêté"
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "16",
-   "debut": 2158,
-   "duree": 86,
-   "audio": null,
-   "texte": "Il passe plusieurs jours en prison.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Il"
-    },
-    {
-     "t": 0.201,
-     "m": "passe"
-    },
-    {
-     "t": 0.602,
-     "m": "plusieurs"
-    },
-    {
-     "t": 1.271,
-     "m": "jours"
-    },
-    {
-     "t": 1.672,
-     "m": "en"
-    },
-    {
-     "t": 1.872,
-     "m": "prison."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "prison",
-    "titre": "LA SANTÉ",
-    "tampon": "EN PRISON",
-    "tamponTop": 980
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "17",
-   "debut": 2244,
-   "duree": 167,
-   "audio": null,
-   "texte": "Son ami, un jeune peintre nommé Pablo Picasso, est interrogé à son tour.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Son"
-    },
-    {
-     "t": 0.274,
-     "m": "ami,"
-    },
-    {
-     "t": 0.615,
-     "m": "un"
-    },
-    {
-     "t": 0.821,
-     "m": "jeune"
-    },
-    {
-     "t": 1.231,
-     "m": "peintre"
-    },
-    {
-     "t": 1.778,
-     "m": "nommé"
-    },
-    {
-     "t": 2.188,
-     "m": "Pablo"
-    },
-    {
-     "t": 2.599,
-     "m": "Picasso,"
-    },
-    {
-     "t": 3.214,
-     "m": "est"
-    },
-    {
-     "t": 3.488,
-     "m": "interrogé"
-    },
-    {
-     "t": 4.171,
-     "m": "à"
-    },
-    {
-     "t": 4.308,
-     "m": "son"
-    },
-    {
-     "t": 4.582,
-     "m": "tour."
-    }
-   ],
-   "sequence": {
-    "type": "fiche",
-    "titre": "INTERROGÉ",
-    "personnage": "picasso",
-    "nom": "PABLO PICASSO",
-    "infos": [
-     "Jeune peintre",
-     "Ami d'Apollinaire"
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "18",
-   "debut": 2411,
-   "duree": 63,
-   "audio": null,
-   "texte": "Les deux sont innocents.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Les"
-    },
-    {
-     "t": 0.267,
-     "m": "deux"
-    },
-    {
-     "t": 0.601,
-     "m": "sont"
-    },
-    {
-     "t": 0.935,
-     "m": "innocents."
-    }
-   ],
-   "sequence": {
-    "type": "barre",
-    "mot": "SUSPECTS",
-    "personnage": "apollinaire",
-    "nom": "INNOCENTS"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "19",
-   "debut": 2474,
-   "duree": 225,
-   "audio": null,
-   "texte": "Pendant ce temps, à la réouverture, des milliers de Parisiens font la queue… pour regarder un mur vide.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Pendant"
-    },
-    {
-     "t": 0.526,
+     "t": 0.905,
      "m": "ce"
     },
     {
-     "t": 0.723,
-     "m": "temps,"
+     "t": 1.131,
+     "m": "n'est"
     },
     {
-     "t": 1.184,
-     "m": "à"
-    },
-    {
-     "t": 1.315,
-     "m": "la"
-    },
-    {
-     "t": 1.512,
-     "m": "réouverture,"
-    },
-    {
-     "t": 2.367,
-     "m": "des"
-    },
-    {
-     "t": 2.63,
-     "m": "milliers"
-    },
-    {
-     "t": 3.222,
-     "m": "de"
-    },
-    {
-     "t": 3.419,
-     "m": "Parisiens"
-    },
-    {
-     "t": 4.077,
-     "m": "font"
-    },
-    {
-     "t": 4.405,
-     "m": "la"
-    },
-    {
-     "t": 4.603,
-     "m": "queue…"
-    },
-    {
-     "t": 5.063,
-     "m": "pour"
-    },
-    {
-     "t": 5.392,
-     "m": "regarder"
-    },
-    {
-     "t": 5.983,
-     "m": "un"
-    },
-    {
-     "t": 6.181,
-     "m": "mur"
-    },
-    {
-     "t": 6.444,
-     "m": "vide."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "salon",
-    "vide": true,
-    "foule": true,
-    "titre": "LA RÉOUVERTURE",
-    "legende": "Des milliers… devant un mur vide",
-    "legendeTop": 300
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "20",
-   "debut": 2699,
-   "duree": 236,
-   "audio": null,
-   "texte": "Avant le vol, la Joconde n'était pas si célèbre. Maintenant, elle fait la une des journaux du monde entier.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Avant"
-    },
-    {
-     "t": 0.4,
-     "m": "le"
-    },
-    {
-     "t": 0.601,
-     "m": "vol,"
-    },
-    {
-     "t": 0.934,
-     "m": "la"
-    },
-    {
-     "t": 1.134,
-     "m": "Joconde"
-    },
-    {
-     "t": 1.668,
-     "m": "n'était"
-    },
-    {
-     "t": 2.202,
+     "t": 1.583,
      "m": "pas"
     },
     {
-     "t": 2.469,
-     "m": "si"
+     "t": 1.885,
+     "m": "un"
     },
     {
-     "t": 2.669,
-     "m": "célèbre."
+     "t": 2.111,
+     "m": "inconnu."
     },
     {
-     "t": 3.27,
-     "m": "Maintenant,"
+     "t": 2.79,
+     "m": "Son"
     },
     {
-     "t": 4.071,
-     "m": "elle"
+     "t": 3.091,
+     "m": "dossier"
     },
     {
-     "t": 4.405,
-     "m": "fait"
+     "t": 3.695,
+     "m": "remonte"
     },
     {
-     "t": 4.738,
-     "m": "la"
-    },
-    {
-     "t": 4.938,
-     "m": "une"
-    },
-    {
-     "t": 5.205,
-     "m": "des"
-    },
-    {
-     "t": 5.472,
-     "m": "journaux"
-    },
-    {
-     "t": 6.073,
-     "m": "du"
-    },
-    {
-     "t": 6.273,
-     "m": "monde"
-    },
-    {
-     "t": 6.674,
-     "m": "entier."
-    }
-   ],
-   "sequence": {
-    "type": "document",
-    "genre": "presse",
-    "titre": "LE MONDE ENTIER EN PARLE",
-    "journal": "PRESSE · 1911",
-    "manchette": "La Joconde a disparu !"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "21",
-   "debut": 2935,
-   "duree": 167,
-   "audio": null,
-   "texte": "Et le voleur ? Il vit tranquillement à Paris, dans le dixième arrondissement.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Et"
-    },
-    {
-     "t": 0.192,
-     "m": "le"
-    },
-    {
-     "t": 0.384,
-     "m": "voleur"
-    },
-    {
-     "t": 0.832,
-     "m": "?"
-    },
-    {
-     "t": 0.96,
-     "m": "Il"
-    },
-    {
-     "t": 1.152,
-     "m": "vit"
-    },
-    {
-     "t": 1.408,
-     "m": "tranquillement"
-    },
-    {
-     "t": 2.368,
+     "t": 4.298,
      "m": "à"
     },
     {
-     "t": 2.496,
-     "m": "Paris,"
+     "t": 4.449,
+     "m": "plus"
     },
     {
-     "t": 2.944,
-     "m": "dans"
-    },
-    {
-     "t": 3.264,
-     "m": "le"
-    },
-    {
-     "t": 3.456,
-     "m": "dixième"
-    },
-    {
-     "t": 3.968,
-     "m": "arrondissement."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "chambre",
-    "titre": "PARIS 10E"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "22",
-   "debut": 3102,
-   "duree": 144,
-   "audio": null,
-   "texte": "La Joconde est dans sa chambre, cachée au fond d'une malle.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "La"
-    },
-    {
-     "t": 0.213,
-     "m": "Joconde"
-    },
-    {
-     "t": 0.78,
-     "m": "est"
-    },
-    {
-     "t": 1.063,
-     "m": "dans"
-    },
-    {
-     "t": 1.418,
-     "m": "sa"
-    },
-    {
-     "t": 1.631,
-     "m": "chambre,"
-    },
-    {
-     "t": 2.269,
-     "m": "cachée"
-    },
-    {
-     "t": 2.765,
-     "m": "au"
-    },
-    {
-     "t": 2.977,
-     "m": "fond"
-    },
-    {
-     "t": 3.332,
-     "m": "d'une"
-    },
-    {
-     "t": 3.757,
-     "m": "malle."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "malle",
-    "ouverte": true,
-    "titre": "DANS SA CHAMBRE",
-    "legende": "Une malle au double fond"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "23",
-   "debut": 3246,
-   "duree": 213,
-   "audio": null,
-   "texte": "Il s'appelle Vincenzo Peruggia. Un ouvrier italien… qui avait aidé à fabriquer la vitrine de la Joconde.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Il"
-    },
-    {
-     "t": 0.185,
-     "m": "s'appelle"
-    },
-    {
-     "t": 0.801,
-     "m": "Vincenzo"
-    },
-    {
-     "t": 1.355,
-     "m": "Peruggia."
-    },
-    {
-     "t": 1.971,
-     "m": "Un"
-    },
-    {
-     "t": 2.156,
-     "m": "ouvrier"
-    },
-    {
-     "t": 2.649,
-     "m": "italien…"
-    },
-    {
-     "t": 3.204,
-     "m": "qui"
-    },
-    {
-     "t": 3.45,
-     "m": "avait"
-    },
-    {
-     "t": 3.82,
-     "m": "aidé"
-    },
-    {
-     "t": 4.128,
-     "m": "à"
-    },
-    {
-     "t": 4.251,
-     "m": "fabriquer"
-    },
-    {
-     "t": 4.867,
-     "m": "la"
+     "t": 4.826,
+     "m": "de"
     },
     {
      "t": 5.052,
-     "m": "vitrine"
+     "m": "dix"
     },
     {
-     "t": 5.545,
-     "m": "de"
-    },
-    {
-     "t": 5.73,
-     "m": "la"
-    },
-    {
-     "t": 5.914,
-     "m": "Joconde."
+     "t": 5.353,
+     "m": "ans."
     }
    ],
    "sequence": {
-    "type": "fiche",
-    "titre": "LE VOLEUR",
-    "personnage": "peruggia",
-    "nom": "VINCENZO PERUGGIA",
-    "infos": [
-     "Ouvrier italien",
-     "Il a posé la vitrine"
+    "type": "chronologie",
+    "titre": "LE DOSSIER LAZARUS",
+    "hauteur": 620,
+    "dates": [
+     {
+      "an": "2014",
+      "label": "Sony Pictures"
+     },
+     {
+      "an": "2016",
+      "label": "Banque du Bangladesh"
+     },
+     {
+      "an": "2017",
+      "label": "WannaCry"
+     },
+     {
+      "an": "2025",
+      "label": "Bybit"
+     }
     ]
    },
-   "sousTitres": true
+   "sousTitres": false
   },
   {
-   "id": "24",
-   "debut": 3459,
-   "duree": 132,
+   "id": "14",
+   "debut": 2191,
+   "duree": 213,
    "audio": null,
-   "texte": "Ses empreintes étaient déjà dans les fichiers de la police.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Ses"
-    },
-    {
-     "t": 0.259,
-     "m": "empreintes"
-    },
-    {
-     "t": 0.971,
-     "m": "étaient"
-    },
-    {
-     "t": 1.489,
-     "m": "déjà"
-    },
-    {
-     "t": 1.813,
-     "m": "dans"
-    },
-    {
-     "t": 2.136,
-     "m": "les"
-    },
-    {
-     "t": 2.395,
-     "m": "fichiers"
-    },
-    {
-     "t": 2.978,
-     "m": "de"
-    },
-    {
-     "t": 3.172,
-     "m": "la"
-    },
-    {
-     "t": 3.366,
-     "m": "police."
-    }
-   ],
-   "sequence": {
-    "type": "choc",
-    "photo": "photos/affaire-07-joconde.jpg",
-    "texte": "DÉJÀ FICHÉ",
-    "srcW": 700,
-    "srcH": 900,
-    "visage": {
-     "x": 350,
-     "y": 405
-    }
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "25",
-   "debut": 3591,
-   "duree": 109,
-   "audio": null,
-   "texte": "La police l'a même interrogé. Sans rien soupçonner.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "La"
-    },
-    {
-     "t": 0.181,
-     "m": "police"
-    },
-    {
-     "t": 0.605,
-     "m": "l'a"
-    },
-    {
-     "t": 0.847,
-     "m": "même"
-    },
-    {
-     "t": 1.149,
-     "m": "interrogé."
-    },
-    {
-     "t": 1.815,
-     "m": "Sans"
-    },
-    {
-     "t": 2.117,
-     "m": "rien"
-    },
-    {
-     "t": 2.42,
-     "m": "soupçonner."
-    }
-   ],
-   "sequence": {
-    "type": "barre",
-    "mot": "SUSPECT",
-    "personnage": "peruggia",
-    "nom": "PAS SOUPÇONNÉ"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "26",
-   "debut": 3700,
-   "duree": 52,
-   "audio": null,
-   "texte": "Deux ans passent.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Deux"
-    },
-    {
-     "t": 0.361,
-     "m": "ans"
-    },
-    {
-     "t": 0.65,
-     "m": "passent."
-    }
-   ],
-   "sequence": {
-    "type": "compteur",
-    "titre": "LA JOCONDE A DISPARU",
-    "valeur": 2,
-    "unite": "ans"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "27",
-   "debut": 3752,
-   "duree": 190,
-   "audio": null,
-   "texte": "En décembre 1913, un marchand d'art de Florence reçoit une lettre signée « Leonardo ».",
+   "texte": "En 2014, ils piratent Sony Pictures, à cause d'un film comique sur un complot contre Kim Jong-un.",
    "mots": [
     {
      "t": 0,
@@ -1641,823 +967,1360 @@
     },
     {
      "t": 0.198,
-     "m": "décembre"
+     "m": "2014,"
     },
     {
-     "t": 0.79,
-     "m": "1913,"
+     "t": 0.594,
+     "m": "ils"
     },
     {
-     "t": 1.186,
+     "t": 0.858,
+     "m": "piratent"
+    },
+    {
+     "t": 1.452,
+     "m": "Sony"
+    },
+    {
+     "t": 1.782,
+     "m": "Pictures,"
+    },
+    {
+     "t": 2.442,
+     "m": "à"
+    },
+    {
+     "t": 2.574,
+     "m": "cause"
+    },
+    {
+     "t": 2.97,
+     "m": "d'un"
+    },
+    {
+     "t": 3.3,
+     "m": "film"
+    },
+    {
+     "t": 3.631,
+     "m": "comique"
+    },
+    {
+     "t": 4.159,
+     "m": "sur"
+    },
+    {
+     "t": 4.423,
      "m": "un"
     },
     {
-     "t": 1.383,
-     "m": "marchand"
+     "t": 4.621,
+     "m": "complot"
     },
     {
-     "t": 1.976,
-     "m": "d'art"
+     "t": 5.149,
+     "m": "contre"
     },
     {
-     "t": 2.371,
-     "m": "de"
+     "t": 5.611,
+     "m": "Kim"
     },
     {
-     "t": 2.569,
-     "m": "Florence"
-    },
-    {
-     "t": 3.162,
-     "m": "reçoit"
-    },
-    {
-     "t": 3.623,
-     "m": "une"
-    },
-    {
-     "t": 3.886,
-     "m": "lettre"
-    },
-    {
-     "t": 4.347,
-     "m": "signée"
-    },
-    {
-     "t": 4.808,
-     "m": "«"
-    },
-    {
-     "t": 4.94,
-     "m": "Leonardo"
-    },
-    {
-     "t": 5.533,
-     "m": "»."
+     "t": 5.875,
+     "m": "Jong-un."
     }
    ],
    "sequence": {
     "type": "document",
-    "genre": "lettre",
-    "titre": "FLORENCE · 1913",
-    "entete": "UNE LETTRE",
-    "lignes": [
-     "■",
-     "■",
-     "Signé : « Leonardo »"
-    ],
-    "surligne": [
-     "Leonardo"
-    ]
+    "genre": "affiche",
+    "titre": "2014",
+    "surtitre": "SONY PICTURES",
+    "manchette": "UN FILM QUI DÉRANGE",
+    "sousAffiche": "Une comédie sur Kim Jong-un",
+    "tampon": "PIRATÉ",
+    "tamponTop": 900
    },
    "sousTitres": true
   },
   {
-   "id": "28",
-   "debut": 3942,
-   "duree": 167,
-   "audio": null,
-   "texte": "Il propose de rendre la Joconde à l'Italie… contre cinq cent mille lires.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Il"
-    },
-    {
-     "t": 0.202,
-     "m": "propose"
-    },
-    {
-     "t": 0.742,
-     "m": "de"
-    },
-    {
-     "t": 0.944,
-     "m": "rendre"
-    },
-    {
-     "t": 1.417,
-     "m": "la"
-    },
-    {
-     "t": 1.619,
-     "m": "Joconde"
-    },
-    {
-     "t": 2.159,
-     "m": "à"
-    },
-    {
-     "t": 2.294,
-     "m": "l'Italie…"
-    },
-    {
-     "t": 2.968,
-     "m": "contre"
-    },
-    {
-     "t": 3.44,
-     "m": "cinq"
-    },
-    {
-     "t": 3.778,
-     "m": "cent"
-    },
-    {
-     "t": 4.115,
-     "m": "mille"
-    },
-    {
-     "t": 4.52,
-     "m": "lires."
-    }
-   ],
-   "sequence": {
-    "type": "chiffre",
-    "titre": "SON PRIX",
-    "valeur": 500000,
-    "unite": "lires"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "29",
-   "debut": 4109,
-   "duree": 225,
-   "audio": null,
-   "texte": "Le marchand vient avec le directeur du musée des Offices. Ils examinent le tableau : c'est bien elle.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Le"
-    },
-    {
-     "t": 0.201,
-     "m": "marchand"
-    },
-    {
-     "t": 0.804,
-     "m": "vient"
-    },
-    {
-     "t": 1.207,
-     "m": "avec"
-    },
-    {
-     "t": 1.542,
-     "m": "le"
-    },
-    {
-     "t": 1.743,
-     "m": "directeur"
-    },
-    {
-     "t": 2.413,
-     "m": "du"
-    },
-    {
-     "t": 2.615,
-     "m": "musée"
-    },
-    {
-     "t": 3.017,
-     "m": "des"
-    },
-    {
-     "t": 3.285,
-     "m": "Offices."
-    },
-    {
-     "t": 3.888,
-     "m": "Ils"
-    },
-    {
-     "t": 4.157,
-     "m": "examinent"
-    },
-    {
-     "t": 4.827,
-     "m": "le"
-    },
-    {
-     "t": 5.028,
-     "m": "tableau"
-    },
-    {
-     "t": 5.564,
-     "m": ":"
-    },
-    {
-     "t": 5.698,
-     "m": "c'est"
-    },
-    {
-     "t": 6.101,
-     "m": "bien"
-    },
-    {
-     "t": 6.436,
-     "m": "elle."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "hotel",
-    "titre": "FLORENCE",
-    "personnages": [
-     {
-      "nom": "marchand",
-      "x": 300,
-      "y": 1350,
-      "s": 300
-     },
-     {
-      "nom": "peruggia",
-      "x": 540,
-      "y": 1350,
-      "s": 300
-     },
-     {
-      "nom": "agent",
-      "x": 780,
-      "y": 1350,
-      "s": 300,
-      "miroir": true
-     }
-    ],
-    "tampon": "AUTHENTIQUE",
-    "tamponTop": 420
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "30",
-   "debut": 4334,
+   "id": "15",
+   "debut": 2404,
    "duree": 121,
    "audio": null,
-   "texte": "Le jour même, Peruggia est arrêté à son hôtel.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Le"
-    },
-    {
-     "t": 0.224,
-     "m": "jour"
-    },
-    {
-     "t": 0.598,
-     "m": "même,"
-    },
-    {
-     "t": 1.047,
-     "m": "Peruggia"
-    },
-    {
-     "t": 1.72,
-     "m": "est"
-    },
-    {
-     "t": 2.019,
-     "m": "arrêté"
-    },
-    {
-     "t": 2.543,
-     "m": "à"
-    },
-    {
-     "t": 2.692,
-     "m": "son"
-    },
-    {
-     "t": 2.992,
-     "m": "hôtel."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "ville",
-    "gyrophare": true,
-    "titre": "ARRÊTÉ",
-    "personnages": [
-     {
-      "nom": "policier",
-      "x": 300,
-      "y": 1350,
-      "s": 300
-     },
-     {
-      "nom": "peruggia",
-      "x": 540,
-      "y": 1350,
-      "s": 300
-     },
-     {
-      "nom": "policier",
-      "x": 780,
-      "y": 1350,
-      "s": 300,
-      "miroir": true
-     }
-    ],
-    "tampon": "ARRÊTÉ",
-    "tamponTop": 420
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "31",
-   "debut": 4455,
-   "duree": 167,
-   "audio": null,
-   "texte": "Son motif ? Rendre à l'Italie un tableau qu'il croyait volé par Napoléon.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Son"
-    },
-    {
-     "t": 0.27,
-     "m": "motif"
-    },
-    {
-     "t": 0.675,
-     "m": "?"
-    },
-    {
-     "t": 0.81,
-     "m": "Rendre"
-    },
-    {
-     "t": 1.282,
-     "m": "à"
-    },
-    {
-     "t": 1.417,
-     "m": "l'Italie"
-    },
-    {
-     "t": 2.024,
-     "m": "un"
-    },
-    {
-     "t": 2.226,
-     "m": "tableau"
-    },
-    {
-     "t": 2.766,
-     "m": "qu'il"
-    },
-    {
-     "t": 3.171,
-     "m": "croyait"
-    },
-    {
-     "t": 3.71,
-     "m": "volé"
-    },
-    {
-     "t": 4.048,
-     "m": "par"
-    },
-    {
-     "t": 4.317,
-     "m": "Napoléon."
-    }
-   ],
-   "sequence": {
-    "type": "carte_med",
-    "titre": "SON MOTIF",
-    "fleches": [
-     {
-      "de": [
-       2.3,
-       48.9
-      ],
-      "vers": [
-       11.25,
-       43.8
-      ],
-      "a": 6,
-      "label": "RETOUR EN ITALIE ?",
-      "courbe": 0.2
-     }
-    ],
-    "lieux": [
-     {
-      "nom": "PARIS",
-      "lon": 2.3,
-      "lat": 48.9,
-      "a": 0
-     },
-     {
-      "nom": "FLORENCE",
-      "lon": 11.25,
-      "lat": 43.8,
-      "style": "cible",
-      "a": 20,
-      "dessous": true
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "32",
-   "debut": 4622,
-   "duree": 155,
-   "audio": null,
-   "texte": "Erreur : c'est Léonard de Vinci lui-même qui l'avait apportée en France.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Erreur"
-    },
-    {
-     "t": 0.443,
-     "m": ":"
-    },
-    {
-     "t": 0.57,
-     "m": "c'est"
-    },
-    {
-     "t": 0.95,
-     "m": "Léonard"
-    },
-    {
-     "t": 1.456,
-     "m": "de"
-    },
-    {
-     "t": 1.646,
-     "m": "Vinci"
-    },
-    {
-     "t": 2.026,
-     "m": "lui-même"
-    },
-    {
-     "t": 2.596,
-     "m": "qui"
-    },
-    {
-     "t": 2.85,
-     "m": "l'avait"
-    },
-    {
-     "t": 3.356,
-     "m": "apportée"
-    },
-    {
-     "t": 3.926,
-     "m": "en"
-    },
-    {
-     "t": 4.116,
-     "m": "France."
-    }
-   ],
-   "sequence": {
-    "type": "barre",
-    "mot": "NAPOLÉON",
-    "personnage": "peruggia",
-    "nom": "C'EST LÉONARD QUI L'A APPORTÉE"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "33",
-   "debut": 4777,
-   "duree": 213,
-   "audio": null,
-   "texte": "Il est condamné à un an et quinze jours de prison. Il n'en fera que sept mois.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Il"
-    },
-    {
-     "t": 0.246,
-     "m": "est"
-    },
-    {
-     "t": 0.573,
-     "m": "condamné"
-    },
-    {
-     "t": 1.31,
-     "m": "à"
-    },
-    {
-     "t": 1.474,
-     "m": "un"
-    },
-    {
-     "t": 1.72,
-     "m": "an"
-    },
-    {
-     "t": 1.965,
-     "m": "et"
-    },
-    {
-     "t": 2.211,
-     "m": "quinze"
-    },
-    {
-     "t": 2.784,
-     "m": "jours"
-    },
-    {
-     "t": 3.275,
-     "m": "de"
-    },
-    {
-     "t": 3.521,
-     "m": "prison."
-    },
-    {
-     "t": 4.176,
-     "m": "Il"
-    },
-    {
-     "t": 4.422,
-     "m": "n'en"
-    },
-    {
-     "t": 4.831,
-     "m": "fera"
-    },
-    {
-     "t": 5.241,
-     "m": "que"
-    },
-    {
-     "t": 5.568,
-     "m": "sept"
-    },
-    {
-     "t": 5.978,
-     "m": "mois."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "prison",
-    "titre": "1914",
-    "tampon": "7 MOIS",
-    "tamponTop": 980
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "34",
-   "debut": 4990,
-   "duree": 109,
-   "audio": null,
-   "texte": "En janvier 1914, la Joconde revient au Louvre.",
+   "texte": "En 2016, ils visent la banque centrale du Bangladesh.",
    "mots": [
     {
      "t": 0,
      "m": "En"
     },
     {
-     "t": 0.201,
-     "m": "janvier"
+     "t": 0.195,
+     "m": "2016,"
     },
     {
-     "t": 0.736,
-     "m": "1914,"
+     "t": 0.586,
+     "m": "ils"
     },
     {
-     "t": 1.138,
+     "t": 0.846,
+     "m": "visent"
+    },
+    {
+     "t": 1.302,
      "m": "la"
     },
     {
-     "t": 1.339,
-     "m": "Joconde"
+     "t": 1.497,
+     "m": "banque"
     },
     {
-     "t": 1.874,
-     "m": "revient"
+     "t": 1.953,
+     "m": "centrale"
     },
     {
-     "t": 2.41,
-     "m": "au"
+     "t": 2.539,
+     "m": "du"
     },
     {
-     "t": 2.61,
-     "m": "Louvre."
+     "t": 2.734,
+     "m": "Bangladesh."
     }
    ],
    "sequence": {
     "type": "scene",
-    "decor": "salon",
-    "joconde": true,
-    "titre": "JANVIER 1914",
-    "legende": "Le retour",
-    "legendeTop": 300
+    "decor": "banque",
+    "enseigne": "BANQUE DU BANGLADESH",
+    "titre": "2016"
    },
    "sousTitres": true
   },
   {
-   "id": "35",
-   "debut": 5099,
-   "duree": 121,
+   "id": "16",
+   "debut": 2525,
+   "duree": 167,
    "audio": null,
-   "texte": "Et cette fois, des foules immenses viennent la voir.",
+   "texte": "Son argent dort sur un compte, à la Réserve fédérale de New York.",
    "mots": [
     {
      "t": 0,
-     "m": "Et"
+     "m": "Son"
     },
     {
-     "t": 0.199,
-     "m": "cette"
+     "t": 0.303,
+     "m": "argent"
     },
     {
-     "t": 0.597,
-     "m": "fois,"
+     "t": 0.832,
+     "m": "dort"
     },
     {
-     "t": 0.995,
-     "m": "des"
+     "t": 1.21,
+     "m": "sur"
     },
     {
-     "t": 1.26,
-     "m": "foules"
+     "t": 1.513,
+     "m": "un"
     },
     {
-     "t": 1.724,
-     "m": "immenses"
+     "t": 1.74,
+     "m": "compte,"
     },
     {
-     "t": 2.321,
-     "m": "viennent"
+     "t": 2.345,
+     "m": "à"
     },
     {
-     "t": 2.918,
+     "t": 2.496,
      "m": "la"
     },
     {
-     "t": 3.117,
-     "m": "voir."
+     "t": 2.723,
+     "m": "Réserve"
+    },
+    {
+     "t": 3.328,
+     "m": "fédérale"
+    },
+    {
+     "t": 4.009,
+     "m": "de"
+    },
+    {
+     "t": 4.236,
+     "m": "New"
+    },
+    {
+     "t": 4.538,
+     "m": "York."
     }
    ],
    "sequence": {
-    "type": "scene",
-    "decor": "salon",
-    "joconde": true,
-    "foule": true,
-    "titre": "LA STAR DU LOUVRE"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "36",
-   "debut": 5220,
-   "duree": 132,
-   "audio": null,
-   "texte": "Le vol qui devait la faire disparaître… l'a rendue immortelle.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Le"
-    },
-    {
-     "t": 0.185,
-     "m": "vol"
-    },
-    {
-     "t": 0.432,
-     "m": "qui"
-    },
-    {
-     "t": 0.678,
-     "m": "devait"
-    },
-    {
-     "t": 1.11,
-     "m": "la"
-    },
-    {
-     "t": 1.295,
-     "m": "faire"
-    },
-    {
-     "t": 1.665,
-     "m": "disparaître…"
-    },
-    {
-     "t": 2.466,
-     "m": "l'a"
-    },
-    {
-     "t": 2.713,
-     "m": "rendue"
-    },
-    {
-     "t": 3.144,
-     "m": "immortelle."
-    }
-   ],
-   "sequence": {
-    "type": "fin",
-    "etiquette": [
-     "AFFAIRE Nº 7",
-     "PERUGGIA, Vincenzo"
+    "type": "carte_monde",
+    "titre": "LE COMPTE",
+    "points": [
+     {
+      "lon": -74,
+      "lat": 40.7,
+      "nom": "NEW YORK"
+     },
+     {
+      "lon": 90.4,
+      "lat": 23.8,
+      "nom": "BANGLADESH"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       90.4,
+       23.8
+      ],
+      "vers": [
+       -74,
+       40.7
+      ],
+      "a": 14,
+      "pointilles": true,
+      "courbe": -0.15
+     }
     ]
    },
    "sousTitres": true
   },
   {
-   "id": "37",
-   "debut": 5352,
-   "duree": 236,
+   "id": "17",
+   "debut": 2692,
+   "duree": 190,
    "audio": null,
-   "texte": "Quelle affaire veux-tu que j'ouvre la prochaine fois ? Écris-la en commentaire. Et abonne-toi pour ne rater aucun dossier.",
+   "texte": "Les pirates envoient trente-cinq ordres de virement : près d'un milliard de dollars au total.",
    "mots": [
     {
      "t": 0,
-     "m": "Quelle"
+     "m": "Les"
     },
     {
-     "t": 0.41,
-     "m": "affaire"
+     "t": 0.244,
+     "m": "pirates"
     },
     {
-     "t": 0.879,
-     "m": "veux-tu"
+     "t": 0.732,
+     "m": "envoient"
     },
     {
-     "t": 1.348,
-     "m": "que"
+     "t": 1.28,
+     "m": "trente-cinq"
     },
     {
-     "t": 1.582,
-     "m": "j'ouvre"
+     "t": 2.012,
+     "m": "ordres"
     },
     {
-     "t": 2.051,
-     "m": "la"
+     "t": 2.438,
+     "m": "de"
     },
     {
-     "t": 2.227,
-     "m": "prochaine"
+     "t": 2.621,
+     "m": "virement"
     },
     {
-     "t": 2.813,
-     "m": "fois"
+     "t": 3.17,
+     "m": ":"
     },
     {
-     "t": 3.106,
-     "m": "?"
+     "t": 3.292,
+     "m": "près"
     },
     {
-     "t": 3.223,
-     "m": "Écris-la"
+     "t": 3.597,
+     "m": "d'un"
     },
     {
-     "t": 3.75,
-     "m": "en"
+     "t": 3.902,
+     "m": "milliard"
     },
     {
-     "t": 3.926,
-     "m": "commentaire."
+     "t": 4.45,
+     "m": "de"
     },
     {
-     "t": 4.688,
-     "m": "Et"
+     "t": 4.633,
+     "m": "dollars"
     },
     {
-     "t": 4.864,
-     "m": "abonne-toi"
+     "t": 5.121,
+     "m": "au"
     },
     {
-     "t": 5.508,
-     "m": "pour"
-    },
-    {
-     "t": 5.801,
-     "m": "ne"
-    },
-    {
-     "t": 5.977,
-     "m": "rater"
-    },
-    {
-     "t": 6.328,
-     "m": "aucun"
-    },
-    {
-     "t": 6.68,
-     "m": "dossier."
+     "t": 5.304,
+     "m": "total."
     }
    ],
    "sequence": {
-    "type": "cta",
-    "bulle": "✍️ Ton prochain dossier ?"
+    "type": "compteur",
+    "titre": "35 VIREMENTS",
+    "valeur": 951,
+    "unite": "millions de dollars demandés"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "18",
+   "debut": 2882,
+   "duree": 179,
+   "audio": null,
+   "texte": "Mais des fautes de frappe éveillent les soupçons. Une partie des virements est bloquée.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Mais"
+    },
+    {
+     "t": 0.305,
+     "m": "des"
+    },
+    {
+     "t": 0.548,
+     "m": "fautes"
+    },
+    {
+     "t": 0.975,
+     "m": "de"
+    },
+    {
+     "t": 1.158,
+     "m": "frappe"
+    },
+    {
+     "t": 1.584,
+     "m": "éveillent"
+    },
+    {
+     "t": 2.193,
+     "m": "les"
+    },
+    {
+     "t": 2.437,
+     "m": "soupçons."
+    },
+    {
+     "t": 3.046,
+     "m": "Une"
+    },
+    {
+     "t": 3.29,
+     "m": "partie"
+    },
+    {
+     "t": 3.716,
+     "m": "des"
+    },
+    {
+     "t": 3.96,
+     "m": "virements"
+    },
+    {
+     "t": 4.569,
+     "m": "est"
+    },
+    {
+     "t": 4.813,
+     "m": "bloquée."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LA FAUTE",
+    "entete": "ORDRE DE VIREMENT",
+    "lignes": [
+     "Bénéficiaire : ■■■ (faute de frappe)",
+     "Montant : ■■■ millions"
+    ],
+    "surligne": [
+     "faute"
+    ],
+    "tampon": "BLOQUÉ",
+    "tamponTop": 860
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "19",
+   "debut": 3061,
+   "duree": 190,
+   "audio": null,
+   "texte": "Ils repartent quand même avec quatre-vingt-un millions de dollars, envoyés vers des casinos aux Philippines.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Ils"
+    },
+    {
+     "t": 0.21,
+     "m": "repartent"
+    },
+    {
+     "t": 0.736,
+     "m": "quand"
+    },
+    {
+     "t": 1.051,
+     "m": "même"
+    },
+    {
+     "t": 1.314,
+     "m": "avec"
+    },
+    {
+     "t": 1.577,
+     "m": "quatre-vingt-un"
+    },
+    {
+     "t": 2.418,
+     "m": "millions"
+    },
+    {
+     "t": 2.892,
+     "m": "de"
+    },
+    {
+     "t": 3.049,
+     "m": "dollars,"
+    },
+    {
+     "t": 3.522,
+     "m": "envoyés"
+    },
+    {
+     "t": 3.943,
+     "m": "vers"
+    },
+    {
+     "t": 4.206,
+     "m": "des"
+    },
+    {
+     "t": 4.416,
+     "m": "casinos"
+    },
+    {
+     "t": 4.837,
+     "m": "aux"
+    },
+    {
+     "t": 5.047,
+     "m": "Philippines."
+    }
+   ],
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "81 MILLIONS",
+    "points": [
+     {
+      "lon": -74,
+      "lat": 40.7,
+      "nom": "NEW YORK"
+     },
+     {
+      "lon": 121,
+      "lat": 14.6,
+      "nom": "PHILIPPINES"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       -74,
+       40.7
+      ],
+      "vers": [
+       121,
+       14.6
+      ],
+      "a": 10,
+      "couleur": "rouge",
+      "courbe": -0.2
+     }
+    ],
+    "legende": "81 millions vers des casinos"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "20",
+   "debut": 3251,
+   "duree": 202,
+   "audio": null,
+   "texte": "En 2017, leur virus WannaCry bloque des ordinateurs dans le monde entier, jusque dans des hôpitaux.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.183,
+     "m": "2017,"
+    },
+    {
+     "t": 0.549,
+     "m": "leur"
+    },
+    {
+     "t": 0.854,
+     "m": "virus"
+    },
+    {
+     "t": 1.22,
+     "m": "WannaCry"
+    },
+    {
+     "t": 1.769,
+     "m": "bloque"
+    },
+    {
+     "t": 2.196,
+     "m": "des"
+    },
+    {
+     "t": 2.44,
+     "m": "ordinateurs"
+    },
+    {
+     "t": 3.172,
+     "m": "dans"
+    },
+    {
+     "t": 3.477,
+     "m": "le"
+    },
+    {
+     "t": 3.66,
+     "m": "monde"
+    },
+    {
+     "t": 4.026,
+     "m": "entier,"
+    },
+    {
+     "t": 4.514,
+     "m": "jusque"
+    },
+    {
+     "t": 4.941,
+     "m": "dans"
+    },
+    {
+     "t": 5.246,
+     "m": "des"
+    },
+    {
+     "t": 5.49,
+     "m": "hôpitaux."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "rancon",
+    "titre": "2017 · WANNACRY",
+    "legende": "Jusque dans des hôpitaux"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "21",
+   "debut": 3453,
+   "duree": 167,
+   "audio": null,
+   "texte": "En 2018, la justice américaine inculpe un hacker nord-coréen : Park Jin Hyok.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.192,
+     "m": "2018,"
+    },
+    {
+     "t": 0.576,
+     "m": "la"
+    },
+    {
+     "t": 0.768,
+     "m": "justice"
+    },
+    {
+     "t": 1.28,
+     "m": "américaine"
+    },
+    {
+     "t": 1.984,
+     "m": "inculpe"
+    },
+    {
+     "t": 2.496,
+     "m": "un"
+    },
+    {
+     "t": 2.688,
+     "m": "hacker"
+    },
+    {
+     "t": 3.136,
+     "m": "nord-coréen"
+    },
+    {
+     "t": 3.904,
+     "m": ":"
+    },
+    {
+     "t": 4.032,
+     "m": "Park"
+    },
+    {
+     "t": 4.352,
+     "m": "Jin"
+    },
+    {
+     "t": 4.608,
+     "m": "Hyok."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "2018",
+    "entete": "JUSTICE AMÉRICAINE",
+    "lignes": [
+     "Accusé : Park Jin Hyok",
+     "Groupe : Lazarus"
+    ],
+    "surligne": [
+     "Park"
+    ],
+    "tampon": "INCULPÉ",
+    "tamponTop": 860
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "22",
+   "debut": 3620,
+   "duree": 179,
+   "audio": null,
+   "texte": "Son visage est sur un avis de recherche du FBI. Il est toujours recherché.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Son"
+    },
+    {
+     "t": 0.286,
+     "m": "visage"
+    },
+    {
+     "t": 0.786,
+     "m": "est"
+    },
+    {
+     "t": 1.072,
+     "m": "sur"
+    },
+    {
+     "t": 1.358,
+     "m": "un"
+    },
+    {
+     "t": 1.573,
+     "m": "avis"
+    },
+    {
+     "t": 1.93,
+     "m": "de"
+    },
+    {
+     "t": 2.144,
+     "m": "recherche"
+    },
+    {
+     "t": 2.859,
+     "m": "du"
+    },
+    {
+     "t": 3.074,
+     "m": "FBI."
+    },
+    {
+     "t": 3.431,
+     "m": "Il"
+    },
+    {
+     "t": 3.646,
+     "m": "est"
+    },
+    {
+     "t": 3.932,
+     "m": "toujours"
+    },
+    {
+     "t": 4.575,
+     "m": "recherché."
+    }
+   ],
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-08-binance.jpg",
+    "texte": "TOUJOURS RECHERCHÉ",
+    "srcW": 600,
+    "srcH": 800,
+    "visage": {
+     "x": 300,
+     "y": 360
+    }
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "23",
+   "debut": 3799,
+   "duree": 98,
+   "audio": null,
+   "texte": "Puis les cibles changent : les cryptomonnaies.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Puis"
+    },
+    {
+     "t": 0.295,
+     "m": "les"
+    },
+    {
+     "t": 0.532,
+     "m": "cibles"
+    },
+    {
+     "t": 0.945,
+     "m": "changent"
+    },
+    {
+     "t": 1.477,
+     "m": ":"
+    },
+    {
+     "t": 1.595,
+     "m": "les"
+    },
+    {
+     "t": 1.831,
+     "m": "cryptomonnaies."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "graphique",
+    "titre": "NOUVELLE CIBLE",
+    "legende": "Les cryptos"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "24",
+   "debut": 3897,
+   "duree": 190,
+   "audio": null,
+   "texte": "En 2025, la plateforme Bybit se fait voler près d'un milliard et demi de dollars.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.21,
+     "m": "2025,"
+    },
+    {
+     "t": 0.629,
+     "m": "la"
+    },
+    {
+     "t": 0.839,
+     "m": "plateforme"
+    },
+    {
+     "t": 1.607,
+     "m": "Bybit"
+    },
+    {
+     "t": 2.027,
+     "m": "se"
+    },
+    {
+     "t": 2.236,
+     "m": "fait"
+    },
+    {
+     "t": 2.586,
+     "m": "voler"
+    },
+    {
+     "t": 3.005,
+     "m": "près"
+    },
+    {
+     "t": 3.354,
+     "m": "d'un"
+    },
+    {
+     "t": 3.704,
+     "m": "milliard"
+    },
+    {
+     "t": 4.333,
+     "m": "et"
+    },
+    {
+     "t": 4.542,
+     "m": "demi"
+    },
+    {
+     "t": 4.892,
+     "m": "de"
+    },
+    {
+     "t": 5.102,
+     "m": "dollars."
+    }
+   ],
+   "sequence": {
+    "type": "compteur",
+    "titre": "2025 · BYBIT",
+    "valeur": 1.5,
+    "unite": "milliard de dollars volé",
+    "couleur": "rouge",
+    "decimales": 1
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "25",
+   "debut": 4087,
+   "duree": 98,
+   "audio": null,
+   "texte": "Les enquêteurs désignent… les mêmes hackers nord-coréens.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Les"
+    },
+    {
+     "t": 0.191,
+     "m": "enquêteurs"
+    },
+    {
+     "t": 0.718,
+     "m": "désignent…"
+    },
+    {
+     "t": 1.245,
+     "m": "les"
+    },
+    {
+     "t": 1.436,
+     "m": "mêmes"
+    },
+    {
+     "t": 1.723,
+     "m": "hackers"
+    },
+    {
+     "t": 2.106,
+     "m": "nord-coréens."
+    }
+   ],
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "LES MÊMES",
+    "taille": 110,
+    "sous": "Selon le FBI"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "26",
+   "debut": 4185,
+   "duree": 179,
+   "audio": null,
+   "texte": "À l'époque, c'était le plus gros vol de l'histoire des cryptos. Jusqu'à jeudi dernier.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "À"
+    },
+    {
+     "t": 0.123,
+     "m": "l'époque,"
+    },
+    {
+     "t": 0.739,
+     "m": "c'était"
+    },
+    {
+     "t": 1.232,
+     "m": "le"
+    },
+    {
+     "t": 1.417,
+     "m": "plus"
+    },
+    {
+     "t": 1.725,
+     "m": "gros"
+    },
+    {
+     "t": 2.034,
+     "m": "vol"
+    },
+    {
+     "t": 2.28,
+     "m": "de"
+    },
+    {
+     "t": 2.465,
+     "m": "l'histoire"
+    },
+    {
+     "t": 3.143,
+     "m": "des"
+    },
+    {
+     "t": 3.389,
+     "m": "cryptos."
+    },
+    {
+     "t": 3.944,
+     "m": "Jusqu'à"
+    },
+    {
+     "t": 4.437,
+     "m": "jeudi"
+    },
+    {
+     "t": 4.807,
+     "m": "dernier."
+    }
+   ],
+   "sequence": {
+    "type": "pyramide",
+    "mode": "duo",
+    "titre": "JUSQU'À JEUDI",
+    "gauche": {
+     "nom": "BYBIT",
+     "sous": "2025"
+    },
+    "droite": {
+     "nom": "BINANCE",
+     "sous": "2026"
+    },
+    "legende": "Nouveau record",
+    "legendeCouleur": "jaune"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "27",
+   "debut": 4364,
+   "duree": 225,
+   "audio": null,
+   "texte": "Pour l'instant, Binance n'a pas confirmé qui l'a attaquée. Et elle assure que ses clients ne perdront rien.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Pour"
+    },
+    {
+     "t": 0.317,
+     "m": "l'instant,"
+    },
+    {
+     "t": 1.013,
+     "m": "Binance"
+    },
+    {
+     "t": 1.52,
+     "m": "n'a"
+    },
+    {
+     "t": 1.773,
+     "m": "pas"
+    },
+    {
+     "t": 2.026,
+     "m": "confirmé"
+    },
+    {
+     "t": 2.596,
+     "m": "qui"
+    },
+    {
+     "t": 2.849,
+     "m": "l'a"
+    },
+    {
+     "t": 3.102,
+     "m": "attaquée."
+    },
+    {
+     "t": 3.736,
+     "m": "Et"
+    },
+    {
+     "t": 3.926,
+     "m": "elle"
+    },
+    {
+     "t": 4.242,
+     "m": "assure"
+    },
+    {
+     "t": 4.685,
+     "m": "que"
+    },
+    {
+     "t": 4.939,
+     "m": "ses"
+    },
+    {
+     "t": 5.192,
+     "m": "clients"
+    },
+    {
+     "t": 5.698,
+     "m": "ne"
+    },
+    {
+     "t": 5.888,
+     "m": "perdront"
+    },
+    {
+     "t": 6.458,
+     "m": "rien."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "OÙ EN EST-ON ?",
+    "entete": "ENQUÊTE EN COURS",
+    "lignes": [
+     "Coupables : non confirmés",
+     "Pertes : couvertes (Binance)"
+    ],
+    "surligne": [
+     "confirmés"
+    ],
+    "tampon": "EN COURS",
+    "tamponTop": 860
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "28",
+   "debut": 4589,
+   "duree": 155,
+   "audio": null,
+   "texte": "Mais Binance, c'est aussi l'histoire d'un homme : son fondateur, surnommé CZ.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Mais"
+    },
+    {
+     "t": 0.296,
+     "m": "Binance,"
+    },
+    {
+     "t": 0.83,
+     "m": "c'est"
+    },
+    {
+     "t": 1.185,
+     "m": "aussi"
+    },
+    {
+     "t": 1.541,
+     "m": "l'histoire"
+    },
+    {
+     "t": 2.193,
+     "m": "d'un"
+    },
+    {
+     "t": 2.489,
+     "m": "homme"
+    },
+    {
+     "t": 2.845,
+     "m": ":"
+    },
+    {
+     "t": 2.963,
+     "m": "son"
+    },
+    {
+     "t": 3.2,
+     "m": "fondateur,"
+    },
+    {
+     "t": 3.852,
+     "m": "surnommé"
+    },
+    {
+     "t": 4.386,
+     "m": "CZ."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "LE FONDATEUR",
+    "personnages": [
+     {
+      "nom": "ombre",
+      "x": 540,
+      "y": 1350,
+      "s": 460
+     }
+    ],
+    "legende": "« CZ »",
+    "legendeTop": 420
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "29",
+   "debut": 4744,
+   "duree": 271,
+   "audio": null,
+   "texte": "Un milliardaire qui a plaidé coupable devant la justice américaine, a fait de la prison… puis a été gracié par Donald Trump.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Un"
+    },
+    {
+     "t": 0.2,
+     "m": "milliardaire"
+    },
+    {
+     "t": 1.064,
+     "m": "qui"
+    },
+    {
+     "t": 1.33,
+     "m": "a"
+    },
+    {
+     "t": 1.463,
+     "m": "plaidé"
+    },
+    {
+     "t": 1.929,
+     "m": "coupable"
+    },
+    {
+     "t": 2.528,
+     "m": "devant"
+    },
+    {
+     "t": 2.993,
+     "m": "la"
+    },
+    {
+     "t": 3.193,
+     "m": "justice"
+    },
+    {
+     "t": 3.725,
+     "m": "américaine,"
+    },
+    {
+     "t": 4.523,
+     "m": "a"
+    },
+    {
+     "t": 4.656,
+     "m": "fait"
+    },
+    {
+     "t": 4.989,
+     "m": "de"
+    },
+    {
+     "t": 5.189,
+     "m": "la"
+    },
+    {
+     "t": 5.388,
+     "m": "prison…"
+    },
+    {
+     "t": 5.92,
+     "m": "puis"
+    },
+    {
+     "t": 6.253,
+     "m": "a"
+    },
+    {
+     "t": 6.386,
+     "m": "été"
+    },
+    {
+     "t": 6.652,
+     "m": "gracié"
+    },
+    {
+     "t": 7.118,
+     "m": "par"
+    },
+    {
+     "t": 7.384,
+     "m": "Donald"
+    },
+    {
+     "t": 7.849,
+     "m": "Trump."
+    }
+   ],
+   "sequence": {
+    "type": "chronologie",
+    "titre": "SON DOSSIER",
+    "hauteur": 600,
+    "dates": [
+     {
+      "an": "2023",
+      "label": "Plaide coupable"
+     },
+     {
+      "an": "2024",
+      "label": "Prison"
+     },
+     {
+      "an": "2025",
+      "label": "Gracié"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "30",
+   "debut": 5015,
+   "duree": 282,
+   "audio": null,
+   "texte": "Son dossier, je l'ouvre dans le prochain épisode. Abonne-toi pour ne pas le rater. Et toi, tu fais encore confiance aux cryptos ?",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Son"
+    },
+    {
+     "t": 0.267,
+     "m": "dossier,"
+    },
+    {
+     "t": 0.868,
+     "m": "je"
+    },
+    {
+     "t": 1.069,
+     "m": "l'ouvre"
+    },
+    {
+     "t": 1.603,
+     "m": "dans"
+    },
+    {
+     "t": 1.937,
+     "m": "le"
+    },
+    {
+     "t": 2.138,
+     "m": "prochain"
+    },
+    {
+     "t": 2.739,
+     "m": "épisode."
+    },
+    {
+     "t": 3.34,
+     "m": "Abonne-toi"
+    },
+    {
+     "t": 4.075,
+     "m": "pour"
+    },
+    {
+     "t": 4.409,
+     "m": "ne"
+    },
+    {
+     "t": 4.609,
+     "m": "pas"
+    },
+    {
+     "t": 4.877,
+     "m": "le"
+    },
+    {
+     "t": 5.077,
+     "m": "rater."
+    },
+    {
+     "t": 5.545,
+     "m": "Et"
+    },
+    {
+     "t": 5.745,
+     "m": "toi,"
+    },
+    {
+     "t": 6.079,
+     "m": "tu"
+    },
+    {
+     "t": 6.279,
+     "m": "fais"
+    },
+    {
+     "t": 6.613,
+     "m": "encore"
+    },
+    {
+     "t": 7.081,
+     "m": "confiance"
+    },
+    {
+     "t": 7.749,
+     "m": "aux"
+    },
+    {
+     "t": 8.016,
+     "m": "cryptos"
+    },
+    {
+     "t": 8.551,
+     "m": "?"
+    }
+   ],
+   "sequence": {
+    "type": "suite",
+    "annonce": "Partie 2 : l'homme derrière Binance",
+    "bulle": "Tu fais confiance aux cryptos ?"
    },
    "sousTitres": true
   }

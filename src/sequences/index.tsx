@@ -31,7 +31,7 @@ import {
   txt,
 } from "../theme";
 import { Lustig, PERSONNAGES, Silhouette } from "../dessins/personnages";
-import { Billet, Boite, Cadenas, Carte, Coupon, Enveloppe, Etiquette, Flacon, Gyrophare, Horloge, Cravate, Mallette, MalletteBombe, Menottes, Parachutes, PhotoPortrait, Sac, Tour, Trombone, Valise, Voiture } from "../dessins/objets";
+import { Billet, Boite, Cadenas, Carte, Coupon, Enveloppe, Etiquette, Flacon, Gyrophare, Horloge, Cravate, Mallette, MalletteBombe, Menottes, Parachutes, PhotoPortrait, Portable, Sac, Tour, Trombone, Valise, Voiture } from "../dessins/objets";
 import { DECORS } from "../dessins/decors";
 import { Avion } from "../dessins/aviation";
 import { Accordeon, FausseTete, Perceuse, Radeau } from "../dessins/evasion";
@@ -462,6 +462,7 @@ const ObjetDessin: React.FC<{ p: any; dur: number; f: number; k: number }> = ({ 
         {p.dessin === "mallette" && <Mallette x={540} y={y} s={640 * (0.8 + 0.2 * s)} chaine={prog(f, 10, 24)} />}
         {p.dessin === "flacon" && <Flacon x={540} y={y} s={420 * (0.8 + 0.2 * s)} />}
         {p.dessin === "photo" && <PhotoPortrait x={540} y={y} s={520 * (0.8 + 0.2 * s)} rot={-4 + (1 - s) * 10} legende={p.ecrit} />}
+        {p.dessin === "portable" && <Portable x={540} y={y} s={760 * (0.8 + 0.2 * s)} ecran={p.ecran} frame={f} valeur={p.ecran === "fuite" ? prog(f, 6, Math.max(20, dur * 0.7)) : 0} />}
         {p.dessin === "joconde" && <Joconde x={540} y={y - 40} s={560 * (0.8 + 0.2 * s)} vitre={p.vitre} rot={p.penche ? -6 + (1 - s) * 10 : 0} />}
         {p.dessin === "cadre_vide" && (
           <g transform={`translate(540 ${y - 40})`}>
@@ -520,7 +521,7 @@ const Compteur: React.FC<SeqProps> = ({ p, dur }) => {
       ) : (
         <>
           <Texte top={p.taille ? 760 - p.taille / 2 : 640} size={p.taille || 300} color={p.couleur === "rouge" ? ROUGE : JAUNE}>
-            {p.milliers ? Math.floor(v).toLocaleString("fr-FR").replace(/[\u202f\u00a0]/g, " ") : Math.floor(v)}
+            {p.decimales ? v.toFixed(p.decimales).replace(".", ",") : p.milliers ? Math.floor(v).toLocaleString("fr-FR").replace(/[\u202f\u00a0]/g, " ") : Math.floor(v)}
           </Texte>
           <Texte top={1000} size={80}>
             {p.unite || "jours"}

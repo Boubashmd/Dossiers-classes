@@ -1,0 +1,506 @@
+{
+ "id": "affaire-08-binance",
+ "numero": 8,
+ "titre": "Le casse de Binance",
+ "personnage": "Lazarus",
+ "photo": {
+  "fichier": "photos/affaire-08-binance.jpg",
+  "legende": "Avis de recherche du FBI",
+  "credit": "Photo : avis de recherche du FBI (domaine public)."
+ },
+ "publication": {
+  "accroche": "6,3 milliards de dollars volés à Binance… le plus gros casse de l'histoire des cryptos. Qui est derrière ? 📂 (Partie 1/2)",
+  "sources": "Al Jazeera, Inc., CoinDesk, TechCrunch, The Diplomat, Law.com, Dawn, The Peninsula.",
+  "hashtags_episode": [
+   "#binance",
+   "#crypto"
+  ],
+  "commentaire_epingle": "📂 Partie 2 : l'homme derrière Binance (plaider coupable, prison, grâce). Tu fais encore confiance aux cryptos ? 👇"
+ },
+ "couverture": {
+  "titre": "6,3 MILLIARDS VOLÉS À BINANCE",
+  "sous": "Affaire nº 8 · Partie 1/2"
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Jeudi 29 octobre, six virgule trois milliards de dollars ont disparu de Binance, la plus grande plateforme de cryptomonnaies au monde.",
+   "sequence": {
+    "type": "pochette",
+    "photo": "photos/affaire-08-binance.jpg",
+    "carteW": 620,
+    "etiquette": [
+     "AFFAIRE Nº 8",
+     "BINANCE · 2026"
+    ],
+    "legende": "Avis de recherche du FBI"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "02",
+   "texte": "Le plus gros vol de l'histoire des cryptos. Et les enquêteurs ont déjà une piste.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-08-binance.jpg",
+    "texte": "LE PLUS GROS VOL DE L'HISTOIRE DES CRYPTOS"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "generique",
+   "texte": "",
+   "duree": 2.6,
+   "sousTitres": false,
+   "sequence": {
+    "type": "generique",
+    "sousTitre": "Affaire nº 8 · Le casse de Binance (1/2)"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Binance, c'est la plateforme où des millions de personnes achètent et vendent des cryptomonnaies.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "graphique",
+    "titre": "BINANCE",
+    "legende": "Des millions d'utilisateurs"
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Ce jeudi, des utilisateurs voient des fonds quitter les portefeuilles de Binance.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "fuite",
+    "titre": "JEUDI 29 OCTOBRE",
+    "legende": "Les fonds s'en vont"
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Binance coupe tout : plus aucun retrait.",
+   "sequence": {
+    "type": "document",
+    "genre": "affiche",
+    "titre": "ALERTE",
+    "surtitre": "BINANCE",
+    "manchette": "RETRAITS SUSPENDUS",
+    "sousAffiche": "Incident de sécurité",
+    "tampon": "STOP",
+    "tamponTop": 900
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Puis tombe le chiffre : environ six virgule trois milliards de dollars, volés.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LE BUTIN",
+    "valeur": 6.3,
+    "unite": "milliards de dollars",
+    "couleur": "rouge",
+    "decimales": 1
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Plus de quatre fois le précédent record.",
+   "sequence": {
+    "type": "pyramide",
+    "mode": "duo",
+    "titre": "LE RECORD",
+    "gauche": {
+     "nom": "BYBIT",
+     "sous": "2025 · ~1,5 milliard"
+    },
+    "droite": {
+     "nom": "BINANCE",
+     "sous": "2026 · ~6,3 milliards"
+    }
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Selon Binance, tout serait parti d'un ordinateur d'employé piraté.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "alerte",
+    "titre": "LA PORTE D'ENTRÉE",
+    "legende": "Selon Binance"
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Binance promet de rembourser toutes les pertes, avec ses propres fonds.",
+   "sequence": {
+    "type": "document",
+    "genre": "lettre",
+    "titre": "LA PROMESSE",
+    "entete": "BINANCE",
+    "lignes": [
+     "Fonds des clients : protégés",
+     "Pertes : couvertes par Binance"
+    ],
+    "surligne": [
+     "protégés",
+     "couvertes"
+    ]
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Et environ trois milliards ont déjà pu être gelés.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "GELÉS",
+    "valeur": 3,
+    "unite": "milliards bloqués"
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Mais qui est derrière ? Pour la société d'enquête TRM, la piste est claire : la Corée du Nord.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "LA PISTE",
+    "points": [
+     {
+      "lon": 125.75,
+      "lat": 39.0,
+      "nom": "CORÉE DU NORD"
+     }
+    ],
+    "legende": "Selon les enquêteurs de TRM"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Plus précisément, une unité de hackers d'élite, liée au célèbre groupe Lazarus.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "LAZARUS",
+    "taille": 110,
+    "sous": "Une unité de hackers d'élite"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Et Lazarus, ce n'est pas un inconnu. Son dossier remonte à plus de dix ans.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "LE DOSSIER LAZARUS",
+    "hauteur": 620,
+    "dates": [
+     {
+      "an": "2014",
+      "label": "Sony Pictures"
+     },
+     {
+      "an": "2016",
+      "label": "Banque du Bangladesh"
+     },
+     {
+      "an": "2017",
+      "label": "WannaCry"
+     },
+     {
+      "an": "2025",
+      "label": "Bybit"
+     }
+    ]
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "14",
+   "texte": "En 2014, ils piratent Sony Pictures, à cause d'un film comique sur un complot contre Kim Jong-un.",
+   "sequence": {
+    "type": "document",
+    "genre": "affiche",
+    "titre": "2014",
+    "surtitre": "SONY PICTURES",
+    "manchette": "UN FILM QUI DÉRANGE",
+    "sousAffiche": "Une comédie sur Kim Jong-un",
+    "tampon": "PIRATÉ",
+    "tamponTop": 900
+   }
+  },
+  {
+   "id": "15",
+   "texte": "En 2016, ils visent la banque centrale du Bangladesh.",
+   "sequence": {
+    "type": "scene",
+    "decor": "banque",
+    "enseigne": "BANQUE DU BANGLADESH",
+    "titre": "2016"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Son argent dort sur un compte, à la Réserve fédérale de New York.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "LE COMPTE",
+    "points": [
+     {
+      "lon": -74,
+      "lat": 40.7,
+      "nom": "NEW YORK"
+     },
+     {
+      "lon": 90.4,
+      "lat": 23.8,
+      "nom": "BANGLADESH"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       90.4,
+       23.8
+      ],
+      "vers": [
+       -74,
+       40.7
+      ],
+      "a": 14,
+      "pointilles": true,
+      "courbe": -0.15
+     }
+    ]
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Les pirates envoient trente-cinq ordres de virement : près d'un milliard de dollars au total.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "35 VIREMENTS",
+    "valeur": 951,
+    "unite": "millions de dollars demandés"
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Mais des fautes de frappe éveillent les soupçons. Une partie des virements est bloquée.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LA FAUTE",
+    "entete": "ORDRE DE VIREMENT",
+    "lignes": [
+     "Bénéficiaire : ■■■ (faute de frappe)",
+     "Montant : ■■■ millions"
+    ],
+    "surligne": [
+     "faute"
+    ],
+    "tampon": "BLOQUÉ",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Ils repartent quand même avec quatre-vingt-un millions de dollars, envoyés vers des casinos aux Philippines.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "81 MILLIONS",
+    "points": [
+     {
+      "lon": -74,
+      "lat": 40.7,
+      "nom": "NEW YORK"
+     },
+     {
+      "lon": 121,
+      "lat": 14.6,
+      "nom": "PHILIPPINES"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       -74,
+       40.7
+      ],
+      "vers": [
+       121,
+       14.6
+      ],
+      "a": 10,
+      "couleur": "rouge",
+      "courbe": -0.2
+     }
+    ],
+    "legende": "81 millions vers des casinos"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "En 2017, leur virus WannaCry bloque des ordinateurs dans le monde entier, jusque dans des hôpitaux.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "rancon",
+    "titre": "2017 · WANNACRY",
+    "legende": "Jusque dans des hôpitaux"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "En 2018, la justice américaine inculpe un hacker nord-coréen : Park Jin Hyok.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "2018",
+    "entete": "JUSTICE AMÉRICAINE",
+    "lignes": [
+     "Accusé : Park Jin Hyok",
+     "Groupe : Lazarus"
+    ],
+    "surligne": [
+     "Park"
+    ],
+    "tampon": "INCULPÉ",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Son visage est sur un avis de recherche du FBI. Il est toujours recherché.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-08-binance.jpg",
+    "texte": "TOUJOURS RECHERCHÉ"
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Puis les cibles changent : les cryptomonnaies.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "graphique",
+    "titre": "NOUVELLE CIBLE",
+    "legende": "Les cryptos"
+   }
+  },
+  {
+   "id": "24",
+   "texte": "En 2025, la plateforme Bybit se fait voler près d'un milliard et demi de dollars.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "2025 · BYBIT",
+    "valeur": 1.5,
+    "unite": "milliard de dollars volé",
+    "couleur": "rouge",
+    "decimales": 1
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Les enquêteurs désignent… les mêmes hackers nord-coréens.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "LES MÊMES",
+    "taille": 110,
+    "sous": "Selon le FBI"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "À l'époque, c'était le plus gros vol de l'histoire des cryptos. Jusqu'à jeudi dernier.",
+   "sequence": {
+    "type": "pyramide",
+    "mode": "duo",
+    "titre": "JUSQU'À JEUDI",
+    "gauche": {
+     "nom": "BYBIT",
+     "sous": "2025"
+    },
+    "droite": {
+     "nom": "BINANCE",
+     "sous": "2026"
+    },
+    "legende": "Nouveau record",
+    "legendeCouleur": "jaune"
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Pour l'instant, Binance n'a pas confirmé qui l'a attaquée. Et elle assure que ses clients ne perdront rien.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "OÙ EN EST-ON ?",
+    "entete": "ENQUÊTE EN COURS",
+    "lignes": [
+     "Coupables : non confirmés",
+     "Pertes : couvertes (Binance)"
+    ],
+    "surligne": [
+     "confirmés"
+    ],
+    "tampon": "EN COURS",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Mais Binance, c'est aussi l'histoire d'un homme : son fondateur, surnommé CZ.",
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "LE FONDATEUR",
+    "personnages": [
+     {
+      "nom": "ombre",
+      "x": 540,
+      "y": 1350,
+      "s": 460
+     }
+    ],
+    "legende": "« CZ »",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "29",
+   "texte": "Un milliardaire qui a plaidé coupable devant la justice américaine, a fait de la prison… puis a été gracié par Donald Trump.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "SON DOSSIER",
+    "hauteur": 600,
+    "dates": [
+     {
+      "an": "2023",
+      "label": "Plaide coupable"
+     },
+     {
+      "an": "2024",
+      "label": "Prison"
+     },
+     {
+      "an": "2025",
+      "label": "Gracié"
+     }
+    ]
+   }
+  },
+  {
+   "id": "30",
+   "texte": "Son dossier, je l'ouvre dans le prochain épisode. Abonne-toi pour ne pas le rater. Et toi, tu fais encore confiance aux cryptos ?",
+   "sequence": {
+    "type": "suite",
+    "annonce": "Partie 2 : l'homme derrière Binance",
+    "bulle": "Tu fais confiance aux cryptos ?"
+   }
+  }
+ ]
+}
