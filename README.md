@@ -71,7 +71,7 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 | `scene` | Décor + personnages + accessoires | `decor`, `personnages[]`, `tampon`, `legende`, `cartes`, `billets`, `corde`, `gyrophare`, `menottes` |
 | `icones` | Bulles qui apparaissent une à une | `grand`, `items[]` |
 | `carte` | Trajet en pointillés entre des lieux | `points[]`, `voyageur` (bateau, sac, avion) |
-| `objet` | La boîte à billets (apparition, billet, vue en coupe), ou un objet dessiné | `mode`, ou `dessin` (mallette, flacon, photo, enveloppe, coupon, voiture, mallette_bombe, parachutes, cravate, perceuse, accordeon, radeau, tete) + `legende`, `tampon` |
+| `objet` | La boîte à billets (apparition, billet, vue en coupe), ou un objet dessiné | `mode`, ou `dessin` (mallette, flacon, photo, enveloppe, coupon, voiture, mallette_bombe, parachutes, cravate, perceuse, accordeon, radeau, tete, joconde, cadre_vide, malle) + `legende`, `tampon` |
 | `compteur` | Horloge ou nombre qui défile | `mode`, `valeur`, `unite`, `milliers`, `taille` |
 | `chiffre` | Somme d'argent qui monte, option « × 2 » | `valeur`, `unite`, `x2`, `sous` |
 | `document` | Coupure de presse, papier à en-tête, affiche, carte de visite, lettre, rapport, télégramme, message codé, billet d'avion (`champs[]`) | `genre`, `manchette`, `entete`, `lignes[]` (« ■ » = ligne caviardée), `surligne[]`, `tampon` |
@@ -90,8 +90,8 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 | `suspects` | Mur de silhouettes barrées une à une | `legende` |
 | `etapes` | Plusieurs séquences dans une même phrase | `etapes[]` |
 
-**Personnages** : `lustig`, `ferrailleur`, `poisson`, `passager`, `passagere`, `capone`, `shaw`, `agent`, `policier`, `victime`, `officier`, `soldat`, `pecheur`, `sansabri`, `employee`, `ponzi`, `madoff`, `markopolos`, `ombre`, `cooper`, `detenu`. Option `cravate`. Option `rot` pour incliner un personnage.
-**Décors** : `maison`, `paquebot`, `hotel`, `prison`, `consignes`, `alcatraz`, `ville`, `bureau`, `cote`, `sousmarin`, `derive`, `plage`, `tombe` (option `graver`), `banque` (option `enseigne`), `aeroport`, `cabine` (option `siege`), `piste`, `vol`, `cockpit`, `escalier`, `saut` (option `sac`), `fleuve`, `cellule` (options `perce`, `lit`), `couloir` (option `atelier`), `toit`, `baie` (option `radeau`).
+**Personnages** : `lustig`, `ferrailleur`, `poisson`, `passager`, `passagere`, `capone`, `shaw`, `agent`, `policier`, `victime`, `officier`, `soldat`, `pecheur`, `sansabri`, `employee`, `ponzi`, `madoff`, `markopolos`, `ombre`, `cooper`, `detenu`, `peruggia`, `apollinaire`, `picasso`, `marchand`. Option `cravate`. Option `rot` pour incliner un personnage.
+**Décors** : `maison`, `paquebot`, `hotel`, `prison`, `consignes`, `alcatraz`, `ville`, `bureau`, `cote`, `sousmarin`, `derive`, `plage`, `tombe` (option `graver`), `banque` (option `enseigne`), `aeroport`, `cabine` (option `siege`), `piste`, `vol`, `cockpit`, `escalier`, `saut` (option `sac`), `fleuve`, `cellule` (options `perce`, `lit`), `couloir` (option `atelier`), `toit`, `baie` (option `radeau`), `salon` (options `joconde`, `vide`, `foule`), `chambre`.
 
 ---
 

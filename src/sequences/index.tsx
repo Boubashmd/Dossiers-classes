@@ -35,6 +35,7 @@ import { Billet, Boite, Cadenas, Carte, Coupon, Enveloppe, Etiquette, Flacon, Gy
 import { DECORS } from "../dessins/decors";
 import { Avion } from "../dessins/aviation";
 import { Accordeon, FausseTete, Perceuse, Radeau } from "../dessins/evasion";
+import { Joconde, Malle } from "../dessins/louvre";
 import { Intro } from "./Generique";
 import { CarteMed } from "./CarteMed";
 import { CarteMonde, Courbe, Pyramide, Suite, Suspects } from "./Finance";
@@ -461,6 +462,15 @@ const ObjetDessin: React.FC<{ p: any; dur: number; f: number; k: number }> = ({ 
         {p.dessin === "mallette" && <Mallette x={540} y={y} s={640 * (0.8 + 0.2 * s)} chaine={prog(f, 10, 24)} />}
         {p.dessin === "flacon" && <Flacon x={540} y={y} s={420 * (0.8 + 0.2 * s)} />}
         {p.dessin === "photo" && <PhotoPortrait x={540} y={y} s={520 * (0.8 + 0.2 * s)} rot={-4 + (1 - s) * 10} legende={p.ecrit} />}
+        {p.dessin === "joconde" && <Joconde x={540} y={y - 40} s={560 * (0.8 + 0.2 * s)} vitre={p.vitre} rot={p.penche ? -6 + (1 - s) * 10 : 0} />}
+        {p.dessin === "cadre_vide" && (
+          <g transform={`translate(540 ${y - 40})`}>
+            <rect x={-210} y={-280} width={420} height={560} fill="rgba(200,230,255,.10)" stroke="#C9A24A" strokeWidth={30} />
+            <rect x={-210} y={-280} width={420} height={560} fill="none" stroke="rgba(220,240,255,.7)" strokeWidth={6} />
+            {p.empreinte && <g opacity={prog(f, 20, 12)} transform="translate(90 120)"><ellipse rx={34} ry={46} fill="none" stroke="#E6504A" strokeWidth={4} />{[12, 22, 32].map((r) => <ellipse key={r} rx={r * 0.75} ry={r} fill="none" stroke="#E6504A" strokeWidth={3} />)}</g>}
+          </g>
+        )}
+        {p.dessin === "malle" && <Malle x={540} y={y + 60} s={760} ouverte={p.ouverte ? prog(f, 10, 30) : 0} />}
         {p.dessin === "perceuse" && <Perceuse x={540} y={y} s={720 * (0.8 + 0.2 * s)} frame={f} />}
         {p.dessin === "accordeon" && <Accordeon x={540} y={y} s={640 * (0.8 + 0.2 * s)} frame={f} />}
         {p.dessin === "radeau" && <Radeau x={540} y={y} s={760 * (0.8 + 0.2 * s)} />}
@@ -644,9 +654,9 @@ const Document: React.FC<SeqProps> = ({ p, dur }) => {
           )}
           {genre === "affiche" && (
             <>
-              <div style={txt(34, "#7A3442", 700, { letterSpacing: 6 })}>BROADWAY</div>
+              <div style={txt(34, "#7A3442", 700, { letterSpacing: 6 })}>{p.surtitre ?? "BROADWAY"}</div>
               <div style={txt(84, "#2A2620", 700, { lineHeight: 1.05, margin: "20px 0" })}>{p.manchette || "LE GRAND SPECTACLE"}</div>
-              <div style={txt(30, "#2A2620", 500)}>Investisseurs recherchés</div>
+              <div style={txt(30, "#2A2620", 500)}>{p.sousAffiche ?? "Investisseurs recherchés"}</div>
             </>
           )}
           {(genre === "lettre" || genre === "rapport" || genre === "telegramme") && (

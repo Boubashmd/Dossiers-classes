@@ -1,0 +1,545 @@
+{
+ "id": "affaire-07-joconde",
+ "numero": 7,
+ "titre": "Le vol de la Joconde",
+ "personnage": "Vincenzo Peruggia",
+ "photo": {
+  "fichier": "photos/affaire-07-joconde.jpg",
+  "legende": "Photo de police · 1909",
+  "credit": "Photo : Vincenzo Peruggia, photographie de police, 1909 (domaine public)."
+ },
+ "publication": {
+  "accroche": "En 1911, la Joconde a disparu du Louvre… sous la blouse d'un ouvrier. 📂",
+  "sources": "History.com, Hérodote, History Today, Mail & Guardian, The Spokesman-Review, TheCollector.",
+  "hashtags_episode": [
+   "#joconde",
+   "#louvre"
+  ],
+  "commentaire_epingle": "📂 Prochain dossier : Abagnale (« Arrête-moi si tu peux »), l'affaire du collier de la reine ou Mata Hari ? Vote 👇"
+ },
+ "couverture": {
+  "titre": "IL A VOLÉ LA JOCONDE",
+  "sous": "Affaire nº 7 · Le vol du siècle"
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Le 21 août 1911, cet homme est entré au Louvre… et il en est ressorti avec la Joconde.",
+   "sequence": {
+    "type": "pochette",
+    "photo": "photos/affaire-07-joconde.jpg",
+    "carteW": 640,
+    "etiquette": [
+     "AFFAIRE Nº 7",
+     "PERUGGIA, Vincenzo"
+    ],
+    "legende": "Photo de police · 1909"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "02",
+   "texte": "Cachée sous sa blouse.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-07-joconde.jpg",
+    "texte": "SOUS SA BLOUSE"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "generique",
+   "texte": "",
+   "duree": 2.6,
+   "sousTitres": false,
+   "sequence": {
+    "type": "generique",
+    "sousTitre": "Affaire nº 7 · Le vol de la Joconde"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Ce lundi-là, le Louvre est fermé au public.",
+   "sequence": {
+    "type": "document",
+    "genre": "affiche",
+    "titre": "LUNDI 21 AOÛT 1911",
+    "manchette": "MUSÉE FERMÉ",
+    "surtitre": "MUSÉE DU LOUVRE",
+    "sousAffiche": "Le lundi"
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Un homme en blouse blanche, comme les employés, marche jusqu'au Salon Carré.",
+   "sequence": {
+    "type": "scene",
+    "decor": "salon",
+    "joconde": true,
+    "titre": "LE SALON CARRÉ",
+    "personnages": [
+     {
+      "nom": "peruggia",
+      "x": 220,
+      "y": 1350,
+      "s": 320
+     }
+    ]
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Il décroche la Joconde. Elle ne mesure que soixante-dix-sept centimètres sur cinquante-trois.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "joconde",
+    "vitre": true,
+    "titre": "77 × 53 CM",
+    "legende": "Plus petite qu'on ne croit"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Dans un escalier de service, il retire le tableau de son cadre vitré.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "cadre_vide",
+    "titre": "L'ESCALIER DE SERVICE",
+    "legende": "Le cadre vitré reste là"
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Et il le glisse sous sa blouse.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "peruggia",
+    "texte": "SOUS SA BLOUSE"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Puis il sort du musée, tranquillement.",
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "PARIS",
+    "personnages": [
+     {
+      "nom": "peruggia",
+      "x": 540,
+      "y": 1350,
+      "s": 340
+     }
+    ],
+    "legende": "Tranquillement",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Personne ne remarque rien. Pendant plus d'une journée.",
+   "sequence": {
+    "type": "compteur",
+    "mode": "horloge",
+    "titre": "PERSONNE NE VOIT RIEN",
+    "valeur": 26
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Le lendemain, un peintre vient copier la Joconde. À sa place : un mur vide.",
+   "sequence": {
+    "type": "scene",
+    "decor": "salon",
+    "vide": true,
+    "titre": "MARDI 22 AOÛT",
+    "legende": "Un mur vide",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "11",
+   "texte": "L'alerte est donnée. Le Louvre ferme pendant une semaine.",
+   "sequence": {
+    "type": "scene",
+    "decor": "salon",
+    "vide": true,
+    "gyrophare": true,
+    "titre": "ALERTE",
+    "tampon": "FERMÉ",
+    "tamponTop": 1000
+   }
+  },
+  {
+   "id": "12",
+   "texte": "La police fouille tout : des dizaines d'enquêteurs, des affiches, une récompense.",
+   "sequence": {
+    "type": "document",
+    "genre": "affiche",
+    "titre": "L'ENQUÊTE",
+    "manchette": "RÉCOMPENSE",
+    "surtitre": "PRÉFECTURE DE POLICE",
+    "sousAffiche": "Pour retrouver la Joconde"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Dans l'escalier, on retrouve le cadre vitré… avec une empreinte de pouce.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "cadre_vide",
+    "empreinte": true,
+    "titre": "UN INDICE",
+    "legende": "Une empreinte de pouce"
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Le célèbre Alphonse Bertillon l'analyse. Sans résultat.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "L'EXPERT",
+    "personnage": "marchand",
+    "nom": "ALPHONSE BERTILLON",
+    "infos": [
+     "Expert de la police",
+     "Spécialiste de l'identification"
+    ],
+    "extra": {}
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Alors on cherche ailleurs. Et en septembre, la police arrête… le poète Guillaume Apollinaire.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "SEPTEMBRE 1911",
+    "personnage": "apollinaire",
+    "nom": "APOLLINAIRE",
+    "infos": [
+     "Guillaume Apollinaire",
+     "Poète · arrêté"
+    ]
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Il passe plusieurs jours en prison.",
+   "sequence": {
+    "type": "scene",
+    "decor": "prison",
+    "titre": "LA SANTÉ",
+    "tampon": "EN PRISON",
+    "tamponTop": 980
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Son ami, un jeune peintre nommé Pablo Picasso, est interrogé à son tour.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "INTERROGÉ",
+    "personnage": "picasso",
+    "nom": "PABLO PICASSO",
+    "infos": [
+     "Jeune peintre",
+     "Ami d'Apollinaire"
+    ]
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Les deux sont innocents.",
+   "sequence": {
+    "type": "barre",
+    "mot": "SUSPECTS",
+    "personnage": "apollinaire",
+    "nom": "INNOCENTS"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Pendant ce temps, à la réouverture, des milliers de Parisiens font la queue… pour regarder un mur vide.",
+   "sequence": {
+    "type": "scene",
+    "decor": "salon",
+    "vide": true,
+    "foule": true,
+    "titre": "LA RÉOUVERTURE",
+    "legende": "Des milliers… devant un mur vide",
+    "legendeTop": 300
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Avant le vol, la Joconde n'était pas si célèbre. Maintenant, elle fait la une des journaux du monde entier.",
+   "sequence": {
+    "type": "document",
+    "genre": "presse",
+    "titre": "LE MONDE ENTIER EN PARLE",
+    "journal": "PRESSE · 1911",
+    "manchette": "La Joconde a disparu !"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Et le voleur ? Il vit tranquillement à Paris, dans le dixième arrondissement.",
+   "sequence": {
+    "type": "scene",
+    "decor": "chambre",
+    "titre": "PARIS 10E"
+   }
+  },
+  {
+   "id": "22",
+   "texte": "La Joconde est dans sa chambre, cachée au fond d'une malle.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "malle",
+    "ouverte": true,
+    "titre": "DANS SA CHAMBRE",
+    "legende": "Une malle au double fond"
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Il s'appelle Vincenzo Peruggia. Un ouvrier italien… qui avait aidé à fabriquer la vitrine de la Joconde.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "LE VOLEUR",
+    "personnage": "peruggia",
+    "nom": "VINCENZO PERUGGIA",
+    "infos": [
+     "Ouvrier italien",
+     "Il a posé la vitrine"
+    ]
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Ses empreintes étaient déjà dans les fichiers de la police.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-07-joconde.jpg",
+    "texte": "DÉJÀ FICHÉ"
+   }
+  },
+  {
+   "id": "25",
+   "texte": "La police l'a même interrogé. Sans rien soupçonner.",
+   "sequence": {
+    "type": "barre",
+    "mot": "SUSPECT",
+    "personnage": "peruggia",
+    "nom": "PAS SOUPÇONNÉ"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Deux ans passent.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LA JOCONDE A DISPARU",
+    "valeur": 2,
+    "unite": "ans"
+   }
+  },
+  {
+   "id": "27",
+   "texte": "En décembre 1913, un marchand d'art de Florence reçoit une lettre signée « Leonardo ».",
+   "sequence": {
+    "type": "document",
+    "genre": "lettre",
+    "titre": "FLORENCE · 1913",
+    "entete": "UNE LETTRE",
+    "lignes": [
+     "■",
+     "■",
+     "Signé : « Leonardo »"
+    ],
+    "surligne": [
+     "Leonardo"
+    ]
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Il propose de rendre la Joconde à l'Italie… contre cinq cent mille lires.",
+   "sequence": {
+    "type": "chiffre",
+    "titre": "SON PRIX",
+    "valeur": 500000,
+    "unite": "lires"
+   }
+  },
+  {
+   "id": "29",
+   "texte": "Le marchand vient avec le directeur du musée des Offices. Ils examinent le tableau : c'est bien elle.",
+   "sequence": {
+    "type": "scene",
+    "decor": "hotel",
+    "titre": "FLORENCE",
+    "personnages": [
+     {
+      "nom": "marchand",
+      "x": 300,
+      "y": 1350,
+      "s": 300
+     },
+     {
+      "nom": "peruggia",
+      "x": 540,
+      "y": 1350,
+      "s": 300
+     },
+     {
+      "nom": "agent",
+      "x": 780,
+      "y": 1350,
+      "s": 300,
+      "miroir": true
+     }
+    ],
+    "tampon": "AUTHENTIQUE",
+    "tamponTop": 420
+   }
+  },
+  {
+   "id": "30",
+   "texte": "Le jour même, Peruggia est arrêté à son hôtel.",
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "gyrophare": true,
+    "titre": "ARRÊTÉ",
+    "personnages": [
+     {
+      "nom": "policier",
+      "x": 300,
+      "y": 1350,
+      "s": 300
+     },
+     {
+      "nom": "peruggia",
+      "x": 540,
+      "y": 1350,
+      "s": 300
+     },
+     {
+      "nom": "policier",
+      "x": 780,
+      "y": 1350,
+      "s": 300,
+      "miroir": true
+     }
+    ],
+    "tampon": "ARRÊTÉ",
+    "tamponTop": 420
+   }
+  },
+  {
+   "id": "31",
+   "texte": "Son motif ? Rendre à l'Italie un tableau qu'il croyait volé par Napoléon.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "SON MOTIF",
+    "fleches": [
+     {
+      "de": [
+       2.3,
+       48.9
+      ],
+      "vers": [
+       11.25,
+       43.8
+      ],
+      "a": 6,
+      "label": "RETOUR EN ITALIE ?",
+      "courbe": 0.2
+     }
+    ],
+    "lieux": [
+     {
+      "nom": "PARIS",
+      "lon": 2.3,
+      "lat": 48.9,
+      "a": 0
+     },
+     {
+      "nom": "FLORENCE",
+      "lon": 11.25,
+      "lat": 43.8,
+      "style": "cible",
+      "a": 20,
+      "dessous": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "32",
+   "texte": "Erreur : c'est Léonard de Vinci lui-même qui l'avait apportée en France.",
+   "sequence": {
+    "type": "barre",
+    "mot": "NAPOLÉON",
+    "personnage": "peruggia",
+    "nom": "C'EST LÉONARD QUI L'A APPORTÉE"
+   }
+  },
+  {
+   "id": "33",
+   "texte": "Il est condamné à un an et quinze jours de prison. Il n'en fera que sept mois.",
+   "sequence": {
+    "type": "scene",
+    "decor": "prison",
+    "titre": "1914",
+    "tampon": "7 MOIS",
+    "tamponTop": 980
+   }
+  },
+  {
+   "id": "34",
+   "texte": "En janvier 1914, la Joconde revient au Louvre.",
+   "sequence": {
+    "type": "scene",
+    "decor": "salon",
+    "joconde": true,
+    "titre": "JANVIER 1914",
+    "legende": "Le retour",
+    "legendeTop": 300
+   }
+  },
+  {
+   "id": "35",
+   "texte": "Et cette fois, des foules immenses viennent la voir.",
+   "sequence": {
+    "type": "scene",
+    "decor": "salon",
+    "joconde": true,
+    "foule": true,
+    "titre": "LA STAR DU LOUVRE"
+   }
+  },
+  {
+   "id": "36",
+   "texte": "Le vol qui devait la faire disparaître… l'a rendue immortelle.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "AFFAIRE Nº 7",
+     "PERUGGIA, Vincenzo"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "37",
+   "texte": "Quelle affaire veux-tu que j'ouvre la prochaine fois ? Écris-la en commentaire. Et abonne-toi pour ne rater aucun dossier.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "✍️ Ton prochain dossier ?"
+   }
+  }
+ ]
+}
