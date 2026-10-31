@@ -222,6 +222,7 @@ export const PERSONNAGES: Record<string, Partial<SilhouetteProps>> = {
   apollinaire: { chapeau: "melon", couleur: "#7F93AE" },
   picasso: { chapeau: "aucun", couleur: "#C9B48A", rayures: true },
   marchand: { chapeau: "fedora", couleur: "#9AA8BD", lunettes: true },
+  cz: { chapeau: "aucun", couleur: "#7F93AE" },
   detenu: { chapeau: "aucun", couleur: "#C9C2B2" },
   cooper: { chapeau: "aucun", couleur: "#5E6E86", lunettes: true, cravate: true },
   ombre: { chapeau: "fedora", couleur: "#22324A", ruban: "#22324A" },

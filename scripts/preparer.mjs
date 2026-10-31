@@ -53,6 +53,9 @@ if (episode.photo?.fichier) {
     console.error(`❌ Photo introuvable : public/${episode.photo.fichier}. Ajoute-la dans le dépôt (voir le script de mise à jour).`);
     process.exit(1);
   }
+  // Crédit écrit par le script de mise à jour (auteur + licence de la photo), s'il existe
+  const fichierCredit = chemin.replace(/\.[a-z]+$/i, "-credit.txt");
+  if (fs.existsSync(fichierCredit)) episode.photo.credit = fs.readFileSync(fichierCredit, "utf8").trim();
   const t = tailleImage(chemin);
   if (t) {
     const visageAuto = { x: Math.round(t.w / 2), y: Math.round(t.h * 0.45) };

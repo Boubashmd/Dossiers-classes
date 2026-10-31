@@ -1,0 +1,536 @@
+{
+ "id": "affaire-09-cz",
+ "numero": 9,
+ "titre": "L'homme derrière Binance",
+ "personnage": "Changpeng Zhao",
+ "photo": {
+  "fichier": "photos/affaire-09-cz.jpg",
+  "legende": "Changpeng Zhao, dit « CZ »",
+  "credit": "Photo : Changpeng Zhao, Wikimedia Commons (licence libre)."
+ },
+ "publication": {
+  "accroche": "Des burgers chez McDonald's à la prison… puis gracié par Donald Trump : l'histoire du fondateur de Binance. 📂 (Partie 2/2)",
+  "sources": "South China Morning Post, crypto.news, CoinMarketCap, Engadget, Kitco, Euronews, The Week, Business Today, TechCrunch, Al Jazeera.",
+  "hashtags_episode": [
+   "#binance",
+   "#crypto"
+  ],
+  "commentaire_epingle": "📂 Prochain dossier : Abagnale (« Arrête-moi si tu peux »), le collier de la reine ou Mata Hari ? Vote 👇"
+ },
+ "couverture": {
+  "titre": "DE MCDO À LA PRISON… PUIS GRACIÉ",
+  "sous": "Affaire nº 9 · Le fondateur de Binance · 2/2"
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Cet homme a fondé la plus grande plateforme de cryptomonnaies au monde.",
+   "sequence": {
+    "type": "pochette",
+    "photo": "photos/affaire-09-cz.jpg",
+    "carteW": 620,
+    "etiquette": [
+     "AFFAIRE Nº 9",
+     "ZHAO, Changpeng"
+    ],
+    "legende": "Changpeng Zhao, dit « CZ »"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "02",
+   "texte": "Puis il est allé en prison. Et un président l'a gracié.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-09-cz.jpg",
+    "texte": "PRISON… PUIS GRÂCE"
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "generique",
+   "texte": "",
+   "duree": 2.6,
+   "sousTitres": false,
+   "sequence": {
+    "type": "generique",
+    "sousTitre": "Affaire nº 9 · L'homme derrière Binance (2/2)"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Dans l'épisode précédent : six virgule trois milliards de dollars volés à Binance.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "ÉPISODE PRÉCÉDENT",
+    "valeur": 6.3,
+    "decimales": 1,
+    "unite": "milliards volés à Binance",
+    "couleur": "rouge"
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Aujourd'hui, on ouvre le dossier de son fondateur : Changpeng Zhao, surnommé CZ.",
+   "sequence": {
+    "type": "fiche",
+    "titre": "LE FONDATEUR",
+    "personnage": "cz",
+    "nom": "« CZ »",
+    "infos": [
+     "Changpeng Zhao",
+     "Fondateur de Binance"
+    ]
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Il naît en 1977, dans la province du Jiangsu, en Chine.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "1977",
+    "points": [
+     {
+      "lon": 119.8,
+      "lat": 32.9,
+      "nom": "JIANGSU, CHINE"
+     }
+    ]
+   }
+  },
+  {
+   "id": "06",
+   "texte": "À douze ans, il part avec sa famille à Vancouver, au Canada.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "À 12 ANS",
+    "points": [
+     {
+      "lon": 119.8,
+      "lat": 32.9,
+      "nom": "CHINE"
+     },
+     {
+      "lon": -123.1,
+      "lat": 49.3,
+      "nom": "VANCOUVER"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       119.8,
+       32.9
+      ],
+      "vers": [
+       -123.1,
+       49.3
+      ],
+      "a": 12,
+      "courbe": 0.15
+     }
+    ]
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Pour aider les siens, il retourne des burgers… chez McDonald's.",
+   "sequence": {
+    "type": "icones",
+    "titre": "SON PREMIER JOB",
+    "items": [
+     {
+      "label": "BURGERS",
+      "sous": "chez McDonald's"
+     }
+    ]
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Puis il étudie l'informatique à l'université McGill, à Montréal.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "graphique",
+    "titre": "MONTRÉAL",
+    "legende": "Études d'informatique"
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Il code des logiciels de Bourse, de Tokyo à New York.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "LA BOURSE",
+    "points": [
+     {
+      "lon": 139.7,
+      "lat": 35.7,
+      "nom": "TOKYO"
+     },
+     {
+      "lon": -74,
+      "lat": 40.7,
+      "nom": "NEW YORK"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       139.7,
+       35.7
+      ],
+      "vers": [
+       -74,
+       40.7
+      ],
+      "a": 10,
+      "courbe": 0.12,
+      "pointilles": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "10",
+   "texte": "En 2013, lors d'une partie de poker, un ami lui parle du Bitcoin.",
+   "sequence": {
+    "type": "scene",
+    "decor": "bureau",
+    "cartes": true,
+    "titre": "2013",
+    "legende": "Une partie de poker",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "10b",
+   "texte": "Il rejoint alors les premières entreprises du Bitcoin, comme OKCoin, en Chine.",
+   "sequence": {
+    "type": "icones",
+    "titre": "LES DÉBUTS",
+    "items": [
+     {
+      "label": "OKCOIN",
+      "sous": "plateforme chinoise"
+     },
+     {
+      "label": "BITCOIN",
+      "sous": "le déclic"
+     }
+    ]
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Il y croit tellement… qu'il vend son appartement de Shanghai pour en acheter.",
+   "sequence": {
+    "type": "document",
+    "genre": "affiche",
+    "titre": "TOUT SUR LE BITCOIN",
+    "surtitre": "SHANGHAI",
+    "manchette": "APPARTEMENT VENDU",
+    "sousAffiche": "Pour acheter des bitcoins",
+    "tampon": "VENDU",
+    "tamponTop": 900
+   }
+  },
+  {
+   "id": "12",
+   "texte": "En 2017, il lance Binance.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "graphique",
+    "titre": "2017",
+    "legende": "Naissance de Binance"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "En quelques mois, c'est la plus grande plateforme de cryptos du monde.",
+   "sequence": {
+    "type": "courbe",
+    "titre": "UNE ASCENSION ÉCLAIR",
+    "labelMarche": "LES AUTRES",
+    "labelDroite": "BINANCE",
+    "legende": "Numéro 1 mondial",
+    "legendeCouleur": "jaune"
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Et lui devient l'un des hommes les plus riches de la planète.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "MILLIARDAIRE",
+    "valeur": 96,
+    "unite": "milliards de dollars",
+    "legende": "sa fortune selon Bloomberg, en 2022"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Mais aux États-Unis, la justice enquête.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "ENQUÊTE",
+    "entete": "JUSTICE AMÉRICAINE",
+    "lignes": [
+     "Dossier : Binance",
+     "Statut : enquête"
+    ],
+    "tampon": "ENQUÊTE",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Selon les procureurs, Binance n'a pas mis en place les contrôles obligatoires contre le blanchiment d'argent.",
+   "sequence": {
+    "type": "barre",
+    "mot": "CONTRÔLES",
+    "personnage": "cz",
+    "nom": "SELON LES PROCUREURS"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Des transactions liées à des criminels, et même à des groupes terroristes, ont pu passer par la plateforme.",
+   "sequence": {
+    "type": "flux",
+    "titre": "L'ACCUSATION",
+    "de": "ombre",
+    "vers": "cz",
+    "objet": "sac",
+    "lettre": "$"
+   }
+  },
+  {
+   "id": "18",
+   "texte": "En novembre 2023, CZ plaide coupable.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "NOVEMBRE 2023",
+    "entete": "TRIBUNAL FÉDÉRAL · SEATTLE",
+    "lignes": [
+     "Accusé : Changpeng Zhao",
+     "Plaidoyer : coupable"
+    ],
+    "surligne": [
+     "coupable"
+    ],
+    "tampon": "COUPABLE",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Binance accepte de payer quatre virgule trois milliards de dollars. Lui, cinquante millions.",
+   "sequence": {
+    "type": "etapes",
+    "etapes": [
+     {
+      "type": "compteur",
+      "titre": "L'AMENDE DE BINANCE",
+      "valeur": 4.3,
+      "decimales": 1,
+      "unite": "milliards de dollars",
+      "couleur": "rouge",
+      "poids": 1.2
+     },
+     {
+      "type": "compteur",
+      "titre": "SON AMENDE À LUI",
+      "valeur": 50,
+      "unite": "millions de dollars",
+      "couleur": "rouge",
+      "poids": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Et il doit quitter la tête de son entreprise.",
+   "sequence": {
+    "type": "barre",
+    "mot": "PDG",
+    "personnage": "cz",
+    "nom": "DÉMISSION"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Les procureurs réclament trois ans de prison.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LES PROCUREURS",
+    "valeur": 36,
+    "unite": "mois de prison demandés"
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Le juge lui en donne… quatre mois.",
+   "sequence": {
+    "type": "scene",
+    "decor": "prison",
+    "titre": "AVRIL 2024",
+    "tampon": "4 MOIS",
+    "tamponTop": 980
+   }
+  },
+  {
+   "id": "23",
+   "texte": "En septembre 2024, il sort de prison.",
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "SEPTEMBRE 2024",
+    "personnages": [
+     {
+      "nom": "cz",
+      "x": 540,
+      "y": 1350,
+      "s": 360
+     }
+    ],
+    "legende": "Libre",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Et le 23 octobre 2025, coup de théâtre : Donald Trump le gracie.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "23 OCTOBRE 2025",
+    "entete": "MAISON-BLANCHE",
+    "lignes": [
+     "Grâce présidentielle",
+     "Bénéficiaire : Changpeng Zhao"
+    ],
+    "surligne": [
+     "Grâce"
+    ],
+    "tampon": "GRACIÉ",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Pour la Maison-Blanche, il était victime de la « guerre contre les cryptos » du gouvernement précédent.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "« GUERRE AUX CRYPTOS »",
+    "taille": 76,
+    "sous": "La version de la Maison-Blanche"
+   }
+  },
+  {
+   "id": "25b",
+   "texte": "Selon elle, il n'y avait « ni fraude, ni victime identifiée ».",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "« NI FRAUDE, NI VICTIME »",
+    "taille": 72,
+    "sous": "Selon la Maison-Blanche"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "La presse américaine, elle, rappelle les liens d'affaires entre Binance et l'entreprise crypto de la famille Trump.",
+   "sequence": {
+    "type": "document",
+    "genre": "presse",
+    "titre": "LA POLÉMIQUE",
+    "journal": "PRESSE AMÉRICAINE · 2025",
+    "manchette": "Binance et la famille Trump : des liens d'affaires"
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Un an plus tard, Binance subit le plus gros vol de l'histoire des cryptos.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "SON PARCOURS",
+    "hauteur": 620,
+    "dates": [
+     {
+      "an": "2017",
+      "label": "Crée Binance"
+     },
+     {
+      "an": "2023",
+      "label": "Plaide coupable"
+     },
+     {
+      "an": "2025",
+      "label": "Gracié"
+     },
+     {
+      "an": "2026",
+      "label": "Le vol géant"
+     }
+    ]
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "28",
+   "texte": "CZ ne dirige plus la plateforme. Mais c'est lui qui annonce, sur les réseaux, qu'elle a sans doute été piratée.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "alerte",
+    "titre": "OCTOBRE 2026",
+    "legende": "« Sans doute piratée »"
+   }
+  },
+  {
+   "id": "29",
+   "texte": "Et il assure que les clients seront couverts.",
+   "sequence": {
+    "type": "document",
+    "genre": "lettre",
+    "titre": "SA PROMESSE",
+    "entete": "MESSAGE DE CZ",
+    "lignes": [
+     "■",
+     "Les clients seront couverts",
+     "■"
+    ],
+    "surligne": [
+     "couverts"
+    ]
+   }
+  },
+  {
+   "id": "30",
+   "texte": "Des burgers à la prison, puis à la grâce présidentielle… l'histoire de CZ est loin d'être terminée.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "AFFAIRE Nº 9",
+     "ZHAO, Changpeng"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "31",
+   "texte": "Quelle affaire veux-tu que j'ouvre la prochaine fois ? Écris-la en commentaire. Et abonne-toi pour ne rater aucun dossier.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "✍️ Ton prochain dossier ?"
+   }
+  }
+ ]
+}

@@ -1,12 +1,12 @@
 {
- "episode": "affaire-08-binance",
+ "episode": "affaire-09-cz",
  "fps": 30,
- "total": 5312,
+ "total": 5210,
  "avecVoix": false,
  "couverture": {
-  "titre": "6,3 MILLIARDS VOLÉS À BINANCE",
-  "sous": "Affaire nº 8 · Partie 1/2",
-  "photo": "photos/affaire-08-binance.jpg",
+  "titre": "DE MCDO À LA PRISON… PUIS GRACIÉ",
+  "sous": "Affaire nº 9 · Le fondateur de Binance · 2/2",
+  "photo": "photos/affaire-09-cz.jpg",
   "visage": {
    "x": 300,
    "y": 360
@@ -17,104 +17,68 @@
   {
    "id": "01",
    "debut": 0,
-   "duree": 259,
+   "duree": 155,
    "audio": null,
-   "texte": "Jeudi 29 octobre, six virgule trois milliards de dollars ont disparu de Binance, la plus grande plateforme de cryptomonnaies au monde.",
+   "texte": "Cet homme a fondé la plus grande plateforme de cryptomonnaies au monde.",
    "mots": [
     {
      "t": 0,
-     "m": "Jeudi"
+     "m": "Cet"
     },
     {
-     "t": 0.353,
-     "m": "29"
+     "t": 0.257,
+     "m": "homme"
     },
     {
-     "t": 0.53,
-     "m": "octobre,"
+     "t": 0.642,
+     "m": "a"
     },
     {
-     "t": 1.059,
-     "m": "six"
+     "t": 0.77,
+     "m": "fondé"
     },
     {
-     "t": 1.295,
-     "m": "virgule"
-    },
-    {
-     "t": 1.766,
-     "m": "trois"
-    },
-    {
-     "t": 2.119,
-     "m": "milliards"
-    },
-    {
-     "t": 2.707,
-     "m": "de"
-    },
-    {
-     "t": 2.884,
-     "m": "dollars"
-    },
-    {
-     "t": 3.355,
-     "m": "ont"
-    },
-    {
-     "t": 3.59,
-     "m": "disparu"
-    },
-    {
-     "t": 4.061,
-     "m": "de"
-    },
-    {
-     "t": 4.238,
-     "m": "Binance,"
-    },
-    {
-     "t": 4.768,
+     "t": 1.156,
      "m": "la"
     },
     {
-     "t": 4.944,
+     "t": 1.348,
      "m": "plus"
     },
     {
-     "t": 5.238,
+     "t": 1.669,
      "m": "grande"
     },
     {
-     "t": 5.65,
+     "t": 2.119,
      "m": "plateforme"
     },
     {
-     "t": 6.298,
+     "t": 2.825,
      "m": "de"
     },
     {
-     "t": 6.474,
+     "t": 3.018,
      "m": "cryptomonnaies"
     },
     {
-     "t": 7.357,
+     "t": 3.981,
      "m": "au"
     },
     {
-     "t": 7.534,
+     "t": 4.173,
      "m": "monde."
     }
    ],
    "sequence": {
     "type": "pochette",
-    "photo": "photos/affaire-08-binance.jpg",
+    "photo": "photos/affaire-09-cz.jpg",
     "carteW": 620,
     "etiquette": [
-     "AFFAIRE Nº 8",
-     "BINANCE · 2026"
+     "AFFAIRE Nº 9",
+     "ZHAO, Changpeng"
     ],
-    "legende": "Avis de recherche du FBI",
+    "legende": "Changpeng Zhao, dit « CZ »",
     "srcW": 600,
     "srcH": 800,
     "visage": {
@@ -126,76 +90,60 @@
   },
   {
    "id": "02",
-   "debut": 259,
-   "duree": 190,
+   "debut": 155,
+   "duree": 144,
    "audio": null,
-   "texte": "Le plus gros vol de l'histoire des cryptos. Et les enquêteurs ont déjà une piste.",
+   "texte": "Puis il est allé en prison. Et un président l'a gracié.",
    "mots": [
     {
      "t": 0,
-     "m": "Le"
+     "m": "Puis"
     },
     {
-     "t": 0.21,
-     "m": "plus"
+     "t": 0.38,
+     "m": "il"
     },
     {
-     "t": 0.559,
-     "m": "gros"
+     "t": 0.608,
+     "m": "est"
     },
     {
-     "t": 0.908,
-     "m": "vol"
+     "t": 0.911,
+     "m": "allé"
     },
     {
-     "t": 1.188,
-     "m": "de"
+     "t": 1.291,
+     "m": "en"
     },
     {
-     "t": 1.398,
-     "m": "l'histoire"
+     "t": 1.519,
+     "m": "prison."
     },
     {
-     "t": 2.166,
-     "m": "des"
-    },
-    {
-     "t": 2.446,
-     "m": "cryptos."
-    },
-    {
-     "t": 3.075,
+     "t": 2.127,
      "m": "Et"
     },
     {
-     "t": 3.285,
-     "m": "les"
+     "t": 2.355,
+     "m": "un"
     },
     {
-     "t": 3.564,
-     "m": "enquêteurs"
+     "t": 2.583,
+     "m": "président"
     },
     {
-     "t": 4.333,
-     "m": "ont"
+     "t": 3.342,
+     "m": "l'a"
     },
     {
-     "t": 4.612,
-     "m": "déjà"
-    },
-    {
-     "t": 4.962,
-     "m": "une"
-    },
-    {
-     "t": 5.241,
-     "m": "piste."
+     "t": 3.646,
+     "m": "gracié."
     }
    ],
    "sequence": {
     "type": "choc",
-    "photo": "photos/affaire-08-binance.jpg",
-    "texte": "LE PLUS GROS VOL DE L'HISTOIRE DES CRYPTOS",
+    "photo": "photos/affaire-09-cz.jpg",
+    "texte": "PRISON… PUIS GRÂCE",
     "srcW": 600,
     "srcH": 800,
     "visage": {
@@ -207,847 +155,767 @@
   },
   {
    "id": "generique",
-   "debut": 449,
+   "debut": 299,
    "duree": 78,
    "audio": null,
    "texte": "",
    "mots": [],
    "sequence": {
     "type": "generique",
-    "sousTitre": "Affaire nº 8 · Le casse de Binance (1/2)"
+    "sousTitre": "Affaire nº 9 · L'homme derrière Binance (2/2)"
    },
    "sousTitres": false
   },
   {
    "id": "03",
-   "debut": 527,
-   "duree": 179,
+   "debut": 377,
+   "duree": 167,
    "audio": null,
-   "texte": "Binance, c'est la plateforme où des millions de personnes achètent et vendent des cryptomonnaies.",
+   "texte": "Dans l'épisode précédent : six virgule trois milliards de dollars volés à Binance.",
    "mots": [
     {
      "t": 0,
-     "m": "Binance,"
+     "m": "Dans"
     },
     {
-     "t": 0.492,
-     "m": "c'est"
+     "t": 0.301,
+     "m": "l'épisode"
     },
     {
-     "t": 0.821,
-     "m": "la"
+     "t": 0.902,
+     "m": "précédent"
     },
     {
-     "t": 0.985,
-     "m": "plateforme"
+     "t": 1.504,
+     "m": ":"
     },
     {
-     "t": 1.586,
-     "m": "où"
+     "t": 1.624,
+     "m": "six"
     },
     {
-     "t": 1.751,
-     "m": "des"
+     "t": 1.864,
+     "m": "virgule"
     },
     {
-     "t": 1.969,
-     "m": "millions"
+     "t": 2.346,
+     "m": "trois"
     },
     {
-     "t": 2.462,
+     "t": 2.707,
+     "m": "milliards"
+    },
+    {
+     "t": 3.308,
      "m": "de"
     },
     {
-     "t": 2.626,
-     "m": "personnes"
+     "t": 3.488,
+     "m": "dollars"
     },
     {
-     "t": 3.173,
-     "m": "achètent"
+     "t": 3.97,
+     "m": "volés"
     },
     {
-     "t": 3.665,
-     "m": "et"
+     "t": 4.33,
+     "m": "à"
     },
     {
-     "t": 3.829,
-     "m": "vendent"
-    },
-    {
-     "t": 4.267,
-     "m": "des"
-    },
-    {
-     "t": 4.486,
-     "m": "cryptomonnaies."
+     "t": 4.451,
+     "m": "Binance."
     }
    ],
    "sequence": {
-    "type": "objet",
-    "dessin": "portable",
-    "ecran": "graphique",
-    "titre": "BINANCE",
-    "legende": "Des millions d'utilisateurs"
+    "type": "compteur",
+    "titre": "ÉPISODE PRÉCÉDENT",
+    "valeur": 6.3,
+    "decimales": 1,
+    "unite": "milliards volés à Binance",
+    "couleur": "rouge"
    },
    "sousTitres": true
   },
   {
    "id": "04",
-   "debut": 706,
-   "duree": 155,
+   "debut": 544,
+   "duree": 167,
    "audio": null,
-   "texte": "Ce jeudi, des utilisateurs voient des fonds quitter les portefeuilles de Binance.",
+   "texte": "Aujourd'hui, on ouvre le dossier de son fondateur : Changpeng Zhao, surnommé CZ.",
    "mots": [
     {
      "t": 0,
-     "m": "Ce"
+     "m": "Aujourd'hui,"
     },
     {
-     "t": 0.169,
-     "m": "jeudi,"
+     "t": 0.801,
+     "m": "on"
     },
     {
-     "t": 0.564,
-     "m": "des"
+     "t": 0.986,
+     "m": "ouvre"
     },
     {
-     "t": 0.789,
-     "m": "utilisateurs"
+     "t": 1.356,
+     "m": "le"
     },
     {
-     "t": 1.522,
-     "m": "voient"
+     "t": 1.541,
+     "m": "dossier"
     },
     {
-     "t": 1.917,
-     "m": "des"
-    },
-    {
-     "t": 2.142,
-     "m": "fonds"
-    },
-    {
-     "t": 2.481,
-     "m": "quitter"
-    },
-    {
-     "t": 2.932,
-     "m": "les"
-    },
-    {
-     "t": 3.157,
-     "m": "portefeuilles"
-    },
-    {
-     "t": 3.946,
+     "t": 2.034,
      "m": "de"
     },
     {
-     "t": 4.115,
-     "m": "Binance."
+     "t": 2.219,
+     "m": "son"
+    },
+    {
+     "t": 2.465,
+     "m": "fondateur"
+    },
+    {
+     "t": 3.081,
+     "m": ":"
+    },
+    {
+     "t": 3.205,
+     "m": "Changpeng"
+    },
+    {
+     "t": 3.821,
+     "m": "Zhao,"
+    },
+    {
+     "t": 4.191,
+     "m": "surnommé"
+    },
+    {
+     "t": 4.745,
+     "m": "CZ."
     }
    ],
    "sequence": {
-    "type": "objet",
-    "dessin": "portable",
-    "ecran": "fuite",
-    "titre": "JEUDI 29 OCTOBRE",
-    "legende": "Les fonds s'en vont"
+    "type": "fiche",
+    "titre": "LE FONDATEUR",
+    "personnage": "cz",
+    "nom": "« CZ »",
+    "infos": [
+     "Changpeng Zhao",
+     "Fondateur de Binance"
+    ]
    },
    "sousTitres": true
   },
   {
    "id": "05",
-   "debut": 861,
-   "duree": 98,
+   "debut": 711,
+   "duree": 144,
    "audio": null,
-   "texte": "Binance coupe tout : plus aucun retrait.",
+   "texte": "Il naît en 1977, dans la province du Jiangsu, en Chine.",
    "mots": [
     {
      "t": 0,
-     "m": "Binance"
+     "m": "Il"
     },
     {
-     "t": 0.542,
-     "m": "coupe"
+     "t": 0.228,
+     "m": "naît"
     },
     {
-     "t": 0.948,
-     "m": "tout"
+     "t": 0.608,
+     "m": "en"
     },
     {
-     "t": 1.287,
-     "m": ":"
+     "t": 0.836,
+     "m": "1977,"
     },
     {
-     "t": 1.422,
-     "m": "plus"
+     "t": 1.291,
+     "m": "dans"
     },
     {
-     "t": 1.761,
-     "m": "aucun"
+     "t": 1.671,
+     "m": "la"
     },
     {
-     "t": 2.167,
-     "m": "retrait."
+     "t": 1.899,
+     "m": "province"
+    },
+    {
+     "t": 2.583,
+     "m": "du"
+    },
+    {
+     "t": 2.81,
+     "m": "Jiangsu,"
+    },
+    {
+     "t": 3.494,
+     "m": "en"
+    },
+    {
+     "t": 3.722,
+     "m": "Chine."
     }
    ],
    "sequence": {
-    "type": "document",
-    "genre": "affiche",
-    "titre": "ALERTE",
-    "surtitre": "BINANCE",
-    "manchette": "RETRAITS SUSPENDUS",
-    "sousAffiche": "Incident de sécurité",
-    "tampon": "STOP",
-    "tamponTop": 900
+    "type": "carte_monde",
+    "titre": "1977",
+    "points": [
+     {
+      "lon": 119.8,
+      "lat": 32.9,
+      "nom": "JIANGSU, CHINE"
+     }
+    ]
    },
    "sousTitres": true
   },
   {
    "id": "06",
-   "debut": 959,
-   "duree": 167,
+   "debut": 855,
+   "duree": 155,
    "audio": null,
-   "texte": "Puis tombe le chiffre : environ six virgule trois milliards de dollars, volés.",
+   "texte": "À douze ans, il part avec sa famille à Vancouver, au Canada.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "À"
+    },
+    {
+     "t": 0.152,
+     "m": "douze"
+    },
+    {
+     "t": 0.606,
+     "m": "ans,"
+    },
+    {
+     "t": 0.985,
+     "m": "il"
+    },
+    {
+     "t": 1.213,
+     "m": "part"
+    },
+    {
+     "t": 1.591,
+     "m": "avec"
+    },
+    {
+     "t": 1.97,
+     "m": "sa"
+    },
+    {
+     "t": 2.198,
+     "m": "famille"
+    },
+    {
+     "t": 2.804,
+     "m": "à"
+    },
+    {
+     "t": 2.956,
+     "m": "Vancouver,"
+    },
+    {
+     "t": 3.789,
+     "m": "au"
+    },
+    {
+     "t": 4.017,
+     "m": "Canada."
+    }
+   ],
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "À 12 ANS",
+    "points": [
+     {
+      "lon": 119.8,
+      "lat": 32.9,
+      "nom": "CHINE"
+     },
+     {
+      "lon": -123.1,
+      "lat": 49.3,
+      "nom": "VANCOUVER"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       119.8,
+       32.9
+      ],
+      "vers": [
+       -123.1,
+       49.3
+      ],
+      "a": 12,
+      "courbe": 0.15
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "07",
+   "debut": 1010,
+   "duree": 132,
+   "audio": null,
+   "texte": "Pour aider les siens, il retourne des burgers… chez McDonald's.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Pour"
+    },
+    {
+     "t": 0.303,
+     "m": "aider"
+    },
+    {
+     "t": 0.668,
+     "m": "les"
+    },
+    {
+     "t": 0.91,
+     "m": "siens,"
+    },
+    {
+     "t": 1.335,
+     "m": "il"
+    },
+    {
+     "t": 1.517,
+     "m": "retourne"
+    },
+    {
+     "t": 2.064,
+     "m": "des"
+    },
+    {
+     "t": 2.306,
+     "m": "burgers…"
+    },
+    {
+     "t": 2.853,
+     "m": "chez"
+    },
+    {
+     "t": 3.156,
+     "m": "McDonald's."
+    }
+   ],
+   "sequence": {
+    "type": "icones",
+    "titre": "SON PREMIER JOB",
+    "items": [
+     {
+      "label": "BURGERS",
+      "sous": "chez McDonald's"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "08",
+   "debut": 1142,
+   "duree": 121,
+   "audio": null,
+   "texte": "Puis il étudie l'informatique à l'université McGill, à Montréal.",
    "mots": [
     {
      "t": 0,
      "m": "Puis"
     },
     {
-     "t": 0.316,
-     "m": "tombe"
+     "t": 0.27,
+     "m": "il"
     },
     {
-     "t": 0.695,
-     "m": "le"
+     "t": 0.433,
+     "m": "étudie"
     },
     {
-     "t": 0.885,
-     "m": "chiffre"
+     "t": 0.811,
+     "m": "l'informatique"
     },
     {
-     "t": 1.39,
-     "m": ":"
+     "t": 1.622,
+     "m": "à"
     },
     {
-     "t": 1.517,
-     "m": "environ"
+     "t": 1.73,
+     "m": "l'université"
     },
     {
-     "t": 2.022,
-     "m": "six"
+     "t": 2.434,
+     "m": "McGill,"
     },
     {
-     "t": 2.275,
-     "m": "virgule"
+     "t": 2.866,
+     "m": "à"
     },
     {
-     "t": 2.78,
-     "m": "trois"
-    },
-    {
-     "t": 3.159,
-     "m": "milliards"
-    },
-    {
-     "t": 3.791,
-     "m": "de"
-    },
-    {
-     "t": 3.981,
-     "m": "dollars,"
-    },
-    {
-     "t": 4.55,
-     "m": "volés."
-    }
-   ],
-   "sequence": {
-    "type": "compteur",
-    "titre": "LE BUTIN",
-    "valeur": 6.3,
-    "unite": "milliards de dollars",
-    "couleur": "rouge",
-    "decimales": 1
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "07",
-   "debut": 1126,
-   "duree": 98,
-   "audio": null,
-   "texte": "Plus de quatre fois le précédent record.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Plus"
-    },
-    {
-     "t": 0.339,
-     "m": "de"
-    },
-    {
-     "t": 0.542,
-     "m": "quatre"
-    },
-    {
-     "t": 1.016,
-     "m": "fois"
-    },
-    {
-     "t": 1.354,
-     "m": "le"
-    },
-    {
-     "t": 1.558,
-     "m": "précédent"
-    },
-    {
-     "t": 2.235,
-     "m": "record."
-    }
-   ],
-   "sequence": {
-    "type": "pyramide",
-    "mode": "duo",
-    "titre": "LE RECORD",
-    "gauche": {
-     "nom": "BYBIT",
-     "sous": "2025 · ~1,5 milliard"
-    },
-    "droite": {
-     "nom": "BINANCE",
-     "sous": "2026 · ~6,3 milliards"
-    }
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "08",
-   "debut": 1224,
-   "duree": 121,
-   "audio": null,
-   "texte": "Selon Binance, tout serait parti d'un ordinateur d'employé piraté.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Selon"
-    },
-    {
-     "t": 0.315,
-     "m": "Binance,"
-    },
-    {
-     "t": 0.787,
-     "m": "tout"
-    },
-    {
-     "t": 1.049,
-     "m": "serait"
-    },
-    {
-     "t": 1.417,
-     "m": "parti"
-    },
-    {
-     "t": 1.731,
-     "m": "d'un"
-    },
-    {
-     "t": 1.994,
-     "m": "ordinateur"
-    },
-    {
-     "t": 2.571,
-     "m": "d'employé"
-    },
-    {
-     "t": 3.095,
-     "m": "piraté."
+     "t": 2.974,
+     "m": "Montréal."
     }
    ],
    "sequence": {
     "type": "objet",
     "dessin": "portable",
-    "ecran": "alerte",
-    "titre": "LA PORTE D'ENTRÉE",
-    "legende": "Selon Binance"
+    "ecran": "graphique",
+    "titre": "MONTRÉAL",
+    "legende": "Études d'informatique"
    },
    "sousTitres": true
   },
   {
    "id": "09",
-   "debut": 1345,
+   "debut": 1263,
    "duree": 144,
    "audio": null,
-   "texte": "Binance promet de rembourser toutes les pertes, avec ses propres fonds.",
+   "texte": "Il code des logiciels de Bourse, de Tokyo à New York.",
    "mots": [
     {
      "t": 0,
-     "m": "Binance"
+     "m": "Il"
     },
     {
-     "t": 0.473,
-     "m": "promet"
+     "t": 0.236,
+     "m": "code"
     },
     {
-     "t": 0.886,
+     "t": 0.63,
+     "m": "des"
+    },
+    {
+     "t": 0.945,
+     "m": "logiciels"
+    },
+    {
+     "t": 1.733,
      "m": "de"
     },
     {
-     "t": 1.063,
-     "m": "rembourser"
+     "t": 1.969,
+     "m": "Bourse,"
     },
     {
-     "t": 1.713,
-     "m": "toutes"
-    },
-    {
-     "t": 2.127,
-     "m": "les"
-    },
-    {
-     "t": 2.363,
-     "m": "pertes,"
+     "t": 2.599,
+     "m": "de"
     },
     {
      "t": 2.836,
-     "m": "avec"
+     "m": "Tokyo"
     },
     {
-     "t": 3.131,
-     "m": "ses"
+     "t": 3.308,
+     "m": "à"
     },
     {
-     "t": 3.367,
-     "m": "propres"
+     "t": 3.466,
+     "m": "New"
     },
     {
-     "t": 3.84,
-     "m": "fonds."
+     "t": 3.781,
+     "m": "York."
     }
    ],
    "sequence": {
-    "type": "document",
-    "genre": "lettre",
-    "titre": "LA PROMESSE",
-    "entete": "BINANCE",
-    "lignes": [
-     "Fonds des clients : protégés",
-     "Pertes : couvertes par Binance"
+    "type": "carte_monde",
+    "titre": "LA BOURSE",
+    "points": [
+     {
+      "lon": 139.7,
+      "lat": 35.7,
+      "nom": "TOKYO"
+     },
+     {
+      "lon": -74,
+      "lat": 40.7,
+      "nom": "NEW YORK"
+     }
     ],
-    "surligne": [
-     "protégés",
-     "couvertes"
+    "fleches": [
+     {
+      "de": [
+       139.7,
+       35.7
+      ],
+      "vers": [
+       -74,
+       40.7
+      ],
+      "a": 10,
+      "courbe": 0.12,
+      "pointilles": true
+     }
     ]
    },
    "sousTitres": true
   },
   {
    "id": "10",
-   "debut": 1489,
-   "duree": 121,
+   "debut": 1407,
+   "duree": 167,
    "audio": null,
-   "texte": "Et environ trois milliards ont déjà pu être gelés.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Et"
-    },
-    {
-     "t": 0.207,
-     "m": "environ"
-    },
-    {
-     "t": 0.758,
-     "m": "trois"
-    },
-    {
-     "t": 1.172,
-     "m": "milliards"
-    },
-    {
-     "t": 1.861,
-     "m": "ont"
-    },
-    {
-     "t": 2.137,
-     "m": "déjà"
-    },
-    {
-     "t": 2.481,
-     "m": "pu"
-    },
-    {
-     "t": 2.688,
-     "m": "être"
-    },
-    {
-     "t": 3.033,
-     "m": "gelés."
-    }
-   ],
-   "sequence": {
-    "type": "compteur",
-    "titre": "GELÉS",
-    "valeur": 3,
-    "unite": "milliards bloqués"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "11",
-   "debut": 1610,
-   "duree": 236,
-   "audio": null,
-   "texte": "Mais qui est derrière ? Pour la société d'enquête TRM, la piste est claire : la Corée du Nord.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Mais"
-    },
-    {
-     "t": 0.379,
-     "m": "qui"
-    },
-    {
-     "t": 0.683,
-     "m": "est"
-    },
-    {
-     "t": 0.986,
-     "m": "derrière"
-    },
-    {
-     "t": 1.669,
-     "m": "?"
-    },
-    {
-     "t": 1.821,
-     "m": "Pour"
-    },
-    {
-     "t": 2.2,
-     "m": "la"
-    },
-    {
-     "t": 2.428,
-     "m": "société"
-    },
-    {
-     "t": 3.035,
-     "m": "d'enquête"
-    },
-    {
-     "t": 3.793,
-     "m": "TRM,"
-    },
-    {
-     "t": 4.173,
-     "m": "la"
-    },
-    {
-     "t": 4.4,
-     "m": "piste"
-    },
-    {
-     "t": 4.856,
-     "m": "est"
-    },
-    {
-     "t": 5.159,
-     "m": "claire"
-    },
-    {
-     "t": 5.69,
-     "m": ":"
-    },
-    {
-     "t": 5.842,
-     "m": "la"
-    },
-    {
-     "t": 6.069,
-     "m": "Corée"
-    },
-    {
-     "t": 6.525,
-     "m": "du"
-    },
-    {
-     "t": 6.752,
-     "m": "Nord."
-    }
-   ],
-   "sequence": {
-    "type": "carte_monde",
-    "titre": "LA PISTE",
-    "points": [
-     {
-      "lon": 125.75,
-      "lat": 39,
-      "nom": "CORÉE DU NORD"
-     }
-    ],
-    "legende": "Selon les enquêteurs de TRM"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "12",
-   "debut": 1846,
-   "duree": 155,
-   "audio": null,
-   "texte": "Plus précisément, une unité de hackers d'élite, liée au célèbre groupe Lazarus.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Plus"
-    },
-    {
-     "t": 0.289,
-     "m": "précisément,"
-    },
-    {
-     "t": 1.04,
-     "m": "une"
-    },
-    {
-     "t": 1.271,
-     "m": "unité"
-    },
-    {
-     "t": 1.618,
-     "m": "de"
-    },
-    {
-     "t": 1.791,
-     "m": "hackers"
-    },
-    {
-     "t": 2.254,
-     "m": "d'élite,"
-    },
-    {
-     "t": 2.774,
-     "m": "liée"
-    },
-    {
-     "t": 3.063,
-     "m": "au"
-    },
-    {
-     "t": 3.236,
-     "m": "célèbre"
-    },
-    {
-     "t": 3.698,
-     "m": "groupe"
-    },
-    {
-     "t": 4.103,
-     "m": "Lazarus."
-    }
-   ],
-   "sequence": {
-    "type": "secret",
-    "personnage": "aucun",
-    "texte": "LAZARUS",
-    "taille": 110,
-    "sous": "Une unité de hackers d'élite"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "13",
-   "debut": 2001,
-   "duree": 190,
-   "audio": null,
-   "texte": "Et Lazarus, ce n'est pas un inconnu. Son dossier remonte à plus de dix ans.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Et"
-    },
-    {
-     "t": 0.226,
-     "m": "Lazarus,"
-    },
-    {
-     "t": 0.905,
-     "m": "ce"
-    },
-    {
-     "t": 1.131,
-     "m": "n'est"
-    },
-    {
-     "t": 1.583,
-     "m": "pas"
-    },
-    {
-     "t": 1.885,
-     "m": "un"
-    },
-    {
-     "t": 2.111,
-     "m": "inconnu."
-    },
-    {
-     "t": 2.79,
-     "m": "Son"
-    },
-    {
-     "t": 3.091,
-     "m": "dossier"
-    },
-    {
-     "t": 3.695,
-     "m": "remonte"
-    },
-    {
-     "t": 4.298,
-     "m": "à"
-    },
-    {
-     "t": 4.449,
-     "m": "plus"
-    },
-    {
-     "t": 4.826,
-     "m": "de"
-    },
-    {
-     "t": 5.052,
-     "m": "dix"
-    },
-    {
-     "t": 5.353,
-     "m": "ans."
-    }
-   ],
-   "sequence": {
-    "type": "chronologie",
-    "titre": "LE DOSSIER LAZARUS",
-    "hauteur": 620,
-    "dates": [
-     {
-      "an": "2014",
-      "label": "Sony Pictures"
-     },
-     {
-      "an": "2016",
-      "label": "Banque du Bangladesh"
-     },
-     {
-      "an": "2017",
-      "label": "WannaCry"
-     },
-     {
-      "an": "2025",
-      "label": "Bybit"
-     }
-    ]
-   },
-   "sousTitres": false
-  },
-  {
-   "id": "14",
-   "debut": 2191,
-   "duree": 213,
-   "audio": null,
-   "texte": "En 2014, ils piratent Sony Pictures, à cause d'un film comique sur un complot contre Kim Jong-un.",
+   "texte": "En 2013, lors d'une partie de poker, un ami lui parle du Bitcoin.",
    "mots": [
     {
      "t": 0,
      "m": "En"
     },
     {
-     "t": 0.198,
-     "m": "2014,"
+     "t": 0.227,
+     "m": "2013,"
     },
     {
-     "t": 0.594,
-     "m": "ils"
+     "t": 0.681,
+     "m": "lors"
     },
     {
-     "t": 0.858,
-     "m": "piratent"
+     "t": 1.059,
+     "m": "d'une"
     },
     {
-     "t": 1.452,
-     "m": "Sony"
+     "t": 1.513,
+     "m": "partie"
     },
     {
-     "t": 1.782,
-     "m": "Pictures,"
+     "t": 2.042,
+     "m": "de"
     },
     {
-     "t": 2.442,
-     "m": "à"
+     "t": 2.269,
+     "m": "poker,"
     },
     {
-     "t": 2.574,
-     "m": "cause"
-    },
-    {
-     "t": 2.97,
-     "m": "d'un"
-    },
-    {
-     "t": 3.3,
-     "m": "film"
-    },
-    {
-     "t": 3.631,
-     "m": "comique"
-    },
-    {
-     "t": 4.159,
-     "m": "sur"
-    },
-    {
-     "t": 4.423,
+     "t": 2.799,
      "m": "un"
     },
     {
-     "t": 4.621,
-     "m": "complot"
+     "t": 3.025,
+     "m": "ami"
     },
     {
-     "t": 5.149,
-     "m": "contre"
+     "t": 3.328,
+     "m": "lui"
     },
     {
-     "t": 5.611,
-     "m": "Kim"
+     "t": 3.631,
+     "m": "parle"
     },
     {
-     "t": 5.875,
-     "m": "Jong-un."
+     "t": 4.084,
+     "m": "du"
+    },
+    {
+     "t": 4.311,
+     "m": "Bitcoin."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "bureau",
+    "cartes": true,
+    "titre": "2013",
+    "legende": "Une partie de poker",
+    "legendeTop": 420
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "10b",
+   "debut": 1574,
+   "duree": 155,
+   "audio": null,
+   "texte": "Il rejoint alors les premières entreprises du Bitcoin, comme OKCoin, en Chine.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Il"
+    },
+    {
+     "t": 0.176,
+     "m": "rejoint"
+    },
+    {
+     "t": 0.644,
+     "m": "alors"
+    },
+    {
+     "t": 0.995,
+     "m": "les"
+    },
+    {
+     "t": 1.229,
+     "m": "premières"
+    },
+    {
+     "t": 1.814,
+     "m": "entreprises"
+    },
+    {
+     "t": 2.516,
+     "m": "du"
+    },
+    {
+     "t": 2.692,
+     "m": "Bitcoin,"
+    },
+    {
+     "t": 3.218,
+     "m": "comme"
+    },
+    {
+     "t": 3.569,
+     "m": "OKCoin,"
+    },
+    {
+     "t": 4.038,
+     "m": "en"
+    },
+    {
+     "t": 4.213,
+     "m": "Chine."
+    }
+   ],
+   "sequence": {
+    "type": "icones",
+    "titre": "LES DÉBUTS",
+    "items": [
+     {
+      "label": "OKCOIN",
+      "sous": "plateforme chinoise"
+     },
+     {
+      "label": "BITCOIN",
+      "sous": "le déclic"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "11",
+   "debut": 1729,
+   "duree": 167,
+   "audio": null,
+   "texte": "Il y croit tellement… qu'il vend son appartement de Shanghai pour en acheter.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Il"
+    },
+    {
+     "t": 0.192,
+     "m": "y"
+    },
+    {
+     "t": 0.32,
+     "m": "croit"
+    },
+    {
+     "t": 0.704,
+     "m": "tellement…"
+    },
+    {
+     "t": 1.408,
+     "m": "qu'il"
+    },
+    {
+     "t": 1.792,
+     "m": "vend"
+    },
+    {
+     "t": 2.112,
+     "m": "son"
+    },
+    {
+     "t": 2.368,
+     "m": "appartement"
+    },
+    {
+     "t": 3.136,
+     "m": "de"
+    },
+    {
+     "t": 3.328,
+     "m": "Shanghai"
+    },
+    {
+     "t": 3.904,
+     "m": "pour"
+    },
+    {
+     "t": 4.224,
+     "m": "en"
+    },
+    {
+     "t": 4.416,
+     "m": "acheter."
     }
    ],
    "sequence": {
     "type": "document",
     "genre": "affiche",
-    "titre": "2014",
-    "surtitre": "SONY PICTURES",
-    "manchette": "UN FILM QUI DÉRANGE",
-    "sousAffiche": "Une comédie sur Kim Jong-un",
-    "tampon": "PIRATÉ",
+    "titre": "TOUT SUR LE BITCOIN",
+    "surtitre": "SHANGHAI",
+    "manchette": "APPARTEMENT VENDU",
+    "sousAffiche": "Pour acheter des bitcoins",
+    "tampon": "VENDU",
     "tamponTop": 900
    },
    "sousTitres": true
   },
   {
-   "id": "15",
-   "debut": 2404,
-   "duree": 121,
+   "id": "12",
+   "debut": 1896,
+   "duree": 75,
    "audio": null,
-   "texte": "En 2016, ils visent la banque centrale du Bangladesh.",
+   "texte": "En 2017, il lance Binance.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.226,
+     "m": "2017,"
+    },
+    {
+     "t": 0.679,
+     "m": "il"
+    },
+    {
+     "t": 0.906,
+     "m": "lance"
+    },
+    {
+     "t": 1.359,
+     "m": "Binance."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "graphique",
+    "titre": "2017",
+    "legende": "Naissance de Binance"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "13",
+   "debut": 1971,
+   "duree": 155,
+   "audio": null,
+   "texte": "En quelques mois, c'est la plus grande plateforme de cryptos du monde.",
    "mots": [
     {
      "t": 0,
@@ -1055,1272 +923,1393 @@
     },
     {
      "t": 0.195,
-     "m": "2016,"
+     "m": "quelques"
     },
     {
-     "t": 0.586,
-     "m": "ils"
+     "t": 0.781,
+     "m": "mois,"
     },
     {
-     "t": 0.846,
-     "m": "visent"
+     "t": 1.172,
+     "m": "c'est"
     },
     {
-     "t": 1.302,
+     "t": 1.563,
      "m": "la"
     },
     {
-     "t": 1.497,
-     "m": "banque"
+     "t": 1.758,
+     "m": "plus"
     },
     {
-     "t": 1.953,
-     "m": "centrale"
+     "t": 2.084,
+     "m": "grande"
     },
     {
      "t": 2.539,
+     "m": "plateforme"
+    },
+    {
+     "t": 3.255,
+     "m": "de"
+    },
+    {
+     "t": 3.451,
+     "m": "cryptos"
+    },
+    {
+     "t": 3.972,
      "m": "du"
     },
     {
-     "t": 2.734,
-     "m": "Bangladesh."
+     "t": 4.167,
+     "m": "monde."
     }
    ],
    "sequence": {
-    "type": "scene",
-    "decor": "banque",
-    "enseigne": "BANQUE DU BANGLADESH",
-    "titre": "2016"
+    "type": "courbe",
+    "titre": "UNE ASCENSION ÉCLAIR",
+    "labelMarche": "LES AUTRES",
+    "labelDroite": "BINANCE",
+    "legende": "Numéro 1 mondial",
+    "legendeCouleur": "jaune"
    },
    "sousTitres": true
   },
   {
-   "id": "16",
-   "debut": 2525,
-   "duree": 167,
+   "id": "14",
+   "debut": 2126,
+   "duree": 155,
    "audio": null,
-   "texte": "Son argent dort sur un compte, à la Réserve fédérale de New York.",
+   "texte": "Et lui devient l'un des hommes les plus riches de la planète.",
    "mots": [
     {
      "t": 0,
-     "m": "Son"
+     "m": "Et"
     },
     {
-     "t": 0.303,
-     "m": "argent"
+     "t": 0.224,
+     "m": "lui"
     },
     {
-     "t": 0.832,
-     "m": "dort"
+     "t": 0.522,
+     "m": "devient"
     },
     {
-     "t": 1.21,
-     "m": "sur"
+     "t": 1.118,
+     "m": "l'un"
     },
     {
-     "t": 1.513,
-     "m": "un"
+     "t": 1.491,
+     "m": "des"
     },
     {
-     "t": 1.74,
-     "m": "compte,"
+     "t": 1.789,
+     "m": "hommes"
     },
     {
-     "t": 2.345,
-     "m": "à"
+     "t": 2.311,
+     "m": "les"
     },
     {
-     "t": 2.496,
+     "t": 2.61,
+     "m": "plus"
+    },
+    {
+     "t": 2.982,
+     "m": "riches"
+    },
+    {
+     "t": 3.504,
+     "m": "de"
+    },
+    {
+     "t": 3.728,
      "m": "la"
     },
     {
-     "t": 2.723,
-     "m": "Réserve"
-    },
-    {
-     "t": 3.328,
-     "m": "fédérale"
-    },
-    {
-     "t": 4.009,
-     "m": "de"
-    },
-    {
-     "t": 4.236,
-     "m": "New"
-    },
-    {
-     "t": 4.538,
-     "m": "York."
-    }
-   ],
-   "sequence": {
-    "type": "carte_monde",
-    "titre": "LE COMPTE",
-    "points": [
-     {
-      "lon": -74,
-      "lat": 40.7,
-      "nom": "NEW YORK"
-     },
-     {
-      "lon": 90.4,
-      "lat": 23.8,
-      "nom": "BANGLADESH"
-     }
-    ],
-    "fleches": [
-     {
-      "de": [
-       90.4,
-       23.8
-      ],
-      "vers": [
-       -74,
-       40.7
-      ],
-      "a": 14,
-      "pointilles": true,
-      "courbe": -0.15
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "17",
-   "debut": 2692,
-   "duree": 190,
-   "audio": null,
-   "texte": "Les pirates envoient trente-cinq ordres de virement : près d'un milliard de dollars au total.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Les"
-    },
-    {
-     "t": 0.244,
-     "m": "pirates"
-    },
-    {
-     "t": 0.732,
-     "m": "envoient"
-    },
-    {
-     "t": 1.28,
-     "m": "trente-cinq"
-    },
-    {
-     "t": 2.012,
-     "m": "ordres"
-    },
-    {
-     "t": 2.438,
-     "m": "de"
-    },
-    {
-     "t": 2.621,
-     "m": "virement"
-    },
-    {
-     "t": 3.17,
-     "m": ":"
-    },
-    {
-     "t": 3.292,
-     "m": "près"
-    },
-    {
-     "t": 3.597,
-     "m": "d'un"
-    },
-    {
-     "t": 3.902,
-     "m": "milliard"
-    },
-    {
-     "t": 4.45,
-     "m": "de"
-    },
-    {
-     "t": 4.633,
-     "m": "dollars"
-    },
-    {
-     "t": 5.121,
-     "m": "au"
-    },
-    {
-     "t": 5.304,
-     "m": "total."
+     "t": 3.952,
+     "m": "planète."
     }
    ],
    "sequence": {
     "type": "compteur",
-    "titre": "35 VIREMENTS",
-    "valeur": 951,
-    "unite": "millions de dollars demandés"
+    "titre": "MILLIARDAIRE",
+    "valeur": 96,
+    "unite": "milliards de dollars",
+    "legende": "sa fortune selon Bloomberg, en 2022"
    },
    "sousTitres": true
   },
   {
-   "id": "18",
-   "debut": 2882,
-   "duree": 179,
+   "id": "15",
+   "debut": 2281,
+   "duree": 86,
    "audio": null,
-   "texte": "Mais des fautes de frappe éveillent les soupçons. Une partie des virements est bloquée.",
+   "texte": "Mais aux États-Unis, la justice enquête.",
    "mots": [
     {
      "t": 0,
      "m": "Mais"
     },
     {
-     "t": 0.305,
-     "m": "des"
+     "t": 0.294,
+     "m": "aux"
     },
     {
-     "t": 0.548,
-     "m": "fautes"
+     "t": 0.528,
+     "m": "États-Unis,"
     },
     {
-     "t": 0.975,
-     "m": "de"
+     "t": 1.233,
+     "m": "la"
     },
     {
-     "t": 1.158,
-     "m": "frappe"
+     "t": 1.409,
+     "m": "justice"
     },
     {
-     "t": 1.584,
-     "m": "éveillent"
-    },
-    {
-     "t": 2.193,
-     "m": "les"
-    },
-    {
-     "t": 2.437,
-     "m": "soupçons."
-    },
-    {
-     "t": 3.046,
-     "m": "Une"
-    },
-    {
-     "t": 3.29,
-     "m": "partie"
-    },
-    {
-     "t": 3.716,
-     "m": "des"
-    },
-    {
-     "t": 3.96,
-     "m": "virements"
-    },
-    {
-     "t": 4.569,
-     "m": "est"
-    },
-    {
-     "t": 4.813,
-     "m": "bloquée."
+     "t": 1.879,
+     "m": "enquête."
     }
    ],
    "sequence": {
     "type": "document",
     "genre": "rapport",
-    "titre": "LA FAUTE",
-    "entete": "ORDRE DE VIREMENT",
+    "titre": "ENQUÊTE",
+    "entete": "JUSTICE AMÉRICAINE",
     "lignes": [
-     "Bénéficiaire : ■■■ (faute de frappe)",
-     "Montant : ■■■ millions"
+     "Dossier : Binance",
+     "Statut : enquête"
+    ],
+    "tampon": "ENQUÊTE",
+    "tamponTop": 860
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "16",
+   "debut": 2367,
+   "duree": 202,
+   "audio": null,
+   "texte": "Selon les procureurs, Binance n'a pas mis en place les contrôles obligatoires contre le blanchiment d'argent.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Selon"
+    },
+    {
+     "t": 0.333,
+     "m": "les"
+    },
+    {
+     "t": 0.555,
+     "m": "procureurs,"
+    },
+    {
+     "t": 1.22,
+     "m": "Binance"
+    },
+    {
+     "t": 1.664,
+     "m": "n'a"
+    },
+    {
+     "t": 1.885,
+     "m": "pas"
+    },
+    {
+     "t": 2.107,
+     "m": "mis"
+    },
+    {
+     "t": 2.329,
+     "m": "en"
+    },
+    {
+     "t": 2.495,
+     "m": "place"
+    },
+    {
+     "t": 2.828,
+     "m": "les"
+    },
+    {
+     "t": 3.05,
+     "m": "contrôles"
+    },
+    {
+     "t": 3.604,
+     "m": "obligatoires"
+    },
+    {
+     "t": 4.325,
+     "m": "contre"
+    },
+    {
+     "t": 4.713,
+     "m": "le"
+    },
+    {
+     "t": 4.88,
+     "m": "blanchiment"
+    },
+    {
+     "t": 5.545,
+     "m": "d'argent."
+    }
+   ],
+   "sequence": {
+    "type": "barre",
+    "mot": "CONTRÔLES",
+    "personnage": "cz",
+    "nom": "SELON LES PROCUREURS"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "17",
+   "debut": 2569,
+   "duree": 225,
+   "audio": null,
+   "texte": "Des transactions liées à des criminels, et même à des groupes terroristes, ont pu passer par la plateforme.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Des"
+    },
+    {
+     "t": 0.253,
+     "m": "transactions"
+    },
+    {
+     "t": 1.076,
+     "m": "liées"
+    },
+    {
+     "t": 1.456,
+     "m": "à"
+    },
+    {
+     "t": 1.583,
+     "m": "des"
+    },
+    {
+     "t": 1.836,
+     "m": "criminels,"
+    },
+    {
+     "t": 2.533,
+     "m": "et"
+    },
+    {
+     "t": 2.723,
+     "m": "même"
+    },
+    {
+     "t": 3.039,
+     "m": "à"
+    },
+    {
+     "t": 3.166,
+     "m": "des"
+    },
+    {
+     "t": 3.419,
+     "m": "groupes"
+    },
+    {
+     "t": 3.926,
+     "m": "terroristes,"
+    },
+    {
+     "t": 4.749,
+     "m": "ont"
+    },
+    {
+     "t": 5.002,
+     "m": "pu"
+    },
+    {
+     "t": 5.192,
+     "m": "passer"
+    },
+    {
+     "t": 5.635,
+     "m": "par"
+    },
+    {
+     "t": 5.888,
+     "m": "la"
+    },
+    {
+     "t": 6.078,
+     "m": "plateforme."
+    }
+   ],
+   "sequence": {
+    "type": "flux",
+    "titre": "L'ACCUSATION",
+    "de": "ombre",
+    "vers": "cz",
+    "objet": "sac",
+    "lettre": "$"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "18",
+   "debut": 2794,
+   "duree": 86,
+   "audio": null,
+   "texte": "En novembre 2023, CZ plaide coupable.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.19,
+     "m": "novembre"
+    },
+    {
+     "t": 0.76,
+     "m": "2023,"
+    },
+    {
+     "t": 1.14,
+     "m": "CZ"
+    },
+    {
+     "t": 1.33,
+     "m": "plaide"
+    },
+    {
+     "t": 1.774,
+     "m": "coupable."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "NOVEMBRE 2023",
+    "entete": "TRIBUNAL FÉDÉRAL · SEATTLE",
+    "lignes": [
+     "Accusé : Changpeng Zhao",
+     "Plaidoyer : coupable"
     ],
     "surligne": [
-     "faute"
+     "coupable"
     ],
-    "tampon": "BLOQUÉ",
+    "tampon": "COUPABLE",
     "tamponTop": 860
    },
    "sousTitres": true
   },
   {
    "id": "19",
-   "debut": 3061,
-   "duree": 190,
-   "audio": null,
-   "texte": "Ils repartent quand même avec quatre-vingt-un millions de dollars, envoyés vers des casinos aux Philippines.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Ils"
-    },
-    {
-     "t": 0.21,
-     "m": "repartent"
-    },
-    {
-     "t": 0.736,
-     "m": "quand"
-    },
-    {
-     "t": 1.051,
-     "m": "même"
-    },
-    {
-     "t": 1.314,
-     "m": "avec"
-    },
-    {
-     "t": 1.577,
-     "m": "quatre-vingt-un"
-    },
-    {
-     "t": 2.418,
-     "m": "millions"
-    },
-    {
-     "t": 2.892,
-     "m": "de"
-    },
-    {
-     "t": 3.049,
-     "m": "dollars,"
-    },
-    {
-     "t": 3.522,
-     "m": "envoyés"
-    },
-    {
-     "t": 3.943,
-     "m": "vers"
-    },
-    {
-     "t": 4.206,
-     "m": "des"
-    },
-    {
-     "t": 4.416,
-     "m": "casinos"
-    },
-    {
-     "t": 4.837,
-     "m": "aux"
-    },
-    {
-     "t": 5.047,
-     "m": "Philippines."
-    }
-   ],
-   "sequence": {
-    "type": "carte_monde",
-    "titre": "81 MILLIONS",
-    "points": [
-     {
-      "lon": -74,
-      "lat": 40.7,
-      "nom": "NEW YORK"
-     },
-     {
-      "lon": 121,
-      "lat": 14.6,
-      "nom": "PHILIPPINES"
-     }
-    ],
-    "fleches": [
-     {
-      "de": [
-       -74,
-       40.7
-      ],
-      "vers": [
-       121,
-       14.6
-      ],
-      "a": 10,
-      "couleur": "rouge",
-      "courbe": -0.2
-     }
-    ],
-    "legende": "81 millions vers des casinos"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "20",
-   "debut": 3251,
-   "duree": 202,
-   "audio": null,
-   "texte": "En 2017, leur virus WannaCry bloque des ordinateurs dans le monde entier, jusque dans des hôpitaux.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "En"
-    },
-    {
-     "t": 0.183,
-     "m": "2017,"
-    },
-    {
-     "t": 0.549,
-     "m": "leur"
-    },
-    {
-     "t": 0.854,
-     "m": "virus"
-    },
-    {
-     "t": 1.22,
-     "m": "WannaCry"
-    },
-    {
-     "t": 1.769,
-     "m": "bloque"
-    },
-    {
-     "t": 2.196,
-     "m": "des"
-    },
-    {
-     "t": 2.44,
-     "m": "ordinateurs"
-    },
-    {
-     "t": 3.172,
-     "m": "dans"
-    },
-    {
-     "t": 3.477,
-     "m": "le"
-    },
-    {
-     "t": 3.66,
-     "m": "monde"
-    },
-    {
-     "t": 4.026,
-     "m": "entier,"
-    },
-    {
-     "t": 4.514,
-     "m": "jusque"
-    },
-    {
-     "t": 4.941,
-     "m": "dans"
-    },
-    {
-     "t": 5.246,
-     "m": "des"
-    },
-    {
-     "t": 5.49,
-     "m": "hôpitaux."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "portable",
-    "ecran": "rancon",
-    "titre": "2017 · WANNACRY",
-    "legende": "Jusque dans des hôpitaux"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "21",
-   "debut": 3453,
+   "debut": 2880,
    "duree": 167,
    "audio": null,
-   "texte": "En 2018, la justice américaine inculpe un hacker nord-coréen : Park Jin Hyok.",
+   "texte": "Binance accepte de payer quatre virgule trois milliards de dollars. Lui, cinquante millions.",
    "mots": [
     {
      "t": 0,
-     "m": "En"
-    },
-    {
-     "t": 0.192,
-     "m": "2018,"
-    },
-    {
-     "t": 0.576,
-     "m": "la"
-    },
-    {
-     "t": 0.768,
-     "m": "justice"
-    },
-    {
-     "t": 1.28,
-     "m": "américaine"
-    },
-    {
-     "t": 1.984,
-     "m": "inculpe"
-    },
-    {
-     "t": 2.496,
-     "m": "un"
-    },
-    {
-     "t": 2.688,
-     "m": "hacker"
-    },
-    {
-     "t": 3.136,
-     "m": "nord-coréen"
-    },
-    {
-     "t": 3.904,
-     "m": ":"
-    },
-    {
-     "t": 4.032,
-     "m": "Park"
-    },
-    {
-     "t": 4.352,
-     "m": "Jin"
-    },
-    {
-     "t": 4.608,
-     "m": "Hyok."
-    }
-   ],
-   "sequence": {
-    "type": "document",
-    "genre": "rapport",
-    "titre": "2018",
-    "entete": "JUSTICE AMÉRICAINE",
-    "lignes": [
-     "Accusé : Park Jin Hyok",
-     "Groupe : Lazarus"
-    ],
-    "surligne": [
-     "Park"
-    ],
-    "tampon": "INCULPÉ",
-    "tamponTop": 860
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "22",
-   "debut": 3620,
-   "duree": 179,
-   "audio": null,
-   "texte": "Son visage est sur un avis de recherche du FBI. Il est toujours recherché.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Son"
-    },
-    {
-     "t": 0.286,
-     "m": "visage"
-    },
-    {
-     "t": 0.786,
-     "m": "est"
-    },
-    {
-     "t": 1.072,
-     "m": "sur"
-    },
-    {
-     "t": 1.358,
-     "m": "un"
-    },
-    {
-     "t": 1.573,
-     "m": "avis"
-    },
-    {
-     "t": 1.93,
-     "m": "de"
-    },
-    {
-     "t": 2.144,
-     "m": "recherche"
-    },
-    {
-     "t": 2.859,
-     "m": "du"
-    },
-    {
-     "t": 3.074,
-     "m": "FBI."
-    },
-    {
-     "t": 3.431,
-     "m": "Il"
-    },
-    {
-     "t": 3.646,
-     "m": "est"
-    },
-    {
-     "t": 3.932,
-     "m": "toujours"
-    },
-    {
-     "t": 4.575,
-     "m": "recherché."
-    }
-   ],
-   "sequence": {
-    "type": "choc",
-    "photo": "photos/affaire-08-binance.jpg",
-    "texte": "TOUJOURS RECHERCHÉ",
-    "srcW": 600,
-    "srcH": 800,
-    "visage": {
-     "x": 300,
-     "y": 360
-    }
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "23",
-   "debut": 3799,
-   "duree": 98,
-   "audio": null,
-   "texte": "Puis les cibles changent : les cryptomonnaies.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Puis"
-    },
-    {
-     "t": 0.295,
-     "m": "les"
-    },
-    {
-     "t": 0.532,
-     "m": "cibles"
-    },
-    {
-     "t": 0.945,
-     "m": "changent"
-    },
-    {
-     "t": 1.477,
-     "m": ":"
-    },
-    {
-     "t": 1.595,
-     "m": "les"
-    },
-    {
-     "t": 1.831,
-     "m": "cryptomonnaies."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "portable",
-    "ecran": "graphique",
-    "titre": "NOUVELLE CIBLE",
-    "legende": "Les cryptos"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "24",
-   "debut": 3897,
-   "duree": 190,
-   "audio": null,
-   "texte": "En 2025, la plateforme Bybit se fait voler près d'un milliard et demi de dollars.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "En"
-    },
-    {
-     "t": 0.21,
-     "m": "2025,"
-    },
-    {
-     "t": 0.629,
-     "m": "la"
-    },
-    {
-     "t": 0.839,
-     "m": "plateforme"
-    },
-    {
-     "t": 1.607,
-     "m": "Bybit"
-    },
-    {
-     "t": 2.027,
-     "m": "se"
-    },
-    {
-     "t": 2.236,
-     "m": "fait"
-    },
-    {
-     "t": 2.586,
-     "m": "voler"
-    },
-    {
-     "t": 3.005,
-     "m": "près"
-    },
-    {
-     "t": 3.354,
-     "m": "d'un"
-    },
-    {
-     "t": 3.704,
-     "m": "milliard"
-    },
-    {
-     "t": 4.333,
-     "m": "et"
-    },
-    {
-     "t": 4.542,
-     "m": "demi"
-    },
-    {
-     "t": 4.892,
-     "m": "de"
-    },
-    {
-     "t": 5.102,
-     "m": "dollars."
-    }
-   ],
-   "sequence": {
-    "type": "compteur",
-    "titre": "2025 · BYBIT",
-    "valeur": 1.5,
-    "unite": "milliard de dollars volé",
-    "couleur": "rouge",
-    "decimales": 1
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "25",
-   "debut": 4087,
-   "duree": 98,
-   "audio": null,
-   "texte": "Les enquêteurs désignent… les mêmes hackers nord-coréens.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Les"
-    },
-    {
-     "t": 0.191,
-     "m": "enquêteurs"
-    },
-    {
-     "t": 0.718,
-     "m": "désignent…"
-    },
-    {
-     "t": 1.245,
-     "m": "les"
-    },
-    {
-     "t": 1.436,
-     "m": "mêmes"
-    },
-    {
-     "t": 1.723,
-     "m": "hackers"
-    },
-    {
-     "t": 2.106,
-     "m": "nord-coréens."
-    }
-   ],
-   "sequence": {
-    "type": "secret",
-    "personnage": "aucun",
-    "texte": "LES MÊMES",
-    "taille": 110,
-    "sous": "Selon le FBI"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "26",
-   "debut": 4185,
-   "duree": 179,
-   "audio": null,
-   "texte": "À l'époque, c'était le plus gros vol de l'histoire des cryptos. Jusqu'à jeudi dernier.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "À"
-    },
-    {
-     "t": 0.123,
-     "m": "l'époque,"
-    },
-    {
-     "t": 0.739,
-     "m": "c'était"
-    },
-    {
-     "t": 1.232,
-     "m": "le"
-    },
-    {
-     "t": 1.417,
-     "m": "plus"
-    },
-    {
-     "t": 1.725,
-     "m": "gros"
-    },
-    {
-     "t": 2.034,
-     "m": "vol"
-    },
-    {
-     "t": 2.28,
-     "m": "de"
-    },
-    {
-     "t": 2.465,
-     "m": "l'histoire"
-    },
-    {
-     "t": 3.143,
-     "m": "des"
-    },
-    {
-     "t": 3.389,
-     "m": "cryptos."
-    },
-    {
-     "t": 3.944,
-     "m": "Jusqu'à"
-    },
-    {
-     "t": 4.437,
-     "m": "jeudi"
-    },
-    {
-     "t": 4.807,
-     "m": "dernier."
-    }
-   ],
-   "sequence": {
-    "type": "pyramide",
-    "mode": "duo",
-    "titre": "JUSQU'À JEUDI",
-    "gauche": {
-     "nom": "BYBIT",
-     "sous": "2025"
-    },
-    "droite": {
-     "nom": "BINANCE",
-     "sous": "2026"
-    },
-    "legende": "Nouveau record",
-    "legendeCouleur": "jaune"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "27",
-   "debut": 4364,
-   "duree": 225,
-   "audio": null,
-   "texte": "Pour l'instant, Binance n'a pas confirmé qui l'a attaquée. Et elle assure que ses clients ne perdront rien.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Pour"
-    },
-    {
-     "t": 0.317,
-     "m": "l'instant,"
-    },
-    {
-     "t": 1.013,
      "m": "Binance"
     },
     {
-     "t": 1.52,
-     "m": "n'a"
+     "t": 0.429,
+     "m": "accepte"
     },
     {
-     "t": 1.773,
-     "m": "pas"
-    },
-    {
-     "t": 2.026,
-     "m": "confirmé"
-    },
-    {
-     "t": 2.596,
-     "m": "qui"
-    },
-    {
-     "t": 2.849,
-     "m": "l'a"
-    },
-    {
-     "t": 3.102,
-     "m": "attaquée."
-    },
-    {
-     "t": 3.736,
-     "m": "Et"
-    },
-    {
-     "t": 3.926,
-     "m": "elle"
-    },
-    {
-     "t": 4.242,
-     "m": "assure"
-    },
-    {
-     "t": 4.685,
-     "m": "que"
-    },
-    {
-     "t": 4.939,
-     "m": "ses"
-    },
-    {
-     "t": 5.192,
-     "m": "clients"
-    },
-    {
-     "t": 5.698,
-     "m": "ne"
-    },
-    {
-     "t": 5.888,
-     "m": "perdront"
-    },
-    {
-     "t": 6.458,
-     "m": "rien."
-    }
-   ],
-   "sequence": {
-    "type": "document",
-    "genre": "rapport",
-    "titre": "OÙ EN EST-ON ?",
-    "entete": "ENQUÊTE EN COURS",
-    "lignes": [
-     "Coupables : non confirmés",
-     "Pertes : couvertes (Binance)"
-    ],
-    "surligne": [
-     "confirmés"
-    ],
-    "tampon": "EN COURS",
-    "tamponTop": 860
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "28",
-   "debut": 4589,
-   "duree": 155,
-   "audio": null,
-   "texte": "Mais Binance, c'est aussi l'histoire d'un homme : son fondateur, surnommé CZ.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Mais"
-    },
-    {
-     "t": 0.296,
-     "m": "Binance,"
-    },
-    {
-     "t": 0.83,
-     "m": "c'est"
-    },
-    {
-     "t": 1.185,
-     "m": "aussi"
-    },
-    {
-     "t": 1.541,
-     "m": "l'histoire"
-    },
-    {
-     "t": 2.193,
-     "m": "d'un"
-    },
-    {
-     "t": 2.489,
-     "m": "homme"
-    },
-    {
-     "t": 2.845,
-     "m": ":"
-    },
-    {
-     "t": 2.963,
-     "m": "son"
-    },
-    {
-     "t": 3.2,
-     "m": "fondateur,"
-    },
-    {
-     "t": 3.852,
-     "m": "surnommé"
-    },
-    {
-     "t": 4.386,
-     "m": "CZ."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "ville",
-    "titre": "LE FONDATEUR",
-    "personnages": [
-     {
-      "nom": "ombre",
-      "x": 540,
-      "y": 1350,
-      "s": 460
-     }
-    ],
-    "legende": "« CZ »",
-    "legendeTop": 420
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "29",
-   "debut": 4744,
-   "duree": 271,
-   "audio": null,
-   "texte": "Un milliardaire qui a plaidé coupable devant la justice américaine, a fait de la prison… puis a été gracié par Donald Trump.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Un"
-    },
-    {
-     "t": 0.2,
-     "m": "milliardaire"
-    },
-    {
-     "t": 1.064,
-     "m": "qui"
-    },
-    {
-     "t": 1.33,
-     "m": "a"
-    },
-    {
-     "t": 1.463,
-     "m": "plaidé"
-    },
-    {
-     "t": 1.929,
-     "m": "coupable"
-    },
-    {
-     "t": 2.528,
-     "m": "devant"
-    },
-    {
-     "t": 2.993,
-     "m": "la"
-    },
-    {
-     "t": 3.193,
-     "m": "justice"
-    },
-    {
-     "t": 3.725,
-     "m": "américaine,"
-    },
-    {
-     "t": 4.523,
-     "m": "a"
-    },
-    {
-     "t": 4.656,
-     "m": "fait"
-    },
-    {
-     "t": 4.989,
+     "t": 0.859,
      "m": "de"
     },
     {
-     "t": 5.189,
-     "m": "la"
+     "t": 1.02,
+     "m": "payer"
     },
     {
-     "t": 5.388,
-     "m": "prison…"
+     "t": 1.342,
+     "m": "quatre"
     },
     {
-     "t": 5.92,
-     "m": "puis"
+     "t": 1.718,
+     "m": "virgule"
     },
     {
-     "t": 6.253,
-     "m": "a"
+     "t": 2.147,
+     "m": "trois"
     },
     {
-     "t": 6.386,
-     "m": "été"
+     "t": 2.469,
+     "m": "milliards"
     },
     {
-     "t": 6.652,
-     "m": "gracié"
+     "t": 3.006,
+     "m": "de"
     },
     {
-     "t": 7.118,
-     "m": "par"
+     "t": 3.167,
+     "m": "dollars."
     },
     {
-     "t": 7.384,
-     "m": "Donald"
+     "t": 3.65,
+     "m": "Lui,"
     },
     {
-     "t": 7.849,
-     "m": "Trump."
+     "t": 3.918,
+     "m": "cinquante"
+    },
+    {
+     "t": 4.455,
+     "m": "millions."
     }
    ],
    "sequence": {
-    "type": "chronologie",
-    "titre": "SON DOSSIER",
-    "hauteur": 600,
-    "dates": [
+    "type": "etapes",
+    "etapes": [
      {
-      "an": "2023",
-      "label": "Plaide coupable"
+      "type": "compteur",
+      "titre": "L'AMENDE DE BINANCE",
+      "valeur": 4.3,
+      "decimales": 1,
+      "unite": "milliards de dollars",
+      "couleur": "rouge",
+      "poids": 1.2
      },
      {
-      "an": "2024",
-      "label": "Prison"
-     },
-     {
-      "an": "2025",
-      "label": "Gracié"
+      "type": "compteur",
+      "titre": "SON AMENDE À LUI",
+      "valeur": 50,
+      "unite": "millions de dollars",
+      "couleur": "rouge",
+      "poids": 1
      }
     ]
    },
    "sousTitres": true
   },
   {
-   "id": "30",
-   "debut": 5015,
-   "duree": 282,
+   "id": "20",
+   "debut": 3047,
+   "duree": 121,
    "audio": null,
-   "texte": "Son dossier, je l'ouvre dans le prochain épisode. Abonne-toi pour ne pas le rater. Et toi, tu fais encore confiance aux cryptos ?",
+   "texte": "Et il doit quitter la tête de son entreprise.",
    "mots": [
     {
      "t": 0,
-     "m": "Son"
-    },
-    {
-     "t": 0.267,
-     "m": "dossier,"
-    },
-    {
-     "t": 0.868,
-     "m": "je"
-    },
-    {
-     "t": 1.069,
-     "m": "l'ouvre"
-    },
-    {
-     "t": 1.603,
-     "m": "dans"
-    },
-    {
-     "t": 1.937,
-     "m": "le"
-    },
-    {
-     "t": 2.138,
-     "m": "prochain"
-    },
-    {
-     "t": 2.739,
-     "m": "épisode."
-    },
-    {
-     "t": 3.34,
-     "m": "Abonne-toi"
-    },
-    {
-     "t": 4.075,
-     "m": "pour"
-    },
-    {
-     "t": 4.409,
-     "m": "ne"
-    },
-    {
-     "t": 4.609,
-     "m": "pas"
-    },
-    {
-     "t": 4.877,
-     "m": "le"
-    },
-    {
-     "t": 5.077,
-     "m": "rater."
-    },
-    {
-     "t": 5.545,
      "m": "Et"
     },
     {
-     "t": 5.745,
-     "m": "toi,"
+     "t": 0.229,
+     "m": "il"
     },
     {
-     "t": 6.079,
-     "m": "tu"
+     "t": 0.458,
+     "m": "doit"
     },
     {
-     "t": 6.279,
-     "m": "fais"
+     "t": 0.841,
+     "m": "quitter"
     },
     {
-     "t": 6.613,
-     "m": "encore"
+     "t": 1.452,
+     "m": "la"
     },
     {
-     "t": 7.081,
-     "m": "confiance"
+     "t": 1.681,
+     "m": "tête"
     },
     {
-     "t": 7.749,
-     "m": "aux"
+     "t": 2.063,
+     "m": "de"
     },
     {
-     "t": 8.016,
-     "m": "cryptos"
+     "t": 2.292,
+     "m": "son"
     },
     {
-     "t": 8.551,
-     "m": "?"
+     "t": 2.598,
+     "m": "entreprise."
     }
    ],
    "sequence": {
-    "type": "suite",
-    "annonce": "Partie 2 : l'homme derrière Binance",
-    "bulle": "Tu fais confiance aux cryptos ?"
+    "type": "barre",
+    "mot": "PDG",
+    "personnage": "cz",
+    "nom": "DÉMISSION"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "21",
+   "debut": 3168,
+   "duree": 98,
+   "audio": null,
+   "texte": "Les procureurs réclament trois ans de prison.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Les"
+    },
+    {
+     "t": 0.241,
+     "m": "procureurs"
+    },
+    {
+     "t": 0.905,
+     "m": "réclament"
+    },
+    {
+     "t": 1.509,
+     "m": "trois"
+    },
+    {
+     "t": 1.871,
+     "m": "ans"
+    },
+    {
+     "t": 2.113,
+     "m": "de"
+    },
+    {
+     "t": 2.294,
+     "m": "prison."
+    }
+   ],
+   "sequence": {
+    "type": "compteur",
+    "titre": "LES PROCUREURS",
+    "valeur": 36,
+    "unite": "mois de prison demandés"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "22",
+   "debut": 3266,
+   "duree": 98,
+   "audio": null,
+   "texte": "Le juge lui en donne… quatre mois.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Le"
+    },
+    {
+     "t": 0.238,
+     "m": "juge"
+    },
+    {
+     "t": 0.635,
+     "m": "lui"
+    },
+    {
+     "t": 0.952,
+     "m": "en"
+    },
+    {
+     "t": 1.19,
+     "m": "donne…"
+    },
+    {
+     "t": 1.745,
+     "m": "quatre"
+    },
+    {
+     "t": 2.301,
+     "m": "mois."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "prison",
+    "titre": "AVRIL 2024",
+    "tampon": "4 MOIS",
+    "tamponTop": 980
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "23",
+   "debut": 3364,
+   "duree": 98,
+   "audio": null,
+   "texte": "En septembre 2024, il sort de prison.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.219,
+     "m": "septembre"
+    },
+    {
+     "t": 0.95,
+     "m": "2024,"
+    },
+    {
+     "t": 1.388,
+     "m": "il"
+    },
+    {
+     "t": 1.608,
+     "m": "sort"
+    },
+    {
+     "t": 1.973,
+     "m": "de"
+    },
+    {
+     "t": 2.192,
+     "m": "prison."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "SEPTEMBRE 2024",
+    "personnages": [
+     {
+      "nom": "cz",
+      "x": 540,
+      "y": 1350,
+      "s": 360
+     }
+    ],
+    "legende": "Libre",
+    "legendeTop": 420
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "24",
+   "debut": 3462,
+   "duree": 167,
+   "audio": null,
+   "texte": "Et le 23 octobre 2025, coup de théâtre : Donald Trump le gracie.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Et"
+    },
+    {
+     "t": 0.23,
+     "m": "le"
+    },
+    {
+     "t": 0.461,
+     "m": "23"
+    },
+    {
+     "t": 0.691,
+     "m": "octobre"
+    },
+    {
+     "t": 1.306,
+     "m": "2025,"
+    },
+    {
+     "t": 1.766,
+     "m": "coup"
+    },
+    {
+     "t": 2.15,
+     "m": "de"
+    },
+    {
+     "t": 2.381,
+     "m": "théâtre"
+    },
+    {
+     "t": 2.995,
+     "m": ":"
+    },
+    {
+     "t": 3.149,
+     "m": "Donald"
+    },
+    {
+     "t": 3.686,
+     "m": "Trump"
+    },
+    {
+     "t": 4.147,
+     "m": "le"
+    },
+    {
+     "t": 4.378,
+     "m": "gracie."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "23 OCTOBRE 2025",
+    "entete": "MAISON-BLANCHE",
+    "lignes": [
+     "Grâce présidentielle",
+     "Bénéficiaire : Changpeng Zhao"
+    ],
+    "surligne": [
+     "Grâce"
+    ],
+    "tampon": "GRACIÉ",
+    "tamponTop": 860
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "25",
+   "debut": 3629,
+   "duree": 213,
+   "audio": null,
+   "texte": "Pour la Maison-Blanche, il était victime de la « guerre contre les cryptos » du gouvernement précédent.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Pour"
+    },
+    {
+     "t": 0.311,
+     "m": "la"
+    },
+    {
+     "t": 0.498,
+     "m": "Maison-Blanche,"
+    },
+    {
+     "t": 1.493,
+     "m": "il"
+    },
+    {
+     "t": 1.679,
+     "m": "était"
+    },
+    {
+     "t": 2.053,
+     "m": "victime"
+    },
+    {
+     "t": 2.55,
+     "m": "de"
+    },
+    {
+     "t": 2.737,
+     "m": "la"
+    },
+    {
+     "t": 2.923,
+     "m": "«"
+    },
+    {
+     "t": 3.048,
+     "m": "guerre"
+    },
+    {
+     "t": 3.483,
+     "m": "contre"
+    },
+    {
+     "t": 3.919,
+     "m": "les"
+    },
+    {
+     "t": 4.167,
+     "m": "cryptos"
+    },
+    {
+     "t": 4.665,
+     "m": "»"
+    },
+    {
+     "t": 4.789,
+     "m": "du"
+    },
+    {
+     "t": 4.976,
+     "m": "gouvernement"
+    },
+    {
+     "t": 5.785,
+     "m": "précédent."
+    }
+   ],
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "« GUERRE AUX CRYPTOS »",
+    "taille": 76,
+    "sous": "La version de la Maison-Blanche"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "25b",
+   "debut": 3842,
+   "duree": 155,
+   "audio": null,
+   "texte": "Selon elle, il n'y avait « ni fraude, ni victime identifiée ».",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Selon"
+    },
+    {
+     "t": 0.44,
+     "m": "elle,"
+    },
+    {
+     "t": 0.881,
+     "m": "il"
+    },
+    {
+     "t": 1.101,
+     "m": "n'y"
+    },
+    {
+     "t": 1.394,
+     "m": "avait"
+    },
+    {
+     "t": 1.834,
+     "m": "«"
+    },
+    {
+     "t": 1.981,
+     "m": "ni"
+    },
+    {
+     "t": 2.201,
+     "m": "fraude,"
+    },
+    {
+     "t": 2.788,
+     "m": "ni"
+    },
+    {
+     "t": 3.008,
+     "m": "victime"
+    },
+    {
+     "t": 3.595,
+     "m": "identifiée"
+    },
+    {
+     "t": 4.403,
+     "m": "»."
+    }
+   ],
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "« NI FRAUDE, NI VICTIME »",
+    "taille": 72,
+    "sous": "Selon la Maison-Blanche"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "26",
+   "debut": 3997,
+   "duree": 213,
+   "audio": null,
+   "texte": "La presse américaine, elle, rappelle les liens d'affaires entre Binance et l'entreprise crypto de la famille Trump.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "La"
+    },
+    {
+     "t": 0.167,
+     "m": "presse"
+    },
+    {
+     "t": 0.558,
+     "m": "américaine,"
+    },
+    {
+     "t": 1.227,
+     "m": "elle,"
+    },
+    {
+     "t": 1.561,
+     "m": "rappelle"
+    },
+    {
+     "t": 2.063,
+     "m": "les"
+    },
+    {
+     "t": 2.286,
+     "m": "liens"
+    },
+    {
+     "t": 2.621,
+     "m": "d'affaires"
+    },
+    {
+     "t": 3.234,
+     "m": "entre"
+    },
+    {
+     "t": 3.569,
+     "m": "Binance"
+    },
+    {
+     "t": 4.015,
+     "m": "et"
+    },
+    {
+     "t": 4.182,
+     "m": "l'entreprise"
+    },
+    {
+     "t": 4.907,
+     "m": "crypto"
+    },
+    {
+     "t": 5.298,
+     "m": "de"
+    },
+    {
+     "t": 5.465,
+     "m": "la"
+    },
+    {
+     "t": 5.632,
+     "m": "famille"
+    },
+    {
+     "t": 6.079,
+     "m": "Trump."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "presse",
+    "titre": "LA POLÉMIQUE",
+    "journal": "PRESSE AMÉRICAINE · 2025",
+    "manchette": "Binance et la famille Trump : des liens d'affaires"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "27",
+   "debut": 4210,
+   "duree": 179,
+   "audio": null,
+   "texte": "Un an plus tard, Binance subit le plus gros vol de l'histoire des cryptos.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Un"
+    },
+    {
+     "t": 0.214,
+     "m": "an"
+    },
+    {
+     "t": 0.429,
+     "m": "plus"
+    },
+    {
+     "t": 0.786,
+     "m": "tard,"
+    },
+    {
+     "t": 1.215,
+     "m": "Binance"
+    },
+    {
+     "t": 1.787,
+     "m": "subit"
+    },
+    {
+     "t": 2.216,
+     "m": "le"
+    },
+    {
+     "t": 2.43,
+     "m": "plus"
+    },
+    {
+     "t": 2.788,
+     "m": "gros"
+    },
+    {
+     "t": 3.145,
+     "m": "vol"
+    },
+    {
+     "t": 3.431,
+     "m": "de"
+    },
+    {
+     "t": 3.646,
+     "m": "l'histoire"
+    },
+    {
+     "t": 4.432,
+     "m": "des"
+    },
+    {
+     "t": 4.718,
+     "m": "cryptos."
+    }
+   ],
+   "sequence": {
+    "type": "chronologie",
+    "titre": "SON PARCOURS",
+    "hauteur": 620,
+    "dates": [
+     {
+      "an": "2017",
+      "label": "Crée Binance"
+     },
+     {
+      "an": "2023",
+      "label": "Plaide coupable"
+     },
+     {
+      "an": "2025",
+      "label": "Gracié"
+     },
+     {
+      "an": "2026",
+      "label": "Le vol géant"
+     }
+    ]
+   },
+   "sousTitres": false
+  },
+  {
+   "id": "28",
+   "debut": 4389,
+   "duree": 248,
+   "audio": null,
+   "texte": "CZ ne dirige plus la plateforme. Mais c'est lui qui annonce, sur les réseaux, qu'elle a sans doute été piratée.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "CZ"
+    },
+    {
+     "t": 0.203,
+     "m": "ne"
+    },
+    {
+     "t": 0.406,
+     "m": "dirige"
+    },
+    {
+     "t": 0.879,
+     "m": "plus"
+    },
+    {
+     "t": 1.218,
+     "m": "la"
+    },
+    {
+     "t": 1.421,
+     "m": "plateforme."
+    },
+    {
+     "t": 2.232,
+     "m": "Mais"
+    },
+    {
+     "t": 2.571,
+     "m": "c'est"
+    },
+    {
+     "t": 2.977,
+     "m": "lui"
+    },
+    {
+     "t": 3.247,
+     "m": "qui"
+    },
+    {
+     "t": 3.518,
+     "m": "annonce,"
+    },
+    {
+     "t": 4.127,
+     "m": "sur"
+    },
+    {
+     "t": 4.397,
+     "m": "les"
+    },
+    {
+     "t": 4.668,
+     "m": "réseaux,"
+    },
+    {
+     "t": 5.277,
+     "m": "qu'elle"
+    },
+    {
+     "t": 5.818,
+     "m": "a"
+    },
+    {
+     "t": 5.953,
+     "m": "sans"
+    },
+    {
+     "t": 6.291,
+     "m": "doute"
+    },
+    {
+     "t": 6.697,
+     "m": "été"
+    },
+    {
+     "t": 6.968,
+     "m": "piratée."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "alerte",
+    "titre": "OCTOBRE 2026",
+    "legende": "« Sans doute piratée »"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "29",
+   "debut": 4637,
+   "duree": 109,
+   "audio": null,
+   "texte": "Et il assure que les clients seront couverts.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Et"
+    },
+    {
+     "t": 0.205,
+     "m": "il"
+    },
+    {
+     "t": 0.41,
+     "m": "assure"
+    },
+    {
+     "t": 0.889,
+     "m": "que"
+    },
+    {
+     "t": 1.163,
+     "m": "les"
+    },
+    {
+     "t": 1.436,
+     "m": "clients"
+    },
+    {
+     "t": 1.983,
+     "m": "seront"
+    },
+    {
+     "t": 2.462,
+     "m": "couverts."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "lettre",
+    "titre": "SA PROMESSE",
+    "entete": "MESSAGE DE CZ",
+    "lignes": [
+     "■",
+     "Les clients seront couverts",
+     "■"
+    ],
+    "surligne": [
+     "couverts"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "30",
+   "debut": 4746,
+   "duree": 213,
+   "audio": null,
+   "texte": "Des burgers à la prison, puis à la grâce présidentielle… l'histoire de CZ est loin d'être terminée.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Des"
+    },
+    {
+     "t": 0.259,
+     "m": "burgers"
+    },
+    {
+     "t": 0.776,
+     "m": "à"
+    },
+    {
+     "t": 0.906,
+     "m": "la"
+    },
+    {
+     "t": 1.1,
+     "m": "prison,"
+    },
+    {
+     "t": 1.617,
+     "m": "puis"
+    },
+    {
+     "t": 1.941,
+     "m": "à"
+    },
+    {
+     "t": 2.07,
+     "m": "la"
+    },
+    {
+     "t": 2.264,
+     "m": "grâce"
+    },
+    {
+     "t": 2.652,
+     "m": "présidentielle…"
+    },
+    {
+     "t": 3.687,
+     "m": "l'histoire"
+    },
+    {
+     "t": 4.399,
+     "m": "de"
+    },
+    {
+     "t": 4.593,
+     "m": "CZ"
+    },
+    {
+     "t": 4.787,
+     "m": "est"
+    },
+    {
+     "t": 5.046,
+     "m": "loin"
+    },
+    {
+     "t": 5.369,
+     "m": "d'être"
+    },
+    {
+     "t": 5.822,
+     "m": "terminée."
+    }
+   ],
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "AFFAIRE Nº 9",
+     "ZHAO, Changpeng"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "31",
+   "debut": 4959,
+   "duree": 236,
+   "audio": null,
+   "texte": "Quelle affaire veux-tu que j'ouvre la prochaine fois ? Écris-la en commentaire. Et abonne-toi pour ne rater aucun dossier.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Quelle"
+    },
+    {
+     "t": 0.41,
+     "m": "affaire"
+    },
+    {
+     "t": 0.879,
+     "m": "veux-tu"
+    },
+    {
+     "t": 1.348,
+     "m": "que"
+    },
+    {
+     "t": 1.582,
+     "m": "j'ouvre"
+    },
+    {
+     "t": 2.051,
+     "m": "la"
+    },
+    {
+     "t": 2.227,
+     "m": "prochaine"
+    },
+    {
+     "t": 2.813,
+     "m": "fois"
+    },
+    {
+     "t": 3.106,
+     "m": "?"
+    },
+    {
+     "t": 3.223,
+     "m": "Écris-la"
+    },
+    {
+     "t": 3.75,
+     "m": "en"
+    },
+    {
+     "t": 3.926,
+     "m": "commentaire."
+    },
+    {
+     "t": 4.688,
+     "m": "Et"
+    },
+    {
+     "t": 4.864,
+     "m": "abonne-toi"
+    },
+    {
+     "t": 5.508,
+     "m": "pour"
+    },
+    {
+     "t": 5.801,
+     "m": "ne"
+    },
+    {
+     "t": 5.977,
+     "m": "rater"
+    },
+    {
+     "t": 6.328,
+     "m": "aucun"
+    },
+    {
+     "t": 6.68,
+     "m": "dossier."
+    }
+   ],
+   "sequence": {
+    "type": "cta",
+    "bulle": "✍️ Ton prochain dossier ?"
    },
    "sousTitres": true
   }
