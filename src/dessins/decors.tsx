@@ -2,7 +2,7 @@ import React from "react";
 import { CREME, GRIS, JAUNE, KRAFT, NUIT2 } from "../theme";
 import { Baie, Cellule, Couloir, Toit } from "./evasion";
 import { Chambre, Salon } from "./louvre";
-import { FacadeLouvre, Galerie } from "./casse";
+import { FacadeLouvre, Galerie, Parking } from "./casse";
 import { Aeroport, Cabine, Cockpit, Escalier, Fleuve, Piste, Saut, Vol } from "./aviation";
 
 // Décors plein écran (1080 x 1920), sol à y = 1350. Couleurs sourdes pour laisser ressortir les personnages.
@@ -422,4 +422,5 @@ export const DECORS: Record<string, React.FC<{ frame: number; p?: any }>> = {
   chambre: Chambre,
   facade: FacadeLouvre,
   galerie: Galerie,
+  parking: Parking,
 };

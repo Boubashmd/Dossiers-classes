@@ -276,4 +276,97 @@ export const Galerie: React.FC<{ frame: number; p?: any }> = ({ frame: f, p = {}
   );
 };
 
+/** Moto (profil, vers la droite). Roues au sol en y. */
+const Moto: React.FC<{ x: number; y: number; s?: number }> = ({ x, y, s = 1 }) => (
+  <g transform={`translate(${x} ${y}) scale(${s})`}>
+    <circle cx={-60} cy={-30} r={30} fill="#14181F" stroke="#5A6272" strokeWidth={6} />
+    <circle cx={65} cy={-30} r={30} fill="#14181F" stroke="#5A6272" strokeWidth={6} />
+    <path d="M-60 -30 L-20 -80 L40 -80 L65 -30 M30 -80 L50 -115" stroke="#3A4252" strokeWidth={10} fill="none" />
+    <path d="M-30 -95 Q0 -110 35 -92 L30 -78 L-25 -78 Z" fill="#2A3040" />
+    <rect x={40} y={-122} width={26} height={8} rx={4} fill="#1A1D26" />
+  </g>
+);
+
+/** Homme casqué, debout, de face (silhouette). Pieds en (x, y). bras = lève les mains. */
+const Casque: React.FC<{ x: number; y: number; s?: number; bras?: number }> = ({ x, y, s = 1, bras = 0 }) => (
+  <g transform={`translate(${x} ${y}) scale(${s})`}>
+    <rect x={-20} y={-80} width={16} height={80} fill="#1A1E28" />
+    <rect x={4} y={-80} width={16} height={80} fill="#1A1E28" />
+    <path d="M-36 -80 V-150 Q-36 -175 0 -175 Q36 -175 36 -150 V-80 Z" fill="#232A38" />
+    <path d={`M-36 -160 L${-50 - 10 * bras} ${-100 - 60 * bras}`} stroke="#232A38" strokeWidth={16} strokeLinecap="round" />
+    <path d={`M36 -160 L${50 + 10 * bras} ${-100 - 60 * bras}`} stroke="#232A38" strokeWidth={16} strokeLinecap="round" />
+    <circle cx={0} cy={-205} r={30} fill="#0E1118" />
+    <rect x={-24} y={-214} width={48} height={16} rx={6} fill="#3A4A62" />
+  </g>
+);
+
+/**
+ * Parking souterrain (Aubervilliers) filmé par une caméra de surveillance.
+ * p.motos : deux motos et deux hommes casqués ; p.bijoux : ils sortent les bijoux (éclats) ;
+ * p.vide : le parking est vide ; p.heure : horodatage affiché façon vidéosurveillance.
+ */
+export const Parking: React.FC<{ frame: number; p?: any }> = ({ frame: f, p = {} }) => {
+  const rec = Math.floor(f / 15) % 2 === 0;
+  return (
+    <g>
+      <rect x={0} y={0} width={1080} height={1920} fill="#151A22" />
+      <rect x={0} y={380} width={1080} height={970} fill="#3A3F48" />
+      <rect x={0} y={380} width={1080} height={60} fill="#2A2E36" />
+      {[160, 540, 920].map((x) => (
+        <g key={x}>
+          <rect x={x - 70} y={395} width={140} height={14} rx={6} fill="#E8F0D8" opacity={0.85} />
+          <path d={`M${x - 70} 409 L${x - 220} 1350 L${x + 220} 1350 L${x + 70} 409 Z`} fill="#E8F0D8" opacity={0.05} />
+        </g>
+      ))}
+      {/* box fermés */}
+      {[0, 1, 2, 3].map((i) => (
+        <g key={i}>
+          <rect x={40 + i * 255} y={700} width={235} height={650} fill="#555B66" stroke="#2A2E36" strokeWidth={8} />
+          {Array.from({ length: 12 }, (_, k) => (
+            <line key={k} x1={44 + i * 255} x2={271 + i * 255} y1={740 + k * 50} y2={740 + k * 50} stroke="#474C56" strokeWidth={5} />
+          ))}
+          <text x={157 + i * 255} y={680} textAnchor="middle" fontFamily="monospace" fontSize={34} fill="#C9CED6">{`B${12 + i}`}</text>
+        </g>
+      ))}
+      <rect x={0} y={1350} width={1080} height={570} fill="#2E3238" />
+      {[0, 1, 2, 3, 4].map((i) => (
+        <rect key={i} x={60 + i * 220} y={1420} width={120} height={14} fill="#C9B24A" opacity={0.6} />
+      ))}
+      {p.motos && !p.vide && (
+        <g>
+          <Moto x={260} y={1350} s={1.3} />
+          <Moto x={800} y={1350} s={1.3} />
+          <Casque x={430} y={1350} s={1.15} bras={p.bijoux ? Math.min(1, f / 20) : 0} />
+          <Casque x={620} y={1350} s={1.15} bras={p.bijoux ? Math.min(1, Math.max(0, f - 6) / 20) : 0} />
+          {p.bijoux &&
+            [0, 1, 2, 3, 4].map((i) => {
+              const t = (f / 6 + i * 1.3) % 5;
+              return t < 1.2 ? (
+                <path key={i} transform={`translate(${470 + i * 30} ${1080 + (i % 2) * 30})`} d="M0 -22 l7 15 l15 7 l-15 7 l-7 15 l-7 -15 l-15 -7 l15 -7 Z" fill={i % 2 ? "#BFE8FF" : JAUNE} opacity={1 - t / 1.2} />
+              ) : null;
+            })}
+        </g>
+      )}
+      {/* caméra de surveillance */}
+      <g transform="translate(930 470)">
+        <rect x={-10} y={-30} width={20} height={40} fill="#20242C" />
+        <rect x={-90} y={0} width={110} height={46} rx={8} fill="#D8DCE2" transform="rotate(18)" />
+        <circle cx={-78} cy={-5} r={10} fill="#1A1D26" transform="rotate(18)" />
+      </g>
+      {/* effet vidéosurveillance */}
+      <rect x={0} y={0} width={1080} height={1920} fill="#4A6A4A" opacity={0.12} />
+      {Array.from({ length: 60 }, (_, i) => (
+        <rect key={i} x={0} y={i * 32} width={1080} height={2} fill="#000" opacity={0.18} />
+      ))}
+      {p.heure && (
+        <g fontFamily="monospace" fontSize={44} fill="#F2F2F2">
+          {rec && <circle cx={80} cy={505} r={16} fill={ROUGE} />}
+          <text x={110} y={520}>REC</text>
+          <text x={60} y={580}>{p.heure}</text>
+        </g>
+      )}
+    </g>
+  );
+};
+
 export { JAUNE };

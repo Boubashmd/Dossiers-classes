@@ -1,0 +1,434 @@
+{
+ "id": "affaire-11-louvre-2",
+ "numero": 11,
+ "titre": "Où sont les bijoux du Louvre ?",
+ "personnage": "Les joyaux de la Couronne",
+ "photo": {
+  "fichier": "photos/affaire-11-louvre-2.jpg",
+  "legende": "La galerie d'Apollon, au Louvre",
+  "credit": "Photo : galerie d'Apollon (Louvre), Wikimedia Commons (licence libre)."
+ },
+ "publication": {
+  "accroche": "Une dernière vidéo dans un parking d'Aubervilliers… puis plus rien. Un an après le casse du Louvre, où sont passés les joyaux de la Couronne ? 📂 Histoire vraie (Partie 2/2)",
+  "sources": "AFP (Manila Times, OnlineKhabar), TF1 (enquête du 20h), Artnet, ITV / Le Monde, Wikipédia, Al Jazeera, Europe 1.",
+  "hashtags_episode": [
+   "#louvre",
+   "#partie2"
+  ],
+  "commentaire_epingle": "📂 Ton verdict : 1 = bijoux cachés en France, 2 = déjà démontés à l'étranger 👇 Et quel dossier ensuite ?"
+ },
+ "couverture": {
+  "titre": "OÙ SONT LES BIJOUX DU LOUVRE ?",
+  "sous": "Affaire nº 11 · Le casse du Louvre · 2/2",
+  "couleur": true
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Huit bijoux. Une dernière vidéo. Puis plus rien.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "photos/affaire-11-louvre-2.jpg",
+    "couleur": true,
+    "titre": "OÙ SONT LES BIJOUX DU LOUVRE ?",
+    "sous": "Affaire nº 11 · Partie 2/2"
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Un an après le casse, la piste s'arrête… dans un parking.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-11-louvre-2.jpg",
+    "texte": "LA DERNIÈRE TRACE"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Dans l'épisode précédent : huit bijoux de la Couronne volés au Louvre, en moins de huit minutes.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "vitrine",
+    "vide": true,
+    "titre": "ÉPISODE PRÉCÉDENT"
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Quatre suspects sont en prison. Mais les bijoux, eux, ont disparu.",
+   "sequence": {
+    "type": "suspects",
+    "titre": "4 SUSPECTS"
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Remontons la piste. 19 octobre 2025, 10 h 27. Moins d'une heure après le casse.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "10 H 27",
+    "taille": 120,
+    "sous": "Moins d'une heure après le casse"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Un parking souterrain d'Aubervilliers, au nord de Paris. C'est là que vivent les suspects.",
+   "sequence": {
+    "type": "scene",
+    "decor": "parking",
+    "titre": "AUBERVILLIERS"
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Une caméra de surveillance filme deux hommes casqués qui descendent de moto.",
+   "sequence": {
+    "type": "scene",
+    "decor": "parking",
+    "motos": true,
+    "heure": "19/10/2025 10:27",
+    "titre": "VIDÉOSURVEILLANCE"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Ils sortent les bijoux… et les admirent, juste sous la caméra.",
+   "sequence": {
+    "type": "scene",
+    "decor": "parking",
+    "motos": true,
+    "bijoux": true,
+    "heure": "19/10/2025 10:28",
+    "titre": "LE BUTIN"
+   }
+  },
+  {
+   "id": "08b",
+   "texte": "Selon Le Monde, l'un d'eux reconnaît même que la couronne d'Eugénie est tombée de son sac pendant la fuite.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "couronne",
+    "abimee": true,
+    "titre": "LA COURONNE",
+    "legende": "Tombée du sac",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "09",
+   "texte": "C'est la dernière fois qu'on les voit.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "DERNIÈRE TRACE",
+    "taille": 110
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Quand les policiers arrivent, il n'y a plus rien. Ni les bijoux, ni les véhicules de la fuite.",
+   "sequence": {
+    "type": "scene",
+    "decor": "parking",
+    "vide": true,
+    "titre": "TROP TARD",
+    "tampon": "VIDE",
+    "tamponTop": 900
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Ils fouillent les appartements, les caves, les garages. Rien.",
+   "sequence": {
+    "type": "icones",
+    "titre": "LES FOUILLES",
+    "items": [
+     {
+      "label": "LOGEMENTS",
+      "sous": "rien"
+     },
+     {
+      "label": "CAVES",
+      "sous": "rien"
+     },
+     {
+      "label": "GARAGES",
+      "sous": "rien"
+     }
+    ]
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Alors, où sont-ils passés ? Les enquêteurs ont trois pistes.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "3 PISTES",
+    "taille": 130
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Piste numéro un : les bijoux n'ont jamais quitté la région parisienne. Cachés, en attendant que l'affaire se calme.",
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "PISTE Nº 1",
+    "legende": "Toujours près de Paris ?",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Piste numéro deux : un commanditaire.",
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "PISTE Nº 2",
+    "personnages": [
+     {
+      "nom": "ombre",
+      "x": 540,
+      "y": 1350,
+      "s": 460
+     }
+    ],
+    "legende": "Un commanditaire ?",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Selon Le Monde, deux suspects disent avoir été recrutés quelques jours seulement avant le casse.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LES AUDITIONS",
+    "entete": "SELON LE MONDE",
+    "lignes": [
+     "Recrutés : quelques jours avant",
+     "Promesse : 15 000 à 20 000 €"
+    ],
+    "surligne": [
+     "quelques jours"
+    ]
+   }
+  },
+  {
+   "id": "16",
+   "texte": "L'un d'eux affirme avoir remis les bijoux à ce commanditaire. Mais il refuse de dire qui c'est… par peur pour sa famille.",
+   "sequence": {
+    "type": "flux",
+    "titre": "LA REMISE",
+    "de": "detenu",
+    "vers": "ombre",
+    "objet": "sac",
+    "lettre": "?"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Prudence : pour les enquêteurs, l'existence de ce cerveau n'est pas prouvée.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "UN CERVEAU ?",
+    "taille": 110,
+    "sous": "Pas prouvé"
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Piste numéro trois : les bijoux ont été démontés.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "vitrine",
+    "vide": true,
+    "titre": "PISTE Nº 3"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Les pierres séparées, l'or fondu… et les diamants retaillés, pour les rendre méconnaissables.",
+   "sequence": {
+    "type": "icones",
+    "titre": "DÉMONTÉS ?",
+    "items": [
+     {
+      "label": "PIERRES",
+      "sous": "séparées"
+     },
+     {
+      "label": "OR",
+      "sous": "fondu"
+     },
+     {
+      "label": "DIAMANTS",
+      "sous": "retaillés"
+     }
+    ]
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Puis revendus à l'étranger. Anvers, en Belgique, la capitale du diamant, fait partie des pistes.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "ANVERS ?",
+    "lieux": [
+     {
+      "lon": 2.35,
+      "lat": 48.86,
+      "nom": "PARIS",
+      "dessous": true
+     },
+     {
+      "lon": 4.4,
+      "lat": 51.22,
+      "nom": "ANVERS",
+      "style": "cible"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       2.35,
+       48.86
+      ],
+      "vers": [
+       4.4,
+       51.22
+      ],
+      "a": 12,
+      "pointilles": true,
+      "courbe": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Dans ce cas, ces trésors pourraient être perdus pour toujours.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "PERDUS À JAMAIS ?",
+    "taille": 80
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Et au Louvre ? Le casse a révélé de graves failles de sécurité.",
+   "sequence": {
+    "type": "scene",
+    "decor": "facade",
+    "brise": true,
+    "titre": "AU LOUVRE"
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Sa présidente, Laurence des Cars, avait proposé sa démission dès le jour du vol. En février 2026, elle quitte son poste.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "FÉVRIER 2026",
+    "entete": "MUSÉE DU LOUVRE",
+    "lignes": [
+     "Présidente : Laurence des Cars",
+     "Statut : départ"
+    ],
+    "surligne": [
+     "départ"
+    ],
+    "tampon": "DÉMISSION",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Le musée promet une centaine de nouvelles caméras d'ici à la fin de 2026.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LA RIPOSTE",
+    "valeur": 100,
+    "unite": "nouvelles caméras promises",
+    "legende": "d'ici à fin 2026"
+   }
+  },
+  {
+   "id": "25",
+   "texte": "La couronne d'Eugénie, elle, est en cours de restauration.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "couronne",
+    "abimee": true,
+    "titre": "EN RESTAURATION"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Les quatre suspects attendent leur procès. Deux reconnaissent les faits. Deux les contestent.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "EN ATTENTE",
+    "entete": "JUSTICE",
+    "lignes": [
+     "Suspects : 4, en détention",
+     "Aveux : 2 sur 4"
+    ],
+    "surligne": [
+     "2 sur 4"
+    ],
+    "tampon": "PROCÈS À VENIR",
+    "tamponTop": 860,
+    "tamponTaille": 90
+   }
+  },
+  {
+   "id": "26b",
+   "texte": "Et aucune date de procès n'a encore été annoncée.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "PROCÈS : DATE INCONNUE",
+    "taille": 80
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Tant que les bijoux restent introuvables… ce dossier-là n'est pas près d'être classé.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "LE DOSSIER",
+    "hauteur": 620,
+    "dates": [
+     {
+      "an": "OCT. 2025",
+      "label": "Le casse"
+     },
+     {
+      "an": "FÉV. 2026",
+      "label": "Démission"
+     },
+     {
+      "an": "OCT. 2026",
+      "label": "Bijoux introuvables"
+     }
+    ]
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Et toi ? Réponds 1 : cachés en France. Ou 2 : déjà démontés à l'étranger. Et abonne-toi pour le prochain dossier.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}

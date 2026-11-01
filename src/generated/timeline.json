@@ -1,15 +1,15 @@
 {
- "episode": "affaire-10-louvre",
+ "episode": "affaire-11-louvre-2",
  "fps": 30,
- "total": 5280,
+ "total": 5105,
  "avecVoix": false,
  "couverture": {
-  "titre": "88 MILLIONS VOLÉS EN 8 MINUTES",
-  "sous": "Affaire nº 10 · Le casse du Louvre · 1/2",
-  "photo": "photos/affaire-10-louvre.jpg",
+  "titre": "OÙ SONT LES BIJOUX DU LOUVRE ?",
+  "sous": "Affaire nº 11 · Le casse du Louvre · 2/2",
+  "photo": "photos/affaire-11-louvre-2.jpg",
   "visage": {
    "x": 600,
-   "y": 405
+   "y": 360
   },
   "largeur": 1200,
   "couleur": true
@@ -18,1253 +18,1411 @@
   {
    "id": "01",
    "debut": 0,
-   "duree": 98,
+   "duree": 109,
    "audio": null,
-   "texte": "Huit minutes. Huit bijoux. Le Louvre dévalisé.",
+   "texte": "Huit bijoux. Une dernière vidéo. Puis plus rien.",
    "mots": [
     {
      "t": 0,
      "m": "Huit"
     },
     {
-     "t": 0.295,
-     "m": "minutes."
-    },
-    {
-     "t": 0.827,
-     "m": "Huit"
-    },
-    {
-     "t": 1.122,
+     "t": 0.321,
      "m": "bijoux."
     },
     {
-     "t": 1.595,
-     "m": "Le"
+     "t": 0.835,
+     "m": "Une"
     },
     {
-     "t": 1.772,
-     "m": "Louvre"
+     "t": 1.091,
+     "m": "dernière"
     },
     {
-     "t": 2.186,
-     "m": "dévalisé."
+     "t": 1.669,
+     "m": "vidéo."
+    },
+    {
+     "t": 2.119,
+     "m": "Puis"
+    },
+    {
+     "t": 2.44,
+     "m": "plus"
+    },
+    {
+     "t": 2.761,
+     "m": "rien."
     }
    ],
    "sequence": {
     "type": "accroche",
-    "photo": "photos/affaire-10-louvre.jpg",
+    "photo": "photos/affaire-11-louvre-2.jpg",
     "couleur": true,
-    "titre": "88 MILLIONS VOLÉS EN 8 MINUTES",
-    "sous": "Affaire nº 10 · Partie 1/2",
+    "titre": "OÙ SONT LES BIJOUX DU LOUVRE ?",
+    "sous": "Affaire nº 11 · Partie 2/2",
     "srcW": 1200,
-    "srcH": 900,
+    "srcH": 800,
     "visage": {
      "x": 600,
-     "y": 405
+     "y": 360
     }
    },
    "sousTitres": true
   },
   {
    "id": "02",
-   "debut": 98,
+   "debut": 109,
    "duree": 144,
    "audio": null,
-   "texte": "Et un an plus tard… personne ne sait où ils sont.",
+   "texte": "Un an après le casse, la piste s'arrête… dans un parking.",
    "mots": [
     {
      "t": 0,
-     "m": "Et"
+     "m": "Un"
     },
     {
-     "t": 0.255,
-     "m": "un"
-    },
-    {
-     "t": 0.51,
+     "t": 0.22,
      "m": "an"
     },
     {
-     "t": 0.766,
-     "m": "plus"
+     "t": 0.44,
+     "m": "après"
     },
     {
-     "t": 1.191,
-     "m": "tard…"
+     "t": 0.88,
+     "m": "le"
     },
     {
-     "t": 1.701,
-     "m": "personne"
+     "t": 1.1,
+     "m": "casse,"
     },
     {
-     "t": 2.467,
-     "m": "ne"
+     "t": 1.613,
+     "m": "la"
     },
     {
-     "t": 2.722,
-     "m": "sait"
+     "t": 1.833,
+     "m": "piste"
     },
     {
-     "t": 3.148,
-     "m": "où"
+     "t": 2.273,
+     "m": "s'arrête…"
     },
     {
-     "t": 3.403,
-     "m": "ils"
+     "t": 3.007,
+     "m": "dans"
     },
     {
-     "t": 3.743,
-     "m": "sont."
+     "t": 3.373,
+     "m": "un"
+    },
+    {
+     "t": 3.594,
+     "m": "parking."
     }
    ],
    "sequence": {
     "type": "choc",
-    "photo": "photos/affaire-10-louvre.jpg",
-    "texte": "TOUJOURS INTROUVABLES",
+    "photo": "photos/affaire-11-louvre-2.jpg",
+    "texte": "LA DERNIÈRE TRACE",
     "srcW": 1200,
-    "srcH": 900,
+    "srcH": 800,
     "visage": {
      "x": 600,
-     "y": 405
+     "y": 360
     }
    },
    "sousTitres": true
   },
   {
    "id": "03",
-   "debut": 242,
+   "debut": 253,
    "duree": 213,
    "audio": null,
-   "texte": "Dimanche 19 octobre 2025. Le Louvre, le musée le plus visité du monde, vient d'ouvrir ses portes.",
+   "texte": "Dans l'épisode précédent : huit bijoux de la Couronne volés au Louvre, en moins de huit minutes.",
    "mots": [
     {
      "t": 0,
-     "m": "Dimanche"
+     "m": "Dans"
     },
     {
-     "t": 0.594,
-     "m": "19"
+     "t": 0.333,
+     "m": "l'épisode"
     },
     {
-     "t": 0.792,
-     "m": "octobre"
+     "t": 1,
+     "m": "précédent"
     },
     {
-     "t": 1.32,
-     "m": "2025."
-    },
-    {
-     "t": 1.716,
-     "m": "Le"
-    },
-    {
-     "t": 1.914,
-     "m": "Louvre,"
-    },
-    {
-     "t": 2.442,
-     "m": "le"
-    },
-    {
-     "t": 2.64,
-     "m": "musée"
-    },
-    {
-     "t": 3.036,
-     "m": "le"
-    },
-    {
-     "t": 3.234,
-     "m": "plus"
-    },
-    {
-     "t": 3.565,
-     "m": "visité"
-    },
-    {
-     "t": 4.027,
-     "m": "du"
-    },
-    {
-     "t": 4.225,
-     "m": "monde,"
-    },
-    {
-     "t": 4.687,
-     "m": "vient"
-    },
-    {
-     "t": 5.083,
-     "m": "d'ouvrir"
-    },
-    {
-     "t": 5.677,
-     "m": "ses"
-    },
-    {
-     "t": 5.941,
-     "m": "portes."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "facade",
-    "titre": "19 OCTOBRE 2025",
-    "legende": "9 h 30",
-    "legendeTop": 420
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "04",
-   "debut": 455,
-   "duree": 167,
-   "audio": null,
-   "texte": "Côté Seine, un camion équipé d'une nacelle se gare au pied du musée.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Côté"
-    },
-    {
-     "t": 0.362,
-     "m": "Seine,"
-    },
-    {
-     "t": 0.868,
-     "m": "un"
-    },
-    {
-     "t": 1.085,
-     "m": "camion"
-    },
-    {
-     "t": 1.592,
-     "m": "équipé"
-    },
-    {
-     "t": 2.098,
-     "m": "d'une"
-    },
-    {
-     "t": 2.532,
-     "m": "nacelle"
-    },
-    {
-     "t": 3.111,
-     "m": "se"
-    },
-    {
-     "t": 3.328,
-     "m": "gare"
-    },
-    {
-     "t": 3.69,
-     "m": "au"
-    },
-    {
-     "t": 3.907,
-     "m": "pied"
-    },
-    {
-     "t": 4.269,
-     "m": "du"
-    },
-    {
-     "t": 4.486,
-     "m": "musée."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "facade",
-    "camion": true,
-    "titre": "CÔTÉ SEINE"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "05",
-   "debut": 622,
-   "duree": 144,
-   "audio": null,
-   "texte": "Autour, des hommes en gilets jaunes et orange. Comme des ouvriers.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Autour,"
-    },
-    {
-     "t": 0.508,
-     "m": "des"
-    },
-    {
-     "t": 0.762,
-     "m": "hommes"
-    },
-    {
-     "t": 1.206,
-     "m": "en"
-    },
-    {
-     "t": 1.397,
-     "m": "gilets"
-    },
-    {
-     "t": 1.841,
-     "m": "jaunes"
-    },
-    {
-     "t": 2.285,
-     "m": "et"
-    },
-    {
-     "t": 2.476,
-     "m": "orange."
-    },
-    {
-     "t": 2.984,
-     "m": "Comme"
-    },
-    {
-     "t": 3.365,
-     "m": "des"
-    },
-    {
-     "t": 3.619,
-     "m": "ouvriers."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "facade",
-    "camion": true,
-    "ouvriers": true,
-    "titre": "DES OUVRIERS ?"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "06",
-   "debut": 766,
-   "duree": 167,
-   "audio": null,
-   "texte": "Personne ne se méfie. Des travaux, il y en a souvent à Paris.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Personne"
-    },
-    {
-     "t": 0.725,
-     "m": "ne"
-    },
-    {
-     "t": 0.966,
-     "m": "se"
-    },
-    {
-     "t": 1.208,
-     "m": "méfie."
-    },
-    {
-     "t": 1.771,
-     "m": "Des"
-    },
-    {
-     "t": 2.093,
-     "m": "travaux,"
-    },
-    {
-     "t": 2.818,
-     "m": "il"
-    },
-    {
-     "t": 3.06,
-     "m": "y"
-    },
-    {
-     "t": 3.221,
-     "m": "en"
-    },
-    {
-     "t": 3.462,
-     "m": "a"
-    },
-    {
-     "t": 3.623,
-     "m": "souvent"
-    },
-    {
-     "t": 4.267,
-     "m": "à"
-    },
-    {
-     "t": 4.428,
-     "m": "Paris."
-    }
-   ],
-   "sequence": {
-    "type": "secret",
-    "personnage": "aucun",
-    "texte": "PERSONNE NE SE MÉFIE",
-    "taille": 96
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "07",
-   "debut": 933,
-   "duree": 132,
-   "audio": null,
-   "texte": "La nacelle se déploie… jusqu'à un balcon du premier étage.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "La"
-    },
-    {
-     "t": 0.198,
-     "m": "nacelle"
-    },
-    {
-     "t": 0.724,
-     "m": "se"
-    },
-    {
-     "t": 0.922,
-     "m": "déploie…"
-    },
-    {
-     "t": 1.514,
-     "m": "jusqu'à"
-    },
-    {
-     "t": 2.041,
-     "m": "un"
-    },
-    {
-     "t": 2.238,
-     "m": "balcon"
-    },
-    {
-     "t": 2.699,
-     "m": "du"
-    },
-    {
-     "t": 2.897,
-     "m": "premier"
-    },
-    {
-     "t": 3.423,
-     "m": "étage."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "facade",
-    "deploie": true,
-    "titre": "LA NACELLE"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "08",
-   "debut": 1065,
-   "duree": 132,
-   "audio": null,
-   "texte": "Deux hommes montent, le visage caché, et brisent une fenêtre.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Deux"
-    },
-    {
-     "t": 0.313,
-     "m": "hommes"
-    },
-    {
-     "t": 0.752,
-     "m": "montent,"
-    },
-    {
-     "t": 1.316,
-     "m": "le"
-    },
-    {
-     "t": 1.504,
-     "m": "visage"
-    },
-    {
-     "t": 1.942,
-     "m": "caché,"
-    },
-    {
-     "t": 2.381,
-     "m": "et"
-    },
-    {
-     "t": 2.569,
-     "m": "brisent"
-    },
-    {
-     "t": 3.07,
-     "m": "une"
-    },
-    {
-     "t": 3.32,
-     "m": "fenêtre."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "facade",
-    "nacelleHaute": true,
-    "brise": true,
-    "titre": "9 H 34"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "09",
-   "debut": 1197,
-   "duree": 213,
-   "audio": null,
-   "texte": "Derrière : la galerie d'Apollon. C'est là que sont exposés les joyaux de la Couronne de France.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Derrière"
-    },
-    {
-     "t": 0.606,
+     "t": 1.667,
      "m": ":"
     },
     {
-     "t": 0.741,
-     "m": "la"
+     "t": 1.801,
+     "m": "huit"
     },
     {
-     "t": 0.943,
-     "m": "galerie"
+     "t": 2.134,
+     "m": "bijoux"
     },
     {
-     "t": 1.482,
-     "m": "d'Apollon."
-    },
-    {
-     "t": 2.224,
-     "m": "C'est"
-    },
-    {
-     "t": 2.628,
-     "m": "là"
-    },
-    {
-     "t": 2.83,
-     "m": "que"
-    },
-    {
-     "t": 3.1,
-     "m": "sont"
-    },
-    {
-     "t": 3.437,
-     "m": "exposés"
-    },
-    {
-     "t": 3.976,
-     "m": "les"
-    },
-    {
-     "t": 4.245,
-     "m": "joyaux"
-    },
-    {
-     "t": 4.717,
+     "t": 2.601,
      "m": "de"
     },
     {
-     "t": 4.919,
+     "t": 2.801,
      "m": "la"
     },
     {
-     "t": 5.121,
+     "t": 3.001,
      "m": "Couronne"
     },
     {
-     "t": 5.728,
+     "t": 3.601,
+     "m": "volés"
+    },
+    {
+     "t": 4.001,
+     "m": "au"
+    },
+    {
+     "t": 4.201,
+     "m": "Louvre,"
+    },
+    {
+     "t": 4.735,
+     "m": "en"
+    },
+    {
+     "t": 4.935,
+     "m": "moins"
+    },
+    {
+     "t": 5.335,
      "m": "de"
     },
     {
-     "t": 5.93,
-     "m": "France."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "galerie",
-    "titre": "LA GALERIE D'APOLLON"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "10",
-   "debut": 1410,
-   "duree": 132,
-   "audio": null,
-   "texte": "Les alarmes se déclenchent. Mais les voleurs vont très vite.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Les"
+     "t": 5.535,
+     "m": "huit"
     },
     {
-     "t": 0.255,
-     "m": "alarmes"
-    },
-    {
-     "t": 0.764,
-     "m": "se"
-    },
-    {
-     "t": 0.955,
-     "m": "déclenchent."
-    },
-    {
-     "t": 1.783,
-     "m": "Mais"
-    },
-    {
-     "t": 2.101,
-     "m": "les"
-    },
-    {
-     "t": 2.356,
-     "m": "voleurs"
-    },
-    {
-     "t": 2.865,
-     "m": "vont"
-    },
-    {
-     "t": 3.184,
-     "m": "très"
-    },
-    {
-     "t": 3.502,
-     "m": "vite."
-    }
-   ],
-   "sequence": {
-    "type": "scene",
-    "decor": "galerie",
-    "alarme": true,
-    "titre": "ALERTE"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "11",
-   "debut": 1542,
-   "duree": 75,
-   "audio": null,
-   "texte": "Ils s'attaquent à deux vitrines…",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Ils"
-    },
-    {
-     "t": 0.247,
-     "m": "s'attaquent"
-    },
-    {
-     "t": 0.988,
-     "m": "à"
-    },
-    {
-     "t": 1.112,
-     "m": "deux"
-    },
-    {
-     "t": 1.421,
-     "m": "vitrines…"
+     "t": 5.869,
+     "m": "minutes."
     }
    ],
    "sequence": {
     "type": "objet",
     "dessin": "vitrine",
     "vide": true,
-    "titre": "DEUX VITRINES"
+    "titre": "ÉPISODE PRÉCÉDENT"
    },
    "sousTitres": true
   },
   {
-   "id": "12",
-   "debut": 1617,
-   "duree": 86,
+   "id": "04",
+   "debut": 466,
+   "duree": 144,
    "audio": null,
-   "texte": "… et emportent huit bijoux historiques.",
+   "texte": "Quatre suspects sont en prison. Mais les bijoux, eux, ont disparu.",
    "mots": [
     {
      "t": 0,
-     "m": "…"
+     "m": "Quatre"
     },
     {
-     "t": 0.12,
-     "m": "et"
+     "t": 0.444,
+     "m": "suspects"
     },
     {
-     "t": 0.301,
-     "m": "emportent"
-    },
-    {
-     "t": 0.903,
-     "m": "huit"
-    },
-    {
-     "t": 1.204,
-     "m": "bijoux"
-    },
-    {
-     "t": 1.625,
-     "m": "historiques."
-    }
-   ],
-   "sequence": {
-    "type": "compteur",
-    "titre": "LE BUTIN",
-    "valeur": 8,
-    "unite": "bijoux historiques",
-    "couleur": "rouge"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "13",
-   "debut": 1703,
-   "duree": 213,
-   "audio": null,
-   "texte": "Des parures de reines et d'impératrices : Marie-Amélie, Hortense, Marie-Louise… et Eugénie, la femme de Napoléon III.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Des"
-    },
-    {
-     "t": 0.219,
-     "m": "parures"
-    },
-    {
-     "t": 0.658,
-     "m": "de"
-    },
-    {
-     "t": 0.822,
-     "m": "reines"
-    },
-    {
-     "t": 1.206,
-     "m": "et"
-    },
-    {
-     "t": 1.371,
-     "m": "d'impératrices"
-    },
-    {
-     "t": 2.193,
-     "m": ":"
-    },
-    {
-     "t": 2.302,
-     "m": "Marie-Amélie,"
-    },
-    {
-     "t": 3.07,
-     "m": "Hortense,"
-    },
-    {
-     "t": 3.618,
-     "m": "Marie-Louise…"
-    },
-    {
-     "t": 4.386,
-     "m": "et"
-    },
-    {
-     "t": 4.55,
-     "m": "Eugénie,"
-    },
-    {
-     "t": 5.044,
-     "m": "la"
-    },
-    {
-     "t": 5.208,
-     "m": "femme"
-    },
-    {
-     "t": 5.537,
-     "m": "de"
-    },
-    {
-     "t": 5.701,
-     "m": "Napoléon"
-    },
-    {
-     "t": 6.195,
-     "m": "III."
-    }
-   ],
-   "sequence": {
-    "type": "icones",
-    "titre": "LES PARURES",
-    "items": [
-     {
-      "label": "SAPHIRS",
-      "sous": "Marie-Amélie et Hortense"
-     },
-     {
-      "label": "ÉMERAUDES",
-      "sous": "Marie-Louise"
-     },
-     {
-      "label": "BROCHES",
-      "sous": "Eugénie"
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "14",
-   "debut": 1916,
-   "duree": 121,
-   "audio": null,
-   "texte": "Valeur estimée par le Louvre : quatre-vingt-huit millions d'euros.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Valeur"
-    },
-    {
-     "t": 0.367,
-     "m": "estimée"
-    },
-    {
-     "t": 0.787,
-     "m": "par"
-    },
-    {
-     "t": 0.997,
-     "m": "le"
-    },
-    {
-     "t": 1.154,
-     "m": "Louvre"
-    },
-    {
-     "t": 1.521,
-     "m": ":"
-    },
-    {
-     "t": 1.626,
-     "m": "quatre-vingt-huit"
-    },
-    {
-     "t": 2.571,
-     "m": "millions"
-    },
-    {
-     "t": 3.043,
-     "m": "d'euros."
-    }
-   ],
-   "sequence": {
-    "type": "compteur",
-    "titre": "LA VALEUR",
-    "valeur": 88,
-    "unite": "millions d'euros",
-    "couleur": "rouge",
-    "legende": "selon le Louvre"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "15",
-   "debut": 2037,
-   "duree": 190,
-   "audio": null,
-   "texte": "À 9 h 38, ils sont déjà ressortis. Ils redescendent, et filent sur deux scooters.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "À"
-    },
-    {
-     "t": 0.14,
-     "m": "9"
-    },
-    {
-     "t": 0.28,
-     "m": "h"
-    },
-    {
-     "t": 0.419,
-     "m": "38,"
-    },
-    {
-     "t": 0.699,
-     "m": "ils"
-    },
-    {
-     "t": 0.978,
+     "t": 1.016,
      "m": "sont"
     },
     {
-     "t": 1.328,
-     "m": "déjà"
+     "t": 1.333,
+     "m": "en"
     },
     {
-     "t": 1.677,
-     "m": "ressortis."
+     "t": 1.524,
+     "m": "prison."
     },
     {
-     "t": 2.446,
-     "m": "Ils"
+     "t": 2.032,
+     "m": "Mais"
     },
     {
-     "t": 2.725,
-     "m": "redescendent,"
+     "t": 2.349,
+     "m": "les"
     },
     {
-     "t": 3.704,
-     "m": "et"
+     "t": 2.603,
+     "m": "bijoux,"
     },
     {
-     "t": 3.913,
-     "m": "filent"
+     "t": 3.111,
+     "m": "eux,"
     },
     {
-     "t": 4.403,
-     "m": "sur"
+     "t": 3.428,
+     "m": "ont"
     },
     {
-     "t": 4.682,
-     "m": "deux"
-    },
-    {
-     "t": 5.032,
-     "m": "scooters."
+     "t": 3.682,
+     "m": "disparu."
     }
    ],
    "sequence": {
-    "type": "scene",
-    "decor": "facade",
-    "scooters": true,
-    "nacelleHaute": true,
-    "titre": "9 H 38"
+    "type": "suspects",
+    "titre": "4 SUSPECTS"
    },
    "sousTitres": true
   },
   {
-   "id": "16",
-   "debut": 2227,
-   "duree": 121,
+   "id": "05",
+   "debut": 610,
+   "duree": 190,
    "audio": null,
-   "texte": "Au total, l'opération a duré moins de huit minutes.",
+   "texte": "Remontons la piste. 19 octobre 2025, 10 h 27. Moins d'une heure après le casse.",
    "mots": [
     {
      "t": 0,
-     "m": "Au"
+     "m": "Remontons"
     },
     {
-     "t": 0.203,
-     "m": "total,"
+     "t": 0.716,
+     "m": "la"
     },
     {
-     "t": 0.676,
-     "m": "l'opération"
+     "t": 0.931,
+     "m": "piste."
     },
     {
-     "t": 1.487,
-     "m": "a"
+     "t": 1.433,
+     "m": "19"
     },
     {
-     "t": 1.622,
-     "m": "duré"
+     "t": 1.648,
+     "m": "octobre"
     },
     {
-     "t": 1.96,
-     "m": "moins"
+     "t": 2.221,
+     "m": "2025,"
     },
     {
-     "t": 2.366,
-     "m": "de"
+     "t": 2.65,
+     "m": "10"
     },
     {
-     "t": 2.569,
-     "m": "huit"
+     "t": 2.865,
+     "m": "h"
     },
     {
-     "t": 2.907,
-     "m": "minutes."
+     "t": 3.008,
+     "m": "27."
+    },
+    {
+     "t": 3.295,
+     "m": "Moins"
+    },
+    {
+     "t": 3.725,
+     "m": "d'une"
+    },
+    {
+     "t": 4.155,
+     "m": "heure"
+    },
+    {
+     "t": 4.584,
+     "m": "après"
+    },
+    {
+     "t": 5.014,
+     "m": "le"
+    },
+    {
+     "t": 5.229,
+     "m": "casse."
     }
    ],
    "sequence": {
     "type": "secret",
     "personnage": "aucun",
-    "texte": "MOINS DE 8 MINUTES",
-    "taille": 96
+    "texte": "10 H 27",
+    "taille": 120,
+    "sous": "Moins d'une heure après le casse"
    },
    "sousTitres": true
   },
   {
-   "id": "17",
-   "debut": 2348,
+   "id": "06",
+   "debut": 800,
    "duree": 179,
    "audio": null,
-   "texte": "Mais dans leur fuite, ils perdent quelque chose : la couronne de l'impératrice Eugénie.",
+   "texte": "Un parking souterrain d'Aubervilliers, au nord de Paris. C'est là que vivent les suspects.",
    "mots": [
     {
      "t": 0,
-     "m": "Mais"
+     "m": "Un"
     },
     {
-     "t": 0.305,
-     "m": "dans"
+     "t": 0.177,
+     "m": "parking"
     },
     {
-     "t": 0.609,
-     "m": "leur"
+     "t": 0.648,
+     "m": "souterrain"
     },
     {
-     "t": 0.914,
-     "m": "fuite,"
+     "t": 1.296,
+     "m": "d'Aubervilliers,"
     },
     {
-     "t": 1.34,
-     "m": "ils"
+     "t": 2.298,
+     "m": "au"
     },
     {
-     "t": 1.584,
-     "m": "perdent"
+     "t": 2.474,
+     "m": "nord"
     },
     {
-     "t": 2.071,
-     "m": "quelque"
-    },
-    {
-     "t": 2.559,
-     "m": "chose"
-    },
-    {
-     "t": 2.924,
-     "m": ":"
-    },
-    {
-     "t": 3.046,
-     "m": "la"
-    },
-    {
-     "t": 3.229,
-     "m": "couronne"
-    },
-    {
-     "t": 3.777,
+     "t": 2.769,
      "m": "de"
     },
     {
-     "t": 3.96,
-     "m": "l'impératrice"
+     "t": 2.946,
+     "m": "Paris."
     },
     {
-     "t": 4.813,
-     "m": "Eugénie."
+     "t": 3.358,
+     "m": "C'est"
+    },
+    {
+     "t": 3.712,
+     "m": "là"
+    },
+    {
+     "t": 3.888,
+     "m": "que"
+    },
+    {
+     "t": 4.124,
+     "m": "vivent"
+    },
+    {
+     "t": 4.536,
+     "m": "les"
+    },
+    {
+     "t": 4.772,
+     "m": "suspects."
     }
    ],
    "sequence": {
-    "type": "objet",
-    "dessin": "couronne",
-    "titre": "PERDUE DANS LA FUITE"
+    "type": "scene",
+    "decor": "parking",
+    "titre": "AUBERVILLIERS"
    },
    "sousTitres": true
   },
   {
-   "id": "18",
-   "debut": 2527,
-   "duree": 98,
+   "id": "07",
+   "debut": 979,
+   "duree": 155,
    "audio": null,
-   "texte": "Elle est retrouvée près du musée. Abîmée.",
+   "texte": "Une caméra de surveillance filme deux hommes casqués qui descendent de moto.",
    "mots": [
     {
      "t": 0,
-     "m": "Elle"
+     "m": "Une"
     },
     {
-     "t": 0.331,
+     "t": 0.24,
+     "m": "caméra"
+    },
+    {
+     "t": 0.66,
+     "m": "de"
+    },
+    {
+     "t": 0.841,
+     "m": "surveillance"
+    },
+    {
+     "t": 1.621,
+     "m": "filme"
+    },
+    {
+     "t": 1.981,
+     "m": "deux"
+    },
+    {
+     "t": 2.281,
+     "m": "hommes"
+    },
+    {
+     "t": 2.702,
+     "m": "casqués"
+    },
+    {
+     "t": 3.182,
+     "m": "qui"
+    },
+    {
+     "t": 3.422,
+     "m": "descendent"
+    },
+    {
+     "t": 4.082,
+     "m": "de"
+    },
+    {
+     "t": 4.263,
+     "m": "moto."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "parking",
+    "motos": true,
+    "heure": "19/10/2025 10:27",
+    "titre": "VIDÉOSURVEILLANCE"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "08",
+   "debut": 1134,
+   "duree": 144,
+   "audio": null,
+   "texte": "Ils sortent les bijoux… et les admirent, juste sous la caméra.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Ils"
+    },
+    {
+     "t": 0.27,
+     "m": "sortent"
+    },
+    {
+     "t": 0.81,
+     "m": "les"
+    },
+    {
+     "t": 1.08,
+     "m": "bijoux…"
+    },
+    {
+     "t": 1.62,
+     "m": "et"
+    },
+    {
+     "t": 1.823,
+     "m": "les"
+    },
+    {
+     "t": 2.093,
+     "m": "admirent,"
+    },
+    {
+     "t": 2.768,
+     "m": "juste"
+    },
+    {
+     "t": 3.173,
+     "m": "sous"
+    },
+    {
+     "t": 3.511,
+     "m": "la"
+    },
+    {
+     "t": 3.713,
+     "m": "caméra."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "parking",
+    "motos": true,
+    "bijoux": true,
+    "heure": "19/10/2025 10:28",
+    "titre": "LE BUTIN"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "08b",
+   "debut": 1278,
+   "duree": 236,
+   "audio": null,
+   "texte": "Selon Le Monde, l'un d'eux reconnaît même que la couronne d'Eugénie est tombée de son sac pendant la fuite.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Selon"
+    },
+    {
+     "t": 0.4,
+     "m": "Le"
+    },
+    {
+     "t": 0.601,
+     "m": "Monde,"
+    },
+    {
+     "t": 1.068,
+     "m": "l'un"
+    },
+    {
+     "t": 1.401,
+     "m": "d'eux"
+    },
+    {
+     "t": 1.802,
+     "m": "reconnaît"
+    },
+    {
+     "t": 2.469,
+     "m": "même"
+    },
+    {
+     "t": 2.803,
+     "m": "que"
+    },
+    {
+     "t": 3.07,
+     "m": "la"
+    },
+    {
+     "t": 3.27,
+     "m": "couronne"
+    },
+    {
+     "t": 3.871,
+     "m": "d'Eugénie"
+    },
+    {
+     "t": 4.538,
      "m": "est"
     },
     {
-     "t": 0.595,
-     "m": "retrouvée"
+     "t": 4.805,
+     "m": "tombée"
     },
     {
-     "t": 1.256,
-     "m": "près"
+     "t": 5.272,
+     "m": "de"
     },
     {
-     "t": 1.587,
-     "m": "du"
+     "t": 5.472,
+     "m": "son"
     },
     {
-     "t": 1.785,
-     "m": "musée."
+     "t": 5.739,
+     "m": "sac"
     },
     {
-     "t": 2.248,
-     "m": "Abîmée."
+     "t": 6.006,
+     "m": "pendant"
+    },
+    {
+     "t": 6.54,
+     "m": "la"
+    },
+    {
+     "t": 6.74,
+     "m": "fuite."
     }
    ],
    "sequence": {
     "type": "objet",
     "dessin": "couronne",
     "abimee": true,
-    "titre": "RETROUVÉE",
-    "tampon": "ABÎMÉE",
-    "tamponTop": 520,
-    "tamponTaille": 90
+    "titre": "LA COURONNE",
+    "legende": "Tombée du sac",
+    "legendeTop": 420
    },
    "sousTitres": true
   },
   {
-   "id": "18b",
-   "debut": 2625,
-   "duree": 202,
+   "id": "09",
+   "debut": 1514,
+   "duree": 98,
    "audio": null,
-   "texte": "Cette couronne compte plus de mille trois cents diamants. Le Louvre va devoir la faire restaurer.",
+   "texte": "C'est la dernière fois qu'on les voit.",
    "mots": [
     {
      "t": 0,
-     "m": "Cette"
+     "m": "C'est"
     },
     {
-     "t": 0.373,
-     "m": "couronne"
-    },
-    {
-     "t": 0.934,
-     "m": "compte"
-    },
-    {
-     "t": 1.369,
-     "m": "plus"
-    },
-    {
-     "t": 1.681,
-     "m": "de"
-    },
-    {
-     "t": 1.867,
-     "m": "mille"
-    },
-    {
-     "t": 2.241,
-     "m": "trois"
-    },
-    {
-     "t": 2.614,
-     "m": "cents"
-    },
-    {
-     "t": 2.988,
-     "m": "diamants."
-    },
-    {
-     "t": 3.61,
-     "m": "Le"
-    },
-    {
-     "t": 3.797,
-     "m": "Louvre"
-    },
-    {
-     "t": 4.232,
-     "m": "va"
-    },
-    {
-     "t": 4.419,
-     "m": "devoir"
-    },
-    {
-     "t": 4.855,
+     "t": 0.427,
      "m": "la"
     },
     {
-     "t": 5.042,
-     "m": "faire"
+     "t": 0.641,
+     "m": "dernière"
     },
     {
-     "t": 5.415,
-     "m": "restaurer."
+     "t": 1.282,
+     "m": "fois"
+    },
+    {
+     "t": 1.637,
+     "m": "qu'on"
+    },
+    {
+     "t": 2.065,
+     "m": "les"
+    },
+    {
+     "t": 2.349,
+     "m": "voit."
     }
    ],
    "sequence": {
-    "type": "compteur",
-    "titre": "LA COURONNE",
-    "valeur": 1300,
-    "milliers": true,
-    "unite": "diamants",
-    "legende": "et plus encore"
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "DERNIÈRE TRACE",
+    "taille": 110
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "10",
+   "debut": 1612,
+   "duree": 225,
+   "audio": null,
+   "texte": "Quand les policiers arrivent, il n'y a plus rien. Ni les bijoux, ni les véhicules de la fuite.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Quand"
+    },
+    {
+     "t": 0.432,
+     "m": "les"
+    },
+    {
+     "t": 0.72,
+     "m": "policiers"
+    },
+    {
+     "t": 1.44,
+     "m": "arrivent,"
+    },
+    {
+     "t": 2.159,
+     "m": "il"
+    },
+    {
+     "t": 2.375,
+     "m": "n'y"
+    },
+    {
+     "t": 2.663,
+     "m": "a"
+    },
+    {
+     "t": 2.807,
+     "m": "plus"
+    },
+    {
+     "t": 3.167,
+     "m": "rien."
+    },
+    {
+     "t": 3.599,
+     "m": "Ni"
+    },
+    {
+     "t": 3.815,
+     "m": "les"
+    },
+    {
+     "t": 4.103,
+     "m": "bijoux,"
+    },
+    {
+     "t": 4.679,
+     "m": "ni"
+    },
+    {
+     "t": 4.895,
+     "m": "les"
+    },
+    {
+     "t": 5.183,
+     "m": "véhicules"
+    },
+    {
+     "t": 5.902,
+     "m": "de"
+    },
+    {
+     "t": 6.118,
+     "m": "la"
+    },
+    {
+     "t": 6.334,
+     "m": "fuite."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "parking",
+    "vide": true,
+    "titre": "TROP TARD",
+    "tampon": "VIDE",
+    "tamponTop": 900
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "11",
+   "debut": 1837,
+   "duree": 121,
+   "audio": null,
+   "texte": "Ils fouillent les appartements, les caves, les garages. Rien.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Ils"
+    },
+    {
+     "t": 0.227,
+     "m": "fouillent"
+    },
+    {
+     "t": 0.794,
+     "m": "les"
+    },
+    {
+     "t": 1.021,
+     "m": "appartements,"
+    },
+    {
+     "t": 1.814,
+     "m": "les"
+    },
+    {
+     "t": 2.041,
+     "m": "caves,"
+    },
+    {
+     "t": 2.438,
+     "m": "les"
+    },
+    {
+     "t": 2.665,
+     "m": "garages."
+    },
+    {
+     "t": 3.175,
+     "m": "Rien."
+    }
+   ],
+   "sequence": {
+    "type": "icones",
+    "titre": "LES FOUILLES",
+    "items": [
+     {
+      "label": "LOGEMENTS",
+      "sous": "rien"
+     },
+     {
+      "label": "CAVES",
+      "sous": "rien"
+     },
+     {
+      "label": "GARAGES",
+      "sous": "rien"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "12",
+   "debut": 1958,
+   "duree": 132,
+   "audio": null,
+   "texte": "Alors, où sont-ils passés ? Les enquêteurs ont trois pistes.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Alors,"
+    },
+    {
+     "t": 0.446,
+     "m": "où"
+    },
+    {
+     "t": 0.637,
+     "m": "sont-ils"
+    },
+    {
+     "t": 1.21,
+     "m": "passés"
+    },
+    {
+     "t": 1.656,
+     "m": "?"
+    },
+    {
+     "t": 1.783,
+     "m": "Les"
+    },
+    {
+     "t": 2.038,
+     "m": "enquêteurs"
+    },
+    {
+     "t": 2.738,
+     "m": "ont"
+    },
+    {
+     "t": 2.993,
+     "m": "trois"
+    },
+    {
+     "t": 3.375,
+     "m": "pistes."
+    }
+   ],
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "3 PISTES",
+    "taille": 130
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "13",
+   "debut": 2090,
+   "duree": 236,
+   "audio": null,
+   "texte": "Piste numéro un : les bijoux n'ont jamais quitté la région parisienne. Cachés, en attendant que l'affaire se calme.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Piste"
+    },
+    {
+     "t": 0.373,
+     "m": "numéro"
+    },
+    {
+     "t": 0.808,
+     "m": "un"
+    },
+    {
+     "t": 0.994,
+     "m": ":"
+    },
+    {
+     "t": 1.118,
+     "m": "les"
+    },
+    {
+     "t": 1.367,
+     "m": "bijoux"
+    },
+    {
+     "t": 1.802,
+     "m": "n'ont"
+    },
+    {
+     "t": 2.175,
+     "m": "jamais"
+    },
+    {
+     "t": 2.61,
+     "m": "quitté"
+    },
+    {
+     "t": 3.044,
+     "m": "la"
+    },
+    {
+     "t": 3.231,
+     "m": "région"
+    },
+    {
+     "t": 3.666,
+     "m": "parisienne."
+    },
+    {
+     "t": 4.411,
+     "m": "Cachés,"
+    },
+    {
+     "t": 4.908,
+     "m": "en"
+    },
+    {
+     "t": 5.095,
+     "m": "attendant"
+    },
+    {
+     "t": 5.716,
+     "m": "que"
+    },
+    {
+     "t": 5.965,
+     "m": "l'affaire"
+    },
+    {
+     "t": 6.586,
+     "m": "se"
+    },
+    {
+     "t": 6.772,
+     "m": "calme."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "PISTE Nº 1",
+    "legende": "Toujours près de Paris ?",
+    "legendeTop": 420
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "14",
+   "debut": 2326,
+   "duree": 86,
+   "audio": null,
+   "texte": "Piste numéro deux : un commanditaire.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Piste"
+    },
+    {
+     "t": 0.38,
+     "m": "numéro"
+    },
+    {
+     "t": 0.824,
+     "m": "deux"
+    },
+    {
+     "t": 1.14,
+     "m": ":"
+    },
+    {
+     "t": 1.267,
+     "m": "un"
+    },
+    {
+     "t": 1.457,
+     "m": "commanditaire."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "ville",
+    "titre": "PISTE Nº 2",
+    "personnages": [
+     {
+      "nom": "ombre",
+      "x": 540,
+      "y": 1350,
+      "s": 460
+     }
+    ],
+    "legende": "Un commanditaire ?",
+    "legendeTop": 420
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "15",
+   "debut": 2412,
+   "duree": 190,
+   "audio": null,
+   "texte": "Selon Le Monde, deux suspects disent avoir été recrutés quelques jours seulement avant le casse.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Selon"
+    },
+    {
+     "t": 0.354,
+     "m": "Le"
+    },
+    {
+     "t": 0.532,
+     "m": "Monde,"
+    },
+    {
+     "t": 0.945,
+     "m": "deux"
+    },
+    {
+     "t": 1.241,
+     "m": "suspects"
+    },
+    {
+     "t": 1.772,
+     "m": "disent"
+    },
+    {
+     "t": 2.186,
+     "m": "avoir"
+    },
+    {
+     "t": 2.54,
+     "m": "été"
+    },
+    {
+     "t": 2.777,
+     "m": "recrutés"
+    },
+    {
+     "t": 3.308,
+     "m": "quelques"
+    },
+    {
+     "t": 3.84,
+     "m": "jours"
+    },
+    {
+     "t": 4.194,
+     "m": "seulement"
+    },
+    {
+     "t": 4.785,
+     "m": "avant"
+    },
+    {
+     "t": 5.14,
+     "m": "le"
+    },
+    {
+     "t": 5.317,
+     "m": "casse."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LES AUDITIONS",
+    "entete": "SELON LE MONDE",
+    "lignes": [
+     "Recrutés : quelques jours avant",
+     "Promesse : 15 000 à 20 000 €"
+    ],
+    "surligne": [
+     "quelques jours"
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "16",
+   "debut": 2602,
+   "duree": 271,
+   "audio": null,
+   "texte": "L'un d'eux affirme avoir remis les bijoux à ce commanditaire. Mais il refuse de dire qui c'est… par peur pour sa famille.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "L'un"
+    },
+    {
+     "t": 0.341,
+     "m": "d'eux"
+    },
+    {
+     "t": 0.75,
+     "m": "affirme"
+    },
+    {
+     "t": 1.295,
+     "m": "avoir"
+    },
+    {
+     "t": 1.704,
+     "m": "remis"
+    },
+    {
+     "t": 2.113,
+     "m": "les"
+    },
+    {
+     "t": 2.385,
+     "m": "bijoux"
+    },
+    {
+     "t": 2.863,
+     "m": "à"
+    },
+    {
+     "t": 2.999,
+     "m": "ce"
+    },
+    {
+     "t": 3.203,
+     "m": "commanditaire."
+    },
+    {
+     "t": 4.226,
+     "m": "Mais"
+    },
+    {
+     "t": 4.566,
+     "m": "il"
+    },
+    {
+     "t": 4.771,
+     "m": "refuse"
+    },
+    {
+     "t": 5.248,
+     "m": "de"
+    },
+    {
+     "t": 5.453,
+     "m": "dire"
+    },
+    {
+     "t": 5.793,
+     "m": "qui"
+    },
+    {
+     "t": 6.066,
+     "m": "c'est…"
+    },
+    {
+     "t": 6.543,
+     "m": "par"
+    },
+    {
+     "t": 6.816,
+     "m": "peur"
+    },
+    {
+     "t": 7.156,
+     "m": "pour"
+    },
+    {
+     "t": 7.497,
+     "m": "sa"
+    },
+    {
+     "t": 7.702,
+     "m": "famille."
+    }
+   ],
+   "sequence": {
+    "type": "flux",
+    "titre": "LA REMISE",
+    "de": "detenu",
+    "vers": "ombre",
+    "objet": "sac",
+    "lettre": "?"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "17",
+   "debut": 2873,
+   "duree": 155,
+   "audio": null,
+   "texte": "Prudence : pour les enquêteurs, l'existence de ce cerveau n'est pas prouvée.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Prudence"
+    },
+    {
+     "t": 0.54,
+     "m": ":"
+    },
+    {
+     "t": 0.66,
+     "m": "pour"
+    },
+    {
+     "t": 0.961,
+     "m": "les"
+    },
+    {
+     "t": 1.201,
+     "m": "enquêteurs,"
+    },
+    {
+     "t": 1.921,
+     "m": "l'existence"
+    },
+    {
+     "t": 2.642,
+     "m": "de"
+    },
+    {
+     "t": 2.822,
+     "m": "ce"
+    },
+    {
+     "t": 3.002,
+     "m": "cerveau"
+    },
+    {
+     "t": 3.482,
+     "m": "n'est"
+    },
+    {
+     "t": 3.842,
+     "m": "pas"
+    },
+    {
+     "t": 4.082,
+     "m": "prouvée."
+    }
+   ],
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "UN CERVEAU ?",
+    "taille": 110,
+    "sous": "Pas prouvé"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "18",
+   "debut": 3028,
+   "duree": 121,
+   "audio": null,
+   "texte": "Piste numéro trois : les bijoux ont été démontés.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Piste"
+    },
+    {
+     "t": 0.422,
+     "m": "numéro"
+    },
+    {
+     "t": 0.914,
+     "m": "trois"
+    },
+    {
+     "t": 1.336,
+     "m": ":"
+    },
+    {
+     "t": 1.476,
+     "m": "les"
+    },
+    {
+     "t": 1.758,
+     "m": "bijoux"
+    },
+    {
+     "t": 2.25,
+     "m": "ont"
+    },
+    {
+     "t": 2.531,
+     "m": "été"
+    },
+    {
+     "t": 2.812,
+     "m": "démontés."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "vitrine",
+    "vide": true,
+    "titre": "PISTE Nº 3"
    },
    "sousTitres": true
   },
   {
    "id": "19",
-   "debut": 2827,
-   "duree": 98,
+   "debut": 3149,
+   "duree": 167,
    "audio": null,
-   "texte": "Le casse fait le tour du monde.",
+   "texte": "Les pierres séparées, l'or fondu… et les diamants retaillés, pour les rendre méconnaissables.",
    "mots": [
     {
      "t": 0,
-     "m": "Le"
+     "m": "Les"
     },
     {
-     "t": 0.26,
-     "m": "casse"
+     "t": 0.212,
+     "m": "pierres"
     },
     {
-     "t": 0.781,
-     "m": "fait"
+     "t": 0.637,
+     "m": "séparées,"
     },
     {
-     "t": 1.215,
-     "m": "le"
+     "t": 1.168,
+     "m": "l'or"
     },
     {
-     "t": 1.475,
-     "m": "tour"
+     "t": 1.434,
+     "m": "fondu…"
     },
     {
-     "t": 1.909,
-     "m": "du"
+     "t": 1.806,
+     "m": "et"
     },
     {
-     "t": 2.169,
-     "m": "monde."
+     "t": 1.965,
+     "m": "les"
+    },
+    {
+     "t": 2.177,
+     "m": "diamants"
+    },
+    {
+     "t": 2.655,
+     "m": "retaillés,"
+    },
+    {
+     "t": 3.239,
+     "m": "pour"
+    },
+    {
+     "t": 3.505,
+     "m": "les"
+    },
+    {
+     "t": 3.717,
+     "m": "rendre"
+    },
+    {
+     "t": 4.089,
+     "m": "méconnaissables."
     }
    ],
    "sequence": {
-    "type": "carte_monde",
-    "titre": "LE CASSE DU SIÈCLE",
-    "points": [
+    "type": "icones",
+    "titre": "DÉMONTÉS ?",
+    "items": [
      {
-      "lon": 2.35,
-      "lat": 48.86,
-      "nom": "PARIS"
+      "label": "PIERRES",
+      "sous": "séparées"
+     },
+     {
+      "label": "OR",
+      "sous": "fondu"
+     },
+     {
+      "label": "DIAMANTS",
+      "sous": "retaillés"
      }
     ]
    },
@@ -1272,788 +1430,667 @@
   },
   {
    "id": "20",
-   "debut": 2925,
-   "duree": 121,
+   "debut": 3316,
+   "duree": 190,
    "audio": null,
-   "texte": "Pour Emmanuel Macron, c'est une attaque contre notre histoire.",
+   "texte": "Puis revendus à l'étranger. Anvers, en Belgique, la capitale du diamant, fait partie des pistes.",
    "mots": [
     {
      "t": 0,
-     "m": "Pour"
+     "m": "Puis"
     },
     {
-     "t": 0.279,
-     "m": "Emmanuel"
+     "t": 0.295,
+     "m": "revendus"
     },
     {
-     "t": 0.781,
-     "m": "Macron,"
-    },
-    {
-     "t": 1.227,
-     "m": "c'est"
-    },
-    {
-     "t": 1.562,
-     "m": "une"
-    },
-    {
-     "t": 1.785,
-     "m": "attaque"
-    },
-    {
-     "t": 2.232,
-     "m": "contre"
-    },
-    {
-     "t": 2.622,
-     "m": "notre"
-    },
-    {
-     "t": 2.957,
-     "m": "histoire."
-    }
-   ],
-   "sequence": {
-    "type": "secret",
-    "personnage": "aucun",
-    "texte": "« NOTRE HISTOIRE »",
-    "taille": 78,
-    "sous": "Selon Emmanuel Macron"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "21",
-   "debut": 3046,
-   "duree": 132,
-   "audio": null,
-   "texte": "Des dizaines d'enquêteurs se lancent sur la piste du commando.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Des"
-    },
-    {
-     "t": 0.247,
-     "m": "dizaines"
-    },
-    {
-     "t": 0.802,
-     "m": "d'enquêteurs"
-    },
-    {
-     "t": 1.603,
-     "m": "se"
-    },
-    {
-     "t": 1.788,
-     "m": "lancent"
-    },
-    {
-     "t": 2.281,
-     "m": "sur"
-    },
-    {
-     "t": 2.528,
-     "m": "la"
-    },
-    {
-     "t": 2.713,
-     "m": "piste"
-    },
-    {
-     "t": 3.083,
-     "m": "du"
-    },
-    {
-     "t": 3.268,
-     "m": "commando."
-    }
-   ],
-   "sequence": {
-    "type": "document",
-    "genre": "rapport",
-    "titre": "L'ENQUÊTE",
-    "entete": "PARQUET DE PARIS",
-    "lignes": [
-     "Dossier : vol au Louvre",
-     "Statut : enquête"
-    ],
-    "tampon": "ENQUÊTE",
-    "tamponTop": 860
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "21b",
-   "debut": 3178,
-   "duree": 248,
-   "audio": null,
-   "texte": "Devant le Sénat, la directrice du Louvre reconnaît des failles : certaines zones extérieures n'étaient pas filmées par les caméras.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Devant"
-    },
-    {
-     "t": 0.402,
-     "m": "le"
-    },
-    {
-     "t": 0.574,
-     "m": "Sénat,"
-    },
-    {
-     "t": 0.976,
-     "m": "la"
-    },
-    {
-     "t": 1.148,
-     "m": "directrice"
-    },
-    {
-     "t": 1.779,
-     "m": "du"
-    },
-    {
-     "t": 1.952,
-     "m": "Louvre"
-    },
-    {
-     "t": 2.353,
-     "m": "reconnaît"
-    },
-    {
-     "t": 2.927,
-     "m": "des"
-    },
-    {
-     "t": 3.157,
-     "m": "failles"
-    },
-    {
-     "t": 3.616,
-     "m": ":"
-    },
-    {
-     "t": 3.731,
-     "m": "certaines"
-    },
-    {
-     "t": 4.305,
-     "m": "zones"
-    },
-    {
-     "t": 4.649,
-     "m": "extérieures"
-    },
-    {
-     "t": 5.338,
-     "m": "n'étaient"
-    },
-    {
-     "t": 5.912,
-     "m": "pas"
-    },
-    {
-     "t": 6.142,
-     "m": "filmées"
-    },
-    {
-     "t": 6.601,
-     "m": "par"
-    },
-    {
-     "t": 6.83,
-     "m": "les"
-    },
-    {
-     "t": 7.06,
-     "m": "caméras."
-    }
-   ],
-   "sequence": {
-    "type": "document",
-    "genre": "rapport",
-    "titre": "LES FAILLES",
-    "entete": "AUDITION AU SÉNAT",
-    "lignes": [
-     "Caméras extérieures : insuffisantes",
-     "Musée : failles reconnues"
-    ],
-    "surligne": [
-     "insuffisantes"
-    ],
-    "tampon": "FAILLES",
-    "tamponTop": 860
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "22",
-   "debut": 3426,
-   "duree": 236,
-   "audio": null,
-   "texte": "Sur place, les voleurs ont laissé des traces : de l'ADN, sur une vitrine et sur des objets abandonnés.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Sur"
-    },
-    {
-     "t": 0.28,
-     "m": "place,"
-    },
-    {
-     "t": 0.77,
-     "m": "les"
-    },
-    {
-     "t": 1.05,
-     "m": "voleurs"
-    },
-    {
-     "t": 1.609,
-     "m": "ont"
-    },
-    {
-     "t": 1.889,
-     "m": "laissé"
-    },
-    {
-     "t": 2.379,
-     "m": "des"
-    },
-    {
-     "t": 2.659,
-     "m": "traces"
-    },
-    {
-     "t": 3.149,
-     "m": ":"
-    },
-    {
-     "t": 3.289,
-     "m": "de"
-    },
-    {
-     "t": 3.499,
-     "m": "l'ADN,"
-    },
-    {
-     "t": 3.989,
-     "m": "sur"
-    },
-    {
-     "t": 4.268,
-     "m": "une"
-    },
-    {
-     "t": 4.548,
-     "m": "vitrine"
-    },
-    {
-     "t": 5.108,
-     "m": "et"
-    },
-    {
-     "t": 5.318,
-     "m": "sur"
-    },
-    {
-     "t": 5.598,
-     "m": "des"
-    },
-    {
-     "t": 5.878,
-     "m": "objets"
-    },
-    {
-     "t": 6.368,
-     "m": "abandonnés."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "vitrine",
-    "titre": "LES TRACES",
-    "tampon": "ADN",
-    "tamponTop": 1150,
-    "tamponTaille": 110
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "23",
-   "debut": 3662,
-   "duree": 248,
-   "audio": null,
-   "texte": "Six jours après le casse, un premier suspect est arrêté à l'aéroport de Roissy. Il s'apprêtait à partir pour l'Algérie.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Six"
-    },
-    {
-     "t": 0.253,
-     "m": "jours"
-    },
-    {
-     "t": 0.631,
-     "m": "après"
-    },
-    {
-     "t": 1.01,
-     "m": "le"
-    },
-    {
-     "t": 1.2,
-     "m": "casse,"
-    },
-    {
-     "t": 1.642,
-     "m": "un"
-    },
-    {
-     "t": 1.831,
-     "m": "premier"
-    },
-    {
-     "t": 2.336,
-     "m": "suspect"
-    },
-    {
-     "t": 2.841,
-     "m": "est"
-    },
-    {
-     "t": 3.094,
-     "m": "arrêté"
-    },
-    {
-     "t": 3.536,
+     "t": 0.827,
      "m": "à"
     },
     {
-     "t": 3.662,
-     "m": "l'aéroport"
+     "t": 0.945,
+     "m": "l'étranger."
     },
     {
-     "t": 4.357,
-     "m": "de"
+     "t": 1.654,
+     "m": "Anvers,"
     },
     {
-     "t": 4.546,
-     "m": "Roissy."
+     "t": 2.127,
+     "m": "en"
     },
     {
-     "t": 5.051,
-     "m": "Il"
+     "t": 2.304,
+     "m": "Belgique,"
     },
     {
-     "t": 5.24,
-     "m": "s'apprêtait"
+     "t": 2.895,
+     "m": "la"
     },
     {
-     "t": 5.998,
-     "m": "à"
+     "t": 3.072,
+     "m": "capitale"
     },
     {
-     "t": 6.124,
-     "m": "partir"
+     "t": 3.604,
+     "m": "du"
     },
     {
-     "t": 6.566,
-     "m": "pour"
+     "t": 3.781,
+     "m": "diamant,"
     },
     {
-     "t": 6.882,
-     "m": "l'Algérie."
+     "t": 4.313,
+     "m": "fait"
+    },
+    {
+     "t": 4.608,
+     "m": "partie"
+    },
+    {
+     "t": 5.022,
+     "m": "des"
+    },
+    {
+     "t": 5.258,
+     "m": "pistes."
     }
    ],
    "sequence": {
     "type": "carte_med",
-    "titre": "6 JOURS APRÈS",
+    "titre": "ANVERS ?",
     "lieux": [
      {
-      "lon": 2.55,
-      "lat": 49,
-      "nom": "ROISSY",
+      "lon": 2.35,
+      "lat": 48.86,
+      "nom": "PARIS",
+      "dessous": true
+     },
+     {
+      "lon": 4.4,
+      "lat": 51.22,
+      "nom": "ANVERS",
       "style": "cible"
-     },
-     {
-      "lon": 3.06,
-      "lat": 36.75,
-      "nom": "ALGER"
-     },
-     {
-      "lon": 3.06,
-      "lat": 36.75,
-      "style": "barre",
-      "a": 40
      }
     ],
     "fleches": [
      {
       "de": [
-       2.55,
-       49
+       2.35,
+       48.86
       ],
       "vers": [
-       3.06,
-       36.75
+       4.4,
+       51.22
       ],
-      "a": 14,
-      "couleur": "rouge",
-      "courbe": 0.2
+      "a": 12,
+      "pointilles": true,
+      "courbe": 0.3
      }
-    ],
-    "legende": "Arrêté avant le décollage",
-    "legendeTop": 1200
+    ]
    },
    "sousTitres": true
   },
   {
-   "id": "24",
-   "debut": 3910,
-   "duree": 225,
+   "id": "21",
+   "debut": 3506,
+   "duree": 132,
    "audio": null,
-   "texte": "Un deuxième est interpellé près de chez lui. Selon la procureure, les deux reconnaissent en partie les faits.",
+   "texte": "Dans ce cas, ces trésors pourraient être perdus pour toujours.",
    "mots": [
     {
      "t": 0,
-     "m": "Un"
+     "m": "Dans"
     },
     {
-     "t": 0.186,
-     "m": "deuxième"
+     "t": 0.308,
+     "m": "ce"
     },
     {
-     "t": 0.746,
-     "m": "est"
+     "t": 0.493,
+     "m": "cas,"
     },
     {
-     "t": 0.995,
-     "m": "interpellé"
+     "t": 0.802,
+     "m": "ces"
     },
     {
-     "t": 1.678,
-     "m": "près"
+     "t": 1.048,
+     "m": "trésors"
     },
     {
-     "t": 1.989,
-     "m": "de"
+     "t": 1.541,
+     "m": "pourraient"
     },
     {
-     "t": 2.176,
-     "m": "chez"
+     "t": 2.22,
+     "m": "être"
     },
     {
-     "t": 2.487,
-     "m": "lui."
+     "t": 2.528,
+     "m": "perdus"
     },
     {
-     "t": 2.797,
-     "m": "Selon"
+     "t": 2.959,
+     "m": "pour"
     },
     {
-     "t": 3.17,
-     "m": "la"
-    },
-    {
-     "t": 3.357,
-     "m": "procureure,"
-    },
-    {
-     "t": 4.103,
-     "m": "les"
-    },
-    {
-     "t": 4.352,
-     "m": "deux"
-    },
-    {
-     "t": 4.662,
-     "m": "reconnaissent"
-    },
-    {
-     "t": 5.533,
-     "m": "en"
-    },
-    {
-     "t": 5.719,
-     "m": "partie"
-    },
-    {
-     "t": 6.154,
-     "m": "les"
-    },
-    {
-     "t": 6.403,
-     "m": "faits."
+     "t": 3.268,
+     "m": "toujours."
     }
    ],
    "sequence": {
-    "type": "document",
-    "genre": "rapport",
-    "titre": "LES AVEUX",
-    "entete": "PARQUET DE PARIS",
-    "lignes": [
-     "Suspects : deux hommes",
-     "Faits : reconnus en partie"
-    ],
-    "surligne": [
-     "partie"
-    ],
-    "tampon": "ARRÊTÉS",
-    "tamponTop": 860
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "PERDUS À JAMAIS ?",
+    "taille": 80
    },
    "sousTitres": true
   },
   {
-   "id": "25",
-   "debut": 4135,
-   "duree": 190,
+   "id": "22",
+   "debut": 3638,
+   "duree": 167,
    "audio": null,
-   "texte": "En quelques semaines, quatre hommes sont mis en examen. Pour les enquêteurs, c'est le commando.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "En"
-    },
-    {
-     "t": 0.179,
-     "m": "quelques"
-    },
-    {
-     "t": 0.716,
-     "m": "semaines,"
-    },
-    {
-     "t": 1.313,
-     "m": "quatre"
-    },
-    {
-     "t": 1.731,
-     "m": "hommes"
-    },
-    {
-     "t": 2.149,
-     "m": "sont"
-    },
-    {
-     "t": 2.447,
-     "m": "mis"
-    },
-    {
-     "t": 2.686,
-     "m": "en"
-    },
-    {
-     "t": 2.865,
-     "m": "examen."
-    },
-    {
-     "t": 3.343,
-     "m": "Pour"
-    },
-    {
-     "t": 3.641,
-     "m": "les"
-    },
-    {
-     "t": 3.88,
-     "m": "enquêteurs,"
-    },
-    {
-     "t": 4.596,
-     "m": "c'est"
-    },
-    {
-     "t": 4.954,
-     "m": "le"
-    },
-    {
-     "t": 5.134,
-     "m": "commando."
-    }
-   ],
-   "sequence": {
-    "type": "suspects",
-    "titre": "LE COMMANDO ?"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "25b",
-   "debut": 4325,
-   "duree": 179,
-   "audio": null,
-   "texte": "Et la procureure prévient : ces bijoux sont invendables. Les acheter, c'est devenir receleur.",
+   "texte": "Et au Louvre ? Le casse a révélé de graves failles de sécurité.",
    "mots": [
     {
      "t": 0,
      "m": "Et"
     },
     {
-     "t": 0.171,
-     "m": "la"
+     "t": 0.234,
+     "m": "au"
     },
     {
-     "t": 0.342,
-     "m": "procureure"
+     "t": 0.468,
+     "m": "Louvre"
     },
     {
-     "t": 0.97,
-     "m": "prévient"
+     "t": 1.014,
+     "m": "?"
     },
     {
-     "t": 1.483,
-     "m": ":"
+     "t": 1.17,
+     "m": "Le"
     },
     {
-     "t": 1.597,
-     "m": "ces"
+     "t": 1.404,
+     "m": "casse"
     },
     {
-     "t": 1.825,
-     "m": "bijoux"
+     "t": 1.872,
+     "m": "a"
     },
     {
-     "t": 2.224,
-     "m": "sont"
+     "t": 2.028,
+     "m": "révélé"
     },
     {
-     "t": 2.51,
-     "m": "invendables."
+     "t": 2.574,
+     "m": "de"
     },
     {
-     "t": 3.251,
-     "m": "Les"
+     "t": 2.808,
+     "m": "graves"
     },
     {
-     "t": 3.479,
-     "m": "acheter,"
+     "t": 3.354,
+     "m": "failles"
     },
     {
-     "t": 3.992,
-     "m": "c'est"
+     "t": 3.978,
+     "m": "de"
     },
     {
-     "t": 4.335,
-     "m": "devenir"
-    },
-    {
-     "t": 4.791,
-     "m": "receleur."
+     "t": 4.212,
+     "m": "sécurité."
     }
    ],
    "sequence": {
-    "type": "secret",
-    "personnage": "aucun",
-    "texte": "« INVENDABLES »",
-    "taille": 100,
-    "sous": "Selon la procureure de Paris"
+    "type": "scene",
+    "decor": "facade",
+    "brise": true,
+    "titre": "AU LOUVRE"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "23",
+   "debut": 3805,
+   "duree": 259,
+   "audio": null,
+   "texte": "Sa présidente, Laurence des Cars, avait proposé sa démission dès le jour du vol. En février 2026, elle quitte son poste.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Sa"
+    },
+    {
+     "t": 0.197,
+     "m": "présidente,"
+    },
+    {
+     "t": 0.985,
+     "m": "Laurence"
+    },
+    {
+     "t": 1.576,
+     "m": "des"
+    },
+    {
+     "t": 1.839,
+     "m": "Cars,"
+    },
+    {
+     "t": 2.233,
+     "m": "avait"
+    },
+    {
+     "t": 2.627,
+     "m": "proposé"
+    },
+    {
+     "t": 3.152,
+     "m": "sa"
+    },
+    {
+     "t": 3.349,
+     "m": "démission"
+    },
+    {
+     "t": 4.006,
+     "m": "dès"
+    },
+    {
+     "t": 4.268,
+     "m": "le"
+    },
+    {
+     "t": 4.465,
+     "m": "jour"
+    },
+    {
+     "t": 4.794,
+     "m": "du"
+    },
+    {
+     "t": 4.991,
+     "m": "vol."
+    },
+    {
+     "t": 5.319,
+     "m": "En"
+    },
+    {
+     "t": 5.516,
+     "m": "février"
+    },
+    {
+     "t": 6.041,
+     "m": "2026,"
+    },
+    {
+     "t": 6.435,
+     "m": "elle"
+    },
+    {
+     "t": 6.764,
+     "m": "quitte"
+    },
+    {
+     "t": 7.223,
+     "m": "son"
+    },
+    {
+     "t": 7.486,
+     "m": "poste."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "FÉVRIER 2026",
+    "entete": "MUSÉE DU LOUVRE",
+    "lignes": [
+     "Présidente : Laurence des Cars",
+     "Statut : départ"
+    ],
+    "surligne": [
+     "départ"
+    ],
+    "tampon": "DÉMISSION",
+    "tamponTop": 860
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "24",
+   "debut": 4064,
+   "duree": 179,
+   "audio": null,
+   "texte": "Le musée promet une centaine de nouvelles caméras d'ici à la fin de 2026.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Le"
+    },
+    {
+     "t": 0.217,
+     "m": "musée"
+    },
+    {
+     "t": 0.652,
+     "m": "promet"
+    },
+    {
+     "t": 1.159,
+     "m": "une"
+    },
+    {
+     "t": 1.449,
+     "m": "centaine"
+    },
+    {
+     "t": 2.101,
+     "m": "de"
+    },
+    {
+     "t": 2.318,
+     "m": "nouvelles"
+    },
+    {
+     "t": 3.043,
+     "m": "caméras"
+    },
+    {
+     "t": 3.622,
+     "m": "d'ici"
+    },
+    {
+     "t": 4.057,
+     "m": "à"
+    },
+    {
+     "t": 4.202,
+     "m": "la"
+    },
+    {
+     "t": 4.419,
+     "m": "fin"
+    },
+    {
+     "t": 4.709,
+     "m": "de"
+    },
+    {
+     "t": 4.927,
+     "m": "2026."
+    }
+   ],
+   "sequence": {
+    "type": "compteur",
+    "titre": "LA RIPOSTE",
+    "valeur": 100,
+    "unite": "nouvelles caméras promises",
+    "legende": "d'ici à fin 2026"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "25",
+   "debut": 4243,
+   "duree": 121,
+   "audio": null,
+   "texte": "La couronne d'Eugénie, elle, est en cours de restauration.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "La"
+    },
+    {
+     "t": 0.179,
+     "m": "couronne"
+    },
+    {
+     "t": 0.715,
+     "m": "d'Eugénie,"
+    },
+    {
+     "t": 1.37,
+     "m": "elle,"
+    },
+    {
+     "t": 1.728,
+     "m": "est"
+    },
+    {
+     "t": 1.966,
+     "m": "en"
+    },
+    {
+     "t": 2.145,
+     "m": "cours"
+    },
+    {
+     "t": 2.502,
+     "m": "de"
+    },
+    {
+     "t": 2.681,
+     "m": "restauration."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "couronne",
+    "abimee": true,
+    "titre": "EN RESTAURATION"
    },
    "sousTitres": true
   },
   {
    "id": "26",
-   "debut": 4504,
-   "duree": 98,
+   "debut": 4364,
+   "duree": 167,
    "audio": null,
-   "texte": "Mais il manque l'essentiel : les bijoux.",
+   "texte": "Les quatre suspects attendent leur procès. Deux reconnaissent les faits. Deux les contestent.",
    "mots": [
     {
      "t": 0,
-     "m": "Mais"
+     "m": "Les"
     },
     {
-     "t": 0.339,
-     "m": "il"
+     "t": 0.212,
+     "m": "quatre"
     },
     {
-     "t": 0.542,
-     "m": "manque"
+     "t": 0.584,
+     "m": "suspects"
     },
     {
-     "t": 1.016,
-     "m": "l'essentiel"
+     "t": 1.062,
+     "m": "attendent"
     },
     {
-     "t": 1.829,
-     "m": ":"
+     "t": 1.593,
+     "m": "leur"
     },
     {
-     "t": 1.964,
+     "t": 1.859,
+     "m": "procès."
+    },
+    {
+     "t": 2.284,
+     "m": "Deux"
+    },
+    {
+     "t": 2.549,
+     "m": "reconnaissent"
+    },
+    {
+     "t": 3.293,
      "m": "les"
     },
     {
-     "t": 2.235,
-     "m": "bijoux."
+     "t": 3.505,
+     "m": "faits."
+    },
+    {
+     "t": 3.877,
+     "m": "Deux"
+    },
+    {
+     "t": 4.142,
+     "m": "les"
+    },
+    {
+     "t": 4.355,
+     "m": "contestent."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "EN ATTENTE",
+    "entete": "JUSTICE",
+    "lignes": [
+     "Suspects : 4, en détention",
+     "Aveux : 2 sur 4"
+    ],
+    "surligne": [
+     "2 sur 4"
+    ],
+    "tampon": "PROCÈS À VENIR",
+    "tamponTop": 860,
+    "tamponTaille": 90
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "26b",
+   "debut": 4531,
+   "duree": 121,
+   "audio": null,
+   "texte": "Et aucune date de procès n'a encore été annoncée.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Et"
+    },
+    {
+     "t": 0.211,
+     "m": "aucune"
+    },
+    {
+     "t": 0.703,
+     "m": "date"
+    },
+    {
+     "t": 1.055,
+     "m": "de"
+    },
+    {
+     "t": 1.265,
+     "m": "procès"
+    },
+    {
+     "t": 1.758,
+     "m": "n'a"
+    },
+    {
+     "t": 2.039,
+     "m": "encore"
+    },
+    {
+     "t": 2.531,
+     "m": "été"
+    },
+    {
+     "t": 2.812,
+     "m": "annoncée."
     }
    ],
    "sequence": {
     "type": "secret",
     "personnage": "aucun",
-    "texte": "OÙ SONT LES BIJOUX ?",
-    "taille": 96
+    "texte": "PROCÈS : DATE INCONNUE",
+    "taille": 80
    },
    "sousTitres": true
   },
   {
    "id": "27",
-   "debut": 4602,
-   "duree": 121,
+   "debut": 4652,
+   "duree": 167,
    "audio": null,
-   "texte": "Un an après, ils n'ont toujours pas été retrouvés.",
+   "texte": "Tant que les bijoux restent introuvables… ce dossier-là n'est pas près d'être classé.",
    "mots": [
     {
      "t": 0,
-     "m": "Un"
+     "m": "Tant"
     },
     {
-     "t": 0.207,
-     "m": "an"
+     "t": 0.29,
+     "m": "que"
     },
     {
-     "t": 0.414,
-     "m": "après,"
+     "t": 0.522,
+     "m": "les"
     },
     {
-     "t": 0.896,
-     "m": "ils"
+     "t": 0.755,
+     "m": "bijoux"
     },
     {
-     "t": 1.172,
-     "m": "n'ont"
+     "t": 1.161,
+     "m": "restent"
     },
     {
-     "t": 1.585,
-     "m": "toujours"
+     "t": 1.625,
+     "m": "introuvables…"
     },
     {
-     "t": 2.206,
+     "t": 2.438,
+     "m": "ce"
+    },
+    {
+     "t": 2.612,
+     "m": "dossier-là"
+    },
+    {
+     "t": 3.251,
+     "m": "n'est"
+    },
+    {
+     "t": 3.599,
      "m": "pas"
     },
     {
-     "t": 2.481,
-     "m": "été"
+     "t": 3.831,
+     "m": "près"
     },
     {
-     "t": 2.757,
-     "m": "retrouvés."
+     "t": 4.121,
+     "m": "d'être"
+    },
+    {
+     "t": 4.528,
+     "m": "classé."
     }
    ],
    "sequence": {
     "type": "chronologie",
-    "titre": "UN AN APRÈS",
-    "hauteur": 560,
+    "titre": "LE DOSSIER",
+    "hauteur": 620,
     "dates": [
      {
       "an": "OCT. 2025",
       "label": "Le casse"
+     },
+     {
+      "an": "FÉV. 2026",
+      "label": "Démission"
      },
      {
       "an": "OCT. 2026",
@@ -2065,201 +2102,98 @@
   },
   {
    "id": "28",
-   "debut": 4723,
-   "duree": 225,
+   "debut": 4819,
+   "duree": 271,
    "audio": null,
-   "texte": "Cachés en France ? Démontés et vendus à l'étranger ? Les pistes des enquêteurs… dans la partie 2.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Cachés"
-    },
-    {
-     "t": 0.488,
-     "m": "en"
-    },
-    {
-     "t": 0.698,
-     "m": "France"
-    },
-    {
-     "t": 1.186,
-     "m": "?"
-    },
-    {
-     "t": 1.326,
-     "m": "Démontés"
-    },
-    {
-     "t": 1.954,
-     "m": "et"
-    },
-    {
-     "t": 2.163,
-     "m": "vendus"
-    },
-    {
-     "t": 2.652,
-     "m": "à"
-    },
-    {
-     "t": 2.791,
-     "m": "l'étranger"
-    },
-    {
-     "t": 3.559,
-     "m": "?"
-    },
-    {
-     "t": 3.698,
-     "m": "Les"
-    },
-    {
-     "t": 3.977,
-     "m": "pistes"
-    },
-    {
-     "t": 4.466,
-     "m": "des"
-    },
-    {
-     "t": 4.745,
-     "m": "enquêteurs…"
-    },
-    {
-     "t": 5.582,
-     "m": "dans"
-    },
-    {
-     "t": 5.931,
-     "m": "la"
-    },
-    {
-     "t": 6.14,
-     "m": "partie"
-    },
-    {
-     "t": 6.629,
-     "m": "2."
-    }
-   ],
-   "sequence": {
-    "type": "suite",
-    "annonce": "Partie 2 : où sont les bijoux ?",
-    "bulle": "1 = en France · 2 = à l'étranger"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "29",
-   "debut": 4948,
-   "duree": 317,
-   "audio": null,
-   "texte": "Et toi, tu penses quoi ? Réponds 1 : cachés en France. Ou 2 : déjà à l'étranger. Et abonne-toi pour ne pas rater la suite.",
+   "texte": "Et toi ? Réponds 1 : cachés en France. Ou 2 : déjà démontés à l'étranger. Et abonne-toi pour le prochain dossier.",
    "mots": [
     {
      "t": 0,
      "m": "Et"
     },
     {
-     "t": 0.239,
-     "m": "toi,"
+     "t": 0.219,
+     "m": "toi"
     },
     {
-     "t": 0.637,
-     "m": "tu"
-    },
-    {
-     "t": 0.876,
-     "m": "penses"
-    },
-    {
-     "t": 1.433,
-     "m": "quoi"
-    },
-    {
-     "t": 1.831,
+     "t": 0.511,
      "m": "?"
     },
     {
-     "t": 1.99,
+     "t": 0.656,
      "m": "Réponds"
     },
     {
-     "t": 2.627,
+     "t": 1.24,
      "m": "1"
     },
     {
-     "t": 2.786,
+     "t": 1.386,
      "m": ":"
     },
     {
-     "t": 2.946,
+     "t": 1.532,
      "m": "cachés"
     },
     {
-     "t": 3.503,
+     "t": 2.042,
      "m": "en"
     },
     {
-     "t": 3.742,
+     "t": 2.261,
      "m": "France."
     },
     {
-     "t": 4.379,
+     "t": 2.845,
      "m": "Ou"
     },
     {
-     "t": 4.617,
+     "t": 3.063,
      "m": "2"
     },
     {
-     "t": 4.777,
+     "t": 3.209,
      "m": ":"
     },
     {
-     "t": 4.936,
+     "t": 3.355,
      "m": "déjà"
     },
     {
-     "t": 5.334,
+     "t": 3.72,
+     "m": "démontés"
+    },
+    {
+     "t": 4.376,
      "m": "à"
     },
     {
-     "t": 5.493,
+     "t": 4.522,
      "m": "l'étranger."
     },
     {
-     "t": 6.448,
+     "t": 5.398,
      "m": "Et"
     },
     {
-     "t": 6.687,
+     "t": 5.616,
      "m": "abonne-toi"
     },
     {
-     "t": 7.563,
+     "t": 6.419,
      "m": "pour"
     },
     {
-     "t": 7.961,
-     "m": "ne"
+     "t": 6.783,
+     "m": "le"
     },
     {
-     "t": 8.2,
-     "m": "pas"
+     "t": 7.002,
+     "m": "prochain"
     },
     {
-     "t": 8.518,
-     "m": "rater"
-    },
-    {
-     "t": 8.996,
-     "m": "la"
-    },
-    {
-     "t": 9.235,
-     "m": "suite."
+     "t": 7.659,
+     "m": "dossier."
     }
    ],
    "sequence": {
