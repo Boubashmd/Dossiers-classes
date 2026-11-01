@@ -1,1085 +1,1383 @@
 {
- "episode": "affaire-09-cz",
+ "episode": "affaire-10-louvre",
  "fps": 30,
- "total": 5210,
+ "total": 5280,
  "avecVoix": false,
  "couverture": {
-  "titre": "DE MCDO À LA PRISON… PUIS GRACIÉ",
-  "sous": "Affaire nº 9 · Le fondateur de Binance · 2/2",
-  "photo": "photos/affaire-09-cz.jpg",
+  "titre": "88 MILLIONS VOLÉS EN 8 MINUTES",
+  "sous": "Affaire nº 10 · Le casse du Louvre · 1/2",
+  "photo": "photos/affaire-10-louvre.jpg",
   "visage": {
-   "x": 300,
-   "y": 360
+   "x": 600,
+   "y": 405
   },
-  "largeur": 600
+  "largeur": 1200,
+  "couleur": true
  },
  "lignes": [
   {
    "id": "01",
    "debut": 0,
-   "duree": 155,
+   "duree": 98,
    "audio": null,
-   "texte": "Cet homme a fondé la plus grande plateforme de cryptomonnaies au monde.",
+   "texte": "Huit minutes. Huit bijoux. Le Louvre dévalisé.",
    "mots": [
     {
      "t": 0,
-     "m": "Cet"
+     "m": "Huit"
     },
     {
-     "t": 0.257,
-     "m": "homme"
+     "t": 0.295,
+     "m": "minutes."
     },
     {
-     "t": 0.642,
-     "m": "a"
+     "t": 0.827,
+     "m": "Huit"
     },
     {
-     "t": 0.77,
-     "m": "fondé"
+     "t": 1.122,
+     "m": "bijoux."
     },
     {
-     "t": 1.156,
-     "m": "la"
+     "t": 1.595,
+     "m": "Le"
     },
     {
-     "t": 1.348,
-     "m": "plus"
+     "t": 1.772,
+     "m": "Louvre"
     },
     {
-     "t": 1.669,
-     "m": "grande"
-    },
-    {
-     "t": 2.119,
-     "m": "plateforme"
-    },
-    {
-     "t": 2.825,
-     "m": "de"
-    },
-    {
-     "t": 3.018,
-     "m": "cryptomonnaies"
-    },
-    {
-     "t": 3.981,
-     "m": "au"
-    },
-    {
-     "t": 4.173,
-     "m": "monde."
+     "t": 2.186,
+     "m": "dévalisé."
     }
    ],
    "sequence": {
-    "type": "pochette",
-    "photo": "photos/affaire-09-cz.jpg",
-    "carteW": 620,
-    "etiquette": [
-     "AFFAIRE Nº 9",
-     "ZHAO, Changpeng"
-    ],
-    "legende": "Changpeng Zhao, dit « CZ »",
-    "srcW": 600,
-    "srcH": 800,
+    "type": "accroche",
+    "photo": "photos/affaire-10-louvre.jpg",
+    "couleur": true,
+    "titre": "88 MILLIONS VOLÉS EN 8 MINUTES",
+    "sous": "Affaire nº 10 · Partie 1/2",
+    "srcW": 1200,
+    "srcH": 900,
     "visage": {
-     "x": 300,
-     "y": 360
+     "x": 600,
+     "y": 405
     }
    },
-   "sousTitres": false
+   "sousTitres": true
   },
   {
    "id": "02",
-   "debut": 155,
+   "debut": 98,
    "duree": 144,
    "audio": null,
-   "texte": "Puis il est allé en prison. Et un président l'a gracié.",
+   "texte": "Et un an plus tard… personne ne sait où ils sont.",
    "mots": [
     {
      "t": 0,
-     "m": "Puis"
-    },
-    {
-     "t": 0.38,
-     "m": "il"
-    },
-    {
-     "t": 0.608,
-     "m": "est"
-    },
-    {
-     "t": 0.911,
-     "m": "allé"
-    },
-    {
-     "t": 1.291,
-     "m": "en"
-    },
-    {
-     "t": 1.519,
-     "m": "prison."
-    },
-    {
-     "t": 2.127,
      "m": "Et"
     },
     {
-     "t": 2.355,
+     "t": 0.255,
      "m": "un"
     },
     {
-     "t": 2.583,
-     "m": "président"
+     "t": 0.51,
+     "m": "an"
     },
     {
-     "t": 3.342,
-     "m": "l'a"
+     "t": 0.766,
+     "m": "plus"
     },
     {
-     "t": 3.646,
-     "m": "gracié."
+     "t": 1.191,
+     "m": "tard…"
+    },
+    {
+     "t": 1.701,
+     "m": "personne"
+    },
+    {
+     "t": 2.467,
+     "m": "ne"
+    },
+    {
+     "t": 2.722,
+     "m": "sait"
+    },
+    {
+     "t": 3.148,
+     "m": "où"
+    },
+    {
+     "t": 3.403,
+     "m": "ils"
+    },
+    {
+     "t": 3.743,
+     "m": "sont."
     }
    ],
    "sequence": {
     "type": "choc",
-    "photo": "photos/affaire-09-cz.jpg",
-    "texte": "PRISON… PUIS GRÂCE",
-    "srcW": 600,
-    "srcH": 800,
+    "photo": "photos/affaire-10-louvre.jpg",
+    "texte": "TOUJOURS INTROUVABLES",
+    "srcW": 1200,
+    "srcH": 900,
     "visage": {
-     "x": 300,
-     "y": 360
+     "x": 600,
+     "y": 405
     }
    },
-   "sousTitres": false
-  },
-  {
-   "id": "generique",
-   "debut": 299,
-   "duree": 78,
-   "audio": null,
-   "texte": "",
-   "mots": [],
-   "sequence": {
-    "type": "generique",
-    "sousTitre": "Affaire nº 9 · L'homme derrière Binance (2/2)"
-   },
-   "sousTitres": false
+   "sousTitres": true
   },
   {
    "id": "03",
-   "debut": 377,
-   "duree": 167,
+   "debut": 242,
+   "duree": 213,
    "audio": null,
-   "texte": "Dans l'épisode précédent : six virgule trois milliards de dollars volés à Binance.",
+   "texte": "Dimanche 19 octobre 2025. Le Louvre, le musée le plus visité du monde, vient d'ouvrir ses portes.",
    "mots": [
     {
      "t": 0,
-     "m": "Dans"
+     "m": "Dimanche"
     },
     {
-     "t": 0.301,
-     "m": "l'épisode"
+     "t": 0.594,
+     "m": "19"
     },
     {
-     "t": 0.902,
-     "m": "précédent"
+     "t": 0.792,
+     "m": "octobre"
     },
     {
-     "t": 1.504,
-     "m": ":"
+     "t": 1.32,
+     "m": "2025."
     },
     {
-     "t": 1.624,
-     "m": "six"
+     "t": 1.716,
+     "m": "Le"
     },
     {
-     "t": 1.864,
-     "m": "virgule"
+     "t": 1.914,
+     "m": "Louvre,"
     },
     {
-     "t": 2.346,
-     "m": "trois"
+     "t": 2.442,
+     "m": "le"
     },
     {
-     "t": 2.707,
-     "m": "milliards"
+     "t": 2.64,
+     "m": "musée"
     },
     {
-     "t": 3.308,
-     "m": "de"
+     "t": 3.036,
+     "m": "le"
     },
     {
-     "t": 3.488,
-     "m": "dollars"
+     "t": 3.234,
+     "m": "plus"
     },
     {
-     "t": 3.97,
-     "m": "volés"
+     "t": 3.565,
+     "m": "visité"
     },
     {
-     "t": 4.33,
-     "m": "à"
+     "t": 4.027,
+     "m": "du"
     },
     {
-     "t": 4.451,
-     "m": "Binance."
+     "t": 4.225,
+     "m": "monde,"
+    },
+    {
+     "t": 4.687,
+     "m": "vient"
+    },
+    {
+     "t": 5.083,
+     "m": "d'ouvrir"
+    },
+    {
+     "t": 5.677,
+     "m": "ses"
+    },
+    {
+     "t": 5.941,
+     "m": "portes."
     }
    ],
    "sequence": {
-    "type": "compteur",
-    "titre": "ÉPISODE PRÉCÉDENT",
-    "valeur": 6.3,
-    "decimales": 1,
-    "unite": "milliards volés à Binance",
-    "couleur": "rouge"
+    "type": "scene",
+    "decor": "facade",
+    "titre": "19 OCTOBRE 2025",
+    "legende": "9 h 30",
+    "legendeTop": 420
    },
    "sousTitres": true
   },
   {
    "id": "04",
-   "debut": 544,
+   "debut": 455,
    "duree": 167,
    "audio": null,
-   "texte": "Aujourd'hui, on ouvre le dossier de son fondateur : Changpeng Zhao, surnommé CZ.",
+   "texte": "Côté Seine, un camion équipé d'une nacelle se gare au pied du musée.",
    "mots": [
     {
      "t": 0,
-     "m": "Aujourd'hui,"
+     "m": "Côté"
     },
     {
-     "t": 0.801,
-     "m": "on"
+     "t": 0.362,
+     "m": "Seine,"
     },
     {
-     "t": 0.986,
-     "m": "ouvre"
+     "t": 0.868,
+     "m": "un"
     },
     {
-     "t": 1.356,
-     "m": "le"
+     "t": 1.085,
+     "m": "camion"
     },
     {
-     "t": 1.541,
-     "m": "dossier"
+     "t": 1.592,
+     "m": "équipé"
     },
     {
-     "t": 2.034,
-     "m": "de"
+     "t": 2.098,
+     "m": "d'une"
     },
     {
-     "t": 2.219,
-     "m": "son"
+     "t": 2.532,
+     "m": "nacelle"
     },
     {
-     "t": 2.465,
-     "m": "fondateur"
+     "t": 3.111,
+     "m": "se"
     },
     {
-     "t": 3.081,
-     "m": ":"
+     "t": 3.328,
+     "m": "gare"
     },
     {
-     "t": 3.205,
-     "m": "Changpeng"
+     "t": 3.69,
+     "m": "au"
     },
     {
-     "t": 3.821,
-     "m": "Zhao,"
+     "t": 3.907,
+     "m": "pied"
     },
     {
-     "t": 4.191,
-     "m": "surnommé"
+     "t": 4.269,
+     "m": "du"
     },
     {
-     "t": 4.745,
-     "m": "CZ."
+     "t": 4.486,
+     "m": "musée."
     }
    ],
    "sequence": {
-    "type": "fiche",
-    "titre": "LE FONDATEUR",
-    "personnage": "cz",
-    "nom": "« CZ »",
-    "infos": [
-     "Changpeng Zhao",
-     "Fondateur de Binance"
-    ]
+    "type": "scene",
+    "decor": "facade",
+    "camion": true,
+    "titre": "CÔTÉ SEINE"
    },
    "sousTitres": true
   },
   {
    "id": "05",
-   "debut": 711,
+   "debut": 622,
    "duree": 144,
    "audio": null,
-   "texte": "Il naît en 1977, dans la province du Jiangsu, en Chine.",
+   "texte": "Autour, des hommes en gilets jaunes et orange. Comme des ouvriers.",
    "mots": [
     {
      "t": 0,
-     "m": "Il"
+     "m": "Autour,"
     },
     {
-     "t": 0.228,
-     "m": "naît"
+     "t": 0.508,
+     "m": "des"
     },
     {
-     "t": 0.608,
+     "t": 0.762,
+     "m": "hommes"
+    },
+    {
+     "t": 1.206,
      "m": "en"
     },
     {
-     "t": 0.836,
-     "m": "1977,"
+     "t": 1.397,
+     "m": "gilets"
     },
     {
-     "t": 1.291,
-     "m": "dans"
+     "t": 1.841,
+     "m": "jaunes"
     },
     {
-     "t": 1.671,
-     "m": "la"
+     "t": 2.285,
+     "m": "et"
     },
     {
-     "t": 1.899,
-     "m": "province"
+     "t": 2.476,
+     "m": "orange."
     },
     {
-     "t": 2.583,
-     "m": "du"
+     "t": 2.984,
+     "m": "Comme"
     },
     {
-     "t": 2.81,
-     "m": "Jiangsu,"
+     "t": 3.365,
+     "m": "des"
     },
     {
-     "t": 3.494,
-     "m": "en"
-    },
-    {
-     "t": 3.722,
-     "m": "Chine."
+     "t": 3.619,
+     "m": "ouvriers."
     }
    ],
    "sequence": {
-    "type": "carte_monde",
-    "titre": "1977",
-    "points": [
+    "type": "scene",
+    "decor": "facade",
+    "camion": true,
+    "ouvriers": true,
+    "titre": "DES OUVRIERS ?"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "06",
+   "debut": 766,
+   "duree": 167,
+   "audio": null,
+   "texte": "Personne ne se méfie. Des travaux, il y en a souvent à Paris.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Personne"
+    },
+    {
+     "t": 0.725,
+     "m": "ne"
+    },
+    {
+     "t": 0.966,
+     "m": "se"
+    },
+    {
+     "t": 1.208,
+     "m": "méfie."
+    },
+    {
+     "t": 1.771,
+     "m": "Des"
+    },
+    {
+     "t": 2.093,
+     "m": "travaux,"
+    },
+    {
+     "t": 2.818,
+     "m": "il"
+    },
+    {
+     "t": 3.06,
+     "m": "y"
+    },
+    {
+     "t": 3.221,
+     "m": "en"
+    },
+    {
+     "t": 3.462,
+     "m": "a"
+    },
+    {
+     "t": 3.623,
+     "m": "souvent"
+    },
+    {
+     "t": 4.267,
+     "m": "à"
+    },
+    {
+     "t": 4.428,
+     "m": "Paris."
+    }
+   ],
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "PERSONNE NE SE MÉFIE",
+    "taille": 96
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "07",
+   "debut": 933,
+   "duree": 132,
+   "audio": null,
+   "texte": "La nacelle se déploie… jusqu'à un balcon du premier étage.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "La"
+    },
+    {
+     "t": 0.198,
+     "m": "nacelle"
+    },
+    {
+     "t": 0.724,
+     "m": "se"
+    },
+    {
+     "t": 0.922,
+     "m": "déploie…"
+    },
+    {
+     "t": 1.514,
+     "m": "jusqu'à"
+    },
+    {
+     "t": 2.041,
+     "m": "un"
+    },
+    {
+     "t": 2.238,
+     "m": "balcon"
+    },
+    {
+     "t": 2.699,
+     "m": "du"
+    },
+    {
+     "t": 2.897,
+     "m": "premier"
+    },
+    {
+     "t": 3.423,
+     "m": "étage."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "facade",
+    "deploie": true,
+    "titre": "LA NACELLE"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "08",
+   "debut": 1065,
+   "duree": 132,
+   "audio": null,
+   "texte": "Deux hommes montent, le visage caché, et brisent une fenêtre.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Deux"
+    },
+    {
+     "t": 0.313,
+     "m": "hommes"
+    },
+    {
+     "t": 0.752,
+     "m": "montent,"
+    },
+    {
+     "t": 1.316,
+     "m": "le"
+    },
+    {
+     "t": 1.504,
+     "m": "visage"
+    },
+    {
+     "t": 1.942,
+     "m": "caché,"
+    },
+    {
+     "t": 2.381,
+     "m": "et"
+    },
+    {
+     "t": 2.569,
+     "m": "brisent"
+    },
+    {
+     "t": 3.07,
+     "m": "une"
+    },
+    {
+     "t": 3.32,
+     "m": "fenêtre."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "facade",
+    "nacelleHaute": true,
+    "brise": true,
+    "titre": "9 H 34"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "09",
+   "debut": 1197,
+   "duree": 213,
+   "audio": null,
+   "texte": "Derrière : la galerie d'Apollon. C'est là que sont exposés les joyaux de la Couronne de France.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Derrière"
+    },
+    {
+     "t": 0.606,
+     "m": ":"
+    },
+    {
+     "t": 0.741,
+     "m": "la"
+    },
+    {
+     "t": 0.943,
+     "m": "galerie"
+    },
+    {
+     "t": 1.482,
+     "m": "d'Apollon."
+    },
+    {
+     "t": 2.224,
+     "m": "C'est"
+    },
+    {
+     "t": 2.628,
+     "m": "là"
+    },
+    {
+     "t": 2.83,
+     "m": "que"
+    },
+    {
+     "t": 3.1,
+     "m": "sont"
+    },
+    {
+     "t": 3.437,
+     "m": "exposés"
+    },
+    {
+     "t": 3.976,
+     "m": "les"
+    },
+    {
+     "t": 4.245,
+     "m": "joyaux"
+    },
+    {
+     "t": 4.717,
+     "m": "de"
+    },
+    {
+     "t": 4.919,
+     "m": "la"
+    },
+    {
+     "t": 5.121,
+     "m": "Couronne"
+    },
+    {
+     "t": 5.728,
+     "m": "de"
+    },
+    {
+     "t": 5.93,
+     "m": "France."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "galerie",
+    "titre": "LA GALERIE D'APOLLON"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "10",
+   "debut": 1410,
+   "duree": 132,
+   "audio": null,
+   "texte": "Les alarmes se déclenchent. Mais les voleurs vont très vite.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Les"
+    },
+    {
+     "t": 0.255,
+     "m": "alarmes"
+    },
+    {
+     "t": 0.764,
+     "m": "se"
+    },
+    {
+     "t": 0.955,
+     "m": "déclenchent."
+    },
+    {
+     "t": 1.783,
+     "m": "Mais"
+    },
+    {
+     "t": 2.101,
+     "m": "les"
+    },
+    {
+     "t": 2.356,
+     "m": "voleurs"
+    },
+    {
+     "t": 2.865,
+     "m": "vont"
+    },
+    {
+     "t": 3.184,
+     "m": "très"
+    },
+    {
+     "t": 3.502,
+     "m": "vite."
+    }
+   ],
+   "sequence": {
+    "type": "scene",
+    "decor": "galerie",
+    "alarme": true,
+    "titre": "ALERTE"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "11",
+   "debut": 1542,
+   "duree": 75,
+   "audio": null,
+   "texte": "Ils s'attaquent à deux vitrines…",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Ils"
+    },
+    {
+     "t": 0.247,
+     "m": "s'attaquent"
+    },
+    {
+     "t": 0.988,
+     "m": "à"
+    },
+    {
+     "t": 1.112,
+     "m": "deux"
+    },
+    {
+     "t": 1.421,
+     "m": "vitrines…"
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "vitrine",
+    "vide": true,
+    "titre": "DEUX VITRINES"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "12",
+   "debut": 1617,
+   "duree": 86,
+   "audio": null,
+   "texte": "… et emportent huit bijoux historiques.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "…"
+    },
+    {
+     "t": 0.12,
+     "m": "et"
+    },
+    {
+     "t": 0.301,
+     "m": "emportent"
+    },
+    {
+     "t": 0.903,
+     "m": "huit"
+    },
+    {
+     "t": 1.204,
+     "m": "bijoux"
+    },
+    {
+     "t": 1.625,
+     "m": "historiques."
+    }
+   ],
+   "sequence": {
+    "type": "compteur",
+    "titre": "LE BUTIN",
+    "valeur": 8,
+    "unite": "bijoux historiques",
+    "couleur": "rouge"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "13",
+   "debut": 1703,
+   "duree": 213,
+   "audio": null,
+   "texte": "Des parures de reines et d'impératrices : Marie-Amélie, Hortense, Marie-Louise… et Eugénie, la femme de Napoléon III.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Des"
+    },
+    {
+     "t": 0.219,
+     "m": "parures"
+    },
+    {
+     "t": 0.658,
+     "m": "de"
+    },
+    {
+     "t": 0.822,
+     "m": "reines"
+    },
+    {
+     "t": 1.206,
+     "m": "et"
+    },
+    {
+     "t": 1.371,
+     "m": "d'impératrices"
+    },
+    {
+     "t": 2.193,
+     "m": ":"
+    },
+    {
+     "t": 2.302,
+     "m": "Marie-Amélie,"
+    },
+    {
+     "t": 3.07,
+     "m": "Hortense,"
+    },
+    {
+     "t": 3.618,
+     "m": "Marie-Louise…"
+    },
+    {
+     "t": 4.386,
+     "m": "et"
+    },
+    {
+     "t": 4.55,
+     "m": "Eugénie,"
+    },
+    {
+     "t": 5.044,
+     "m": "la"
+    },
+    {
+     "t": 5.208,
+     "m": "femme"
+    },
+    {
+     "t": 5.537,
+     "m": "de"
+    },
+    {
+     "t": 5.701,
+     "m": "Napoléon"
+    },
+    {
+     "t": 6.195,
+     "m": "III."
+    }
+   ],
+   "sequence": {
+    "type": "icones",
+    "titre": "LES PARURES",
+    "items": [
      {
-      "lon": 119.8,
-      "lat": 32.9,
-      "nom": "JIANGSU, CHINE"
+      "label": "SAPHIRS",
+      "sous": "Marie-Amélie et Hortense"
+     },
+     {
+      "label": "ÉMERAUDES",
+      "sous": "Marie-Louise"
+     },
+     {
+      "label": "BROCHES",
+      "sous": "Eugénie"
      }
     ]
    },
    "sousTitres": true
   },
   {
-   "id": "06",
-   "debut": 855,
-   "duree": 155,
+   "id": "14",
+   "debut": 1916,
+   "duree": 121,
    "audio": null,
-   "texte": "À douze ans, il part avec sa famille à Vancouver, au Canada.",
+   "texte": "Valeur estimée par le Louvre : quatre-vingt-huit millions d'euros.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Valeur"
+    },
+    {
+     "t": 0.367,
+     "m": "estimée"
+    },
+    {
+     "t": 0.787,
+     "m": "par"
+    },
+    {
+     "t": 0.997,
+     "m": "le"
+    },
+    {
+     "t": 1.154,
+     "m": "Louvre"
+    },
+    {
+     "t": 1.521,
+     "m": ":"
+    },
+    {
+     "t": 1.626,
+     "m": "quatre-vingt-huit"
+    },
+    {
+     "t": 2.571,
+     "m": "millions"
+    },
+    {
+     "t": 3.043,
+     "m": "d'euros."
+    }
+   ],
+   "sequence": {
+    "type": "compteur",
+    "titre": "LA VALEUR",
+    "valeur": 88,
+    "unite": "millions d'euros",
+    "couleur": "rouge",
+    "legende": "selon le Louvre"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "15",
+   "debut": 2037,
+   "duree": 190,
+   "audio": null,
+   "texte": "À 9 h 38, ils sont déjà ressortis. Ils redescendent, et filent sur deux scooters.",
    "mots": [
     {
      "t": 0,
      "m": "À"
     },
     {
-     "t": 0.152,
-     "m": "douze"
+     "t": 0.14,
+     "m": "9"
     },
     {
-     "t": 0.606,
-     "m": "ans,"
+     "t": 0.28,
+     "m": "h"
     },
     {
-     "t": 0.985,
-     "m": "il"
+     "t": 0.419,
+     "m": "38,"
     },
     {
-     "t": 1.213,
-     "m": "part"
+     "t": 0.699,
+     "m": "ils"
     },
     {
-     "t": 1.591,
-     "m": "avec"
+     "t": 0.978,
+     "m": "sont"
     },
     {
-     "t": 1.97,
-     "m": "sa"
+     "t": 1.328,
+     "m": "déjà"
     },
     {
-     "t": 2.198,
-     "m": "famille"
+     "t": 1.677,
+     "m": "ressortis."
     },
     {
-     "t": 2.804,
-     "m": "à"
+     "t": 2.446,
+     "m": "Ils"
     },
     {
-     "t": 2.956,
-     "m": "Vancouver,"
+     "t": 2.725,
+     "m": "redescendent,"
     },
     {
-     "t": 3.789,
-     "m": "au"
+     "t": 3.704,
+     "m": "et"
     },
     {
-     "t": 4.017,
-     "m": "Canada."
-    }
-   ],
-   "sequence": {
-    "type": "carte_monde",
-    "titre": "À 12 ANS",
-    "points": [
-     {
-      "lon": 119.8,
-      "lat": 32.9,
-      "nom": "CHINE"
-     },
-     {
-      "lon": -123.1,
-      "lat": 49.3,
-      "nom": "VANCOUVER"
-     }
-    ],
-    "fleches": [
-     {
-      "de": [
-       119.8,
-       32.9
-      ],
-      "vers": [
-       -123.1,
-       49.3
-      ],
-      "a": 12,
-      "courbe": 0.15
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "07",
-   "debut": 1010,
-   "duree": 132,
-   "audio": null,
-   "texte": "Pour aider les siens, il retourne des burgers… chez McDonald's.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Pour"
+     "t": 3.913,
+     "m": "filent"
     },
     {
-     "t": 0.303,
-     "m": "aider"
+     "t": 4.403,
+     "m": "sur"
     },
     {
-     "t": 0.668,
-     "m": "les"
+     "t": 4.682,
+     "m": "deux"
     },
     {
-     "t": 0.91,
-     "m": "siens,"
-    },
-    {
-     "t": 1.335,
-     "m": "il"
-    },
-    {
-     "t": 1.517,
-     "m": "retourne"
-    },
-    {
-     "t": 2.064,
-     "m": "des"
-    },
-    {
-     "t": 2.306,
-     "m": "burgers…"
-    },
-    {
-     "t": 2.853,
-     "m": "chez"
-    },
-    {
-     "t": 3.156,
-     "m": "McDonald's."
-    }
-   ],
-   "sequence": {
-    "type": "icones",
-    "titre": "SON PREMIER JOB",
-    "items": [
-     {
-      "label": "BURGERS",
-      "sous": "chez McDonald's"
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "08",
-   "debut": 1142,
-   "duree": 121,
-   "audio": null,
-   "texte": "Puis il étudie l'informatique à l'université McGill, à Montréal.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Puis"
-    },
-    {
-     "t": 0.27,
-     "m": "il"
-    },
-    {
-     "t": 0.433,
-     "m": "étudie"
-    },
-    {
-     "t": 0.811,
-     "m": "l'informatique"
-    },
-    {
-     "t": 1.622,
-     "m": "à"
-    },
-    {
-     "t": 1.73,
-     "m": "l'université"
-    },
-    {
-     "t": 2.434,
-     "m": "McGill,"
-    },
-    {
-     "t": 2.866,
-     "m": "à"
-    },
-    {
-     "t": 2.974,
-     "m": "Montréal."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "portable",
-    "ecran": "graphique",
-    "titre": "MONTRÉAL",
-    "legende": "Études d'informatique"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "09",
-   "debut": 1263,
-   "duree": 144,
-   "audio": null,
-   "texte": "Il code des logiciels de Bourse, de Tokyo à New York.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Il"
-    },
-    {
-     "t": 0.236,
-     "m": "code"
-    },
-    {
-     "t": 0.63,
-     "m": "des"
-    },
-    {
-     "t": 0.945,
-     "m": "logiciels"
-    },
-    {
-     "t": 1.733,
-     "m": "de"
-    },
-    {
-     "t": 1.969,
-     "m": "Bourse,"
-    },
-    {
-     "t": 2.599,
-     "m": "de"
-    },
-    {
-     "t": 2.836,
-     "m": "Tokyo"
-    },
-    {
-     "t": 3.308,
-     "m": "à"
-    },
-    {
-     "t": 3.466,
-     "m": "New"
-    },
-    {
-     "t": 3.781,
-     "m": "York."
-    }
-   ],
-   "sequence": {
-    "type": "carte_monde",
-    "titre": "LA BOURSE",
-    "points": [
-     {
-      "lon": 139.7,
-      "lat": 35.7,
-      "nom": "TOKYO"
-     },
-     {
-      "lon": -74,
-      "lat": 40.7,
-      "nom": "NEW YORK"
-     }
-    ],
-    "fleches": [
-     {
-      "de": [
-       139.7,
-       35.7
-      ],
-      "vers": [
-       -74,
-       40.7
-      ],
-      "a": 10,
-      "courbe": 0.12,
-      "pointilles": true
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "10",
-   "debut": 1407,
-   "duree": 167,
-   "audio": null,
-   "texte": "En 2013, lors d'une partie de poker, un ami lui parle du Bitcoin.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "En"
-    },
-    {
-     "t": 0.227,
-     "m": "2013,"
-    },
-    {
-     "t": 0.681,
-     "m": "lors"
-    },
-    {
-     "t": 1.059,
-     "m": "d'une"
-    },
-    {
-     "t": 1.513,
-     "m": "partie"
-    },
-    {
-     "t": 2.042,
-     "m": "de"
-    },
-    {
-     "t": 2.269,
-     "m": "poker,"
-    },
-    {
-     "t": 2.799,
-     "m": "un"
-    },
-    {
-     "t": 3.025,
-     "m": "ami"
-    },
-    {
-     "t": 3.328,
-     "m": "lui"
-    },
-    {
-     "t": 3.631,
-     "m": "parle"
-    },
-    {
-     "t": 4.084,
-     "m": "du"
-    },
-    {
-     "t": 4.311,
-     "m": "Bitcoin."
+     "t": 5.032,
+     "m": "scooters."
     }
    ],
    "sequence": {
     "type": "scene",
-    "decor": "bureau",
-    "cartes": true,
-    "titre": "2013",
-    "legende": "Une partie de poker",
-    "legendeTop": 420
+    "decor": "facade",
+    "scooters": true,
+    "nacelleHaute": true,
+    "titre": "9 H 38"
    },
    "sousTitres": true
   },
   {
-   "id": "10b",
-   "debut": 1574,
-   "duree": 155,
+   "id": "16",
+   "debut": 2227,
+   "duree": 121,
    "audio": null,
-   "texte": "Il rejoint alors les premières entreprises du Bitcoin, comme OKCoin, en Chine.",
+   "texte": "Au total, l'opération a duré moins de huit minutes.",
    "mots": [
     {
      "t": 0,
-     "m": "Il"
+     "m": "Au"
     },
     {
-     "t": 0.176,
-     "m": "rejoint"
+     "t": 0.203,
+     "m": "total,"
     },
     {
-     "t": 0.644,
-     "m": "alors"
+     "t": 0.676,
+     "m": "l'opération"
     },
     {
-     "t": 0.995,
-     "m": "les"
+     "t": 1.487,
+     "m": "a"
     },
     {
-     "t": 1.229,
-     "m": "premières"
+     "t": 1.622,
+     "m": "duré"
     },
     {
-     "t": 1.814,
-     "m": "entreprises"
+     "t": 1.96,
+     "m": "moins"
     },
     {
-     "t": 2.516,
-     "m": "du"
-    },
-    {
-     "t": 2.692,
-     "m": "Bitcoin,"
-    },
-    {
-     "t": 3.218,
-     "m": "comme"
-    },
-    {
-     "t": 3.569,
-     "m": "OKCoin,"
-    },
-    {
-     "t": 4.038,
-     "m": "en"
-    },
-    {
-     "t": 4.213,
-     "m": "Chine."
-    }
-   ],
-   "sequence": {
-    "type": "icones",
-    "titre": "LES DÉBUTS",
-    "items": [
-     {
-      "label": "OKCOIN",
-      "sous": "plateforme chinoise"
-     },
-     {
-      "label": "BITCOIN",
-      "sous": "le déclic"
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "11",
-   "debut": 1729,
-   "duree": 167,
-   "audio": null,
-   "texte": "Il y croit tellement… qu'il vend son appartement de Shanghai pour en acheter.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Il"
-    },
-    {
-     "t": 0.192,
-     "m": "y"
-    },
-    {
-     "t": 0.32,
-     "m": "croit"
-    },
-    {
-     "t": 0.704,
-     "m": "tellement…"
-    },
-    {
-     "t": 1.408,
-     "m": "qu'il"
-    },
-    {
-     "t": 1.792,
-     "m": "vend"
-    },
-    {
-     "t": 2.112,
-     "m": "son"
-    },
-    {
-     "t": 2.368,
-     "m": "appartement"
-    },
-    {
-     "t": 3.136,
+     "t": 2.366,
      "m": "de"
     },
     {
-     "t": 3.328,
-     "m": "Shanghai"
+     "t": 2.569,
+     "m": "huit"
     },
     {
-     "t": 3.904,
-     "m": "pour"
-    },
-    {
-     "t": 4.224,
-     "m": "en"
-    },
-    {
-     "t": 4.416,
-     "m": "acheter."
+     "t": 2.907,
+     "m": "minutes."
     }
    ],
    "sequence": {
-    "type": "document",
-    "genre": "affiche",
-    "titre": "TOUT SUR LE BITCOIN",
-    "surtitre": "SHANGHAI",
-    "manchette": "APPARTEMENT VENDU",
-    "sousAffiche": "Pour acheter des bitcoins",
-    "tampon": "VENDU",
-    "tamponTop": 900
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "MOINS DE 8 MINUTES",
+    "taille": 96
    },
    "sousTitres": true
   },
   {
-   "id": "12",
-   "debut": 1896,
-   "duree": 75,
+   "id": "17",
+   "debut": 2348,
+   "duree": 179,
    "audio": null,
-   "texte": "En 2017, il lance Binance.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "En"
-    },
-    {
-     "t": 0.226,
-     "m": "2017,"
-    },
-    {
-     "t": 0.679,
-     "m": "il"
-    },
-    {
-     "t": 0.906,
-     "m": "lance"
-    },
-    {
-     "t": 1.359,
-     "m": "Binance."
-    }
-   ],
-   "sequence": {
-    "type": "objet",
-    "dessin": "portable",
-    "ecran": "graphique",
-    "titre": "2017",
-    "legende": "Naissance de Binance"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "13",
-   "debut": 1971,
-   "duree": 155,
-   "audio": null,
-   "texte": "En quelques mois, c'est la plus grande plateforme de cryptos du monde.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "En"
-    },
-    {
-     "t": 0.195,
-     "m": "quelques"
-    },
-    {
-     "t": 0.781,
-     "m": "mois,"
-    },
-    {
-     "t": 1.172,
-     "m": "c'est"
-    },
-    {
-     "t": 1.563,
-     "m": "la"
-    },
-    {
-     "t": 1.758,
-     "m": "plus"
-    },
-    {
-     "t": 2.084,
-     "m": "grande"
-    },
-    {
-     "t": 2.539,
-     "m": "plateforme"
-    },
-    {
-     "t": 3.255,
-     "m": "de"
-    },
-    {
-     "t": 3.451,
-     "m": "cryptos"
-    },
-    {
-     "t": 3.972,
-     "m": "du"
-    },
-    {
-     "t": 4.167,
-     "m": "monde."
-    }
-   ],
-   "sequence": {
-    "type": "courbe",
-    "titre": "UNE ASCENSION ÉCLAIR",
-    "labelMarche": "LES AUTRES",
-    "labelDroite": "BINANCE",
-    "legende": "Numéro 1 mondial",
-    "legendeCouleur": "jaune"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "14",
-   "debut": 2126,
-   "duree": 155,
-   "audio": null,
-   "texte": "Et lui devient l'un des hommes les plus riches de la planète.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Et"
-    },
-    {
-     "t": 0.224,
-     "m": "lui"
-    },
-    {
-     "t": 0.522,
-     "m": "devient"
-    },
-    {
-     "t": 1.118,
-     "m": "l'un"
-    },
-    {
-     "t": 1.491,
-     "m": "des"
-    },
-    {
-     "t": 1.789,
-     "m": "hommes"
-    },
-    {
-     "t": 2.311,
-     "m": "les"
-    },
-    {
-     "t": 2.61,
-     "m": "plus"
-    },
-    {
-     "t": 2.982,
-     "m": "riches"
-    },
-    {
-     "t": 3.504,
-     "m": "de"
-    },
-    {
-     "t": 3.728,
-     "m": "la"
-    },
-    {
-     "t": 3.952,
-     "m": "planète."
-    }
-   ],
-   "sequence": {
-    "type": "compteur",
-    "titre": "MILLIARDAIRE",
-    "valeur": 96,
-    "unite": "milliards de dollars",
-    "legende": "sa fortune selon Bloomberg, en 2022"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "15",
-   "debut": 2281,
-   "duree": 86,
-   "audio": null,
-   "texte": "Mais aux États-Unis, la justice enquête.",
+   "texte": "Mais dans leur fuite, ils perdent quelque chose : la couronne de l'impératrice Eugénie.",
    "mots": [
     {
      "t": 0,
      "m": "Mais"
     },
     {
-     "t": 0.294,
-     "m": "aux"
+     "t": 0.305,
+     "m": "dans"
     },
     {
-     "t": 0.528,
-     "m": "États-Unis,"
+     "t": 0.609,
+     "m": "leur"
     },
     {
-     "t": 1.233,
+     "t": 0.914,
+     "m": "fuite,"
+    },
+    {
+     "t": 1.34,
+     "m": "ils"
+    },
+    {
+     "t": 1.584,
+     "m": "perdent"
+    },
+    {
+     "t": 2.071,
+     "m": "quelque"
+    },
+    {
+     "t": 2.559,
+     "m": "chose"
+    },
+    {
+     "t": 2.924,
+     "m": ":"
+    },
+    {
+     "t": 3.046,
      "m": "la"
     },
     {
-     "t": 1.409,
-     "m": "justice"
+     "t": 3.229,
+     "m": "couronne"
     },
     {
-     "t": 1.879,
-     "m": "enquête."
+     "t": 3.777,
+     "m": "de"
+    },
+    {
+     "t": 3.96,
+     "m": "l'impératrice"
+    },
+    {
+     "t": 4.813,
+     "m": "Eugénie."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "couronne",
+    "titre": "PERDUE DANS LA FUITE"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "18",
+   "debut": 2527,
+   "duree": 98,
+   "audio": null,
+   "texte": "Elle est retrouvée près du musée. Abîmée.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Elle"
+    },
+    {
+     "t": 0.331,
+     "m": "est"
+    },
+    {
+     "t": 0.595,
+     "m": "retrouvée"
+    },
+    {
+     "t": 1.256,
+     "m": "près"
+    },
+    {
+     "t": 1.587,
+     "m": "du"
+    },
+    {
+     "t": 1.785,
+     "m": "musée."
+    },
+    {
+     "t": 2.248,
+     "m": "Abîmée."
+    }
+   ],
+   "sequence": {
+    "type": "objet",
+    "dessin": "couronne",
+    "abimee": true,
+    "titre": "RETROUVÉE",
+    "tampon": "ABÎMÉE",
+    "tamponTop": 520,
+    "tamponTaille": 90
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "18b",
+   "debut": 2625,
+   "duree": 202,
+   "audio": null,
+   "texte": "Cette couronne compte plus de mille trois cents diamants. Le Louvre va devoir la faire restaurer.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Cette"
+    },
+    {
+     "t": 0.373,
+     "m": "couronne"
+    },
+    {
+     "t": 0.934,
+     "m": "compte"
+    },
+    {
+     "t": 1.369,
+     "m": "plus"
+    },
+    {
+     "t": 1.681,
+     "m": "de"
+    },
+    {
+     "t": 1.867,
+     "m": "mille"
+    },
+    {
+     "t": 2.241,
+     "m": "trois"
+    },
+    {
+     "t": 2.614,
+     "m": "cents"
+    },
+    {
+     "t": 2.988,
+     "m": "diamants."
+    },
+    {
+     "t": 3.61,
+     "m": "Le"
+    },
+    {
+     "t": 3.797,
+     "m": "Louvre"
+    },
+    {
+     "t": 4.232,
+     "m": "va"
+    },
+    {
+     "t": 4.419,
+     "m": "devoir"
+    },
+    {
+     "t": 4.855,
+     "m": "la"
+    },
+    {
+     "t": 5.042,
+     "m": "faire"
+    },
+    {
+     "t": 5.415,
+     "m": "restaurer."
+    }
+   ],
+   "sequence": {
+    "type": "compteur",
+    "titre": "LA COURONNE",
+    "valeur": 1300,
+    "milliers": true,
+    "unite": "diamants",
+    "legende": "et plus encore"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "19",
+   "debut": 2827,
+   "duree": 98,
+   "audio": null,
+   "texte": "Le casse fait le tour du monde.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Le"
+    },
+    {
+     "t": 0.26,
+     "m": "casse"
+    },
+    {
+     "t": 0.781,
+     "m": "fait"
+    },
+    {
+     "t": 1.215,
+     "m": "le"
+    },
+    {
+     "t": 1.475,
+     "m": "tour"
+    },
+    {
+     "t": 1.909,
+     "m": "du"
+    },
+    {
+     "t": 2.169,
+     "m": "monde."
+    }
+   ],
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "LE CASSE DU SIÈCLE",
+    "points": [
+     {
+      "lon": 2.35,
+      "lat": 48.86,
+      "nom": "PARIS"
+     }
+    ]
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "20",
+   "debut": 2925,
+   "duree": 121,
+   "audio": null,
+   "texte": "Pour Emmanuel Macron, c'est une attaque contre notre histoire.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Pour"
+    },
+    {
+     "t": 0.279,
+     "m": "Emmanuel"
+    },
+    {
+     "t": 0.781,
+     "m": "Macron,"
+    },
+    {
+     "t": 1.227,
+     "m": "c'est"
+    },
+    {
+     "t": 1.562,
+     "m": "une"
+    },
+    {
+     "t": 1.785,
+     "m": "attaque"
+    },
+    {
+     "t": 2.232,
+     "m": "contre"
+    },
+    {
+     "t": 2.622,
+     "m": "notre"
+    },
+    {
+     "t": 2.957,
+     "m": "histoire."
+    }
+   ],
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "« NOTRE HISTOIRE »",
+    "taille": 78,
+    "sous": "Selon Emmanuel Macron"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "21",
+   "debut": 3046,
+   "duree": 132,
+   "audio": null,
+   "texte": "Des dizaines d'enquêteurs se lancent sur la piste du commando.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Des"
+    },
+    {
+     "t": 0.247,
+     "m": "dizaines"
+    },
+    {
+     "t": 0.802,
+     "m": "d'enquêteurs"
+    },
+    {
+     "t": 1.603,
+     "m": "se"
+    },
+    {
+     "t": 1.788,
+     "m": "lancent"
+    },
+    {
+     "t": 2.281,
+     "m": "sur"
+    },
+    {
+     "t": 2.528,
+     "m": "la"
+    },
+    {
+     "t": 2.713,
+     "m": "piste"
+    },
+    {
+     "t": 3.083,
+     "m": "du"
+    },
+    {
+     "t": 3.268,
+     "m": "commando."
     }
    ],
    "sequence": {
     "type": "document",
     "genre": "rapport",
-    "titre": "ENQUÊTE",
-    "entete": "JUSTICE AMÉRICAINE",
+    "titre": "L'ENQUÊTE",
+    "entete": "PARQUET DE PARIS",
     "lignes": [
-     "Dossier : Binance",
+     "Dossier : vol au Louvre",
      "Statut : enquête"
     ],
     "tampon": "ENQUÊTE",
@@ -1088,1228 +1386,885 @@
    "sousTitres": true
   },
   {
-   "id": "16",
-   "debut": 2367,
-   "duree": 202,
+   "id": "21b",
+   "debut": 3178,
+   "duree": 248,
    "audio": null,
-   "texte": "Selon les procureurs, Binance n'a pas mis en place les contrôles obligatoires contre le blanchiment d'argent.",
+   "texte": "Devant le Sénat, la directrice du Louvre reconnaît des failles : certaines zones extérieures n'étaient pas filmées par les caméras.",
    "mots": [
     {
      "t": 0,
-     "m": "Selon"
+     "m": "Devant"
     },
     {
-     "t": 0.333,
-     "m": "les"
-    },
-    {
-     "t": 0.555,
-     "m": "procureurs,"
-    },
-    {
-     "t": 1.22,
-     "m": "Binance"
-    },
-    {
-     "t": 1.664,
-     "m": "n'a"
-    },
-    {
-     "t": 1.885,
-     "m": "pas"
-    },
-    {
-     "t": 2.107,
-     "m": "mis"
-    },
-    {
-     "t": 2.329,
-     "m": "en"
-    },
-    {
-     "t": 2.495,
-     "m": "place"
-    },
-    {
-     "t": 2.828,
-     "m": "les"
-    },
-    {
-     "t": 3.05,
-     "m": "contrôles"
-    },
-    {
-     "t": 3.604,
-     "m": "obligatoires"
-    },
-    {
-     "t": 4.325,
-     "m": "contre"
-    },
-    {
-     "t": 4.713,
+     "t": 0.402,
      "m": "le"
     },
     {
-     "t": 4.88,
-     "m": "blanchiment"
+     "t": 0.574,
+     "m": "Sénat,"
     },
     {
-     "t": 5.545,
-     "m": "d'argent."
-    }
-   ],
-   "sequence": {
-    "type": "barre",
-    "mot": "CONTRÔLES",
-    "personnage": "cz",
-    "nom": "SELON LES PROCUREURS"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "17",
-   "debut": 2569,
-   "duree": 225,
-   "audio": null,
-   "texte": "Des transactions liées à des criminels, et même à des groupes terroristes, ont pu passer par la plateforme.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Des"
-    },
-    {
-     "t": 0.253,
-     "m": "transactions"
-    },
-    {
-     "t": 1.076,
-     "m": "liées"
-    },
-    {
-     "t": 1.456,
-     "m": "à"
-    },
-    {
-     "t": 1.583,
-     "m": "des"
-    },
-    {
-     "t": 1.836,
-     "m": "criminels,"
-    },
-    {
-     "t": 2.533,
-     "m": "et"
-    },
-    {
-     "t": 2.723,
-     "m": "même"
-    },
-    {
-     "t": 3.039,
-     "m": "à"
-    },
-    {
-     "t": 3.166,
-     "m": "des"
-    },
-    {
-     "t": 3.419,
-     "m": "groupes"
-    },
-    {
-     "t": 3.926,
-     "m": "terroristes,"
-    },
-    {
-     "t": 4.749,
-     "m": "ont"
-    },
-    {
-     "t": 5.002,
-     "m": "pu"
-    },
-    {
-     "t": 5.192,
-     "m": "passer"
-    },
-    {
-     "t": 5.635,
-     "m": "par"
-    },
-    {
-     "t": 5.888,
+     "t": 0.976,
      "m": "la"
     },
     {
-     "t": 6.078,
-     "m": "plateforme."
-    }
-   ],
-   "sequence": {
-    "type": "flux",
-    "titre": "L'ACCUSATION",
-    "de": "ombre",
-    "vers": "cz",
-    "objet": "sac",
-    "lettre": "$"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "18",
-   "debut": 2794,
-   "duree": 86,
-   "audio": null,
-   "texte": "En novembre 2023, CZ plaide coupable.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "En"
+     "t": 1.148,
+     "m": "directrice"
     },
     {
-     "t": 0.19,
-     "m": "novembre"
+     "t": 1.779,
+     "m": "du"
     },
     {
-     "t": 0.76,
-     "m": "2023,"
+     "t": 1.952,
+     "m": "Louvre"
     },
     {
-     "t": 1.14,
-     "m": "CZ"
+     "t": 2.353,
+     "m": "reconnaît"
     },
     {
-     "t": 1.33,
-     "m": "plaide"
+     "t": 2.927,
+     "m": "des"
     },
     {
-     "t": 1.774,
-     "m": "coupable."
+     "t": 3.157,
+     "m": "failles"
+    },
+    {
+     "t": 3.616,
+     "m": ":"
+    },
+    {
+     "t": 3.731,
+     "m": "certaines"
+    },
+    {
+     "t": 4.305,
+     "m": "zones"
+    },
+    {
+     "t": 4.649,
+     "m": "extérieures"
+    },
+    {
+     "t": 5.338,
+     "m": "n'étaient"
+    },
+    {
+     "t": 5.912,
+     "m": "pas"
+    },
+    {
+     "t": 6.142,
+     "m": "filmées"
+    },
+    {
+     "t": 6.601,
+     "m": "par"
+    },
+    {
+     "t": 6.83,
+     "m": "les"
+    },
+    {
+     "t": 7.06,
+     "m": "caméras."
     }
    ],
    "sequence": {
     "type": "document",
     "genre": "rapport",
-    "titre": "NOVEMBRE 2023",
-    "entete": "TRIBUNAL FÉDÉRAL · SEATTLE",
+    "titre": "LES FAILLES",
+    "entete": "AUDITION AU SÉNAT",
     "lignes": [
-     "Accusé : Changpeng Zhao",
-     "Plaidoyer : coupable"
+     "Caméras extérieures : insuffisantes",
+     "Musée : failles reconnues"
     ],
     "surligne": [
-     "coupable"
+     "insuffisantes"
     ],
-    "tampon": "COUPABLE",
+    "tampon": "FAILLES",
     "tamponTop": 860
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "19",
-   "debut": 2880,
-   "duree": 167,
-   "audio": null,
-   "texte": "Binance accepte de payer quatre virgule trois milliards de dollars. Lui, cinquante millions.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Binance"
-    },
-    {
-     "t": 0.429,
-     "m": "accepte"
-    },
-    {
-     "t": 0.859,
-     "m": "de"
-    },
-    {
-     "t": 1.02,
-     "m": "payer"
-    },
-    {
-     "t": 1.342,
-     "m": "quatre"
-    },
-    {
-     "t": 1.718,
-     "m": "virgule"
-    },
-    {
-     "t": 2.147,
-     "m": "trois"
-    },
-    {
-     "t": 2.469,
-     "m": "milliards"
-    },
-    {
-     "t": 3.006,
-     "m": "de"
-    },
-    {
-     "t": 3.167,
-     "m": "dollars."
-    },
-    {
-     "t": 3.65,
-     "m": "Lui,"
-    },
-    {
-     "t": 3.918,
-     "m": "cinquante"
-    },
-    {
-     "t": 4.455,
-     "m": "millions."
-    }
-   ],
-   "sequence": {
-    "type": "etapes",
-    "etapes": [
-     {
-      "type": "compteur",
-      "titre": "L'AMENDE DE BINANCE",
-      "valeur": 4.3,
-      "decimales": 1,
-      "unite": "milliards de dollars",
-      "couleur": "rouge",
-      "poids": 1.2
-     },
-     {
-      "type": "compteur",
-      "titre": "SON AMENDE À LUI",
-      "valeur": 50,
-      "unite": "millions de dollars",
-      "couleur": "rouge",
-      "poids": 1
-     }
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "20",
-   "debut": 3047,
-   "duree": 121,
-   "audio": null,
-   "texte": "Et il doit quitter la tête de son entreprise.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Et"
-    },
-    {
-     "t": 0.229,
-     "m": "il"
-    },
-    {
-     "t": 0.458,
-     "m": "doit"
-    },
-    {
-     "t": 0.841,
-     "m": "quitter"
-    },
-    {
-     "t": 1.452,
-     "m": "la"
-    },
-    {
-     "t": 1.681,
-     "m": "tête"
-    },
-    {
-     "t": 2.063,
-     "m": "de"
-    },
-    {
-     "t": 2.292,
-     "m": "son"
-    },
-    {
-     "t": 2.598,
-     "m": "entreprise."
-    }
-   ],
-   "sequence": {
-    "type": "barre",
-    "mot": "PDG",
-    "personnage": "cz",
-    "nom": "DÉMISSION"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "21",
-   "debut": 3168,
-   "duree": 98,
-   "audio": null,
-   "texte": "Les procureurs réclament trois ans de prison.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Les"
-    },
-    {
-     "t": 0.241,
-     "m": "procureurs"
-    },
-    {
-     "t": 0.905,
-     "m": "réclament"
-    },
-    {
-     "t": 1.509,
-     "m": "trois"
-    },
-    {
-     "t": 1.871,
-     "m": "ans"
-    },
-    {
-     "t": 2.113,
-     "m": "de"
-    },
-    {
-     "t": 2.294,
-     "m": "prison."
-    }
-   ],
-   "sequence": {
-    "type": "compteur",
-    "titre": "LES PROCUREURS",
-    "valeur": 36,
-    "unite": "mois de prison demandés"
    },
    "sousTitres": true
   },
   {
    "id": "22",
-   "debut": 3266,
-   "duree": 98,
+   "debut": 3426,
+   "duree": 236,
    "audio": null,
-   "texte": "Le juge lui en donne… quatre mois.",
+   "texte": "Sur place, les voleurs ont laissé des traces : de l'ADN, sur une vitrine et sur des objets abandonnés.",
    "mots": [
     {
      "t": 0,
-     "m": "Le"
+     "m": "Sur"
     },
     {
-     "t": 0.238,
-     "m": "juge"
+     "t": 0.28,
+     "m": "place,"
     },
     {
-     "t": 0.635,
-     "m": "lui"
+     "t": 0.77,
+     "m": "les"
     },
     {
-     "t": 0.952,
-     "m": "en"
+     "t": 1.05,
+     "m": "voleurs"
     },
     {
-     "t": 1.19,
-     "m": "donne…"
+     "t": 1.609,
+     "m": "ont"
     },
     {
-     "t": 1.745,
-     "m": "quatre"
+     "t": 1.889,
+     "m": "laissé"
     },
     {
-     "t": 2.301,
-     "m": "mois."
+     "t": 2.379,
+     "m": "des"
+    },
+    {
+     "t": 2.659,
+     "m": "traces"
+    },
+    {
+     "t": 3.149,
+     "m": ":"
+    },
+    {
+     "t": 3.289,
+     "m": "de"
+    },
+    {
+     "t": 3.499,
+     "m": "l'ADN,"
+    },
+    {
+     "t": 3.989,
+     "m": "sur"
+    },
+    {
+     "t": 4.268,
+     "m": "une"
+    },
+    {
+     "t": 4.548,
+     "m": "vitrine"
+    },
+    {
+     "t": 5.108,
+     "m": "et"
+    },
+    {
+     "t": 5.318,
+     "m": "sur"
+    },
+    {
+     "t": 5.598,
+     "m": "des"
+    },
+    {
+     "t": 5.878,
+     "m": "objets"
+    },
+    {
+     "t": 6.368,
+     "m": "abandonnés."
     }
    ],
    "sequence": {
-    "type": "scene",
-    "decor": "prison",
-    "titre": "AVRIL 2024",
-    "tampon": "4 MOIS",
-    "tamponTop": 980
+    "type": "objet",
+    "dessin": "vitrine",
+    "titre": "LES TRACES",
+    "tampon": "ADN",
+    "tamponTop": 1150,
+    "tamponTaille": 110
    },
    "sousTitres": true
   },
   {
    "id": "23",
-   "debut": 3364,
-   "duree": 98,
+   "debut": 3662,
+   "duree": 248,
    "audio": null,
-   "texte": "En septembre 2024, il sort de prison.",
+   "texte": "Six jours après le casse, un premier suspect est arrêté à l'aéroport de Roissy. Il s'apprêtait à partir pour l'Algérie.",
    "mots": [
     {
      "t": 0,
-     "m": "En"
+     "m": "Six"
     },
     {
-     "t": 0.219,
-     "m": "septembre"
+     "t": 0.253,
+     "m": "jours"
     },
     {
-     "t": 0.95,
-     "m": "2024,"
+     "t": 0.631,
+     "m": "après"
     },
     {
-     "t": 1.388,
-     "m": "il"
+     "t": 1.01,
+     "m": "le"
     },
     {
-     "t": 1.608,
-     "m": "sort"
+     "t": 1.2,
+     "m": "casse,"
     },
     {
-     "t": 1.973,
+     "t": 1.642,
+     "m": "un"
+    },
+    {
+     "t": 1.831,
+     "m": "premier"
+    },
+    {
+     "t": 2.336,
+     "m": "suspect"
+    },
+    {
+     "t": 2.841,
+     "m": "est"
+    },
+    {
+     "t": 3.094,
+     "m": "arrêté"
+    },
+    {
+     "t": 3.536,
+     "m": "à"
+    },
+    {
+     "t": 3.662,
+     "m": "l'aéroport"
+    },
+    {
+     "t": 4.357,
      "m": "de"
     },
     {
-     "t": 2.192,
-     "m": "prison."
+     "t": 4.546,
+     "m": "Roissy."
+    },
+    {
+     "t": 5.051,
+     "m": "Il"
+    },
+    {
+     "t": 5.24,
+     "m": "s'apprêtait"
+    },
+    {
+     "t": 5.998,
+     "m": "à"
+    },
+    {
+     "t": 6.124,
+     "m": "partir"
+    },
+    {
+     "t": 6.566,
+     "m": "pour"
+    },
+    {
+     "t": 6.882,
+     "m": "l'Algérie."
     }
    ],
    "sequence": {
-    "type": "scene",
-    "decor": "ville",
-    "titre": "SEPTEMBRE 2024",
-    "personnages": [
+    "type": "carte_med",
+    "titre": "6 JOURS APRÈS",
+    "lieux": [
      {
-      "nom": "cz",
-      "x": 540,
-      "y": 1350,
-      "s": 360
+      "lon": 2.55,
+      "lat": 49,
+      "nom": "ROISSY",
+      "style": "cible"
+     },
+     {
+      "lon": 3.06,
+      "lat": 36.75,
+      "nom": "ALGER"
+     },
+     {
+      "lon": 3.06,
+      "lat": 36.75,
+      "style": "barre",
+      "a": 40
      }
     ],
-    "legende": "Libre",
-    "legendeTop": 420
+    "fleches": [
+     {
+      "de": [
+       2.55,
+       49
+      ],
+      "vers": [
+       3.06,
+       36.75
+      ],
+      "a": 14,
+      "couleur": "rouge",
+      "courbe": 0.2
+     }
+    ],
+    "legende": "Arrêté avant le décollage",
+    "legendeTop": 1200
    },
    "sousTitres": true
   },
   {
    "id": "24",
-   "debut": 3462,
-   "duree": 167,
+   "debut": 3910,
+   "duree": 225,
    "audio": null,
-   "texte": "Et le 23 octobre 2025, coup de théâtre : Donald Trump le gracie.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Et"
-    },
-    {
-     "t": 0.23,
-     "m": "le"
-    },
-    {
-     "t": 0.461,
-     "m": "23"
-    },
-    {
-     "t": 0.691,
-     "m": "octobre"
-    },
-    {
-     "t": 1.306,
-     "m": "2025,"
-    },
-    {
-     "t": 1.766,
-     "m": "coup"
-    },
-    {
-     "t": 2.15,
-     "m": "de"
-    },
-    {
-     "t": 2.381,
-     "m": "théâtre"
-    },
-    {
-     "t": 2.995,
-     "m": ":"
-    },
-    {
-     "t": 3.149,
-     "m": "Donald"
-    },
-    {
-     "t": 3.686,
-     "m": "Trump"
-    },
-    {
-     "t": 4.147,
-     "m": "le"
-    },
-    {
-     "t": 4.378,
-     "m": "gracie."
-    }
-   ],
-   "sequence": {
-    "type": "document",
-    "genre": "rapport",
-    "titre": "23 OCTOBRE 2025",
-    "entete": "MAISON-BLANCHE",
-    "lignes": [
-     "Grâce présidentielle",
-     "Bénéficiaire : Changpeng Zhao"
-    ],
-    "surligne": [
-     "Grâce"
-    ],
-    "tampon": "GRACIÉ",
-    "tamponTop": 860
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "25",
-   "debut": 3629,
-   "duree": 213,
-   "audio": null,
-   "texte": "Pour la Maison-Blanche, il était victime de la « guerre contre les cryptos » du gouvernement précédent.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Pour"
-    },
-    {
-     "t": 0.311,
-     "m": "la"
-    },
-    {
-     "t": 0.498,
-     "m": "Maison-Blanche,"
-    },
-    {
-     "t": 1.493,
-     "m": "il"
-    },
-    {
-     "t": 1.679,
-     "m": "était"
-    },
-    {
-     "t": 2.053,
-     "m": "victime"
-    },
-    {
-     "t": 2.55,
-     "m": "de"
-    },
-    {
-     "t": 2.737,
-     "m": "la"
-    },
-    {
-     "t": 2.923,
-     "m": "«"
-    },
-    {
-     "t": 3.048,
-     "m": "guerre"
-    },
-    {
-     "t": 3.483,
-     "m": "contre"
-    },
-    {
-     "t": 3.919,
-     "m": "les"
-    },
-    {
-     "t": 4.167,
-     "m": "cryptos"
-    },
-    {
-     "t": 4.665,
-     "m": "»"
-    },
-    {
-     "t": 4.789,
-     "m": "du"
-    },
-    {
-     "t": 4.976,
-     "m": "gouvernement"
-    },
-    {
-     "t": 5.785,
-     "m": "précédent."
-    }
-   ],
-   "sequence": {
-    "type": "secret",
-    "personnage": "aucun",
-    "texte": "« GUERRE AUX CRYPTOS »",
-    "taille": 76,
-    "sous": "La version de la Maison-Blanche"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "25b",
-   "debut": 3842,
-   "duree": 155,
-   "audio": null,
-   "texte": "Selon elle, il n'y avait « ni fraude, ni victime identifiée ».",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Selon"
-    },
-    {
-     "t": 0.44,
-     "m": "elle,"
-    },
-    {
-     "t": 0.881,
-     "m": "il"
-    },
-    {
-     "t": 1.101,
-     "m": "n'y"
-    },
-    {
-     "t": 1.394,
-     "m": "avait"
-    },
-    {
-     "t": 1.834,
-     "m": "«"
-    },
-    {
-     "t": 1.981,
-     "m": "ni"
-    },
-    {
-     "t": 2.201,
-     "m": "fraude,"
-    },
-    {
-     "t": 2.788,
-     "m": "ni"
-    },
-    {
-     "t": 3.008,
-     "m": "victime"
-    },
-    {
-     "t": 3.595,
-     "m": "identifiée"
-    },
-    {
-     "t": 4.403,
-     "m": "»."
-    }
-   ],
-   "sequence": {
-    "type": "secret",
-    "personnage": "aucun",
-    "texte": "« NI FRAUDE, NI VICTIME »",
-    "taille": 72,
-    "sous": "Selon la Maison-Blanche"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "26",
-   "debut": 3997,
-   "duree": 213,
-   "audio": null,
-   "texte": "La presse américaine, elle, rappelle les liens d'affaires entre Binance et l'entreprise crypto de la famille Trump.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "La"
-    },
-    {
-     "t": 0.167,
-     "m": "presse"
-    },
-    {
-     "t": 0.558,
-     "m": "américaine,"
-    },
-    {
-     "t": 1.227,
-     "m": "elle,"
-    },
-    {
-     "t": 1.561,
-     "m": "rappelle"
-    },
-    {
-     "t": 2.063,
-     "m": "les"
-    },
-    {
-     "t": 2.286,
-     "m": "liens"
-    },
-    {
-     "t": 2.621,
-     "m": "d'affaires"
-    },
-    {
-     "t": 3.234,
-     "m": "entre"
-    },
-    {
-     "t": 3.569,
-     "m": "Binance"
-    },
-    {
-     "t": 4.015,
-     "m": "et"
-    },
-    {
-     "t": 4.182,
-     "m": "l'entreprise"
-    },
-    {
-     "t": 4.907,
-     "m": "crypto"
-    },
-    {
-     "t": 5.298,
-     "m": "de"
-    },
-    {
-     "t": 5.465,
-     "m": "la"
-    },
-    {
-     "t": 5.632,
-     "m": "famille"
-    },
-    {
-     "t": 6.079,
-     "m": "Trump."
-    }
-   ],
-   "sequence": {
-    "type": "document",
-    "genre": "presse",
-    "titre": "LA POLÉMIQUE",
-    "journal": "PRESSE AMÉRICAINE · 2025",
-    "manchette": "Binance et la famille Trump : des liens d'affaires"
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "27",
-   "debut": 4210,
-   "duree": 179,
-   "audio": null,
-   "texte": "Un an plus tard, Binance subit le plus gros vol de l'histoire des cryptos.",
+   "texte": "Un deuxième est interpellé près de chez lui. Selon la procureure, les deux reconnaissent en partie les faits.",
    "mots": [
     {
      "t": 0,
      "m": "Un"
     },
     {
-     "t": 0.214,
-     "m": "an"
+     "t": 0.186,
+     "m": "deuxième"
     },
     {
-     "t": 0.429,
-     "m": "plus"
+     "t": 0.746,
+     "m": "est"
     },
     {
-     "t": 0.786,
-     "m": "tard,"
+     "t": 0.995,
+     "m": "interpellé"
     },
     {
-     "t": 1.215,
-     "m": "Binance"
+     "t": 1.678,
+     "m": "près"
     },
     {
-     "t": 1.787,
-     "m": "subit"
-    },
-    {
-     "t": 2.216,
-     "m": "le"
-    },
-    {
-     "t": 2.43,
-     "m": "plus"
-    },
-    {
-     "t": 2.788,
-     "m": "gros"
-    },
-    {
-     "t": 3.145,
-     "m": "vol"
-    },
-    {
-     "t": 3.431,
+     "t": 1.989,
      "m": "de"
     },
     {
-     "t": 3.646,
-     "m": "l'histoire"
+     "t": 2.176,
+     "m": "chez"
     },
     {
-     "t": 4.432,
-     "m": "des"
+     "t": 2.487,
+     "m": "lui."
     },
     {
-     "t": 4.718,
-     "m": "cryptos."
+     "t": 2.797,
+     "m": "Selon"
+    },
+    {
+     "t": 3.17,
+     "m": "la"
+    },
+    {
+     "t": 3.357,
+     "m": "procureure,"
+    },
+    {
+     "t": 4.103,
+     "m": "les"
+    },
+    {
+     "t": 4.352,
+     "m": "deux"
+    },
+    {
+     "t": 4.662,
+     "m": "reconnaissent"
+    },
+    {
+     "t": 5.533,
+     "m": "en"
+    },
+    {
+     "t": 5.719,
+     "m": "partie"
+    },
+    {
+     "t": 6.154,
+     "m": "les"
+    },
+    {
+     "t": 6.403,
+     "m": "faits."
+    }
+   ],
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LES AVEUX",
+    "entete": "PARQUET DE PARIS",
+    "lignes": [
+     "Suspects : deux hommes",
+     "Faits : reconnus en partie"
+    ],
+    "surligne": [
+     "partie"
+    ],
+    "tampon": "ARRÊTÉS",
+    "tamponTop": 860
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "25",
+   "debut": 4135,
+   "duree": 190,
+   "audio": null,
+   "texte": "En quelques semaines, quatre hommes sont mis en examen. Pour les enquêteurs, c'est le commando.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "En"
+    },
+    {
+     "t": 0.179,
+     "m": "quelques"
+    },
+    {
+     "t": 0.716,
+     "m": "semaines,"
+    },
+    {
+     "t": 1.313,
+     "m": "quatre"
+    },
+    {
+     "t": 1.731,
+     "m": "hommes"
+    },
+    {
+     "t": 2.149,
+     "m": "sont"
+    },
+    {
+     "t": 2.447,
+     "m": "mis"
+    },
+    {
+     "t": 2.686,
+     "m": "en"
+    },
+    {
+     "t": 2.865,
+     "m": "examen."
+    },
+    {
+     "t": 3.343,
+     "m": "Pour"
+    },
+    {
+     "t": 3.641,
+     "m": "les"
+    },
+    {
+     "t": 3.88,
+     "m": "enquêteurs,"
+    },
+    {
+     "t": 4.596,
+     "m": "c'est"
+    },
+    {
+     "t": 4.954,
+     "m": "le"
+    },
+    {
+     "t": 5.134,
+     "m": "commando."
+    }
+   ],
+   "sequence": {
+    "type": "suspects",
+    "titre": "LE COMMANDO ?"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "25b",
+   "debut": 4325,
+   "duree": 179,
+   "audio": null,
+   "texte": "Et la procureure prévient : ces bijoux sont invendables. Les acheter, c'est devenir receleur.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Et"
+    },
+    {
+     "t": 0.171,
+     "m": "la"
+    },
+    {
+     "t": 0.342,
+     "m": "procureure"
+    },
+    {
+     "t": 0.97,
+     "m": "prévient"
+    },
+    {
+     "t": 1.483,
+     "m": ":"
+    },
+    {
+     "t": 1.597,
+     "m": "ces"
+    },
+    {
+     "t": 1.825,
+     "m": "bijoux"
+    },
+    {
+     "t": 2.224,
+     "m": "sont"
+    },
+    {
+     "t": 2.51,
+     "m": "invendables."
+    },
+    {
+     "t": 3.251,
+     "m": "Les"
+    },
+    {
+     "t": 3.479,
+     "m": "acheter,"
+    },
+    {
+     "t": 3.992,
+     "m": "c'est"
+    },
+    {
+     "t": 4.335,
+     "m": "devenir"
+    },
+    {
+     "t": 4.791,
+     "m": "receleur."
+    }
+   ],
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "« INVENDABLES »",
+    "taille": 100,
+    "sous": "Selon la procureure de Paris"
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "26",
+   "debut": 4504,
+   "duree": 98,
+   "audio": null,
+   "texte": "Mais il manque l'essentiel : les bijoux.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Mais"
+    },
+    {
+     "t": 0.339,
+     "m": "il"
+    },
+    {
+     "t": 0.542,
+     "m": "manque"
+    },
+    {
+     "t": 1.016,
+     "m": "l'essentiel"
+    },
+    {
+     "t": 1.829,
+     "m": ":"
+    },
+    {
+     "t": 1.964,
+     "m": "les"
+    },
+    {
+     "t": 2.235,
+     "m": "bijoux."
+    }
+   ],
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "OÙ SONT LES BIJOUX ?",
+    "taille": 96
+   },
+   "sousTitres": true
+  },
+  {
+   "id": "27",
+   "debut": 4602,
+   "duree": 121,
+   "audio": null,
+   "texte": "Un an après, ils n'ont toujours pas été retrouvés.",
+   "mots": [
+    {
+     "t": 0,
+     "m": "Un"
+    },
+    {
+     "t": 0.207,
+     "m": "an"
+    },
+    {
+     "t": 0.414,
+     "m": "après,"
+    },
+    {
+     "t": 0.896,
+     "m": "ils"
+    },
+    {
+     "t": 1.172,
+     "m": "n'ont"
+    },
+    {
+     "t": 1.585,
+     "m": "toujours"
+    },
+    {
+     "t": 2.206,
+     "m": "pas"
+    },
+    {
+     "t": 2.481,
+     "m": "été"
+    },
+    {
+     "t": 2.757,
+     "m": "retrouvés."
     }
    ],
    "sequence": {
     "type": "chronologie",
-    "titre": "SON PARCOURS",
-    "hauteur": 620,
+    "titre": "UN AN APRÈS",
+    "hauteur": 560,
     "dates": [
      {
-      "an": "2017",
-      "label": "Crée Binance"
+      "an": "OCT. 2025",
+      "label": "Le casse"
      },
      {
-      "an": "2023",
-      "label": "Plaide coupable"
-     },
-     {
-      "an": "2025",
-      "label": "Gracié"
-     },
-     {
-      "an": "2026",
-      "label": "Le vol géant"
+      "an": "OCT. 2026",
+      "label": "Bijoux introuvables"
      }
     ]
    },
-   "sousTitres": false
+   "sousTitres": true
   },
   {
    "id": "28",
-   "debut": 4389,
-   "duree": 248,
+   "debut": 4723,
+   "duree": 225,
    "audio": null,
-   "texte": "CZ ne dirige plus la plateforme. Mais c'est lui qui annonce, sur les réseaux, qu'elle a sans doute été piratée.",
+   "texte": "Cachés en France ? Démontés et vendus à l'étranger ? Les pistes des enquêteurs… dans la partie 2.",
    "mots": [
     {
      "t": 0,
-     "m": "CZ"
+     "m": "Cachés"
     },
     {
-     "t": 0.203,
-     "m": "ne"
+     "t": 0.488,
+     "m": "en"
     },
     {
-     "t": 0.406,
-     "m": "dirige"
+     "t": 0.698,
+     "m": "France"
     },
     {
-     "t": 0.879,
-     "m": "plus"
+     "t": 1.186,
+     "m": "?"
     },
     {
-     "t": 1.218,
+     "t": 1.326,
+     "m": "Démontés"
+    },
+    {
+     "t": 1.954,
+     "m": "et"
+    },
+    {
+     "t": 2.163,
+     "m": "vendus"
+    },
+    {
+     "t": 2.652,
+     "m": "à"
+    },
+    {
+     "t": 2.791,
+     "m": "l'étranger"
+    },
+    {
+     "t": 3.559,
+     "m": "?"
+    },
+    {
+     "t": 3.698,
+     "m": "Les"
+    },
+    {
+     "t": 3.977,
+     "m": "pistes"
+    },
+    {
+     "t": 4.466,
+     "m": "des"
+    },
+    {
+     "t": 4.745,
+     "m": "enquêteurs…"
+    },
+    {
+     "t": 5.582,
+     "m": "dans"
+    },
+    {
+     "t": 5.931,
      "m": "la"
     },
     {
-     "t": 1.421,
-     "m": "plateforme."
+     "t": 6.14,
+     "m": "partie"
     },
     {
-     "t": 2.232,
-     "m": "Mais"
-    },
-    {
-     "t": 2.571,
-     "m": "c'est"
-    },
-    {
-     "t": 2.977,
-     "m": "lui"
-    },
-    {
-     "t": 3.247,
-     "m": "qui"
-    },
-    {
-     "t": 3.518,
-     "m": "annonce,"
-    },
-    {
-     "t": 4.127,
-     "m": "sur"
-    },
-    {
-     "t": 4.397,
-     "m": "les"
-    },
-    {
-     "t": 4.668,
-     "m": "réseaux,"
-    },
-    {
-     "t": 5.277,
-     "m": "qu'elle"
-    },
-    {
-     "t": 5.818,
-     "m": "a"
-    },
-    {
-     "t": 5.953,
-     "m": "sans"
-    },
-    {
-     "t": 6.291,
-     "m": "doute"
-    },
-    {
-     "t": 6.697,
-     "m": "été"
-    },
-    {
-     "t": 6.968,
-     "m": "piratée."
+     "t": 6.629,
+     "m": "2."
     }
    ],
    "sequence": {
-    "type": "objet",
-    "dessin": "portable",
-    "ecran": "alerte",
-    "titre": "OCTOBRE 2026",
-    "legende": "« Sans doute piratée »"
+    "type": "suite",
+    "annonce": "Partie 2 : où sont les bijoux ?",
+    "bulle": "1 = en France · 2 = à l'étranger"
    },
    "sousTitres": true
   },
   {
    "id": "29",
-   "debut": 4637,
-   "duree": 109,
+   "debut": 4948,
+   "duree": 317,
    "audio": null,
-   "texte": "Et il assure que les clients seront couverts.",
+   "texte": "Et toi, tu penses quoi ? Réponds 1 : cachés en France. Ou 2 : déjà à l'étranger. Et abonne-toi pour ne pas rater la suite.",
    "mots": [
     {
      "t": 0,
      "m": "Et"
     },
     {
-     "t": 0.205,
-     "m": "il"
+     "t": 0.239,
+     "m": "toi,"
     },
     {
-     "t": 0.41,
-     "m": "assure"
+     "t": 0.637,
+     "m": "tu"
     },
     {
-     "t": 0.889,
-     "m": "que"
+     "t": 0.876,
+     "m": "penses"
     },
     {
-     "t": 1.163,
-     "m": "les"
+     "t": 1.433,
+     "m": "quoi"
     },
     {
-     "t": 1.436,
-     "m": "clients"
-    },
-    {
-     "t": 1.983,
-     "m": "seront"
-    },
-    {
-     "t": 2.462,
-     "m": "couverts."
-    }
-   ],
-   "sequence": {
-    "type": "document",
-    "genre": "lettre",
-    "titre": "SA PROMESSE",
-    "entete": "MESSAGE DE CZ",
-    "lignes": [
-     "■",
-     "Les clients seront couverts",
-     "■"
-    ],
-    "surligne": [
-     "couverts"
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "30",
-   "debut": 4746,
-   "duree": 213,
-   "audio": null,
-   "texte": "Des burgers à la prison, puis à la grâce présidentielle… l'histoire de CZ est loin d'être terminée.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Des"
-    },
-    {
-     "t": 0.259,
-     "m": "burgers"
-    },
-    {
-     "t": 0.776,
-     "m": "à"
-    },
-    {
-     "t": 0.906,
-     "m": "la"
-    },
-    {
-     "t": 1.1,
-     "m": "prison,"
-    },
-    {
-     "t": 1.617,
-     "m": "puis"
-    },
-    {
-     "t": 1.941,
-     "m": "à"
-    },
-    {
-     "t": 2.07,
-     "m": "la"
-    },
-    {
-     "t": 2.264,
-     "m": "grâce"
-    },
-    {
-     "t": 2.652,
-     "m": "présidentielle…"
-    },
-    {
-     "t": 3.687,
-     "m": "l'histoire"
-    },
-    {
-     "t": 4.399,
-     "m": "de"
-    },
-    {
-     "t": 4.593,
-     "m": "CZ"
-    },
-    {
-     "t": 4.787,
-     "m": "est"
-    },
-    {
-     "t": 5.046,
-     "m": "loin"
-    },
-    {
-     "t": 5.369,
-     "m": "d'être"
-    },
-    {
-     "t": 5.822,
-     "m": "terminée."
-    }
-   ],
-   "sequence": {
-    "type": "fin",
-    "etiquette": [
-     "AFFAIRE Nº 9",
-     "ZHAO, Changpeng"
-    ]
-   },
-   "sousTitres": true
-  },
-  {
-   "id": "31",
-   "debut": 4959,
-   "duree": 236,
-   "audio": null,
-   "texte": "Quelle affaire veux-tu que j'ouvre la prochaine fois ? Écris-la en commentaire. Et abonne-toi pour ne rater aucun dossier.",
-   "mots": [
-    {
-     "t": 0,
-     "m": "Quelle"
-    },
-    {
-     "t": 0.41,
-     "m": "affaire"
-    },
-    {
-     "t": 0.879,
-     "m": "veux-tu"
-    },
-    {
-     "t": 1.348,
-     "m": "que"
-    },
-    {
-     "t": 1.582,
-     "m": "j'ouvre"
-    },
-    {
-     "t": 2.051,
-     "m": "la"
-    },
-    {
-     "t": 2.227,
-     "m": "prochaine"
-    },
-    {
-     "t": 2.813,
-     "m": "fois"
-    },
-    {
-     "t": 3.106,
+     "t": 1.831,
      "m": "?"
     },
     {
-     "t": 3.223,
-     "m": "Écris-la"
+     "t": 1.99,
+     "m": "Réponds"
     },
     {
-     "t": 3.75,
+     "t": 2.627,
+     "m": "1"
+    },
+    {
+     "t": 2.786,
+     "m": ":"
+    },
+    {
+     "t": 2.946,
+     "m": "cachés"
+    },
+    {
+     "t": 3.503,
      "m": "en"
     },
     {
-     "t": 3.926,
-     "m": "commentaire."
+     "t": 3.742,
+     "m": "France."
     },
     {
-     "t": 4.688,
+     "t": 4.379,
+     "m": "Ou"
+    },
+    {
+     "t": 4.617,
+     "m": "2"
+    },
+    {
+     "t": 4.777,
+     "m": ":"
+    },
+    {
+     "t": 4.936,
+     "m": "déjà"
+    },
+    {
+     "t": 5.334,
+     "m": "à"
+    },
+    {
+     "t": 5.493,
+     "m": "l'étranger."
+    },
+    {
+     "t": 6.448,
      "m": "Et"
     },
     {
-     "t": 4.864,
+     "t": 6.687,
      "m": "abonne-toi"
     },
     {
-     "t": 5.508,
+     "t": 7.563,
      "m": "pour"
     },
     {
-     "t": 5.801,
+     "t": 7.961,
      "m": "ne"
     },
     {
-     "t": 5.977,
+     "t": 8.2,
+     "m": "pas"
+    },
+    {
+     "t": 8.518,
      "m": "rater"
     },
     {
-     "t": 6.328,
-     "m": "aucun"
+     "t": 8.996,
+     "m": "la"
     },
     {
-     "t": 6.68,
-     "m": "dossier."
+     "t": 9.235,
+     "m": "suite."
     }
    ],
    "sequence": {
     "type": "cta",
-    "bulle": "✍️ Ton prochain dossier ?"
+    "bulle": "1 ou 2 ? 👇"
    },
    "sousTitres": true
   }

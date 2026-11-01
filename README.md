@@ -64,14 +64,15 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 
 | Type | Ce que ça montre | Réglages principaux |
 |---|---|---|
-| `pochette` | Dossier qui s'ouvre sur la vraie photo, zoom sur le visage | `photo`, `visage {x,y}`, `etiquette`, `legende` |
+| `accroche` | **Ouverture recommandée (depuis l'épisode 10)** : photo plein écran + gros titre jaune visibles dès la 1re image, voix dès 0 s | `photo`, `titre`, `sous`, `couleur` (photo en couleurs), `visageY`, `titreTop`, `taille` |
+| `pochette` | Ancienne ouverture : dossier qui s'ouvre sur la vraie photo (démarre lentement, déconseillée) | `photo`, `visage {x,y}`, `etiquette`, `legende` |
 | `choc` | Phrase choc en jaune sur la photo assombrie | `photo`, `visage` |
 | `generique` | Enquêteur dans l'ombre + « DOSSIERS CLASSÉS » | `sousTitre` |
 | `fiche` | Personnage + nom + infos clés | `personnage`, `nom`, `infos[]` |
 | `scene` | Décor + personnages + accessoires | `decor`, `personnages[]`, `tampon`, `legende`, `cartes`, `billets`, `corde`, `gyrophare`, `menottes` |
 | `icones` | Bulles qui apparaissent une à une | `grand`, `items[]` |
 | `carte` | Trajet en pointillés entre des lieux | `points[]`, `voyageur` (bateau, sac, avion) |
-| `objet` | La boîte à billets (apparition, billet, vue en coupe), ou un objet dessiné | `mode`, ou `dessin` (mallette, flacon, photo, enveloppe, coupon, voiture, mallette_bombe, parachutes, cravate, perceuse, accordeon, radeau, tete, joconde, cadre_vide, malle, portable (écrans : alerte, rancon, fuite, graphique)) + `legende`, `tampon` |
+| `objet` | La boîte à billets (apparition, billet, vue en coupe), ou un objet dessiné | `mode`, ou `dessin` (mallette, flacon, photo, enveloppe, coupon, voiture, mallette_bombe, parachutes, cravate, perceuse, accordeon, radeau, tete, joconde, cadre_vide, malle, vitrine (option `vide`), couronne (option `abimee`), portable (écrans : alerte, rancon, fuite, graphique)) + `legende`, `tampon` |
 | `compteur` | Horloge ou nombre qui défile | `mode`, `valeur`, `unite`, `milliers`, `taille` |
 | `chiffre` | Somme d'argent qui monte, option « × 2 » | `valeur`, `unite`, `x2`, `sous` |
 | `document` | Coupure de presse, papier à en-tête, affiche, carte de visite, lettre, rapport, télégramme, message codé, billet d'avion (`champs[]`) | `genre`, `manchette`, `entete`, `lignes[]` (« ■ » = ligne caviardée), `surligne[]`, `tampon` |
@@ -91,7 +92,9 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 | `etapes` | Plusieurs séquences dans une même phrase | `etapes[]` |
 
 **Personnages** : `lustig`, `ferrailleur`, `poisson`, `passager`, `passagere`, `capone`, `shaw`, `agent`, `policier`, `victime`, `officier`, `soldat`, `pecheur`, `sansabri`, `employee`, `ponzi`, `madoff`, `markopolos`, `ombre`, `cooper`, `detenu`, `peruggia`, `apollinaire`, `picasso`, `marchand`. Option `cravate`. Option `rot` pour incliner un personnage.
-**Décors** : `maison`, `paquebot`, `hotel`, `prison`, `consignes`, `alcatraz`, `ville`, `bureau`, `cote`, `sousmarin`, `derive`, `plage`, `tombe` (option `graver`), `banque` (option `enseigne`), `aeroport`, `cabine` (option `siege`), `piste`, `vol`, `cockpit`, `escalier`, `saut` (option `sac`), `fleuve`, `cellule` (options `perce`, `lit`), `couloir` (option `atelier`), `toit`, `baie` (option `radeau`), `salon` (options `joconde`, `vide`, `foule`), `chambre`.
+**Décors** : `maison`, `paquebot`, `hotel`, `prison`, `consignes`, `alcatraz`, `ville`, `bureau`, `cote`, `sousmarin`, `derive`, `plage`, `tombe` (option `graver`), `banque` (option `enseigne`), `aeroport`, `cabine` (option `siege`), `piste`, `vol`, `cockpit`, `escalier`, `saut` (option `sac`), `fleuve`, `cellule` (options `perce`, `lit`), `couloir` (option `atelier`), `toit`, `baie` (option `radeau`), `salon` (options `joconde`, `vide`, `foule`), `chambre`, `facade` (Louvre côté Seine ; options `camion`, `deploie`, `nacelleHaute`, `ouvriers`, `brise`, `scooters`), `galerie` (galerie d'Apollon ; options `alarme`, `vides`).
+
+**Ouverture d'un épisode (leçon des statistiques TikTok)** : la plupart des spectateurs décident à 0:01. Commencer par `accroche` (pas de générique au début), phrase 1 très courte et choc, une question ouverte dans les 10 premières secondes ; finir par une question à deux choix (« réponds 1 ou 2 »).
 
 ---
 

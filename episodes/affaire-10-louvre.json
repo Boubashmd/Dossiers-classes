@@ -1,0 +1,440 @@
+{
+ "id": "affaire-10-louvre",
+ "numero": 10,
+ "titre": "Le casse du Louvre",
+ "personnage": "Les joyaux de la Couronne",
+ "photo": {
+  "fichier": "photos/affaire-10-louvre.jpg",
+  "legende": "La couronne de l'impératrice Eugénie",
+  "credit": "Photo : couronne de l'impératrice Eugénie, Wikimedia Commons (licence libre)."
+ },
+ "publication": {
+  "accroche": "19 octobre 2025 : huit bijoux de la Couronne volés au Louvre en moins de huit minutes. Un an après, ils sont toujours introuvables. 📂 Histoire vraie (Partie 1/2)",
+  "sources": "Wikipédia (2025 Louvre heist), Brut (conférence de la procureure de Paris), Al Jazeera, AFP (via France 24 et Manila Times), OnlineKhabar.",
+  "hashtags_episode": [
+   "#louvre",
+   "#partie1"
+  ],
+  "commentaire_epingle": "📂 Partie 2 demain : où sont passés les bijoux ? Ton avis : 1 = cachés en France, 2 = déjà à l'étranger 👇"
+ },
+ "couverture": {
+  "titre": "88 MILLIONS VOLÉS EN 8 MINUTES",
+  "sous": "Affaire nº 10 · Le casse du Louvre · 1/2",
+  "couleur": true
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Huit minutes. Huit bijoux. Le Louvre dévalisé.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "photos/affaire-10-louvre.jpg",
+    "couleur": true,
+    "titre": "88 MILLIONS VOLÉS EN 8 MINUTES",
+    "sous": "Affaire nº 10 · Partie 1/2"
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Et un an plus tard… personne ne sait où ils sont.",
+   "sequence": {
+    "type": "choc",
+    "photo": "photos/affaire-10-louvre.jpg",
+    "texte": "TOUJOURS INTROUVABLES"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Dimanche 19 octobre 2025. Le Louvre, le musée le plus visité du monde, vient d'ouvrir ses portes.",
+   "sequence": {
+    "type": "scene",
+    "decor": "facade",
+    "titre": "19 OCTOBRE 2025",
+    "legende": "9 h 30",
+    "legendeTop": 420
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Côté Seine, un camion équipé d'une nacelle se gare au pied du musée.",
+   "sequence": {
+    "type": "scene",
+    "decor": "facade",
+    "camion": true,
+    "titre": "CÔTÉ SEINE"
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Autour, des hommes en gilets jaunes et orange. Comme des ouvriers.",
+   "sequence": {
+    "type": "scene",
+    "decor": "facade",
+    "camion": true,
+    "ouvriers": true,
+    "titre": "DES OUVRIERS ?"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Personne ne se méfie. Des travaux, il y en a souvent à Paris.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "PERSONNE NE SE MÉFIE",
+    "taille": 96
+   }
+  },
+  {
+   "id": "07",
+   "texte": "La nacelle se déploie… jusqu'à un balcon du premier étage.",
+   "sequence": {
+    "type": "scene",
+    "decor": "facade",
+    "deploie": true,
+    "titre": "LA NACELLE"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Deux hommes montent, le visage caché, et brisent une fenêtre.",
+   "sequence": {
+    "type": "scene",
+    "decor": "facade",
+    "nacelleHaute": true,
+    "brise": true,
+    "titre": "9 H 34"
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Derrière : la galerie d'Apollon. C'est là que sont exposés les joyaux de la Couronne de France.",
+   "sequence": {
+    "type": "scene",
+    "decor": "galerie",
+    "titre": "LA GALERIE D'APOLLON"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Les alarmes se déclenchent. Mais les voleurs vont très vite.",
+   "sequence": {
+    "type": "scene",
+    "decor": "galerie",
+    "alarme": true,
+    "titre": "ALERTE"
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Ils s'attaquent à deux vitrines…",
+   "sequence": {
+    "type": "objet",
+    "dessin": "vitrine",
+    "vide": true,
+    "titre": "DEUX VITRINES"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "… et emportent huit bijoux historiques.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LE BUTIN",
+    "valeur": 8,
+    "unite": "bijoux historiques",
+    "couleur": "rouge"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Des parures de reines et d'impératrices : Marie-Amélie, Hortense, Marie-Louise… et Eugénie, la femme de Napoléon III.",
+   "sequence": {
+    "type": "icones",
+    "titre": "LES PARURES",
+    "items": [
+     {
+      "label": "SAPHIRS",
+      "sous": "Marie-Amélie et Hortense"
+     },
+     {
+      "label": "ÉMERAUDES",
+      "sous": "Marie-Louise"
+     },
+     {
+      "label": "BROCHES",
+      "sous": "Eugénie"
+     }
+    ]
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Valeur estimée par le Louvre : quatre-vingt-huit millions d'euros.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LA VALEUR",
+    "valeur": 88,
+    "unite": "millions d'euros",
+    "couleur": "rouge",
+    "legende": "selon le Louvre"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "À 9 h 38, ils sont déjà ressortis. Ils redescendent, et filent sur deux scooters.",
+   "sequence": {
+    "type": "scene",
+    "decor": "facade",
+    "scooters": true,
+    "nacelleHaute": true,
+    "titre": "9 H 38"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Au total, l'opération a duré moins de huit minutes.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "MOINS DE 8 MINUTES",
+    "taille": 96
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Mais dans leur fuite, ils perdent quelque chose : la couronne de l'impératrice Eugénie.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "couronne",
+    "titre": "PERDUE DANS LA FUITE"
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Elle est retrouvée près du musée. Abîmée.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "couronne",
+    "abimee": true,
+    "titre": "RETROUVÉE",
+    "tampon": "ABÎMÉE",
+    "tamponTop": 520,
+    "tamponTaille": 90
+   }
+  },
+  {
+   "id": "18b",
+   "texte": "Cette couronne compte plus de mille trois cents diamants. Le Louvre va devoir la faire restaurer.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LA COURONNE",
+    "valeur": 1300,
+    "milliers": true,
+    "unite": "diamants",
+    "legende": "et plus encore"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Le casse fait le tour du monde.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "LE CASSE DU SIÈCLE",
+    "points": [
+     {
+      "lon": 2.35,
+      "lat": 48.86,
+      "nom": "PARIS"
+     }
+    ]
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Pour Emmanuel Macron, c'est une attaque contre notre histoire.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "« NOTRE HISTOIRE »",
+    "taille": 78,
+    "sous": "Selon Emmanuel Macron"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Des dizaines d'enquêteurs se lancent sur la piste du commando.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "L'ENQUÊTE",
+    "entete": "PARQUET DE PARIS",
+    "lignes": [
+     "Dossier : vol au Louvre",
+     "Statut : enquête"
+    ],
+    "tampon": "ENQUÊTE",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "21b",
+   "texte": "Devant le Sénat, la directrice du Louvre reconnaît des failles : certaines zones extérieures n'étaient pas filmées par les caméras.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LES FAILLES",
+    "entete": "AUDITION AU SÉNAT",
+    "lignes": [
+     "Caméras extérieures : insuffisantes",
+     "Musée : failles reconnues"
+    ],
+    "surligne": [
+     "insuffisantes"
+    ],
+    "tampon": "FAILLES",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Sur place, les voleurs ont laissé des traces : de l'ADN, sur une vitrine et sur des objets abandonnés.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "vitrine",
+    "titre": "LES TRACES",
+    "tampon": "ADN",
+    "tamponTop": 1150,
+    "tamponTaille": 110
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Six jours après le casse, un premier suspect est arrêté à l'aéroport de Roissy. Il s'apprêtait à partir pour l'Algérie.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "6 JOURS APRÈS",
+    "lieux": [
+     {
+      "lon": 2.55,
+      "lat": 49.0,
+      "nom": "ROISSY",
+      "style": "cible"
+     },
+     {
+      "lon": 3.06,
+      "lat": 36.75,
+      "nom": "ALGER"
+     },
+     {
+      "lon": 3.06,
+      "lat": 36.75,
+      "style": "barre",
+      "a": 40
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       2.55,
+       49.0
+      ],
+      "vers": [
+       3.06,
+       36.75
+      ],
+      "a": 14,
+      "couleur": "rouge",
+      "courbe": 0.2
+     }
+    ],
+    "legende": "Arrêté avant le décollage",
+    "legendeTop": 1200
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Un deuxième est interpellé près de chez lui. Selon la procureure, les deux reconnaissent en partie les faits.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LES AVEUX",
+    "entete": "PARQUET DE PARIS",
+    "lignes": [
+     "Suspects : deux hommes",
+     "Faits : reconnus en partie"
+    ],
+    "surligne": [
+     "partie"
+    ],
+    "tampon": "ARRÊTÉS",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "25",
+   "texte": "En quelques semaines, quatre hommes sont mis en examen. Pour les enquêteurs, c'est le commando.",
+   "sequence": {
+    "type": "suspects",
+    "titre": "LE COMMANDO ?"
+   }
+  },
+  {
+   "id": "25b",
+   "texte": "Et la procureure prévient : ces bijoux sont invendables. Les acheter, c'est devenir receleur.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "« INVENDABLES »",
+    "taille": 100,
+    "sous": "Selon la procureure de Paris"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Mais il manque l'essentiel : les bijoux.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "OÙ SONT LES BIJOUX ?",
+    "taille": 96
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Un an après, ils n'ont toujours pas été retrouvés.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "UN AN APRÈS",
+    "hauteur": 560,
+    "dates": [
+     {
+      "an": "OCT. 2025",
+      "label": "Le casse"
+     },
+     {
+      "an": "OCT. 2026",
+      "label": "Bijoux introuvables"
+     }
+    ]
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Cachés en France ? Démontés et vendus à l'étranger ? Les pistes des enquêteurs… dans la partie 2.",
+   "sequence": {
+    "type": "suite",
+    "annonce": "Partie 2 : où sont les bijoux ?",
+    "bulle": "1 = en France · 2 = à l'étranger"
+   }
+  },
+  {
+   "id": "29",
+   "texte": "Et toi, tu penses quoi ? Réponds 1 : cachés en France. Ou 2 : déjà à l'étranger. Et abonne-toi pour ne pas rater la suite.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}

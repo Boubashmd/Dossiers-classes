@@ -265,6 +265,7 @@ async function main() {
     photo: episode.couverture?.photo || episode.photo?.fichier || null,
     visage: episode.couverture?.visage || episode.photo?.visage || { x: 0, y: 0 },
     largeur: episode.couverture?.largeur || episode.photo?.largeur || 540,
+    couleur: !!episode.couverture?.couleur,
   };
   const timeline = { episode: episode.id, fps: FPS, total: debut + 15, avecVoix: !sansVoix, couverture, lignes };
   fs.mkdirSync(path.join(RACINE, "src/generated"), { recursive: true });

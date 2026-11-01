@@ -36,6 +36,7 @@ import { DECORS } from "../dessins/decors";
 import { Avion } from "../dessins/aviation";
 import { Accordeon, FausseTete, Perceuse, Radeau } from "../dessins/evasion";
 import { Joconde, Malle } from "../dessins/louvre";
+import { Couronne, Vitrine } from "../dessins/casse";
 import { Intro } from "./Generique";
 import { CarteMed } from "./CarteMed";
 import { CarteMonde, Courbe, Pyramide, Suite, Suspects } from "./Finance";
@@ -158,6 +159,70 @@ const Pochette: React.FC<SeqProps> = ({ p, dur, texte, mots }) => {
           );
         })}
       </div>
+    </AbsoluteFill>
+  );
+};
+
+// ============================================================================================
+// 1 bis. ACCROCHE — remplace la pochette (depuis l'épisode 10). Dès la toute première image :
+// photo plein écran qui avance lentement + gros titre jaune + signature de la chaîne.
+// Pas de fondu depuis le noir : celui qui fait défiler son fil doit tout voir à 0,0 s.
+// ============================================================================================
+const Accroche: React.FC<SeqProps> = ({ p, dur }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const L = p.largeurAffichage || 1500;
+  const srcW = p.srcW || 540;
+  const ech = L / srcW;
+  const zoom = 1 + 0.12 * interpolate(f, [0, dur], [0, 1], C);
+  const vis = p.visage || { x: srcW / 2, y: (p.srcH || srcW) * 0.45 };
+  const left = Math.min(0, Math.max(1080 - L, 540 - vis.x * ech));
+  const top = (p.visageY || 700) - vis.y * ech;
+  const punch = ressort(f, fps, 0, { damping: 10, stiffness: 200 });
+  const titre: string = p.titre || "";
+  const taille = p.taille || (titre.length > 30 ? 96 : titre.length > 22 ? 112 : 128);
+  return (
+    <AbsoluteFill style={{ background: NUIT_NOIRE }}>
+      <Sfx at={0} son="choc" volume={0.7} />
+      {p.photo && (
+        <AbsoluteFill style={{ transform: `scale(${zoom})`, transformOrigin: `540px ${p.visageY || 700}px` }}>
+          <Img
+            src={staticFile(p.photo)}
+            style={{
+              position: "absolute",
+              width: L,
+              left,
+              top,
+              filter: p.couleur ? "contrast(1.08) saturate(1.1) brightness(.9)" : "grayscale(1) sepia(.4) contrast(1.2) brightness(.85)",
+            }}
+          />
+        </AbsoluteFill>
+      )}
+      <AbsoluteFill
+        style={{
+          background:
+            "linear-gradient(180deg, rgba(7,14,26,.95) 0%, rgba(7,14,26,.55) 17%, rgba(7,14,26,0) 28%, rgba(7,14,26,0) 40%, rgba(7,14,26,.8) 54%, rgba(7,14,26,.96) 70%)",
+        }}
+      />
+      <div style={{ position: "absolute", top: 250, width: "100%", textAlign: "center", ...txt(40, CREME, 700, { letterSpacing: 8 }) }}>
+        DOSSIERS{" "}
+        <span style={{ border: `5px solid ${ROUGE}`, borderRadius: 10, padding: "0 14px 4px", color: ROUGE, display: "inline-block", transform: "rotate(-4deg)" }}>CLASSÉS</span>
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          top: p.titreTop || 880,
+          left: 60,
+          right: 60,
+          textAlign: "center",
+          lineHeight: 1.04,
+          transform: `scale(${1.08 - 0.08 * Math.min(1, punch)})`,
+          ...txt(taille, JAUNE, 700, { textShadow: "0 6px 30px rgba(0,0,0,.95)" }),
+        }}
+      >
+        {titre}
+      </div>
+      {p.sous && <div style={{ position: "absolute", top: p.sousTop || 340, width: "100%", textAlign: "center", ...txt(38, GRIS, 500, { letterSpacing: 4 }) }}>{p.sous}</div>}
     </AbsoluteFill>
   );
 };
@@ -471,6 +536,8 @@ const ObjetDessin: React.FC<{ p: any; dur: number; f: number; k: number }> = ({ 
             {p.empreinte && <g opacity={prog(f, 20, 12)} transform="translate(90 120)"><ellipse rx={34} ry={46} fill="none" stroke="#E6504A" strokeWidth={4} />{[12, 22, 32].map((r) => <ellipse key={r} rx={r * 0.75} ry={r} fill="none" stroke="#E6504A" strokeWidth={3} />)}</g>}
           </g>
         )}
+        {p.dessin === "vitrine" && <Vitrine x={540} y={y - 60} s={760 * (0.8 + 0.2 * s)} f={f} vide={p.vide ? prog(f, 10, Math.max(14, dur * 0.5)) : 0} pierre={p.pierre} />}
+        {p.dessin === "couronne" && <Couronne x={540} y={y + 40} s={700 * (0.8 + 0.2 * s)} f={f} abimee={p.abimee} />}
         {p.dessin === "malle" && <Malle x={540} y={y + 60} s={760} ouverte={p.ouverte ? prog(f, 10, 30) : 0} />}
         {p.dessin === "perceuse" && <Perceuse x={540} y={y} s={720 * (0.8 + 0.2 * s)} frame={f} />}
         {p.dessin === "accordeon" && <Accordeon x={540} y={y} s={640 * (0.8 + 0.2 * s)} frame={f} />}
@@ -978,6 +1045,7 @@ export const Fondu: React.FC<{ dur: number; children: React.ReactNode; entree?: 
 
 export const SEQUENCES: Record<string, React.FC<SeqProps>> = {
   pochette: Pochette,
+  accroche: Accroche,
   choc: Choc,
   generique: Generique,
   fiche: Fiche,

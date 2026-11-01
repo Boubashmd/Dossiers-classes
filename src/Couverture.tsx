@@ -2,7 +2,7 @@ import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
 import { CREME, GRIS, JAUNE, NUIT_NOIRE, Polices, ROUGE, txt } from "./theme";
 
-export type InfosCouverture = { titre: string; sous: string; photo: string | null; visage: { x: number; y: number }; largeur: number };
+export type InfosCouverture = { titre: string; sous: string; photo: string | null; visage: { x: number; y: number }; largeur: number; couleur?: boolean };
 
 /**
  * Image de couverture TikTok (1080 x 1920).
@@ -23,7 +23,7 @@ export const Couverture: React.FC<{ infos: InfosCouverture }> = ({ infos }) => {
             width: L,
             left: Math.min(0, Math.max(1080 - L, 540 - infos.visage.x * ech)), // visage au plus près du centre, sans bord visible
             top: 800 - infos.visage.y * ech,
-            filter: "grayscale(1) sepia(.4) contrast(1.2) brightness(.8)",
+            filter: infos.couleur ? "contrast(1.08) saturate(1.1) brightness(.85)" : "grayscale(1) sepia(.4) contrast(1.2) brightness(.8)",
           }}
         />
       )}
