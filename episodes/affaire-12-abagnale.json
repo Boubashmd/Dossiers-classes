@@ -1,0 +1,364 @@
+{
+ "id": "affaire-12-abagnale",
+ "numero": 12,
+ "titre": "Arrête-moi si tu peux",
+ "personnage": "Frank Abagnale",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-12-abagnale/accroche.jpg",
+  "legende": "Illustration",
+  "credit": "Illustrations générées par IA (Gemini), d'après des faits sourcés."
+ },
+ "publication": {
+  "accroche": "Faux pilote, faux médecin, faux avocat… L'histoire de Frank Abagnale a inspiré « Arrête-moi si tu peux ». Mais était-elle vraie ? 📂 Histoire vraie (Partie 1/2)",
+  "sources": "Wikipédia (Frank Abagnale), All That's Interesting, WHYY (livre d'Alan C. Logan, 2020), San Francisco Chronicle (1978).",
+  "hashtags_episode": [
+   "#arretemoisitupeux",
+   "#partie1"
+  ],
+  "commentaire_epingle": "📂 Partie 2 demain : la vérité sur Frank Abagnale. Ton avis : 1 = génie de l'arnaque, 2 = menteur 👇"
+ },
+ "couverture": {
+  "titre": "IL A TROMPÉ LE MONDE ENTIER\u00a0?",
+  "sous": "Affaire nº 12 · Frank Abagnale · 1/2",
+  "couleur": true
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Pilote, médecin, avocat… à dix-huit ans. Et tout le monde l'a cru.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-12-abagnale/accroche.jpg",
+    "couleur": true,
+    "titre": "IL A TROMPÉ LE MONDE ENTIER\u00a0?",
+    "sous": "Affaire nº 12 · Partie 1/2",
+    "sousTop": 1130,
+    "prompt": "A young airline pilot in a 1960s uniform and cap seen from behind, walking alone through a vintage airport terminal toward a large window with a jet airliner, his face not visible, long dramatic shadows"
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Son histoire a inspiré un film avec Leonardo DiCaprio. Mais était-elle vraie ?",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-12-abagnale/accroche.jpg",
+    "texte": "VRAIE… OU FAUSSE ?"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Voici l'histoire de Frank Abagnale. Telle qu'il l'a lui-même racontée.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "SA VERSION",
+    "taille": 120,
+    "sous": "Selon son livre de 1980"
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Il naît en 1948, près de New York. Sa mère est française, son père américain.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/newyork.jpg",
+    "titre": "1948",
+    "legende": "Près de New York"
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Selon son récit, ses parents se séparent quand il est adolescent. Et à seize ans, il quitte la maison.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "16 ANS",
+    "taille": 130,
+    "sous": "Il quitte la maison"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Sa spécialité : les chèques sans provision. Il en signe partout.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-12-abagnale/cheques.jpg",
+    "titre": "LES FAUX CHÈQUES",
+    "prompt": "A pile of old 1960s bank checks being signed with a fountain pen, ink stains, a rubber stamp nearby, no readable text"
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Puis il a une idée folle : devenir pilote de ligne.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-12-abagnale/uniforme.jpg",
+    "titre": "L'IDÉE FOLLE",
+    "prompt": "An airline pilot uniform jacket with golden stripes and a pilot cap hanging on a coat hanger, 1960s style, wings badge"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Il récupère un uniforme de la Pan Am, et fabrique une fausse licence de pilote.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LA PANOPLIE",
+    "entete": "PAN AM · 1965",
+    "lignes": [
+     "Uniforme : récupéré",
+     "Licence de pilote : fausse"
+    ],
+    "surligne": [
+     "fausse"
+    ]
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Il voyage alors gratuitement, assis dans les cockpits, d'un pays à l'autre.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/avion.jpg",
+    "titre": "GRATUITEMENT",
+    "zoom": [
+     1.0,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "09b",
+   "texte": "À l'époque, un pilote pouvait voyager gratuitement sur les vols d'autres compagnies. Il suffisait de porter l'uniforme.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "L'UNIFORME SUFFIT",
+    "taille": 96
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Selon lui : des centaines de vols, des dizaines de pays… avant même ses vingt ans.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "DES CENTAINES DE VOLS",
+    "taille": 84,
+    "sous": "Selon lui"
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Il raconte s'être ensuite fait passer pour un médecin, dans un hôpital de Géorgie.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-12-abagnale/hopital.jpg",
+    "titre": "FAUX MÉDECIN ?",
+    "prompt": "An empty 1960s hospital corridor with a white doctor's coat and stethoscope hanging on a hook in the foreground"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Puis pour un avocat, en Louisiane. Il affirme même avoir réussi l'examen du barreau.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/tribunal.jpg",
+    "titre": "FAUX AVOCAT ?"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Pilote, médecin, avocat, professeur… Selon lui, il a tout joué.",
+   "sequence": {
+    "type": "icones",
+    "titre": "SES RÔLES",
+    "items": [
+     {
+      "label": "PILOTE",
+      "sous": "Pan Am"
+     },
+     {
+      "label": "MÉDECIN",
+      "sous": "Géorgie"
+     },
+     {
+      "label": "AVOCAT",
+      "sous": "Louisiane"
+     },
+     {
+      "label": "PROFESSEUR",
+      "sous": "université"
+     }
+    ]
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Au total, il dit avoir encaissé deux millions et demi de dollars en faux chèques.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LE BUTIN",
+    "valeur": 2.5,
+    "decimales": 1,
+    "unite": "millions de dollars",
+    "couleur": "rouge",
+    "legende": "selon lui"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "1969. Montpellier, en France. Une hôtesse de l'air le reconnaît… et prévient la police.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "1969",
+    "lieux": [
+     {
+      "lon": 3.88,
+      "lat": 43.61,
+      "nom": "MONTPELLIER",
+      "style": "cible"
+     }
+    ],
+    "legende": "Reconnu par une hôtesse de l'air",
+    "legendeTop": 1200
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Il est arrêté.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/menottes.jpg",
+    "titre": "ARRÊTÉ"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Prison à Perpignan. Puis en Suède. Puis aux États-Unis : douze ans de prison.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "SES PRISONS",
+    "hauteur": 620,
+    "dates": [
+     {
+      "an": "1969",
+      "label": "Perpignan"
+     },
+     {
+      "an": "1970",
+      "label": "Suède"
+     },
+     {
+      "an": "1971",
+      "label": "États-Unis : 12 ans"
+     }
+    ]
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Mais il ne les fait pas. En 1974, il est libéré, à condition d'aider les autorités à traquer les fraudeurs.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/cellule.jpg",
+    "titre": "1974",
+    "tampon": "LIBÉRÉ"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Il devient expert en sécurité, et donne des conférences, jusqu'au FBI.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/banque.jpg",
+    "titre": "LA RECONVERSION",
+    "legende": "Expert anti-fraude"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "En 1980, il raconte tout dans un livre : « Arrête-moi si tu peux ».",
+   "sequence": {
+    "type": "document",
+    "genre": "affiche",
+    "titre": "1980",
+    "surtitre": "LE LIVRE",
+    "manchette": "ARRÊTE-MOI SI TU PEUX",
+    "sousAffiche": "Ses mémoires"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "En 2002, Steven Spielberg en fait un film, avec Leonardo DiCaprio et Tom Hanks.",
+   "sequence": {
+    "type": "document",
+    "genre": "affiche",
+    "titre": "2002",
+    "surtitre": "LE FILM",
+    "manchette": "ARRÊTE-MOI SI TU PEUX",
+    "sousAffiche": "Réalisé par Steven Spielberg"
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Un succès mondial. Selon Abagnale, le film est vrai à quatre-vingts pour cent.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "SELON LUI",
+    "valeur": 80,
+    "unite": "% de vrai dans le film"
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Mais des doutes existent depuis longtemps. Dès 1978, un journaliste de San Francisco ne trouve aucune trace de ses arnaques.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/journaux.jpg",
+    "titre": "1978",
+    "legende": "Aucune trace"
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Et en 2002, Abagnale reconnaît lui-même que son coauteur a dramatisé l'histoire.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "« DRAMATISÉE »",
+    "taille": 96,
+    "sous": "Selon Abagnale lui-même"
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Puis en 2020, un chercheur fouille les archives… et découvre où Frank Abagnale se trouvait vraiment pendant ces années-là.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/loupe.jpg",
+    "titre": "2020",
+    "legende": "Les archives"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Et ce n'était pas dans un cockpit. La suite… dans la partie 2.",
+   "sequence": {
+    "type": "suite",
+    "annonce": "Partie 2 : la vérité sur Frank Abagnale",
+    "bulle": "1 = génie · 2 = menteur"
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Et toi ? Réponds 1 : c'est un génie de l'arnaque. Ou 2 : c'est surtout un menteur. Et abonne-toi pour la partie 2.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}
