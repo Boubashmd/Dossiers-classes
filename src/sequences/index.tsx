@@ -228,6 +228,131 @@ const Accroche: React.FC<SeqProps> = ({ p, dur }) => {
 };
 
 // ============================================================================================
+// ILLUSTRATION (test, nov. 2026) — illustration générée (Higgsfield) en plein écran :
+// lent zoom vers un point, apparition « au trait » (balayage), étiquettes reliées par un trait.
+// p.image, p.titre, p.focus {x,y} en % de l'écran, p.zoom [début, fin], p.etiquettes [{texte, x, y, dx, dy, a}]
+// ============================================================================================
+const Illustration: React.FC<SeqProps> = ({ p, dur }) => {
+  const f = useCurrentFrame();
+  const [z0, z1] = p.zoom || [1.04, 1.16];
+  const z = interpolate(f, [0, dur], [z0, z1], C);
+  const fx = (p.focus?.x ?? 50) * 10.8;
+  const fy = (p.focus?.y ?? 42) * 19.2;
+  const balayage =
+    p.trace === false
+      ? 1
+      : interpolate(f, [0, 16], [0, 1], { ...C, easing: io });
+  const etiquettes: any[] = p.etiquettes || [];
+  return (
+    <AbsoluteFill>
+      <Sfx at={0} son="swoosh" volume={0.3} />
+      {/* L'épisode est réduit à 90 % (zone sûre, Episode.tsx) : on annule cette réduction pour l'image,
+          le voile et les étiquettes, afin que l'illustration couvre tout l'écran sans cadre visible. */}
+      <AbsoluteFill
+        style={{
+          transform: `scale(${1 / 0.9})`,
+          transformOrigin: "50% 11%",
+          background: NUIT_NOIRE,
+        }}
+      >
+        <AbsoluteFill
+          style={{
+            transform: `scale(${z})`,
+            transformOrigin: `${fx}px ${fy}px`,
+          }}
+        >
+          <Img
+            src={staticFile(p.image)}
+            style={{
+              position: "absolute",
+              inset: 0,
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              WebkitMaskImage: `linear-gradient(180deg, #000 ${balayage * 100}%, transparent ${balayage * 100 + 12}%)`,
+              maskImage: `linear-gradient(180deg, #000 ${balayage * 100}%, transparent ${balayage * 100 + 12}%)`,
+            }}
+          />
+        </AbsoluteFill>
+        {/* dégradés haut (titre) et bas (sous-titres) */}
+        <AbsoluteFill
+          style={{
+            background:
+              "linear-gradient(180deg, rgba(7,14,26,.85) 0%, rgba(7,14,26,.55) 9%, rgba(7,14,26,.3) 14%, rgba(7,14,26,0) 20%, rgba(7,14,26,0) 52%, rgba(7,14,26,.85) 66%, rgba(7,14,26,.95) 100%)",
+          }}
+        />
+        <AbsoluteFill
+          style={{
+            transform: `scale(${z})`,
+            transformOrigin: `${fx}px ${fy}px`,
+          }}
+        >
+          <svg
+            width={1080}
+            height={1920}
+            style={{ position: "absolute", inset: 0 }}
+          >
+            {etiquettes.map((e, i) => {
+              const a = e.a ?? 14 + i * 10;
+              const k = prog(f, a, 12);
+              const x = e.x * 10.8,
+                y = e.y * 19.2;
+              const x2 = x + (e.dx ?? 120) * k,
+                y2 = y + (e.dy ?? -80) * k;
+              return (
+                <g key={i} opacity={Math.min(1, k * 2)}>
+                  <circle cx={x} cy={y} r={7} fill={JAUNE} />
+                  <line
+                    x1={x}
+                    y1={y}
+                    x2={x2}
+                    y2={y2}
+                    stroke={CREME}
+                    strokeWidth={3}
+                  />
+                  <text
+                    x={x2 + ((e.dx ?? 120) >= 0 ? 12 : -12)}
+                    y={y2 + 10}
+                    textAnchor={(e.dx ?? 120) >= 0 ? "start" : "end"}
+                    fontFamily="Poppins"
+                    fontWeight={700}
+                    fontSize={34}
+                    letterSpacing={6}
+                    fill={CREME}
+                    stroke={NUIT_NOIRE}
+                    strokeWidth={8}
+                    strokeLinejoin="round"
+                    paintOrder="stroke"
+                    opacity={k}
+                  >
+                    {e.texte}
+                  </text>
+                </g>
+              );
+            })}
+          </svg>
+        </AbsoluteFill>
+      </AbsoluteFill>
+      {p.titre ? (
+        <div
+          style={{
+            position: "absolute",
+            top: 210,
+            width: "100%",
+            textAlign: "center",
+            opacity: prog(f, 0, 10),
+            ...txt(38, CREME, 600, { letterSpacing: 10 }),
+            textShadow: `0 0 18px ${NUIT_NOIRE}, 0 0 8px ${NUIT_NOIRE}, 0 2px 4px ${NUIT_NOIRE}`,
+          }}
+        >
+          {p.titre}
+        </div>
+      ) : null}
+    </AbsoluteFill>
+  );
+};
+
+// ============================================================================================
 // 2. CHOC — phrase choc en jaune sur la photo assombrie, puis éclair.
 // ============================================================================================
 const Choc: React.FC<SeqProps> = ({ p, dur, texte }) => {
@@ -1046,6 +1171,7 @@ export const Fondu: React.FC<{ dur: number; children: React.ReactNode; entree?: 
 export const SEQUENCES: Record<string, React.FC<SeqProps>> = {
   pochette: Pochette,
   accroche: Accroche,
+  illustration: Illustration,
   choc: Choc,
   generique: Generique,
   fiche: Fiche,

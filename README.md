@@ -64,6 +64,7 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 
 | Type | Ce que ça montre | Réglages principaux |
 |---|---|---|
+| `illustration` | Illustration générée (Gemini) en plein écran : apparition au trait, zoom lent, étiquettes reliées par un trait | `image`, `prompt`, `titre`, `focus`, `zoom`, `etiquettes` |
 | `accroche` | **Ouverture recommandée (depuis l'épisode 10)** : photo plein écran + gros titre jaune visibles dès la 1re image, voix dès 0 s | `photo`, `titre`, `sous`, `couleur` (photo en couleurs), `visageY`, `titreTop`, `taille` |
 | `pochette` | Ancienne ouverture : dossier qui s'ouvre sur la vraie photo (démarre lentement, déconseillée) | `photo`, `visage {x,y}`, `etiquette`, `legende` |
 | `choc` | Phrase choc en jaune sur la photo assombrie | `photo`, `visage` |
@@ -126,3 +127,7 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 
 ### Photo d'archive : taille automatique
 Si `srcW`, `srcH` ou `visage` ne sont pas indiqués, `preparer.mjs` lit la taille de la photo et place le visage au centre.
+
+
+## Illustrations
+`node scripts/generer-illustrations.mjs episodes/<id>.json` génère les images des séquences qui ont un `prompt` (clé `GEMINI_API_KEY`). Bibliothèque commune : `node scripts/generer-illustrations.mjs bibliotheque/commune.json` → `public/illustrations/commun/`.

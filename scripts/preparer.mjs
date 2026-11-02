@@ -13,9 +13,10 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import crypto from "node:crypto";
 
-const RACINE = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
+const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."); // gère espaces et accents du chemin
 const API = "https://api.elevenlabs.io";
 const FPS = 30;
 

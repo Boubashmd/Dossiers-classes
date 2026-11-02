@@ -1,0 +1,278 @@
+{
+ "id": "bibliotheque-commune",
+ "titre": "Bibliothèque d'illustrations communes",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "lignes": [
+  {
+   "id": "tribunal",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/tribunal.jpg",
+    "prompt": "An empty French courtroom: judge's bench, wooden benches, high windows, scales of justice emblem"
+   }
+  },
+  {
+   "id": "marteau",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/marteau.jpg",
+    "prompt": "A judge's gavel resting on a sound block, close-up"
+   }
+  },
+  {
+   "id": "cellule",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/cellule.jpg",
+    "prompt": "A small empty prison cell with a narrow bed and a barred window, light falling through the bars"
+   }
+  },
+  {
+   "id": "barreaux",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/barreaux.jpg",
+    "prompt": "Close-up of prison bars with a heavy lock, seen from inside"
+   }
+  },
+  {
+   "id": "menottes",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/menottes.jpg",
+    "prompt": "A pair of handcuffs lying open on a table"
+   }
+  },
+  {
+   "id": "police",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/police.jpg",
+    "prompt": "A police car at night on a wet street, rotating light glowing, no people"
+   }
+  },
+  {
+   "id": "interrogatoire",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/interrogatoire.jpg",
+    "prompt": "An interrogation room: metal table, two chairs, a single hanging lamp, one-way mirror"
+   }
+  },
+  {
+   "id": "commissariat",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/commissariat.jpg",
+    "prompt": "The facade of a police station at night, lit entrance, empty street"
+   }
+  },
+  {
+   "id": "loupe",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/loupe.jpg",
+    "prompt": "A magnifying glass over a typed document with redacted lines"
+   }
+  },
+  {
+   "id": "dossier",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/dossier.jpg",
+    "prompt": "A closed cardboard case file with a red 'CLASSIFIED' style stamp shape (no readable text), paper clip, on a desk"
+   }
+  },
+  {
+   "id": "billets",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/billets.jpg",
+    "prompt": "Stacks of banknotes bound with paper bands, piled high"
+   }
+  },
+  {
+   "id": "lingots",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/lingots.jpg",
+    "prompt": "Stacked gold bars glowing softly"
+   }
+  },
+  {
+   "id": "coffre",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/coffre.jpg",
+    "prompt": "A heavy bank vault door half open, revealing shelves inside"
+   }
+  },
+  {
+   "id": "hacker",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/hacker.jpg",
+    "prompt": "A hooded figure seen from behind facing several glowing computer screens with code, dark room, face not visible"
+   }
+  },
+  {
+   "id": "ecoute",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/ecoute.jpg",
+    "prompt": "An old telephone with a wiretap device and headphones on a desk"
+   }
+  },
+  {
+   "id": "camera",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/camera.jpg",
+    "prompt": "A surveillance camera mounted on a wall corner, pointing down"
+   }
+  },
+  {
+   "id": "avion",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/avion.jpg",
+    "prompt": "A jet airliner flying above clouds, side view"
+   }
+  },
+  {
+   "id": "aeroport",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/aeroport.jpg",
+    "prompt": "An airport departure hall with large windows and a plane outside, few faceless silhouettes"
+   }
+  },
+  {
+   "id": "mappemonde",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/mappemonde.jpg",
+    "prompt": "An antique world map globe on a stand"
+   }
+  },
+  {
+   "id": "paris",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/paris.jpg",
+    "prompt": "The Paris skyline at night with the Eiffel Tower, seen from the Seine"
+   }
+  },
+  {
+   "id": "newyork",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/newyork.jpg",
+    "prompt": "The New York skyline at night with skyscrapers"
+   }
+  },
+  {
+   "id": "bourse",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/bourse.jpg",
+    "prompt": "Stock market screens showing falling charts, trading floor"
+   }
+  },
+  {
+   "id": "journaux",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/journaux.jpg",
+    "prompt": "A pile of newspapers with large blurred headlines (no readable text)"
+   }
+  },
+  {
+   "id": "ombre",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/ombre.jpg",
+    "prompt": "A mysterious man in a trench coat and fedora seen from behind under a street lamp, face hidden"
+   }
+  },
+  {
+   "id": "journalistes",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/journalistes.jpg",
+    "prompt": "A crowd of press photographers with cameras and flashes, silhouettes seen from behind"
+   }
+  },
+  {
+   "id": "banque",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/banque.jpg",
+    "prompt": "The grand stone facade of a classic bank building with columns"
+   }
+  },
+  {
+   "id": "diamants",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/diamants.jpg",
+    "prompt": "A scatter of cut diamonds sparkling on dark velvet"
+   }
+  },
+  {
+   "id": "enveloppe",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/enveloppe.jpg",
+    "prompt": "A sealed envelope with a red wax seal"
+   }
+  },
+  {
+   "id": "horloge",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/horloge.jpg",
+    "prompt": "An old wall clock, hands near midnight"
+   }
+  },
+  {
+   "id": "empreinte",
+   "texte": "",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/empreinte.jpg",
+    "prompt": "A large fingerprint being examined under a magnifying lens"
+   }
+  }
+ ]
+}
