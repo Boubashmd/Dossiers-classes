@@ -21,7 +21,7 @@ Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais touc
 - **Bibliothèque commune** à réutiliser avant de générer quoi que ce soit : `public/illustrations/commun/<nom>.jpg` (JPG qualité 85 pour alléger le dépôt ; image de style : `reference.jpg`) (liste et prompts dans `bibliotheque/commune.json`) :
   tribunal, marteau, cellule, barreaux, menottes, police, interrogatoire, commissariat, loupe, dossier, billets, lingots, coffre, hacker, ecoute, camera, avion, aeroport, mappemonde, paris, newyork, bourse, journaux, ombre, journalistes, banque, diamants, enveloppe, horloge, empreinte.
 - Style imposé (champ `style` du JSON) + image de référence (`reference`) pour garder le même rendu. Jamais de visage reconnaissable, jamais de rendu photo.
-- Séquence `illustration` : `image`, `titre`, `focus {x,y}` (%), `zoom [début, fin]`, `etiquettes [{texte, x, y, dx, dy}]` (x, y en % de l'écran) : vérifier visuellement leur position sur l'image.
+- Séquence `illustration` : `image`, `titre`, `focus {x,y}` (%), `zoom [début, fin]`, `etiquettes [{texte, x, y, dx, dy}]` (x, y en % de l'écran) : vérifier visuellement leur position sur l'image. Options : `legende`, `heure` (effet vidéosurveillance, ex. « 19/10/2025 10:27 »), `tampon`.
 
 ## Format d'un épisode (`episodes/<id>.json`)
 - Une ligne = une phrase lue + une séquence animée (`src/sequences/index.tsx`, liste dans `README.md`).

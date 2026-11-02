@@ -231,9 +231,14 @@ const Accroche: React.FC<SeqProps> = ({ p, dur }) => {
 // ILLUSTRATION (test, nov. 2026) — illustration générée (Higgsfield) en plein écran :
 // lent zoom vers un point, apparition « au trait » (balayage), étiquettes reliées par un trait.
 // p.image, p.titre, p.focus {x,y} en % de l'écran, p.zoom [début, fin], p.etiquettes [{texte, x, y, dx, dy, a}]
+// options : p.legende (texte crème sous le titre), p.heure (effet vidéosurveillance, + heureTop), p.tampon (+ tamponA, tamponTop, tamponTaille)
 // ============================================================================================
 const Illustration: React.FC<SeqProps> = ({ p, dur }) => {
   const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const tamponA = p.tamponA ?? Math.round(dur * 0.45);
+  // horodatage vidéosurveillance : p.heure (« 19/10/2025 10:27 ») + secondes qui défilent
+  const secondes = String(Math.floor(f / fps) % 60).padStart(2, "0");
   const [z0, z1] = p.zoom || [1.04, 1.16];
   const z = interpolate(f, [0, dur], [z0, z1], C);
   const fx = (p.focus?.x ?? 50) * 10.8;
@@ -332,6 +337,15 @@ const Illustration: React.FC<SeqProps> = ({ p, dur }) => {
             })}
           </svg>
         </AbsoluteFill>
+        {p.heure && (
+          // vidéosurveillance : fines lignes de balayage + léger voile froid
+          <AbsoluteFill
+            style={{
+              background:
+                "repeating-linear-gradient(180deg, rgba(0,0,0,.22) 0px, rgba(0,0,0,.22) 2px, transparent 2px, transparent 6px), rgba(40,70,80,.12)",
+            }}
+          />
+        )}
       </AbsoluteFill>
       {p.titre ? (
         <div
@@ -348,6 +362,68 @@ const Illustration: React.FC<SeqProps> = ({ p, dur }) => {
           {p.titre}
         </div>
       ) : null}
+      {p.legende && (
+        // légende : texte crème sous le titre
+        <div
+          style={{
+            position: "absolute",
+            top: p.legendeTop || 275,
+            left: 60,
+            right: 60,
+            textAlign: "center",
+            opacity: prog(f, 12, 12),
+            ...txt(54, CREME, 700),
+            textShadow: `0 0 20px ${NUIT_NOIRE}, 0 0 8px ${NUIT_NOIRE}, 0 3px 6px ${NUIT_NOIRE}`,
+          }}
+        >
+          {p.legende}
+        </div>
+      )}
+      {p.heure && (
+        // vidéosurveillance : point rouge REC qui clignote + horodatage en bas à gauche de l'image
+        // (comme un vrai écran de caméra ; le haut à gauche est occupé par les boutons TikTok)
+        <div
+          style={{
+            position: "absolute",
+            top: p.heureTop || 1140,
+            left: 60,
+            display: "flex",
+            alignItems: "center",
+            gap: 14,
+            fontFamily: "monospace",
+            fontSize: 32,
+            fontWeight: 700,
+            color: CREME,
+            textShadow: `0 0 8px ${NUIT_NOIRE}, 0 2px 4px ${NUIT_NOIRE}`,
+          }}
+        >
+          <div
+            style={{
+              width: 22,
+              height: 22,
+              borderRadius: 11,
+              background: ROUGE,
+              opacity: Math.floor(f / 15) % 2 === 0 ? 1 : 0.15,
+              boxShadow: `0 0 12px ${ROUGE}`,
+            }}
+          />
+          <span style={{ color: ROUGE }}>REC</span>
+          <span>
+            {p.heure}:{secondes}
+          </span>
+        </div>
+      )}
+      {p.tampon && (
+        <>
+          <Sfx at={tamponA} son="tampon" volume={0.7} />
+          <Tampon
+            texte={p.tampon}
+            k={ressort(f, fps, tamponA, { damping: 9, stiffness: 230 })}
+            top={p.tamponTop || 640}
+            size={p.tamponTaille || 120}
+          />
+        </>
+      )}
     </AbsoluteFill>
   );
 };

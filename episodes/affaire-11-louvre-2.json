@@ -4,9 +4,9 @@
  "titre": "Où sont les bijoux du Louvre ?",
  "personnage": "Les joyaux de la Couronne",
  "photo": {
-  "fichier": "photos/affaire-11-louvre-2.jpg",
-  "legende": "La galerie d'Apollon, au Louvre",
-  "credit": "Photo : galerie d'Apollon (Louvre), Wikimedia Commons (licence libre)."
+  "fichier": "illustrations/affaire-11-louvre-2/accroche.jpg",
+  "legende": "Illustration",
+  "credit": "Illustrations générées par IA (Gemini), d'après des faits sourcés."
  },
  "publication": {
   "accroche": "Une dernière vidéo dans un parking d'Aubervilliers… puis plus rien. Un an après le casse du Louvre, où sont passés les joyaux de la Couronne ? 📂 Histoire vraie (Partie 2/2)",
@@ -28,10 +28,11 @@
    "texte": "Huit bijoux. Une dernière vidéo. Puis plus rien.",
    "sequence": {
     "type": "accroche",
-    "photo": "photos/affaire-11-louvre-2.jpg",
+    "photo": "illustrations/affaire-11-louvre-2/accroche.jpg",
     "couleur": true,
     "titre": "OÙ SONT LES BIJOUX DU LOUVRE ?",
-    "sous": "Affaire nº 11 · Partie 2/2"
+    "sous": "Affaire nº 11 · Partie 2/2",
+    "prompt": "A dark underground parking garage at night, rows of closed metal storage boxes, a surveillance camera on the ceiling, and on the concrete floor a single royal tiara glowing with a soft golden light, mysterious atmosphere"
    }
   },
   {
@@ -39,7 +40,7 @@
    "texte": "Un an après le casse, la piste s'arrête… dans un parking.",
    "sequence": {
     "type": "choc",
-    "photo": "photos/affaire-11-louvre-2.jpg",
+    "photo": "illustrations/affaire-11-louvre-2/accroche.jpg",
     "texte": "LA DERNIÈRE TRACE"
    }
   },
@@ -47,10 +48,14 @@
    "id": "03",
    "texte": "Dans l'épisode précédent : huit bijoux de la Couronne volés au Louvre, en moins de huit minutes.",
    "sequence": {
-    "type": "objet",
-    "dessin": "vitrine",
-    "vide": true,
-    "titre": "ÉPISODE PRÉCÉDENT"
+    "type": "illustration",
+    "image": "illustrations/affaire-11-louvre-2/vitrine.jpg",
+    "titre": "ÉPISODE PRÉCÉDENT",
+    "prompt": "A museum glass display case on a pedestal holding a royal sapphire tiara and a matching necklace, the glass slightly cracked.",
+    "focus": {
+     "x": 45,
+     "y": 38
+    }
    }
   },
   {
@@ -76,44 +81,68 @@
    "id": "06",
    "texte": "Un parking souterrain d'Aubervilliers, au nord de Paris. C'est là que vivent les suspects.",
    "sequence": {
-    "type": "scene",
-    "decor": "parking",
-    "titre": "AUBERVILLIERS"
+    "type": "illustration",
+    "image": "illustrations/affaire-11-louvre-2/parking.jpg",
+    "titre": "AUBERVILLIERS",
+    "focus": {
+     "x": 55,
+     "y": 48
+    },
+    "prompt": "An underground parking garage with closed metal storage box doors, two motorcycles parked, a surveillance camera mounted on the ceiling corner, no people"
    }
   },
   {
    "id": "07",
    "texte": "Une caméra de surveillance filme deux hommes casqués qui descendent de moto.",
    "sequence": {
-    "type": "scene",
-    "decor": "parking",
-    "motos": true,
+    "type": "illustration",
+    "image": "illustrations/affaire-11-louvre-2/parking.jpg",
+    "titre": "VIDÉOSURVEILLANCE",
     "heure": "19/10/2025 10:27",
-    "titre": "VIDÉOSURVEILLANCE"
+    "zoom": [
+     1,
+     1.1
+    ],
+    "focus": {
+     "x": 60,
+     "y": 45
+    }
    }
   },
   {
    "id": "08",
    "texte": "Ils sortent les bijoux… et les admirent, juste sous la caméra.",
    "sequence": {
-    "type": "scene",
-    "decor": "parking",
-    "motos": true,
-    "bijoux": true,
+    "type": "illustration",
+    "image": "illustrations/affaire-11-louvre-2/parking.jpg",
+    "titre": "LE BUTIN",
     "heure": "19/10/2025 10:28",
-    "titre": "LE BUTIN"
+    "zoom": [
+     1.08,
+     1.18
+    ],
+    "focus": {
+     "x": 62,
+     "y": 8
+    }
    }
   },
   {
    "id": "08b",
    "texte": "Selon Le Monde, l'un d'eux reconnaît même que la couronne d'Eugénie est tombée de son sac pendant la fuite.",
    "sequence": {
-    "type": "objet",
-    "dessin": "couronne",
-    "abimee": true,
+    "type": "illustration",
+    "image": "illustrations/affaire-11-louvre-2/couronne.jpg",
     "titre": "LA COURONNE",
-    "legende": "Tombée du sac",
-    "legendeTop": 420
+    "prompt": "The imperial crown of Empress Eugenie (French Second Empire): gold arches topped by small eagles, a small globe and cross on top, a band set with emeralds and diamonds, floating and softly glowing.",
+    "focus": {
+     "x": 50,
+     "y": 20
+    },
+    "zoom": [
+     1,
+     1.06
+    ]
    }
   },
   {
@@ -130,12 +159,19 @@
    "id": "10",
    "texte": "Quand les policiers arrivent, il n'y a plus rien. Ni les bijoux, ni les véhicules de la fuite.",
    "sequence": {
-    "type": "scene",
-    "decor": "parking",
-    "vide": true,
+    "type": "illustration",
+    "image": "illustrations/affaire-11-louvre-2/parking-vide.jpg",
     "titre": "TROP TARD",
     "tampon": "VIDE",
-    "tamponTop": 900
+    "zoom": [
+     1,
+     1.08
+    ],
+    "focus": {
+     "x": 50,
+     "y": 40
+    },
+    "prompt": "An underground parking garage with closed metal storage box doors, completely empty: no vehicles, no motorcycles, no people, a surveillance camera on the ceiling, cold fluorescent light, long perspective"
    }
   },
   {
@@ -174,30 +210,28 @@
    "id": "13",
    "texte": "Piste numéro un : les bijoux n'ont jamais quitté la région parisienne. Cachés, en attendant que l'affaire se calme.",
    "sequence": {
-    "type": "scene",
-    "decor": "ville",
+    "type": "illustration",
+    "image": "illustrations/commun/paris.jpg",
     "titre": "PISTE Nº 1",
     "legende": "Toujours près de Paris ?",
-    "legendeTop": 420
+    "focus": {
+     "x": 50,
+     "y": 30
+    }
    }
   },
   {
    "id": "14",
    "texte": "Piste numéro deux : un commanditaire.",
    "sequence": {
-    "type": "scene",
-    "decor": "ville",
+    "type": "illustration",
+    "image": "illustrations/commun/ombre.jpg",
     "titre": "PISTE Nº 2",
-    "personnages": [
-     {
-      "nom": "ombre",
-      "x": 540,
-      "y": 1350,
-      "s": 460
-     }
-    ],
     "legende": "Un commanditaire ?",
-    "legendeTop": 420
+    "focus": {
+     "x": 52,
+     "y": 38
+    }
    }
   },
   {
@@ -244,10 +278,14 @@
    "id": "18",
    "texte": "Piste numéro trois : les bijoux ont été démontés.",
    "sequence": {
-    "type": "objet",
-    "dessin": "vitrine",
-    "vide": true,
-    "titre": "PISTE Nº 3"
+    "type": "illustration",
+    "image": "illustrations/commun/diamants.jpg",
+    "titre": "PISTE Nº 3",
+    "legende": "Démontés ?",
+    "focus": {
+     "x": 50,
+     "y": 32
+    }
    }
   },
   {
@@ -323,10 +361,18 @@
    "id": "22",
    "texte": "Et au Louvre ? Le casse a révélé de graves failles de sécurité.",
    "sequence": {
-    "type": "scene",
-    "decor": "facade",
-    "brise": true,
-    "titre": "AU LOUVRE"
+    "type": "illustration",
+    "image": "illustrations/affaire-11-louvre-2/galerie.jpg",
+    "titre": "AU LOUVRE",
+    "prompt": "Interior of the Galerie d'Apollon at the Louvre: a long gallery with a richly gilded vaulted ceiling and painted panels, glass display cases in the center, no people.",
+    "focus": {
+     "x": 50,
+     "y": 30
+    },
+    "zoom": [
+     1.18,
+     1.3
+    ]
    }
   },
   {
@@ -363,10 +409,14 @@
    "id": "25",
    "texte": "La couronne d'Eugénie, elle, est en cours de restauration.",
    "sequence": {
-    "type": "objet",
-    "dessin": "couronne",
-    "abimee": true,
-    "titre": "EN RESTAURATION"
+    "type": "illustration",
+    "image": "illustrations/affaire-11-louvre-2/restauration.jpg",
+    "titre": "EN RESTAURATION",
+    "prompt": "A slightly damaged imperial gold crown with emeralds resting on a restorer's workbench, fine tools, magnifying lamp, soft light",
+    "focus": {
+     "x": 50,
+     "y": 40
+    }
    }
   },
   {
@@ -393,10 +443,13 @@
    "id": "26b",
    "texte": "Et aucune date de procès n'a encore été annoncée.",
    "sequence": {
-    "type": "secret",
-    "personnage": "aucun",
-    "texte": "PROCÈS : DATE INCONNUE",
-    "taille": 80
+    "type": "illustration",
+    "image": "illustrations/commun/tribunal.jpg",
+    "titre": "PROCÈS : DATE INCONNUE",
+    "focus": {
+     "x": 50,
+     "y": 30
+    }
    }
   },
   {
@@ -430,5 +483,7 @@
     "bulle": "1 ou 2 ? 👇"
    }
   }
- ]
+ ],
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg"
 }
