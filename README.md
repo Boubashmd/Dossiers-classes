@@ -131,3 +131,29 @@ Si `srcW`, `srcH` ou `visage` ne sont pas indiqués, `preparer.mjs` lit la taill
 
 ## Illustrations
 `node scripts/generer-illustrations.mjs episodes/<id>.json` génère les images des séquences qui ont un `prompt` (clé `GEMINI_API_KEY`). Bibliothèque commune : `node scripts/generer-illustrations.mjs bibliotheque/commune.json` → `public/illustrations/commun/`.
+
+## API publiques
+
+On pioche les API dans le catalogue [public-apis](https://github.com/public-apis/public-apis#index) (milliers d'API gratuites, classées par thème). Beaucoup de lignes sont anciennes : une API listée peut être morte, devenue payante ou avoir changé d'adresse.
+
+### Règles avant d'en brancher une
+
+1. **Tester d'abord à la main** avec la commande `curl` du tableau. Résultat attendu : du texte JSON ou XML, pas une erreur ni une page vide.
+2. **Lire la licence** : « données gratuites » ne veut pas dire « réutilisables sur une chaîne ». Images et sons : seulement domaine public, CC0, CC BY (avec crédit) ; jamais « NC » (non commercial) dès qu'une chaîne peut être monétisée.
+3. **Clé éventuelle** : dans les secrets GitHub du dépôt et le `.env` du Mac, jamais dans le code ni dans la conversation.
+4. **Toujours un repli** : si l'API ne répond pas, la fabrication continue sans elle (pas d'échec à cause d'un bonus).
+5. **Citer la source** quand on montre une donnée ou une image.
+6. Noter ici chaque API ajoutée, avec sa date et son état (`à brancher`, `branchée`, `abandonnée`).
+
+### API retenues pour Dossiers Classés (06/11/2026, toutes « à brancher »)
+
+| API | Clé | Sert à | Test |
+|---|---|---|---|
+| **Wikidata** (données CC0) | non | Dates, lieux et identités vérifiables pour croiser les 2 sources de chaque fait | `curl -s -A "DossiersClasses/1.0" "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Victor%20Lustig&language=fr&format=json"` |
+| **Wikimedia Commons** | non | Vraies photos d'archive libres (domaine public, CC0, CC BY) pour l'accroche, avec l'auteur et la licence pour le crédit | `curl -s -A "DossiersClasses/1.0" "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=Alcatraz%201962&srnamespace=6&srlimit=1&format=json"` |
+| **Gallica** (BnF) | non | Journaux français d'époque pour les affaires françaises (collier de la reine, Joconde 1911…) : **sources** et lecture. Attention : réutiliser une image Gallica sur une chaîne monétisée demande une licence BnF, donc on s'en sert pour vérifier, pas pour illustrer | `curl -s "https://gallica.bnf.fr/SRU?operation=searchRetrieve&version=1.2&query=gallica%20all%20%22Lustig%22&maximumRecords=1" \| head -c 400` |
+| **Library of Congress** (Chronicling America) | non | Journaux américains anciens (Ponzi, Cooper, Alcatraz) : sources et pages souvent du domaine public | `curl -s "https://www.loc.gov/collections/chronicling-america/?q=Ponzi&fo=json&c=1" \| head -c 400` |
+| **Europeana** | gratuite ([demande ici](https://pro.europeana.eu/page/get-api)) | Archives européennes (Mata Hari, Garbo) ; toujours filtrer `reusability=open` | `curl -s "https://api.europeana.eu/record/v2/search.json?wskey=$EUROPEANA_API_KEY&query=Mata%20Hari&reusability=open&rows=1"` |
+
+Si on branche Europeana : secret `EUROPEANA_API_KEY` à ajouter sur https://github.com/Boubashmd/dossiers-classes/settings/secrets/actions.
+Rappel : une photo réelle ne montre jamais de scène macabre, et les règles TikTok de la fiche (mots sensibles, suspects non jugés) s'appliquent aussi aux images trouvées.
