@@ -1,0 +1,410 @@
+{
+ "id": "affaire-15-cinq-affaires",
+ "numero": 15,
+ "titre": "5 affaires qui semblent inventées mais sont vraies",
+ "personnage": "Spécial",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/commun/dossier.jpg",
+  "legende": "Illustration",
+  "credit": "Illustrations générées par IA (Gemini), d'après des faits sourcés."
+ },
+ "publication": {
+  "accroche": "5 affaires qui semblent inventées mais sont vraies : la tour Eiffel vendue par Victor Lustig, le cadavre qui a trompé Hitler, la Joconde volée (et Picasso interrogé), la banque du Bangladesh trahie par une faute d'orthographe, et Binance piratée par un faux entretien d'embauche. 📌 Enregistre-la pour ta prochaine soirée.",
+  "sources": "Wikipédia, Smithsonian (Lustig) ; Imperial War Museums, Wikipédia (Mincemeat) ; Wikipédia, Smithsonian (Joconde) ; Fortune, Reuters via Stabroek News (Bangladesh) ; AFP, The Register, Fortune (Binance).",
+  "hashtags_episode": [
+   "#toureiffel",
+   "#joconde"
+  ],
+  "commentaire_epingle": "📌 Enregistre-la pour ta prochaine soirée. La plus folle : 1 = la tour Eiffel, 2 = Binance ? 👇 Chaque dossier complet est sur le profil."
+ },
+ "couverture": {
+  "titre": "5 AFFAIRES QUI SEMBLENT INVENTÉES… MAIS SONT VRAIES",
+  "sous": "Tour Eiffel · Hitler · Joconde · Binance",
+  "couleur": true
+ },
+ "carrousel": [
+  {
+   "image": "illustrations/commun/dossier.jpg",
+   "grand": "5 AFFAIRES QUI SEMBLENT INVENTÉES",
+   "petit": "… mais sont 100 % vraies 👉"
+  },
+  {
+   "image": "illustrations/commun/paris.jpg",
+   "numero": "Nº 1",
+   "grand": "IL A VENDU LA TOUR EIFFEL",
+   "petit": "Paris, 1925. L'escroc Victor Lustig se fait passer pour un fonctionnaire et vend la tour à un ferrailleur. Puis il tente de recommencer."
+  },
+  {
+   "image": "illustrations/commun/enveloppe.jpg",
+   "numero": "Nº 2",
+   "grand": "UN CADAVRE A TROMPÉ HITLER",
+   "petit": "1943. Les Britanniques déguisent un mort en officier avec de faux plans. Hitler y croit… les Alliés débarquent en Sicile."
+  },
+  {
+   "image": "illustrations/affaire-11-louvre-2/galerie.jpg",
+   "numero": "Nº 3",
+   "grand": "LA JOCONDE VOLÉE",
+   "petit": "1911. Elle disparaît du Louvre plus de deux ans. Picasso est interrogé. Le voleur la cachait dans sa chambre."
+  },
+  {
+   "image": "illustrations/commun/banque.jpg",
+   "numero": "Nº 4",
+   "grand": "TRAHIS PAR UNE FAUTE D'ORTHOGRAPHE",
+   "petit": "2016. Des pirates visent près d'un milliard à la banque du Bangladesh. Un « fandation » mal écrit bloque 20 millions."
+  },
+  {
+   "image": "illustrations/affaire-14-binance-enquete/entretien.jpg",
+   "numero": "Nº 5",
+   "grand": "6 MILLIARDS VOLÉS GRÂCE À UN FAUX ENTRETIEN",
+   "petit": "2026. Un ingénieur de Binance télécharge un test d'embauche piégé. Le FBI accuse la Corée du Nord, qui dément."
+  },
+  {
+   "image": "illustrations/commun/dossier.jpg",
+   "grand": "ENREGISTRE CE POST 📌",
+   "petit": "Pour ta prochaine soirée. Laquelle est la plus folle ? 1\u00a0=\u00a0la\u00a0tour\u00a0Eiffel · 2\u00a0=\u00a0Binance\u00a0👇"
+  }
+ ],
+ "lignes": [
+  {
+   "id": "00",
+   "texte": "Ces cinq affaires ont l'air sorties d'un film. Pourtant… elles sont toutes vraies.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/commun/dossier.jpg",
+    "couleur": true,
+    "titre": "5 AFFAIRES QUI SEMBLENT INVENTÉES… MAIS SONT VRAIES",
+    "taille": 88,
+    "sous": "Affaire nº 15 · Spécial",
+    "titreTop": 800,
+    "sousTop": 1200
+   }
+  },
+  {
+   "id": "01",
+   "texte": "Et la dernière s'est passée… le mois dernier.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/commun/dossier.jpg",
+    "texte": "100 % VRAI"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Numéro un : l'homme qui a vendu la tour Eiffel.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/paris.jpg",
+    "titre": "Nº 1 · LA TOUR EIFFEL",
+    "zoom": [
+     1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Paris, 1925. L'escroc Victor Lustig se fait passer pour un haut fonctionnaire, et annonce que la tour va être démolie.",
+   "sequence": {
+    "type": "document",
+    "genre": "lettre",
+    "titre": "1925",
+    "entete": "MINISTÈRE (FAUX)",
+    "lignes": [
+     "Objet : tour Eiffel",
+     "Décision : démolition"
+    ],
+    "surligne": [
+     "démolition"
+    ],
+    "tampon": "FAUX",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Il réunit des ferrailleurs dans un grand hôtel… et vend la tour à l'un d'eux.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "VENDUE",
+    "taille": 130,
+    "sous": "À un ferrailleur"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "La victime a tellement honte qu'elle ne porte pas plainte. Alors Lustig revient… et tente de la revendre.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "UNE 2E FOIS ?",
+    "taille": 110,
+    "sous": "Il tente de recommencer"
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Des années plus tard, Lustig finira à Alcatraz.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/cellule.jpg",
+    "titre": "LA FIN",
+    "legende": "Prison d'Alcatraz"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Numéro deux : un cadavre qui a trompé Hitler.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/enveloppe.jpg",
+    "titre": "Nº 2 · HITLER TROMPÉ"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "1943. Les services secrets britanniques habillent un mort en officier, avec de faux documents secrets dans une mallette.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "1943",
+    "entete": "OPÉRATION MINCEMEAT",
+    "lignes": [
+     "Officier : inventé",
+     "Plans : faux"
+    ],
+    "surligne": [
+     "inventé",
+     "faux"
+    ]
+   }
+  },
+  {
+   "id": "21b",
+   "texte": "Le mort n'a jamais été soldat : c'était un sans-abri gallois.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "UN SANS-ABRI",
+    "taille": 110,
+    "sous": "Pas un officier"
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Le corps est déposé en mer, au large de l'Espagne. Les documents finissent entre les mains des Allemands.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "AVRIL 1943",
+    "lieux": [
+     {
+      "lon": -6.95,
+      "lat": 37.26,
+      "nom": "HUELVA",
+      "style": "cible"
+     }
+    ],
+    "legende": "Au large de l'Espagne",
+    "legendeTop": 1200
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Hitler y croit, et envoie des renforts en Grèce. Les Alliés, eux, débarquent… en Sicile.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "JUILLET 1943",
+    "lieux": [
+     {
+      "lon": 22,
+      "lat": 39,
+      "nom": "GRÈCE"
+     },
+     {
+      "lon": 14,
+      "lat": 37.5,
+      "nom": "SICILE",
+      "style": "cible"
+     }
+    ],
+    "legendeTop": 1200
+   }
+  },
+  {
+   "id": "30",
+   "texte": "Numéro trois : la Joconde volée.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-11-louvre-2/galerie.jpg",
+    "titre": "Nº 3 · LA JOCONDE"
+   }
+  },
+  {
+   "id": "31",
+   "texte": "Août 1911. La Joconde disparaît du Louvre. Pendant plus de deux ans, personne ne sait où elle est.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "DISPARUE",
+    "taille": 120,
+    "sous": "Plus de deux ans"
+   }
+  },
+  {
+   "id": "32",
+   "texte": "Parmi les personnes interrogées par la police… un certain Pablo Picasso.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "PICASSO INTERROGÉ",
+    "taille": 88
+   }
+  },
+  {
+   "id": "33",
+   "texte": "Le vrai voleur ? Un vitrier italien qui avait travaillé au Louvre. Il la cachait… dans sa chambre, à Paris.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/loupe.jpg",
+    "titre": "LE VOLEUR",
+    "legende": "Un vitrier du Louvre"
+   }
+  },
+  {
+   "id": "34",
+   "texte": "Il est arrêté en 1913, en Italie, en essayant de la vendre à un marchand d'art de Florence.",
+   "sequence": {
+    "type": "carte_med",
+    "titre": "1913",
+    "lieux": [
+     {
+      "lon": 11.25,
+      "lat": 43.77,
+      "nom": "FLORENCE",
+      "style": "cible"
+     }
+    ],
+    "legende": "Retrouvée",
+    "legendeTop": 1200
+   }
+  },
+  {
+   "id": "40",
+   "texte": "Numéro quatre : le casse d'une banque centrale, trahi par une faute d'orthographe.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/banque.jpg",
+    "titre": "Nº 4 · BANGLADESH"
+   }
+  },
+  {
+   "id": "41",
+   "texte": "2016. Des pirates envoient des ordres de virement au nom de la banque centrale du Bangladesh. Près d'un milliard de dollars.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "2016",
+    "valeur": 951,
+    "unite": "millions de dollars",
+    "couleur": "rouge",
+    "legende": "demandés : près d'un milliard"
+   }
+  },
+  {
+   "id": "42",
+   "texte": "La Réserve fédérale de New York trouve les demandes suspectes, et en bloque la plupart. Un autre virement est stoppé… à cause d'un mot mal écrit : « fandation » au lieu de « foundation ».",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LA FAUTE",
+    "entete": "ORDRE DE VIREMENT",
+    "lignes": [
+     "Bénéficiaire : … Fandation",
+     "Montant : 20 millions"
+    ],
+    "surligne": [
+     "Fandation"
+    ],
+    "tampon": "BLOQUÉ",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "43",
+   "texte": "Les pirates repartent quand même avec quatre-vingt-un millions de dollars.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/billets.jpg",
+    "titre": "81 MILLIONS",
+    "legende": "Partis aux Philippines"
+   }
+  },
+  {
+   "id": "50",
+   "texte": "Numéro cinq : six milliards volés… grâce à un faux entretien d'embauche.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-14-binance-enquete/entretien.jpg",
+    "titre": "Nº 5 · BINANCE"
+   }
+  },
+  {
+   "id": "51",
+   "texte": "2026. Un ingénieur de Binance passe deux entretiens pour un poste… dans une entreprise qui n'existe pas.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "ENTREPRISE FICTIVE",
+    "taille": 90
+   }
+  },
+  {
+   "id": "52",
+   "texte": "On lui fait télécharger un test de code piégé. Quelques semaines plus tard, six virgule trois milliards de dollars disparaissent.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "29 OCTOBRE 2026",
+    "valeur": 6.3,
+    "decimales": 1,
+    "unite": "milliards de dollars",
+    "couleur": "rouge"
+   }
+  },
+  {
+   "id": "53",
+   "texte": "Le FBI accuse la Corée du Nord. Qui dément.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "LE COUPABLE ?",
+    "points": [
+     {
+      "lon": 125.75,
+      "lat": 39,
+      "nom": "CORÉE DU NORD"
+     }
+    ],
+    "legende": "Selon le FBI"
+   }
+  },
+  {
+   "id": "60",
+   "texte": "Cinq histoires vraies. Et leurs dossiers complets sont sur mon profil.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "100 % VRAI",
+    "taille": 120,
+    "sous": "Les dossiers complets sur le profil"
+   }
+  },
+  {
+   "id": "61",
+   "texte": "Enregistre-la pour ta prochaine soirée. Et toi, laquelle est la plus folle ? Réponds 1 : la tour Eiffel. Ou 2 : le faux entretien de Binance.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "Enregistre-la 📌 · 1 ou 2 ? 👇"
+   }
+  }
+ ]
+}

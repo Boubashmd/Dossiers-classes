@@ -2,6 +2,7 @@ import React from "react";
 import { Composition } from "remotion";
 import { Episode, Timeline } from "./Episode";
 import { Couverture, InfosCouverture } from "./Couverture";
+import { Carrousel, InfosDiapo } from "./Carrousel";
 import timeline from "./generated/timeline.json";
 
 // La timeline est écrite par scripts/preparer.mjs (voix + calage de chaque phrase).
@@ -20,6 +21,16 @@ export const Root: React.FC = () => (
       width={1080}
       height={1920}
       defaultProps={{ infos: t.couverture || couvertureParDefaut }}
+    />
+    {/* Carrousel TikTok : une diapo à la fois, fabriquées par scripts/carrousel.mjs */}
+    <Composition
+      id="Carrousel"
+      component={Carrousel}
+      durationInFrames={1}
+      fps={30}
+      width={1080}
+      height={1920}
+      defaultProps={{ diapo: { grand: "DOSSIERS CLASSÉS", petit: "" }, index: 0, total: 1 } as InfosDiapo}
     />
   </>
 );
