@@ -1,0 +1,346 @@
+{
+ "id": "affaire-14-binance-enquete",
+ "numero": 14,
+ "titre": "Comment Binance s'est fait pirater",
+ "personnage": "Binance",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-14-binance-enquete/accroche.jpg",
+  "legende": "Illustration",
+  "credit": "Illustrations générées par IA (Gemini), d'après des faits sourcés.",
+  "visage": {
+   "x": 330,
+   "y": 440
+  }
+ },
+ "publication": {
+  "accroche": "Binance piratée : 6,3 milliards volés… à cause d'un faux entretien d'embauche. Ce que révèle l'enquête (FBI, Corée du Nord, Lazarus). 📂 Histoire vraie",
+  "sources": "Rapport de Binance (3/11/2026) repris par l'AFP, Fortune et The Register ; Wikipédia (2026 Binance hack) ; Elliptic (via Journal du Coin) ; Reuters (via Bitcoin.com) ; Tech Insider.",
+  "hashtags_episode": [
+   "#binance",
+   "#lazarus"
+  ],
+  "commentaire_epingle": "📂 Ton avis : 1 = l'argent sera retrouvé, 2 = perdu pour toujours 👇 Le casse du 29 octobre (épisode 8) est sur le profil."
+ },
+ "couverture": {
+  "titre": "COMMENT BINANCE S'EST FAIT PIRATER ?",
+  "sous": "Affaire nº 14 · L'enquête",
+  "couleur": true
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Six milliards de dollars volés. Et tout a commencé… par un entretien d'embauche.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-14-binance-enquete/accroche.jpg",
+    "couleur": true,
+    "titre": "COMMENT BINANCE S'EST FAIT PIRATER ?",
+    "sous": "Affaire nº 14 · L'enquête",
+    "prompt": "A laptop open on a desk in a dark home office at night, its screen glowing with a video call showing a faceless silhouette in a suit, a single desk lamp, an empty office chair, tense mysterious atmosphere",
+    "taille": 84,
+    "sousTop": 1080
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Le 3 novembre, Binance a enfin raconté comment on l'a dévalisée.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-14-binance-enquete/accroche.jpg",
+    "texte": "LE RAPPORT"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Rappel : le 29 octobre, six virgule trois milliards de dollars disparaissent de Binance, la plus grande plateforme de cryptomonnaies au monde.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LE BUTIN",
+    "valeur": 6.3,
+    "decimales": 1,
+    "unite": "milliards de dollars",
+    "couleur": "rouge",
+    "legende": "le 29 octobre"
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Le plus gros vol de l'histoire des cryptos. Mais pour comprendre, il faut remonter quatre mois plus tôt.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "JUIN 2026",
+    "taille": 120,
+    "sous": "Quatre mois plus tôt"
+   }
+  },
+  {
+   "id": "05",
+   "texte": "En juin, un ingénieur de Binance installe un logiciel piégé. L'équipe de sécurité le repère, et le supprime.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "alerte",
+    "titre": "JUIN",
+    "legende": "Un logiciel piégé",
+    "tampon": "REPÉRÉ"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Trop tard : les pirates ont eu le temps d'apprendre qui, chez Binance, s'occupe des coffres numériques.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/coffre.jpg",
+    "titre": "LES CIBLES",
+    "legende": "Qui garde les coffres ?",
+    "zoom": [
+     1,
+     1.18
+    ]
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Septembre. Un autre ingénieur reçoit un message, sur une plateforme de recherche d'emploi.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-14-binance-enquete/message.jpg",
+    "titre": "SEPTEMBRE",
+    "prompt": "A smartphone lying on a desk with a glowing new message notification bubble on its screen (no readable text), a business card next to it, soft lamp light, night"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Un « directeur de projet » lui propose un poste. Dans une entreprise… qui n'existe pas.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/ombre.jpg",
+    "titre": "LE RECRUTEUR",
+    "legende": "Une entreprise fictive",
+    "tampon": "FAUX"
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Premier entretien, en vidéo, avec un prétendu responsable des ressources humaines.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-14-binance-enquete/entretien.jpg",
+    "titre": "1ER ENTRETIEN",
+    "prompt": "A video job interview at night: a young engineer seen from behind sitting in front of a laptop, on the screen a faceless silhouette of an interviewer in a suit, a home office"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Puis un deuxième, avec le « patron » de cette fausse entreprise.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "2E ENTRETIEN",
+    "entete": "OFFRE D'EMPLOI",
+    "lignes": [
+     "Entreprise : fictive",
+     "Patron : faux"
+    ],
+    "surligne": [
+     "fictive",
+     "faux"
+    ]
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Il lui demande de télécharger un exercice de code. Un simple test… piégé.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-14-binance-enquete/test.jpg",
+    "titre": "LE TEST",
+    "tampon": "PIÉGÉ",
+    "prompt": "A laptop screen showing a glowing file folder icon with dark smoke seeping out of it, faint lines of code in the background, dark room"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Le fichier cache un programme espion. Les pirates ont maintenant un accès à l'intérieur de Binance.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/hacker.jpg",
+    "titre": "DANS LA PLACE",
+    "zoom": [
+     1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Le 20 octobre, ils détournent l'outil d'intelligence artificielle interne de Binance… et prennent la main sur les ordinateurs de deux autres ingénieurs.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "L'IA DE BINANCE DÉTOURNÉE",
+    "taille": 76,
+    "sous": "20 octobre"
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Neuf jours plus tard, le 29 octobre, ils passent à l'attaque.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "LE PLAN",
+    "hauteur": 680,
+    "dates": [
+     {
+      "an": "JUIN",
+      "label": "Logiciel piégé"
+     },
+     {
+      "an": "SEPT.",
+      "label": "Faux entretiens"
+     },
+     {
+      "an": "20 OCT.",
+      "label": "L'IA détournée"
+     },
+     {
+      "an": "29 OCT.",
+      "label": "Le vol"
+     }
+    ]
+   }
+  },
+  {
+   "id": "15",
+   "texte": "En une vingtaine de minutes, l'essentiel des fonds quitte les coffres de Binance, sur dix blockchains différentes.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "fuite",
+    "titre": "29 OCTOBRE",
+    "legende": "Dix blockchains"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Quatre mois de préparation. Quelques minutes pour vider les coffres.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "4 MOIS DE PRÉPARATION",
+    "taille": 84,
+    "sous": "Quelques minutes pour frapper"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Qui est derrière ? Pour le FBI, c'est la Corée du Nord : une unité de pirates d'élite, liée au groupe Lazarus.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "LE COUPABLE ?",
+    "points": [
+     {
+      "lon": 125.75,
+      "lat": 39,
+      "nom": "CORÉE DU NORD"
+     }
+    ],
+    "legende": "Selon le FBI"
+   }
+  },
+  {
+   "id": "18",
+   "texte": "La Corée du Nord, elle, dément.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "DÉMENTI",
+    "taille": 120,
+    "sous": "Corée du Nord"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Côté clients, Binance assure avoir déjà couvert quatre-vingt-dix-huit pour cent des pertes, avec ses propres réserves.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LES CLIENTS",
+    "valeur": 98,
+    "unite": "% des pertes couvertes",
+    "legende": "selon Binance"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Et une partie du butin est bloquée : plus de deux milliards et demi de dollars, gelés par les émetteurs de cryptos.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-14-binance-enquete/gel.jpg",
+    "titre": "GELÉS",
+    "legende": "Plus de 2,5 milliards",
+    "prompt": "Plain smooth golden coins with completely blank faces (no symbols, no letters, no logos, no engravings on the coins), frozen inside large blocks of ice, cold light, dramatic close-up"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Le reste ? Selon la société d'enquête Elliptic, il circule encore, déplacé par des programmes automatiques.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/mappemonde.jpg",
+    "titre": "LE RESTE",
+    "legende": "Selon Elliptic"
+   }
+  },
+  {
+   "id": "22",
+   "texte": "L'affaire inquiète jusqu'aux banques américaines : selon Reuters, leurs régulateurs leur demandent de vérifier leurs défenses.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/banque.jpg",
+    "titre": "LES BANQUES",
+    "legende": "Selon Reuters"
+   }
+  },
+  {
+   "id": "23",
+   "texte": "La leçon ? Le point faible n'était pas la technologie. C'était un humain… et une offre d'emploi trop belle.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "LE POINT FAIBLE",
+    "taille": 110,
+    "sous": "Un humain, et une offre trop belle"
+   }
+  },
+  {
+   "id": "24",
+   "texte": "L'enquête continue. Et des milliards sont toujours dans la nature.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "OÙ EN EST-ON ?",
+    "entete": "ENQUÊTE EN COURS",
+    "lignes": [
+     "Accusée : la Corée du Nord (FBI)",
+     "Butin : en partie introuvable"
+    ],
+    "surligne": [
+     "introuvable"
+    ],
+    "tampon": "EN COURS",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Et toi ? Réponds 1 : l'argent sera retrouvé. Ou 2 : il est perdu pour toujours. Et abonne-toi pour suivre l'enquête.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}
