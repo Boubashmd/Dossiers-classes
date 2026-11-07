@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
-import { CREME, JAUNE, NUIT_NOIRE, Polices, ROUGE, txt } from "./theme";
+import { Signature } from "./Logo";
+import { CREME, JAUNE, NUIT_NOIRE, Polices, txt } from "./theme";
 
 /** Une image du carrousel TikTok (section "carrousel" de l'épisode). */
 export type Diapo = { image?: string; numero?: string; grand: string; petit?: string };
@@ -42,11 +43,8 @@ export const Carrousel: React.FC<InfosDiapo> = ({ diapo, index, total }) => {
       />
 
       {/* signature de la chaîne */}
-      <div style={{ position: "absolute", top: 250, width: "100%", textAlign: "center", ...txt(40, CREME, 700, { letterSpacing: 8 }) }}>
-        DOSSIERS{" "}
-        <span style={{ border: `5px solid ${ROUGE}`, borderRadius: 10, padding: "0 14px 4px", color: ROUGE, display: "inline-block", transform: "rotate(-4deg)" }}>CLASSÉS</span>
-      </div>
-      <div style={{ position: "absolute", top: 335, width: "100%", textAlign: "center", ...txt(30, CREME, 500, { letterSpacing: 6, textShadow: "0 0 12px #070E1A, 0 0 6px #070E1A, 0 2px 4px #070E1A" }) }}>
+      <Signature top={215} largeur={360} />
+      <div style={{ position: "absolute", top: 390, width: "100%", textAlign: "center", ...txt(30, CREME, 500, { letterSpacing: 6, textShadow: "0 0 12px #070E1A, 0 0 6px #070E1A, 0 2px 4px #070E1A" }) }}>
         {index + 1} / {total}
       </div>
 

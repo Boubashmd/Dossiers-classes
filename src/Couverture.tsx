@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
-import { CREME, GRIS, JAUNE, NUIT_NOIRE, Polices, ROUGE, txt } from "./theme";
+import { GRIS, JAUNE, NUIT_NOIRE, Polices, txt } from "./theme";
+import { Signature } from "./Logo";
 
 export type InfosCouverture = { titre: string; sous: string; photo: string | null; visage: { x: number; y: number }; largeur: number; couleur?: boolean };
 
@@ -37,10 +38,7 @@ export const Couverture: React.FC<{ infos: InfosCouverture }> = ({ infos }) => {
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,.6) 100%)" }} />
 
       {/* signature de la chaîne */}
-      <div style={{ position: "absolute", top: 300, width: "100%", textAlign: "center", ...txt(44, CREME, 700, { letterSpacing: 8 }) }}>
-        DOSSIERS{" "}
-        <span style={{ border: `5px solid ${ROUGE}`, borderRadius: 10, padding: "0 14px 4px", color: ROUGE, display: "inline-block", transform: "rotate(-4deg)" }}>CLASSÉS</span>
-      </div>
+      <Signature top={250} largeur={460} />
 
       {/* titre accrocheur */}
       <div

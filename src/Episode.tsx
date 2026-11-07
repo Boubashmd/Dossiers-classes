@@ -3,6 +3,7 @@ import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, useCurrentFrame
 import { C, CREME, JAUNE, NUIT, NUIT2, Polices, txt } from "./theme";
 import { Fondu, Mot, RenduSequence } from "./sequences";
 import config from "../config.json";
+import { Filigrane } from "./Logo";
 
 export type Ligne = {
   id: string;
@@ -72,6 +73,10 @@ export const Episode: React.FC<{ timeline: Timeline }> = ({ timeline }) => {
   const { durationInFrames } = useVideoConfig();
   const zoom = 1 + 0.02 * ((f % 150) / 150);
   const fonduFin = interpolate(f, [durationInFrames - 15, durationInFrames], [1, 0], C);
+  // filigrane masqué dès la séquence de fin (cta / fin), qui montre déjà le logo ; désactivable dans config.json ("filigrane": false)
+  const finale = timeline.lignes.find((l) => ["cta", "fin"].includes(l.sequence?.type));
+  const masquerA = finale ? finale.debut : durationInFrames;
+  const avecFiligrane = (config as any).filigrane !== false;
   return (
     <AbsoluteFill style={{ background: `linear-gradient(180deg, ${NUIT2} 0%, ${NUIT} 60%, #070E1A 100%)` }}>
       <Polices />
@@ -98,6 +103,7 @@ export const Episode: React.FC<{ timeline: Timeline }> = ({ timeline }) => {
           ) : null
         )}
         <SousTitres lignes={timeline.lignes} />
+        {avecFiligrane && <Filigrane masquerA={masquerA} />}
       </AbsoluteFill>
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, transparent 55%, rgba(2,6,14,.7) 100%)", pointerEvents: "none" }} />
     </AbsoluteFill>

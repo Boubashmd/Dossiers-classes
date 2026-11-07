@@ -36,6 +36,7 @@ import { DECORS } from "../dessins/decors";
 import { Avion } from "../dessins/aviation";
 import { Accordeon, FausseTete, Perceuse, Radeau } from "../dessins/evasion";
 import { Joconde, Malle } from "../dessins/louvre";
+import { Signature } from "../Logo";
 import { Couronne, Vitrine } from "../dessins/casse";
 import { Intro } from "./Generique";
 import { CarteMed } from "./CarteMed";
@@ -204,10 +205,7 @@ const Accroche: React.FC<SeqProps> = ({ p, dur }) => {
             "linear-gradient(180deg, rgba(7,14,26,.95) 0%, rgba(7,14,26,.55) 17%, rgba(7,14,26,0) 28%, rgba(7,14,26,0) 40%, rgba(7,14,26,.8) 54%, rgba(7,14,26,.96) 70%)",
         }}
       />
-      <div style={{ position: "absolute", top: 250, width: "100%", textAlign: "center", ...txt(40, CREME, 700, { letterSpacing: 8 }) }}>
-        DOSSIERS{" "}
-        <span style={{ border: `5px solid ${ROUGE}`, borderRadius: 10, padding: "0 14px 4px", color: ROUGE, display: "inline-block", transform: "rotate(-4deg)" }}>CLASSÉS</span>
-      </div>
+      <Signature top={215} largeur={380} />
       <div
         style={{
           position: "absolute",
@@ -1153,6 +1151,10 @@ const Cta: React.FC<SeqProps> = ({ p }) => {
     <AbsoluteFill>
       <Sfx at={6} son="pop" volume={0.5} />
       <Sfx at={50} son="pop" volume={0.5} />
+      {/* le logo de la chaîne au-dessus de la bulle */}
+      <div style={{ position: "absolute", top: 190, width: "100%", display: "flex", justifyContent: "center", transform: `scale(${ressort(f, fps, 0, { damping: 12, stiffness: 160 })})` }}>
+        <Img src={staticFile("logo/symbole-couleur.svg")} style={{ width: 280 }} />
+      </div>
       <div style={{ position: "absolute", top: 480, left: 140, right: 140, transform: `scale(${bulle})`, transformOrigin: "20% 100%" }}>
         <div style={{ background: CREME, borderRadius: 40, padding: "50px 50px", boxShadow: "0 20px 40px rgba(0,0,0,.4)", ...txt(64, NUIT), textAlign: "center", lineHeight: 1.2 }}>
           {p.bulle || "✍️ Ton prochain dossier ?"}

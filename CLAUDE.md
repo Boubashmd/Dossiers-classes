@@ -30,6 +30,11 @@ Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais touc
 - Durée : 2 min 30 à 3 min. Zone sûre TikTok : rien d'important sous ~1200 px (sous-titres à 1250 px).
 - Couleurs : bleu nuit #0B1626, crème #ECE6D8, jaune #FFD400, rouge #E6504A ; police Poppins.
 
+## Logo (refonte du 07/11/2026 : « le dossier qui regarde »)
+- Fichiers dans `public/logo/` : `horizontal-couleur.svg`, `vertical-couleur.svg`, `symbole-couleur.svg`, `symbole-blanc.svg` (transparents, pour fond bleu nuit). Composants dans `src/Logo.tsx` : `Signature` (en-tête de l'accroche, de la couverture et du carrousel) et `Filigrane`.
+- Filigrane : symbole blanc à 60 % en haut à gauche, de 1 s jusqu'à la séquence `cta`/`fin` (qui montre le logo). Désactivable avec `"filigrane": false` dans `config.json`. Jamais à droite ni en bas (boutons et légende TikTok).
+- Ne pas retaper le nom avec une police, ne pas déformer ni recolorer le logo. Règles complètes : guide d'usage du kit du logo.
+
 ## Commandes
 - Préparer sans voix : `node scripts/preparer.mjs episodes/<id>.json --sans-voix`
 - Préparer avec voix : `node scripts/preparer.mjs episodes/<id>.json` (demande `ELEVENLABS_API_KEY`)
@@ -40,3 +45,6 @@ Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais touc
 
 ## Fabrication en ligne
 GitHub Actions « Fabriquer un épisode » (`.github/workflows/fabriquer-episode.yml`), entrée `episode` = id, « avec voix ».
+
+## Livraison de la vidéo finale
+Toujours dans un dossier `<id>/` à la **racine** du projet (comme `affaire-11-louvre-2/`), avec 3 fichiers : `<id>.mp4`, `couverture.png`, `description.txt`. Jamais dans `sorties/` ni dans un sous-dossier. Ces dossiers ne sont pas versionnés (ne pas les ajouter à git).
