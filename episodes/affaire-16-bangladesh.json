@@ -1,0 +1,564 @@
+{
+ "id": "affaire-16-bangladesh",
+ "numero": 16,
+ "titre": "Le casse de la banque du Bangladesh",
+ "personnage": "Bangladesh",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-16-bangladesh/accroche.jpg",
+  "legende": "Illustration",
+  "credit": "Illustrations générées par IA (Gemini), d'après des faits sourcés.",
+  "visage": {
+   "x": 384,
+   "y": 480
+  }
+ },
+ "publication": {
+  "accroche": "Banque du Bangladesh : des pirates ont demandé près d'1 milliard de dollars en une nuit… et 81 millions ont disparu. Une faute d'orthographe, une rue nommée Jupiter, des casinos à Manille et la piste nord-coréenne (Lazarus, selon le FBI). 📂 Histoire vraie",
+  "sources": "Reuters (enquête de juillet 2016) ; BBC (« The Lazarus Heist », repris par The Daily Star) ; Wikipédia (Bangladesh Bank robbery) ; AP ; The Daily Observer et TBS News (Bangladesh, 2024-2026).",
+  "hashtags_episode": [
+   "#bangladesh",
+   "#lazarus"
+  ],
+  "commentaire_epingle": "📂 Ton avis : 1 = la banque du Bangladesh aurait dû l'arrêter, 2 = la Réserve fédérale 👇 Le casse de Binance (même piste nord-coréenne selon le FBI) est sur le profil."
+ },
+ "couverture": {
+  "titre": "LE CASSE DE LA BANQUE DU BANGLADESH",
+  "sous": "1 milliard demandé en une nuit",
+  "couleur": true
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Un milliard de dollars. Demandé en une seule nuit.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-16-bangladesh/accroche.jpg",
+    "couleur": true,
+    "titre": "LE CASSE DE LA BANQUE DU BANGLADESH",
+    "sous": "Affaire nº 16 · 1 milliard en une nuit",
+    "prompt": "The tall modernist tower of a central bank at night in a South Asian capital city, only a few lit windows, an empty street with parked cycle rickshaws in the foreground, light mist, mysterious atmosphere",
+    "taille": 80,
+    "sousTop": 1080
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Et les voleurs ne sont jamais entrés dans la banque.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-16-bangladesh/accroche.jpg",
+    "texte": "SANS ENTRER DANS LA BANQUE"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Jeudi 4 février 2016, au soir. À Dacca, la banque centrale du Bangladesh ferme pour le week-end : ici, c'est vendredi et samedi.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/banque.jpg",
+    "titre": "DACCA · 4 FÉVRIER 2016",
+    "legende": "Le week-end : vendredi et samedi",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Dans la soirée, des ordres de virement partent de son système… vers New York.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "JEUDI SOIR",
+    "points": [
+     {
+      "lon": 90.4,
+      "lat": 23.8,
+      "nom": "BANGLADESH"
+     },
+     {
+      "lon": -74,
+      "lat": 40.7,
+      "nom": "NEW YORK"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       90.4,
+       23.8
+      ],
+      "vers": [
+       -74,
+       40.7
+      ],
+      "a": 14,
+      "pointilles": true,
+      "courbe": -0.15
+     }
+    ]
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Là-bas, la Réserve fédérale américaine garde une partie des réserves du pays.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/newyork.jpg",
+    "titre": "LA RÉSERVE FÉDÉRALE",
+    "legende": "Le compte du Bangladesh",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Trente-cinq ordres, avec les bons codes. Près d'un milliard de dollars.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "35 ORDRES",
+    "valeur": 951,
+    "unite": "millions de dollars",
+    "couleur": "rouge",
+    "legende": "demandés en une nuit"
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Cinq virements passent. Cent un millions de dollars.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "5 VIREMENTS PASSENT",
+    "valeur": 101,
+    "unite": "millions de dollars",
+    "couleur": "rouge",
+    "legende": "payés par New York"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Vingt millions partent vers le Sri Lanka, au nom d'une fondation.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "20 MILLIONS",
+    "points": [
+     {
+      "lon": -74,
+      "lat": 40.7,
+      "nom": "NEW YORK"
+     },
+     {
+      "lon": 79.9,
+      "lat": 6.9,
+      "nom": "SRI LANKA"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       -74,
+       40.7
+      ],
+      "vers": [
+       79.9,
+       6.9
+      ],
+      "a": 10,
+      "couleur": "rouge",
+      "courbe": -0.2
+     }
+    ],
+    "legende": "Pour une « fondation »"
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Sauf que les pirates ont écrit « fandation »… avec un A.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LE BÉNÉFICIAIRE",
+    "entete": "ORDRE DE VIREMENT",
+    "lignes": [
+     "Shalika Fandation",
+     "Montant : 20 millions $"
+    ],
+    "surligne": [
+     "Fandation"
+    ],
+    "tampon": "FAUTE"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Une banque sur le trajet repère l'erreur : virement bloqué.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "BLOQUÉ",
+    "taille": 130,
+    "sous": "20 millions sauvés par une faute"
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Les quatre-vingt-un millions, eux, arrivent aux Philippines, dans une agence bancaire de Manille…",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-16-bangladesh/agence.jpg",
+    "titre": "MANILLE",
+    "legende": "81 millions",
+    "zoom": [
+     1,
+     1.1
+    ],
+    "prompt": "A small bank branch storefront on a quiet tropical city street at night, palm trees, a blank street-name sign on a pole (no letters), closed metal shutters, warm street lamp light"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "… rue Jupiter. Et ce détail va tout changer.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-16-bangladesh/agence.jpg",
+    "titre": "MANILLE",
+    "zoom": [
+     1.1,
+     1.3
+    ],
+    "focus": {
+     "x": 50,
+     "y": 35
+    },
+    "etiquettes": [
+     {
+      "texte": "RUE JUPITER",
+      "x": 35,
+      "y": 21.5,
+      "dx": 110,
+      "dy": 70
+     }
+    ]
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Selon Reuters, Jupiter, c'est aussi le nom d'un pétrolier sous sanctions américaines.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-16-bangladesh/petrolier.jpg",
+    "titre": "JUPITER",
+    "legende": "Un pétrolier sous sanctions (selon Reuters)",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A large oil tanker ship at sea at night under a cloudy sky, seen from the side, a few deck lights, calm dark water"
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Alerte à la Réserve fédérale : les trente autres virements sont bloqués. Huit cent cinquante millions.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "30 VIREMENTS BLOQUÉS",
+    "valeur": 850,
+    "unite": "millions de dollars",
+    "legende": "alerte à la Réserve fédérale"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "On dit souvent qu'une faute d'orthographe a sauvé le milliard. En vrai, elle a sauvé vingt millions.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "LA LÉGENDE",
+    "taille": 120,
+    "sous": "La faute ? 20 millions, pas un milliard"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Pendant ce temps, à Dacca, une imprimante ne marche plus.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-16-bangladesh/imprimante.jpg",
+    "titre": "DACCA · VENDREDI",
+    "legende": "Une imprimante en panne",
+    "zoom": [
+     1,
+     1.1
+    ],
+    "prompt": "An old office printer in a dark empty bank office at night, a single sheet of paper stuck halfway out, a small red warning light, computer monitors glowing faintly in the background"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Celle qui imprime chaque virement. Les pirates l'ont rendue muette.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-16-bangladesh/imprimante.jpg",
+    "titre": "L'IMPRIMANTE",
+    "legende": "Elle imprime chaque virement",
+    "tampon": "HORS SERVICE",
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Il faut attendre le samedi pour découvrir les messages de New York.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-16-bangladesh/imprimante.jpg",
+    "titre": "SAMEDI",
+    "heure": "06/02/2016 12:30",
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "19",
+   "texte": "La banque appelle, écrit, faxe… Mais à New York, c'est le week-end.",
+   "sequence": {
+    "type": "icones",
+    "titre": "SANS RÉPONSE",
+    "items": [
+     {
+      "label": "APPELS",
+      "sous": "personne"
+     },
+     {
+      "label": "E-MAILS",
+      "sous": "personne"
+     },
+     {
+      "label": "FAX",
+      "sous": "personne"
+     }
+    ]
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Et le lundi, aux Philippines, c'est le Nouvel An chinois : les banques sont fermées.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "LE PLAN",
+    "hauteur": 680,
+    "dates": [
+     {
+      "an": "JEU. 4",
+      "label": "Les ordres"
+     },
+     {
+      "an": "VEN. 5",
+      "label": "Week-end à Dacca"
+     },
+     {
+      "an": "SAM. 6",
+      "label": "Week-end à New York"
+     },
+     {
+      "an": "LUN. 8",
+      "label": "Nouvel An chinois"
+     }
+    ]
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Quand l'alerte arrive à Manille, l'argent a déjà commencé à filer.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/billets.jpg",
+    "titre": "TROP TARD",
+    "legende": "L'argent a déjà filé",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Les comptes avaient été ouverts neuf mois plus tôt, avec de fausses identités.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LES COMPTES",
+    "entete": "4 COMPTES · MANILLE",
+    "lignes": [
+     "Ouverts le 15 mai 2015",
+     "Identités : fausses",
+     "Inactifs jusqu'au casse"
+    ],
+    "surligne": [
+     "fausses"
+    ]
+   }
+  },
+  {
+   "id": "23",
+   "texte": "L'argent file dans des casinos de Manille, qui échappaient alors aux règles contre le blanchiment. La trace se perd.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-16-bangladesh/casino.jpg",
+    "titre": "LES CASINOS",
+    "legende": "Des jetons, puis du cash",
+    "zoom": [
+     1,
+     1.2
+    ],
+    "prompt": "A private casino gaming room: a baccarat table with neat stacks of chips and playing cards, an ornate chandelier, empty chairs, no people. Strictly monochrome white and silver engraving on midnight blue: the table felt in dark blue tones (not green), no red, plain felt with no printed markings or letters"
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Quinze millions seront récupérés. Plus de soixante-cinq… jamais.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "JAMAIS RETROUVÉS",
+    "valeur": 65,
+    "unite": "millions de dollars",
+    "couleur": "rouge",
+    "legende": "environ 15 millions récupérés"
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Mais qui a monté ce casse ?",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-16-bangladesh/accroche.jpg",
+    "texte": "QUI ?"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Selon l'enquête américaine, tout a commencé plus d'un an avant, par des e-mails : de fausses candidatures.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/enveloppe.jpg",
+    "titre": "UN AN PLUS TÔT",
+    "legende": "Selon l'enquête américaine",
+    "tampon": "FAUX CV",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Ça ne te rappelle rien ? Chez Binance aussi, tout est parti d'un faux recrutement.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "ÇA TE RAPPELLE RIEN ?",
+    "taille": 84,
+    "sous": "Binance : un faux entretien d'embauche"
+   }
+  },
+  {
+   "id": "28",
+   "texte": "En 2018, la justice américaine inculpe un programmeur nord-coréen, du groupe Lazarus selon le FBI.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "LAZARUS ?",
+    "points": [
+     {
+      "lon": 125.75,
+      "lat": 39,
+      "nom": "CORÉE DU NORD"
+     }
+    ],
+    "legende": "Selon le FBI"
+   }
+  },
+  {
+   "id": "29",
+   "texte": "La Corée du Nord, elle, dément tout.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "DÉMENTI",
+    "taille": 120,
+    "sous": "Corée du Nord"
+   }
+  },
+  {
+   "id": "30",
+   "texte": "Au Bangladesh, l'enquête de police n'a toujours rendu aucun rapport : il a été reporté plus de quatre-vingts fois.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "PLUS DE 80 REPORTS",
+    "taille": 90,
+    "sous": "Le rapport de police, toujours attendu"
+   }
+  },
+  {
+   "id": "31",
+   "texte": "Et à New York, le Bangladesh poursuit toujours la banque philippine en justice.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "OÙ EN EST-ON ?",
+    "entete": "DOSSIER EN COURS",
+    "lignes": [
+     "65 millions introuvables",
+     "Plainte à New York contre la banque philippine"
+    ],
+    "surligne": [
+     "introuvables"
+    ],
+    "tampon": "EN COURS",
+    "tamponTop": 860
+   }
+  },
+  {
+   "id": "32",
+   "texte": "Et pour le FBI, c'est encore la Corée du Nord qu'on retrouve derrière le casse de Binance.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/hacker.jpg",
+    "titre": "LES MÊMES ?",
+    "legende": "Binance, 2026 · selon le FBI",
+    "zoom": [
+     1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "33",
+   "texte": "Dossier toujours ouvert.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "AFFAIRE Nº 16",
+     "BANQUE DU BANGLADESH"
+    ],
+    "texte": "EN COURS"
+   }
+  },
+  {
+   "id": "34",
+   "texte": "Et toi ? Qui aurait dû l'arrêter ? Réponds 1 : la banque du Bangladesh. Ou 2 : la Réserve fédérale. Et abonne-toi.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}
