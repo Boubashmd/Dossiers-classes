@@ -9,3 +9,6 @@ public/voix/*
 *.zip
 maj-*.sh
 test-*.mp3
+
+# Documents sources des épisodes (PDF, pages web…) et leurs conversions .md : jamais sur GitHub
+sources/
