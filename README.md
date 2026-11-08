@@ -28,7 +28,7 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 
 ## 2. Fabriquer un épisode
 
-1. Ouvre 👉 https://github.com/Boubashmd/dossiers-classes/actions
+1. Ouvre 👉 https://github.com/Boubashmd/Dossiers-decryptes/actions
 2. À gauche, clique sur **« Fabriquer un épisode »**.
 3. À droite, clique sur **« Run workflow »**.
 4. Laisse `affaire-01-lustig` et choisis :
@@ -155,5 +155,5 @@ On pioche les API dans le catalogue [public-apis](https://github.com/public-apis
 | **Library of Congress** (Chronicling America) | non | Journaux américains anciens (Ponzi, Cooper, Alcatraz) : sources et pages souvent du domaine public | `curl -s "https://www.loc.gov/collections/chronicling-america/?q=Ponzi&fo=json&c=1" \| head -c 400` |
 | **Europeana** | gratuite ([demande ici](https://pro.europeana.eu/page/get-api)) | Archives européennes (Mata Hari, Garbo) ; toujours filtrer `reusability=open` | `curl -s "https://api.europeana.eu/record/v2/search.json?wskey=$EUROPEANA_API_KEY&query=Mata%20Hari&reusability=open&rows=1"` |
 
-Si on branche Europeana : secret `EUROPEANA_API_KEY` à ajouter sur https://github.com/Boubashmd/dossiers-classes/settings/secrets/actions.
+Si on branche Europeana : secret `EUROPEANA_API_KEY` à ajouter sur https://github.com/Boubashmd/Dossiers-decryptes/settings/secrets/actions.
 Rappel : une photo réelle ne montre jamais de scène macabre, et les règles TikTok de la fiche (mots sensibles, suspects non jugés) s'appliquent aussi aux images trouvées.
