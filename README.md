@@ -9,10 +9,10 @@ La vidéo est fabriquée par **GitHub Actions** avec **Remotion** (vidéo en cod
 
 ## 1. Installer une mise à jour (comme pour Flash Monde)
 
-Chaque mise à jour arrive dans un zip `maj-xxx.zip`. Dépose-le **directement dans le dossier `Dossiers-Classés`**, puis dans le Terminal :
+Chaque mise à jour arrive dans un zip `maj-xxx.zip`. Dépose-le **directement dans le dossier `Dossiers-Décryptés`**, puis dans le Terminal :
 
 ```bash
-cd "iCloud/Projets_IT/Dossiers-Classés"
+cd "iCloud/Projets_IT/Dossiers-Décryptés"
 ```
 
 ```bash
