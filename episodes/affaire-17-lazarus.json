@@ -1,0 +1,490 @@
+{
+ "id": "affaire-17-lazarus",
+ "numero": 17,
+ "titre": "Lazarus : qui sont-ils ?",
+ "personnage": "Lazarus",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-17-lazarus/accroche.jpg",
+  "legende": "Illustration",
+  "credit": "Illustrations générées par IA (Gemini), d'après des faits sourcés.",
+  "visage": {
+   "x": 384,
+   "y": 480
+  }
+ },
+ "publication": {
+  "accroche": "Sony, la banque du Bangladesh, WannaCry, Bybit, Binance… Selon le FBI, toujours le même nom : Lazarus. Qui sont ces pirates au service de la Corée du Nord, et pourquoi personne ne les arrête ? 📂 Histoire vraie",
+  "sources": "FBI (communiqués Bybit, février 2025, et Binance, octobre 2026) repris par NBC News, SecurityWeek, BleepingComputer et l'AFP ; Trésor américain (sanctions de septembre 2019, via The Diplomat et Dawn) ; Opération Blockbuster / Novetta et Kaspersky (2016) ; gouvernements britannique et américain sur WannaCry (déc. 2017, via Computer Weekly et The Register) ; FBI sur Axie Infinity (avril 2022, via BleepingComputer et UPI) ; Chainalysis et Elliptic (bilan 2025, via The Register) ; experts de l'ONU (via The Record) ; ministère américain de la Justice sur les faux informaticiens (via TechCrunch et Help Net Security) ; NBC News et Al Jazeera sur le recrutement ; SBS (Corée du Sud).",
+  "hashtags_episode": [
+   "#lazarus",
+   "#coreedunord",
+   "#cybersecurite"
+  ],
+  "commentaire_epingle": "📂 Ton avis : 1 = on finira par les arrêter, 2 = jamais 👇 Le casse du Bangladesh et celui de Binance sont sur le profil."
+ },
+ "couverture": {
+  "titre": "LAZARUS : QUI SONT-ILS ?",
+  "sous": "Les pirates de la Corée du Nord",
+  "couleur": true
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Six milliards de dollars. Le plus gros vol de l'histoire.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-17-lazarus/accroche.jpg",
+    "couleur": true,
+    "titre": "LAZARUS : QUI SONT-ILS ?",
+    "sous": "Affaire nº 17 · Le dossier complet",
+    "prompt": "A dark room seen from behind: rows of anonymous silhouettes seated at desks facing many glowing computer monitors, seen only from the back, a large window showing a wide empty socialist-style avenue at night with massive concrete monumental buildings and a single huge unfinished pyramid-shaped concrete tower on the horizon, no skyscrapers, cold mysterious atmosphere. Strictly monochrome white and silver engraving linework with cross-hatching on midnight blue, like an antique etching, not a painting, not a 3D render, no red.",
+    "sousTop": 1100
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Et pour le FBI, les coupables ont un nom : Lazarus.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-17-lazarus/accroche.jpg",
+    "texte": "LAZARUS"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Mais qui sont-ils vraiment ?",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-17-lazarus/accroche.jpg",
+    "texte": "QUI SONT-ILS ?"
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Ce nom, ce sont des chercheurs en sécurité qui l'ont donné, en 2016, après avoir enquêté sur un piratage géant.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LE NOM",
+    "entete": "OPÉRATION BLOCKBUSTER",
+    "lignes": [
+     "Rapport de février 2016",
+     "Nom donné au groupe : LAZARUS"
+    ],
+    "surligne": [
+     "LAZARUS"
+    ]
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Lazarus, c'est Lazare : l'homme de la Bible qui revient à la vie.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "LAZARE",
+    "taille": 130,
+    "sous": "Celui qui revient toujours"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Selon les États-Unis, derrière ce nom, il y a le service de renseignement de la Corée du Nord.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "CORÉE DU NORD",
+    "points": [
+     {
+      "lon": 125.75,
+      "lat": 39,
+      "nom": "PYONGYANG"
+     }
+    ],
+    "legende": "Selon le Trésor américain"
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Pas une bande de pirates dans un garage : une unité d'État, au service du régime.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "UNE UNITÉ D'ÉTAT",
+    "taille": 96,
+    "sous": "Au service du régime"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Comment on y entre ? Selon plusieurs enquêtes, les élèves les plus forts en maths sont repérés dès l'école.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-17-lazarus/classe.jpg",
+    "titre": "REPÉRÉS À L'ÉCOLE",
+    "legende": "Les meilleurs en maths",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "An austere old classroom seen from the back of the room: rows of students in identical dark uniforms, seen only from behind (backs of heads only), sitting at old boxy desktop computers, a large blackboard with blank geometric diagrams (no letters, no numbers), cold light from tall windows. Strictly monochrome white and silver engraving linework with cross-hatching on midnight blue, like an antique etching, not a painting, not a 3D render, no red."
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Puis formés pendant des années. Selon l'armée sud-coréenne, ils seraient plus de huit mille.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "UNE ARMÉE",
+    "valeur": 8400,
+    "milliers": true,
+    "unite": "personnes",
+    "legende": "dans les unités cyber, selon Séoul (2024)"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Leur premier coup célèbre : fin 2014, à Hollywood, chez Sony Pictures.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-17-lazarus/cinema.jpg",
+    "titre": "SONY PICTURES · 2014",
+    "legende": "Hollywood",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "An empty old movie theater auditorium seen from the back rows, rows of empty seats, the large screen showing only static noise, a projector light beam through dust, eerie atmosphere. Strictly monochrome white and silver engraving linework with cross-hatching on midnight blue, like an antique etching, not a painting, not a 3D render, no red."
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Le studio va sortir une comédie qui se moque de Kim Jong-un. Ses ordinateurs sont paralysés, ses secrets publiés.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-17-lazarus/cinema.jpg",
+    "titre": "UNE COMÉDIE",
+    "legende": "Sur le dirigeant nord-coréen",
+    "tampon": "PARALYSÉ",
+    "zoom": [
+     1.15,
+     1.25
+    ]
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Pour le FBI, c'est déjà la Corée du Nord. Qui dément.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LE FBI ACCUSE",
+    "entete": "FBI · DÉCEMBRE 2014",
+    "lignes": [
+     "Piratage de Sony Pictures",
+     "Responsable : la Corée du Nord",
+     "Pyongyang dément"
+    ],
+    "surligne": [
+     "la Corée du Nord"
+    ]
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Ensuite, ils visent l'argent. En 2016, la banque centrale du Bangladesh perd quatre-vingt-un millions de dollars.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/banque.jpg",
+    "titre": "BANGLADESH · 2016",
+    "legende": "81 millions de dollars · épisode 16",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "14",
+   "texte": "En 2017, WannaCry bloque des centaines de milliers d'ordinateurs dans le monde. Jusque dans les hôpitaux anglais.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-17-lazarus/hopital.jpg",
+    "titre": "WANNACRY · 2017",
+    "legende": "Des hôpitaux paralysés",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A hospital corridor at night with a nurses' reception desk where several old computer monitors all display the same blank warning panel with a padlock symbol, empty wheelchairs and stretchers along the wall, dim light"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Sur les écrans, un seul message : paie, ou tes fichiers sont perdus.",
+   "sequence": {
+    "type": "objet",
+    "dessin": "portable",
+    "ecran": "rancon",
+    "legende": "Le message de WannaCry"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Pour Londres et Washington, c'est encore Lazarus.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "DÉCEMBRE 2017",
+    "points": [
+     {
+      "lon": -0.1,
+      "lat": 51.5,
+      "nom": "LONDRES"
+     },
+     {
+      "lon": -77,
+      "lat": 38.9,
+      "nom": "WASHINGTON"
+     },
+     {
+      "lon": 125.75,
+      "lat": 39,
+      "nom": "CORÉE DU NORD"
+     }
+    ],
+    "legende": "Les deux accusent Lazarus"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Puis ils trouvent une cible encore plus rentable : les cryptomonnaies.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/hacker.jpg",
+    "titre": "LES CRYPTOS",
+    "legende": "Une cible plus rentable",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "18",
+   "texte": "En 2022, le jeu vidéo Axie Infinity se fait vider : six cent vingt millions de dollars.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "AXIE INFINITY · 2022",
+    "valeur": 620,
+    "unite": "millions de dollars",
+    "couleur": "rouge",
+    "legende": "selon le FBI"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "En 2025, la plateforme Bybit : un milliard et demi.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "BYBIT · 2025",
+    "valeur": 1.5,
+    "decimales": 1,
+    "unite": "milliard de dollars",
+    "couleur": "rouge",
+    "legende": "selon le FBI"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Et fin octobre 2026, Binance : six virgule trois milliards. Le record absolu.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "BINANCE · 2026",
+    "valeur": 6.3,
+    "decimales": 1,
+    "unite": "milliards de dollars",
+    "couleur": "rouge",
+    "legende": "le plus gros vol de l'histoire"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Sony, le Bangladesh, WannaCry, Axie, Bybit, Binance… Pour les enquêteurs, toujours le même nom.",
+   "sequence": {
+    "type": "chronologie",
+    "titre": "LE MÊME NOM",
+    "hauteur": 760,
+    "dates": [
+     {
+      "an": "2014",
+      "label": "Sony Pictures"
+     },
+     {
+      "an": "2016",
+      "label": "Bangladesh"
+     },
+     {
+      "an": "2017",
+      "label": "WannaCry"
+     },
+     {
+      "an": "2022",
+      "label": "Axie Infinity"
+     },
+     {
+      "an": "2025",
+      "label": "Bybit"
+     },
+     {
+      "an": "2026",
+      "label": "Binance"
+     }
+    ]
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Et ils ont une autre méthode, plus discrète : se faire embaucher.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-17-lazarus/ordinateurs.jpg",
+    "titre": "SE FAIRE EMBAUCHER",
+    "legende": "Une méthode plus discrète",
+    "zoom": [
+     1,
+     1.1
+    ],
+    "prompt": "A suburban house living room at night filled with metal shelves holding dozens of open laptops with glowing blank screens, tangled cables on the floor, drawn curtains, no people"
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Selon la justice américaine, des informaticiens nord-coréens décrochent des emplois à distance, sous de fausses identités.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LES FAUX EMPLOYÉS",
+    "entete": "JUSTICE AMÉRICAINE",
+    "lignes": [
+     "Emplois à distance",
+     "Identités : fausses",
+     "Des dizaines d'entreprises"
+    ],
+    "surligne": [
+     "fausses"
+    ]
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Aux États-Unis, des complices gardent leurs ordinateurs chez eux, pour faire croire qu'ils travaillent sur place.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-17-lazarus/ordinateurs.jpg",
+    "titre": "LES « FERMES »",
+    "legende": "Des ordinateurs chez des complices",
+    "zoom": [
+     1.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "id": "25",
+   "texte": "En septembre, le FBI a encore fouillé plus de quarante de ces « fermes », au Texas.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-17-lazarus/ordinateurs.jpg",
+    "titre": "TEXAS · SEPTEMBRE 2026",
+    "legende": "Plus de 40 « fermes » fouillées",
+    "tampon": "SAISI",
+    "zoom": [
+     1.2,
+     1.3
+    ]
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Mais pourquoi voler autant ? Selon des experts de l'ONU, ces vols rapporteraient environ la moitié des devises du pays…",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "LA MOITIÉ",
+    "taille": 130,
+    "sous": "des devises du pays, selon l'ONU"
+   }
+  },
+  {
+   "id": "27",
+   "texte": "… et serviraient à financer ses programmes militaires.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/lingots.jpg",
+    "titre": "POUR LE RÉGIME",
+    "legende": "Selon les experts de l'ONU",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Alors pourquoi personne n'est arrêté ? Les États-Unis ont bien inculpé plusieurs Nord-Coréens.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/tribunal.jpg",
+    "titre": "INCULPÉS",
+    "legende": "Par la justice américaine",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "29",
+   "texte": "Mais ils sont en Corée du Nord. Hors d'atteinte.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "HORS D'ATTEINTE",
+    "taille": 100,
+    "sous": "Aucun n'a jamais été jugé"
+   }
+  },
+  {
+   "id": "30",
+   "texte": "Pyongyang dément tout. Et pour Binance, même Donald Trump a dit : « On ne sait pas si c'est la Corée du Nord. »",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "« ON NE SAIT PAS »",
+    "taille": 90,
+    "sous": "Donald Trump, sur Binance"
+   }
+  },
+  {
+   "id": "31",
+   "texte": "Dossier toujours ouvert.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "AFFAIRE Nº 17",
+     "LAZARUS"
+    ],
+    "texte": "EN COURS"
+   }
+  },
+  {
+   "id": "32",
+   "texte": "Et toi ? Réponds 1 : on finira par les arrêter. Ou 2 : jamais. Et abonne-toi.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}
