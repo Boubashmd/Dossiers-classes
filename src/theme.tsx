@@ -1,7 +1,7 @@
 import React from "react";
 import { Easing, interpolate, staticFile } from "remotion";
 
-// Charte « Dossiers Classés »
+// Charte « Dossiers Décryptés »
 export const NUIT = "#0B1626";
 export const NUIT2 = "#16304F";
 export const NUIT_NOIRE = "#070E1A";

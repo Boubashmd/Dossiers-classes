@@ -1,7 +1,7 @@
-# Dossiers Classés
+# Dossiers Décryptés (ex-Dossiers Classés)
 
 Chaîne de récits animés d'affaires vraies et sourcées (TikTok d'abord).
-Chaque épisode dure environ 3 minutes : accroche avec une vraie photo d'archive, générique, récit animé phrase par phrase, fin « DOSSIER CLASSÉ » et appel aux commentaires.
+Chaque épisode dure environ 3 minutes : accroche avec une vraie photo d'archive, générique, récit animé phrase par phrase, fin « DOSSIER DÉCRYPTÉ » et appel aux commentaires.
 
 La vidéo est fabriquée par **GitHub Actions** avec **Remotion** (vidéo en code React). La voix vient d'**ElevenLabs** (ta voix « voix 4 dossiers classés »). Rien à installer sur ton Mac.
 
@@ -68,7 +68,7 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 | `accroche` | **Ouverture recommandée (depuis l'épisode 10)** : photo plein écran + gros titre jaune visibles dès la 1re image, voix dès 0 s | `photo`, `titre`, `sous`, `couleur` (photo en couleurs), `visageY`, `titreTop`, `taille` |
 | `pochette` | Ancienne ouverture : dossier qui s'ouvre sur la vraie photo (démarre lentement, déconseillée) | `photo`, `visage {x,y}`, `etiquette`, `legende` |
 | `choc` | Phrase choc en jaune sur la photo assombrie | `photo`, `visage` |
-| `generique` | Enquêteur dans l'ombre + « DOSSIERS CLASSÉS » | `sousTitre` |
+| `generique` | Enquêteur dans l'ombre + « DOSSIERS DÉCRYPTÉS » | `sousTitre` |
 | `fiche` | Personnage + nom + infos clés | `personnage`, `nom`, `infos[]` |
 | `scene` | Décor + personnages + accessoires | `decor`, `personnages[]`, `tampon`, `legende`, `cartes`, `billets`, `corde`, `gyrophare`, `menottes` |
 | `icones` | Bulles qui apparaissent une à une | `grand`, `items[]` |
@@ -82,7 +82,7 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 | `barre` | Mot barré en rouge, personnage tête basse | `mot`, `personnage` |
 | `tour` | Tour Eiffel (rouille, démontage, « À VENDRE », police) | `rouille`, `casse`, `etiquette`, `police` |
 | `chronologie` | Les grandes dates | `dates[]` |
-| `fin` | Le dossier se referme, tampon « DOSSIER CLASSÉ » | `etiquette` |
+| `fin` | Le dossier se referme, tampon « DOSSIER DÉCRYPTÉ » (par défaut) | `etiquette` |
 | `cta` | Bulle « Ton prochain dossier ? » + s'abonner | `bulle` |
 | `carte_med` | Carte de l'Europe et de la Méditerranée (vrais contours) | `zones[]` (afrique, sicile, sardaigne, grece, espagne), `lieux[]` (nom, lon, lat, style : point, cible, barre), `fleches[]` (de, vers, label) |
 | `pyramide` | L'argent des nouveaux remonte vers les anciens | `mode` (construit, grandit, vacille, ecroule, nom, duo), `etages`, `nom`, `tampon`, `gauche`/`droite` (duo) |
@@ -145,7 +145,7 @@ On pioche les API dans le catalogue [public-apis](https://github.com/public-apis
 5. **Citer la source** quand on montre une donnée ou une image.
 6. Noter ici chaque API ajoutée, avec sa date et son état (`à brancher`, `branchée`, `abandonnée`).
 
-### API retenues pour Dossiers Classés (06/11/2026, toutes « à brancher »)
+### API retenues pour Dossiers Décryptés (06/11/2026, toutes « à brancher »)
 
 | API | Clé | Sert à | Test |
 |---|---|---|---|

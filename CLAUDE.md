@@ -1,6 +1,6 @@
-# Dossiers Classés — consignes pour Claude Code
+# Dossiers Décryptés — consignes pour Claude Code
 
-Chaîne TikTok de récits animés d'affaires vraies et sourcées (en français). Vidéo fabriquée avec Remotion 4.0.300.
+Chaîne TikTok **Dossiers Décryptés** (ancien nom : Dossiers Classés, changé le 08/11/2026 ; identifiant @dossiersdecryptes) : récits animés d'affaires vraies et sourcées, et depuis le 08/11/2026 des « dossiers expliqués » (fonctionnement d'un système, fait de société : retraite, chômage…), toujours neutres et sourcés (sources officielles : COR, Cour des comptes, Unédic, INSEE, service-public.fr). En français. Vidéo fabriquée avec Remotion 4.0.300.
 Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais toucher à ces projets.
 
 ## L'utilisateur
@@ -31,6 +31,7 @@ Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais touc
 - Couleurs : bleu nuit #0B1626, crème #ECE6D8, jaune #FFD400, rouge #E6504A ; police Poppins.
 
 ## Logo (refonte du 07/11/2026 : « le dossier qui regarde »)
+- Nom dessiné : DOSSIERS + tampon rouge DÉCRYPTÉS (les deux É portent l'accent en forme d'œil). Script qui redessine les SVG : `scripts/logo/build_decryptes.py` (besoin de fonttools). Images de marque (profil, bannière, logos PNG) : compositions `Profil`, `Banniere`, `LogoHorizontal`, `LogoVertical` (`src/Marque.tsx`).
 - Fichiers dans `public/logo/` : `horizontal-couleur.svg`, `vertical-couleur.svg`, `symbole-couleur.svg`, `symbole-blanc.svg` (transparents, pour fond bleu nuit). Composants dans `src/Logo.tsx` : `Signature` (en-tête de l'accroche, de la couverture et du carrousel) et `Filigrane`.
 - Filigrane : symbole blanc à 60 % en haut à gauche, de 1 s jusqu'à la séquence `cta`/`fin` (qui montre le logo). Désactivable avec `"filigrane": false` dans `config.json`. Jamais à droite ni en bas (boutons et légende TikTok).
 - Ne pas retaper le nom avec une police, ne pas déformer ni recolorer le logo. Règles complètes : guide d'usage du kit du logo.

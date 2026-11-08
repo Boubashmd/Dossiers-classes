@@ -1,11 +1,11 @@
 import React from "react";
 import { Img, interpolate, staticFile, useCurrentFrame } from "remotion";
 
-// Logo de la chaîne (refonte du 07/11/2026 : « le dossier qui regarde »).
+// Logo de la chaîne (« le dossier qui regarde », 07/11/2026 ; nom « Dossiers Décryptés » depuis le 08/11/2026).
 // Fichiers dans public/logo/ (originaux et règles d'usage : kit du logo, dossier svg/ et guide/).
 const C = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
-/** Signature en haut d'écran : symbole + DOSSIERS + tampon CLASSÉS, centrée. */
+/** Signature en haut d'écran : symbole + DOSSIERS + tampon DÉCRYPTÉS, centrée. */
 export const Signature: React.FC<{ top: number; largeur?: number }> = ({ top, largeur = 400 }) => (
   <Img
     src={staticFile("logo/horizontal-couleur.svg")}

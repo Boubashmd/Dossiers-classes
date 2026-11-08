@@ -460,7 +460,7 @@ const Choc: React.FC<SeqProps> = ({ p, dur, texte }) => {
 };
 
 // ============================================================================================
-// 3. GÉNÉRIQUE — enquêteur dans l'ombre + « DOSSIERS CLASSÉS » (commence à 0,9 s de l'intro).
+// 3. GÉNÉRIQUE — enquêteur dans l'ombre + « DOSSIERS DÉCRYPTÉS » (commence à 0,9 s de l'intro).
 // ============================================================================================
 const Generique: React.FC<SeqProps> = ({ p }) => (
   <Sequence from={-28}>
@@ -1167,14 +1167,14 @@ const Cta: React.FC<SeqProps> = ({ p }) => {
         <div style={{ background: ROUGE, borderRadius: 60, padding: "26px 70px", ...txt(58, "#FFFFFF"), boxShadow: "0 16px 30px rgba(0,0,0,.4)" }}>+ S'abonner</div>
       </div>
       <Texte top={1240} size={46} color={GRIS} k={prog(f, 60, 14)}>
-        @dossiersclasses
+        @dossiersdecryptes
       </Texte>
     </AbsoluteFill>
   );
 };
 
 // ============================================================================================
-// 18. FIN — la pochette se referme, tampon « DOSSIER CLASSÉ ».
+// 18. FIN — la pochette se referme, tampon « DOSSIER DÉCRYPTÉ ».
 // ============================================================================================
 const Fin: React.FC<SeqProps> = ({ p, dur }) => {
   const f = useCurrentFrame();
@@ -1208,7 +1208,7 @@ const Fin: React.FC<SeqProps> = ({ p, dur }) => {
           </div>
         </div>
       </div>
-      <Tampon texte={p.texte || "DOSSIER CLASSÉ"} k={ressort(f, fps, tamponA, { damping: 9, stiffness: 230 })} top={900} size={78} />
+      <Tampon texte={p.texte || "DOSSIER DÉCRYPTÉ"} k={ressort(f, fps, tamponA, { damping: 9, stiffness: 230 })} top={900} size={78} />
     </AbsoluteFill>
   );
 };

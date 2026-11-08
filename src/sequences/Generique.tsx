@@ -2,7 +2,7 @@ import React from "react";
 import config from "../../config.json";
 import { AbsoluteFill, Audio, Easing, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 
-// Générique « Dossiers Classés » : la lumière tombe, l'enquêteur apparaît, ses yeux s'allument, le tampon claque.
+// Générique « Dossiers Décryptés » : la lumière tombe, l'enquêteur apparaît, ses yeux s'allument, le tampon claque.
 const NUIT = "#070E1A";
 const CREME = "#ECE6D8";
 const JAUNE = "#FFD400";
@@ -177,13 +177,13 @@ export const Intro: React.FC<{ sousTitre?: string; personnage?: boolean }> = ({ 
                 padding: "0 40px 8px",
                 fontFamily: "Poppins",
                 fontWeight: 700,
-                fontSize: 128,
+                fontSize: 100,
                 letterSpacing: 14,
                 color: ROUGE,
                 lineHeight: 1.15,
               }}
             >
-              CLASSÉS
+              DÉCRYPTÉS
             </div>
           </div>
         )}

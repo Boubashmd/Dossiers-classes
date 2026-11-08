@@ -2,7 +2,7 @@
   "name": "dossiers-classes",
   "version": "1.0.0",
   "private": true,
-  "description": "Chaîne « Dossiers Classés » : récits animés d'affaires vraies, fabriqués avec Remotion",
+  "description": "Chaîne « Dossiers Décryptés » : récits animés d'affaires vraies, fabriqués avec Remotion",
   "scripts": {
     "apercu": "node scripts/preparer.mjs episodes/affaire-01-lustig.json --sans-voix",
     "studio": "remotion studio src/index.ts",
