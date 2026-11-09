@@ -41,6 +41,7 @@ import { Couronne, Vitrine } from "../dessins/casse";
 import { Intro } from "./Generique";
 import { CarteMed } from "./CarteMed";
 import { CarteMonde, Courbe, Pyramide, Suite, Suspects } from "./Finance";
+import { Barres } from "./Barres";
 import config from "../../config.json";
 
 // --------------------------------------------------------------------------------------------
@@ -770,7 +771,9 @@ const ObjetDessin: React.FC<{ p: any; dur: number; f: number; k: number }> = ({ 
 // ============================================================================================
 const Compteur: React.FC<SeqProps> = ({ p, dur }) => {
   const f = useCurrentFrame();
-  const v = interpolate(f, [8, Math.max(20, dur - 20)], [0, p.valeur], { ...C, easing: io });
+  // p.fin (0 à 1, optionnel) : le compteur s'arrête à cette fraction de la ligne puis reste affiché (défaut : 20 images avant la fin)
+  const fin = p.fin ? Math.max(20, Math.round(dur * p.fin)) : Math.max(20, dur - 20);
+  const v = interpolate(f, [8, fin], [0, p.valeur], { ...C, easing: io });
   return (
     <AbsoluteFill>
       <Titre texte={p.titre} k={prog(f, 0, 10)} />
@@ -793,7 +796,7 @@ const Compteur: React.FC<SeqProps> = ({ p, dur }) => {
             {p.unite || "jours"}
           </Texte>
           {p.legende && (
-            <Texte top={1150} size={52} color={GRIS} k={prog(f, dur - 30, 12)}>
+            <Texte top={1150} size={52} color={GRIS} k={prog(f, p.fin ? fin : dur - 30, 12)}>
               {p.legende}
             </Texte>
           )}
@@ -994,7 +997,7 @@ const Secret: React.FC<SeqProps> = ({ p }) => {
       <Sfx at={8} son="pop" volume={0.5} />
       <Titre texte={p.titre} k={prog(f, 0, 10)} />
       <div style={{ position: "absolute", top: p.personnage === "aucun" ? 560 : 330, width: "100%", display: "flex", flexDirection: "column", alignItems: "center", transform: `scale(${k})`, opacity: Math.min(1, k * 1.4) }}>
-        <Cadenas />
+        {p.cadenas !== false && <Cadenas />}
         <div style={txt(p.taille || 80, JAUNE, 700, { letterSpacing: 12, marginTop: 10, textAlign: "center" })}>{p.texte || "SECRET"}</div>
         {p.sous && <div style={{ ...txt(50, CREME, 500, { marginTop: 24, textAlign: "center" }), opacity: prog(f, 20, 12) }}>{p.sous}</div>}
       </div>
@@ -1274,6 +1277,7 @@ export const SEQUENCES: Record<string, React.FC<SeqProps>> = {
   courbe: Courbe,
   carte_monde: CarteMonde,
   suspects: Suspects,
+  barres: Barres,
 };
 
 export const RenduSequence: React.FC<SeqProps> = (props) => {

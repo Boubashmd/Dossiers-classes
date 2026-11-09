@@ -74,10 +74,11 @@ Les zips et les scripts `maj-*.sh` restent sur ton Mac : ils ne partent jamais s
 | `icones` | Bulles qui apparaissent une à une | `grand`, `items[]` |
 | `carte` | Trajet en pointillés entre des lieux | `points[]`, `voyageur` (bateau, sac, avion) |
 | `objet` | La boîte à billets (apparition, billet, vue en coupe), ou un objet dessiné | `mode`, ou `dessin` (mallette, flacon, photo, enveloppe, coupon, voiture, mallette_bombe, parachutes, cravate, perceuse, accordeon, radeau, tete, joconde, cadre_vide, malle, vitrine (option `vide`), couronne (option `abimee`), portable (écrans : alerte, rancon, fuite, graphique)) + `legende`, `tampon` |
-| `compteur` | Horloge ou nombre qui défile | `mode`, `valeur`, `unite`, `milliers`, `taille` |
+| `compteur` | Horloge ou nombre qui défile | `mode`, `valeur`, `unite`, `milliers`, `decimales`, `taille`, `couleur`, `legende`, `fin` (0 à 1 : le nombre s'arrête à cette fraction de la ligne puis reste affiché ; défaut : juste avant la fin) |
 | `chiffre` | Somme d'argent qui monte, option « × 2 » | `valeur`, `unite`, `x2`, `sous` |
+| `barres` | Comparaison de 2 à 4 montants : les barres montent une à une, les chiffres défilent | `titre`, `barres[]` (label, valeur, sous, couleur : jaune, rouge, vert, gris, creme), `unite`, `max`, `surligne` (index mis en avant), `ecart` {de, a, texte}, `legende` |
 | `document` | Coupure de presse, papier à en-tête, affiche, carte de visite, lettre, rapport, télégramme, message codé, billet d'avion (`champs[]`) | `genre`, `manchette`, `entete`, `lignes[]` (« ■ » = ligne caviardée), `surligne[]`, `tampon` |
-| `secret` | Cadenas (+ Lustig qui fait « chut » par défaut) | `texte`, `sous`, `personnage` (« aucun » pour le cadenas seul) |
+| `secret` | Cadenas (+ Lustig qui fait « chut » par défaut) | `texte`, `sous`, `personnage` (« aucun » pour le cadenas seul), `cadenas: false` (texte seul, sans cadenas : carte-titre des dossiers expliqués) |
 | `flux` | Un sac ou une valise passe d'un personnage à l'autre | `de`, `vers`, `objet`, `retour`, `mot` |
 | `barre` | Mot barré en rouge, personnage tête basse | `mot`, `personnage` |
 | `tour` | Tour Eiffel (rouille, démontage, « À VENDRE », police) | `rouille`, `casse`, `etiquette`, `police` |

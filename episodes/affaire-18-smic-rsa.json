@@ -1,0 +1,525 @@
+{
+ "id": "affaire-18-smic-rsa",
+ "numero": 18,
+ "titre": "SMIC ou RSA : qui gagne vraiment ?",
+ "personnage": "SMIC et RSA",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-18-smic-rsa/accroche.jpg",
+  "legende": "Illustration",
+  "credit": "Illustrations générées par IA (Gemini), d'après des chiffres officiels sourcés.",
+  "visage": {
+   "x": 384,
+   "y": 480
+  }
+ },
+ "publication": {
+  "accroche": "SMIC ou RSA : qui gagne vraiment ? Les chiffres officiels de 2026 : ce que touche une personne au RSA, à mi-temps et à temps plein au SMIC, la fraude sociale (14 milliards par an : qui fraude vraiment ?) et les milliards jamais réclamés. 📂 Dossier sourcé",
+  "sources": "DREES (cas types 2025 ; non-recours au RSA, mai 2026 ; non-recours à la prime d'activité, juillet 2026) ; HCFiPS (note annuelle sur les fraudes sociales, janvier 2026, d'après la Cnaf) ; calcul OpenFisca-France (règles d'octobre 2026, personne seule, loyer 450 €) ; revalorisation du 1er avril 2026 (RSA, prime d'activité) ; SMIC au 1er juin 2026 ; loi pour le plein emploi (RSA, 2025).",
+  "hashtags_episode": [
+   "#smic",
+   "#rsa"
+  ],
+  "commentaire_epingle": "📂 Ton avis : 1 = le travail ne paie pas assez, 2 = les aides sont trop faciles à obtenir 👇 Chiffres officiels (DREES, HCFiPS, 2026), sources dans la description. On débat dans le respect 🙏"
+ },
+ "couverture": {
+  "titre": "SMIC OU RSA : QUI GAGNE VRAIMENT ?",
+  "sous": "Les vrais chiffres de 2026",
+  "couleur": true
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Travailler au SMIC… ou rester au RSA ?",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-18-smic-rsa/accroche.jpg",
+    "couleur": true,
+    "titre": "SMIC OU RSA : QUI GAGNE VRAIMENT ?",
+    "sous": "Dossier nº 18 · Les vrais chiffres",
+    "taille": 80,
+    "prompt": "An antique brass balance scale on a wooden desk at night: on one pan a worker's hard hat and work gloves, on the other pan a sealed official envelope and a few coins, dramatic soft light from above"
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Tout le monde a un avis. Voici les vrais chiffres.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-18-smic-rsa/accroche.jpg",
+    "texte": "LES VRAIS CHIFFRES"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Prenons une personne seule, sans enfant, qui paie un loyer.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/dossier.jpg",
+    "titre": "LE CAS TYPE",
+    "legende": "Personne seule, sans enfant, locataire",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Au RSA, elle touche environ huit cent quatre-vingts euros par mois, aide au logement comprise.",
+   "sequence": {
+    "type": "barres",
+    "titre": "PAR MOIS",
+    "unite": "€",
+    "max": 1710,
+    "barres": [
+     {
+      "label": "RSA",
+      "sous": "+ aide au logement",
+      "valeur": 880,
+      "couleur": "gris"
+     }
+    ],
+    "legende": "Cas type 2026 : personne seule, loyer 450 € · DREES, calcul OpenFisca"
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Si elle travaille à temps plein au SMIC : environ mille sept cent dix euros, avec la prime d'activité.",
+   "sequence": {
+    "type": "barres",
+    "titre": "PAR MOIS",
+    "unite": "€",
+    "max": 1710,
+    "barres": [
+     {
+      "label": "RSA",
+      "sous": "+ aide au logement",
+      "valeur": 880,
+      "couleur": "gris"
+     },
+     {
+      "label": "Temps plein",
+      "sous": "au SMIC",
+      "valeur": 1710,
+      "couleur": "jaune"
+     }
+    ],
+    "legende": "Cas type 2026 : personne seule, loyer 450 € · DREES, calcul OpenFisca"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Soit huit cent trente euros de plus chaque mois. Le travail paie.",
+   "sequence": {
+    "type": "barres",
+    "titre": "PAR MOIS",
+    "unite": "€",
+    "max": 1710,
+    "barres": [
+     {
+      "label": "RSA",
+      "sous": "+ aide au logement",
+      "valeur": 880,
+      "couleur": "gris"
+     },
+     {
+      "label": "Temps plein",
+      "sous": "au SMIC",
+      "valeur": 1710,
+      "couleur": "jaune"
+     }
+    ],
+    "surligne": 1,
+    "ecart": {
+     "de": 0,
+     "a": 1,
+     "texte": "+ 830 € PAR MOIS"
+    },
+    "legende": "Cas type 2026 : personne seule, loyer 450 € · DREES, calcul OpenFisca"
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Mais à mi-temps au SMIC : environ mille deux cent vingt euros. Seulement trois cent quarante de plus que le RSA.",
+   "sequence": {
+    "type": "barres",
+    "titre": "PAR MOIS",
+    "unite": "€",
+    "max": 1710,
+    "barres": [
+     {
+      "label": "RSA",
+      "sous": "+ aide au logement",
+      "valeur": 880,
+      "couleur": "gris"
+     },
+     {
+      "label": "Mi-temps",
+      "sous": "au SMIC",
+      "valeur": 1220,
+      "couleur": "creme"
+     },
+     {
+      "label": "Temps plein",
+      "sous": "au SMIC",
+      "valeur": 1710,
+      "couleur": "jaune"
+     }
+    ],
+    "surligne": 1,
+    "ecart": {
+     "de": 0,
+     "a": 1,
+     "texte": "+ 340 € SEULEMENT"
+    },
+    "legende": "Cas type 2026 : personne seule, loyer 450 € · DREES, calcul OpenFisca"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Pourquoi si peu ? Parce que quand le salaire monte, le RSA et l'aide au logement baissent. La prime d'activité ne compense qu'en partie.",
+   "sequence": {
+    "type": "icones",
+    "grand": "Pourquoi ?",
+    "items": [
+     {
+      "label": "RSA",
+      "sous": "baisse"
+     },
+     {
+      "label": "LOGEMENT",
+      "sous": "l'aide baisse"
+     },
+     {
+      "label": "PRIME",
+      "sous": "compense en partie"
+     }
+    ]
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Résultat : même à temps plein, chaque heure travaillée ne rapporte qu'environ cinq euros et demi de plus que le RSA.",
+   "sequence": {
+    "type": "chiffre",
+    "titre": "PAR HEURE TRAVAILLÉE",
+    "valeur": 5.5,
+    "decimales": 1,
+    "unite": "€",
+    "sous": "de plus que le RSA (temps plein)"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Et c'est sans compter les frais pour aller travailler : le transport, la garde des enfants…",
+   "sequence": {
+    "type": "icones",
+    "grand": "Les frais…",
+    "items": [
+     {
+      "label": "TRANSPORT",
+      "sous": "pour y aller"
+     },
+     {
+      "label": "GARDE",
+      "sous": "des enfants"
+     }
+    ]
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Voilà d'où vient l'impression que travailler « ne vaut pas le coup ». À temps plein, c'est faux. À mi-temps, l'écart est mince.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "ÇA VAUT LE COUP ?",
+    "taille": 80,
+    "sous": "Temps plein : oui. Mi-temps : écart mince.",
+    "cadenas": false
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Et la fraude, alors ?",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/commun/loupe.jpg",
+    "texte": "ET LA FRAUDE ?"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Elle existe : environ quatorze milliards d'euros par an, selon un rapport officiel de janvier 2026.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "FRAUDE ESTIMÉE PAR AN",
+    "valeur": 14,
+    "unite": "milliards d'euros",
+    "couleur": "rouge",
+    "legende": "HCFiPS, janvier 2026",
+    "fin": 0.55
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Mais plus de la moitié, ce sont des cotisations sociales non payées : du travail non déclaré, chez des employeurs comme chez des indépendants.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-18-smic-rsa/chantier.jpg",
+    "titre": "PLUS DE LA MOITIÉ",
+    "legende": "Cotisations non payées : travail non déclaré",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A construction site at night lit by a single floodlight, silhouettes of workers carrying materials seen from behind, no faces, scaffolding and a concrete mixer"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Un peu plus d'un tiers vient des allocataires. Sur le RSA, le taux de fraude est estimé autour de quinze pour cent.",
+   "sequence": {
+    "type": "barres",
+    "titre": "QUI FRAUDE ?",
+    "unite": "%",
+    "max": 52,
+    "barres": [
+     {
+      "label": "Cotisations",
+      "sous": "travail non déclaré",
+      "valeur": 52,
+      "couleur": "rouge"
+     },
+     {
+      "label": "Allocataires",
+      "sous": "prestations",
+      "valeur": 36,
+      "couleur": "jaune"
+     },
+     {
+      "label": "Santé",
+      "sous": "professionnels",
+      "valeur": 12,
+      "couleur": "creme"
+     }
+    ],
+    "surligne": 1,
+    "legende": "RSA : taux de fraude estimé autour de 15 % · Cnaf, HCFiPS"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Le reste vient de professionnels de santé.",
+   "sequence": {
+    "type": "barres",
+    "titre": "QUI FRAUDE ?",
+    "unite": "%",
+    "max": 52,
+    "barres": [
+     {
+      "label": "Cotisations",
+      "sous": "travail non déclaré",
+      "valeur": 52,
+      "couleur": "rouge"
+     },
+     {
+      "label": "Allocataires",
+      "sous": "prestations",
+      "valeur": 36,
+      "couleur": "jaune"
+     },
+     {
+      "label": "Santé",
+      "sous": "professionnels",
+      "valeur": 12,
+      "couleur": "creme"
+     }
+    ],
+    "surligne": 2,
+    "legende": "Part de la fraude sociale estimée · HCFiPS, janvier 2026"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Et on en récupère peu : environ deux milliards détectés, et six cent quatre-vingt-un millions d'euros récupérés en 2024.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "RÉCUPÉRÉS EN 2024",
+    "valeur": 681,
+    "unite": "millions d'euros",
+    "legende": "sur 2 milliards détectés · HCFiPS",
+    "fin": 0.65
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Maintenant, l'inverse.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "L'INVERSE",
+    "taille": 120,
+    "sous": "Ceux qui ne demandent rien",
+    "cadenas": false
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Environ un foyer sur trois qui a droit au RSA ne le demande pas.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-18-smic-rsa/courrier.jpg",
+    "titre": "LES OUBLIÉS",
+    "legende": "Environ 1 foyer sur 3 ne demande pas le RSA",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A small kitchen table at night covered with unopened official envelopes and administrative forms, a cup of coffee and a desk lamp, nobody in the room"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Pour la prime d'activité, c'est environ un foyer sur deux.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "1 SUR 2",
+    "taille": 150,
+    "sous": "ne demande pas la prime d'activité",
+    "cadenas": false
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Les raisons : des démarches compliquées, la peur d'être mal vu, ou un gain jugé trop petit.",
+   "sequence": {
+    "type": "icones",
+    "grand": "Les freins",
+    "items": [
+     {
+      "label": "DÉMARCHES",
+      "sous": "trop compliquées"
+     },
+     {
+      "label": "PEUR",
+      "sous": "d'être mal vu"
+     },
+     {
+      "label": "GAIN",
+      "sous": "jugé trop petit"
+     }
+    ]
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Au total, plus de deux milliards d'euros de RSA ne sont pas réclamés chaque année.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "RSA NON RÉCLAMÉ PAR AN",
+    "valeur": 2,
+    "unite": "milliards d'euros",
+    "legende": "Plus de 2 milliards · DREES, 2026",
+    "fin": 0.55
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Et depuis 2025, le RSA a des contreparties : inscription à France Travail, et en principe au moins quinze heures d'activité par semaine, comme des formations ou des stages.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "DEPUIS 2025",
+    "entete": "RSA : LES CONTREPARTIES",
+    "lignes": [
+     "Inscription à France Travail",
+     "Au moins 15 h par semaine",
+     "Formations, stages, démarches"
+    ],
+    "surligne": [
+     "15 h"
+    ]
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Alors, qui gagne vraiment ?",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "ALORS ?",
+    "taille": 130,
+    "sous": "Qui gagne vraiment ?",
+    "cadenas": false
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Celui qui travaille à temps plein gagne nettement plus. Mais à temps partiel, l'écart reste faible.",
+   "sequence": {
+    "type": "barres",
+    "titre": "PAR MOIS",
+    "unite": "€",
+    "max": 1710,
+    "barres": [
+     {
+      "label": "RSA",
+      "sous": "+ aide au logement",
+      "valeur": 880,
+      "couleur": "gris"
+     },
+     {
+      "label": "Mi-temps",
+      "sous": "au SMIC",
+      "valeur": 1220,
+      "couleur": "creme"
+     },
+     {
+      "label": "Temps plein",
+      "sous": "au SMIC",
+      "valeur": 1710,
+      "couleur": "jaune"
+     }
+    ],
+    "surligne": 2,
+    "legende": "Cas type 2026 : personne seule, loyer 450 € · DREES, calcul OpenFisca"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "La fraude existe. Les droits oubliés aussi.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "texte": "LES DEUX EXISTENT",
+    "taille": 90,
+    "sous": "La fraude… et les droits oubliés",
+    "cadenas": false
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Dossier décrypté.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "DOSSIER Nº 18",
+     "SMIC OU RSA"
+    ],
+    "texte": "DOSSIER DÉCRYPTÉ"
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Et toi ? Réponds 1 : le travail ne paie pas assez. Ou 2 : les aides sont trop faciles à obtenir. Et abonne-toi.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}
