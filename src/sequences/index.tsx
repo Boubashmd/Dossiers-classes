@@ -436,6 +436,11 @@ const Choc: React.FC<SeqProps> = ({ p, dur, texte }) => {
   const k = ressort(f, fps, 4, { damping: 8, stiffness: 220 });
   const secousse = f >= 4 && f < 14 ? Math.sin(f * 3.3) * 10 * (1 - (f - 4) / 10) : 0;
   const flash = interpolate(f, [dur - 10, dur - 5, dur], [0, 0.9, 0], C);
+  // Photo sans « visage » (ex. une image commune : preparer ne le calcule que pour la photo de l'épisode) :
+  // on cadre l'image au centre au lieu de planter. Les images du projet sont en portrait 768 × 1344.
+  const srcW = p.srcW || 540;
+  const vis = p.visage || { x: srcW / 2, y: (p.srcH || srcW * 1.75) * 0.45 };
+  const ech = 2400 / srcW;
   return (
     <AbsoluteFill style={{ background: NUIT_NOIRE, transform: `translate(${secousse}px, ${secousse * 0.5}px)` }}>
       <Sfx at={4} son="choc" volume={0.8} />
@@ -445,8 +450,8 @@ const Choc: React.FC<SeqProps> = ({ p, dur, texte }) => {
           style={{
             position: "absolute",
             width: 2400,
-            left: 540 - p.visage.x * (2400 / (p.srcW || 540)),
-            top: 760 - p.visage.y * (2400 / (p.srcW || 540)),
+            left: 540 - vis.x * ech,
+            top: 760 - vis.y * ech,
             filter: "grayscale(1) sepia(.35) contrast(1.15) brightness(.45)",
           }}
         />
