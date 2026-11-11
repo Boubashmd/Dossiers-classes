@@ -1,0 +1,468 @@
+{
+ "id": "affaire-19-impots",
+ "numero": 19,
+ "titre": "Impôts : qui paie vraiment ?",
+ "personnage": "Impôts",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-19-impots/accroche.jpg",
+  "legende": "Illustration",
+  "credit": "Illustrations générées par IA (Gemini), d'après des chiffres officiels sourcés.",
+  "visage": {
+   "x": 384,
+   "y": 480
+  }
+ },
+ "publication": {
+  "accroche": "Impôts : qui paie vraiment ? Moins d'un foyer sur deux paie l'impôt sur le revenu… mais tout le monde paie la TVA et la CSG, qui rapportent plus. Les vrais chiffres, et le taux réel des plus riches selon l'IPP. 📂 Dossier sourcé",
+  "sources": "DGFiP (foyers imposés 2025 ; part de l'impôt sur le revenu payée par les 10 % les plus aisés) ; Insee (recettes 2025 en comptabilité nationale ; poids de la TVA selon le revenu, 2019) ; Institut des politiques publiques (note nº 92, juin 2023, données 2016) ; Fondation IFRAP (2025) ; calcul OpenFisca-France (seuil d'imposition, revenus 2025).",
+  "hashtags_episode": [
+   "#impots",
+   "#tva"
+  ],
+  "commentaire_epingle": "📂 Ton avis : 1 = les plus riches devraient payer plus, 2 = on paie déjà assez d'impôts 👇 Chiffres officiels (DGFiP, Insee, IPP), sources dans la description. On débat dans le respect 🙏"
+ },
+ "couverture": {
+  "titre": "IMPÔTS : QUI PAIE VRAIMENT ?",
+  "sous": "Les vrais chiffres",
+  "couleur": true
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "La moitié des Français ne paient pas d'impôts ?",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-19-impots/accroche.jpg",
+    "couleur": true,
+    "titre": "IMPÔTS : QUI PAIE VRAIMENT ?",
+    "sous": "Dossier nº 19 · Les vrais chiffres",
+    "taille": 84,
+    "prompt": "Stacks of coins of increasing height arranged like a staircase on a dark wooden desk, from a single coin to a tall column, an official sealed envelope and a fountain pen beside them, dramatic soft light from above, no text, no logos"
+   }
+  },
+  {
+   "id": "02",
+   "texte": "C'est vrai… et faux à la fois.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-19-impots/accroche.jpg",
+    "texte": "VRAI… ET FAUX"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Commençons par l'impôt sur le revenu, celui qu'on déclare chaque printemps.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/enveloppe.jpg",
+    "titre": "L'IMPÔT SUR LE REVENU",
+    "legende": "Celui qu'on déclare chaque printemps",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Sur près de quarante-deux millions de foyers, dix-neuf millions seulement le paient : quarante-six pour cent.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "PAIENT L'IMPÔT SUR LE REVENU",
+    "valeur": 46,
+    "unite": "% des foyers",
+    "legende": "19 millions sur 41,6 · DGFiP 2025",
+    "fin": 0.6
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Pourquoi ? Parce que les petits revenus ne sont pas imposés. Au SMIC, une personne seule ne paie rien.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "0 €",
+    "taille": 160,
+    "sous": "d'impôt sur le revenu au SMIC"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Elle commence à payer vers mille six cents euros net par mois.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "PERSONNE SEULE",
+    "entete": "IMPÔT 2026 (REVENUS 2025)",
+    "lignes": [
+     "Au SMIC (1 426 € net) : 0 €",
+     "Premiers euros vers 1 600 €",
+     "Seuil : 17 596 € imposables"
+    ],
+    "surligne": [
+     "1 600"
+    ]
+   }
+  },
+  {
+   "id": "07",
+   "texte": "En haut de l'échelle, les dix pour cent les plus aisés paient environ les trois quarts de cet impôt.",
+   "sequence": {
+    "type": "barres",
+    "titre": "QUI PAIE CET IMPÔT ?",
+    "unite": "%",
+    "max": 76,
+    "barres": [
+     {
+      "label": "Les 10 %",
+      "sous": "les plus aisés",
+      "valeur": 76,
+      "couleur": "jaune"
+     },
+     {
+      "label": "Les 90 %",
+      "sous": "tous les autres",
+      "valeur": 24,
+      "couleur": "gris"
+     }
+    ],
+    "surligne": 0,
+    "legende": "Part de l'impôt payée · DGFiP, revenus 2023"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Pour l'impôt sur le revenu, c'est donc vrai : une minorité paie l'essentiel.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "UNE MINORITÉ PAIE L'ESSENTIEL",
+    "taille": 66,
+    "sous": "… de l'impôt sur le revenu"
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Mais ce n'est pas le plus gros impôt de France.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/commun/billets.jpg",
+    "texte": "PAS LE PLUS GROS"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Le plus gros, c'est la TVA : environ deux cent dix milliards d'euros par an.",
+   "sequence": {
+    "type": "barres",
+    "titre": "CE QUE ÇA RAPPORTE",
+    "unite": "Md€",
+    "max": 209,
+    "barres": [
+     {
+      "label": "TVA",
+      "valeur": 209,
+      "couleur": "jaune"
+     }
+    ],
+    "legende": "Milliards d'euros en 2025 · Insee (provisoire)"
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Ensuite la CSG, prélevée sur les salaires, les retraites et les allocations : plus de cent cinquante milliards.",
+   "sequence": {
+    "type": "barres",
+    "titre": "CE QUE ÇA RAPPORTE",
+    "unite": "Md€",
+    "max": 209,
+    "barres": [
+     {
+      "label": "TVA",
+      "valeur": 209,
+      "couleur": "jaune"
+     },
+     {
+      "label": "CSG",
+      "valeur": 157,
+      "couleur": "creme"
+     }
+    ],
+    "surligne": 1,
+    "legende": "Milliards d'euros en 2025 · Insee (provisoire)"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "L'impôt sur le revenu arrive derrière, autour de cent milliards.",
+   "sequence": {
+    "type": "barres",
+    "titre": "CE QUE ÇA RAPPORTE",
+    "unite": "Md€",
+    "max": 209,
+    "barres": [
+     {
+      "label": "TVA",
+      "valeur": 209,
+      "couleur": "jaune"
+     },
+     {
+      "label": "CSG",
+      "valeur": 157,
+      "couleur": "creme"
+     },
+     {
+      "label": "Impôt",
+      "sous": "sur le revenu",
+      "valeur": 104,
+      "couleur": "gris"
+     }
+    ],
+    "surligne": 2,
+    "legende": "Milliards d'euros en 2025 · Insee (provisoire)"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Et la TVA, tout le monde la paie, à chaque achat. Même un enfant qui s'achète des bonbons.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-19-impots/courses.jpg",
+    "titre": "LA TVA",
+    "legende": "Sur presque tout ce qu'on achète",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A supermarket checkout conveyor belt at night with groceries, a bag of candies and a paper receipt, cash register in the background, nobody in the scene, no readable text, no logos"
+   }
+  },
+  {
+   "id": "14",
+   "texte": "La CSG aussi : neuf virgule deux pour cent sur les salaires, même au SMIC.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "CSG SUR LES SALAIRES",
+    "valeur": 9.2,
+    "decimales": 1,
+    "unite": "% sur les salaires",
+    "legende": "Même au SMIC",
+    "fin": 0.5
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Et en proportion de ce qu'ils gagnent, la TVA pèse environ deux fois plus lourd pour les plus modestes.",
+   "sequence": {
+    "type": "barres",
+    "titre": "LA TVA, EN % DU REVENU",
+    "unite": "%",
+    "max": 12,
+    "barres": [
+     {
+      "label": "Les 10 %",
+      "sous": "les plus modestes",
+      "valeur": 12,
+      "couleur": "jaune"
+     },
+     {
+      "label": "Les 10 %",
+      "sous": "les plus aisés",
+      "valeur": 5,
+      "couleur": "gris"
+     }
+    ],
+    "surligne": 0,
+    "legende": "Part du revenu payée en TVA · Insee"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Pourquoi ? Parce qu'ils dépensent presque tout ce qu'ils gagnent, quand les plus aisés peuvent en épargner une partie.",
+   "sequence": {
+    "type": "icones",
+    "grand": "L'épargne",
+    "items": [
+     {
+      "label": "MODESTES",
+      "sous": "presque tout dépensé"
+     },
+     {
+      "label": "AISÉS",
+      "sous": "une partie épargnée"
+     }
+    ]
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Donc non : en France, tout le monde paie des impôts.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "TOUT LE MONDE PAIE",
+    "taille": 70,
+    "sous": "TVA, CSG… même sans impôt sur le revenu"
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Et tout en haut de l'échelle ?",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/commun/lingots.jpg",
+    "texte": "ET TOUT EN HAUT ?"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Selon une étude de l'Institut des politiques publiques, les zéro virgule un pour cent les plus riches sont imposés à quarante-six pour cent.",
+   "sequence": {
+    "type": "barres",
+    "titre": "LE TAUX RÉEL TOUT EN HAUT",
+    "unite": "%",
+    "max": 46,
+    "barres": [
+     {
+      "label": "Les 0,1 %",
+      "sous": "les plus riches",
+      "valeur": 46,
+      "couleur": "gris"
+     }
+    ],
+    "legende": "Taux d'imposition global, données 2016 · IPP (2023)"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Mais pour les milliardaires, ce taux tombe à vingt-six pour cent.",
+   "sequence": {
+    "type": "barres",
+    "titre": "LE TAUX RÉEL TOUT EN HAUT",
+    "unite": "%",
+    "max": 46,
+    "barres": [
+     {
+      "label": "Les 0,1 %",
+      "sous": "les plus riches",
+      "valeur": 46,
+      "couleur": "gris"
+     },
+     {
+      "label": "Milliardaires",
+      "sous": "environ 75 foyers",
+      "valeur": 26,
+      "couleur": "rouge"
+     }
+    ],
+    "surligne": 1,
+    "ecart": {
+     "de": 0,
+     "a": 1,
+     "texte": "− 20 POINTS"
+    },
+    "legende": "Taux d'imposition global, données 2016 · IPP (2023)"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "La raison : leur fortune est surtout placée dans des sociétés, qui gardent leurs bénéfices. Ces bénéfices paient l'impôt sur les sociétés, moins lourd que l'impôt sur le revenu.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-19-impots/societes.jpg",
+    "titre": "LES SOCIÉTÉS",
+    "legende": "Les bénéfices restent dans l'entreprise",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A tall glass office tower at night seen from street level, a few lit windows, a closed safe deposit vault door visible through the lobby glass, nobody in the scene, no logos, no readable text"
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Ce calcul est contesté : pour la fondation IFRAP, un bénéfice resté dans l'entreprise n'est pas un revenu touché.",
+   "sequence": {
+    "type": "document",
+    "genre": "rapport",
+    "titre": "LE DÉBAT",
+    "entete": "DEUX LECTURES",
+    "lignes": [
+     "IPP : on compte ces bénéfices",
+     "IFRAP : pas un revenu touché"
+    ]
+   }
+  },
+  {
+   "id": "23",
+   "texte": "C'est tout le débat sur la taxation des très grandes fortunes.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "LE DÉBAT",
+    "taille": 120,
+    "sous": "Taxer plus les très grandes fortunes ?"
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Alors, qui paie vraiment ?",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "ALORS ?",
+    "taille": 130,
+    "sous": "Qui paie vraiment ?"
+   }
+  },
+  {
+   "id": "25",
+   "texte": "L'impôt sur le revenu : surtout les plus aisés. Les impôts dans leur ensemble : tout le monde. Et tout en haut, selon l'IPP, le taux redescend.",
+   "sequence": {
+    "type": "icones",
+    "grand": "Au final",
+    "items": [
+     {
+      "label": "IR",
+      "sous": "surtout les aisés"
+     },
+     {
+      "label": "TVA, CSG",
+      "sous": "tout le monde"
+     },
+     {
+      "label": "SOMMET",
+      "sous": "le taux redescend"
+     }
+    ]
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Dossier décrypté.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "DOSSIER Nº 19",
+     "IMPÔTS"
+    ],
+    "texte": "DOSSIER DÉCRYPTÉ"
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Et toi ? Réponds 1 : les plus riches devraient payer plus. Ou 2 : on paie déjà assez d'impôts en France. Et abonne-toi.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}
