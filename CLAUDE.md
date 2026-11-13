@@ -4,10 +4,10 @@ Chaîne TikTok **Dossiers Décryptés** (ancien nom : Dossiers Classés, changé
 Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais toucher à ces projets.
 
 ## L'utilisateur
-- Ingénieur IT débutant : lui donner les commandes une par une avec le résultat attendu.
+- Ingénieur IT débutant. **Depuis le 13/11/2026, il ne tape plus de commandes** : Claude (dans le projet claude.ai) pousse lui-même le fichier de l'épisode sur GitHub, puis l'utilisateur colle seulement un message à Claude Code, qui fait tout le reste sur le Mac (git pull, illustrations, vérifications, commit, push) sans lui demander de commandes. Ne lui demander une action que si rien d'autre n'est possible.
 - Ne jamais lui demander ses clés ou mots de passe (ElevenLabs : variable `ELEVENLABS_API_KEY`, qu'il règle lui-même).
 - Répondre d'abord aux questions avant d'agir. Jamais `git add -A` : ajouter seulement les fichiers modifiés.
-- Ne rien pousser sur GitHub sans son accord.
+- Ne rien pousser sur GitHub sans son accord (le message qu'il colle vaut accord pour le commit et le push qu'il décrit).
 
 ## Ligne éditoriale
 - Faits établis, au moins 2 sources par fait ; tout fait non prouvé est attribué (« selon… »).
@@ -16,8 +16,8 @@ Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais touc
 
 ## Illustrations (méthode hybride, depuis le 02/11/2026)
 - Script : `node scripts/generer-illustrations.mjs <fichier.json> [--refaire id1,id2]` (clé `GEMINI_API_KEY` dans le Terminal, jamais dans un fichier). Il ne génère que les images manquantes.
-- Coût : seule l'image d'**accroche** utilise le modèle Pro (~0,13 $) ; toutes les autres le modèle simple (~0,04 $). Budget visé : ~0,25–0,55 € par épisode.
-- Par épisode : 1 accroche + **3 à 6 illustrations propres à l'histoire** (séquence `illustration` avec `prompt`). Tout le reste en séquences codées gratuites (compteur, document, tampon, carte, chronologie…).
+- Coût : seule l'image d'**accroche** utilise le modèle Pro (~0,13 $) ; toutes les autres le modèle simple (~0,04 $). Budget visé : ~0,45–0,60 € par épisode (plus d'illustrations depuis le 13/11/2026).
+- Par épisode (depuis le 13/11/2026, à la demande de l'utilisateur : « ça donne plus envie ») : 1 accroche + **8 à 11 illustrations propres à l'histoire** (séquence `illustration` avec `prompt`), soit environ 5 de plus qu'avant selon les épisodes. Le reste en images communes et en séquences codées gratuites (compteur, document, tampon, carte, chronologie…).
 - **Bibliothèque commune** à réutiliser avant de générer quoi que ce soit : `public/illustrations/commun/<nom>.jpg` (JPG qualité 85 pour alléger le dépôt ; image de style : `reference.jpg`) (liste et prompts dans `bibliotheque/commune.json`) :
   tribunal, marteau, cellule, barreaux, menottes, police, interrogatoire, commissariat, loupe, dossier, billets, lingots, coffre, hacker, ecoute, camera, avion, aeroport, mappemonde, paris, newyork, bourse, journaux, ombre, journalistes, banque, diamants, enveloppe, horloge, empreinte.
 - Style imposé (champ `style` du JSON) + image de référence (`reference`) pour garder le même rendu. Jamais de visage reconnaissable, jamais de rendu photo.
@@ -46,6 +46,7 @@ Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais touc
 
 ## Fabrication en ligne
 GitHub Actions « Fabriquer un épisode » (`.github/workflows/fabriquer-episode.yml`), entrée `episode` = id, « avec voix ».
+Après le push des illustrations : si `gh` est installé et connecté (`gh auth status`), Claude Code lance lui-même le workflow (`gh workflow run fabriquer-episode.yml -f episode=<id> -f voix="avec voix"`), suit le run (`gh run watch`), puis télécharge la vidéo dans `<id>/` à la racine (voir « Livraison »). Sinon, il s'arrête après le push et le dit : Claude (projet) lance le workflow depuis GitHub. Ne jamais lancer deux fois le même épisode (vérifier `gh run list` avant).
 
 ## Livraison de la vidéo finale
 Toujours dans un dossier `<id>/` à la **racine** du projet (comme `affaire-11-louvre-2/`), avec 3 fichiers : `<id>.mp4`, `couverture.png`, `description.txt`. Jamais dans `sorties/` ni dans un sous-dossier. Ces dossiers ne sont pas versionnés (ne pas les ajouter à git).
