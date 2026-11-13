@@ -1,0 +1,448 @@
+{
+ "id": "affaire-20-hushpuppi",
+ "numero": 20,
+ "titre": "Hushpuppi, l'arnaqueur d'Instagram",
+ "personnage": "Hushpuppi",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-20-hushpuppi/accroche.jpg",
+  "legende": "Illustration",
+  "credit": "Illustrations générées par IA (Gemini), d'après des faits établis et sourcés.",
+  "visage": {
+   "x": 384,
+   "y": 480
+  }
+ },
+ "publication": {
+  "accroche": "Hushpuppi, l'arnaqueur d'Instagram : Rolls-Royce, jets privés, 2 millions d'abonnés… jusqu'à la nuit où la police de Dubaï frappe à sa porte. L'histoire vraie de Ramon Abbas, condamné à 11 ans de prison aux États-Unis. 📂 Dossier sourcé",
+  "sources": "Département de la Justice des États-Unis (condamnation du 7 novembre 2022) ; police de Dubaï (opération Fox Hunt 2, juin 2020) ; Bloomberg Businessweek (2021) ; Al Jazeera et NBC News (2022) ; The Guardian Nigeria (2020) ; Dubawa (vérification, décembre 2025).",
+  "hashtags_episode": [
+   "#hushpuppi",
+   "#nigeria"
+  ],
+  "commentaire_epingle": "📂 Ton avis : 1 = onze ans, c'est mérité, 2 = c'est trop peu 👇 Histoire vraie et sourcée (justice américaine, police de Dubaï), sources dans la description."
+ },
+ "couverture": {
+  "titre": "HUSHPUPPI : L'ARNAQUEUR D'INSTAGRAM",
+  "sous": "L'histoire vraie",
+  "couleur": true
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Des Rolls-Royce, des jets privés, deux millions d'abonnés… et derrière, des millions volés.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-20-hushpuppi/accroche.jpg",
+    "couleur": true,
+    "titre": "HUSHPUPPI : L'ARNAQUEUR D'INSTAGRAM",
+    "sous": "Dossier nº 20 · L'histoire vraie",
+    "taille": 76,
+    "prompt": "A luxury penthouse terrace at night overlooking the Dubai skyline, the silhouette of a man seen from behind holding a glowing smartphone, designer shopping bags at his feet and a luxury sports car parked far below, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Voici l'histoire de Hushpuppi.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-20-hushpuppi/accroche.jpg",
+    "texte": "HUSHPUPPI"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Tout commence à Lagos, au Nigeria, dans un quartier pauvre au bord de la lagune.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-20-hushpuppi/lagos.jpg",
+    "titre": "LAGOS, NIGERIA",
+    "legende": "Un quartier pauvre au bord de la lagune",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A poor waterfront neighborhood on the Lagos lagoon at dawn, wooden houses on stilts, small canoes, laundry lines, tin roofs, wide view, people only as tiny distant silhouettes, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Vers 2014, il part en Malaisie. Puis il s'installe à Dubaï.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "LE VOYAGE",
+    "points": [
+     {
+      "lon": 3.39,
+      "lat": 6.52,
+      "nom": "LAGOS"
+     },
+     {
+      "lon": 101.69,
+      "lat": 3.14,
+      "nom": "KUALA LUMPUR"
+     },
+     {
+      "lon": 55.27,
+      "lat": 25.2,
+      "nom": "DUBAÏ"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       3.39,
+       6.52
+      ],
+      "vers": [
+       101.69,
+       3.14
+      ],
+      "pointilles": true
+     },
+     {
+      "de": [
+       101.69,
+       3.14
+      ],
+      "vers": [
+       55.27,
+       25.2
+      ],
+      "a": 30
+     }
+    ],
+    "legende": "Selon Bloomberg"
+   }
+  },
+  {
+   "id": "05",
+   "texte": "À Dubaï, il vit dans un penthouse avec piscine, et il affiche tout sur Instagram.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-20-hushpuppi/penthouse.jpg",
+    "titre": "DUBAÏ",
+    "legende": "Un penthouse avec piscine privée",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A luxury penthouse living room at night with floor-to-ceiling windows over the Dubai skyline, a private pool on the balcony, designer bags and shoe boxes on a sofa, empty room, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Rolls-Royce, Bentley, jets privés… Il se fait appeler « Billionaire Gucci Master ».",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-20-hushpuppi/jet.jpg",
+    "titre": "« BILLIONAIRE GUCCI MASTER »",
+    "legende": "Plus de 2 millions d'abonnés",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A private jet on a tarmac at sunset with its stairs down, a red carpet and a luxury convertible car parked beside it, nobody around, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Officiellement, c'est un homme d'affaires. Il écrit même qu'il espère inspirer d'autres jeunes à le suivre sur ce chemin.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "« CE CHEMIN »",
+    "taille": 110,
+    "sous": "« J'espère inspirer d'autres jeunes à me suivre sur ce chemin » · Hushpuppi, sur Instagram"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Mais derrière la vitrine… il y a un tout autre métier.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/commun/ombre.jpg",
+    "texte": "LA FACE CACHÉE"
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Nuit du 8 juin 2020. À Dubaï, six équipes d'intervention de la police frappent en même temps.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-20-hushpuppi/raid.jpg",
+    "titre": "NUIT DU 8 JUIN 2020",
+    "legende": "Six raids en même temps · police de Dubaï",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "Silhouettes of a police tactical team seen from behind, entering the marble lobby of a luxury residential tower at night, flashlights beams, no weapons visible, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Hushpuppi est arrêté chez lui, avec onze autres personnes.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/menottes.jpg",
+    "titre": "12 ARRESTATIONS",
+    "legende": "Opération « Fox Hunt 2 » · police de Dubaï",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Selon la police de Dubaï, ils avaient plus de quarante millions de dollars en liquide…",
+   "sequence": {
+    "type": "compteur",
+    "titre": "EN LIQUIDE",
+    "valeur": 40.9,
+    "decimales": 1,
+    "unite": "millions de dollars",
+    "couleur": "rouge",
+    "legende": "Selon la police de Dubaï, juin 2020",
+    "fin": 0.55
+   }
+  },
+  {
+   "id": "12",
+   "texte": "… treize voitures de luxe, et les adresses de près de deux millions de victimes.",
+   "sequence": {
+    "type": "icones",
+    "grand": "Saisis",
+    "items": [
+     {
+      "label": "13",
+      "sous": "voitures de luxe"
+     },
+     {
+      "label": "12",
+      "sous": "arrestations"
+     },
+     {
+      "label": "1,9 M",
+      "sous": "adresses de victimes"
+     }
+    ]
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Début juillet, Dubaï le remet aux États-Unis. Pour le FBI, c'est l'un des blanchisseurs d'argent les plus prolifiques au monde.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/avion.jpg",
+    "titre": "DIRECTION LES ÉTATS-UNIS",
+    "legende": "Remis à la justice américaine · juillet 2020",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Que lui reproche la justice américaine ?",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/commun/dossier.jpg",
+    "texte": "LE DOSSIER"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Avec des complices, il participe à des arnaques par faux e-mails, pour détourner les virements d'entreprises. Puis il blanchit l'argent.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-20-hushpuppi/emails.jpg",
+    "titre": "LES FAUX E-MAILS",
+    "legende": "Des virements d'entreprises détournés",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "An empty office at night, a laptop glowing on a desk, paper bank transfer slips scattered around, a shadowy envelope shape reflected on the window, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Exemple : un homme d'affaires au Qatar cherche un prêt de quinze millions de dollars pour construire une école.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-20-hushpuppi/ecole.jpg",
+    "titre": "LE PROJET D'ÉCOLE",
+    "legende": "Un prêt de 15 millions de dollars",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "An architectural scale model of a modern school building on a wooden desk next to loan papers and a fountain pen, warm desk lamp, empty room, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "La bande lui réclame des frais, puis des « taxes », encore et encore.",
+   "sequence": {
+    "type": "icones",
+    "grand": "Les frais",
+    "items": [
+     {
+      "label": "FRAIS",
+      "sous": "pour un « compte »"
+     },
+     {
+      "label": "TAXES",
+      "sous": "« obligatoires »"
+     },
+     {
+      "label": "ENCORE",
+      "sous": "et encore"
+     }
+    ]
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Au final, Hushpuppi devra lui rembourser près de huit cent dix mille dollars.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "À REMBOURSER AU QATARI",
+    "valeur": 810,
+    "unite": "mille dollars",
+    "legende": "809 983 $ · justice américaine, 2022",
+    "fin": 0.6
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Avec une partie de cet argent, une montre de luxe à deux cent trente mille dollars lui est livrée à Dubaï.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-20-hushpuppi/montre.jpg",
+    "titre": "230 000 $",
+    "legende": "Une montre payée avec l'argent volé",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A luxury skeleton wristwatch resting in an open presentation box on black velvet, dramatic spotlight, no brand name, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Il s'offre même une deuxième nationalité, celle de Saint-Kitts-et-Nevis, grâce à un faux mariage.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-20-hushpuppi/passeport.jpg",
+    "titre": "UN FAUX MARIAGE",
+    "legende": "Pour un passeport de Saint-Kitts-et-Nevis",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A closed passport with a generic emblem lying on a marriage certificate next to two wedding rings, desk lamp, no real country emblem, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Et ce n'est pas tout : il aide aussi à blanchir près de quinze millions de dollars volés à une banque de Malte, par des pirates nord-coréens.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "BANQUE DE MALTE, 2019",
+    "valeur": 14.7,
+    "decimales": 1,
+    "unite": "millions de dollars",
+    "legende": "Volés par des pirates nord-coréens, selon les États-Unis",
+    "fin": 0.55
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Au total, il reconnaît avoir voulu blanchir plus de trois cents millions de dollars en dix-huit mois, même si une grande partie n'a jamais été obtenue.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "VISÉS EN 18 MOIS",
+    "valeur": 300,
+    "unite": "millions de dollars",
+    "couleur": "rouge",
+    "legende": "Selon ses aveux · une grande partie jamais obtenue",
+    "fin": 0.5
+   }
+  },
+  {
+   "id": "23",
+   "texte": "En avril 2021, il plaide coupable de blanchiment d'argent.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/tribunal.jpg",
+    "titre": "COUPABLE",
+    "legende": "Avril 2021 · tribunal fédéral de Los Angeles",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Le 7 novembre 2022, le juge le condamne à onze ans et trois mois de prison.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "11 ANS ET 3 MOIS",
+    "taille": 96,
+    "sous": "de prison fédérale · 7 novembre 2022"
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Fin 2025, une rumeur annonce sa libération. C'est faux : sa sortie est prévue en 2029.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/cellule.jpg",
+    "titre": "TOUJOURS EN PRISON",
+    "legende": "Sortie prévue en 2029",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Le chemin qu'il montrait aux jeunes s'arrête… derrière des barreaux.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/commun/barreaux.jpg",
+    "texte": "FIN DU CHEMIN"
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Dossier décrypté.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "DOSSIER Nº 20",
+     "HUSHPUPPI"
+    ],
+    "texte": "DOSSIER DÉCRYPTÉ"
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Et toi ? Réponds 1 : onze ans, c'est mérité. Ou 2 : c'est trop peu. Et abonne-toi.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}
