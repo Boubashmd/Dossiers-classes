@@ -8,7 +8,7 @@
  "photo": {
   "fichier": "illustrations/affaire-20-hushpuppi/accroche.jpg",
   "legende": "Illustration",
-  "credit": "Illustrations générées par IA (Gemini), d'après des faits établis et sourcés.",
+  "credit": "Illustrations générées par IA (Gemini), d'après des faits établis et sourcés. Captures : communiqués officiels du ministère américain de la Justice (justice.gov).",
   "visage": {
    "x": 384,
    "y": 480
@@ -16,7 +16,7 @@
  },
  "publication": {
   "accroche": "Hushpuppi, l'arnaqueur d'Instagram : Rolls-Royce, jets privés, 2 millions d'abonnés… jusqu'à la nuit où la police de Dubaï frappe à sa porte. L'histoire vraie de Ramon Abbas, condamné à 11 ans de prison aux États-Unis. 📂 Dossier sourcé",
-  "sources": "Département de la Justice des États-Unis (condamnation du 7 novembre 2022) ; police de Dubaï (opération Fox Hunt 2, juin 2020) ; Bloomberg Businessweek (2021) ; Al Jazeera et NBC News (2022) ; The Guardian Nigeria (2020) ; Dubawa (vérification, décembre 2025).",
+  "sources": "Département de la Justice des États-Unis (communiqués du 3 juillet 2020 et du 7 novembre 2022) ; police de Dubaï (opération Fox Hunt 2, juin 2020) ; Bloomberg Businessweek (2021) ; Al Jazeera et NBC News (2022) ; The Guardian Nigeria (2020) ; Dubawa (vérification, décembre 2025).",
   "hashtags_episode": [
    "#hushpuppi",
    "#nigeria"
@@ -46,9 +46,15 @@
    "id": "02",
    "texte": "Voici l'histoire de Hushpuppi.",
    "sequence": {
-    "type": "choc",
-    "photo": "illustrations/affaire-20-hushpuppi/accroche.jpg",
-    "texte": "HUSHPUPPI"
+    "type": "illustration",
+    "image": "illustrations/affaire-20-hushpuppi/selfie.jpg",
+    "titre": "RAMON ABBAS, ALIAS",
+    "legende": "HUSHPUPPI",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A flamboyant young man taking a mirror selfie in a luxury hotel suite at night, his face completely hidden behind his smartphone, wearing a head-to-toe designer outfit with an invented monogram pattern, designer shopping bags and shoe boxes at his feet, gold accents, nobody's face visible, no real brand logos, no readable text"
    }
   },
   {
@@ -150,12 +156,15 @@
    "id": "07",
    "texte": "Officiellement, c'est un homme d'affaires. Il écrit même qu'il espère inspirer d'autres jeunes à le suivre sur ce chemin.",
    "sequence": {
-    "type": "secret",
-    "personnage": "aucun",
-    "cadenas": false,
-    "texte": "« CE CHEMIN »",
-    "taille": 110,
-    "sous": "« J'espère inspirer d'autres jeunes à me suivre sur ce chemin » · Hushpuppi, sur Instagram"
+    "type": "illustration",
+    "image": "illustrations/affaire-20-hushpuppi/instagram.jpg",
+    "titre": "« CE CHEMIN »",
+    "legende": "« J'espère inspirer d'autres jeunes… »",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A hand holding a smartphone in the dark, the screen shows a social media profile feed: a grid of small luxury photos (a white luxury car, a private jet, a gold watch, designer bags, a yacht, a city skyline at night), generic interface with heart icons, no real app logo, nobody's face visible, no readable text"
    }
   },
   {
@@ -250,9 +259,15 @@
    "id": "14",
    "texte": "Que lui reproche la justice américaine ?",
    "sequence": {
-    "type": "choc",
-    "photo": "illustrations/commun/dossier.jpg",
-    "texte": "LE DOSSIER"
+    "type": "illustration",
+    "image": "illustrations/affaire-20-hushpuppi/communique-2020.jpg",
+    "titre": "LE DOSSIER",
+    "legende": "Le communiqué officiel",
+    "zoom": [
+     1,
+     1.12
+    ],
+    "trace": false
    }
   },
   {
@@ -393,12 +408,17 @@
    "id": "24",
    "texte": "Le 7 novembre 2022, le juge le condamne à onze ans et trois mois de prison.",
    "sequence": {
-    "type": "secret",
-    "personnage": "aucun",
-    "cadenas": false,
-    "texte": "11 ANS ET 3 MOIS",
-    "taille": 96,
-    "sous": "de prison fédérale · 7 novembre 2022"
+    "type": "illustration",
+    "image": "illustrations/affaire-20-hushpuppi/communique-2022.jpg",
+    "titre": "LE VERDICT",
+    "legende": "11 ans et 3 mois de prison",
+    "zoom": [
+     1,
+     1.12
+    ],
+    "trace": false,
+    "tampon": "CONDAMNÉ",
+    "tamponTop": 650
    }
   },
   {
