@@ -12,7 +12,8 @@ Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais touc
 ## Ligne éditoriale
 - Faits établis, au moins 2 sources par fait ; tout fait non prouvé est attribué (« selon… »).
 - Suspects non jugés : ne pas les nommer. Pas de mots sensibles écrits à l'écran (bombe, arme…), pas d'explication technique de piratage, ne jamais valoriser un criminel (modération TikTok).
-- Illustrations : en test depuis le 02/11/2026, des illustrations générées par IA (style gravure blanche sur bleu nuit) ; jamais de fausses photos réalistes ni de visages reconnaissables.
+- Illustrations : depuis le 02/11/2026, des illustrations générées par IA (style gravure blanche sur bleu nuit) ; une image générée par IA n'imite jamais une vraie photo et ne montre jamais de visage reconnaissable.
+- **Vraies photos (décision de l'utilisateur, 13/11/2026)** : autorisées sur toutes les nouvelles vidéos, en couverture comme dans la vidéo, visages compris, même sans droits libres (photos de presse, Instagram, documents officiels). L'utilisateur accepte le risque de retrait par TikTok. Toujours créditer la source dans la description (« Photo : … (via …) »). Seules limites, pour éviter un procès ou un bannissement : pas de photo de suspect non jugé, de victime ou d'enfant, rien de choquant.
 
 ## Illustrations (méthode hybride, depuis le 02/11/2026)
 - Script : `node scripts/generer-illustrations.mjs <fichier.json> [--refaire id1,id2]` (clé `GEMINI_API_KEY` dans le Terminal, jamais dans un fichier). Il ne génère que les images manquantes.
@@ -20,7 +21,7 @@ Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais touc
 - Par épisode (depuis le 13/11/2026, à la demande de l'utilisateur : « ça donne plus envie ») : 1 accroche + **8 à 11 illustrations propres à l'histoire** (séquence `illustration` avec `prompt`), soit environ 5 de plus qu'avant selon les épisodes. Le reste en images communes et en séquences codées gratuites (compteur, document, tampon, carte, chronologie…).
 - **Bibliothèque commune** à réutiliser avant de générer quoi que ce soit : `public/illustrations/commun/<nom>.jpg` (JPG qualité 85 pour alléger le dépôt ; image de style : `reference.jpg`) (liste et prompts dans `bibliotheque/commune.json`) :
   tribunal, marteau, cellule, barreaux, menottes, police, interrogatoire, commissariat, loupe, dossier, billets, lingots, coffre, hacker, ecoute, camera, avion, aeroport, mappemonde, paris, newyork, bourse, journaux, ombre, journalistes, banque, diamants, enveloppe, horloge, empreinte.
-- Style imposé (champ `style` du JSON) + image de référence (`reference`) pour garder le même rendu. Jamais de visage reconnaissable, jamais de rendu photo.
+- Style imposé (champ `style` du JSON) + image de référence (`reference`) pour garder le même rendu. Pour les images générées : jamais de visage reconnaissable, jamais de rendu photo (les vraies photos sont permises, voir « Ligne éditoriale »).
 - Séquence `illustration` : `image`, `titre`, `focus {x,y}` (%), `zoom [début, fin]`, `etiquettes [{texte, x, y, dx, dy}]` (x, y en % de l'écran) : vérifier visuellement leur position sur l'image. Options : `legende`, `heure` (effet vidéosurveillance, ex. « 19/10/2025 10:27 »), `tampon`.
 
 ## Format d'un épisode (`episodes/<id>.json`)
